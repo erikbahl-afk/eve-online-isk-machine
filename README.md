@@ -14,7 +14,7 @@ markets; you follow a checklist when you log in.
 
 Until the character is ready, the system trades 5B of pretend ISK against the live market:
 
-1. Every 3 hours, GitHub Actions (`.github/workflows/market.yml`) downloads the public order
+1. Every 2 hours, GitHub Actions (`.github/workflows/market.yml`) downloads the public order
    books of Jita, Amarr, Dodixie, Rens and Hek from ESI.
 2. Comparing consecutive snapshots shows which orders got filled. That lets us estimate
    whether *our* orders would have filled, and how quickly rivals would have undercut us.
@@ -43,3 +43,9 @@ Real results should be at least as good as practice ones.
 | `reports/` | weekly snapshots of the summary |
 
 Run the tests with `pip install -r requirements.txt && python -m pytest -q`.
+
+## Before going live
+- Make the repo **private** (the checklist reveals items and price limits), then set the
+  cron in `.github/workflows/market.yml` back to every 3 hours to stay within the free
+  2,000 Actions minutes a month.
+- Set `mode = "live"` in `config.toml`, and enter the verified fees, slots and standings from `CHECKS.md`.

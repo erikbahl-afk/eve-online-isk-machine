@@ -7,3 +7,8 @@
 - Data warmup: no trading until 20 h of data has been collected; stats get better over 7 days.
 - Next review: check that the runs are healthy, that the trade counts look plausible (compare
   Jita's daily units with known volumes for common items), and which hubs score best.
+
+## 2026-10-28 · cadence
+- The repo is public during practice (unlimited free Actions minutes), so collection runs every 2 hours.
+  Before going live: make it private and switch back to 3-hourly (see README).
+- First live runs: about 600k orders across the five hubs, about 90 s per run, about 916 ESI calls.
