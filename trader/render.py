@@ -16,81 +16,127 @@ def _p(x):
 
 
 GROUPS = {
-    1: ("Fix undercut sell orders", "Market → My Orders → Selling. Right-click the order → Modify Order."),
-    2: ("List new stock", "Inventory (item hangar) → right-click item → Sell This Item. Duration 3 months."),
-    3: ("Fix outbid buy orders", "Market → My Orders → Buying. Right-click → Modify Order."),
-    4: ("Cancel buy orders", "Market → My Orders → Buying. Right-click → Cancel Order."),
-    5: ("New buy orders", "Market → search item → Place Buy Order. Range: Station. Duration: 3 months."),
+    1: ("Fix undercut sell orders", "My Orders → Selling, sorted by Type. Right-click → Modify Order. "
+        "If yours is already the lowest, skip."),
+    2: ("List new stock", "Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Duration 3 months."),
+    3: ("Fix outbid buy orders", "My Orders → Buying, sorted by Type. Right-click → Modify Order. "
+        "If yours is already the highest, skip."),
+    4: ("Cancel buy orders", "My Orders → Buying. Right-click → Cancel Order."),
+    5: ("New buy orders", "Market → search item → Place Buy Order. Range: Station. Duration: 3 months. "
+        "Skip if the highest buy is already at or above the cap."),
+    6: ("Buy for import", "Market → search item → Buy. Only take sell orders in this station, never above the max."),
+    7: ("Ship to the other hub", ""),
 }
 
 
+def _item(names, ty):
+    return names.get(ty, f"type {ty}")
+
+
+def _hub_section(cfg, steps, names, hub):
+    out = []
+    for g, (title, how) in GROUPS.items():
+        gs = [s for s in steps if s["group"] == g]
+        if not gs:
+            continue
+        out += [f"### {title}", f"_{how}_" if how else "", ""]
+        if g == 1:
+            out += ["| # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |",
+                    "|---|---|---|---|---|---|"]
+            out += [f"| {s['n']} | ☐ {_item(names, s['type_id'])} | {_p(s['mine'])} | **{_p(s['target'])}** | "
+                    f"{_p(s['floor'])} | {_p(s['ref'])} |" for s in gs]
+        elif g == 2:
+            out += ["| # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |",
+                    "|---|---|---|---|---|---|"]
+            out += [f"| {s['n']} | ☐ {_item(names, s['type_id'])} | {s['qty']:,} | **{_p(s['target'])}** | "
+                    f"{_p(s['floor'])} | {_p(s['ref'])} |" for s in gs]
+        elif g == 3:
+            out += ["| # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |",
+                    "|---|---|---|---|---|---|"]
+            out += [f"| {s['n']} | ☐ {_item(names, s['type_id'])} | {_p(s['mine'])} | **{_p(s['target'])}** | "
+                    f"{_p(s['cap'])} | {_p(s['ref'])} |" for s in gs]
+        elif g == 4:
+            out += ["| # | Item | Your price |", "|---|---|---|"]
+            out += [f"| {s['n']} | ☐ {_item(names, s['type_id'])} | {_p(s['mine'])} |" for s in gs]
+        elif g == 5:
+            out += ["| # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |",
+                    "|---|---|---|---|---|---|"]
+            out += [f"| {s['n']} | ☐ {_item(names, s['type_id'])}{' (spec)' if s.get('tag') == 'spec' else ''} | "
+                    f"{s['qty']:,} | **{_p(s['target'])}** | {_p(s['cap'])} | {_p(s['ref'])} |" for s in gs]
+        elif g == 6:
+            out += ["| # | Item | Qty | Max price per unit | Lowest when written |", "|---|---|---|---|---|"]
+            out += [f"| {s['n']} | ☐ {_item(names, s['type_id'])} | {s['qty']:,} | **{_p(s['max_price'])}** | "
+                    f"{_p(s['ref'])} |" for s in gs]
+        else:
+            for s in gs:
+                dest = HUBS[s["to"]]["name"]
+                items = ", ".join(_item(names, t) for t in s["type_ids"])
+                out += [f"{s['n']}. ☐ **Courier contract** → {dest}. Contracts → Create Contract → Courier. "
+                        f"Add every item bought above plus any import stock already in the hangar ({items}). "
+                        f"Collateral: the value the window suggests (about {isk(s['est_value'])}). Assign it to "
+                        f"the courier service; their calculator gives the reward (estimated {isk(s['est_fee'])} "
+                        f"for about {s['est_m3']:,.0f} m³). Expiration 1 week, 3 days to complete."]
+        out.append("")
+    return out
+
+
 def instructions(cfg, plan, names, val, warm_msg=None):
-    hub = HUBS[plan["hub"]]["name"]
-    n = len(plan["steps"])
+    L, O = plan["location"], plan.get("other")
+    steps = plan["steps"]
     out = []
     if cfg["mode"] == "practice":
         out += ["> **PRACTICE MODE.** This is the paper trader's current plan. Nothing to do in game yet;",
                 "> it shows what a real session would look like.", ""]
     out += ["# Session checklist", "",
-            f"**Updated:** {_local(cfg, plan['generated'])} · **Be docked at:** {hub}  ",
-            f"**Steps:** {n} · **Est. time:** {round(plan['est_secs'] / 60)} min. Work top to bottom; stop any time.  ",
+            f"**Updated:** {_local(cfg, plan['generated'])} · **Start docked at:** {HUBS[L]['name']}  ",
+            f"**Steps:** {len(steps)} · **Est. time:** {round(plan['est_secs'] / 60)} min. Work top to bottom; "
+            "stop any time.  ",
             "**When you log off, tell Claude:** `done` or `stopped after step N`.", ""]
     if warm_msg:
         out += [f"_{warm_msg}_", ""]
-    out += ["**Ticks:** prices keep 4 significant digits, so \"1 tick below 12,340,000\" is 12,330,000. "
-            "\"Lowest/highest\" means *other people's* best order (yours is highlighted).", ""]
-    for g, (title, how) in GROUPS.items():
-        steps = [s for s in plan["steps"] if s["group"] == g]
-        if not steps:
-            continue
-        out += [f"## {title}", f"_{how}_", ""]
-        if g in (1, 3):
-            word = "lowest sell − 1 tick, never below" if g == 1 else "highest buy + 1 tick, never above"
-            out += [f"| # | Item | Your price | Set to {word} | Best when written |", "|---|---|---|---|---|"]
-            for s in steps:
-                lim = s["floor"] if g == 1 else s["cap"]
-                out.append(f"| {s['n']} | ☐ {names.get(s['type_id'], s['type_id'])} | {_p(s['mine'])} | "
-                           f"**{_p(lim)}** | {_p(s['ref'])} |")
-        elif g == 2:
-            out += ["| # | Item | Qty | Price: lowest sell − 1 tick, never below | Lowest when written |",
-                    "|---|---|---|---|---|"]
-            for s in steps:
-                out.append(f"| {s['n']} | ☐ {names.get(s['type_id'], s['type_id'])} | {s['qty']:,} | "
-                           f"**{_p(s['floor'])}** | {_p(s['ref'])} |")
-        elif g == 4:
-            out += ["| # | Item | Your price |", "|---|---|---|"]
-            for s in steps:
-                out.append(f"| {s['n']} | ☐ {names.get(s['type_id'], s['type_id'])} | {_p(s['mine'])} |")
-        else:
-            out += ["| # | Item | Qty | Price: highest buy + 1 tick, never above | Highest when written | "
-                    "Skip if highest ≥ cap |", "|---|---|---|---|---|---|"]
-            for s in steps:
-                out.append(f"| {s['n']} | ☐ {names.get(s['type_id'], s['type_id'])} | {s['qty']:,} | "
-                           f"**{_p(s['cap'])}** | {_p(s['ref'])} | ✓ |")
-        out.append("")
-    if not plan["steps"]:
+    out += ["**Prices:** \"Type this\" was correct when written. If the market moved since then, apply the rule "
+            "instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "
+            "\"Lowest/highest\" means other people's orders; yours are highlighted.", ""]
+    jump = next((s for s in steps if s["kind"] == "jump"), None)
+    first = [s for s in steps if s["hub"] == L and s["kind"] != "jump"]
+    second = [s for s in steps if jump and s["hub"] == O]
+    out += [f"## At {HUBS[L]['name']}", ""] + (_hub_section(cfg, first, names, L) if first else ["Nothing here.", ""])
+    if jump:
+        out += [f"## {jump['n']}. ☐ Jump clone to {HUBS[O]['name']}",
+                f"_Clone Bay → Jump Clone → {HUBS[O]['name']}. Needs {cfg['strategy']['jump_cooldown_hours']} h "
+                "since your last jump; if it isn't allowed yet, you're done for this session._", ""]
+        out += [f"## At {HUBS[O]['name']}", ""] + _hub_section(cfg, second, names, O)
+    if not steps:
         out += ["**Nothing to do this session.**", ""]
-    out += ["---", f"Wallet {isk(val['cash'])} · escrow {isk(val['escrow'])} · stock at cost "
-            f"{isk(val['stock_cost'])} · net worth {isk(val['nw_book'])} (liquidation {isk(val['nw_liquid'])})", ""]
+    out += ["---", f"Wallet {isk(val['cash'])} · escrow {isk(val['escrow'])} · stock {isk(val['stock_cost'])} · "
+            f"in transit {isk(val['transit'])} · net worth {isk(val['nw_book'])} "
+            f"(liquidation {isk(val['nw_liquid'])})", ""]
     return "\n".join(out)
 
 
-def summary(cfg, pf, val, health, sessions, names, cands_by_hub, top_types, t):
+def summary(cfg, pf, val, health, sessions, names, station, imports_by_hub, t):
     s0 = pf["start_isk"]
     pnl = pf["pnl"]
     days = max((t - pf["created"]) / 86400, 1e-9)
-    out = [f"# Summary · {_local(cfg, t)}", "",
-           "Auto-generated every run. Reviewers: start here.", "",
+    out = [f"# Summary · {_local(cfg, t)}", "", "Auto-generated every run. Reviewers: start here.", "",
            "## Portfolio",
            f"- Net worth (book): **{isk(val['nw_book'])}** ({(val['nw_book'] / s0 - 1) * 100:+.2f}% "
            f"over {days:.1f} days) · liquidation value {isk(val['nw_liquid'])}",
            f"- Cash {isk(val['cash'])} · escrow {isk(val['escrow'])} · stock {isk(val['stock_cost'])} · "
-           f"orders {len(pf['orders'])}/{cfg['skills']['order_slots']}",
+           f"in transit {isk(val['transit'])} · orders {len(pf['orders'])}/{cfg['skills']['order_slots']}",
            f"- Realized P&L {isk(pnl['realized'])} · sales {isk(pnl['sales'])} · buys {isk(pnl['buys'])} · "
-           f"fees: broker {isk(pnl['broker'])}, relist {isk(pnl['relist'])}, tax {isk(pnl['tax'])}", ""]
-    out += ["## Recent sessions", "| When (PT) | Steps done/planned | Minutes | Partial |", "|---|---|---|---|"]
+           f"fees: broker {isk(pnl['broker'])}, relist {isk(pnl['relist'])}, tax {isk(pnl['tax'])}, "
+           f"courier {isk(pnl['courier'])}",
+           f"- Character at **{pf['location']}** · import hub: **{pf.get('import_hub') or 'none yet'}** · "
+           f"shipments in transit: {len(pf['in_transit'])}", ""]
+    out += ["## By strategy", "| Strategy | Buys | Sales | Fees | Realized |", "|---|---|---|---|---|"]
+    for tag, v in sorted(pf["per_strategy"].items()):
+        out.append(f"| {tag} | {isk(v['buys'])} | {isk(v['sales'])} | {isk(v['fees'])} | {isk(v['realized'])} |")
+    out += ["", "## Recent sessions", "| When (PT) | Route | Steps done/planned | Minutes | Partial |",
+            "|---|---|---|---|---|"]
     for e in sessions[-8:]:
-        out.append(f"| {e['local']} | {e['done']}/{e['planned']} | {e['secs'] / 60:.0f} | "
+        route = e.get("from", "?") + (f"→{e['to']}" if e.get("to") and e.get("to") != e.get("from") else "")
+        out.append(f"| {e['local']} | {route} | {e['done']}/{e['planned']} | {e['secs'] / 60:.0f} | "
                    f"{'yes' if e['frac'] < 1 else ''} |")
     out += ["", "## Per-type results (best and worst realized)", "| Type | Bought | Sold | Fees | Realized |",
             "|---|---|---|---|---|"]
@@ -99,18 +145,30 @@ def summary(cfg, pf, val, health, sessions, names, cands_by_hub, top_types, t):
         ty = int(k.split(":")[1])
         out.append(f"| {names.get(ty, ty)} ({k.split(':')[0]}) | {v['bought_units']:,} | {v['sold_units']:,} | "
                    f"{isk(v['fees'])} | {isk(v['realized'])} |")
-    out += ["", "## Hub comparison (station trading, top 40 types)",
-            "| Hub | Qualifying types | Sum exp. profit/day (top 40) | Median margin |", "|---|---|---|---|"]
-    for hub, c in cands_by_hub.items():
-        top40 = c.head(40)
-        out.append(f"| {hub} | {len(c)} | {isk(top40.profit_day.sum()) if len(c) else '-'} | "
-                   f"{f'{top40.margin.median() * 100:.1f}%' if len(c) else '-'} |")
-    out += ["", f"## Top candidates at {cfg['strategy']['hub']}",
-            "| Type | Bid→Ask | Margin | Units/day | Rival updates/h (ask/bid) | Exp. profit/day |",
-            "|---|---|---|---|---|---|"]
-    for ty, r in top_types.head(15).iterrows():
-        out.append(f"| {names.get(ty, ty)} | {isk(r.bid_t)}→{isk(r.ask_t)} | {r.margin * 100:.1f}% | {r.q:.1f} | "
-                   f"{r.lam_a:.2f}/{r.lam_b:.2f} | {isk(r.profit_day)} |")
+    out += ["", "## Hub comparison (expected profit/day of the top 30 types)",
+            "| Hub | Station types | Station top-30 | Import types (from Jita) | Import top-30 |", "|---|---|---|---|---|"]
+    for hub in station:
+        st, im = station[hub], imports_by_hub.get(hub)
+        out.append(f"| {hub} | {len(st)} | {isk(st.head(30).profit_day.sum()) if len(st) else '-'} | "
+                   f"{len(im) if im is not None else '-'} | "
+                   f"{isk(im.head(30).profit_day.sum()) if im is not None and len(im) else '-'} |")
+    home = cfg["strategy"]["hub"]
+    st = station.get(home)
+    if st is not None and len(st):
+        out += ["", f"## Top station candidates at {home}",
+                "| Type | Bid→Ask | Margin | Units/day | Still on top (ask/bid) | Exp. profit/day |",
+                "|---|---|---|---|---|---|"]
+        for ty, r in st.head(12).iterrows():
+            out.append(f"| {names.get(ty, ty)} | {isk(r.bid_t)}→{isk(r.ask_t)} | {r.margin * 100:.1f}% | {r.q:.1f} | "
+                       f"{r.sa:.0%}/{r.sb:.0%} | {isk(r.profit_day)} |")
+    im = imports_by_hub.get(pf.get("import_hub"))
+    if im is not None and len(im):
+        out += ["", f"## Top import candidates Jita → {pf['import_hub']}",
+                "| Type | Jita → sell | m³ | Margin | Units/day | Still on top | Exp. profit/day |",
+                "|---|---|---|---|---|---|---|"]
+        for ty, r in im.head(12).iterrows():
+            out.append(f"| {names.get(ty, ty)} | {isk(r.src_ask)}→{isk(r.sell)} | {r.vol_m3:,.1f} | "
+                       f"{r.margin * 100:.1f}% | {r.q:.1f} | {r.sa:.0%} | {isk(r.profit_day)} |")
     out += ["", "## Data health", "| Hub | Orders | Hours today | Prints this run | Note |", "|---|---|---|---|---|"]
     for hub, h in health.items():
         out.append(f"| {hub} | {h.get('orders', 0):,} | {h.get('hours', 0):.1f} | {h.get('prints', 0):,} | "

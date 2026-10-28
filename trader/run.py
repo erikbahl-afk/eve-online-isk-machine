@@ -16,7 +16,7 @@ from .common import CACHE, DATA, HUBS, ROOT, STATE, load_config, load_json, save
 from .esi import ESI
 from .fees import Fees
 from .sim import Sim, new_portfolio
-from .strategy import candidates, make_plan
+from .strategy import Planner, candidates, choose_import_hub, import_candidates
 
 LEDGER_COLS = ["t", "event", "hub", "type_id", "qty", "price", "cash_delta", "note"]
 
@@ -24,8 +24,9 @@ LEDGER_COLS = ["t", "event", "hub", "type_id", "qty", "price", "cash_delta", "no
 def load_day(today):
     try:
         with open(CACHE / "day.pkl", "rb") as f:
-            return pickle.load(f)
-    except (FileNotFoundError, EOFError, pickle.UnpicklingError):
+            day = pickle.load(f)
+        return day if hasattr(day, "hb") else market.Day(today)  # older format
+    except (FileNotFoundError, EOFError, pickle.UnpicklingError, AttributeError):
         return market.Day(today)
 
 
@@ -33,7 +34,7 @@ def collect(cfg, esi, now, day):
     """Snapshot every hub and fold the interval since the previous snapshot into `day`."""
     cc = cfg["collect"]
     meta = load_json(CACHE / "meta.json", {})
-    tops, prints, intervals, health = {}, {}, {}, {}
+    tops, books, prints, intervals, health = {}, {}, {}, {}, {}
     for hub in cc["hubs"]:
         info = HUBS[hub]
         try:
@@ -62,27 +63,44 @@ def collect(cfg, esi, now, day):
         else:
             pr = market.diff_prints(prev, cur, market.tops(prev), top, t1, cc["gone_weight"])
             upd = market.update_counts(cur, top, t0)
-            day.add(hub, market.aggregate(pr, upd, top), (t1 - t0) / 3600)
+            day.add(hub, market.aggregate(pr, upd, top), t0, t1)
             intervals[hub], prints[hub] = (t0, t1), pr
         if consistent and (t0 is None or t1 > t0):
             cur.to_pickle(path)
             meta[hub] = t1
-        tops[hub] = top
+        tops[hub], books[hub] = top, cur
         health[hub] = {"orders": len(cur), "hours": day.hours.get(hub, 0.0), "prints": len(pr), "note": note}
     save_json(CACHE / "meta.json", meta)
-    return tops, prints, intervals, health
+    return tops, books, prints, intervals, health
 
 
-def load_names():
+def load_types():
     path = DATA / "types.csv"
     if not path.exists():
-        return {}
+        return {}, {}
     df = pd.read_csv(path)
-    return dict(zip(df.type_id, df.name))
+    if "volume" not in df:
+        df["volume"] = np.nan
+    return (dict(zip(df.type_id, df.name)),
+            {int(t): float(v) for t, v in zip(df.type_id, df.volume) if not pd.isna(v)})
 
 
-def save_names(names):
-    pd.DataFrame(sorted(names.items()), columns=["type_id", "name"]).to_csv(DATA / "types.csv", index=False)
+def save_types(names, vols):
+    ids = sorted(set(names) | set(vols))
+    pd.DataFrame({"type_id": ids, "name": [names.get(i, "") for i in ids],
+                  "volume": [vols.get(i, np.nan) for i in ids]}).to_csv(DATA / "types.csv", index=False)
+
+
+def lookup(esi, names, vols, need_names, need_vols):
+    try:
+        miss = set(need_names) - set(names)
+        if miss:
+            names.update(esi.names(miss))
+        miss = set(need_vols) - set(vols)
+        if miss:
+            vols.update(esi.volumes(miss))
+    except Exception as e:
+        print("type lookup failed:", e, file=sys.stderr)
 
 
 def append_csv(path, cols, rows):
@@ -107,58 +125,75 @@ def main():
     if day.date != today:
         day.flush(cfg["collect"]["daily_min_isk"])
         day = market.Day(today)
-    tops, prints, intervals, health = collect(cfg, esi, now, day)
+    tops, books, prints, intervals, health = collect(cfg, esi, now, day)
     with open(CACHE / "day.pkl", "wb") as f:
         pickle.dump(day, f)
 
     frames = market.load_window(today, cfg["strategy"]["window_days"])
     today_frame = day.frame()
     stats = {h: market.build_stats(h, frames, today_frame) for h in tops}
+    start_w = logons.start_profile(cfg, now)
 
     pf = load_json(STATE / "portfolio.json", None) or new_portfolio(cfg, now)
     ledger = []
     sim = Sim(cfg, pf, fees, np.random.default_rng(int(now)), ledger)
+    sim.arrivals(now)
     for h, (t0, t1) in intervals.items():
         sim.apply_fills(h, prints[h], stats[h], t0, t1)
 
+    names, vols = load_types()
     hub = cfg["strategy"]["hub"]
     sched = logons.ensure(cfg, load_json(STATE / "logons.json", []), now)
     sessions = load_json(STATE / "sessions.json", [])
     due = logons.due(sched, now)
-    if due and hub in tops:
+    if due and pf["location"] in tops:
         e = due[-1]
-        plan_prev = load_json(STATE / "plan.json", {"steps": [], "hub": hub})
-        done, used = sim.execute(plan_prev, tops[hub], now, cfg["sim"]["session_seconds"] * e["frac"])
+        plan_prev = load_json(STATE / "plan.json", {"steps": []})
+        loc0 = pf["location"]
+        done, used = sim.execute(plan_prev, tops, books, vols, now, cfg["sim"]["session_seconds"] * e["frac"])
         for x in due:
             x["done"] = True
         sessions.append({"t": e["t"], "local": e["local"], "frac": e["frac"], "planned": len(plan_prev["steps"]),
-                         "done": done, "secs": used, "run_t": now, "merged": len(due)})
+                         "done": done, "secs": used, "run_t": now, "merged": len(due), "from": loc0,
+                         "to": pf["location"]})
 
     val = sim.valuation(tops)
-    empty = pd.DataFrame()
-    cands_by_hub = {h: candidates(cfg, fees, stats[h], tops[h]) for h in tops}
-    cands = cands_by_hub.get(hub, empty)
-    plan = make_plan(cfg, fees, sim, hub, stats.get(hub, empty), tops.get(hub, empty), cands, now, val["nw_book"])
+    spec = load_json(STATE / "spec.json", [])
+    spec_types = {int(e["type_id"]) for e in spec if e.get("active", True)}
+    station = {h: candidates(cfg, fees, stats[h], tops[h], start_w, spec_types) for h in tops}
+    imports_by_hub = {}
+    if hub in tops:
+        for h in tops:
+            if h == hub or h not in cfg["routes"]:
+                continue
+            args = (cfg, fees, tops[hub], stats[h], tops[h])
+            rough = import_candidates(*args, vols, cfg["routes"][h], start_w, spec_types)
+            lookup(esi, names, vols, [], rough.index[:150])
+            imports_by_hub[h] = import_candidates(*args, vols, cfg["routes"][h], start_w, spec_types)
+    pf["import_hub"] = choose_import_hub(cfg, imports_by_hub, pf.get("import_hub"))
+    imports = imports_by_hub.get(pf["import_hub"], pd.DataFrame())
+
+    need = {int(k.split(":")[1]) for k in pf["per_type"]} | spec_types
+    need |= {int(o["type_id"]) for o in pf["orders"]}
+    for h in pf["inventory"].values():
+        need |= {int(k) for k in h}
+    for df in list(station.values()) + list(imports_by_hub.values()):
+        need |= {int(i) for i in df.index[:60]}
+    lookup(esi, names, vols, need, [])
+    save_types(names, vols)
+
+    plan = Planner({"cfg": cfg, "fees": fees, "sim": sim, "t": now, "nw": val["nw_book"], "names": names,
+                    "tops": tops, "stats": stats, "books": books, "vols": vols, "start_w": start_w,
+                    "station": station, "imports": imports, "import_hub": pf["import_hub"],
+                    "spec": spec}).plan()
 
     hours = float(stats[hub].hours.max()) if hub in stats and len(stats[hub]) else 0.0
     warm = None
     if hours < cfg["strategy"]["warmup_hours"]:
         warm = f"Warming up: {hours:.0f} of {cfg['strategy']['warmup_hours']} hours of market data collected."
 
-    names = load_names()
-    need = {s["type_id"] for s in plan["steps"]} | {int(k.split(":")[1]) for k in pf["per_type"]}
-    for c in cands_by_hub.values():
-        need |= set(int(i) for i in c.index[:15])
-    missing = need - set(names)
-    if missing:
-        try:
-            names.update(esi.names(missing))
-            save_names(names)
-        except Exception as e:
-            print("name lookup failed:", e, file=sys.stderr)
-
     (ROOT / "INSTRUCTIONS.md").write_text(render.instructions(cfg, plan, names, val, warm))
-    summary = render.summary(cfg, pf, val, health, sessions, names, cands_by_hub, cands, now)
+    summary = render.summary(cfg, pf, val, health, sessions, names, station, imports_by_hub, now)
     (STATE / "summary.md").write_text(summary)
     week = dt.date.fromtimestamp(now).isocalendar()
     week = f"{week[0]}-W{week[1]:02d}"
@@ -172,9 +207,10 @@ def main():
     save_json(STATE / "logons.json", sched)
     save_json(STATE / "sessions.json", sessions)
     append_csv(STATE / "ledger.csv", LEDGER_COLS, [(int(r[0]), *r[1:]) for r in ledger])
-    append_csv(STATE / "metrics.csv", ["t", "cash", "escrow", "stock_cost", "nw_book", "nw_liquid", "realized",
-                                       "orders", "esi_calls"],
-               [(int(now), *(round(val[k]) for k in ("cash", "escrow", "stock_cost", "nw_book", "nw_liquid")),
+    append_csv(STATE / "metrics.csv", ["t", "cash", "escrow", "stock_cost", "transit", "nw_book", "nw_liquid",
+                                       "realized", "orders", "esi_calls"],
+               [(int(now), *(round(val[k]) for k in ("cash", "escrow", "stock_cost", "transit", "nw_book",
+                                                      "nw_liquid")),
                  round(pf["pnl"]["realized"]), len(pf["orders"]), esi.calls)])
     print(summary)
 

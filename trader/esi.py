@@ -95,3 +95,14 @@ class ESI:
             if r.status_code == 200:
                 out.update({d["id"]: d["name"] for d in r.json()})
         return out
+
+    def volumes(self, ids):
+        """Packaged volume (m3) per type."""
+        def one(ty):
+            r = self.request("GET", f"/universe/types/{ty}/")
+            if r.status_code != 200:
+                return ty, None
+            d = r.json()
+            return ty, float(d.get("packaged_volume") or d.get("volume") or 0.0)
+        with cf.ThreadPoolExecutor(self.workers) as ex:
+            return {ty: v for ty, v in ex.map(one, sorted(set(int(i) for i in ids))) if v is not None}

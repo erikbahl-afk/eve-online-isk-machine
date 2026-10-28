@@ -9,20 +9,45 @@
 - **Your time is the scarcest resource.** Each repricing click costs about 25 s, so an item has
   to earn enough per session to justify the clicks it costs.
 
-## Current approach: slow station trading (v1)
-Trade items whose rivals rarely reprice, holding a buy order and a sell order at the same
-time and repricing only when you log in.
+## Strategies (v2)
+Every order and every unit of stock carries a tag, so `state/summary.md` can show results per strategy.
 
-Score per item = (net margin after tax, broker and relist fees) × (units/day we'd capture).
-- Units/day = observed volume × `alpha` × the average chance we're still top of the book over
-  a ~48 h gap. That chance falls with the rate at which rivals update near-top orders, so items
-  hot with bots score close to 0 automatically.
-- Filters: at least 6% net margin, at least 2M ISK/day expected, sane spread, and recent trade
-  prices close to our targets (guards against manipulated or dead markets).
-- Sizing: at most 8% of net worth per item, a 2% cash reserve, order slots capped at 113.
-- Sell floors start at break-even + 0.5%. After 10 days, accept up to a 3% loss to free capital.
-- Checklist order: fix undercut sells → list new stock → fix outbid buys → cancels → new buys.
-  If a session gets cut short, the most valuable steps are already done.
+**station**: buy and sell orders on the same item at one hub, repriced only at sessions.
+- Score per item = net margin after tax, broker and relist fees × the units/day we'd capture.
+- Units/day = observed volume × `alpha` × the average chance we're still top of the book until
+  the next session.
+- That chance comes from how often rivals update their orders in each 6-hour UTC block,
+  weighted by when your sessions start (mostly 18–22 PT). Items whose rivals are European and
+  asleep during your evening get credit for that. Items crowded by bots score close to zero.
+- Filters: at least 6% net margin, at least 2M ISK/day, a sane spread, recent trade prices close to ours.
+
+**import**: buy from Jita sellers, courier the goods to the import hub, sell there.
+- The import hub is chosen automatically, once (the best expected profit of the four); reviews can change it.
+- Requires at least 10% margin after shipping. A shipment goes out only when the courier's minimum
+  fee is at most 3% of the cargo value. At most 12 items per session.
+- Courier prices are **estimates** (see `config.toml` `[routes.*]`) until checked against real quotes.
+
+**spec**: positions the reviewer opens in `state/spec.json` ahead of patches or events (capped at 10% of net worth).
+```json
+[{"hub": "jita", "type_id": 12345, "qty": 100, "max_buy": 1500000, "sell_after": "2026-12-01",
+  "min_sell": 1800000, "note": "why", "active": true}]
+```
+The planner keeps a buy order up to `max_buy` until `qty` is held, holds the stock until
+`sell_after`, then sells it no lower than `min_sell`.
+
+## How a session is laid out
+- Start at whichever hub the character is in, do that hub's work, then jump-clone to the other hub
+  (19 h cooldown assumed) and do its work there. Imports are bought and shipped at Jita.
+- Time goes by tier: (1) fix undercut sells and list stock, (2) fix or cancel buys, imports and spec,
+  (3) new station buys by expected profit. The plan uses 25 of the 30 minutes.
+- Within each hub the steps follow the in-game windows, sorted by item name, with an exact
+  "type this" price plus the rule to use if the market has moved.
+
+## Sizing and risk
+- At most 8% of net worth in one item, 10% in speculation, and a 2% cash reserve. Slots are capped at 113.
+- Sell floors start at break-even + 0.5%, and break-even includes the shipping cost. After 10 days
+  we accept up to a 3% loss to free capital.
+- Stock in transit is the courier's risk: reputable services repay the collateral.
 
 ## Fee model (verify in game when live)
 - Sales tax 7.5% × (1 − 0.11 × Accounting) = 3.375%.
@@ -32,15 +57,14 @@ Score per item = (net margin after tax, broker and relist fees) × (units/day we
 - Prices are limited to 4 significant figures (tick).
 
 ## Open questions and experiments (update as results come in)
-1. **Which hub?** `state/summary.md` compares each hub's station-trading opportunity using the
-   same scoring. Relocate if another hub is clearly better for two weeks running.
-2. **Hub imports** (buy in Jita, courier the goods, sell in another hub): needs a jump clone in
-   each hub so one session covers both regions. *Waiting on the user.* Not simulated yet.
-3. **Standings grind**: worth it only if the broker-fee savings beat the time. Compute this
-   from realized order volume once there's a week of data.
-4. **Wholesale IV/V**: only if slots become the binding constraint (`orders` near 113 in the
-   summary while good candidates go unused).
-5. **Player structures** (e.g. the Perimeter Keepstar): lower fees, but their market data
-   needs an authenticated token. Revisit once the SSO app exists.
+1. **Which import hub?** The summary's hub comparison shows it. Move the second clone only if
+   another hub beats the current one for two weeks running.
+2. **Standings** (investigate): yearly savings = broker-fee volume × the fee reduction. Compare
+   with the hours of missions needed. Use realized order volume from `state/ledger.csv` after a week.
+3. **Player structures** (investigate): the Perimeter Keepstar's fees and competition. Its market
+   needs an authenticated ESI token (the SSO app); then compare its scoring with Jita 4-4.
+4. **Wholesale IV/V**: only if slots become the limit (orders near 113 while good candidates go unused).
+5. **Later, when capital allows**: manufacturing (long jobs suit infrequent logins) and a
+   second trading character (a third hub, more slots). Revisit at about 15B net worth.
 6. **Calibration**: when live, compare real fills against what the simulation predicted and
    adjust `alpha` and `gone_weight`.

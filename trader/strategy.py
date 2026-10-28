@@ -1,35 +1,53 @@
-"""Station-trading strategy: pick types, then write the ordered session checklist."""
+"""Pick what to trade and write the ordered session checklist.
+
+Strategies:
+  station  buy and sell orders at the same hub (home hub and import hub)
+  import   buy from Jita sellers, courier to the import hub, sell there
+  spec     positions the reviewer opens in state/spec.json (e.g. ahead of a patch)
+
+A session starts wherever the character is, does that hub's work, jump-clones to the other
+hub (if the cooldown allows) and does that hub's work. Time is spent by tier:
+  1 fix undercut sells + list stock, 2 fix/cancel buys + imports + spec, 3 new station buys.
+Within each hub the checklist is grouped like the in-game windows and sorted by item name.
+"""
+import datetime as dt
 import math
 
 import numpy as np
 import pandas as pd
 
-from .fees import tick_down, tick_up
+from .fees import tick_down, tick_up, valid_down
 from .sim import buy_cap, floor_price, surv_avg
 
+GROUP_ORDER = {"modify_sell": 1, "new_sell": 2, "modify_buy": 3, "cancel": 4, "new_buy": 5,
+               "instant_buy": 6, "courier": 7}
 
-def candidates(cfg, fees, stats, top):
-    """Expected ISK/day per type for a trader who only reprices every logon_gap_hours."""
+
+def _lam4(df, side):
+    return df[[f"lam_{side}{b}" for b in range(4)]].to_numpy(dtype=float)
+
+
+def candidates(cfg, fees, stats, top, start_w, exclude=()):
+    """Station trading: expected ISK/day per type for a trader who reprices only at sessions."""
     s = cfg["strategy"]
     if len(stats) == 0 or len(top) == 0:
         return pd.DataFrame()
     df = stats.join(top, how="inner")
     df = df[df.best_ask.notna() & df.best_bid.notna() & (df.best_bid > 0)]
-    df = df[~df.index.isin(s["exclude_types"])]
+    df = df[~df.index.isin(list(s["exclude_types"]) + list(exclude))]
     if len(df) == 0:
         return df
     T = cfg["sim"]["logon_gap_hours"]
     alpha = cfg["sim"]["alpha"]
     df = df.assign(ask_t=df.best_ask.map(tick_down), bid_t=df.best_bid.map(tick_up))
-    df["sa"] = surv_avg(df.lam_a, T)
-    df["sb"] = surv_avg(df.lam_b, T)
+    df["sa"] = surv_avg(_lam4(df, "a"), T, start_w)
+    df["sb"] = surv_avg(_lam4(df, "b"), T, start_w)
     df["q"] = alpha * np.minimum(df.A * df.sa, df.B * df.sb)  # units/day we can flip
     df["unit_margin"] = df.ask_t * (1 - fees.tax - fees.broker) - df.bid_t * (1 + fees.broker)
     df["margin"] = df.unit_margin / df.bid_t
     stock = df.q * T / 24 * 1.5
     relist_rate = (1 - fees.relist_discount) * fees.broker
-    p_a, p_b = 1 - np.exp(-df.lam_a * T), 1 - np.exp(-df.lam_b * T)
-    df["relist_day"] = 24 / T * relist_rate * stock * (p_a * df.ask_t + p_b * df.bid_t)
+    df["relist_day"] = 24 / T * relist_rate * stock * ((1 - df.sa) * df.ask_t + (1 - df.sb) * df.bid_t)
     df["profit_day"] = df.unit_margin * df.q - df.relist_day
     band = s["vwap_band"]
     ok = (
@@ -43,100 +61,295 @@ def candidates(cfg, fees, stats, top):
     return df[ok].sort_values("profit_day", ascending=False)
 
 
-def _rank_all(cfg, fees, stats, top):
-    """Same scoring without the filters, for the summary's 'near misses' view."""
-    return candidates({**cfg, "strategy": {**cfg["strategy"], "min_margin": -1, "min_daily_profit": -1e18,
-                                          "warmup_hours": 0, "vwap_band": 1e9, "max_price_ratio": 1e9}},
-                      fees, stats, top)
+def import_candidates(cfg, fees, src_top, dst_stats, dst_top, vols, route, start_w, exclude=()):
+    """Buy at the source hub's best ask, ship, sell 1 tick under the destination's best ask."""
+    s = cfg["strategy"]
+    if len(dst_stats) == 0 or len(dst_top) == 0 or len(src_top) == 0:
+        return pd.DataFrame()
+    df = dst_stats.join(dst_top, how="inner").join(src_top.best_ask.rename("src_ask"), how="inner")
+    df = df[df.best_ask.notna() & df.src_ask.notna() & df.vwap_a.notna()]
+    df = df[~df.index.isin(list(s["exclude_types"]) + list(exclude))]
+    if len(df) == 0:
+        return df
+    T = cfg["sim"]["logon_gap_hours"]
+    df = df.assign(sell=df.best_ask.map(tick_down))
+    df["vol_m3"] = [vols.get(int(t), np.nan) for t in df.index]
+    v = df.vol_m3.fillna(0.0)
+    df["ship_unit"] = v * route["per_m3"] + route["collateral_pct"] * df.src_ask
+    net = df.sell * (1 - fees.tax - fees.broker)
+    df["unit_margin"] = net - df.src_ask - df.ship_unit
+    df["margin"] = df.unit_margin / df.src_ask
+    df["max_price"] = ((net - v * route["per_m3"]) / (1 + s["min_import_margin"] + route["collateral_pct"])
+                       ).map(lambda p: valid_down(p) if p > 0 else 0.0)
+    df["sa"] = surv_avg(_lam4(df, "a"), T, start_w)
+    df["q"] = cfg["sim"]["alpha"] * df.A * df.sa
+    relist = 24 / T * (1 - fees.relist_discount) * fees.broker * df.sell * df.q * T / 24 * (1 - df.sa)
+    df["profit_day"] = df.unit_margin * df.q - relist
+    band = s["vwap_band"]
+    ok = (
+        (df.hours >= s["warmup_hours"])
+        & (df.margin >= s["min_import_margin"])
+        & (df.profit_day >= s["min_daily_profit"])
+        & (df.sell / df.src_ask <= s["max_price_ratio"])
+        & df.vwap_a.between(df.sell * (1 - band), df.sell * (1 + band))
+    )
+    return df[ok].sort_values("profit_day", ascending=False)
 
 
-def make_plan(cfg, fees, sim, hub, stats, top, cands, t, nw):
-    s, c = cfg["strategy"], cfg["sim"]
-    pf = sim.pf
-    T = c["logon_gap_hours"]
-    steps, secs = [], c["secs_overhead"]
-    budget = s["plan_seconds"]
-    slots = cfg["skills"]["order_slots"]
-    n_orders = len(pf["orders"])
-
-    def lam(ty, col):
-        return float(stats[col].get(ty, 0.1)) if len(stats) else 0.1
-
-    def best(ty, col):
-        return float(top[col].get(ty, np.nan)) if len(top) else np.nan
-
-    def add(step, value):
-        steps.append({**step, "value": float(value)})
-
-    selected = set(cands.index[:200]) if len(cands) else set()
-
-    # 1. undercut (or likely-undercut-by-then) sell orders
-    for o in [o for o in pf["orders"] if o["hub"] == hub and o["side"] == "sell"]:
-        ba = best(o["type_id"], "best_ask")
-        stale = lam(o["type_id"], "lam_a") * (t - o["updated"]) / 3600 > 0.7
-        if (not np.isnan(ba) and ba <= o["price"]) or stale:
-            fl = floor_price(fees, cfg, o["unit_cost"], o.get("since"), t)
-            add({"kind": "modify_sell", "oid": o["oid"], "type_id": o["type_id"], "floor": fl,
-                 "ref": ba, "mine": o["price"], "secs": c["secs_modify"], "group": 1}, o["remain"] * o["price"])
-
-    # 2. list stock sitting in the hangar
-    for ty, it in sorted(pf["inventory"].get(hub, {}).items(), key=lambda kv: -kv[1]["qty"] * kv[1]["cost"]):
-        ty = int(ty)
-        fl = floor_price(fees, cfg, it["cost"], it.get("since"), t)
-        add({"kind": "new_sell", "type_id": ty, "qty": it["qty"], "floor": fl, "ref": best(ty, "best_ask"),
-             "fallback": round(fl * 1.3, 2), "secs": c["secs_new_sell"], "group": 2}, it["qty"] * it["cost"])
-        n_orders += 1
-
-    # 3. buy orders: drop the ones no longer worth it, reprice the outbid ones
-    for o in [o for o in pf["orders"] if o["hub"] == hub and o["side"] == "buy"]:
-        ty = o["type_id"]
-        ba, bb = best(ty, "best_ask"), best(ty, "best_bid")
-        cap = buy_cap(fees, cfg, ba) if not np.isnan(ba) else 0.0
-        if ty not in selected and (np.isnan(ba) or cap < o["price"] * 0.97):
-            add({"kind": "cancel", "oid": o["oid"], "type_id": ty, "ref": bb, "mine": o["price"],
-                 "secs": c["secs_cancel"], "group": 4}, o["remain"] * o["price"])
-            n_orders -= 1
-            continue
-        stale = lam(ty, "lam_b") * (t - o["updated"]) / 3600 > 0.7
-        if (not np.isnan(bb) and bb >= o["price"]) or stale or o["price"] > cap:
-            add({"kind": "modify_buy", "oid": o["oid"], "type_id": ty, "cap": cap, "ref": bb,
-                 "mine": o["price"], "secs": c["secs_modify"], "group": 3}, o["remain"] * o["price"])
-
-    steps.sort(key=lambda st: (st["group"], -st["value"]))
-    keep = []
-    for st in steps:
-        if secs + st["secs"] <= budget:
-            keep.append(st)
-            secs += st["secs"]
-    steps = keep
-
-    # 4. new buy orders, best expected profit first
-    reserve = s["cash_reserve_frac"] * nw
-    cash = pf["cash"] - reserve
-    have_buy = {o["type_id"] for o in pf["orders"] if o["hub"] == hub and o["side"] == "buy"}
-    limit = s["max_type_frac"] * nw
-    for ty, r in cands.iterrows() if len(cands) else []:
-        if secs + c["secs_new_buy"] > budget or n_orders + 2 > slots - 4 or cash <= 0:
+def walk_asks(book, ty, qty, max_price):
+    """(units available, average price) buying up to qty from sell orders priced <= max_price."""
+    a = book[(book.type_id == ty) & ~book.is_buy & (book.price <= max_price)].sort_values("price")
+    take, cost = 0, 0.0
+    for p, v in zip(a.price, a.vol):
+        k = min(int(v), qty - take)
+        take += k
+        cost += k * p
+        if take >= qty:
             break
-        if ty in have_buy:
-            continue
-        exposure = sum(o["remain"] * (o.get("unit_cost") or o["price"])
-                       for o in pf["orders"] if o["hub"] == hub and o["type_id"] == ty)
-        it = pf["inventory"].get(hub, {}).get(str(ty))
-        exposure += it["qty"] * it["cost"] if it else 0.0
-        qty = math.ceil(r.q * T / 24 * 2)
-        qty = int(min(qty, (limit - exposure) / r.bid_t, cash / (r.bid_t * (1 + fees.broker))))
-        if qty < 1:
-            continue
-        cap = buy_cap(fees, cfg, r.best_ask)
-        if cap < r.bid_t:
-            continue
-        steps.append({"kind": "new_buy", "type_id": int(ty), "qty": qty, "cap": cap, "ref": float(r.best_bid),
-                      "secs": c["secs_new_buy"], "group": 5, "value": float(r.profit_day),
-                      "exp_profit_day": float(r.profit_day), "margin": float(r.margin)})
-        secs += c["secs_new_buy"]
-        cash -= qty * r.bid_t * (1 + fees.broker)
-        n_orders += 2  # its sell order comes later
-    for i, st in enumerate(steps, 1):
-        st["n"] = i
-    return {"generated": t, "hub": hub, "steps": steps, "est_secs": secs}
+    return take, (cost / take if take else 0.0)
+
+
+def active_spec(spec, t):
+    today = dt.datetime.fromtimestamp(t, dt.timezone.utc).date().isoformat()
+    out = {}
+    for e in spec:
+        if e.get("active", True):
+            out[(e["hub"], int(e["type_id"]))] = {**e, "selling": today >= e["sell_after"]}
+    return out
+
+
+class Planner:
+    def __init__(self, ctx):
+        self.__dict__.update(ctx)  # cfg, fees, sim, t, nw, names, tops, stats, books, vols, start_w,
+        self.s, self.c = self.cfg["strategy"], self.cfg["sim"]  # station, imports, import_hub, spec
+        self.pf = self.sim.pf
+        self.home = self.s["hub"]
+        self.specs = active_spec(self.spec, self.t)
+
+    def best(self, hub, ty, col):
+        top = self.tops.get(hub)
+        return float(top[col].get(ty, np.nan)) if top is not None and len(top) else np.nan
+
+    def lam(self, hub, ty, side):
+        st = self.stats.get(hub)
+        return float(st[f"lam_{side}"].get(ty, 0.1)) if st is not None and len(st) else 0.1
+
+    def step(self, kind, hub, value, **kw):
+        return {"kind": kind, "hub": hub, "secs": self.c[{"modify_sell": "secs_modify", "modify_buy": "secs_modify",
+                                                       "new_sell": "secs_new_sell", "new_buy": "secs_new_buy",
+                                                       "cancel": "secs_cancel", "instant_buy": "secs_instant_buy",
+                                                       "courier": "secs_courier"}[kind]],
+                "value": float(value), "group": GROUP_ORDER[kind], **kw}
+
+    # ---- per-hub maintenance -------------------------------------------------
+    def maintenance(self, hub):
+        t, tier1, tier2 = self.t, [], []
+        for o in [o for o in self.pf["orders"] if o["hub"] == hub and o["side"] == "sell"]:
+            ba = self.best(hub, o["type_id"], "best_ask")
+            stale = self.lam(hub, o["type_id"], "a") * (t - o["updated"]) / 3600 > 0.7
+            if (not np.isnan(ba) and ba <= o["price"]) or stale:
+                sp = self.specs.get((hub, o["type_id"]), {})
+                fl = floor_price(self.fees, self.cfg, o["unit_cost"], o.get("since"), t, sp.get("min_sell", 0.0))
+                tier1.append(self.step("modify_sell", hub, o["remain"] * o["price"], oid=o["oid"],
+                                       type_id=o["type_id"], floor=fl, ref=ba, mine=o["price"],
+                                       target=max(fl, tick_down(ba)) if not np.isnan(ba) else o["price"]))
+        for key, it in self.pf["inventory"].get(hub, {}).items():
+            ty = int(key)
+            sp = self.specs.get((hub, ty))
+            if sp and not sp["selling"]:
+                continue  # speculation: hold until sell_after
+            if it.get("tag") == "import" and hub != self.import_hub and hub == self.home:
+                continue  # bought for import, waiting for the courier step
+            fl = floor_price(self.fees, self.cfg, it["cost"], it.get("since"), t, (sp or {}).get("min_sell", 0.0))
+            ba = self.best(hub, ty, "best_ask")
+            tier1.append(self.step("new_sell", hub, it["qty"] * it["cost"], type_id=ty, qty=it["qty"], floor=fl,
+                                   ref=ba, target=max(fl, tick_down(ba)) if not np.isnan(ba) else round(fl * 1.3, 2),
+                                   fallback=round(fl * 1.3, 2)))
+        selected = set(self.station.get(hub, pd.DataFrame()).index[:200])
+        for o in [o for o in self.pf["orders"] if o["hub"] == hub and o["side"] == "buy"]:
+            ty = o["type_id"]
+            ba, bb = self.best(hub, ty, "best_ask"), self.best(hub, ty, "best_bid")
+            sp = self.specs.get((hub, ty))
+            if sp:
+                cap, keep = sp["max_buy"], not sp["selling"]
+            else:
+                cap = buy_cap(self.fees, self.cfg, ba) if not np.isnan(ba) else 0.0
+                keep = ty in selected or (not np.isnan(ba) and cap >= o["price"] * 0.97)
+            if not keep:
+                tier2.append(self.step("cancel", hub, o["remain"] * o["price"], oid=o["oid"], type_id=ty, ref=bb,
+                                       mine=o["price"]))
+                continue
+            stale = self.lam(hub, ty, "b") * (t - o["updated"]) / 3600 > 0.7
+            if (not np.isnan(bb) and bb >= o["price"]) or stale or o["price"] > cap:
+                tier2.append(self.step("modify_buy", hub, o["remain"] * o["price"], oid=o["oid"], type_id=ty,
+                                       cap=cap, ref=bb, mine=o["price"],
+                                       target=min(cap, tick_up(bb)) if not np.isnan(bb) else min(cap, o["price"])))
+        return tier1, tier2
+
+    # ---- exposure helpers ----------------------------------------------------
+    def exposure(self, ty):
+        e = sum(o["remain"] * (o.get("unit_cost") or o["price"]) for o in self.pf["orders"] if o["type_id"] == ty)
+        e += sum(h[str(ty)]["qty"] * h[str(ty)]["cost"] for h in self.pf["inventory"].values() if str(ty) in h)
+        e += sum(i["qty"] * i["cost"] for c in self.pf["in_transit"] for i in c["items"] if i["type_id"] == ty)
+        return e
+
+    def held_at(self, hub, ty):
+        n = sum(o["remain"] for o in self.pf["orders"] if o["hub"] == hub and o["type_id"] == ty)
+        it = self.pf["inventory"].get(hub, {}).get(str(ty))
+        n += it["qty"] if it else 0
+        n += sum(i["qty"] for c in self.pf["in_transit"] if c["to"] == hub for i in c["items"] if i["type_id"] == ty)
+        return n
+
+    # ---- imports (at the home hub) ---------------------------------------------
+    def import_bundle(self):
+        hub, dst = self.home, self.import_hub
+        if not dst or dst not in self.tops or hub not in self.books:
+            return None
+        route, book = self.cfg["routes"][dst], self.books[hub]
+        T = self.c["logon_gap_hours"] + route["days"] * 24
+        steps, value, m3, profit = [], 0.0, 0.0, 0.0
+        limit = self.s["max_type_frac"] * self.nw
+        waiting = [int(k) for k, it in self.pf["inventory"].get(hub, {}).items() if it.get("tag") == "import"]
+        for ty, r in self.imports.iterrows():
+            if len(steps) >= self.s["max_import_types"]:
+                break
+            ty = int(ty)
+            want = math.ceil(r.q * T / 24 * 1.2) - self.held_at(dst, ty) - self.held_at(hub, ty)
+            want = min(want, int((limit - self.exposure(ty)) / r.src_ask))
+            vol = r.vol_m3 if not np.isnan(r.vol_m3) else 0.0
+            if vol > 0:
+                want = min(want, int((route["max_m3"] - m3) / vol))
+            want = min(want, int((route["max_collateral"] - value) / r.src_ask))
+            if want < 1:
+                continue
+            got, avg = walk_asks(book, ty, want, r.max_price)
+            if got < 1:
+                continue
+            steps.append(self.step("instant_buy", hub, r.profit_day, type_id=ty, qty=got, max_price=r.max_price,
+                                   ref=float(r.src_ask), est_cost=avg * got))
+            value += avg * got
+            m3 += vol * got
+            profit += r.profit_day
+        if value < route["min_fee"] / self.s["max_ship_cost_frac"] and not waiting:
+            return None  # shipment too small to be worth the courier minimum
+        tys = [s["type_id"] for s in steps] + [t for t in waiting if t not in {s["type_id"] for s in steps}]
+        est_fee = max(route["min_fee"], route["per_m3"] * m3) + route["collateral_pct"] * value
+        steps.append(self.step("courier", hub, 0.0, to=dst, type_ids=tys, est_value=value, est_m3=m3,
+                               est_fee=est_fee))
+        return {"steps": steps, "value": profit, "cash": value + est_fee}
+
+    # ---- new buy orders --------------------------------------------------------
+    def new_buys(self, hub, avoid):
+        out = []
+        for (h, ty), sp in self.specs.items():
+            if h != hub or sp["selling"]:
+                continue
+            need = int(sp["qty"]) - self.held_at(hub, ty)
+            if need > 0 and not any(o["hub"] == hub and o["type_id"] == ty and o["side"] == "buy"
+                                    for o in self.pf["orders"]):
+                out.append(("spec", ty, need, sp["max_buy"], 1e18))
+        have = {o["type_id"] for o in self.pf["orders"] if o["hub"] == hub and o["side"] == "buy"}
+        T = self.c["logon_gap_hours"]
+        for ty, r in self.station.get(hub, pd.DataFrame()).iterrows():
+            if ty in have or ty in avoid:
+                continue
+            out.append(("station", int(ty), math.ceil(r.q * T / 24 * 2), buy_cap(self.fees, self.cfg, r.best_ask),
+                        float(r.profit_day)))
+        return out
+
+    # ---- assemble ---------------------------------------------------------------
+    def plan(self):
+        L = self.pf["location"]
+        hubs = [self.home] + ([self.import_hub] if self.import_hub else [])
+        O = next((h for h in hubs if h != L), None) if L in hubs else self.home
+        budget = self.s["plan_seconds"] - self.c["secs_overhead"]
+        used, jumped = 0, False
+        chosen = []
+
+        def fits(steps):
+            nonlocal used, jumped
+            secs = sum(s["secs"] for s in steps)
+            extra = self.c["secs_jump"] if (O and not jumped and any(s["hub"] == O for s in steps)) else 0
+            if used + secs + extra > budget:
+                return False
+            used += secs + extra
+            jumped = jumped or extra > 0
+            chosen.extend(steps)
+            return True
+
+        t1, t2 = [], []
+        for h in [L] + ([O] if O else []):
+            a, b = self.maintenance(h)
+            t1 += a
+            t2 += b
+        for st in sorted(t1, key=lambda s: -s["value"]):
+            fits([st])
+        for st in sorted(t2, key=lambda s: -s["value"]):
+            fits([st])
+
+        cash = self.pf["cash"] - self.s["cash_reserve_frac"] * self.nw
+        slots = self.cfg["skills"]["order_slots"] - 4
+        n_orders = len(self.pf["orders"]) + sum(s["kind"] == "new_sell" for s in chosen) \
+            - sum(s["kind"] == "cancel" for s in chosen)
+        bundle = self.import_bundle()
+        if bundle and bundle["cash"] <= cash and fits(bundle["steps"]):
+            cash -= bundle["cash"]
+            n_orders += sum(s["kind"] == "instant_buy" for s in bundle["steps"])  # their sell orders later
+
+        # keep strategies on separate items so stock and results don't mix
+        avoid = {ty for (_, ty) in self.specs}
+        avoid |= {s["type_id"] for s in (bundle or {}).get("steps", []) if s["kind"] == "instant_buy"}
+        avoid |= {o["type_id"] for o in self.pf["orders"] if o.get("tag") == "import"}
+        avoid |= {i["type_id"] for c in self.pf["in_transit"] for i in c["items"]}
+        avoid |= {int(k) for h in self.pf["inventory"].values() for k, it in h.items() if it.get("tag") == "import"}
+        buys = []
+        for h in [L] + ([O] if O else []):
+            buys += [(h, *b) for b in self.new_buys(h, avoid)]
+        limit = self.s["max_type_frac"] * self.nw
+        spec_room = self.s["spec_max_frac"] * self.nw - sum(
+            self.exposure(ty) for (_, ty) in self.specs)
+        for hub, tag, ty, qty, cap, prof in sorted(buys, key=lambda b: -b[5]):
+            if n_orders + 2 > slots or cash <= 0:
+                break
+            bb = self.best(hub, ty, "best_bid")
+            if np.isnan(bb) or bb >= cap:
+                continue
+            price = min(cap, tick_up(bb))
+            room = (spec_room if tag == "spec" else limit - self.exposure(ty)) / price
+            qty = int(min(qty, room, cash / (price * (1 + self.fees.broker))))
+            if qty < 1:
+                continue
+            st = self.step("new_buy", hub, prof if prof < 1e18 else 0.0, type_id=ty, qty=qty, cap=cap, ref=bb,
+                           target=price, tag=tag)
+            if fits([st]):
+                cash -= qty * price * (1 + self.fees.broker)
+                n_orders += 2
+                if tag == "spec":
+                    spec_room -= qty * price
+
+        def name(st):
+            return str(self.names.get(st.get("type_id"), st.get("type_id", "")))
+
+        steps = []
+        for h in [L] + ([O] if O else []):
+            part = sorted([s for s in chosen if s["hub"] == h], key=lambda s: (s["group"], name(s)))
+            if h == O and part:
+                steps.append({"kind": "jump", "hub": L, "to": O, "secs": self.c["secs_jump"], "group": 0,
+                              "value": 0.0})
+            steps += part
+        for i, st in enumerate(steps, 1):
+            st["n"] = i
+        return {"generated": self.t, "hub": L, "location": L, "other": O, "steps": steps,
+                "est_secs": used + self.c["secs_overhead"]}
+
+
+def choose_import_hub(cfg, imports_by_hub, current):
+    want = cfg["strategy"]["import_hub"]
+    if want == "none":
+        return None
+    if want != "auto":
+        return want
+    if current:
+        return current  # moving the second clone is a deliberate decision for a review
+    scores = {h: float(df.head(30).profit_day.sum()) for h, df in imports_by_hub.items() if len(df)}
+    return max(scores, key=scores.get) if scores else None

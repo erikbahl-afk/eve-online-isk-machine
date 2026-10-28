@@ -1,7 +1,10 @@
 """Simulated player sessions: 1-2 weekday + 1-2 weekend logons per week, Pacific time."""
 import datetime as dt
+import math
 import random
 from zoneinfo import ZoneInfo
+
+import numpy as np
 
 
 def _week(cfg, monday, tz):
@@ -46,3 +49,21 @@ def ensure(cfg, sched, now):
 
 def due(sched, now):
     return [e for e in sched if not e["done"] and e["t"] <= now]
+
+
+def start_profile(cfg, now):
+    """Weights over the 24 UTC hours at which sessions start (for time-of-day competition)."""
+    c = cfg["sim"]
+    off = dt.datetime.fromtimestamp(now, ZoneInfo(cfg["timezone"])).utcoffset().total_seconds() / 3600
+    w = np.zeros(24)
+    wd, we = np.mean(c["weekday_logons"]), np.mean(c["weekend_logons"])
+
+    def add(h0, h1, weight):
+        hs = range(math.floor(h0), math.ceil(h1))
+        for h in hs:
+            w[int((h - off) % 24)] += weight / len(hs)
+
+    add(6.25, 7.5, wd * c["before_work_prob"])
+    add(18, 22, wd * (1 - c["before_work_prob"]))
+    add(8, 23, we)
+    return w / w.sum()

@@ -12,3 +12,13 @@
 - The repo is public during practice (unlimited free Actions minutes), so collection runs every 2 hours.
   Before going live: make it private and switch back to 3-hourly (see README).
 - First live runs: about 600k orders across the five hubs, about 90 s per run, about 916 ESI calls.
+
+## 2026-10-28 · v2: imports, time of day, faster checklist, speculation
+- The first live diff worked: about 6.4k inferred trades in Jita over 1.2 h; the other hubs scale down as expected.
+- Added the import strategy (Jita → auto-chosen hub, jump clone each session, courier estimates),
+  rival activity per 6-hour UTC block weighted by your session times, checklists grouped and
+  sorted to match the in-game windows with exact prices, spec positions via `state/spec.json`,
+  and results split by strategy.
+- Reset `state/metrics.csv` to the new columns (it held only no-trade warmup rows).
+- Next: once warmed up, check that the import candidates are real items with sane m³ and margins,
+  and verify the courier prices (CHECKS.md section 6).

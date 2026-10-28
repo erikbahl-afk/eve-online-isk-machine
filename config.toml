@@ -42,10 +42,19 @@ secs_modify = 25
 secs_new_sell = 45
 secs_new_buy = 60
 secs_cancel = 15
+secs_instant_buy = 40
+secs_courier = 180
+secs_jump = 120
 secs_overhead = 120
 
 [strategy]
-hub = "jita"
+hub = "jita"                 # home hub (imports are bought here)
+import_hub = "auto"          # auto | amarr | dodixie | rens | hek | none. auto picks once, then sticks
+jump_cooldown_hours = 19     # assumes Infomorph Synchronizing V (unverified, see CHECKS.md)
+min_import_margin = 0.10     # imports tie capital up in transit, so they need a higher margin
+max_import_types = 12        # per session (time: 40 s each + courier contract)
+max_ship_cost_frac = 0.03    # don't ship unless the courier minimum is <= 3% of the cargo value
+spec_max_frac = 0.10         # cap on speculation positions (state/spec.json)
 plan_seconds = 1500          # leave slack inside the 30 min window
 warmup_hours = 20            # data needed before trading a type
 window_days = 7
@@ -59,3 +68,37 @@ stale_loss = 0.03
 max_price_ratio = 2.5        # skip if ask/bid wider than this (dead or manipulated market)
 vwap_band = 0.25             # recent trade prices must be within +-25% of our target prices
 exclude_types = [44992]      # PLEX (global market)
+
+# Courier pricing from Jita (ESTIMATES, to be checked against PushX / Red Frog quotes).
+# fee = max(min_fee, per_m3 * m3) + collateral_pct * value. Couriers repay collateral if lost.
+[routes.amarr]
+min_fee = 15_000_000
+per_m3 = 400
+collateral_pct = 0.01
+max_m3 = 60_000
+max_collateral = 3_000_000_000
+days = 2.0
+
+[routes.dodixie]
+min_fee = 10_000_000
+per_m3 = 250
+collateral_pct = 0.01
+max_m3 = 60_000
+max_collateral = 3_000_000_000
+days = 1.5
+
+[routes.rens]
+min_fee = 12_000_000
+per_m3 = 300
+collateral_pct = 0.01
+max_m3 = 60_000
+max_collateral = 3_000_000_000
+days = 2.0
+
+[routes.hek]
+min_fee = 12_000_000
+per_m3 = 300
+collateral_pct = 0.01
+max_m3 = 60_000
+max_collateral = 3_000_000_000
+days = 2.0

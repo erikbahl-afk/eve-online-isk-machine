@@ -18,9 +18,22 @@ from .common import DATA
 
 EPOCH = pd.Timestamp("1970-01-01", tz="UTC")
 PRINT_COLS = ["type_id", "side", "price", "qty"]
-DAILY_COLS = ["hub", "type_id", "ask_units", "ask_isk", "bid_units", "bid_isk",
-              "ask_upd", "bid_upd", "best_ask", "best_bid", "hours"]
+NB = 4  # rival activity is tracked per 6-hour UTC block (00-06, 06-12, 12-18, 18-24)
+UPD_COLS = ["ask_upd", "bid_upd"] + [f"{s}_upd{b}" for s in ("ask", "bid") for b in range(NB)]
+SUM_COLS = ["ask_units", "ask_isk", "bid_units", "bid_isk"] + UPD_COLS
+DAILY_COLS = ["hub", "type_id"] + SUM_COLS + ["best_ask", "best_bid", "hours"] + [f"hours{b}" for b in range(NB)]
 NEAR_TOP = 0.05
+
+
+def block_hours(t0, t1):
+    """Hours of (t0, t1] falling in each UTC block."""
+    out = [0.0] * NB
+    t = t0
+    while t < t1:
+        nxt = min(t1, (t // 3600 + 1) * 3600)
+        out[int(t // 3600 % 24 // 6)] += (nxt - t) / 3600
+        t = nxt
+    return out
 
 
 def station_book(region_df, station_id):
@@ -69,13 +82,18 @@ def gone_fraction(prev, cur):
 
 
 def update_counts(cur, top, t0):
-    """Near-top orders created or repriced after t0, per type and side."""
+    """Near-top orders created or repriced after t0, per type, side and UTC block of the update."""
     r = cur[cur.issued > t0].join(top, on="type_id")
-    near_a = ~r.is_buy & (r.price <= r.best_ask * (1 + NEAR_TOP))
-    near_b = r.is_buy & (r.price >= r.best_bid * (1 - NEAR_TOP))
-    a = r[near_a].groupby("type_id").size().rename("ask_upd")
-    b = r[near_b].groupby("type_id").size().rename("bid_upd")
-    return pd.concat([a, b], axis=1).fillna(0)
+    r = r.assign(blk=r.issued // 3600 % 24 // 6)
+    parts = []
+    for side, mask in (("ask", ~r.is_buy & (r.price <= r.best_ask * (1 + NEAR_TOP))),
+                       ("bid", r.is_buy & (r.price >= r.best_bid * (1 - NEAR_TOP)))):
+        g = r[mask].groupby(["type_id", "blk"]).size().unstack("blk", fill_value=0)
+        g = g.reindex(columns=range(NB), fill_value=0)
+        g.columns = [f"{side}_upd{b}" for b in range(NB)]
+        g[f"{side}_upd"] = g.sum(axis=1)
+        parts.append(g)
+    return pd.concat(parts, axis=1).fillna(0)
 
 
 def aggregate(prints, upd, top):
@@ -86,7 +104,7 @@ def aggregate(prints, upd, top):
         ps = p[p.side == side].groupby("type_id")[["qty", "isk"]].sum()
         parts.append(ps.rename(columns={"qty": f"{side}_units", "isk": f"{side}_isk"}))
     df = pd.concat(parts, axis=1)
-    for c in ["ask_units", "ask_isk", "bid_units", "bid_isk", "ask_upd", "bid_upd"]:
+    for c in SUM_COLS:
         if c not in df:
             df[c] = 0.0
     df = df.fillna(0.0)
@@ -96,22 +114,23 @@ def aggregate(prints, upd, top):
 class Day:
     """Running per-hub, per-type totals for the current UTC day (kept in the Actions cache)."""
 
-    def __init__(self, date, rows=None, hours=None):
+    def __init__(self, date):
         self.date = date
-        self.rows = rows if rows is not None else {}
-        self.hours = hours or {}
+        self.rows = {}
+        self.hours = {}
+        self.hb = {}  # hub -> hours observed per UTC block
 
-    def add(self, hub, agg, hours):
-        sums = ["ask_units", "ask_isk", "bid_units", "bid_isk", "ask_upd", "bid_upd"]
+    def add(self, hub, agg, t0, t1):
         old = self.rows.get(hub)
         if old is None:
             new = agg
         else:
-            new = old[sums].add(agg[sums], fill_value=0.0)
+            new = old[SUM_COLS].add(agg[SUM_COLS], fill_value=0.0)
             last = agg[["best_ask", "best_bid"]].combine_first(old[["best_ask", "best_bid"]])
             new = new.join(last)
         self.rows[hub] = new
-        self.hours[hub] = self.hours.get(hub, 0.0) + hours
+        self.hours[hub] = self.hours.get(hub, 0.0) + (t1 - t0) / 3600
+        self.hb[hub] = [a + b for a, b in zip(self.hb.get(hub, [0.0] * NB), block_hours(t0, t1))]
 
     def frame(self, min_isk=0.0):
         parts = []
@@ -119,6 +138,8 @@ class Day:
             d = df.rename_axis("type_id").reset_index()
             d.insert(0, "hub", hub)
             d["hours"] = self.hours.get(hub, 0.0)
+            for b, h in enumerate(self.hb.get(hub, [0.0] * NB)):
+                d[f"hours{b}"] = h
             parts.append(d[(d.ask_isk + d.bid_isk) >= min_isk])
         if not parts:
             return pd.DataFrame(columns=DAILY_COLS)
@@ -159,11 +180,15 @@ def build_stats(hub, frames, today_frame):
     if not fr:
         return pd.DataFrame()
     allf = pd.concat(fr, ignore_index=True)
+    for c in DAILY_COLS:  # files written before a column existed
+        if c not in allf:
+            allf[c] = 0.0
     hours = allf.groupby("day").hours.max()
     total_h = hours.sum()
     if total_h <= 0:
         return pd.DataFrame()
-    s = allf.groupby("type_id")[["ask_units", "ask_isk", "bid_units", "bid_isk", "ask_upd", "bid_upd"]].sum()
+    s = allf.groupby("type_id")[SUM_COLS].sum()
+    block_h = allf.groupby("day")[[f"hours{b}" for b in range(NB)]].max().sum()
     out = pd.DataFrame(index=s.index)
     out["A"] = s.ask_units / total_h * 24
     out["B"] = s.bid_units / total_h * 24
@@ -176,6 +201,10 @@ def build_stats(hub, frames, today_frame):
             out[col] = np.minimum(out[col], 2 * daily.median(axis=1).reindex(out.index).fillna(0) + 1e-9)
     out["lam_a"] = s.ask_upd / total_h
     out["lam_b"] = s.bid_upd / total_h
+    for side in ("a", "b"):
+        for b in range(NB):
+            h = block_h[f"hours{b}"]
+            out[f"lam_{side}{b}"] = (s[f"{'ask' if side == 'a' else 'bid'}_upd{b}"] / h) if h >= 2 else out[f"lam_{side}"]
     out["vwap_a"] = (s.ask_isk / s.ask_units).where(s.ask_units > 0)
     out["vwap_b"] = (s.bid_isk / s.bid_units).where(s.bid_units > 0)
     out["isk_day"] = (s.ask_isk + s.bid_isk) / total_h * 24

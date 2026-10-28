@@ -15,9 +15,14 @@ plan. Prefer one well-reasoned change over many small ones.
 4. **Decide at most 1–2 changes** (`config.toml` parameters or code), each with a hypothesis
    and a way to tell whether it worked. Don't retune something before it has had about 3 days
    to show results.
-5. `python -m pytest -q`, commit with a clear message, push to the default branch.
-6. Append a `JOURNAL.md` entry: date, numbers (net worth, % change, realized), what you
+5. **Speculation (Friday reviews only, at most 3 web searches).** Look for upcoming EVE changes:
+   patch notes, dev blogs, and anything announced for the next 2–6 weeks. If a change clearly moves
+   an item's price, add an entry to `state/spec.json` (format in STRATEGY.md) with the thesis in
+   `note`. Spec stays at most 10% of net worth. Deactivate entries whose thesis has expired.
+6. `python -m pytest -q`, commit with a clear message, push to the default branch.
+7. Append a `JOURNAL.md` entry: date, numbers (net worth, % change, realized), what you
    changed, and why, plus what to check next time. Keep it under 15 lines.
 
-Never edit the files under `state/` by hand, except for a deliberate reset that the journal
-records.
+Never edit the files under `state/` by hand, except `state/spec.json` or a deliberate reset that
+the journal records. Open investigations live in STRATEGY.md's open questions; pick one up when
+the pipeline is healthy and there's budget left.
