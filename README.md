@@ -14,7 +14,7 @@ markets; you follow a checklist when you log in.
 
 Until the character is ready, the system trades 5B of pretend ISK against the live market:
 
-1. Every 2 hours, GitHub Actions (`.github/workflows/market.yml`) downloads the public order
+1. Every 3 hours, GitHub Actions (`.github/workflows/market.yml`) downloads the public order
    books of Jita, Amarr, Dodixie, Rens and Hek from ESI.
 2. Comparing consecutive snapshots shows which orders got filled. That lets us estimate
    whether *our* orders would have filled, and how quickly rivals would have undercut us.

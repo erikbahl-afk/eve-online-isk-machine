@@ -1,7 +1,7 @@
 # Journal
 
 ## 2026-10-28 · setup
-- Built v1: 2-hourly snapshots of five hubs, trade inference, a paper portfolio of 5B at Jita
+- Built v1: 3-hourly snapshots of five hubs, trade inference, a paper portfolio of 5B at Jita
   4-4, simulated sessions (1–2 weekday + 1–2 weekend, PT), slow station-trading strategy.
 - Assumptions to validate against live data: `alpha=0.6`, `gone_weight=0.8`, 48 h session gap.
 - Data warmup: no trading until 20 h of data has been collected; stats get better over 7 days.
