@@ -40,3 +40,11 @@
   against the official history (weekly, in REVIEW.md).
 - Hypothesis: Dodixie (cheap shipping, mid volume) or Amarr (big but pricey to ship) will win;
   Rens and Hek only if their margins are much wider. Check the hub comparison after 2–3 days of data.
+
+## 2026-10-28 · shelf-space ranking (user's store analogy)
+- New items are now ranked by profit/day ÷ the item's largest share of a scarce resource: order slots
+  (station 2, import 1), ISK tied up (stock covering the gaps between sessions), or player seconds per
+  session. Fast, low-margin sellers win when slots or time bind; high-margin ones win when ISK binds.
+- The summary shows shelf use (slots, ISK deployed, plan minutes) and which resource each top candidate
+  leans on. Watch which one sits near 100%; that's where more capacity (Wholesale skills, more capital,
+  a smaller checklist) would pay.

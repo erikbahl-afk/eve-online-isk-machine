@@ -16,7 +16,7 @@ from .common import CACHE, DATA, HUBS, ROOT, STATE, load_config, load_json, save
 from .esi import ESI
 from .fees import Fees
 from .sim import Sim, new_portfolio
-from .strategy import Planner, candidates, choose_import_hub, import_candidates
+from .strategy import Planner, add_density, candidates, choose_import_hub, import_candidates
 
 LEDGER_COLS = ["t", "event", "hub", "type_id", "qty", "price", "cash_delta", "note"]
 
@@ -193,7 +193,10 @@ def main():
         warm = f"Warming up: {hours:.0f} of {cfg['strategy']['warmup_hours']} hours of market data collected."
 
     (ROOT / "INSTRUCTIONS.md").write_text(render.instructions(cfg, plan, names, val, warm))
-    summary = render.summary(cfg, pf, val, health, sessions, names, station, imports_by_hub, now, stats)
+    summary = render.summary(cfg, pf, val, health, sessions, names,
+                             {h: add_density(df, cfg, val["nw_book"]) for h, df in station.items()},
+                             {h: add_density(df, cfg, val["nw_book"]) for h, df in imports_by_hub.items()},
+                             now, stats, plan)
     (STATE / "summary.md").write_text(summary)
     week = dt.date.fromtimestamp(now).isocalendar()
     week = f"{week[0]}-W{week[1]:02d}"

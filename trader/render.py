@@ -116,7 +116,7 @@ def instructions(cfg, plan, names, val, warm_msg=None):
     return "\n".join(out)
 
 
-def summary(cfg, pf, val, health, sessions, names, station, imports_by_hub, t, stats=None):
+def summary(cfg, pf, val, health, sessions, names, station, imports_by_hub, t, stats=None, plan=None):
     s0 = pf["start_isk"]
     pnl = pf["pnl"]
     days = max((t - pf["created"]) / 86400, 1e-9)
@@ -130,7 +130,11 @@ def summary(cfg, pf, val, health, sessions, names, station, imports_by_hub, t, s
            f"fees: broker {isk(pnl['broker'])}, relist {isk(pnl['relist'])}, tax {isk(pnl['tax'])}, "
            f"courier {isk(pnl['courier'])}",
            f"- Character at **{pf['location']}** · import hub: **{pf.get('import_hub') or 'none yet'}** · "
-           f"shipments in transit: {len(pf['in_transit'])}", ""]
+           f"shipments in transit: {len(pf['in_transit'])}",
+           f"- Shelf space in use: slots {len(pf['orders'])}/{cfg['skills']['order_slots']} · "
+           f"ISK deployed {(1 - val['cash'] / max(val['nw_book'], 1)) * 100:.0f}% · last plan "
+           f"{(plan or {}).get('est_secs', 0) / 60:.0f}/{cfg['strategy']['plan_seconds'] / 60:.0f} min "
+           "(whichever is near 100% is what limits profit)", ""]
     out += ["## By strategy", "| Strategy | Buys | Sales | Fees | Realized |", "|---|---|---|---|---|"]
     for tag, v in sorted(pf["per_strategy"].items()):
         out.append(f"| {tag} | {isk(v['buys'])} | {isk(v['sales'])} | {isk(v['fees'])} | {isk(v['realized'])} |")
@@ -162,19 +166,20 @@ def summary(cfg, pf, val, health, sessions, names, station, imports_by_hub, t, s
     st = station.get(home)
     if st is not None and len(st):
         out += ["", f"## Top station candidates at {home}",
-                "| Type | Bid→Ask | Margin | Units/day | Still on top (ask/bid) | Exp. profit/day |",
-                "|---|---|---|---|---|---|"]
+                "| Type | Bid→Ask | Margin | Units/day | Still on top (ask/bid) | Exp. profit/day | Uses most |",
+                "|---|---|---|---|---|---|---|"]
         for ty, r in st.head(12).iterrows():
             out.append(f"| {names.get(ty, ty)} | {isk(r.bid_t)}→{isk(r.ask_t)} | {r.margin * 100:.1f}% | {r.q:.1f} | "
-                       f"{r.sa:.0%}/{r.sb:.0%} | {isk(r.profit_day)} |")
+                       f"{r.sa:.0%}/{r.sb:.0%} | {isk(r.profit_day)} | {r.get('limited_by', '-')} |")
     im = imports_by_hub.get(pf.get("import_hub"))
     if im is not None and len(im):
         out += ["", f"## Top import candidates Jita → {pf['import_hub']}",
-                "| Type | Jita → sell | m³ | Margin | Units/day | Still on top | Exp. profit/day |",
-                "|---|---|---|---|---|---|---|"]
+                "| Type | Jita → sell | m³ | Margin | Units/day | Still on top | Exp. profit/day | Uses most |",
+                "|---|---|---|---|---|---|---|---|"]
         for ty, r in im.head(12).iterrows():
             out.append(f"| {names.get(ty, ty)} | {isk(r.src_ask)}→{isk(r.sell)} | {r.vol_m3:,.1f} | "
-                       f"{r.margin * 100:.1f}% | {r.q:.1f} | {r.sa:.0%} | {isk(r.profit_day)} |")
+                       f"{r.margin * 100:.1f}% | {r.q:.1f} | {r.sa:.0%} | {isk(r.profit_day)} | "
+                       f"{r.get('limited_by', '-')} |")
     out += ["", "## Data health", "| Hub | Orders | Hours today | Prints this run | Note |", "|---|---|---|---|---|"]
     for hub, h in health.items():
         out.append(f"| {hub} | {h.get('orders', 0):,} | {h.get('hours', 0):.1f} | {h.get('prints', 0):,} | "

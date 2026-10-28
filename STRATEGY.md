@@ -35,6 +35,13 @@ Every order and every unit of stock carries a tag, so `state/summary.md` can sho
 The planner keeps a buy order up to `max_buy` until `qty` is held, holds the stock until
 `sell_after`, then sells it no lower than `min_sell`.
 
+## Choosing what to stock (shelf-space logic)
+Think of it as a shop that can only restock when you log in. New items compete for three shelves:
+order slots, ISK, and your seconds per session. Each candidate's score is profit/day divided by the
+largest share of any of those it would use, so the scarcest resource drives the choice: a $1 × 10/day
+item beats a $5 × 1/day item when slots or time are tight, but not when ISK is. Stock is sized to
+last two session gaps, since shelves only get restocked at logins.
+
 ## How a session is laid out
 - Start at whichever hub the character is in, do that hub's work, then jump-clone to the other hub
   (19 h cooldown assumed) and do its work there. Imports are bought and shipped at Jita.

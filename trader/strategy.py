@@ -49,6 +49,10 @@ def candidates(cfg, fees, stats, top, start_w, exclude=()):
     relist_rate = (1 - fees.relist_discount) * fees.broker
     df["relist_day"] = 24 / T * relist_rate * stock * ((1 - df.sa) * df.ask_t + (1 - df.sb) * df.bid_t)
     df["profit_day"] = df.unit_margin * df.q - df.relist_day
+    c = cfg["sim"]
+    df["capital"] = df.bid_t * df.q * T / 24 * 2  # buy order + stock covering two session gaps
+    df["slots"] = 2
+    df["secs"] = c["secs_modify"] * ((1 - df.sa) + (1 - df.sb)) + c["secs_new_sell"]  # clicks per session
     band = s["vwap_band"]
     ok = (
         (df.hours >= s["warmup_hours"])
@@ -88,6 +92,10 @@ def import_candidates(cfg, fees, src_top, dst_stats, dst_top, vols, route, start
     df["q"] = cfg["sim"]["alpha"] * df.A * df.sa
     relist = 24 / T * (1 - fees.relist_discount) * fees.broker * df.sell * df.q * T / 24 * (1 - df.sa)
     df["profit_day"] = df.unit_margin * df.q - relist
+    c = cfg["sim"]
+    df["capital"] = df.src_ask * df.q * (T + 24 * route["days"]) / 24 * 1.2  # stock in transit and on sale
+    df["slots"] = 1
+    df["secs"] = c["secs_instant_buy"] + c["secs_modify"] * (1 - df.sa) + c["secs_new_sell"]
     band = s["vwap_band"]
     ok = (
         (df.hours >= s["warmup_hours"])
@@ -97,6 +105,22 @@ def import_candidates(cfg, fees, src_top, dst_stats, dst_top, vols, route, start
         & df.vwap_a.between(df.sell * (1 - band), df.sell * (1 + band))
     )
     return df[ok].sort_values("profit_day", ascending=False)
+
+
+def add_density(df, cfg, nw):
+    """Profit/day per share of the scarcest resource the item uses (shelf-space logic).
+
+    Resources: order slots, ISK, and the player's seconds per session. An item that sells many
+    cheap units can beat a high-margin slow seller when slots or time are the limit, and lose
+    when capital is. Dividing by the largest share ranks by whatever binds for that item.
+    """
+    if len(df) == 0:
+        return df
+    shares = pd.DataFrame({"slots": df.slots / cfg["skills"]["order_slots"],
+                           "ISK": df.capital / max(nw, 1.0),
+                           "time": df.secs / cfg["strategy"]["plan_seconds"]})
+    df = df.assign(limited_by=shares.idxmax(axis=1), density=df.profit_day / shares.max(axis=1).clip(lower=1e-9))
+    return df.sort_values("density", ascending=False)
 
 
 def walk_asks(book, ty, qty, max_price):
@@ -128,6 +152,8 @@ class Planner:
         self.pf = self.sim.pf
         self.home = self.s["hub"]
         self.specs = active_spec(self.spec, self.t)
+        self.station = {h: add_density(df, self.cfg, self.nw) for h, df in self.station.items()}
+        self.imports = add_density(self.imports, self.cfg, self.nw)
 
     def best(self, hub, ty, col):
         top = self.tops.get(hub)
@@ -256,14 +282,14 @@ class Planner:
             need = int(sp["qty"]) - self.held_at(hub, ty)
             if need > 0 and not any(o["hub"] == hub and o["type_id"] == ty and o["side"] == "buy"
                                     for o in self.pf["orders"]):
-                out.append(("spec", ty, need, sp["max_buy"], 1e18))
+                out.append(("spec", ty, need, sp["max_buy"], 0.0, float("inf")))
         have = {o["type_id"] for o in self.pf["orders"] if o["hub"] == hub and o["side"] == "buy"}
         T = self.c["logon_gap_hours"]
         for ty, r in self.station.get(hub, pd.DataFrame()).iterrows():
             if ty in have or ty in avoid:
                 continue
             out.append(("station", int(ty), math.ceil(r.q * T / 24 * 2), buy_cap(self.fees, self.cfg, r.best_ask),
-                        float(r.profit_day)))
+                        float(r.profit_day), float(r.density)))
         return out
 
     # ---- assemble ---------------------------------------------------------------
@@ -317,7 +343,7 @@ class Planner:
         limit = self.s["max_type_frac"] * self.nw
         spec_room = self.s["spec_max_frac"] * self.nw - sum(
             self.exposure(ty) for (_, ty) in self.specs)
-        for hub, tag, ty, qty, cap, prof in sorted(buys, key=lambda b: -b[5]):
+        for hub, tag, ty, qty, cap, prof, _ in sorted(buys, key=lambda b: -b[6]):
             if n_orders + 2 > slots or cash <= 0:
                 break
             bb = self.best(hub, ty, "best_bid")
@@ -328,7 +354,7 @@ class Planner:
             qty = int(min(qty, room, cash / (price * (1 + self.fees.broker))))
             if qty < 1:
                 continue
-            st = self.step("new_buy", hub, prof if prof < 1e18 else 0.0, type_id=ty, qty=qty, cap=cap, ref=bb,
+            st = self.step("new_buy", hub, prof, type_id=ty, qty=qty, cap=cap, ref=bb,
                            target=price, tag=tag)
             if fits([st]):
                 cash -= qty * price * (1 + self.fees.broker)
