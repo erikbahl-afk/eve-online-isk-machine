@@ -1,0 +1,61 @@
+# Tunable parameters. Reviews (Claude) adjust these; every change gets a JOURNAL.md entry.
+
+mode = "practice"            # practice = paper trading on live public data; live = real character
+timezone = "America/Los_Angeles"
+
+[capital]
+start_isk = 5_000_000_000
+
+[skills]
+accounting = 5
+broker_relations = 5
+advanced_broker_relations = 5
+faction_standing = 0.0       # standing with the station owner's faction (Jita 4-4: Caldari State)
+corp_standing = 0.0          # standing with the station owner corp (Jita 4-4: Caldari Navy)
+order_slots = 113            # Trade V + Retail V + Wholesale III (IV = 129)
+
+[fees]
+sales_tax_base = 0.075       # 2025-03 patch: 7.5% base, -11%/level Accounting
+broker_base = 0.03           # NPC station; -0.3%/lvl Broker Relations, -0.03%/faction pt, -0.02%/corp pt
+broker_min = 0.01
+min_fee_isk = 100
+
+[collect]
+hubs = ["jita", "amarr", "dodixie", "rens", "hek"]
+gone_weight = 0.8            # vanished orders at top of book: probability they were bought (vs cancelled)
+max_gone_frac = 0.3          # snapshot sanity: more than this share of orders vanished -> skip the diff
+max_gap_hours = 12           # don't infer trades across longer gaps
+daily_min_isk = 1_000_000    # rows below this daily traded value are not stored
+
+[sim]
+alpha = 0.6                  # share of eligible observed trades we assume we'd have captured
+logon_gap_hours = 48         # typical time between sessions (planning assumption)
+session_seconds = 1800
+partial_prob = 0.2           # chance a simulated session stops early
+partial_min = 0.3
+partial_max = 0.9
+weekday_logons = [1, 2]
+weekend_logons = [1, 2]
+before_work_prob = 0.3       # weekday: 06:15-07:30 vs 18:00-22:00 PT
+# seconds of player time per instruction
+secs_modify = 25
+secs_new_sell = 45
+secs_new_buy = 60
+secs_cancel = 15
+secs_overhead = 120
+
+[strategy]
+hub = "jita"
+plan_seconds = 1500          # leave slack inside the 30 min window
+warmup_hours = 20            # data needed before trading a type
+window_days = 7
+min_margin = 0.06            # net margin after fees, on buy price
+min_daily_profit = 2_000_000 # expected ISK/day for a type to earn its slots and your clicks
+max_type_frac = 0.08         # max share of net worth in one type
+cash_reserve_frac = 0.02
+floor_margin = 0.005         # sell floor = break-even * (1 + this)
+stale_days = 10              # after this, accept a small loss to free capital
+stale_loss = 0.03
+max_price_ratio = 2.5        # skip if ask/bid wider than this (dead or manipulated market)
+vwap_band = 0.25             # recent trade prices must be within +-25% of our target prices
+exclude_types = [44992]      # PLEX (global market)
