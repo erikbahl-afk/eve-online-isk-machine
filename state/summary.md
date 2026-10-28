@@ -1,4 +1,4 @@
-# Summary · Wed 28 Oct 12:15 PDT
+# Summary · Wed 28 Oct 14:21 PDT
 
 Auto-generated every run. Reviewers: start here.
 
@@ -7,10 +7,18 @@ Auto-generated every run. Reviewers: start here.
 - Cash 5.00B · escrow 0.00 · stock 0.00 · in transit 0.00 · orders 0/113
 - Realized P&L 0.00 · sales 0.00 · buys 0.00 · fees: broker 0.00, relist 0.00, tax 0.00, courier 0.00
 - Character at **jita** · import hub: **none yet** · shipments in transit: 0
+- Shelf space in use: slots 0/113 · ISK deployed 0% · last plan 2/25 min (whichever is near 100% is what limits profit)
 
 ## By strategy
 | Strategy | Buys | Sales | Fees | Realized |
 |---|---|---|---|---|
+
+## Strategy experiments (same market, same sessions, different settings)
+| Variant | Net worth | Change | Realized | What it tests |
+|---|---|---|---|---|
+| main | 5.00B | +0.00% | 0.00 | current settings (drives INSTRUCTIONS.md) |
+| no_imports | 5.00B | +0.00% | 0.00 | station trading only: measures what imports add |
+| loose | 5.00B | +0.00% | 0.00 | lower margin bars (4% station, 7% import): more items, thinner edges |
 
 ## Recent sessions
 | When (PT) | Route | Steps done/planned | Minutes | Partial |
@@ -21,19 +29,21 @@ Auto-generated every run. Reviewers: start here.
 |---|---|---|---|---|
 
 ## Hub comparison (expected profit/day of the top 30 types)
-| Hub | Station types | Station top-30 | Import types (from Jita) | Import top-30 |
-|---|---|---|---|---|
-| jita | 0 | - | - | - |
-| amarr | 0 | - | 0 | - |
-| dodixie | 0 | - | 0 | - |
-| rens | 0 | - | 0 | - |
-| hek | 0 | - | 0 | - |
+Market size = ISK/day bought from sell orders at the station (what we'd be selling into).
+
+| Hub | Market size | Station types | Station top-30 | Import types (from Jita) | Import top-30 |
+|---|---|---|---|---|---|
+| jita | 8.59T | 0 | - | - | - |
+| amarr | 1.19T | 0 | - | 0 | - |
+| dodixie | 288.26B | 0 | - | 0 | - |
+| rens | 43.15B | 0 | - | 0 | - |
+| hek | 141.87B | 0 | - | 0 | - |
 
 ## Data health
 | Hub | Orders | Hours today | Prints this run | Note |
 |---|---|---|---|---|
-| jita | 330,011 | 0.2 | 2,702 |  |
-| amarr | 130,146 | 0.2 | 911 |  |
-| dodixie | 68,367 | 0.2 | 330 |  |
-| rens | 31,863 | 0.2 | 76 |  |
-| hek | 41,023 | 0.2 | 124 |  |
+| jita | 329,764 | 2.3 | 9,735 |  |
+| amarr | 130,260 | 2.3 | 3,439 |  |
+| dodixie | 68,474 | 2.3 | 1,724 |  |
+| rens | 31,831 | 2.3 | 664 |  |
+| hek | 41,137 | 2.3 | 925 |  |

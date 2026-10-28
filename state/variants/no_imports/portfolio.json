@@ -1,0 +1,25 @@
+{
+ "cash": 5000000000.0,
+ "created": 1793222513.9307048,
+ "import_hub": null,
+ "in_transit": [],
+ "inventory": {},
+ "last_jump": null,
+ "last_t": 1793222513.9307048,
+ "location": "jita",
+ "next_oid": 1,
+ "orders": [],
+ "per_strategy": {},
+ "per_type": {},
+ "pnl": {
+  "broker": 0.0,
+  "buys": 0.0,
+  "courier": 0.0,
+  "realized": 0.0,
+  "relist": 0.0,
+  "sales": 0.0,
+  "tax": 0.0
+ },
+ "start_isk": 5000000000,
+ "version": 2
+}
