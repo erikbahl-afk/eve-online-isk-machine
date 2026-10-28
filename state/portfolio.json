@@ -1,0 +1,21 @@
+{
+ "cash": 5000000000.0,
+ "created": 1793209927.0295653,
+ "inventory": {},
+ "last_t": 1793209927.0295653,
+ "location": "jita",
+ "next_oid": 1,
+ "orders": [],
+ "per_type": {},
+ "pnl": {
+  "broker": 0.0,
+  "buys": 0.0,
+  "realized": 0.0,
+  "relist": 0.0,
+  "sales": 0.0,
+  "tax": 0.0
+ },
+ "report_week": "2026-W44",
+ "start_isk": 5000000000,
+ "version": 1
+}
