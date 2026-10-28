@@ -123,7 +123,7 @@ def instructions(cfg, plan, names, val, warm_msg=None):
 
 
 def summary(cfg, pf, val, health, sessions, names, station, imports_by_hub, t, stats=None, plan=None,
-            variants=None):
+            variants=None, corner=None):
     s0 = pf["start_isk"]
     pnl = pf["pnl"]
     days = max((t - pf["created"]) / 86400, 1e-9)
@@ -194,6 +194,16 @@ def summary(cfg, pf, val, health, sessions, names, station, imports_by_hub, t, s
             out.append(f"| {names.get(ty, ty)} | {isk(r.src_ask)}→{isk(r.sell)} | {r.vol_m3:,.1f} | "
                        f"{r.margin * 100:.1f}% | {r.q:.1f} | {r.sa:.0%} | {isk(r.profit_day)} | "
                        f"{r.get('limited_by', '-')} |")
+    if corner is not None and len(corner):
+        out += ["", "## Cornerability watchlist (read-only, nothing is traded)",
+                "Buy out the cheapest N sell orders, relist just under the next one (capped where imports "
+                "would kick in). Daily snapshots go to data/corners/ so we can see if these really hold.", "",
+                "| Hub | Item | Best ask | Buy out | Cost | Relist at | Paper profit | ROI | Days to sell | "
+                "Rival updates/day |", "|---|---|---|---|---|---|---|---|---|---|"]
+        for _, r in corner.head(10).iterrows():
+            out.append(f"| {r.hub} | {names.get(int(r.type_id), int(r.type_id))} | {isk(r.best_ask)} | "
+                       f"{int(r.orders)} orders / {int(r.units):,} u | {isk(r.cost)} | {isk(r.relist)} | "
+                       f"{isk(r.profit)} | {r.roi * 100:.0f}% | {r.exit_days:.1f} | {r.refill_day:.1f} |")
     out += ["", "## Data health", "| Hub | Orders | Hours today | Prints this run | Note |", "|---|---|---|---|---|"]
     for hub, h in health.items():
         out.append(f"| {hub} | {h.get('orders', 0):,} | {h.get('hours', 0):.1f} | {h.get('prints', 0):,} | "

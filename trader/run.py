@@ -11,7 +11,7 @@ import time
 import numpy as np
 import pandas as pd
 
-from . import logons, market, render
+from . import corners, logons, market, render
 from .common import CACHE, DATA, HUBS, ROOT, STATE, load_config, load_json, save_json
 from .esi import ESI
 from .fees import Fees
@@ -143,8 +143,10 @@ def main():
         r = run_portfolio(vcfg, STATE / "variants" / v["name"], shared)
         variants[v["name"]] = {"nw": r["val"]["nw_book"], "realized": r["pf"]["pnl"]["realized"], "note": v["note"]}
     r = run_portfolio(cfg, STATE, shared)
-    save_types(names, vols)
     pf, val, plan = r["pf"], r["val"], r["plan"]
+    corner = corners.scan_all(cfg, Fees(cfg), books, stats, tops, val["nw_book"], today)
+    lookup(esi, names, vols, corner.type_id.head(15) if len(corner) else [], [])
+    save_types(names, vols)
 
     hub = cfg["strategy"]["hub"]
     hours = float(stats[hub].hours.max()) if hub in stats and len(stats[hub]) else 0.0
@@ -155,7 +157,7 @@ def main():
     summary = render.summary(cfg, pf, val, health, r["sessions"], names,
                              {h: add_density(df, cfg, val["nw_book"]) for h, df in r["station"].items()},
                              {h: add_density(df, cfg, val["nw_book"]) for h, df in r["imports_by_hub"].items()},
-                             now, stats, plan, variants)
+                             now, stats, plan, variants, corner)
     (STATE / "summary.md").write_text(summary)
     week = dt.date.fromtimestamp(now).isocalendar()
     week = f"{week[0]}-W{week[1]:02d}"

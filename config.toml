@@ -105,6 +105,12 @@ max_m3 = 62_500
 max_collateral = 1_500_000_000
 days = 3.0
 
+[corners]                    # read-only cornerability scanner (no trading)
+min_cost = 20_000_000
+min_roi = 0.15               # paper return if every bought unit resells at the relist price
+max_exit_days = 10           # days of current demand to sell what we'd buy
+max_refill_day = 3           # rival sell-order updates near the top per day
+
 # Strategy experiments: extra paper portfolios run on the same market data and session schedule,
 # each with these settings overridden. Compare them in state/summary.md; promote what wins.
 [[variants]]

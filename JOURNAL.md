@@ -56,3 +56,12 @@
   Promote whatever beats main for about 2 weeks.
 - Queued in STRATEGY.md: exports (reverse trip), seeding empty markets, Perimeter structure buy orders,
   and the sales-tax question (7.5% vs 8% base).
+
+## 2026-10-28 · cornerability scanner (read-only)
+- The user asked when market manipulation becomes viable. Answer: not now. Supply refills, we can't
+  defend a corner with 2–4 logins a week, and paper trading can't simulate the market's reaction.
+  Revisit at about 20B with a small live test (about 5%).
+- Added `trader/corners.py`: per hub, the cheapest buy-out of up to 20 sell orders, relisted just under
+  the next order (capped at import parity, or 1.5× VWAP in Jita). Flags ROI ≥15%, sells within 10 days
+  of demand, ≤3 rival updates/day. Top 10 in the summary; daily top 50 in data/corners/.
+- Later: compare flagged items' prices 1–2 weeks on. Did they hold (cornerable) or refill?

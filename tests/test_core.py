@@ -121,3 +121,14 @@ def test_instant_sell():
     book = pd.DataFrame({"type_id": [7, 7], "is_buy": [True, True], "price": [1.2e6, 0.9e6], "vol": [6, 50]})
     assert sim.instant_sell("jita", 7, 10, 1.0e6, book, 0) == 6  # the 0.9M bid is below the minimum
     assert pf["inventory"]["jita"]["7"]["qty"] == 4 and pf["pnl"]["realized"] > 0
+
+
+def test_corner_scan():
+    from trader import corners
+    book = pd.DataFrame({"order_id": range(4), "type_id": [7] * 4, "is_buy": [False] * 4,
+                         "price": [100e6, 101e6, 102e6, 150e6], "vol": [1, 1, 1, 5],
+                         "issued": [0] * 4, "duration": [90] * 4})
+    stats = pd.DataFrame({"A": [1.0], "vwap_a": [110e6], "lam_a": [0.01]}, index=[7])
+    out = corners.scan(CFG, Fees(CFG), "jita", book, stats, pd.DataFrame(columns=["best_ask"]), 5e9)
+    r = out.iloc[0]
+    assert r.orders == 3 and r.cost == 303e6 and r.relist == tick_down(150e6) and r.roi > 0.3
