@@ -1,4 +1,4 @@
-# Summary · Wed 28 Oct 10:53 PDT
+# Summary · Wed 28 Oct 12:03 PDT
 
 Auto-generated every run. Reviewers: start here.
 
@@ -31,8 +31,8 @@ Auto-generated every run. Reviewers: start here.
 ## Data health
 | Hub | Orders | Hours today | Prints this run | Note |
 |---|---|---|---|---|
-| jita | 329,941 | 0.0 | 0 | no new data since last run |
-| amarr | 130,219 | 0.0 | 0 | no new data since last run |
-| dodixie | 68,464 | 0.0 | 0 | no new data since last run |
-| rens | 31,933 | 0.0 | 0 | no new data since last run |
-| hek | 41,017 | 0.0 | 0 | no new data since last run |
+| jita | 329,836 | 1.2 | 6,427 |  |
+| amarr | 130,255 | 1.2 | 2,287 |  |
+| dodixie | 68,339 | 1.2 | 1,317 |  |
+| rens | 31,868 | 1.2 | 398 |  |
+| hek | 41,031 | 1.2 | 407 |  |

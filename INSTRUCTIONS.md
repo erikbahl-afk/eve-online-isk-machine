@@ -3,11 +3,11 @@
 
 # Session checklist
 
-**Updated:** Wed 28 Oct 10:53 PDT · **Be docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
+**Updated:** Wed 28 Oct 12:03 PDT · **Be docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
 **Steps:** 0 · **Est. time:** 2 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
-_Warming up: 0 of 20 hours of market data collected._
+_Warming up: 1 of 20 hours of market data collected._
 
 **Ticks:** prices keep 4 significant digits, so "1 tick below 12,340,000" is 12,330,000. "Lowest/highest" means *other people's* best order (yours is highlighted).
 
