@@ -1,4 +1,5 @@
 name: market-run
+# Snapshot hubs, paper-trade, regenerate INSTRUCTIONS.md
 
 on:
   schedule:
