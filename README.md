@@ -49,3 +49,6 @@ Run the tests with `pip install -r requirements.txt && python -m pytest -q`.
   cron in `.github/workflows/market.yml` back to every 3 hours to stay within the free
   2,000 Actions minutes a month.
 - Set `mode = "live"` in `config.toml`, and enter the verified fees, slots and standings from `CHECKS.md`.
+- Write `PLAYBOOK.md` for the user: which tools to install to speed up sessions (EULA-safe only:
+  no input automation) and exact click-by-click steps for every checklist action (modify,
+  list, buy order, market buy, courier contract, jump clone), plus the window layout to use.
