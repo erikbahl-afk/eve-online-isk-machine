@@ -233,14 +233,15 @@ class Sim:
     def courier(self, src, dst, type_ids, vols, t):
         """Ship hangar stock of type_ids from src to dst; shipping is added to unit cost."""
         r = self.cfg["routes"][dst]
+        n_max = self.cfg["strategy"]["max_contracts"]
         items, value, m3 = [], 0.0, 0.0
         for ty in type_ids:
             it = self.inv(src, ty)
             if not it:
                 continue
             v = vols.get(ty, 0.0)
-            room = int(min((r["max_m3"] - m3) / v if v > 0 else it["qty"],
-                           (r["max_collateral"] - value) / it["cost"]))
+            room = int(min((r["max_m3"] * n_max - m3) / v if v > 0 else it["qty"],
+                           (r["max_collateral"] * n_max - value) / it["cost"]))
             q, cost, _, _ = self._inv_take(src, ty, min(it["qty"], room))
             if q <= 0:
                 continue
@@ -249,7 +250,8 @@ class Sim:
             m3 += q * v
         if not items:
             return None
-        fee = max(r["min_fee"], r["per_m3"] * m3) + r["collateral_pct"] * value
+        n = max(1, math.ceil(value / r["max_collateral"] - 1e-9), math.ceil(m3 / r["max_m3"] - 1e-9))
+        fee = n * r["contract_fee"]
         for it in items:
             it["cost"] += fee * (it["cost"] / value)  # spread by value
         self.pf["cash"] -= fee

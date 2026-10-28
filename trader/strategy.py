@@ -75,12 +75,15 @@ def import_candidates(cfg, fees, src_top, dst_stats, dst_top, vols, route, start
     df = df.assign(sell=df.best_ask.map(tick_down))
     df["vol_m3"] = [vols.get(int(t), np.nan) for t in df.index]
     v = df.vol_m3.fillna(0.0)
-    df["ship_unit"] = v * route["per_m3"] + route["collateral_pct"] * df.src_ask
+    # each unit pays its share of a full contract, by collateral or by volume, whichever binds
+    fee, C, M = route["contract_fee"], route["max_collateral"], route["max_m3"]
+    df["ship_unit"] = fee * np.maximum(df.src_ask / C, v / M)
     net = df.sell * (1 - fees.tax - fees.broker)
     df["unit_margin"] = net - df.src_ask - df.ship_unit
     df["margin"] = df.unit_margin / df.src_ask
-    df["max_price"] = ((net - v * route["per_m3"]) / (1 + s["min_import_margin"] + route["collateral_pct"])
-                       ).map(lambda p: valid_down(p) if p > 0 else 0.0)
+    m = s["min_import_margin"]
+    cap = np.minimum(net / (1 + m + fee / C), (net - fee * v / M) / (1 + m))
+    df["max_price"] = cap.map(lambda p: valid_down(p) if p > 0 else 0.0)
     df["sa"] = surv_avg(_lam4(df, "a"), T, start_w)
     df["q"] = cfg["sim"]["alpha"] * df.A * df.sa
     relist = 24 / T * (1 - fees.relist_discount) * fees.broker * df.sell * df.q * T / 24 * (1 - df.sa)
@@ -209,6 +212,7 @@ class Planner:
         T = self.c["logon_gap_hours"] + route["days"] * 24
         steps, value, m3, profit = [], 0.0, 0.0, 0.0
         limit = self.s["max_type_frac"] * self.nw
+        max_val, max_m3 = route["max_collateral"] * self.s["max_contracts"], route["max_m3"] * self.s["max_contracts"]
         waiting = [int(k) for k, it in self.pf["inventory"].get(hub, {}).items() if it.get("tag") == "import"]
         for ty, r in self.imports.iterrows():
             if len(steps) >= self.s["max_import_types"]:
@@ -218,8 +222,8 @@ class Planner:
             want = min(want, int((limit - self.exposure(ty)) / r.src_ask))
             vol = r.vol_m3 if not np.isnan(r.vol_m3) else 0.0
             if vol > 0:
-                want = min(want, int((route["max_m3"] - m3) / vol))
-            want = min(want, int((route["max_collateral"] - value) / r.src_ask))
+                want = min(want, int((max_m3 - m3) / vol))
+            want = min(want, int((max_val - value) / r.src_ask))
             if want < 1:
                 continue
             got, avg = walk_asks(book, ty, want, r.max_price)
@@ -230,13 +234,18 @@ class Planner:
             value += avg * got
             m3 += vol * got
             profit += r.profit_day
-        if value < route["min_fee"] / self.s["max_ship_cost_frac"] and not waiting:
-            return None  # shipment too small to be worth the courier minimum
+        waiting_val = sum(self.pf["inventory"][hub][str(t)]["qty"] * self.pf["inventory"][hub][str(t)]["cost"]
+                          for t in waiting)
+        n = contracts(route, value + waiting_val, m3)
+        fill = max((value + waiting_val) / (n * route["max_collateral"]), m3 / (n * route["max_m3"]))
+        if fill < self.s["min_contract_fill"] and not waiting:
+            return None  # too little to fill a contract; the fee would eat the margin
         tys = [s["type_id"] for s in steps] + [t for t in waiting if t not in {s["type_id"] for s in steps}]
-        est_fee = max(route["min_fee"], route["per_m3"] * m3) + route["collateral_pct"] * value
-        steps.append(self.step("courier", hub, 0.0, to=dst, type_ids=tys, est_value=value, est_m3=m3,
-                               est_fee=est_fee))
-        return {"steps": steps, "value": profit, "cash": value + est_fee}
+        steps.append(self.step("courier", hub, 0.0, to=dst, type_ids=tys, est_value=value + waiting_val,
+                               est_m3=m3, contracts=n, est_fee=n * route["contract_fee"],
+                               service=route.get("service", "the courier service")))
+        steps[-1]["secs"] *= n
+        return {"steps": steps, "value": profit, "cash": value + n * route["contract_fee"]}
 
     # ---- new buy orders --------------------------------------------------------
     def new_buys(self, hub, avoid):
@@ -341,6 +350,11 @@ class Planner:
             st["n"] = i
         return {"generated": self.t, "hub": L, "location": L, "other": O, "steps": steps,
                 "est_secs": used + self.c["secs_overhead"]}
+
+
+def contracts(route, value, m3):
+    """Courier contracts needed: each holds at most max_collateral of value and max_m3."""
+    return max(1, math.ceil(value / route["max_collateral"] - 1e-9), math.ceil(m3 / route["max_m3"] - 1e-9))
 
 
 def choose_import_hub(cfg, imports_by_hub, current):

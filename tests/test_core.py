@@ -107,7 +107,7 @@ def test_import_courier_flow():
     book = pd.DataFrame({"type_id": [7, 7], "is_buy": [False, False], "price": [1e6, 1.1e6], "vol": [5, 5]})
     assert sim.instant_buy("jita", 7, 8, 1.05e6, book, 0) == 5  # second order above max price
     c = sim.courier("jita", "amarr", [7], {7: 10.0}, 0)
-    assert c and c["fee"] >= CFG["routes"]["amarr"]["min_fee"] and not pf["inventory"]["jita"]
+    assert c and c["fee"] == CFG["routes"]["amarr"]["contract_fee"] and not pf["inventory"]["jita"]
     sim.arrivals(c["arrive"] + 1)
     it = pf["inventory"]["amarr"]["7"]
     assert it["qty"] == 5 and it["cost"] > 1e6 and it["tag"] == "import"

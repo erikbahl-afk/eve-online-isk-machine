@@ -53,7 +53,8 @@ import_hub = "auto"          # auto | amarr | dodixie | rens | hek | none. auto 
 jump_cooldown_hours = 19     # assumes Infomorph Synchronizing V (unverified, see CHECKS.md)
 min_import_margin = 0.10     # imports tie capital up in transit, so they need a higher margin
 max_import_types = 12        # per session (time: 40 s each + courier contract)
-max_ship_cost_frac = 0.03    # don't ship unless the courier minimum is <= 3% of the cargo value
+max_contracts = 2             # courier contracts per session (3 min each)
+min_contract_fill = 0.6       # ship only if contracts are at least 60% full (by collateral or m3)
 spec_max_frac = 0.10         # cap on speculation positions (state/spec.json)
 plan_seconds = 1500          # leave slack inside the 30 min window
 warmup_hours = 20            # data needed before trading a type
@@ -69,36 +70,34 @@ max_price_ratio = 2.5        # skip if ask/bid wider than this (dead or manipula
 vwap_band = 0.25             # recent trade prices must be within +-25% of our target prices
 exclude_types = [44992]      # PLEX (global market)
 
-# Courier pricing from Jita (ESTIMATES, to be checked against PushX / Red Frog quotes).
-# fee = max(min_fee, per_m3 * m3) + collateral_pct * value. Couriers repay collateral if lost.
+# Courier pricing from Jita: PushX BR/DST published rates (pushx.net/rates.php, checked 2026-10-28):
+# 1.5M ISK per warp (jumps + 1), x1 up to 1.5B collateral, x2+ above. Contracts of <= 1.5B each are
+# cheapest. Red Frog (red-frog.org/api/quote) is dearer for these loads: Amarr 73M, Dodixie 35M,
+# Rens 53M, Hek 43M per contract. Couriers repay the collateral if the cargo is lost.
 [routes.amarr]
-min_fee = 15_000_000
-per_m3 = 400
-collateral_pct = 0.01
-max_m3 = 60_000
-max_collateral = 3_000_000_000
-days = 2.0
+service = "PushX"
+contract_fee = 69_000_000     # 45 jumps
+max_m3 = 62_500
+max_collateral = 1_500_000_000
+days = 3.0                    # PushX queue was about 130 contracts / 48 done per day
 
 [routes.dodixie]
-min_fee = 10_000_000
-per_m3 = 250
-collateral_pct = 0.01
-max_m3 = 60_000
-max_collateral = 3_000_000_000
-days = 1.5
+service = "PushX"
+contract_fee = 24_000_000     # 15 jumps
+max_m3 = 62_500
+max_collateral = 1_500_000_000
+days = 2.5
 
 [routes.rens]
-min_fee = 12_000_000
-per_m3 = 300
-collateral_pct = 0.01
-max_m3 = 60_000
-max_collateral = 3_000_000_000
-days = 2.0
+service = "PushX"
+contract_fee = 39_000_000     # 25 jumps
+max_m3 = 62_500
+max_collateral = 1_500_000_000
+days = 3.0
 
 [routes.hek]
-min_fee = 12_000_000
-per_m3 = 300
-collateral_pct = 0.01
-max_m3 = 60_000
-max_collateral = 3_000_000_000
-days = 2.0
+service = "PushX"
+contract_fee = 30_000_000     # 19 jumps
+max_m3 = 62_500
+max_collateral = 1_500_000_000
+days = 3.0

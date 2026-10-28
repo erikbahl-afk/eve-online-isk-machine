@@ -22,3 +22,10 @@
 - Reset `state/metrics.csv` to the new columns (it held only no-trade warmup rows).
 - Next: once warmed up, check that the import candidates are real items with sane m³ and margins,
   and verify the courier prices (CHECKS.md section 6).
+
+## 2026-10-28 · real courier prices
+- PushX (pushx.net/rates.php): 1.5M/warp up to 1.5B collateral → per contract from Jita: Amarr 69M,
+  Dodixie 24M, Rens 39M, Hek 30M. Red Frog API: 73M / 35M / 53M / 43M (≤1.5B, ≤845k m³, up to 7 days).
+- The model now charges per contract (≤1.5B, ≤62.5k m³ each), up to 2 contracts per session, and ships
+  only when the contracts are ≥60% full. The old guesses badly underpriced Amarr (about 4.6% of
+  cargo value per full contract versus 1.6% for Dodixie), so expect Dodixie or Hek to win the import-hub choice.

@@ -71,11 +71,13 @@ def _hub_section(cfg, steps, names, hub):
             for s in gs:
                 dest = HUBS[s["to"]]["name"]
                 items = ", ".join(_item(names, t) for t in s["type_ids"])
-                out += [f"{s['n']}. ☐ **Courier contract** → {dest}. Contracts → Create Contract → Courier. "
-                        f"Add every item bought above plus any import stock already in the hangar ({items}). "
-                        f"Collateral: the value the window suggests (about {isk(s['est_value'])}). Assign it to "
-                        f"the courier service; their calculator gives the reward (estimated {isk(s['est_fee'])} "
-                        f"for about {s['est_m3']:,.0f} m³). Expiration 1 week, 3 days to complete."]
+                n = s.get("contracts", 1)
+                out += [f"{s['n']}. ☐ **{n} courier contract{'s' if n > 1 else ''} via {s.get('service', 'PushX')}"
+                        f"** → {dest}. Items: everything bought above plus any import stock already in the hangar "
+                        f"({items}); total about {isk(s['est_value'])}, {s['est_m3']:,.0f} m³. "
+                        f"Split it so each contract's collateral is at most 1.5B. Get the reward from the "
+                        f"PushX quote page (about {isk(s['est_fee'] / n)} each), then Contracts → Create "
+                        "Contract → Courier, assign to PushX's corporation, expiration 7 days, 7 days to complete."]
         out.append("")
     return out
 

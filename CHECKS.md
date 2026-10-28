@@ -37,11 +37,6 @@ value shown on hover. **[values]**
 2. If not available, note which player structure in Jita (e.g. the Perimeter Keepstar) you
    can dock at and whether it has a clone bay. **[name, yes/no]**
 
-## 6. Courier prices (out of game, 3 min)
-In the PushX and Red Frog rate calculators (their websites), get quotes **from Jita** to each of
-Amarr, Dodixie, Rens and Hek for:
-- a small load: 5,000 m³ with 1B collateral
-- a large load: 50,000 m³ with 3B collateral
-
-Note the **[reward, days to deliver, maximum m³ and collateral]** for each route.
-(If those sites are added to this environment's allowed domains, Claude can look these up instead.)
+## 6. Courier prices: done by Claude (2026-10-28)
+PushX publishes 1.5M ISK per warp, up to 1.5B collateral and 62,500 m³ per contract. Red Frog's
+API quotes higher for these loads. Re-check occasionally; the rates live in `config.toml` `[routes.*]`.
