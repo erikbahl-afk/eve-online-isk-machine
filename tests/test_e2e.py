@@ -97,6 +97,8 @@ def test_pipeline(tmp_path, monkeypatch):
     assert pf["pnl"]["broker"] > 0, "never placed an order"
     assert pf["import_hub"] == "amarr" and pf["pnl"]["courier"] > 0, "never shipped an import"
     assert any(s.get("to") != s.get("from") for s in sessions), "never jumped"
+    v = common.load_json(tmp_path / "state" / "variants" / "no_imports" / "portfolio.json", None)
+    assert v and v["pnl"]["courier"] == 0 and v["pnl"]["broker"] > 0, "variant didn't trade independently"
     assert (tmp_path / "INSTRUCTIONS.md").read_text().startswith("> **PRACTICE MODE")
     assert list((tmp_path / "data" / "daily").glob("*.csv.gz"))
     print(open(tmp_path / "state" / "summary.md").read())

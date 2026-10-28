@@ -230,6 +230,38 @@ class Sim:
             self.ledger.append((t, "market_buy", hub, type_id, take, cost / take, -cost, ""))
         return take
 
+    def instant_sell(self, hub, type_id, qty, min_price, book, t):
+        """Sell hangar stock into the best buy orders at or above min_price."""
+        it = self.inv(hub, type_id)
+        if not it:
+            return 0
+        bids = book[(book.type_id == type_id) & book.is_buy & (book.price >= min_price)]
+        bids = bids.sort_values("price", ascending=False)
+        sold, gross = 0, 0.0
+        for p, v in zip(bids.price, bids.vol):
+            k = min(int(v), min(qty, it["qty"]) - sold)
+            if k <= 0:
+                break
+            sold += k
+            gross += k * p
+        if not sold:
+            return 0
+        _, cost, _, tag = self._inv_take(hub, type_id, sold)
+        tax = self.fees.tax * gross
+        gain = gross - tax - cost * sold
+        self.pf["cash"] += gross - tax
+        self.pf["pnl"]["tax"] += tax
+        self.pf["pnl"]["sales"] += gross
+        self.pf["pnl"]["realized"] += gain
+        pt, ps = self._pt(hub, type_id), self._ps(tag)
+        pt["sold_units"] += sold
+        pt["sold_net"] += gross - tax
+        pt["realized"] += gain
+        ps["sales"] += gross
+        ps["realized"] += gain
+        self.ledger.append((t, "market_sell", hub, type_id, sold, gross / sold, gross - tax, ""))
+        return sold
+
     def courier(self, src, dst, type_ids, vols, t):
         """Ship hangar stock of type_ids from src to dst; shipping is added to unit cost."""
         r = self.cfg["routes"][dst]
@@ -341,6 +373,8 @@ class Sim:
                 if len(self.pf["orders"]) >= slots or np.isnan(bb) or bb >= st["cap"]:
                     continue  # rivals already at or above our cap
                 self.place_buy(hub, ty, st["qty"], min(st["cap"], tick_up(bb)), t, st.get("tag", "station"))
+            elif k == "instant_sell" and hub in books:
+                self.instant_sell(hub, ty, st["qty"], st["min_price"], books[hub], t)
             elif k == "instant_buy" and hub in books:
                 self.instant_buy(hub, ty, st["qty"], st["max_price"], books[hub], t)
             elif k == "courier":

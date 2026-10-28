@@ -134,21 +134,64 @@ def main():
     stats = {h: market.build_stats(h, frames, today_frame) for h in tops}
     start_w = logons.start_profile(cfg, now)
 
-    pf = load_json(STATE / "portfolio.json", None) or new_portfolio(cfg, now)
+    names, vols = load_types()
+    shared = {"esi": esi, "now": now, "tops": tops, "books": books, "prints": prints, "intervals": intervals,
+              "stats": stats, "start_w": start_w, "names": names, "vols": vols}
+    variants = {}
+    for v in cfg.get("variants", []):
+        vcfg = merge(cfg, {k: val for k, val in v.items() if k not in ("name", "note")})
+        r = run_portfolio(vcfg, STATE / "variants" / v["name"], shared)
+        variants[v["name"]] = {"nw": r["val"]["nw_book"], "realized": r["pf"]["pnl"]["realized"], "note": v["note"]}
+    r = run_portfolio(cfg, STATE, shared)
+    save_types(names, vols)
+    pf, val, plan = r["pf"], r["val"], r["plan"]
+
+    hub = cfg["strategy"]["hub"]
+    hours = float(stats[hub].hours.max()) if hub in stats and len(stats[hub]) else 0.0
+    warm = None
+    if hours < cfg["strategy"]["warmup_hours"]:
+        warm = f"Warming up: {hours:.0f} of {cfg['strategy']['warmup_hours']} hours of market data collected."
+    (ROOT / "INSTRUCTIONS.md").write_text(render.instructions(cfg, plan, names, val, warm))
+    summary = render.summary(cfg, pf, val, health, r["sessions"], names,
+                             {h: add_density(df, cfg, val["nw_book"]) for h, df in r["station"].items()},
+                             {h: add_density(df, cfg, val["nw_book"]) for h, df in r["imports_by_hub"].items()},
+                             now, stats, plan, variants)
+    (STATE / "summary.md").write_text(summary)
+    week = dt.date.fromtimestamp(now).isocalendar()
+    week = f"{week[0]}-W{week[1]:02d}"
+    if pf.get("report_week") and pf["report_week"] != week:
+        (ROOT / "reports" / f"{pf['report_week']}.md").write_text(summary)
+    pf["report_week"] = week
+    save_json(STATE / "portfolio.json", pf)
+    print(summary)
+
+
+def merge(base, over):
+    out = dict(base)
+    for k, v in over.items():
+        out[k] = merge(base.get(k, {}), v) if isinstance(v, dict) else v
+    return out
+
+
+def run_portfolio(cfg, sdir, sh):
+    """Advance one paper portfolio (fills, a due session, a new plan) and save it under sdir."""
+    sdir.mkdir(parents=True, exist_ok=True)
+    now, tops, books, stats, names, vols = sh["now"], sh["tops"], sh["books"], sh["stats"], sh["names"], sh["vols"]
+    fees = Fees(cfg)
+    pf = load_json(sdir / "portfolio.json", None) or new_portfolio(cfg, now)
     ledger = []
     sim = Sim(cfg, pf, fees, np.random.default_rng(int(now)), ledger)
     sim.arrivals(now)
-    for h, (t0, t1) in intervals.items():
-        sim.apply_fills(h, prints[h], stats[h], t0, t1)
+    for h, (t0, t1) in sh["intervals"].items():
+        sim.apply_fills(h, sh["prints"][h], stats[h], t0, t1)
 
-    names, vols = load_types()
     hub = cfg["strategy"]["hub"]
-    sched = logons.ensure(cfg, load_json(STATE / "logons.json", []), now)
-    sessions = load_json(STATE / "sessions.json", [])
+    sched = logons.ensure(cfg, load_json(sdir / "logons.json", []), now)
+    sessions = load_json(sdir / "sessions.json", [])
     due = logons.due(sched, now)
     if due and pf["location"] in tops:
         e = due[-1]
-        plan_prev = load_json(STATE / "plan.json", {"steps": []})
+        plan_prev = load_json(sdir / "plan.json", {"steps": []})
         loc0 = pf["location"]
         done, used = sim.execute(plan_prev, tops, books, vols, now, cfg["sim"]["session_seconds"] * e["frac"])
         for x in due:
@@ -160,16 +203,16 @@ def main():
     val = sim.valuation(tops)
     spec = load_json(STATE / "spec.json", [])
     spec_types = {int(e["type_id"]) for e in spec if e.get("active", True)}
-    station = {h: candidates(cfg, fees, stats[h], tops[h], start_w, spec_types) for h in tops}
+    station = {h: candidates(cfg, fees, stats[h], tops[h], sh["start_w"], spec_types) for h in tops}
     imports_by_hub = {}
     if hub in tops:
         for h in tops:
             if h == hub or h not in cfg["routes"]:
                 continue
             args = (cfg, fees, tops[hub], stats[h], tops[h])
-            rough = import_candidates(*args, vols, cfg["routes"][h], start_w, spec_types)
-            lookup(esi, names, vols, [], rough.index[:150])
-            imports_by_hub[h] = import_candidates(*args, vols, cfg["routes"][h], start_w, spec_types)
+            rough = import_candidates(*args, vols, cfg["routes"][h], sh["start_w"], spec_types)
+            lookup(sh["esi"], names, vols, [], rough.index[:150])
+            imports_by_hub[h] = import_candidates(*args, vols, cfg["routes"][h], sh["start_w"], spec_types)
     pf["import_hub"] = choose_import_hub(cfg, imports_by_hub, pf.get("import_hub"))
     imports = imports_by_hub.get(pf["import_hub"], pd.DataFrame())
 
@@ -179,43 +222,25 @@ def main():
         need |= {int(k) for k in h}
     for df in list(station.values()) + list(imports_by_hub.values()):
         need |= {int(i) for i in df.index[:60]}
-    lookup(esi, names, vols, need, [])
-    save_types(names, vols)
+    lookup(sh["esi"], names, vols, need, [])
 
     plan = Planner({"cfg": cfg, "fees": fees, "sim": sim, "t": now, "nw": val["nw_book"], "names": names,
-                    "tops": tops, "stats": stats, "books": books, "vols": vols, "start_w": start_w,
+                    "tops": tops, "stats": stats, "books": books, "vols": vols, "start_w": sh["start_w"],
                     "station": station, "imports": imports, "import_hub": pf["import_hub"],
                     "spec": spec}).plan()
-
-    hours = float(stats[hub].hours.max()) if hub in stats and len(stats[hub]) else 0.0
-    warm = None
-    if hours < cfg["strategy"]["warmup_hours"]:
-        warm = f"Warming up: {hours:.0f} of {cfg['strategy']['warmup_hours']} hours of market data collected."
-
-    (ROOT / "INSTRUCTIONS.md").write_text(render.instructions(cfg, plan, names, val, warm))
-    summary = render.summary(cfg, pf, val, health, sessions, names,
-                             {h: add_density(df, cfg, val["nw_book"]) for h, df in station.items()},
-                             {h: add_density(df, cfg, val["nw_book"]) for h, df in imports_by_hub.items()},
-                             now, stats, plan)
-    (STATE / "summary.md").write_text(summary)
-    week = dt.date.fromtimestamp(now).isocalendar()
-    week = f"{week[0]}-W{week[1]:02d}"
-    if pf.get("report_week") and pf["report_week"] != week:
-        (ROOT / "reports" / f"{pf['report_week']}.md").write_text(summary)
-    pf["report_week"] = week
     pf["last_t"] = now
-
-    save_json(STATE / "portfolio.json", pf)
-    save_json(STATE / "plan.json", plan)
-    save_json(STATE / "logons.json", sched)
-    save_json(STATE / "sessions.json", sessions)
-    append_csv(STATE / "ledger.csv", LEDGER_COLS, [(int(r[0]), *r[1:]) for r in ledger])
-    append_csv(STATE / "metrics.csv", ["t", "cash", "escrow", "stock_cost", "transit", "nw_book", "nw_liquid",
-                                       "realized", "orders", "esi_calls"],
+    save_json(sdir / "portfolio.json", pf)
+    save_json(sdir / "plan.json", plan)
+    save_json(sdir / "logons.json", sched)
+    save_json(sdir / "sessions.json", sessions)
+    append_csv(sdir / "ledger.csv", LEDGER_COLS, [(int(r[0]), *r[1:]) for r in ledger])
+    append_csv(sdir / "metrics.csv", ["t", "cash", "escrow", "stock_cost", "transit", "nw_book", "nw_liquid",
+                                      "realized", "orders", "esi_calls"],
                [(int(now), *(round(val[k]) for k in ("cash", "escrow", "stock_cost", "transit", "nw_book",
-                                                      "nw_liquid")),
-                 round(pf["pnl"]["realized"]), len(pf["orders"]), esi.calls)])
-    print(summary)
+                                                     "nw_liquid")),
+                 round(pf["pnl"]["realized"]), len(pf["orders"]), sh["esi"].calls)])
+    return {"pf": pf, "val": val, "plan": plan, "sessions": sessions, "station": station,
+            "imports_by_hub": imports_by_hub}
 
 
 if __name__ == "__main__":

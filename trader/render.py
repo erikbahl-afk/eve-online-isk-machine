@@ -19,13 +19,15 @@ GROUPS = {
     1: ("Fix undercut sell orders", "My Orders → Selling, sorted by Type. Right-click → Modify Order. "
         "If yours is already the lowest, skip."),
     2: ("List new stock", "Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Duration 3 months."),
-    3: ("Fix outbid buy orders", "My Orders → Buying, sorted by Type. Right-click → Modify Order. "
+    3: ("Sell straight to buy orders", "The buy price here is close to what listing would net, so take it now: "
+        "hangar → right-click → Sell This Item (Immediate). Only fill buy orders at or above the minimum."),
+    4: ("Fix outbid buy orders", "My Orders → Buying, sorted by Type. Right-click → Modify Order. "
         "If yours is already the highest, skip."),
-    4: ("Cancel buy orders", "My Orders → Buying. Right-click → Cancel Order."),
-    5: ("New buy orders", "Market → search item → Place Buy Order. Range: Station. Duration: 3 months. "
+    5: ("Cancel buy orders", "My Orders → Buying. Right-click → Cancel Order."),
+    6: ("New buy orders", "Market → search item → Place Buy Order. Range: Station. Duration: 3 months. "
         "Skip if the highest buy is already at or above the cap."),
-    6: ("Buy for import", "Market → search item → Buy. Only take sell orders in this station, never above the max."),
-    7: ("Ship to the other hub", ""),
+    7: ("Buy for import", "Market → search item → Buy. Only take sell orders in this station, never above the max."),
+    8: ("Ship to the other hub", ""),
 }
 
 
@@ -51,19 +53,23 @@ def _hub_section(cfg, steps, names, hub):
             out += [f"| {s['n']} | ☐ {_item(names, s['type_id'])} | {s['qty']:,} | **{_p(s['target'])}** | "
                     f"{_p(s['floor'])} | {_p(s['ref'])} |" for s in gs]
         elif g == 3:
+            out += ["| # | Item | Qty | Accept no less than | Highest buy when written |", "|---|---|---|---|---|"]
+            out += [f"| {s['n']} | ☐ {_item(names, s['type_id'])} | {s['qty']:,} | **{_p(s['min_price'])}** | "
+                    f"{_p(s['ref'])} |" for s in gs]
+        elif g == 4:
             out += ["| # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |",
                     "|---|---|---|---|---|---|"]
             out += [f"| {s['n']} | ☐ {_item(names, s['type_id'])} | {_p(s['mine'])} | **{_p(s['target'])}** | "
                     f"{_p(s['cap'])} | {_p(s['ref'])} |" for s in gs]
-        elif g == 4:
+        elif g == 5:
             out += ["| # | Item | Your price |", "|---|---|---|"]
             out += [f"| {s['n']} | ☐ {_item(names, s['type_id'])} | {_p(s['mine'])} |" for s in gs]
-        elif g == 5:
+        elif g == 6:
             out += ["| # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |",
                     "|---|---|---|---|---|---|"]
             out += [f"| {s['n']} | ☐ {_item(names, s['type_id'])}{' (spec)' if s.get('tag') == 'spec' else ''} | "
                     f"{s['qty']:,} | **{_p(s['target'])}** | {_p(s['cap'])} | {_p(s['ref'])} |" for s in gs]
-        elif g == 6:
+        elif g == 7:
             out += ["| # | Item | Qty | Max price per unit | Lowest when written |", "|---|---|---|---|---|"]
             out += [f"| {s['n']} | ☐ {_item(names, s['type_id'])} | {s['qty']:,} | **{_p(s['max_price'])}** | "
                     f"{_p(s['ref'])} |" for s in gs]
@@ -116,7 +122,8 @@ def instructions(cfg, plan, names, val, warm_msg=None):
     return "\n".join(out)
 
 
-def summary(cfg, pf, val, health, sessions, names, station, imports_by_hub, t, stats=None, plan=None):
+def summary(cfg, pf, val, health, sessions, names, station, imports_by_hub, t, stats=None, plan=None,
+            variants=None):
     s0 = pf["start_isk"]
     pnl = pf["pnl"]
     days = max((t - pf["created"]) / 86400, 1e-9)
@@ -138,6 +145,13 @@ def summary(cfg, pf, val, health, sessions, names, station, imports_by_hub, t, s
     out += ["## By strategy", "| Strategy | Buys | Sales | Fees | Realized |", "|---|---|---|---|---|"]
     for tag, v in sorted(pf["per_strategy"].items()):
         out.append(f"| {tag} | {isk(v['buys'])} | {isk(v['sales'])} | {isk(v['fees'])} | {isk(v['realized'])} |")
+    if variants:
+        out += ["", "## Strategy experiments (same market, same sessions, different settings)",
+                "| Variant | Net worth | Change | Realized | What it tests |", "|---|---|---|---|---|"]
+        for name, v in [("main", {"nw": val["nw_book"], "realized": pnl["realized"],
+                                  "note": "current settings (drives INSTRUCTIONS.md)"})] + list(variants.items()):
+            out.append(f"| {name} | {isk(v['nw'])} | {(v['nw'] / s0 - 1) * 100:+.2f}% | {isk(v['realized'])} | "
+                       f"{v['note']} |")
     out += ["", "## Recent sessions", "| When (PT) | Route | Steps done/planned | Minutes | Partial |",
             "|---|---|---|---|---|"]
     for e in sessions[-8:]:

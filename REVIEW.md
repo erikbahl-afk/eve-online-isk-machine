@@ -16,7 +16,10 @@ plan. Prefer one well-reasoned change over many small ones.
 4. **Performance.** Compare net worth and realized P&L with the previous journal entry. Look at
    the worst items: are we losing to fees, to stale stock, or to bad picks? Is cash sitting idle
    while candidates go unused (raise sizing), or are we running out of slots or time?
-5. **Decide at most 1–2 changes** (`config.toml` parameters or code), each with a hypothesis
+5. **Experiments.** Compare the variants in the summary. If one has beaten main for about 2 weeks,
+   promote its settings into the main config and start a new experiment (see STRATEGY.md open
+   questions). Keep 2–3 variants.
+   **Decide at most 1–2 changes** (`config.toml` parameters or code), each with a hypothesis
    and a way to tell whether it worked. Don't retune something before it has had about 3 days
    to show results.
 6. **Speculation (Friday reviews only, at most 3 web searches).** Look for upcoming EVE changes:

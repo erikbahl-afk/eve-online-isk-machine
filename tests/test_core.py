@@ -112,3 +112,12 @@ def test_import_courier_flow():
     it = pf["inventory"]["amarr"]["7"]
     assert it["qty"] == 5 and it["cost"] > 1e6 and it["tag"] == "import"
     assert sim.jump("amarr", 0) and not sim.jump("jita", 3600) and pf["location"] == "amarr"
+
+
+def test_instant_sell():
+    pf = new_portfolio(CFG, 0)
+    sim = Sim(CFG, pf, Fees(CFG), np.random.default_rng(1), [])
+    sim._inv_add("jita", 7, 10, 1e6, 0, "station")
+    book = pd.DataFrame({"type_id": [7, 7], "is_buy": [True, True], "price": [1.2e6, 0.9e6], "vol": [6, 50]})
+    assert sim.instant_sell("jita", 7, 10, 1.0e6, book, 0) == 6  # the 0.9M bid is below the minimum
+    assert pf["inventory"]["jita"]["7"]["qty"] == 4 and pf["pnl"]["realized"] > 0

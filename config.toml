@@ -69,6 +69,9 @@ stale_loss = 0.03
 max_price_ratio = 2.5        # skip if ask/bid wider than this (dead or manipulated market)
 vwap_band = 0.25             # recent trade prices must be within +-25% of our target prices
 exclude_types = [44992]      # PLEX (global market)
+max_trend_drop = 0.10        # skip new buys if trade prices fell >10% vs the prior days
+instant_sell_ratio = 0.97    # sell straight into buy orders if that nets >= 97% of listing (saves a slot,
+                             # a reprice cycle and the risk of being undercut)
 
 # Courier pricing from Jita: PushX BR/DST published rates (pushx.net/rates.php, checked 2026-10-28):
 # 1.5M ISK per warp (jumps + 1), x1 up to 1.5B collateral, x2+ above. Contracts of <= 1.5B each are
@@ -101,3 +104,18 @@ contract_fee = 30_000_000     # 19 jumps
 max_m3 = 62_500
 max_collateral = 1_500_000_000
 days = 3.0
+
+# Strategy experiments: extra paper portfolios run on the same market data and session schedule,
+# each with these settings overridden. Compare them in state/summary.md; promote what wins.
+[[variants]]
+name = "no_imports"
+note = "station trading only: measures what imports add"
+[variants.strategy]
+import_hub = "none"
+
+[[variants]]
+name = "loose"
+note = "lower margin bars (4% station, 7% import): more items, thinner edges"
+[variants.strategy]
+min_margin = 0.04
+min_import_margin = 0.07

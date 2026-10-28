@@ -50,6 +50,20 @@ last two session gaps, since shelves only get restocked at logins.
 - Within each hub the steps follow the in-game windows, sorted by item name, with an exact
   "type this" price plus the rule to use if the market has moved.
 
+## Guards against bad fills
+- **Pumped prices:** we never plan around a sell price above recent real trade prices + 5%. Someone
+  buying out the cheap sell orders can't bait us into raising our buy caps.
+- **Falling prices:** no new buys of items whose trade price dropped >10% over the last ~2 days
+  compared with the days before.
+- **Take the bid:** if selling straight into a buy order nets at least 97% of what listing would,
+  sell immediately. It saves a slot, a repricing cycle and the risk of being undercut.
+
+## Experiments run in parallel
+`[[variants]]` in config.toml are extra paper portfolios that trade the same market data with the
+same sessions but different settings: currently `no_imports` (what imports add) and `loose`
+(lower margin bars). Promote a variant's settings when it beats main for about 2 weeks; then
+replace it with a new experiment.
+
 ## Sizing and risk
 - At most 8% of net worth in one item, 10% in speculation, and a 2% cash reserve. Slots are capped at 113.
 - Sell floors start at break-even + 0.5%, and break-even includes the shipping cost. After 10 days
@@ -75,3 +89,11 @@ last two session gaps, since shelves only get restocked at logins.
    second trading character (a third hub, more slots). Revisit at about 15B net worth.
 6. **Calibration**: when live, compare real fills against what the simulation predicted and
    adjust `alpha` and `gone_weight`.
+7. **Exports** (next experiment): the reverse trip. Buy cheap at the import hub (loot and mission
+   drops get dumped there) and courier it to Jita on the same trip. That uses the session we're
+   already in and the second clone.
+8. **Seeding**: items with steady demand at the import hub but no sellers there. The current import
+   scoring needs an existing sell side, so it misses these; estimate demand from ESI history.
+9. **Structure orders** (needs SSO): buy orders placed in the Perimeter Keepstar with a 1-jump range
+   fill from Jita sellers at the structure's lower broker fee.
+10. **Sales tax uncertainty**: one CCP article mentions an 8% base. Section 1 of CHECKS.md settles it.

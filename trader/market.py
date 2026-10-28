@@ -208,5 +208,9 @@ def build_stats(hub, frames, today_frame):
     out["vwap_a"] = (s.ask_isk / s.ask_units).where(s.ask_units > 0)
     out["vwap_b"] = (s.bid_isk / s.bid_units).where(s.bid_units > 0)
     out["isk_day"] = (s.ask_isk + s.bid_isk) / total_h * 24
+    # trend: trade price over the last ~2 days vs the days before (NaN until there's history)
+    rec = allf[allf.day <= 1].groupby("type_id")[["ask_isk", "ask_units"]].sum()
+    pri = allf[allf.day >= 2].groupby("type_id")[["ask_isk", "ask_units"]].sum()
+    out["trend_a"] = ((rec.ask_isk / rec.ask_units) / (pri.ask_isk / pri.ask_units)).reindex(out.index)
     out["hours"] = total_h
     return out

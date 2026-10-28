@@ -48,3 +48,11 @@
 - The summary shows shelf use (slots, ISK deployed, plan minutes) and which resource each top candidate
   leans on. Watch which one sits near 100%; that's where more capacity (Wholesale skills, more capital,
   a smaller checklist) would pay.
+
+## 2026-10-28 · deep dive changes
+- Added guards: plan sell prices capped at recent trade VWAP + 5% (anti-pump), no new buys when trade
+  prices fell >10% (falling knives), and selling into buy orders when that nets ≥97% of listing.
+- Added parallel experiments: `no_imports` and `loose` portfolios trade the same data and sessions.
+  Promote whatever beats main for about 2 weeks.
+- Queued in STRATEGY.md: exports (reverse trip), seeding empty markets, Perimeter structure buy orders,
+  and the sales-tax question (7.5% vs 8% base).

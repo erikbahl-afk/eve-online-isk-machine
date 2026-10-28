@@ -16,11 +16,17 @@ import math
 import numpy as np
 import pandas as pd
 
-from .fees import tick_down, tick_up, valid_down
+from .fees import tick_down, tick_up, valid_down, valid_up
 from .sim import buy_cap, floor_price, surv_avg
 
-GROUP_ORDER = {"modify_sell": 1, "new_sell": 2, "modify_buy": 3, "cancel": 4, "new_buy": 5,
-               "instant_buy": 6, "courier": 7}
+GROUP_ORDER = {"modify_sell": 1, "new_sell": 2, "instant_sell": 3, "modify_buy": 4, "cancel": 5, "new_buy": 6,
+               "instant_buy": 7, "courier": 8}
+ANCHOR = 1.05  # never value stock above recent trade prices +5% (guards against pumped asks)
+
+
+def ask_ref(best_ask, vwap_a):
+    """Sell price we plan around: the current best ask, capped near recent real trade prices."""
+    return np.fmin(best_ask, vwap_a * ANCHOR)
 
 
 def _lam4(df, side):
@@ -39,7 +45,8 @@ def candidates(cfg, fees, stats, top, start_w, exclude=()):
         return df
     T = cfg["sim"]["logon_gap_hours"]
     alpha = cfg["sim"]["alpha"]
-    df = df.assign(ask_t=df.best_ask.map(tick_down), bid_t=df.best_bid.map(tick_up))
+    df = df.assign(ask_ref=ask_ref(df.best_ask, df.vwap_a))
+    df = df.assign(ask_t=df.ask_ref.map(tick_down), bid_t=df.best_bid.map(tick_up))
     df["sa"] = surv_avg(_lam4(df, "a"), T, start_w)
     df["sb"] = surv_avg(_lam4(df, "b"), T, start_w)
     df["q"] = alpha * np.minimum(df.A * df.sa, df.B * df.sb)  # units/day we can flip
@@ -61,6 +68,7 @@ def candidates(cfg, fees, stats, top, start_w, exclude=()):
         & (df.ask_t / df.bid_t <= s["max_price_ratio"])
         & (df.vwap_a.between(df.ask_t * (1 - band), df.ask_t * (1 + band)))
         & (df.vwap_b.between(df.bid_t * (1 - band), df.bid_t * (1 + band)))
+        & ~(df.trend_a < 1 - s["max_trend_drop"])  # don't stock items whose price is sliding
     )
     return df[ok].sort_values("profit_day", ascending=False)
 
@@ -76,7 +84,8 @@ def import_candidates(cfg, fees, src_top, dst_stats, dst_top, vols, route, start
     if len(df) == 0:
         return df
     T = cfg["sim"]["logon_gap_hours"]
-    df = df.assign(sell=df.best_ask.map(tick_down))
+    df = df.assign(ask_ref=ask_ref(df.best_ask, df.vwap_a))
+    df = df.assign(sell=df.ask_ref.map(tick_down))
     df["vol_m3"] = [vols.get(int(t), np.nan) for t in df.index]
     v = df.vol_m3.fillna(0.0)
     # each unit pays its share of a full contract, by collateral or by volume, whichever binds
@@ -103,6 +112,7 @@ def import_candidates(cfg, fees, src_top, dst_stats, dst_top, vols, route, start
         & (df.profit_day >= s["min_daily_profit"])
         & (df.sell / df.src_ask <= s["max_price_ratio"])
         & df.vwap_a.between(df.sell * (1 - band), df.sell * (1 + band))
+        & ~(df.trend_a < 1 - s["max_trend_drop"])
     )
     return df[ok].sort_values("profit_day", ascending=False)
 
@@ -159,6 +169,12 @@ class Planner:
         top = self.tops.get(hub)
         return float(top[col].get(ty, np.nan)) if top is not None and len(top) else np.nan
 
+    def anchored_ask(self, hub, ty):
+        ba = self.best(hub, ty, "best_ask")
+        st = self.stats.get(hub)
+        v = float(st.vwap_a.get(ty, np.nan)) if st is not None and len(st) else np.nan
+        return float(ask_ref(ba, v))
+
     def lam(self, hub, ty, side):
         st = self.stats.get(hub)
         return float(st[f"lam_{side}"].get(ty, 0.1)) if st is not None and len(st) else 0.1
@@ -167,6 +183,7 @@ class Planner:
         return {"kind": kind, "hub": hub, "secs": self.c[{"modify_sell": "secs_modify", "modify_buy": "secs_modify",
                                                        "new_sell": "secs_new_sell", "new_buy": "secs_new_buy",
                                                        "cancel": "secs_cancel", "instant_buy": "secs_instant_buy",
+                                                       "instant_sell": "secs_instant_buy",
                                                        "courier": "secs_courier"}[kind]],
                 "value": float(value), "group": GROUP_ORDER[kind], **kw}
 
@@ -190,7 +207,12 @@ class Planner:
             if it.get("tag") == "import" and hub != self.import_hub and hub == self.home:
                 continue  # bought for import, waiting for the courier step
             fl = floor_price(self.fees, self.cfg, it["cost"], it.get("since"), t, (sp or {}).get("min_sell", 0.0))
-            ba = self.best(hub, ty, "best_ask")
+            ba, bb = self.best(hub, ty, "best_ask"), self.best(hub, ty, "best_bid")
+            list_net = tick_down(ba) * (1 - self.fees.tax - self.fees.broker) if not np.isnan(ba) else 0.0
+            if not np.isnan(bb) and bb >= fl and bb * (1 - self.fees.tax) >= list_net * self.s["instant_sell_ratio"]:
+                tier1.append(self.step("instant_sell", hub, it["qty"] * it["cost"], type_id=ty, qty=it["qty"],
+                                       min_price=valid_up(max(fl, bb * 0.98)), ref=bb))
+                continue
             tier1.append(self.step("new_sell", hub, it["qty"] * it["cost"], type_id=ty, qty=it["qty"], floor=fl,
                                    ref=ba, target=max(fl, tick_down(ba)) if not np.isnan(ba) else round(fl * 1.3, 2),
                                    fallback=round(fl * 1.3, 2)))
@@ -202,7 +224,7 @@ class Planner:
             if sp:
                 cap, keep = sp["max_buy"], not sp["selling"]
             else:
-                cap = buy_cap(self.fees, self.cfg, ba) if not np.isnan(ba) else 0.0
+                cap = buy_cap(self.fees, self.cfg, self.anchored_ask(hub, ty)) if not np.isnan(ba) else 0.0
                 keep = ty in selected or (not np.isnan(ba) and cap >= o["price"] * 0.97)
             if not keep:
                 tier2.append(self.step("cancel", hub, o["remain"] * o["price"], oid=o["oid"], type_id=ty, ref=bb,
@@ -288,7 +310,7 @@ class Planner:
         for ty, r in self.station.get(hub, pd.DataFrame()).iterrows():
             if ty in have or ty in avoid:
                 continue
-            out.append(("station", int(ty), math.ceil(r.q * T / 24 * 2), buy_cap(self.fees, self.cfg, r.best_ask),
+            out.append(("station", int(ty), math.ceil(r.q * T / 24 * 2), buy_cap(self.fees, self.cfg, r.ask_ref),
                         float(r.profit_day), float(r.density)))
         return out
 
