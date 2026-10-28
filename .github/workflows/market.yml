@@ -3,7 +3,7 @@ name: market-run
 
 on:
   schedule:
-    - cron: "17 */2 * * *"   # every 2 hours (GitHub may start it late; the code uses real timestamps)
+    - cron: "17 */2 * * *"   # every 2 hours. (GitHub may start it late; the code uses real timestamps)
   workflow_dispatch:
 
 permissions:
