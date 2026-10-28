@@ -116,7 +116,7 @@ def instructions(cfg, plan, names, val, warm_msg=None):
     return "\n".join(out)
 
 
-def summary(cfg, pf, val, health, sessions, names, station, imports_by_hub, t):
+def summary(cfg, pf, val, health, sessions, names, station, imports_by_hub, t, stats=None):
     s0 = pf["start_isk"]
     pnl = pf["pnl"]
     days = max((t - pf["created"]) / 86400, 1e-9)
@@ -148,10 +148,14 @@ def summary(cfg, pf, val, health, sessions, names, station, imports_by_hub, t):
         out.append(f"| {names.get(ty, ty)} ({k.split(':')[0]}) | {v['bought_units']:,} | {v['sold_units']:,} | "
                    f"{isk(v['fees'])} | {isk(v['realized'])} |")
     out += ["", "## Hub comparison (expected profit/day of the top 30 types)",
-            "| Hub | Station types | Station top-30 | Import types (from Jita) | Import top-30 |", "|---|---|---|---|---|"]
+            "Market size = ISK/day bought from sell orders at the station (what we'd be selling into).", "",
+            "| Hub | Market size | Station types | Station top-30 | Import types (from Jita) | Import top-30 |",
+            "|---|---|---|---|---|---|"]
     for hub in station:
         st, im = station[hub], imports_by_hub.get(hub)
-        out.append(f"| {hub} | {len(st)} | {isk(st.head(30).profit_day.sum()) if len(st) else '-'} | "
+        hs = (stats or {}).get(hub)
+        size = isk(float((hs.A * hs.vwap_a).sum())) if hs is not None and len(hs) else "-"
+        out.append(f"| {hub} | {size} | {len(st)} | {isk(st.head(30).profit_day.sum()) if len(st) else '-'} | "
                    f"{len(im) if im is not None else '-'} | "
                    f"{isk(im.head(30).profit_day.sum()) if im is not None and len(im) else '-'} |")
     home = cfg["strategy"]["hub"]

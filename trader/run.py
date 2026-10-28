@@ -193,7 +193,7 @@ def main():
         warm = f"Warming up: {hours:.0f} of {cfg['strategy']['warmup_hours']} hours of market data collected."
 
     (ROOT / "INSTRUCTIONS.md").write_text(render.instructions(cfg, plan, names, val, warm))
-    summary = render.summary(cfg, pf, val, health, sessions, names, station, imports_by_hub, now)
+    summary = render.summary(cfg, pf, val, health, sessions, names, station, imports_by_hub, now, stats)
     (STATE / "summary.md").write_text(summary)
     week = dt.date.fromtimestamp(now).isocalendar()
     week = f"{week[0]}-W{week[1]:02d}"

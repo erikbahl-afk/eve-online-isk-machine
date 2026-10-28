@@ -29,3 +29,14 @@
 - The model now charges per contract (≤1.5B, ≤62.5k m³ each), up to 2 contracts per session, and ships
   only when the contracts are ≥60% full. The old guesses badly underpriced Amarr (about 4.6% of
   cargo value per full contract versus 1.6% for Dodixie), so expect Dodixie or Hek to win the import-hub choice.
+
+## 2026-10-28 · hub market sizes (user asked to weigh volume, not just shipping cost)
+- ESI region history, last 30 days, 160 typical import items (1M–1B ISK/unit): daily ISK traded as a share
+  of Jita: Amarr 8.2%, Dodixie 3.5%, Hek 1.7%, Rens 1.3%. Median item per day: Amarr 465M, Dodixie 146M,
+  Hek 88M, Rens 79M.
+- Full PushX contract cost as a share of cargo value: Amarr 4.6%, Dodixie 1.6%, Hek 2.0%, Rens 2.6%.
+- Import scoring already scales by destination sales × time on top of the book; the summary now also
+  shows each hub's market size. Added `python -m trader.calibrate` to check our inferred volumes
+  against the official history (weekly, in REVIEW.md).
+- Hypothesis: Dodixie (cheap shipping, mid volume) or Amarr (big but pricey to ship) will win;
+  Rens and Hek only if their margins are much wider. Check the hub comparison after 2–3 days of data.
