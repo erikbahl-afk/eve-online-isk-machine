@@ -96,4 +96,8 @@ replace it with a new experiment.
    scoring needs an existing sell side, so it misses these; estimate demand from ESI history.
 9. **Structure orders** (needs SSO): buy orders placed in the Perimeter Keepstar with a 1-jump range
    fill from Jita sellers at the structure's lower broker fee.
-10. **Sales tax uncertainty**: one CCP article mentions an 8% base. Section 1 of CHECKS.md settles it.
+10. **Two import hubs in rotation** (needs Infomorph Psychology II, 1,415 SP): the cooldown allows one
+    jump per session, so each import hub would be visited every other session. That could suit thin, slow
+    hubs (Rens, Hek). Infomorph Synchronizing III is enough: over 200 simulated weeks only 1.5% of
+    session gaps fall in the 19–21 h window that level V would unlock, and 15% are under 19 h anyway.
+11. **Sales tax uncertainty**: one CCP article mentions an 8% base. Section 1 of CHECKS.md settles it.

@@ -46,8 +46,9 @@ Run the tests with `pip install -r requirements.txt && python -m pytest -q`.
 
 ## Before going live
 - Make the repo **private** (the checklist reveals items and price limits), then set the
-  cron in `.github/workflows/market.yml` back to every 3 hours to stay within the free
-  2,000 Actions minutes a month.
+  cron in `.github/workflows/market.yml` back to a single every-3-hours line (drop the odd-hour
+  backup) to stay within the free 2,000 Actions minutes a month. Have the user make cron edits:
+  GitHub appears to only fire schedules last edited by a person, not the Claude app.
 - Set `mode = "live"` in `config.toml`, and enter the verified fees, slots and standings from `CHECKS.md`.
 - Keep the trading character in an NPC corporation: it can't be war-decced and pays no corp tax.
   Courier contracts must go to the real PushX corporation; scammers copy names.

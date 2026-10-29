@@ -65,3 +65,10 @@
   the next order (capped at import parity, or 1.5× VWAP in Jita). Flags ROI ≥15%, sells within 10 days
   of demand, ≤3 rival updates/day. Top 10 in the summary; daily top 50 in data/corners/.
 - Later: compare flagged items' prices 1–2 weeks on. Did they hold (cornerable) or refill?
+
+## 2026-10-29 · schedule and skills
+- GitHub's schedule only started firing after the user edited market.yml (00:00 and 05:49 UTC runs), and it
+  still drops slots. Asked the user to add an odd-hour backup cron line themselves.
+- Skill plan from ESI data: about 4.04M SP (Trade/Retail/Marketing/Daytrading/Accounting/BR/ABR V,
+  Wholesale IV, IP I, IS III, Social I, Contracting II). About 80 days on Omega with a Cha/Mem remap.
+  AIR gives 0.75–1.5M SP. Alpha can't train Retail or Accounting, so the trader must be Omega.
