@@ -1,11 +1,11 @@
 {
  "cash": 5000000000.0,
  "created": 1793209927.0295653,
- "import_hub": null,
+ "import_hub": "amarr",
  "in_transit": [],
  "inventory": {},
  "last_jump": null,
- "last_t": 1793278927.2468777,
+ "last_t": 1793302735.9939644,
  "location": "jita",
  "next_oid": 1,
  "orders": [],
