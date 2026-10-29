@@ -1,9 +1,9 @@
-# Summary · Wed 28 Oct 22:49 PDT
+# Summary · Thu 29 Oct 06:02 PDT
 
 Auto-generated every run. Reviewers: start here.
 
 ## Portfolio
-- Net worth (book): **5.00B** (+0.00% over 0.5 days) · liquidation value 5.00B
+- Net worth (book): **5.00B** (+0.00% over 0.8 days) · liquidation value 5.00B
 - Cash 5.00B · escrow 0.00 · stock 0.00 · in transit 0.00 · orders 0/113
 - Realized P&L 0.00 · sales 0.00 · buys 0.00 · fees: broker 0.00, relist 0.00, tax 0.00, courier 0.00
 - Character at **jita** · import hub: **none yet** · shipments in transit: 0
@@ -33,33 +33,33 @@ Market size = ISK/day bought from sell orders at the station (what we'd be selli
 
 | Hub | Market size | Station types | Station top-30 | Import types (from Jita) | Import top-30 |
 |---|---|---|---|---|---|
-| jita | 6.27T | 0 | - | - | - |
-| amarr | 827.59B | 0 | - | 0 | - |
-| dodixie | 294.77B | 0 | - | 0 | - |
-| rens | 56.86B | 0 | - | 0 | - |
-| hek | 108.86B | 0 | - | 0 | - |
+| jita | 5.31T | 0 | - | - | - |
+| amarr | 653.39B | 0 | - | 0 | - |
+| dodixie | 240.90B | 0 | - | 0 | - |
+| rens | 52.25B | 0 | - | 0 | - |
+| hek | 101.99B | 0 | - | 0 | - |
 
 ## Cornerability watchlist (read-only, nothing is traded)
 Buy out the cheapest N sell orders, relist just under the next one (capped where imports would kick in). Daily snapshots go to data/corners/ so we can see if these really hold.
 
 | Hub | Item | Best ask | Buy out | Cost | Relist at | Paper profit | ROI | Days to sell | Rival updates/day |
 |---|---|---|---|---|---|---|---|---|---|
-| amarr | Domination 800mm Repeating Cannon | 79.87M | 1 orders / 3 u | 239.61M | 249.90M | 473.54M | 198% | 1.2 | 0.0 |
-| jita | Kronos Caille Neon SKIN | 15.00M | 4 orders / 14 u | 243.95M | 29.97M | 155.18M | 64% | 6.5 | 2.2 |
-| jita | Decayed Large Remote Armor Repairer Mutaplasmid | 4.93M | 6 orders / 77 u | 387.49M | 7.38M | 153.36M | 40% | 8.7 | 0.0 |
-| jita | Guristas Antimatter Charge XL | 4.35k | 9 orders / 88,015 u | 393.93M | 6.52k | 152.20M | 39% | 8.2 | 0.0 |
-| jita | Omnidirectional Tracking Link II | 714.80k | 16 orders / 501 u | 370.41M | 1.07M | 140.48M | 38% | 7.9 | 2.2 |
-| jita | Vorton Arc Guidance | 33.96M | 4 orders / 10 u | 346.60M | 50.93M | 137.87M | 40% | 4.1 | 0.0 |
-| jita | Small Projectile Burst Aerator II | 1.66M | 10 orders / 195 u | 326.91M | 2.50M | 135.90M | 42% | 4.2 | 2.2 |
-| jita | Men's 'Rider' Pants (black silver) | 64.45M | 5 orders / 5 u | 324.93M | 96.67M | 134.86M | 42% | 4.7 | 2.2 |
-| jita | Scorch M | 126.30k | 11 orders / 2,959 u | 399.43M | 189.50k | 133.96M | 34% | 4.3 | 2.2 |
-| jita | Gist C-Type Large Shield Booster | 260.00M | 1 orders / 1 u | 260.00M | 411.70M | 131.63M | 51% | 0.9 | 2.2 |
+| amarr | Domination 800mm Repeating Cannon | 79.87M | 1 orders / 3 u | 239.61M | 249.90M | 473.54M | 198% | 2.1 | 0.0 |
+| jita | Dread Guristas Inferno Torpedo | 76.71k | 4 orders / 2,770 u | 296.04M | 198.00k | 225.68M | 76% | 4.3 | 1.3 |
+| jita | Domination 720mm Howitzer Artillery | 50.00M | 3 orders / 6 u | 374.99M | 97.38M | 180.81M | 48% | 1.8 | 1.3 |
+| jita | Decayed Large Remote Armor Repairer Mutaplasmid | 4.93M | 6 orders / 73 u | 367.77M | 7.39M | 145.26M | 39% | 8.6 | 0.0 |
+| jita | Men's 'Rider' Pants (black silver) | 64.45M | 5 orders / 5 u | 324.93M | 96.67M | 134.86M | 42% | 7.8 | 1.3 |
+| jita | Nemesis Caille Neon SKIN | 179.00M | 2 orders / 2 u | 379.00M | 268.30M | 131.44M | 35% | 3.1 | 0.0 |
+| jita | Gist C-Type EM Shield Hardener | 98.78M | 3 orders / 3 u | 296.37M | 148.10M | 126.27M | 43% | 4.7 | 1.3 |
+| jita | Vorton Arc Guidance | 33.96M | 4 orders / 9 u | 312.64M | 50.93M | 123.38M | 39% | 4.0 | 0.0 |
+| jita | Oxidative Stress - Unlimited | 69.97M | 3 orders / 4 u | 279.92M | 104.90M | 119.22M | 43% | 5.0 | 0.0 |
+| amarr | Ishkur Zydrine Burn SKIN | 49.00M | 2 orders / 2 u | 148.00M | 139.10M | 116.64M | 79% | 3.1 | 0.0 |
 
 ## Data health
 | Hub | Orders | Hours today | Prints this run | Note |
 |---|---|---|---|---|
-| jita | 327,914 | 7.0 | 12,541 |  |
-| amarr | 129,997 | 7.0 | 4,604 |  |
-| dodixie | 68,362 | 7.0 | 2,634 |  |
-| rens | 31,839 | 7.0 | 812 |  |
-| hek | 41,034 | 7.0 | 1,253 |  |
+| jita | 328,387 | 14.3 | 13,250 |  |
+| amarr | 129,806 | 14.3 | 4,669 |  |
+| dodixie | 68,388 | 14.3 | 2,280 |  |
+| rens | 31,720 | 14.3 | 894 |  |
+| hek | 40,885 | 14.3 | 1,475 |  |
