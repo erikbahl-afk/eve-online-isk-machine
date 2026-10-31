@@ -1,23 +1,23 @@
 {
- "est_secs": 540,
- "generated": 1793471660.6943777,
+ "est_secs": 445,
+ "generated": 1793489057.473904,
  "hub": "amarr",
  "location": "amarr",
  "other": "jita",
  "steps": [
   {
-   "cap": 3871.0,
+   "cap": 74010.0,
    "group": 6,
    "hub": "amarr",
    "kind": "new_buy",
    "n": 1,
-   "qty": 3642,
-   "ref": 3355.0,
+   "qty": 2509,
+   "ref": 63030.0,
    "secs": 60,
    "tag": "station",
-   "target": 3356.0,
-   "type_id": 85746,
-   "value": 10702525.446377283
+   "target": 63040.0,
+   "type_id": 96789,
+   "value": 14964091.960740706
   },
   {
    "group": 0,
@@ -29,60 +29,46 @@
    "value": 0.0
   },
   {
-   "cap": 4.62,
-   "group": 6,
+   "cap": 253600000.0,
+   "group": 4,
    "hub": "jita",
-   "kind": "new_buy",
+   "kind": "modify_buy",
+   "mine": 184700000.0,
    "n": 3,
-   "qty": 18,
-   "ref": 3.53,
-   "secs": 60,
-   "tag": "station",
-   "target": 3.54,
-   "type_id": 2309,
-   "value": 3788577.017809001
+   "oid": 1,
+   "ref": 185000000.0,
+   "secs": 25,
+   "target": 185100000.0,
+   "type_id": 85668,
+   "value": 369400000.0
   },
   {
-   "cap": 908.8,
+   "cap": 375.4,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
    "n": 4,
-   "qty": 5,
-   "ref": 560.3,
+   "qty": 114,
+   "ref": 340.7,
    "secs": 60,
    "tag": "station",
-   "target": 560.4,
-   "type_id": 23007,
-   "value": 10262403.442348387
+   "target": 340.8,
+   "type_id": 16633,
+   "value": 14784684.434737377
   },
   {
-   "cap": 117500000.0,
+   "cap": 77.73,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
    "n": 5,
-   "qty": 1,
-   "ref": 91840000.0,
+   "qty": 5,
+   "ref": 50.04,
    "secs": 60,
    "tag": "station",
-   "target": 91850000.0,
-   "type_id": 11959,
-   "value": 19191480.789278682
-  },
-  {
-   "cap": 88400000.0,
-   "group": 6,
-   "hub": "jita",
-   "kind": "new_buy",
-   "n": 6,
-   "qty": 1,
-   "ref": 66340000.0,
-   "secs": 60,
-   "tag": "station",
-   "target": 66350000.0,
-   "type_id": 47340,
-   "value": 11057652.141031636
+   "target": 50.05,
+   "type_id": 24486,
+   "value": 2749674.8554092865
   }
  ]
 }
