@@ -3,6 +3,7 @@ type_id,name,volume
 38,Nocxium,0.01
 40,Megacyte,0.01
 233,,0.025
+438,,5.0
 448,,5.0
 630,Bellicose,
 638,,50000.0
@@ -23,6 +24,7 @@ type_id,name,volume
 2393,Bacteria,
 2444,,25.0
 2539,,5.0
+2563,,5.0
 2613,Mjolnir Fury Light Missile,
 2801,Nova Javelin Torpedo,0.05
 2867,,50.0
@@ -33,21 +35,26 @@ type_id,name,volume
 3033,,5.0
 3080,,1.0
 3135,Zainou 'Deadeye' Missile Projection MP-706,1.0
+3142,Zainou 'Deadeye' Target Navigation Prediction TN-904,
 3146,,10.0
 3167,Zainou 'Snapshot' Heavy Missiles HM-706,1.0
 3180,Zainou 'Snapshot' Torpedoes TD-606,1.0
 3214,,1.0
 3239,Inherent Implants 'Squire' Capacitor Management EM-806,
 3257,Inherent Implants 'Squire' Power Grid Management EG-604,
+3488,,5.0
 3520,,10.0
 3542,CONCORD Capital Shield Booster,1000.0
+3683,Oxygen,
 3756,,15000.0
 3894,Distribution Connections,0.01
 3895,Security Connections,
 3898,Quafe Zero Classic,
 3962,Customs Office Gantry,7600.0
 3966,Men's 'Precision' Boots,0.1
+4051,,5.0
 4144,Women's 'Structure' Dress (black/white),0.1
+4147,Dual Heavy Pulse Laser II,
 4250,Small Tractor Beam II,
 4260,Expanded Probe Launcher II,5.0
 4292,Siege Module II,1000.0
@@ -55,7 +62,7 @@ type_id,name,volume
 4315,,0.01
 4345,Gistum B-Type Multispectrum Shield Hardener,5.0
 4348,Pithum B-Type Multispectrum Shield Hardener,5.0
-4349,Pithum C-Type Multispectrum Shield Hardener,
+4349,Pithum C-Type Multispectrum Shield Hardener,5.0
 6719,,5.0
 7447,,20.0
 7579,Modal Light Neutron Particle Accelerator I,5.0
@@ -110,6 +117,7 @@ type_id,name,volume
 12044,,2500.0
 12200,Mobile Large Warp Disruptor I,585.0
 12209,Large Autocannon Specialization,
+12221,,10.0
 12223,,1000.0
 12356,,20.0
 12484,,0.01
@@ -120,8 +128,10 @@ type_id,name,volume
 12735,,20000.0
 12743,,20000.0
 12745,Occator,20000.0
+12753,,20000.0
 12818,Scorch M,
 13217,Inherent Implants 'Lancer' Large Energy Turret LE-1003,
+13218,Zainou 'Deadeye' Large Hybrid Turret LH-1003,
 13219,Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1003,
 13220,Inherent Implants 'Lancer' Medium Energy Turret ME-803,
 13242,Eifyr and Co. 'Rogue' Warp Drive Speed WS-610,1.0
@@ -135,7 +145,7 @@ type_id,name,volume
 13263,,1.0
 13783,,10.0
 13784,Domination 720mm Howitzer Artillery,
-13785,Domination 800mm Repeating Cannon,
+13785,Domination 800mm Repeating Cannon,20.0
 13791,Dark Blood Dual Heavy Pulse Laser,20.0
 13815,,20.0
 13824,,10.0
@@ -157,9 +167,12 @@ type_id,name,volume
 14100,Domination Tracking Enhancer,5.0
 14104,,5.0
 14106,Domination 10MN Afterburner,5.0
+14108,,5.0
 14126,Domination Overdrive Injector,5.0
+14128,,5.0
 14144,Dark Blood Capacitor Power Relay,5.0
 14146,True Sansha Capacitor Power Relay,
+14158,,5.0
 14168,Dark Blood Heavy Energy Neutralizer,5.0
 14208,Domination Large Proton Smartbomb,50.0
 14230,,5.0
@@ -170,6 +183,7 @@ type_id,name,volume
 14278,,10.0
 15466,,1.0
 15477,,1.0
+15478,Strong Drop Booster,
 15605,Caldari Navy Vice Admiral Insignia I,
 15669,Imperial Navy General Insignia II,
 15675,Caldari Navy Co-Processor,5.0
@@ -179,6 +193,9 @@ type_id,name,volume
 15753,,5.0
 15766,,5.0
 15792,Federation Navy Tracking Computer,5.0
+15812,Republic Fleet Overdrive Injector,
+15830,Federation Navy Heavy Neutron Blaster,10.0
+15837,Federation Navy 425mm Railgun,20.0
 15840,Federation Navy 250mm Railgun,10.0
 15887,Caldari Navy Warp Scrambler,5.0
 15889,Caldari Navy Warp Disruptor,5.0
@@ -189,6 +206,8 @@ type_id,name,volume
 15905,,5.0
 15963,Imperial Navy Large EMP Smartbomb,50.0
 15965,Republic Fleet Tracking Enhancer,5.0
+16004,Eifyr and Co. 'Rogue' Evasive Maneuvering EM-705,
+16057,Republic Fleet 800mm Repeating Cannon,
 16062,Caldari Navy Cruise Missile Launcher,20.0
 16067,Caldari Navy Torpedo Launcher,20.0
 16233,Prophecy,
@@ -208,6 +227,7 @@ type_id,name,volume
 16644,Platinum,0.05
 16646,,0.05
 16650,Dysprosium,0.05
+16678,Sylramic Fibers,0.05
 16679,Fullerides,0.15
 16680,,0.2
 16681,,0.25
@@ -226,14 +246,16 @@ type_id,name,volume
 17634,Caracal Navy Issue,10000.0
 17709,,10000.0
 17715,,10000.0
-17718,Phantasm,
+17718,Phantasm,10000.0
 17726,,50000.0
+17843,Vexor Navy Issue,
 17887,Oxygen Isotopes,0.03
 17889,Hydrogen Isotopes,0.03
 17894,High-Tech Scanner,
 17912,Modulated Strip Miner II,
 17918,Rattlesnake,50000.0
 17924,Succubus,2500.0
+17928,,2500.0
 17930,,2500.0
 17932,Dramiel,2500.0
 18054,Mercoxit Asteroid Mining Crystal Type A I,6.0
@@ -262,7 +284,7 @@ type_id,name,volume
 19003,,5.0
 19017,Corpum C-Type Medium Armor Repairer,10.0
 19027,,10.0
-19029,Corelum C-Type Medium Armor Repairer,
+19029,Corelum C-Type Medium Armor Repairer,10.0
 19038,Core X-Type Large Armor Repairer,50.0
 19039,Corpus C-Type Large Armor Repairer,50.0
 19045,Corpus X-Type Large Armor Repairer,50.0
@@ -272,6 +294,7 @@ type_id,name,volume
 19119,Corpus X-Type Heavy Energy Nosferatu,5.0
 19141,Gistum C-Type Medium Remote Shield Booster,
 19143,Gistum B-Type Medium Remote Shield Booster,
+19171,,5.0
 19175,,5.0
 19177,Pithi B-Type Small Shield Booster,5.0
 19183,Gistum B-Type Medium Shield Booster,10.0
@@ -328,6 +351,7 @@ type_id,name,volume
 20629,,10.0
 20855,True Sanshas Standard S,
 21018,Capital Armor Plates Blueprint,0.01
+21238,Blood Multifrequency L,
 21368,Guristas Antimatter Charge XL,
 21472,,5.0
 21540,'Inception' Target Painter,5.0
@@ -347,6 +371,7 @@ type_id,name,volume
 22123,Mid-grade Amulet Gamma,
 22124,Mid-grade Amulet Omega,
 22229,Ice Harvester II,
+22430,Sin,
 22440,,50000.0
 22444,Sleipnir,15000.0
 22534,,1.0
@@ -356,26 +381,32 @@ type_id,name,volume
 22559,Mining Foreman Mindlink,1.0
 22570,,1.0
 22571,Inherent Implants 'Yeti' Ice Harvesting IH-1005,
+22611,,5.0
 22613,'Carpo' Mining Laser Upgrade,5.0
 22778,,5.0
 22782,Interdiction Sphere Launcher I,
 22875,,5.0
+22895,,5.0
 22929,,5.0
 22953,'Cartel' Power Diagnostic System I,5.0
 22993,,0.025
 23007,Federation Navy Iron Charge L,
+23071,,1.0
 23105,,1.0
 23128,,0.1
 23134,Takmahl Dynamic Gauge,
 23803,'Censer' Medium Cap Battery,10.0
+24242,Infomorph Psychology,
 24438,Omnidirectional Tracking Link II,
 24511,,0.03
 24523,,0.05
 24535,,0.05
 24539,,0.05
 24640,Zainou 'Deadeye' Guided Missile Precision GP-805,
+24702,Hurricane,
 25267,,0.01
 25538,,0.01
+25604,,0.01
 25624,Intact Armor Plates,
 25736,Large EM Armor Reinforcer I,
 25890,Large Kinetic Armor Reinforcer I,
@@ -421,6 +452,8 @@ type_id,name,volume
 27435,,0.03
 27441,,0.03
 27459,,0.05
+27465,Legion Scourge Auto-Targeting Cruise Missile,
+27916,,75.0
 27922,Lockbreaker Bomb,
 28201,Light Armor Maintenance Bot II,5.0
 28213,,25.0
@@ -449,6 +482,7 @@ type_id,name,volume
 28684,,1.0
 28701,Viridian Mykoserocin,
 28710,Golem,50000.0
+28746,Thukker Medium Shield Extender,
 28752,ORE Ice Harvester,5.0
 28754,ORE Strip Miner,5.0
 28758,Sisters Core Probe Launcher,5.0
@@ -461,11 +495,14 @@ type_id,name,volume
 28808,,1.0
 28809,Mid-grade Virtue Beta,1.0
 28810,,1.0
+28811,Mid-grade Virtue Epsilon,
 29337,Augoror Navy Issue,
 29340,,10000.0
 29344,,10000.0
 29984,,5000.0
+29988,Proteus,
 29990,Loki,5000.0
+30018,,0.01
 30310,Carbon-86 Epoxy Resin,
 30376,Fullerite-C32,
 30987,Small Trimark Armor Pump I,
@@ -536,10 +573,12 @@ type_id,name,volume
 33141,Clone Soldier Negotiator Tag,0.1
 33151,,15000.0
 33153,Drake Navy Issue,15000.0
+33155,,15000.0
 33359,,1.0
 33360,Terahertz Metamaterials,1.0
 33361,Plasmonic Metamaterials,1.0
 33362,Nonlinear Metamaterials,1.0
+33393,Genolution Core Augmentation CA-3,1.0
 33400,,200.0
 33406,Caldari Navy Command Mindlink,
 33450,Rapid Heavy Missile Launcher II,20.0
@@ -554,6 +593,7 @@ type_id,name,volume
 33816,,2500.0
 33820,Barghest,50000.0
 33842,Federation Navy Drone Damage Amplifier,5.0
+33844,Imperial Navy Drone Damage Amplifier,
 33846,Dread Guristas Drone Damage Amplifier,5.0
 33896,Medium Transverse Bulkhead II,10.0
 33898,,20.0
@@ -591,6 +631,7 @@ type_id,name,volume
 37302,Ion Siege Blaster II,1000.0
 37306,Hexa 2500mm Repeating Cannon II,1000.0
 37452,ORE Ice Mining Laser,5.0
+37454,,2500.0
 37456,,2500.0
 37459,,2500.0
 37480,,5000.0
@@ -604,17 +645,20 @@ type_id,name,volume
 40558,Firbolg II,1000.0
 40559,Einherji II,
 40570,,3000.0
+40690,,5.0
 40734,,100.0
 41057,,50.0
 41058,,50.0
 41059,,50.0
 41066,Dark Blood Quad Mega Pulse Laser,
 41191,,5.0
+41193,Unit F-435454's Modified Sensor Booster,
 41197,,5.0
 41200,Shadow Serpentis Damage Control,5.0
 41202,Sentient Damage Control,5.0
 41212,,5.0
 41218,Republic Fleet Large Cap Battery,15.0
+41312,Scoped Conductors,
 41322,Void XL,0.125
 41403,Capital Autocannon Specialization,
 41408,Capital Beam Laser Specialization,
@@ -630,9 +674,11 @@ type_id,name,volume
 42215,High-grade Asklepian Omega,
 42685,,5000.0
 42696,Shield Extension Charge,0.01
+42830,Mining Laser Optimization Charge,
 42881,Mining Laser Field Enhancement Charge Blueprint,0.01
 42882,,0.01
 43688,Astral Mining Inc. Strong Box,
+43694,,5.0
 43880,Standup M-Set Invention Accelerator I,
 44993,Pacifier,2500.0
 45587,Legion Defensive - Augmented Plating,40.0
@@ -670,6 +716,7 @@ type_id,name,volume
 47334,,4000.0
 47340,Standup Missile Guidance Enhancer II,
 47342,Standup Ballistic Control System II,4000.0
+47448,C3-X 'Hivaa Saitsuo' Ballistic Control System,
 47466,Praxis,
 47700,,1.0
 47752,Gravid 10MN Afterburner Mutaplasmid,1.0
@@ -680,6 +727,7 @@ type_id,name,volume
 47891,Chaotic Exotic Filament,
 47897,,0.1
 47904,,0.1
+47906,Raging Electrical Filament,0.1
 47911,,5.0
 47915,,5.0
 47917,,10.0
@@ -690,6 +738,7 @@ type_id,name,volume
 47975,,0.3
 48113,Agency 'Hardshell' TB9 Dose IV,
 48115,Agency 'Pyrolancea' DB9 Dose IV,
+48386,,0.1
 48501,Bellicose Dawn of Liberation SKIN,
 48720,Osprey Combat Medic Section SKIN,
 48744,'Subverted' JVN-UC49,20.0
@@ -721,6 +770,7 @@ type_id,name,volume
 54403,Mid-grade Hydra Omega,
 54534,Black Market 'Valdimar' Drone Navigation DN-701,1.0
 54543,Black Market 'Valdimar' Drone Durability DD-1001,
+54732,,10000.0
 54742,Small Vorton Projector II,
 54743,Small Consortium Vorton Projector,5.0
 54748,Medium Vorton Projector II,
@@ -735,6 +785,7 @@ type_id,name,volume
 54975,,5.0
 55025,Upwell Encryption Methods,0.01
 55033,Vorton Projector Operation,
+55761,,5.0
 56068,,0.1
 56133,,0.1
 56201,Astrahus Upwell Quantum Core,500.0
@@ -779,6 +830,7 @@ type_id,name,volume
 62403,Compressed Fullerite-C72,
 62405,Compressed Fullerite-C540,
 62454,Compressed Bitumens,
+62455,Compressed Brimful Bitumens,
 62463,Compressed Zeolites,
 62522,Compressed Scordite III-Grade,
 62526,,0.003
@@ -890,6 +942,8 @@ type_id,name,volume
 96586,,1.0
 96789,Mutated Blood Sample,
 96825,Savant’s Ruin - Unlimited,
+96844,Entropic Rose Metallic - Unlimited,
+96845,Star of Pochven Background,0.1
 97265,Criterion Cipher,
 97424,,0.01
 97431,Leshak Blood Raiders Crimson Mark SKIN,
