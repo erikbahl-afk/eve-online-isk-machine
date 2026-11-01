@@ -1,21 +1,35 @@
 {
- "est_secs": 470,
- "generated": 1793559422.3080752,
+ "est_secs": 455,
+ "generated": 1793576176.8453496,
  "hub": "amarr",
  "location": "amarr",
  "other": "jita",
  "steps": [
   {
-   "cap": 438900000.0,
+   "fallback": 4538.3,
+   "floor": 3491.0,
+   "group": 2,
+   "hub": "amarr",
+   "kind": "new_sell",
+   "n": 1,
+   "qty": 3642,
+   "ref": 4100.0,
+   "secs": 45,
+   "target": 4099.0,
+   "type_id": 85746,
+   "value": 12222552.0
+  },
+  {
+   "cap": 438800000.0,
    "group": 4,
    "hub": "amarr",
    "kind": "modify_buy",
    "mine": 313000000.0,
-   "n": 1,
+   "n": 2,
    "oid": 4,
-   "ref": 313000000.0,
+   "ref": 313100000.0,
    "secs": 25,
-   "target": 313100000.0,
+   "target": 313200000.0,
    "type_id": 41202,
    "value": 313000000.0
   },
@@ -24,20 +38,20 @@
    "group": 6,
    "hub": "amarr",
    "kind": "new_buy",
-   "n": 2,
+   "n": 3,
    "qty": 1054,
    "ref": 150000.0,
    "secs": 60,
    "tag": "station",
    "target": 150100.0,
    "type_id": 28433,
-   "value": 14981814.501689238
+   "value": 12098604.13760616
   },
   {
    "group": 0,
    "hub": "amarr",
    "kind": "jump",
-   "n": 3,
+   "n": 4,
    "secs": 120,
    "to": "jita",
    "value": 0.0
@@ -48,7 +62,7 @@
    "hub": "jita",
    "kind": "modify_buy",
    "mine": 184700000.0,
-   "n": 4,
+   "n": 5,
    "oid": 1,
    "ref": 186200000.0,
    "secs": 25,
@@ -57,32 +71,18 @@
    "value": 369400000.0
   },
   {
-   "cap": 556.6,
-   "group": 6,
-   "hub": "jita",
-   "kind": "new_buy",
-   "n": 5,
-   "qty": 1,
-   "ref": 540.6,
-   "secs": 60,
-   "tag": "station",
-   "target": 540.7,
-   "type_id": 17889,
-   "value": 16523492.478285749
-  },
-  {
-   "cap": 365.3,
+   "cap": 261.7,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
    "n": 6,
-   "qty": 1,
-   "ref": 355.2,
+   "qty": 4,
+   "ref": 251.5,
    "secs": 60,
    "tag": "station",
-   "target": 355.3,
-   "type_id": 16636,
-   "value": 5349967.674727671
+   "target": 251.6,
+   "type_id": 82301,
+   "value": 10374634.935261719
   }
  ]
 }

@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Sun 01 Nov 10:57 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Sun 01 Nov 15:36 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 6 · **Est. time:** 8 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -11,21 +11,28 @@
 
 ## At Amarr VIII (Oris) - Emperor Family Academy
 
+### List new stock
+_Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Duration 3 months._
+
+| # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
+|---|---|---|---|---|---|
+| 1 | ☐ Infomorph Decryption Key | 3,642 | **4,099** | 3,491 | 4,100 |
+
 ### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 1 | ☐ Sentient Damage Control | 313,000,000 | **313,100,000** | 438,900,000 | 313,000,000 |
+| 2 | ☐ Sentient Damage Control | 313,000,000 | **313,200,000** | 438,800,000 | 313,100,000 |
 
 ### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 2 | ☐ Compressed Blue Ice | 1,054 | **150,100** | 176,700 | 150,000 |
+| 3 | ☐ Compressed Blue Ice | 1,054 | **150,100** | 176,700 | 150,000 |
 
-## 3. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
+## 4. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
 _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
 
 ## At Jita IV - Moon 4 - Caldari Navy Assembly Plant
@@ -35,15 +42,14 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 4 | ☐ Glorified Unstable Magnetic Field Stabilizer Mutaplasmid | 184,700,000 | **186,300,000** | 253,200,000 | 186,200,000 |
+| 5 | ☐ Glorified Unstable Magnetic Field Stabilizer Mutaplasmid | 184,700,000 | **186,300,000** | 253,200,000 | 186,200,000 |
 
 ### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 5 | ☐ Hydrogen Isotopes | 1 | **540.70** | 556.60 | 540.60 |
-| 6 | ☐ Silicates | 1 | **355.30** | 365.30 | 355.20 |
+| 6 | ☐ Compressed Kylixium II-Grade | 4 | **251.60** | 261.70 | 251.50 |
 
 ---
-Wallet 260.10M · escrow 1.61B · stock 0.00 · in transit 3.10B · net worth 4.98B (liquidation 4.98B)
+Wallet 260.10M · escrow 1.60B · stock 12.22M · in transit 3.10B · net worth 4.98B (liquidation 4.98B)

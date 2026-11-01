@@ -21,3 +21,4 @@ t,event,hub,type_id,qty,price,cash_delta,note
 1793471660,broker,amarr,53301,0,0.0,-1484855.82,bid o6
 1793471660,broker,amarr,47806,0,0.0,-1569000.0,bid o7
 1793489057,broker,amarr,85746,0,0.0,-183338.28,bid o8
+1793576094,buy_fill,amarr,85746,3642,3356.0,-12222552.0,o8

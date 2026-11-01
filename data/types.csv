@@ -1,10 +1,12 @@
 type_id,name,volume
 34,Tritanium,
+35,Pyerite,
 36,Mexallon,0.01
 38,Nocxium,0.01
 40,Megacyte,0.01
 204,Inferno Cruise Missile,
 233,,0.025
+421,,5.0
 438,,5.0
 448,,5.0
 519,Gyrostabilizer II,5.0
@@ -47,6 +49,7 @@ type_id,name,volume
 2456,,5.0
 2539,,5.0
 2563,,5.0
+2567,Multispectral ECM II,5.0
 2613,Mjolnir Fury Light Missile,
 2801,Nova Javelin Torpedo,0.05
 2867,,50.0
@@ -58,6 +61,7 @@ type_id,name,volume
 2998,Noctis,20000.0
 3033,,5.0
 3041,Small Focused Pulse Laser II,5.0
+3057,Mega Pulse Laser II,20.0
 3080,,1.0
 3082,,10.0
 3106,,10.0
@@ -109,9 +113,12 @@ type_id,name,volume
 8433,,10.0
 8517,Medium F-S9 Regolith Compact Shield Extender,
 8863,,5.0
+9411,,5.0
+9491,1400mm 'Scout' Artillery I,20.0
 9632,,5.0
 9838,Superconductors,
 9899,,1.0
+9941,Memory Augmentation - Basic,1.0
 9950,,1.0
 9957,Eifyr and Co. 'Gunslinger' Motion Prediction MR-703,
 10151,,1.0
@@ -132,6 +139,7 @@ type_id,name,volume
 11188,,2500.0
 11192,Buzzard,2500.0
 11196,,2500.0
+11198,Stiletto,
 11200,,2500.0
 11365,,2500.0
 11379,,2500.0
@@ -152,6 +160,7 @@ type_id,name,volume
 11552,,1.0
 11554,,1.0
 11556,,1.0
+11648,,5.0
 11688,,1.0
 11690,,1.0
 11957,,10000.0
@@ -174,6 +183,7 @@ type_id,name,volume
 12044,,2500.0
 12054,,50.0
 12058,,5.0
+12102,Large Remote Capacitor Transmitter II,
 12200,Mobile Large Warp Disruptor I,585.0
 12209,Large Autocannon Specialization,
 12221,,10.0
@@ -226,6 +236,7 @@ type_id,name,volume
 13924,Dread Guristas Torpedo Launcher,20.0
 13926,,5.0
 13933,Dread Guristas Rocket Launcher,5.0
+13939,Domination Gyrostabilizer,
 13943,True Sansha Heat Sink,5.0
 13947,,25.0
 13949,,10.0
@@ -235,6 +246,7 @@ type_id,name,volume
 13957,Dark Blood Large Armor Repairer,
 13965,,5.0
 13969,Dread Guristas Multispectrum Shield Hardener,5.0
+13984,Dark Blood Thermal Armor Hardener,
 14041,,5.0
 14047,,5.0
 14049,,5.0
@@ -251,6 +263,7 @@ type_id,name,volume
 14140,True Sansha Cap Recharger,
 14144,Dark Blood Capacitor Power Relay,5.0
 14146,True Sansha Capacitor Power Relay,
+14148,Dark Blood Small Energy Nosferatu,
 14152,,5.0
 14158,,5.0
 14168,Dark Blood Heavy Energy Neutralizer,5.0
@@ -261,7 +274,7 @@ type_id,name,volume
 14230,,5.0
 14234,Dread Guristas Cloaking Device,100.0
 14236,,5.0
-14238,Shadow Serpentis Tracking Computer,
+14238,Shadow Serpentis Tracking Computer,5.0
 14252,Dark Blood Warp Scrambler,
 14260,,5.0
 14262,,5.0
@@ -300,6 +313,7 @@ type_id,name,volume
 15897,Caldari Navy X-Large Shield Booster,50.0
 15898,Caldari Navy Small Shield Booster,5.0
 15905,,5.0
+15909,,5.0
 15963,Imperial Navy Large EMP Smartbomb,50.0
 15965,Republic Fleet Tracking Enhancer,5.0
 16004,Eifyr and Co. 'Rogue' Evasive Maneuvering EM-705,
@@ -326,6 +340,7 @@ type_id,name,volume
 16644,Platinum,0.05
 16646,,0.05
 16650,Dysprosium,0.05
+16651,,0.05
 16669,Ferrofluid,
 16672,,0.01
 16673,,0.01
@@ -357,6 +372,7 @@ type_id,name,volume
 17715,,10000.0
 17718,Phantasm,10000.0
 17726,,50000.0
+17772,Small AutoCannon Battery,
 17843,Vexor Navy Issue,
 17887,Oxygen Isotopes,0.03
 17889,Hydrogen Isotopes,0.03
@@ -378,6 +394,7 @@ type_id,name,volume
 18688,Corelum B-Type 10MN Afterburner,
 18698,Core X-Type 100MN Afterburner,
 18708,Corpii A-Type Multispectrum Coating,
+18766,,5.0
 18768,Coreli C-Type Multispectrum Coating,5.0
 18789,Coreli A-Type Multispectrum Coating,
 18799,,5.0
@@ -386,12 +403,15 @@ type_id,name,volume
 18835,Centum C-Type Kinetic Energized Membrane,
 18877,Corpum A-Type Kinetic Energized Membrane,5.0
 18881,Corpum A-Type Multispectrum Energized Membrane,5.0
+18883,Centum A-Type Multispectrum Energized Membrane,
 18897,Corpus C-Type Thermal Armor Hardener,5.0
 18923,Centus A-Type Kinetic Armor Hardener,
 18933,,5.0
+18945,Corpus X-Type Thermal Armor Hardener,5.0
 18947,Centus X-Type Thermal Armor Hardener,
 18949,,5.0
 18963,Core B-Type Thermal Armor Hardener,
+18973,Core X-Type EM Armor Hardener,5.0
 18987,Corelum C-Type Medium Remote Armor Repairer,10.0
 18989,Corelum B-Type Medium Remote Armor Repairer,10.0
 18999,,5.0
@@ -400,6 +420,7 @@ type_id,name,volume
 19027,,10.0
 19029,Corelum C-Type Medium Armor Repairer,10.0
 19031,Corelum B-Type Medium Armor Repairer,
+19037,Core A-Type Large Armor Repairer,50.0
 19038,Core X-Type Large Armor Repairer,50.0
 19039,Corpus C-Type Large Armor Repairer,50.0
 19045,Corpus X-Type Large Armor Repairer,50.0
@@ -475,6 +496,7 @@ type_id,name,volume
 20415,Datacore - Molecular Engineering,0.1
 20424,Datacore - Mechanical Engineering,0.1
 20443,Ogdin's Eye Coordination Enhancer,1.0
+20501,High-grade Amulet Beta,
 20504,High-grade Halo Epsilon,
 20507,High-grade Amulet Gamma,1.0
 20508,High-grade Halo Omega,1.0
@@ -501,6 +523,7 @@ type_id,name,volume
 21894,Republic Fleet EMP L,0.025
 21896,,0.0125
 21898,Republic Fleet EMP S,0.0025
+21918,Republic Fleet Phased Plasma L,
 21922,,0.0125
 22110,Mid-grade Crystal Epsilon,1.0
 22111,Mid-grade Crystal Gamma,1.0
@@ -563,8 +586,11 @@ type_id,name,volume
 24702,Hurricane,
 25266,,5.0
 25267,,0.01
+25530,,0.01
 25538,,0.01
 25544,Gas Cloud Harvesting,0.01
+25563,,5.0
+25590,Contaminated Nanite Compound,
 25591,Contaminated Lorentz Fluid,0.01
 25594,Tangled Power Conduit,0.01
 25604,,0.01
@@ -608,6 +634,7 @@ type_id,name,volume
 26890,,195.0
 26892,,65.0
 26914,Large Remote Armor Repairer II,
+27094,,1.0
 27108,,1.0
 27109,,1.0
 27118,Inherent Implants 'Squire' Capacitor Systems Operation EO-605,
@@ -637,6 +664,7 @@ type_id,name,volume
 27423,,0.05
 27435,,0.03
 27441,,0.03
+27447,,0.03
 27459,,0.05
 27465,Legion Scourge Auto-Targeting Cruise Missile,
 27916,,75.0
@@ -659,6 +687,7 @@ type_id,name,volume
 28437,Compressed Gelidus,
 28439,Compressed Glare Crust,
 28440,Compressed Krystallos,
+28606,,500000.0
 28609,Heavy Interdiction Cruisers,
 28656,Black Ops,
 28659,Paladin,50000.0
@@ -754,11 +783,13 @@ type_id,name,volume
 31882,,10.0
 31884,,25.0
 31888,,5.0
+31890,,10.0
 31904,,10.0
 31910,,10.0
 31918,Federation Navy 800mm Steel Plates,20.0
 31922,Caldari Navy Small Shield Extender,5.0
 31926,Caldari Navy Medium Shield Extender,10.0
+31928,Republic Fleet Medium Shield Extender,10.0
 31930,Caldari Navy Large Shield Extender,20.0
 31932,Republic Fleet Large Shield Extender,20.0
 31942,Federation Navy Omnidirectional Tracking Link,5.0
@@ -797,7 +828,7 @@ type_id,name,volume
 33450,Rapid Heavy Missile Launcher II,20.0
 33452,Domination Rapid Heavy Missile Launcher,20.0
 33468,Astero,2500.0
-33470,Stratios,
+33470,Stratios,10000.0
 33472,Nestor,
 33522,,50.0
 33526,,1.0
@@ -816,7 +847,7 @@ type_id,name,volume
 33846,Dread Guristas Drone Damage Amplifier,5.0
 33896,Medium Transverse Bulkhead II,10.0
 33898,,20.0
-33900,Large Transverse Bulkhead II,
+33900,Large Transverse Bulkhead II,20.0
 33904,Capital Transverse Bulkhead II,40.0
 33925,Low-grade Crystal Delta,1.0
 33926,Low-grade Crystal Epsilon,1.0
@@ -851,7 +882,7 @@ type_id,name,volume
 35886,Standup Invention Lab I,
 35923,Standup Guided Bomb Launcher I,
 35949,,4000.0
-36909,Antipharmakon Kosybo,
+36909,Antipharmakon Kosybo,1.0
 36910,,1.0
 37146,Standup M-Set Basic Medium Ship Manufacturing Material Efficiency I,10.0
 37154,Standup M-Set Basic Small Ship Manufacturing Material Efficiency I,10.0
@@ -937,6 +968,7 @@ type_id,name,volume
 45592,,40.0
 45595,,40.0
 45601,Tengu Offensive - Accelerated Ejection Bay,40.0
+45606,Proteus Offensive - Support Processor,40.0
 45607,,40.0
 45608,Loki Offensive - Launcher Efficiency Configuration,40.0
 45611,,40.0
@@ -961,6 +993,7 @@ type_id,name,volume
 46005,Agency 'Overclocker' SB5 Dose II,
 46213,Ferrogel Reaction Formula,
 46355,,6.0
+46356,,10.0
 46375,Daily Alpha Injector,
 46633,Standup M-Set Asteroid Ore Grading Processor I,10.0
 47028,Neural Lace 'Blackglass' Net Intrusion 920-40,1.0
@@ -1047,7 +1080,7 @@ type_id,name,volume
 54534,Black Market 'Valdimar' Drone Navigation DN-701,1.0
 54543,Black Market 'Valdimar' Drone Durability DD-1001,
 54732,,10000.0
-54742,Small Vorton Projector II,
+54742,Small Vorton Projector II,5.0
 54743,Small Consortium Vorton Projector,5.0
 54748,Medium Vorton Projector II,25.0
 54749,Medium Consortium Vorton Projector,25.0
@@ -1141,6 +1174,7 @@ type_id,name,volume
 62628,Large Ice Compressor I,1000.0
 62630,Large Mercoxit Compressor I,1000.0
 62631,Large Moon Ore Compressor I,1000.0
+63054,Men's 'Semiotique Superluminal' Pants,
 63140,,5000.0
 64380,Men's Amarr Courtly Robe,
 72812,Ferox Navy Issue,15000.0
@@ -1162,6 +1196,7 @@ type_id,name,volume
 78333,,5000.0
 78366,Alligator,15000.0
 78367,Mamba,5000.0
+78369,Khizriel,15000.0
 78622,Gravid Vorton Tuning System Mutaplasmid,1.0
 79186,Mysterious GalNet Crate II,
 79744,Barghest Aurora Universalis SKIN,
@@ -1172,6 +1207,7 @@ type_id,name,volume
 81350,Kerr Sequencer,0.001
 81948,Consortium Small Tractor Beam,
 81951,Consortium Mobile Tractor Unit,
+82301,Compressed Kylixium II-Grade,
 83467,,1.0
 83468,Blood Raider NET Resonator,1.0
 83470,Mordu NET Resonator,1.0
@@ -1184,6 +1220,7 @@ type_id,name,volume
 85662,Glorified Unstable Gyrostabilizer Mutaplasmid,
 85668,Glorified Unstable Magnetic Field Stabilizer Mutaplasmid,
 85746,Infomorph Decryption Key,
+85747,Satori-Horigu Combat Scanner Probe,
 85931,Chimera Arkombine Arisen SKIN,
 86262,,0.01
 86264,Breacher Pod Rapid Firing,0.01
@@ -1229,9 +1266,12 @@ type_id,name,volume
 92456,Presidential Mining Foreman Burst,60.0
 92462,,10.0
 92463,,25.0
+92466,Atlas SD-900-I,
 92541,Capital Disintegrator Specialization,
+92572,Crystalline Kangite,
 93466,Imperial Benediction - Unlimited,
 93745,Tempest Fleet Issue Capsuleer Day XXIII SKIN,0.01
+93908,Caldari Navy Missile Guidance Enhancer,5.0
 93912,Revelli’s Modified Integrated Analyzer,5.0
 93998,Federation Navy 'Argyreos' Magnetic Field Stabilizer,
 94008,Republic Fleet Bastion Module,200.0
@@ -1244,6 +1284,7 @@ type_id,name,volume
 95672,Liberated Matar Background,0.1
 95673,Foundation Wisdom Background,0.1
 95741,Akoman,15000.0
+96318,,0.01
 96321,Salvation Sanguinary Savant SKIN,
 96326,Captured Bioadaptive Cache,1.0
 96543,Potent 'Radiance' Cerebral Accelerator,1.0
@@ -1255,6 +1296,7 @@ type_id,name,volume
 96586,,1.0
 96789,Mutated Blood Sample,
 96821,Ascendant Clades - Unlimited,
+96823,Trinary Echo - Unlimited,
 96825,Savant’s Ruin - Unlimited,
 96829,Liminal Sanguine Gloss - Unlimited,
 96844,Entropic Rose Metallic - Unlimited,

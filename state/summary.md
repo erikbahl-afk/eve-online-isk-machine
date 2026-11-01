@@ -1,19 +1,19 @@
-# Summary · Sun 01 Nov 10:57 PST
+# Summary · Sun 01 Nov 15:36 PST
 
 Auto-generated every run. Reviewers: start here.
 
 ## Portfolio
-- Net worth (book): **4.98B** (-0.48% over 4.0 days) · liquidation value 4.98B
-- Cash 260.10M · escrow 1.61B · stock 0.00 · in transit 3.10B · orders 8/113
-- Realized P&L -24.20M · sales 0.00 · buys 2.96B · fees: broker 24.20M, relist 0.00, tax 0.00, courier 138.00M
+- Net worth (book): **4.98B** (-0.48% over 4.2 days) · liquidation value 4.98B
+- Cash 260.10M · escrow 1.60B · stock 12.22M · in transit 3.10B · orders 7/113
+- Realized P&L -24.20M · sales 0.00 · buys 2.98B · fees: broker 24.20M, relist 0.00, tax 0.00, courier 138.00M
 - Character at **amarr** · import hub: **amarr** · shipments in transit: 1
-- Shelf space in use: slots 8/113 · ISK deployed 95% · last plan 8/25 min (whichever is near 100% is what limits profit)
+- Shelf space in use: slots 7/113 · ISK deployed 95% · last plan 8/25 min (whichever is near 100% is what limits profit)
 
 ## By strategy
 | Strategy | Buys | Sales | Fees | Realized |
 |---|---|---|---|---|
 | import | 2.96B | 0.00 | 138.00M | 0.00 |
-| station | 0.00 | 0.00 | 24.20M | -24.20M |
+| station | 12.22M | 0.00 | 24.20M | -24.20M |
 
 ## Strategy experiments (same market, same sessions, different settings)
 | Variant | Net worth | Change | Realized | What it tests |
@@ -51,65 +51,65 @@ Market size = ISK/day bought from sell orders at the station (what we'd be selli
 
 | Hub | Market size | Station types | Station top-30 | Import types (from Jita) | Import top-30 |
 |---|---|---|---|---|---|
-| jita | 4.51T | 132 | 456.21M | - | - |
-| amarr | 563.29B | 34 | 171.34M | 132 | 562.23M |
-| dodixie | 198.52B | 7 | 20.43M | 97 | 512.85M |
-| rens | 37.85B | 7 | 18.82M | 43 | 217.39M |
-| hek | 69.45B | 6 | 29.72M | 75 | 270.37M |
+| jita | 4.67T | 153 | 326.18M | - | - |
+| amarr | 580.92B | 41 | 223.00M | 143 | 496.28M |
+| dodixie | 201.30B | 3 | 11.27M | 101 | 533.99M |
+| rens | 40.80B | 6 | 20.24M | 47 | 248.46M |
+| hek | 72.25B | 6 | 34.42M | 82 | 252.19M |
 
 ## Top station candidates at jita
 | Type | Bid→Ask | Margin | Units/day | Still on top (ask/bid) | Exp. profit/day | Uses most |
 |---|---|---|---|---|---|---|
-| Inherent Implants 'Squire' Power Grid Management EG-604 | 81.57M→126.20M | 45.7% | 0.3 | 34%/74% | 12.51M | time |
-| Zeugma Integrated Analyzer | 415.30M→529.00M | 19.7% | 0.2 | 13%/12% | 15.26M | ISK |
-| Republic Fleet Commander Insignia I | 6.13M→7.79M | 19.4% | 24.6 | 6%/29% | 27.97M | ISK |
-| ORE Strip Miner | 135.10M→170.20M | 18.3% | 5.4 | 9%/34% | 127.67M | ISK |
-| Mid-grade Hydra Beta | 131.80M→243.20M | 74.0% | 0.1 | 7%/47% | 11.59M | time |
-| Black Ops | 51.01M→69.97M | 29.0% | 0.5 | 74%/100% | 7.15M | time |
-| High-grade Snake Omega | 979.10M→1.20B | 14.9% | 0.1 | 11%/51% | 17.55M | ISK |
-| Genolution Core Augmentation CA-3 | 343.10M→418.50M | 14.5% | 0.2 | 11%/19% | 10.41M | ISK |
-| High-grade Amulet Omega | 1.12B→1.35B | 13.4% | 0.3 | 10%/28% | 42.85M | ISK |
-| Warp Scrambling Battery | 3.60M→7.00M | 83.3% | 2.1 | 32%/100% | 6.31M | time |
-| nan | 100.40M→119.80M | 12.0% | 0.7 | 8%/58% | 7.49M | ISK |
-| Aeon Sanguinary Savant SKIN | 52.51M→101.30M | 82.0% | 0.2 | 47%/28% | 6.86M | time |
+| Inherent Implants 'Squire' Power Grid Management EG-604 | 81.57M→125.80M | 45.2% | 0.3 | 24%/64% | 10.65M | time |
+| Zeugma Integrated Analyzer | 420.00M→527.80M | 18.0% | 0.2 | 13%/12% | 12.85M | ISK |
+| Black Ops | 51.01M→69.97M | 29.0% | 0.4 | 79%/100% | 6.58M | time |
+| Mid-grade Hydra Beta | 131.90M→243.20M | 73.9% | 0.1 | 7%/42% | 10.32M | time |
+| High-grade Snake Omega | 979.10M→1.20B | 14.9% | 0.1 | 12%/54% | 17.14M | ISK |
+| Genolution Core Augmentation CA-3 | 343.70M→418.40M | 14.3% | 0.2 | 11%/18% | 10.93M | ISK |
+| Warp Scrambling Battery | 3.60M→7.00M | 83.2% | 2.3 | 32%/100% | 6.78M | time |
+| Small AutoCannon Battery | 1.90M→2.90M | 43.5% | 5.9 | 100%/100% | 4.91M | time |
+| Compressed Dark Glitter | 358.10k→427.70k | 12.1% | 330.4 | 20%/65% | 13.64M | ISK |
+| High-grade Amulet Omega | 1.13B→1.35B | 11.6% | 0.3 | 10%/27% | 32.47M | ISK |
+| Mid-grade Amulet Gamma | 67.14M→79.78M | 11.5% | 1.4 | 10%/13% | 10.29M | ISK |
+| ORE Strip Miner | 144.70M→170.60M | 10.7% | 4.2 | 10%/27% | 60.40M | ISK |
 
 ## Top import candidates Jita → amarr
 | Type | Jita → sell | m³ | Margin | Units/day | Still on top | Exp. profit/day | Uses most |
 |---|---|---|---|---|---|---|---|
-| 'Cartel' Power Diagnostic System I | 28.62M→68.32M | 5.0 | 122.5% | 0.8 | 65% | 29.68M | time |
-| State Hardpoint Booster II | 10.38M→20.96M | 1.0 | 87.5% | 2.4 | 100% | 21.57M | time |
-| Standup Ballistic Control System II | 99.72M→156.00M | 4,000.0 | 44.2% | 0.6 | 43% | 24.47M | ISK |
-| Standup Cruise Missile | 12.26k→19.12k | 0.5 | 43.8% | 6817.9 | 100% | 36.57M | ISK |
-| Capital Warhead Rigor Catalyst II | 324.00M→524.40M | 40.0 | 49.4% | 0.1 | 34% | 23.18M | time |
-| Low-grade Harvest Beta | 62.52M→111.90M | 1.0 | 65.7% | 0.4 | 100% | 17.73M | time |
-| Sleeper Profound Research Notes | 32.76M→46.73M | 1.0 | 31.1% | 1.7 | 65% | 16.84M | ISK |
-| Golem State Police SKIN | 64.89M→99.58M | 0.0 | 41.4% | 0.5 | 100% | 14.49M | time |
-| Low-grade Grail Delta | 10.46M→22.96M | 1.0 | 104.2% | 1.3 | 100% | 14.25M | time |
-| nan | 20.09M→28.28M | 1.0 | 29.3% | 3.7 | 100% | 21.61M | ISK |
-| nan | 1.89M→3.00M | 1.0 | 46.2% | 15.3 | 100% | 13.40M | time |
-| Large Projectile Collision Accelerator II | 21.20M→48.23M | 20.0 | 111.8% | 0.5 | 100% | 12.80M | time |
+| 'Cartel' Power Diagnostic System I | 28.60M→68.32M | 5.0 | 122.6% | 0.8 | 65% | 27.31M | time |
+| Large Mercoxit Compressor I | 48.30M→116.00M | 1,000.0 | 123.9% | 0.4 | 100% | 23.76M | time |
+| Standup Cruise Missile | 12.44k→19.79k | 0.5 | 46.7% | 9955.5 | 100% | 57.87M | ISK |
+| State Hardpoint Booster II | 10.31M→20.96M | 1.0 | 88.8% | 2.2 | 100% | 19.99M | time |
+| Standup Ballistic Control System II | 99.71M→156.10M | 4,000.0 | 44.3% | 0.5 | 37% | 22.06M | time |
+| Capital Warhead Rigor Catalyst II | 324.00M→524.40M | 40.0 | 49.4% | 0.1 | 34% | 21.32M | time |
+| Low-grade Harvest Beta | 62.52M→111.90M | 1.0 | 65.7% | 0.4 | 100% | 16.30M | time |
+| Gist X-Type 500MN Microwarpdrive | 191.90M→278.60M | 10.0 | 33.5% | 0.5 | 32% | 30.96M | ISK |
+| Caldari Navy Missile Guidance Enhancer | 109.80M→220.20M | 5.0 | 86.2% | 0.2 | 43% | 18.15M | time |
+| nan | 80.29M→118.00M | 1.0 | 35.2% | 0.6 | 54% | 16.54M | time |
+| nan | 20.09M→28.28M | 1.0 | 29.3% | 2.7 | 79% | 15.62M | ISK |
+| Sleeper Profound Research Notes | 32.77M→46.73M | 1.0 | 31.0% | 1.5 | 65% | 14.96M | time |
 
 ## Cornerability watchlist (read-only, nothing is traded)
 Buy out the cheapest N sell orders, relist just under the next one (capped where imports would kick in). Daily snapshots go to data/corners/ so we can see if these really hold.
 
 | Hub | Item | Best ask | Buy out | Cost | Relist at | Paper profit | ROI | Days to sell | Rival updates/day |
 |---|---|---|---|---|---|---|---|---|---|
-| jita | Oxidative Stress - Unlimited | 50.50M | 6 orders / 6 u | 332.17M | 97.28M | 223.06M | 67% | 8.2 | 1.8 |
-| jita | Inferno Cruise Missile | 187.20 | 8 orders / 2,034,413 u | 383.29M | 270.70 | 140.58M | 37% | 7.4 | 1.8 |
-| dodixie | Domination Torpedo Launcher | 12.24M | 3 orders / 11 u | 187.35M | 30.88M | 135.77M | 72% | 4.8 | 0.5 |
-| jita | Dual Heavy Pulse Laser II | 3.61M | 6 orders / 82 u | 296.58M | 5.39M | 124.24M | 42% | 4.0 | 2.7 |
-| jita | Inherent Implants 'Noble' Repair Systems RS-605 | 129.90M | 1 orders / 3 u | 389.70M | 179.30M | 121.98M | 31% | 1.1 | 0.4 |
-| jita | Liminal Sanguine Gloss - Unlimited | 75.00M | 2 orders / 5 u | 380.00M | 104.90M | 118.93M | 31% | 6.2 | 0.0 |
-| jita | Advanced Armor Layering | 17.00M | 2 orders / 21 u | 357.50M | 23.79M | 117.73M | 33% | 5.1 | 0.4 |
-| jita | Infomorph Psychology | 1.30M | 1 orders / 58 u | 75.40M | 3.49M | 117.26M | 156% | 7.5 | 0.9 |
-| jita | Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-803 | 19.89M | 2 orders / 15 u | 298.44M | 28.95M | 114.64M | 38% | 1.3 | 1.8 |
-| jita | Dark Blood Small Capacitor Booster | 47.98M | 4 orders / 4 u | 193.96M | 80.75M | 113.29M | 58% | 6.8 | 1.8 |
+| jita | Republic Fleet Overdrive Injector | 19.30M | 7 orders / 19 u | 369.22M | 29.00M | 154.92M | 42% | 10.0 | 2.1 |
+| jita | Trinary Echo - Unlimited | 65.00M | 2 orders / 5 u | 329.99M | 99.01M | 140.93M | 43% | 3.4 | 0.8 |
+| jita | Blood Multifrequency L | 3.83M | 3 orders / 43 u | 165.06M | 7.39M | 137.42M | 83% | 7.0 | 1.7 |
+| jita | Dark Blood Small Energy Nosferatu | 23.48M | 14 orders / 16 u | 397.98M | 35.08M | 135.94M | 34% | 8.7 | 1.2 |
+| jita | Dual Heavy Pulse Laser II | 3.61M | 7 orders / 88 u | 318.26M | 5.39M | 133.35M | 42% | 4.7 | 2.9 |
+| jita | Advanced Armor Layering | 17.00M | 2 orders / 20 u | 340.50M | 23.90M | 114.20M | 34% | 5.0 | 0.4 |
+| jita | Advanced Spaceship Command | 55.60M | 3 orders / 7 u | 389.69M | 74.99M | 109.65M | 28% | 0.8 | 2.1 |
+| jita | Men's 'Semiotique Superluminal' Pants | 119.30M | 3 orders / 3 u | 389.60M | 174.40M | 108.09M | 28% | 7.6 | 1.7 |
+| jita | Infomorph Psychology | 1.30M | 1 orders / 56 u | 72.80M | 3.39M | 107.89M | 148% | 7.4 | 0.8 |
+| jita | Large Autocannon Specialization | 9.99M | 6 orders / 25 u | 250.42M | 14.97M | 105.58M | 42% | 7.4 | 2.5 |
 
 ## Data health
 | Hub | Orders | Hours today | Prints this run | Note |
 |---|---|---|---|---|
-| jita | 327,406 | 19.6 | 16,860 |  |
-| amarr | 129,934 | 19.6 | 6,323 |  |
-| dodixie | 68,409 | 19.6 | 3,369 |  |
-| rens | 32,095 | 19.6 | 1,231 |  |
-| hek | 41,203 | 19.6 | 1,916 |  |
+| jita | 326,675 | 24.2 | 14,738 |  |
+| amarr | 130,243 | 24.3 | 5,749 |  |
+| dodixie | 68,737 | 24.2 | 3,115 |  |
+| rens | 32,197 | 24.2 | 1,418 |  |
+| hek | 41,182 | 24.2 | 1,650 |  |
