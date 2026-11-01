@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Sun 01 Nov 05:25 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Sun 01 Nov 10:57 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 6 · **Est. time:** 8 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -16,7 +16,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 1 | ☐ Sentient Damage Control | 313,000,000 | **313,000,000** | 438,900,000 | 312,900,000 |
+| 1 | ☐ Sentient Damage Control | 313,000,000 | **313,100,000** | 438,900,000 | 313,000,000 |
 
 ### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
@@ -35,15 +35,15 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 4 | ☐ Glorified Unstable Magnetic Field Stabilizer Mutaplasmid | 184,700,000 | **185,100,000** | 253,300,000 | 185,000,000 |
+| 4 | ☐ Glorified Unstable Magnetic Field Stabilizer Mutaplasmid | 184,700,000 | **186,300,000** | 253,200,000 | 186,200,000 |
 
 ### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 5 | ☐ type 2306 | 3 | **4.11** | 4.84 | 4.10 |
-| 6 | ☐ Silicates | 3 | **355.20** | 367.10 | 355.10 |
+| 5 | ☐ Hydrogen Isotopes | 1 | **540.70** | 556.60 | 540.60 |
+| 6 | ☐ Silicates | 1 | **355.30** | 365.30 | 355.20 |
 
 ---
 Wallet 260.10M · escrow 1.61B · stock 0.00 · in transit 3.10B · net worth 4.98B (liquidation 4.98B)
