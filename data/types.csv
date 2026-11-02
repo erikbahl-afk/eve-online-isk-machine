@@ -54,6 +54,7 @@ type_id,name,volume
 2539,,5.0
 2563,,5.0
 2567,Multispectral ECM II,5.0
+2571,Gravimetric ECM II,
 2613,Mjolnir Fury Light Missile,
 2801,Nova Javelin Torpedo,0.05
 2867,,50.0
@@ -62,7 +63,7 @@ type_id,name,volume
 2929,800mm Repeating Cannon II,20.0
 2953,,20.0
 2969,,10.0
-2993,Dual Light Beam Laser II,
+2993,Dual Light Beam Laser II,5.0
 2998,Noctis,20000.0
 3033,,5.0
 3041,Small Focused Pulse Laser II,5.0
@@ -137,6 +138,7 @@ type_id,name,volume
 10217,Ocular Filter - Improved,1.0
 10222,Cybernetic Subprocessor - Improved,1.0
 10225,Social Adaptation Chip - Standard,
+10226,,1.0
 10244,,1.0
 10858,Large Shield Booster II,
 11172,,2500.0
@@ -149,6 +151,7 @@ type_id,name,volume
 11198,Stiletto,
 11200,,2500.0
 11365,,2500.0
+11377,,2500.0
 11379,,2500.0
 11381,,2500.0
 11393,Retribution,2500.0
@@ -167,6 +170,7 @@ type_id,name,volume
 11552,,1.0
 11554,,1.0
 11556,,1.0
+11577,Improved Cloaking Device II,100.0
 11648,,5.0
 11688,,1.0
 11690,,1.0
@@ -252,16 +256,18 @@ type_id,name,volume
 13951,Dread Guristas Small Shield Booster,5.0
 13953,Dread Guristas X-Large Shield Booster,50.0
 13956,,50.0
-13957,Dark Blood Large Armor Repairer,
+13957,Dark Blood Large Armor Repairer,50.0
 13965,,5.0
 13969,Dread Guristas Multispectrum Shield Hardener,5.0
 13984,Dark Blood Thermal Armor Hardener,
 14041,,5.0
+14045,,5.0
 14047,,5.0
 14049,,5.0
 14067,Shadow Serpentis Large Armor Repairer,50.0
 14069,,5.0
 14072,True Sansha Multispectrum Energized Membrane,
+14074,,5.0
 14094,Dark Blood Thermal Energized Membrane,
 14100,Domination Tracking Enhancer,5.0
 14104,,5.0
@@ -279,6 +285,7 @@ type_id,name,volume
 14168,Dark Blood Heavy Energy Neutralizer,5.0
 14176,Dark Blood Medium Capacitor Booster,
 14184,Dark Blood Small Capacitor Booster,
+14190,True Sansha Large EMP Smartbomb,
 14206,Shadow Serpentis Large Plasma Smartbomb,
 14208,Domination Large Proton Smartbomb,50.0
 14230,,5.0
@@ -370,9 +377,11 @@ type_id,name,volume
 17482,Strip Miner I,5.0
 17487,,10.0
 17494,,5.0
+17495,Caldari Navy Kinetic Shield Hardener,
 17498,Caldari Navy Multispectrum Shield Hardener,
 17500,,5.0
 17520,Federation Navy Sensor Booster,5.0
+17526,,5.0
 17546,Imperial Navy Large Armor Repairer,
 17549,Federation Navy Multispectrum Coating,
 17559,,5.0
@@ -431,6 +440,7 @@ type_id,name,volume
 19003,,5.0
 19015,Coreli A-Type Small Armor Repairer,5.0
 19017,Corpum C-Type Medium Armor Repairer,10.0
+19025,,10.0
 19027,,10.0
 19029,Corelum C-Type Medium Armor Repairer,10.0
 19031,Corelum B-Type Medium Armor Repairer,
@@ -509,6 +519,7 @@ type_id,name,volume
 20351,800mm Steel Plates II,
 20358,Numon Family Heirloom,1.0
 20410,,0.1
+20411,,0.1
 20415,Datacore - Molecular Engineering,0.1
 20424,Datacore - Mechanical Engineering,0.1
 20443,Ogdin's Eye Coordination Enhancer,1.0
@@ -523,6 +534,7 @@ type_id,name,volume
 20623,,50.0
 20629,,10.0
 20855,True Sanshas Standard S,
+21009,Capital Propulsion Engine,2000.0
 21018,Capital Armor Plates Blueprint,0.01
 21023,,2000.0
 21238,Blood Multifrequency L,
@@ -590,6 +602,7 @@ type_id,name,volume
 23071,,1.0
 23073,,1.0
 23105,,1.0
+23107,,1.0
 23128,,0.1
 23134,Takmahl Dynamic Gauge,
 23785,'Bailey' 1600mm Steel Plates,20.0
@@ -601,6 +614,9 @@ type_id,name,volume
 24499,,0.015
 24509,,0.03
 24511,,0.03
+24515,,0.03
+24517,Mjolnir Precision Heavy Missile,0.03
+24521,,0.05
 24523,,0.05
 24535,,0.05
 24539,,0.05
@@ -658,7 +674,7 @@ type_id,name,volume
 26450,,20.0
 26890,,195.0
 26892,,65.0
-26914,Large Remote Armor Repairer II,
+26914,Large Remote Armor Repairer II,25.0
 27094,,1.0
 27108,,1.0
 27109,,1.0
@@ -721,6 +737,7 @@ type_id,name,volume
 28661,Kronos,50000.0
 28665,Vargur,50000.0
 28668,Nanite Repair Paste,
+28672,Synth Crash Booster,
 28674,,1.0
 28676,Synth Exile Booster,1.0
 28680,,1.0
@@ -744,7 +761,7 @@ type_id,name,volume
 28809,Mid-grade Virtue Beta,1.0
 28810,,1.0
 28811,Mid-grade Virtue Epsilon,1.0
-28812,Mid-grade Virtue Gamma,
+28812,Mid-grade Virtue Gamma,1.0
 28813,Mid-grade Virtue Omega,
 29337,Augoror Navy Issue,
 29340,,10000.0
@@ -753,10 +770,12 @@ type_id,name,volume
 29988,Proteus,5000.0
 29990,Loki,5000.0
 30018,,0.01
+30251,Neurovisual Input Matrix,
 30254,Electromechanical Hull Sheeting,
 30310,Carbon-86 Epoxy Resin,
 30370,Fullerite-C50,1.0
 30376,Fullerite-C32,
+30377,Fullerite-C320,
 30486,Sisters Combat Scanner Probe,1.0
 30488,Sisters Core Scanner Probe,
 30752,Intact Hull Section,
@@ -768,6 +787,7 @@ type_id,name,volume
 31041,,10.0
 31053,,10.0
 31059,Medium Trimark Armor Pump II,10.0
+31077,,5.0
 31079,,10.0
 31111,,5.0
 31167,,10.0
@@ -787,6 +807,7 @@ type_id,name,volume
 31544,,5.0
 31594,,10.0
 31606,,10.0
+31614,Small Rocket Fuel Cache Partition II,5.0
 31616,,10.0
 31650,,5.0
 31652,,10.0
@@ -912,11 +933,13 @@ type_id,name,volume
 35683,Hecate,5000.0
 35790,Missile Guidance Computer II,5.0
 35833,Fortizar,
+35878,Standup Manufacturing Plant I,4000.0
 35886,Standup Invention Lab I,
 35923,Standup Guided Bomb Launcher I,
 35949,,4000.0
 36909,Antipharmakon Kosybo,1.0
 36910,,1.0
+36912,Antipharmakon Aeolis,
 37146,Standup M-Set Basic Medium Ship Manufacturing Material Efficiency I,10.0
 37154,Standup M-Set Basic Small Ship Manufacturing Material Efficiency I,10.0
 37292,,1000.0
@@ -973,7 +996,7 @@ type_id,name,volume
 41493,,1000.0
 41498,Capital I-a Enduring Armor Repairer,1000.0
 41503,Capital Ancillary Armor Repairer,
-41533,Ligature Integrated Analyzer,
+41533,Ligature Integrated Analyzer,5.0
 41534,Zeugma Integrated Analyzer,5.0
 42145,Low-grade Asklepian Alpha,
 42201,Low-grade Asklepian Epsilon,1.0
@@ -988,6 +1011,7 @@ type_id,name,volume
 42830,Mining Laser Optimization Charge,
 42881,Mining Laser Field Enhancement Charge Blueprint,0.01
 42882,,0.01
+43556,Skirmish Command Burst II,
 43688,Astral Mining Inc. Strong Box,
 43694,,5.0
 43700,Ice Harvesting Drone II,
@@ -1183,6 +1207,7 @@ type_id,name,volume
 61199,Ubiquitous Moon Mining Crystal Type B II,10.0
 62380,Compressed Celadon Mykoserocin,
 62385,Compressed Viridian Mykoserocin,
+62397,Compressed Fullerite-C60,
 62400,Compressed Fullerite-C84,
 62403,Compressed Fullerite-C72,
 62405,Compressed Fullerite-C540,
@@ -1196,10 +1221,12 @@ type_id,name,volume
 62522,Compressed Scordite III-Grade,
 62526,,0.003
 62529,Compressed Plagioclase II-Grade,
+62532,Compressed Omber,
 62533,Compressed Omber II-Grade,
 62564,Compressed Bistot,
 62566,,0.16
 62567,Compressed Bistot IV-Grade,0.16
+62571,Compressed Arkonor IV-Grade,
 62572,,0.16
 62573,Compressed Spodumain II-Grade,0.16
 62587,Compressed Mercoxit II-Grade,
@@ -1255,6 +1282,7 @@ type_id,name,volume
 85178,Tetrimonic Warclone Blanks,
 85179,Overseer Sabik Vial,
 85390,,0.01
+85400,X-Large Mutaplasmid Residue,
 85662,Glorified Unstable Gyrostabilizer Mutaplasmid,
 85668,Glorified Unstable Magnetic Field Stabilizer Mutaplasmid,
 85746,Infomorph Decryption Key,
@@ -1337,6 +1365,7 @@ type_id,name,volume
 96823,Trinary Echo - Unlimited,
 96825,Savant’s Ruin - Unlimited,
 96829,Liminal Sanguine Gloss - Unlimited,
+96842,Clotted Bronze Metallic - Unlimited,
 96844,Entropic Rose Metallic - Unlimited,
 96845,Star of Pochven Background,0.1
 97265,Criterion Cipher,
@@ -1349,6 +1378,7 @@ type_id,name,volume
 97639,Unstable Capital Remote Armor Repairer Mutaplasmid,
 97650,Decayed Large Remote Armor Repairer Mutaplasmid,
 97662,Unstable Medium Remote Armor Repairer Mutaplasmid,
+97670,Unstable Small Remote Armor Repairer Mutaplasmid,
 97671,,1.0
 98145,Blood Raider Blueprint Crate,1.0
 98147,Crimson Totality Background,

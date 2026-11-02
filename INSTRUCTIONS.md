@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Sun 01 Nov 22:04 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 10 · **Est. time:** 12 min. Work top to bottom; stop any time.  
+**Updated:** Mon 02 Nov 07:53 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 8 · **Est. time:** 10 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -30,7 +30,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 3 | ☐ Mutated Blood Sample | 4 | **68,140** | 76,580 | 68,130 |
+| 3 | ☐ nan | 7 | **250.10** | 353.50 | 250.00 |
 
 ## 4. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
 _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
@@ -42,18 +42,16 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 5 | ☐ Glorified Unstable Magnetic Field Stabilizer Mutaplasmid | 184,700,000 | **186,300,000** | 253,200,000 | 186,200,000 |
+| 5 | ☐ Glorified Unstable Magnetic Field Stabilizer Mutaplasmid | 184,700,000 | **100,100,000** | 253,400,000 | 100,000,000 |
 
 ### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 6 | ☐ Compressed Bistot | 4 | **2,351** | 3,447 | 2,350 |
-| 7 | ☐ Compressed Dark Glitter | 506 | **312,100** | 383,800 | 312,000 |
-| 8 | ☐ Compressed Scordite II-Grade | 12 | **20.39** | 20.95 | 20.38 |
-| 9 | ☐ Water | 1 | **447.30** | 449.80 | 447.20 |
-| 10 | ☐ nan | 1 | **1,222** | 1,445 | 1,221 |
+| 6 | ☐ Compressed Bistot | 16 | **2,354** | 3,445 | 2,353 |
+| 7 | ☐ Compressed Dark Glitter | 506 | **312,300** | 351,700 | 312,200 |
+| 8 | ☐ Ukomi Superconductors | 2 | **71,610** | 73,290 | 71,600 |
 
 ---
 Wallet 260.10M · escrow 1.60B · stock 12.22M · in transit 3.10B · net worth 4.98B (liquidation 4.98B)
