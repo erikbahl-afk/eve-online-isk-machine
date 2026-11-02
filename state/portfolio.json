@@ -87,7 +87,7 @@
   "jita": {}
  },
  "last_jump": 1793471660.6943777,
- "last_t": 1793576176.8453496,
+ "last_t": 1793599469.3826935,
  "location": "amarr",
  "next_oid": 9,
  "orders": [
@@ -361,7 +361,7 @@
   "sales": 0.0,
   "tax": 0.0
  },
- "report_week": "2026-W44",
+ "report_week": "2026-W45",
  "start_isk": 5000000000,
  "version": 1
 }
