@@ -2,6 +2,7 @@ type_id,name,volume
 34,Tritanium,
 35,Pyerite,
 36,Mexallon,0.01
+37,Isogen,
 38,Nocxium,0.01
 40,Megacyte,0.01
 204,Inferno Cruise Missile,
@@ -28,6 +29,7 @@ type_id,name,volume
 1818,Scourge Auto-Targeting Heavy Missile I,0.03
 1830,,0.05
 1855,,5.0
+1952,Sensor Booster II,
 1978,Tracking Computer II,5.0
 1987,Signal Amplifier II,
 1999,Tracking Enhancer II,
@@ -39,6 +41,7 @@ type_id,name,volume
 2286,,0.005
 2287,,0.005
 2297,Explosive Shield Hardener II,
+2301,EM Shield Hardener II,
 2303,Thermal Shield Hardener II,
 2309,Ionic Solutions,
 2345,Camera Drones,3.0
@@ -119,7 +122,7 @@ type_id,name,volume
 7579,Modal Light Neutron Particle Accelerator I,5.0
 8263,,5.0
 8433,,10.0
-8517,Medium F-S9 Regolith Compact Shield Extender,
+8517,Medium F-S9 Regolith Compact Shield Extender,10.0
 8863,,5.0
 9411,,5.0
 9491,1400mm 'Scout' Artillery I,20.0
@@ -139,6 +142,7 @@ type_id,name,volume
 10222,Cybernetic Subprocessor - Improved,1.0
 10225,Social Adaptation Chip - Standard,
 10226,,1.0
+10228,,1.0
 10244,,1.0
 10858,Large Shield Booster II,
 11172,,2500.0
@@ -171,6 +175,7 @@ type_id,name,volume
 11554,,1.0
 11556,,1.0
 11577,Improved Cloaking Device II,100.0
+11578,Covert Ops Cloaking Device II,100.0
 11648,,5.0
 11688,,1.0
 11690,,1.0
@@ -194,6 +199,7 @@ type_id,name,volume
 12044,,2500.0
 12054,,50.0
 12058,,5.0
+12084,500MN Microwarpdrive II,
 12102,Large Remote Capacitor Transmitter II,
 12200,Mobile Large Warp Disruptor I,585.0
 12209,Large Autocannon Specialization,
@@ -240,6 +246,7 @@ type_id,name,volume
 13784,Domination 720mm Howitzer Artillery,
 13785,Domination 800mm Repeating Cannon,20.0
 13791,Dark Blood Dual Heavy Pulse Laser,20.0
+13809,Dark Blood Small Focused Beam Laser,
 13815,,20.0
 13824,,10.0
 13832,True Sansha Mega Pulse Laser,20.0
@@ -259,6 +266,7 @@ type_id,name,volume
 13957,Dark Blood Large Armor Repairer,50.0
 13965,,5.0
 13969,Dread Guristas Multispectrum Shield Hardener,5.0
+13976,Dark Blood Explosive Armor Hardener,
 13984,Dark Blood Thermal Armor Hardener,
 14041,,5.0
 14045,,5.0
@@ -282,6 +290,7 @@ type_id,name,volume
 14148,Dark Blood Small Energy Nosferatu,
 14152,,5.0
 14158,,5.0
+14164,Dark Blood Medium Energy Neutralizer,5.0
 14168,Dark Blood Heavy Energy Neutralizer,5.0
 14176,Dark Blood Medium Capacitor Booster,
 14184,Dark Blood Small Capacitor Booster,
@@ -293,10 +302,12 @@ type_id,name,volume
 14236,,5.0
 14238,Shadow Serpentis Tracking Computer,5.0
 14244,Domination Warp Disruptor,
+14246,Dread Guristas Warp Disruptor,5.0
 14252,Dark Blood Warp Scrambler,
 14260,,5.0
 14262,,5.0
 14264,Domination Stasis Webifier,5.0
+14266,,5.0
 14268,,5.0
 14278,,10.0
 15457,,1.0
@@ -335,6 +346,7 @@ type_id,name,volume
 15963,Imperial Navy Large EMP Smartbomb,50.0
 15965,Republic Fleet Tracking Enhancer,5.0
 16004,Eifyr and Co. 'Rogue' Evasive Maneuvering EM-705,
+16050,Republic Fleet 200mm Autocannon,
 16057,Republic Fleet 800mm Repeating Cannon,
 16062,Caldari Navy Cruise Missile Launcher,20.0
 16067,Caldari Navy Torpedo Launcher,20.0
@@ -371,6 +383,7 @@ type_id,name,volume
 17136,Ukomi Superconductors,
 17180,Sensor Dampening Battery,
 17182,Warp Scrambling Battery,
+17187,,4000.0
 17317,Fermionic Condensates,1.3
 17368,,100000.0
 17478,Retriever,
@@ -394,6 +407,7 @@ type_id,name,volume
 17715,,10000.0
 17718,Phantasm,10000.0
 17726,,50000.0
+17738,Machariel,
 17772,Small AutoCannon Battery,
 17843,Vexor Navy Issue,
 17887,Oxygen Isotopes,0.03
@@ -414,6 +428,7 @@ type_id,name,volume
 18660,,5.0
 18676,Gist X-Type 100MN Afterburner,
 18688,Corelum B-Type 10MN Afterburner,
+18692,,5.0
 18698,Core X-Type 100MN Afterburner,
 18708,Corpii A-Type Multispectrum Coating,
 18766,,5.0
@@ -618,6 +633,7 @@ type_id,name,volume
 24517,Mjolnir Precision Heavy Missile,0.03
 24521,,0.05
 24523,,0.05
+24531,Nova Fury Cruise Missile,
 24535,,0.05
 24539,,0.05
 24632,,1.0
@@ -634,15 +650,18 @@ type_id,name,volume
 25591,Contaminated Lorentz Fluid,0.01
 25594,Tangled Power Conduit,0.01
 25604,,0.01
+25608,,0.01
 25609,Nanite Compound,
 25619,Logic Circuit,0.01
 25624,Intact Armor Plates,
+25715,,10.0
 25718,,0.01
 25736,Large EM Armor Reinforcer I,
 25887,,0.1
 25888,,20.0
 25890,Large Kinetic Armor Reinforcer I,20.0
 25892,Large Thermal Armor Reinforcer I,20.0
+25956,,20.0
 26020,Large Warhead Rigor Catalyst I,20.0
 26070,,20.0
 26084,,20.0
@@ -772,6 +791,7 @@ type_id,name,volume
 30018,,0.01
 30251,Neurovisual Input Matrix,
 30254,Electromechanical Hull Sheeting,
+30304,PPD Fullerene Fibers,
 30310,Carbon-86 Epoxy Resin,
 30370,Fullerite-C50,1.0
 30376,Fullerite-C32,
@@ -796,6 +816,7 @@ type_id,name,volume
 31244,,5.0
 31330,Medium Targeting System Subcontroller II,10.0
 31342,Medium Targeting Systems Stabilizer II,10.0
+31364,Small Ancillary Current Router II,5.0
 31366,Medium Ancillary Current Router II,
 31370,Small Capacitor Control Circuit I,5.0
 31374,Capital Capacitor Control Circuit I,
@@ -819,6 +840,7 @@ type_id,name,volume
 31760,,10.0
 31770,,5.0
 31774,Capital Core Defense Capacitor Safeguard II,40.0
+31790,,10.0
 31792,,40.0
 31796,Medium Core Defense Field Extender II,10.0
 31802,Medium Core Defense Field Purger I,10.0
@@ -890,7 +912,7 @@ type_id,name,volume
 33557,Mid-grade Ascendancy Beta,1.0
 33681,Gecko,50.0
 33697,Prospect,
-33700,'Packrat' Mobile Tractor Unit,
+33700,'Packrat' Mobile Tractor Unit,125.0
 33702,'Magpie' Mobile Tractor Unit,100.0
 33790,Men's 'Rider' Pants (black silver),
 33816,,2500.0
@@ -1001,6 +1023,7 @@ type_id,name,volume
 42145,Low-grade Asklepian Alpha,
 42201,Low-grade Asklepian Epsilon,1.0
 42205,Mid-grade Asklepian Beta,
+42206,,1.0
 42208,Mid-grade Asklepian Epsilon,1.0
 42209,Mid-grade Asklepian Omega,1.0
 42212,High-grade Asklepian Gamma,1.0
@@ -1073,12 +1096,14 @@ type_id,name,volume
 47783,Unstable Medium Shield Booster Mutaplasmid,
 47787,Unstable Large Shield Booster Mutaplasmid,1.0
 47806,Unstable Large Shield Extender Mutaplasmid,1.0
+47818,Unstable Large Armor Plate Mutaplasmid,
 47845,,1.0
 47875,Large Disintegrator Specialization,0.01
 47886,Tetryon Exotic Plasma M,0.01
 47891,Chaotic Exotic Filament,0.1
 47897,,0.1
 47901,,0.1
+47902,Raging Gamma Filament,
 47904,,0.1
 47906,Raging Electrical Filament,0.1
 47907,Chaotic Electrical Filament,
@@ -1130,6 +1155,7 @@ type_id,name,volume
 53711,High-grade Nirvana Beta,1.0
 53714,High-grade Nirvana Omega,
 53715,High-grade Nirvana Gamma,1.0
+53856,Low-grade Nirvana Delta,
 53893,High-grade Savior Delta,
 53894,High-grade Savior Epsilon,
 54398,Mid-grade Hydra Alpha,
@@ -1183,6 +1209,7 @@ type_id,name,volume
 57476,,100.0
 57478,,16.0
 57479,,180.0
+57486,,45.0
 58945,,3500.0
 58950,,3500.0
 58966,,5.0
@@ -1287,11 +1314,13 @@ type_id,name,volume
 85668,Glorified Unstable Magnetic Field Stabilizer Mutaplasmid,
 85746,Infomorph Decryption Key,
 85747,Satori-Horigu Combat Scanner Probe,
+85930,Archon Arkombine Arisen SKIN,
 85931,Chimera Arkombine Arisen SKIN,
 86262,,0.01
 86264,Breacher Pod Rapid Firing,0.01
 87324,Navy Scan Pinpointing Array,
 87504,Paladin Imperial Police SKIN,0.01
+88133,Historic Capsuleer Day SKIN Crate,
 88147,Triplot Scan Acquisition Array,5.0
 89156,Vigilance Resonance Key,
 89485,,0.01
@@ -1303,6 +1332,7 @@ type_id,name,volume
 90022,Babaroga Deathglow Remnant SKIN,
 90037,Mobile Phase Anchor,50.0
 90134,Historic Crimson Harvest SKIN Crate,1.0
+90135,Crimson Harvest SKINR Crate,
 90315,Confessor Sanguinary Savant SKIN,0.01
 90318,Aeon Sanguinary Savant SKIN,
 90396,Blood Raider Crate,
@@ -1358,13 +1388,16 @@ type_id,name,volume
 96566,Tetrimon Anti-Drain Booster IV,1.0
 96568,,1.0
 96573,Tetrimon Resistance Booster III,
+96574,Tetrimon Resistance Booster IV,1.0
 96583,Chemal Tech Turret Booster III,1.0
 96586,,1.0
-96789,Mutated Blood Sample,
+96789,Mutated Blood Sample,0.01
+96805,Hexfold Terror - Unlimited,
 96821,Ascendant Clades - Unlimited,
 96823,Trinary Echo - Unlimited,
 96825,Savant’s Ruin - Unlimited,
 96829,Liminal Sanguine Gloss - Unlimited,
+96840,Proven Chrome Metallic - Unlimited,
 96842,Clotted Bronze Metallic - Unlimited,
 96844,Entropic Rose Metallic - Unlimited,
 96845,Star of Pochven Background,0.1
@@ -1380,5 +1413,6 @@ type_id,name,volume
 97662,Unstable Medium Remote Armor Repairer Mutaplasmid,
 97670,Unstable Small Remote Armor Repairer Mutaplasmid,
 97671,,1.0
+97897,Bloody Sunset Background,
 98145,Blood Raider Blueprint Crate,1.0
 98147,Crimson Totality Background,
