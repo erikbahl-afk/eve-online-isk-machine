@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Mon 02 Nov 22:48 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 10 · **Est. time:** 12 min. Work top to bottom; stop any time.  
+**Updated:** Tue 03 Nov 08:15 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 9 · **Est. time:** 10 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -23,16 +23,17 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 2 | ☐ Sentient Damage Control | 313,000,000 | **313,200,000** | 438,800,000 | 313,100,000 |
+| 2 | ☐ Corelum B-Type 10MN Afterburner | 95,500,000 | **95,500,000** | 207,800,000 | 95,490,000 |
+| 3 | ☐ Sentient Damage Control | 313,000,000 | **313,200,000** | 438,800,000 | 313,100,000 |
 
 ### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 3 | ☐ Mutated Blood Sample | 1,239 | **61,180** | 66,300 | 61,170 |
+| 4 | ☐ Mutated Blood Sample | 2,429 | **65,110** | 75,050 | 65,100 |
 
-## 4. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
+## 5. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
 _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
 
 ## At Jita IV - Moon 4 - Caldari Navy Assembly Plant
@@ -42,18 +43,16 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 5 | ☐ Glorified Unstable Magnetic Field Stabilizer Mutaplasmid | 184,700,000 | **186,700,000** | 253,400,000 | 186,600,000 |
+| 6 | ☐ Glorified Unstable Magnetic Field Stabilizer Mutaplasmid | 184,700,000 | **100,100,000** | 253,500,000 | 100,000,000 |
 
 ### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 6 | ☐ Compressed Kylixium III-Grade | 7 | **271.20** | 297.00 | 271.10 |
-| 7 | ☐ Compressed Omber | 2 | **113.90** | 119.30 | 113.80 |
-| 8 | ☐ Compressed Plagioclase II-Grade | 1 | **34.14** | 34.37 | 34.13 |
-| 9 | ☐ Inherent Implants 'Squire' Power Grid Management EG-604 | 1 | **82,360,000** | 110,100,000 | 82,350,000 |
-| 10 | ☐ X-Large Mutaplasmid Residue | 1 | **42,290** | 66,010 | 42,280 |
+| 7 | ☐ Compressed Kylixium III-Grade | 35 | **271.50** | 297.00 | 271.40 |
+| 8 | ☐ Compressed Omber | 1 | **115.80** | 119.30 | 115.70 |
+| 9 | ☐ Pure Standard Frentix Booster | 1 | **44,610** | 73,610 | 44,600 |
 
 ---
 Wallet 260.10M · escrow 1.60B · stock 12.22M · in transit 3.10B · net worth 4.98B (liquidation 4.98B)
