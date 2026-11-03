@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Tue 03 Nov 08:15 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 9 · **Est. time:** 10 min. Work top to bottom; stop any time.  
+**Updated:** Tue 03 Nov 13:48 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 10 · **Est. time:** 11 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -31,7 +31,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 4 | ☐ Mutated Blood Sample | 2,429 | **65,110** | 75,050 | 65,100 |
+| 4 | ☐ Tritanium | 10 | **3.11** | 3.14 | 3.10 |
 
 ## 5. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
 _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
@@ -43,16 +43,17 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 6 | ☐ Glorified Unstable Magnetic Field Stabilizer Mutaplasmid | 184,700,000 | **100,100,000** | 253,500,000 | 100,000,000 |
+| 6 | ☐ Glorified Unstable Magnetic Field Stabilizer Mutaplasmid | 184,700,000 | **100,100,000** | 252,700,000 | 100,000,000 |
 
 ### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 7 | ☐ Compressed Kylixium III-Grade | 35 | **271.50** | 297.00 | 271.40 |
-| 8 | ☐ Compressed Omber | 1 | **115.80** | 119.30 | 115.70 |
-| 9 | ☐ Pure Standard Frentix Booster | 1 | **44,610** | 73,610 | 44,600 |
+| 7 | ☐ Compressed Fullerite-C28 | 1 | **12,110** | 12,460 | 12,100 |
+| 8 | ☐ Compressed Omber | 1 | **117.40** | 119.30 | 117.30 |
+| 9 | ☐ Inherent Implants 'Squire' Power Grid Management EG-604 | 2 | **67,900,000** | 110,000,000 | 67,890,000 |
+| 10 | ☐ Pure Standard Frentix Booster | 502 | **44,610** | 73,610 | 44,600 |
 
 ---
 Wallet 260.10M · escrow 1.60B · stock 12.22M · in transit 3.10B · net worth 4.98B (liquidation 4.98B)

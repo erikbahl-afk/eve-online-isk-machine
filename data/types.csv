@@ -78,6 +78,7 @@ type_id,name,volume
 3082,,10.0
 3106,,10.0
 3130,,10.0
+3134,Zainou 'Deadeye' Missile Projection MP-704,
 3135,Zainou 'Deadeye' Missile Projection MP-706,1.0
 3142,Zainou 'Deadeye' Target Navigation Prediction TN-904,
 3146,,10.0
@@ -85,6 +86,7 @@ type_id,name,volume
 3168,Zainou 'Snapshot' Light Missiles LM-902,
 3180,Zainou 'Snapshot' Torpedoes TD-606,1.0
 3185,Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-802,
+3203,,1.0
 3214,,1.0
 3239,Inherent Implants 'Squire' Capacitor Management EM-806,1.0
 3240,Inherent Implants 'Squire' Capacitor Systems Operation EO-602,1.0
@@ -347,6 +349,7 @@ type_id,name,volume
 15681,Caldari Navy Ballistic Control System,
 15683,Republic Fleet Ballistic Control System,5.0
 15729,,5.0
+15739,,5.0
 15749,,5.0
 15753,,5.0
 15764,,10.0
@@ -478,6 +481,7 @@ type_id,name,volume
 18949,,5.0
 18963,Core B-Type Thermal Armor Hardener,
 18973,Core X-Type EM Armor Hardener,5.0
+18985,Coreli A-Type Small Remote Armor Repairer,5.0
 18987,Corelum C-Type Medium Remote Armor Repairer,10.0
 18989,Corelum B-Type Medium Remote Armor Repairer,10.0
 18999,,5.0
@@ -492,7 +496,7 @@ type_id,name,volume
 19038,Core X-Type Large Armor Repairer,50.0
 19039,Corpus C-Type Large Armor Repairer,50.0
 19045,Corpus X-Type Large Armor Repairer,50.0
-19046,Centus X-Type Large Armor Repairer,
+19046,Centus X-Type Large Armor Repairer,50.0
 19081,Corpum A-Type Medium Remote Capacitor Transmitter,10.0
 19087,,10.0
 19105,,5.0
@@ -523,6 +527,7 @@ type_id,name,volume
 19219,,5.0
 19227,,5.0
 19229,,5.0
+19247,Gistum B-Type EM Shield Amplifier,
 19253,,5.0
 19263,Gist C-Type EM Shield Hardener,
 19268,,5.0
@@ -530,6 +535,7 @@ type_id,name,volume
 19282,Pith X-Type EM Shield Hardener,5.0
 19284,Pith X-Type Thermal Shield Hardener,5.0
 19285,,5.0
+19288,Pith X-Type Kinetic Shield Hardener,5.0
 19293,Gist A-Type Shield Boost Amplifier,5.0
 19295,Pith X-Type Shield Boost Amplifier,5.0
 19297,Gist C-Type Shield Boost Amplifier,
@@ -566,10 +572,12 @@ type_id,name,volume
 20212,,0.01
 20342,Advanced Spaceship Command,
 20351,800mm Steel Plates II,
+20353,1600mm Steel Plates II,
 20358,Numon Family Heirloom,1.0
 20410,,0.1
 20411,,0.1
 20415,Datacore - Molecular Engineering,0.1
+20418,Datacore - Electronic Engineering,
 20419,,0.1
 20424,Datacore - Mechanical Engineering,0.1
 20443,Ogdin's Eye Coordination Enhancer,1.0
@@ -735,6 +743,7 @@ type_id,name,volume
 26450,,20.0
 26890,,195.0
 26892,,65.0
+26912,Small Remote Armor Repairer II,5.0
 26914,Large Remote Armor Repairer II,25.0
 27094,,1.0
 27108,,1.0
@@ -743,6 +752,7 @@ type_id,name,volume
 27118,Inherent Implants 'Squire' Capacitor Systems Operation EO-605,
 27126,Inherent Implants 'Squire' Power Grid Management EG-605,1.0
 27142,Zainou 'Gypsy' CPU Management EE-605,1.0
+27167,Zainou 'Beancounter' Industry BX-802,
 27174,Zainou 'Beancounter' Reprocessing RX-804,1.0
 27176,Zainou 'Beancounter' Metallurgy MY-703,
 27181,Zainou 'Beancounter' Metallurgy MY-705,1.0
@@ -956,6 +966,7 @@ type_id,name,volume
 33472,Nestor,
 33522,,50.0
 33526,,1.0
+33527,High-grade Ascendancy Epsilon,1.0
 33528,High-grade Ascendancy Gamma,
 33539,Shattered Villard Wheel,
 33557,Mid-grade Ascendancy Beta,1.0
@@ -1039,6 +1050,7 @@ type_id,name,volume
 37847,,0.5
 37848,,0.5
 40347,,3000.0
+40519,Skill Extractor,
 40520,Large Skill Injector,
 40556,Templar II,1000.0
 40558,Firbolg II,1000.0
@@ -1094,6 +1106,7 @@ type_id,name,volume
 42830,Mining Laser Optimization Charge,
 42881,Mining Laser Field Enhancement Charge Blueprint,0.01
 42882,,0.01
+42890,Capital Industrial Core II,
 43556,Skirmish Command Burst II,
 43688,Astral Mining Inc. Strong Box,
 43694,,5.0
@@ -1114,9 +1127,11 @@ type_id,name,volume
 45608,Loki Offensive - Launcher Efficiency Configuration,40.0
 45611,,40.0
 45614,Tengu Propulsion - Chassis Optimization,40.0
+45615,,40.0
 45617,,40.0
 45618,Proteus Propulsion - Localized Injectors,40.0
 45619,Loki Propulsion - Interdiction Nullifier,
+45620,Loki Propulsion - Intercalated Nanofibers,40.0
 45621,Loki Propulsion - Wake Limiter,40.0
 45626,,40.0
 45627,,40.0
@@ -1208,6 +1223,7 @@ type_id,name,volume
 52562,,0.01
 52568,,0.01
 52694,Industrial Cynosural Field Generator,25.0
+52919,High-grade Mimesis Delta,1.0
 52997,Precursor Dreadnought,
 53291,Dreadnought Systems Diagram,
 53301,Tetryon Exotic Plasma XL,
@@ -1306,6 +1322,7 @@ type_id,name,volume
 62385,Compressed Viridian Mykoserocin,
 62397,Compressed Fullerite-C60,
 62400,Compressed Fullerite-C84,
+62402,Compressed Fullerite-C28,
 62403,Compressed Fullerite-C72,
 62404,Compressed Fullerite-C32,
 62405,Compressed Fullerite-C540,
@@ -1369,6 +1386,7 @@ type_id,name,volume
 79954,Mamba Luminae Polaris SKIN,
 81008,,20000.0
 81046,,20000.0
+81050,Upwell Starship Engineering,0.01
 81083,,1.0
 81143,Magmatic Gas,
 81350,Kerr Sequencer,0.001
@@ -1411,6 +1429,7 @@ type_id,name,volume
 90134,Historic Crimson Harvest SKIN Crate,1.0
 90135,Crimson Harvest SKINR Crate,
 90315,Confessor Sanguinary Savant SKIN,0.01
+90316,Sacrilege Sanguinary Savant SKIN,
 90318,Aeon Sanguinary Savant SKIN,
 90396,Blood Raider Crate,
 90523,Unstable Ice Harvester Mutaplasmid,

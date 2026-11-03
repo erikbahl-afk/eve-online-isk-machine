@@ -1,6 +1,6 @@
 {
- "est_secs": 600,
- "generated": 1793722537.335887,
+ "est_secs": 660,
+ "generated": 1793742528.3937485,
  "hub": "amarr",
  "location": "amarr",
  "other": "jita",
@@ -48,18 +48,18 @@
    "value": 313000000.0
   },
   {
-   "cap": 76490.0,
+   "cap": 3.2,
    "group": 6,
    "hub": "amarr",
    "kind": "new_buy",
    "n": 4,
-   "qty": 2429,
-   "ref": 65100.0,
+   "qty": 10,
+   "ref": 3.1,
    "secs": 60,
    "tag": "station",
-   "target": 65110.0,
-   "type_id": 96789,
-   "value": 18941955.512330785
+   "target": 3.11,
+   "type_id": 34,
+   "value": 2465866.38820862
   },
   {
    "group": 0,
@@ -71,7 +71,7 @@
    "value": 0.0
   },
   {
-   "cap": 258400000.0,
+   "cap": 257600000.0,
    "group": 4,
    "hub": "jita",
    "kind": "modify_buy",
@@ -85,18 +85,18 @@
    "value": 369400000.0
   },
   {
-   "cap": 302.7,
+   "cap": 12700.0,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
    "n": 7,
-   "qty": 35,
-   "ref": 271.4,
+   "qty": 1,
+   "ref": 12100.0,
    "secs": 60,
    "tag": "station",
-   "target": 271.5,
-   "type_id": 82302,
-   "value": 4707891.936988572
+   "target": 12110.0,
+   "type_id": 62402,
+   "value": 6317041.155368579
   },
   {
    "cap": 121.6,
@@ -105,26 +105,40 @@
    "kind": "new_buy",
    "n": 8,
    "qty": 1,
-   "ref": 115.7,
+   "ref": 117.3,
    "secs": 60,
    "tag": "station",
-   "target": 115.8,
+   "target": 117.4,
    "type_id": 62532,
-   "value": 2805545.6440476365
+   "value": 2492915.2351548867
+  },
+  {
+   "cap": 112100000.0,
+   "group": 6,
+   "hub": "jita",
+   "kind": "new_buy",
+   "n": 9,
+   "qty": 2,
+   "ref": 67890000.0,
+   "secs": 60,
+   "tag": "station",
+   "target": 67900000.0,
+   "type_id": 3257,
+   "value": 16021336.689296953
   },
   {
    "cap": 75020.0,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
-   "n": 9,
-   "qty": 1,
+   "n": 10,
+   "qty": 502,
    "ref": 44600.0,
    "secs": 60,
    "tag": "station",
    "target": 44610.0,
    "type_id": 25252,
-   "value": 8735901.308334695
+   "value": 8443941.365773479
   }
  ]
 }
