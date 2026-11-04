@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Tue 03 Nov 18:21 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 11 · **Est. time:** 12 min. Work top to bottom; stop any time.  
+**Updated:** Tue 03 Nov 22:17 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 10 · **Est. time:** 11 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -23,7 +23,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 2 | ☐ Corelum B-Type 10MN Afterburner | 95,500,000 | **95,500,000** | 207,800,000 | 95,490,000 |
+| 2 | ☐ Corelum B-Type 10MN Afterburner | 95,500,000 | **95,500,000** | 185,500,000 | 95,490,000 |
 | 3 | ☐ Sentient Damage Control | 313,000,000 | **313,200,000** | 438,800,000 | 313,100,000 |
 
 ### New buy orders
@@ -31,7 +31,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 4 | ☐ Tritanium | 6 | **3.13** | 3.14 | 3.12 |
+| 4 | ☐ Mutated Blood Sample | 50 | **70,590** | 75,050 | 70,580 |
 
 ## 5. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
 _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
@@ -50,11 +50,10 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 7 | ☐ Compressed Fullerite-C28 | 1 | **12,090** | 12,600 | 12,080 |
-| 8 | ☐ Compressed Fullerite-C32 | 1,147 | **19,520** | 21,020 | 19,510 |
-| 9 | ☐ Compressed Omber | 1 | **117.80** | 119.30 | 117.70 |
-| 10 | ☐ Compressed Zeolites | 4 | **1,203** | 1,375 | 1,202 |
-| 11 | ☐ Inherent Implants 'Squire' Power Grid Management EG-604 | 2 | **67,900,000** | 109,900,000 | 67,890,000 |
+| 7 | ☐ Compressed Fullerite-C28 | 2 | **12,140** | 12,600 | 12,130 |
+| 8 | ☐ Compressed Glistening Zeolites | 3 | **2,826** | 2,846 | 2,825 |
+| 9 | ☐ Inherent Implants 'Squire' Power Grid Management EG-604 | 2 | **67,920,000** | 109,800,000 | 67,910,000 |
+| 10 | ☐ Republic Fleet Commander Insignia I | 3 | **6,268,000** | 7,061,000 | 6,267,000 |
 
 ---
 Wallet 260.10M · escrow 1.60B · stock 12.22M · in transit 3.10B · net worth 4.98B (liquidation 4.98B)
