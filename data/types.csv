@@ -48,6 +48,7 @@ type_id,name,volume
 2301,EM Shield Hardener II,
 2303,Thermal Shield Hardener II,
 2309,Ionic Solutions,
+2327,,0.75
 2345,Camera Drones,3.0
 2348,Gel-Matrix Biopaste,
 2352,Nuclear Reactors,3.0
@@ -138,6 +139,7 @@ type_id,name,volume
 9497,1400mm Prototype Siege Cannon,
 9632,,5.0
 9838,Superconductors,
+9840,,0.75
 9899,,1.0
 9941,Memory Augmentation - Basic,1.0
 9947,Standard Crash Booster,
@@ -965,7 +967,7 @@ type_id,name,volume
 32109,Low-grade Spur Delta,
 32305,Armageddon Navy Issue,50000.0
 32414,Domination Target Painter,5.0
-32881,,0.01
+32881,Venture Blueprint,0.01
 32947,Unit P-343554's Modified Drone Navigation Computer,
 33101,Medium Ancillary Armor Repairer,10.0
 33140,Clone Soldier Transporter Tag,
