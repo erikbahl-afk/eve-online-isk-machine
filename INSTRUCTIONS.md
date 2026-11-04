@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Wed 04 Nov 05:17 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Wed 04 Nov 06:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 23 · **Est. time:** 21 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -36,16 +36,17 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 14 | ☐ Corelum B-Type 10MN Afterburner | 95,500,000 | **96,720,000** | 185,500,000 | 96,710,000 |
-| 15 | ☐ Sentient Damage Control | 313,000,000 | **313,200,000** | 438,800,000 | 313,100,000 |
+| 15 | ☐ Sentient Damage Control | 313,000,000 | **313,500,000** | 438,800,000 | 313,400,000 |
 
 ### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 16 | ☐ Compressed Veldspar II-Grade | 44 | **10.07** | 10.48 | 10.06 |
+| 16 | ☐ Compressed Veldspar II-Grade | 32 | **10.07** | 10.48 | 10.06 |
+| 17 | ☐ Mutated Blood Sample | 257 | **70,400** | 74,850 | 70,390 |
 
-## 17. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
+## 18. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
 _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
 
 ## At Jita IV - Moon 4 - Caldari Navy Assembly Plant
@@ -55,18 +56,17 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 18 | ☐ Glorified Unstable Magnetic Field Stabilizer Mutaplasmid | 184,700,000 | **186,600,000** | 252,800,000 | 186,500,000 |
+| 19 | ☐ Glorified Unstable Magnetic Field Stabilizer Mutaplasmid | 184,700,000 | **186,600,000** | 252,800,000 | 186,500,000 |
 
 ### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 19 | ☐ Compressed Glistening Zeolites | 2 | **2,825** | 2,846 | 2,824 |
-| 20 | ☐ Dark Blood Small Focused Beam Laser | 1 | **16,990,000** | 29,070,000 | 16,980,000 |
-| 21 | ☐ Inherent Implants 'Squire' Power Grid Management EG-604 | 2 | **70,040,000** | 109,800,000 | 70,030,000 |
-| 22 | ☐ Legion Mjolnir Auto-Targeting Heavy Missile | 1 | **900.30** | 1,492 | 900.20 |
-| 23 | ☐ Lime Mykoserocin | 17 | **66,440** | 78,190 | 66,430 |
+| 20 | ☐ Compressed Fullerite-C32 | 1 | **19,630** | 20,690 | 19,620 |
+| 21 | ☐ Compressed Glistening Bitumens | 1 | **2,426** | 2,438 | 2,425 |
+| 22 | ☐ Compressed Glistening Zeolites | 4 | **2,825** | 2,846 | 2,824 |
+| 23 | ☐ Inherent Implants 'Squire' Power Grid Management EG-604 | 2 | **70,040,000** | 109,800,000 | 70,030,000 |
 
 ---
 Wallet 260.10M · escrow 1.60B · stock 3.11B · in transit 0.00 · net worth 4.98B (liquidation 2.54B)

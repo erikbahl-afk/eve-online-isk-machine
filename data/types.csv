@@ -75,7 +75,7 @@ type_id,name,volume
 2969,,10.0
 2993,Dual Light Beam Laser II,5.0
 2998,Noctis,20000.0
-3033,,5.0
+3033,Small Focused Beam Laser II,5.0
 3041,Small Focused Pulse Laser II,5.0
 3049,Mega Beam Laser II,20.0
 3057,Mega Pulse Laser II,20.0
@@ -91,6 +91,7 @@ type_id,name,volume
 3168,Zainou 'Snapshot' Light Missiles LM-902,
 3180,Zainou 'Snapshot' Torpedoes TD-606,1.0
 3185,Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-802,
+3186,Neutron Blaster Cannon II,20.0
 3203,,1.0
 3214,,1.0
 3239,Inherent Implants 'Squire' Capacitor Management EM-806,1.0
@@ -410,6 +411,7 @@ type_id,name,volume
 16650,Dysprosium,0.05
 16651,,0.05
 16653,Thulium,
+16667,Neo Mercurite,
 16669,Ferrofluid,
 16672,,0.01
 16673,,0.01
