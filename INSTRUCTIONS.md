@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Wed 04 Nov 06:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 23 · **Est. time:** 21 min. Work top to bottom; stop any time.  
+**Updated:** Wed 04 Nov 08:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 20 · **Est. time:** 18 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -35,7 +35,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 14 | ☐ Corelum B-Type 10MN Afterburner | 95,500,000 | **96,720,000** | 185,500,000 | 96,710,000 |
+| 14 | ☐ Corelum B-Type 10MN Afterburner | 95,500,000 | **96,720,000** | 203,500,000 | 96,710,000 |
 | 15 | ☐ Sentient Damage Control | 313,000,000 | **313,500,000** | 438,800,000 | 313,400,000 |
 
 ### New buy orders
@@ -43,10 +43,9 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 16 | ☐ Compressed Veldspar II-Grade | 32 | **10.07** | 10.48 | 10.06 |
-| 17 | ☐ Mutated Blood Sample | 257 | **70,400** | 74,850 | 70,390 |
+| 16 | ☐ Compressed Veldspar II-Grade | 20 | **10.07** | 10.48 | 10.06 |
 
-## 18. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
+## 17. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
 _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
 
 ## At Jita IV - Moon 4 - Caldari Navy Assembly Plant
@@ -56,17 +55,15 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 19 | ☐ Glorified Unstable Magnetic Field Stabilizer Mutaplasmid | 184,700,000 | **186,600,000** | 252,800,000 | 186,500,000 |
+| 18 | ☐ Glorified Unstable Magnetic Field Stabilizer Mutaplasmid | 184,700,000 | **186,900,000** | 252,800,000 | 186,800,000 |
 
 ### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 20 | ☐ Compressed Fullerite-C32 | 1 | **19,630** | 20,690 | 19,620 |
-| 21 | ☐ Compressed Glistening Bitumens | 1 | **2,426** | 2,438 | 2,425 |
-| 22 | ☐ Compressed Glistening Zeolites | 4 | **2,825** | 2,846 | 2,824 |
-| 23 | ☐ Inherent Implants 'Squire' Power Grid Management EG-604 | 2 | **70,040,000** | 109,800,000 | 70,030,000 |
+| 19 | ☐ Compressed Zeolites | 14,882 | **1,218** | 1,377 | 1,217 |
+| 20 | ☐ Inherent Implants 'Squire' Power Grid Management EG-604 | 2 | **70,040,000** | 109,800,000 | 70,030,000 |
 
 ---
 Wallet 260.10M · escrow 1.60B · stock 3.11B · in transit 0.00 · net worth 4.98B (liquidation 2.54B)

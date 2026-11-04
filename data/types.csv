@@ -82,7 +82,7 @@ type_id,name,volume
 3080,,1.0
 3082,,10.0
 3106,,10.0
-3130,,10.0
+3130,Heavy Electron Blaster II,10.0
 3134,Zainou 'Deadeye' Missile Projection MP-704,
 3135,Zainou 'Deadeye' Missile Projection MP-706,1.0
 3142,Zainou 'Deadeye' Target Navigation Prediction TN-904,
@@ -435,7 +435,7 @@ type_id,name,volume
 17498,Caldari Navy Multispectrum Shield Hardener,
 17500,,5.0
 17520,Federation Navy Sensor Booster,5.0
-17526,,5.0
+17526,Imperial Navy Cap Recharger,5.0
 17546,Imperial Navy Large Armor Repairer,
 17549,Federation Navy Multispectrum Coating,
 17559,Federation Navy Stasis Webifier,5.0
@@ -848,6 +848,7 @@ type_id,name,volume
 28754,ORE Strip Miner,5.0
 28756,Sisters Expanded Probe Launcher,5.0
 28758,Sisters Core Probe Launcher,5.0
+28780,Syndicate 1600mm Steel Plates,
 28788,Syndicate Gas Cloud Scoop,5.0
 28790,Mid-grade Centurion Alpha,
 28791,Mid-grade Centurion Beta,
@@ -935,6 +936,7 @@ type_id,name,volume
 31824,,10.0
 31866,,10.0
 31868,,25.0
+31870,,25.0
 31872,Caldari Navy Hornet,5.0
 31874,Caldari Navy Vespa,10.0
 31876,,25.0
@@ -1428,7 +1430,7 @@ type_id,name,volume
 81046,Deluge,20000.0
 81050,Upwell Starship Engineering,0.01
 81083,,1.0
-81143,Magmatic Gas,
+81143,Magmatic Gas,0.01
 81350,Kerr Sequencer,0.001
 81948,Consortium Small Tractor Beam,
 81951,Consortium Mobile Tractor Unit,
@@ -1445,7 +1447,7 @@ type_id,name,volume
 85178,Tetrimonic Warclone Blanks,
 85179,Overseer Sabik Vial,
 85390,Armor Mutaplasmid Residue,0.01
-85392,,0.01
+85392,Damage Control Mutaplasmid Residue,0.01
 85400,X-Large Mutaplasmid Residue,
 85662,Glorified Unstable Gyrostabilizer Mutaplasmid,
 85668,Glorified Unstable Magnetic Field Stabilizer Mutaplasmid,
