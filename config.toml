@@ -125,3 +125,16 @@ note = "lower margin bars (4% station, 7% import): more items, thinner edges"
 [variants.strategy]
 min_margin = 0.04
 min_import_margin = 0.07
+
+# EVE SSO app (developers.eveonline.com). The client ID is public; the secret key lives only in
+# GitHub Actions secrets (never in this repo). Not connected to a character yet.
+[sso]
+client_id = "b4da82d1191045c695079ffef019383a"
+callback = "http://localhost:8765/callback"
+scopes = [
+  "esi-assets.read_assets.v1", "esi-characters.read_standings.v1", "esi-clones.read_clones.v1",
+  "esi-contracts.read_character_contracts.v1", "esi-location.read_location.v1",
+  "esi-markets.read_character_orders.v1", "esi-markets.structure_markets.v1",
+  "esi-search.search_structures.v1", "esi-skills.read_skills.v1", "esi-skills.read_skillqueue.v1",
+  "esi-ui.open_window.v1", "esi-universe.read_structures.v1", "esi-wallet.read_character_wallet.v1",
+]
