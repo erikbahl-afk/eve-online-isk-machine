@@ -70,7 +70,7 @@ replace it with a new experiment.
   we accept up to a 3% loss to free capital.
 - Stock in transit is the courier's risk: reputable services repay the collateral.
 
-## Fee model (verify in game when live)
+## Fee model (base rates, ticks and relist verified in game 2026-11-04)
 - Sales tax 7.5% × (1 − 0.11 × Accounting) = 3.375%.
 - Broker fee at an NPC station: 3% − 0.3% × Broker Relations − 0.03% × faction standing −
   0.02% × corp standing = 1.5% with no standings.
@@ -100,4 +100,4 @@ replace it with a new experiment.
     jump per session, so each import hub would be visited every other session. That could suit thin, slow
     hubs (Rens, Hek). Infomorph Synchronizing III is enough: over 200 simulated weeks only 1.5% of
     session gaps fall in the 19–21 h window that level V would unlock, and 15% are under 19 h anyway.
-11. **Sales tax uncertainty**: one CCP article mentions an 8% base. Section 1 of CHECKS.md settles it.
+11. ~~Sales tax uncertainty~~: settled in game, 7.5% base.

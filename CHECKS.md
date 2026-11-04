@@ -1,5 +1,15 @@
 # One-time in-game checks (~10 min)
 
+## Results (2026-11-04, on a character with no trade skills, Jita 4-4)
+- Broker fee 3.01% (3% base plus a hair from slightly negative standings) and sales tax 7.5%: base rates confirmed.
+  With our skills that's 1.5% broker and 3.375% tax, matching config.toml. The "8% sales tax" article is not live.
+- Price precision: 12,345,678 was rounded to 12,350,000, so the 4-significant-figure rule is confirmed (rounds to nearest).
+- Relist: 80,000 → 70,000 cost 1,053.11 = 50% × 3.009% × 70,000, i.e. the relist charge at Advanced Broker
+  Relations 0 is half the broker fee on the new value. This matches our formula (discount 0.5 + 0.06 × ABR).
+- A jump clone can be installed in Jita 4-4 with no standing requirement seen (to confirm with Infomorph Psychology).
+- Still to check on the real trading character: order slots, skill levels, standings.
+
+
 Do these on the trading character while docked in **Jita IV - Moon 4 - Caldari Navy Assembly Plant**.
 Send Claude the values in **bold brackets**.
 

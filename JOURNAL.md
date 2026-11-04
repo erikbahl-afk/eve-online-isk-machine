@@ -82,3 +82,7 @@
 - Infra: GitHub starts the workflow only about every 6 h despite the 2 h cron (asked the user for the
   cron-job.org trigger). The review routine has no repo source, so it can't push (user to add the repo).
 - 2026-11-04 · review push test OK
+
+## 2026-11-04 · in-game checks
+- Verified: 3% broker / 7.5% tax base, the 4-significant-figure price rule, and a relist charge of 50% × broker × new value
+  at ABR 0. The fee model in config.toml needs no change. A jump clone looks installable in Jita 4-4.
