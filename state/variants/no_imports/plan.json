@@ -1,6 +1,6 @@
 {
  "est_secs": 1050,
- "generated": 1793822431.9134052,
+ "generated": 1793824438.3977487,
  "hub": "jita",
  "location": "jita",
  "other": null,
@@ -41,9 +41,9 @@
    "kind": "new_sell",
    "n": 3,
    "qty": 6,
-   "ref": 5.9,
+   "ref": 3.47,
    "secs": 45,
-   "target": 5.89,
+   "target": 3.69,
    "type_id": 2309,
    "value": 21.240000000000002
   },
@@ -55,9 +55,9 @@
    "kind": "new_sell",
    "n": 4,
    "qty": 1566,
-   "ref": 401.9,
+   "ref": 401.8,
    "secs": 45,
-   "target": 401.8,
+   "target": 401.7,
    "type_id": 16636,
    "value": 556243.2
   },
@@ -76,7 +76,7 @@
    "value": 23140000.0
   },
   {
-   "cap": 302100000.0,
+   "cap": 301900000.0,
    "group": 4,
    "hub": "jita",
    "kind": "modify_buy",
@@ -104,7 +104,7 @@
    "value": 141680000.0
   },
   {
-   "cap": 412800.0,
+   "cap": 414400.0,
    "group": 4,
    "hub": "jita",
    "kind": "modify_buy",
@@ -265,9 +265,9 @@
    "mine": 132000000.0,
    "n": 19,
    "oid": 16,
-   "ref": 136600000.0,
+   "ref": 137000000.0,
    "secs": 25,
-   "target": 136700000.0,
+   "target": 137100000.0,
    "type_id": 54399,
    "value": 264000000.0
   },
@@ -293,14 +293,14 @@
    "mine": 91950000.0,
    "n": 21,
    "oid": 28,
-   "ref": 125800000.0,
+   "ref": 126200000.0,
    "secs": 25,
    "target": 118500000.0,
    "type_id": 11959,
    "value": 183900000.0
   },
   {
-   "cap": 88400000.0,
+   "cap": 88390000.0,
    "group": 4,
    "hub": "jita",
    "kind": "modify_buy",
@@ -381,10 +381,10 @@
    "tag": "station",
    "target": 19760.0,
    "type_id": 62404,
-   "value": 8771660.120596854
+   "value": 8750908.896511076
   },
   {
-   "cap": 12.54,
+   "cap": 12.36,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
@@ -395,7 +395,7 @@
    "tag": "station",
    "target": 12.14,
    "type_id": 62518,
-   "value": 4693636.14173338
+   "value": 3852101.3655967508
   },
   {
    "cap": 1377.0,
@@ -404,12 +404,12 @@
    "kind": "new_buy",
    "n": 29,
    "qty": 1,
-   "ref": 1224.0,
+   "ref": 1226.0,
    "secs": 60,
    "tag": "station",
-   "target": 1225.0,
+   "target": 1227.0,
    "type_id": 62463,
-   "value": 5353352.609712167
+   "value": 5188866.938182072
   }
  ]
 }

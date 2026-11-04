@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Wed 04 Nov 12:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Wed 04 Nov 12:33 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 21 · **Est. time:** 19 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -28,7 +28,7 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 | 10 | ☐ Men's 'Precision' Boots | 5 | **99,990,000** | 51,550,000 | 100,000,000 |
 | 11 | ☐ Standup M-Set Basic Small Ship Manufacturing Material Efficiency I | 1 | **699,600,000** | 347,300,000 | 699,700,000 |
 | 12 | ☐ Typhoon Fleet Issue Capsuleer Elite XX SKIN | 1 | **815,900,000** | 435,300,000 | 816,000,000 |
-| 13 | ☐ Void XL | 2,434 | **4,885** | 3,289 | 4,886 |
+| 13 | ☐ Void XL | 2,434 | **4,884** | 3,289 | 4,885 |
 
 ### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
@@ -56,8 +56,8 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 18 | ☐ Compressed Fullerite-C32 | 917 | **19,760** | 21,970 | 19,750 |
-| 19 | ☐ Compressed Veldspar III-Grade | 35 | **12.14** | 12.54 | 12.13 |
-| 20 | ☐ Compressed Zeolites | 5 | **1,225** | 1,377 | 1,224 |
+| 19 | ☐ Compressed Veldspar III-Grade | 34 | **12.14** | 12.36 | 12.13 |
+| 20 | ☐ Compressed Zeolites | 5 | **1,227** | 1,377 | 1,226 |
 | 21 | ☐ Inherent Implants 'Squire' Power Grid Management EG-604 | 2 | **70,040,000** | 109,800,000 | 70,030,000 |
 
 ---
