@@ -11,6 +11,9 @@ plan. Prefer one well-reasoned change over many small ones.
    table show any failures, or notes that keep repeating? If runs are failing, check the Actions
    logs (GitHub MCP `actions_list` / `get_job_logs`). Fixing a broken pipeline comes before
    anything else.
+2b. **Trading character.** If the summary's "Trading character" section shows an empty queue,
+   unallocated SP, or plan skills out of order, put a short note for the user at the top of
+   INSTRUCTIONS.md's practice banner via the journal entry (the user reads the journal).
 3. **Calibration (first review of each week).** `python -m trader.calibrate jita` and the import
    hub: the median inferred/official ratio should be stable and below 1 (station volume is only part
    of the region's). If it is above 1, lower `gone_weight`. Judge hubs by market size *and* profit:
