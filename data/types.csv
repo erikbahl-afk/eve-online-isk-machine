@@ -276,7 +276,7 @@ type_id,name,volume
 13872,Shadow Serpentis 250mm Railgun,
 13879,Dread Guristas 425mm Railgun,
 13920,Dread Guristas Rapid Light Missile Launcher,10.0
-13923,Domination Torpedo Launcher,
+13923,Domination Torpedo Launcher,20.0
 13924,Dread Guristas Torpedo Launcher,20.0
 13926,,5.0
 13933,Dread Guristas Rocket Launcher,5.0
@@ -621,6 +621,7 @@ type_id,name,volume
 21486,,5.0
 21540,'Inception' Target Painter,5.0
 21569,Sleeper Profound Research Notes,1.0
+21667,Capital Projectile Turret,
 21721,,0.1
 21740,Caldari Navy Antimatter Charge L,0.025
 21802,Capital Shield Operation,
@@ -781,7 +782,7 @@ type_id,name,volume
 27245,Zainou 'Snapshot' Heavy Assault Missiles AM-705,
 27252,Zainou 'Snapshot' Light Missiles LM-905,
 27258,Zainou 'Snapshot' Cruise Missiles CM-605,
-27260,,1.0
+27260,Poteque 'Prospector' Environmental Analysis EY-1005,1.0
 27309,,0.01
 27321,,0.005
 27327,,0.005

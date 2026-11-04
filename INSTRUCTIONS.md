@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Wed 04 Nov 04:09 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 21 · **Est. time:** 19 min. Work top to bottom; stop any time.  
+**Updated:** Wed 04 Nov 05:17 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 23 · **Est. time:** 21 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -16,7 +16,7 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 1 | ☐ 'Cartel' Power Diagnostic System I | 7 | **68,320,000** | 31,380,000 | 68,330,000 |
+| 1 | ☐ 'Cartel' Power Diagnostic System I | 7 | **68,310,000** | 31,380,000 | 68,320,000 |
 | 2 | ☐ Black Market 'Valdimar' Drone Navigation DN-701 | 3 | **249,800,000** | 131,200,000 | 249,900,000 |
 | 3 | ☐ Capital I-a Enduring Armor Repairer | 3 | **199,900,000** | 91,990,000 | 200,000,000 |
 | 4 | ☐ Dread Guristas Rocket Launcher | 6 | **99,610,000** | 48,990,000 | 99,620,000 |
@@ -43,7 +43,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 16 | ☐ Compressed Veldspar II-Grade | 59 | **10.07** | 10.48 | 10.06 |
+| 16 | ☐ Compressed Veldspar II-Grade | 44 | **10.07** | 10.48 | 10.06 |
 
 ## 17. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
 _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
@@ -62,9 +62,11 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 19 | ☐ Compressed Fullerite-C32 | 3 | **19,620** | 20,730 | 19,610 |
-| 20 | ☐ Inherent Implants 'Squire' Power Grid Management EG-604 | 2 | **70,040,000** | 109,800,000 | 70,030,000 |
-| 21 | ☐ Mutated Blood Sample | 254 | **71,130** | 76,610 | 71,120 |
+| 19 | ☐ Compressed Glistening Zeolites | 2 | **2,825** | 2,846 | 2,824 |
+| 20 | ☐ Dark Blood Small Focused Beam Laser | 1 | **16,990,000** | 29,070,000 | 16,980,000 |
+| 21 | ☐ Inherent Implants 'Squire' Power Grid Management EG-604 | 2 | **70,040,000** | 109,800,000 | 70,030,000 |
+| 22 | ☐ Legion Mjolnir Auto-Targeting Heavy Missile | 1 | **900.30** | 1,492 | 900.20 |
+| 23 | ☐ Lime Mykoserocin | 17 | **66,440** | 78,190 | 66,430 |
 
 ---
 Wallet 260.10M · escrow 1.60B · stock 3.11B · in transit 0.00 · net worth 4.98B (liquidation 2.54B)
