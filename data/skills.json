@@ -1,0 +1,74 @@
+{
+ "Accounting": {
+  "id": 16622,
+  "pri": "charisma",
+  "rank": 3,
+  "sec": "memory"
+ },
+ "Advanced Broker Relations": {
+  "id": 16597,
+  "pri": "charisma",
+  "rank": 3,
+  "sec": "memory"
+ },
+ "Broker Relations": {
+  "id": 3446,
+  "pri": "willpower",
+  "rank": 2,
+  "sec": "charisma"
+ },
+ "Contracting": {
+  "id": 25235,
+  "pri": "charisma",
+  "rank": 1,
+  "sec": "willpower"
+ },
+ "Daytrading": {
+  "id": 16595,
+  "pri": "charisma",
+  "rank": 1,
+  "sec": "memory"
+ },
+ "Infomorph Psychology": {
+  "id": 24242,
+  "pri": "charisma",
+  "rank": 1,
+  "sec": "willpower"
+ },
+ "Infomorph Synchronizing": {
+  "id": 33399,
+  "pri": "charisma",
+  "rank": 2,
+  "sec": "willpower"
+ },
+ "Marketing": {
+  "id": 16598,
+  "pri": "charisma",
+  "rank": 3,
+  "sec": "memory"
+ },
+ "Retail": {
+  "id": 3444,
+  "pri": "willpower",
+  "rank": 2,
+  "sec": "charisma"
+ },
+ "Social": {
+  "id": 3355,
+  "pri": "charisma",
+  "rank": 1,
+  "sec": "intelligence"
+ },
+ "Trade": {
+  "id": 3443,
+  "pri": "willpower",
+  "rank": 1,
+  "sec": "charisma"
+ },
+ "Wholesale": {
+  "id": 16596,
+  "pri": "charisma",
+  "rank": 4,
+  "sec": "memory"
+ }
+}

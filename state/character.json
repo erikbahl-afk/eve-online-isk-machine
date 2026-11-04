@@ -1,0 +1,198 @@
+{
+ "attributes": {
+  "charisma": 27,
+  "intelligence": 17,
+  "memory": 21,
+  "perception": 17,
+  "willpower": 17
+ },
+ "bonus_remaps": 2,
+ "broker_fee_jita_now": 3.0,
+ "eta_days": 80.1,
+ "jump_clones": 0,
+ "plan": [
+  {
+   "level": 3,
+   "skill": "Trade",
+   "sp_left": 248000,
+   "target": 5
+  },
+  {
+   "level": 0,
+   "skill": "Broker Relations",
+   "sp_left": 512000,
+   "target": 5
+  },
+  {
+   "level": 0,
+   "skill": "Accounting",
+   "sp_left": 768000,
+   "target": 5
+  },
+  {
+   "level": 0,
+   "skill": "Retail",
+   "sp_left": 512000,
+   "target": 5
+  },
+  {
+   "level": 0,
+   "skill": "Marketing",
+   "sp_left": 768000,
+   "target": 5
+  },
+  {
+   "level": 0,
+   "skill": "Daytrading",
+   "sp_left": 256000,
+   "target": 5
+  },
+  {
+   "level": 0,
+   "skill": "Advanced Broker Relations",
+   "sp_left": 768000,
+   "target": 5
+  },
+  {
+   "level": 0,
+   "skill": "Wholesale",
+   "sp_left": 181020,
+   "target": 4
+  },
+  {
+   "level": 0,
+   "skill": "Infomorph Psychology",
+   "sp_left": 1415,
+   "target": 2
+  },
+  {
+   "level": 0,
+   "skill": "Infomorph Synchronizing",
+   "sp_left": 16000,
+   "target": 3
+  },
+  {
+   "level": 0,
+   "skill": "Social",
+   "sp_left": 250,
+   "target": 1
+  },
+  {
+   "level": 0,
+   "skill": "Contracting",
+   "sp_left": 1415,
+   "target": 2
+  }
+ ],
+ "plan_done_pct": 0.2,
+ "plan_sp_left": 4032100,
+ "plan_sp_total": 4040100,
+ "queue": [
+  {
+   "finish": "2026-11-05T07:05:45Z",
+   "level": 4,
+   "skill": "Trade"
+  },
+  {
+   "finish": "2026-11-05T07:22:09Z",
+   "level": 1,
+   "skill": "Broker Relations"
+  },
+  {
+   "finish": "2026-11-05T08:38:30Z",
+   "level": 2,
+   "skill": "Broker Relations"
+  },
+  {
+   "finish": "2026-11-05T15:50:20Z",
+   "level": 3,
+   "skill": "Broker Relations"
+  },
+  {
+   "finish": "2026-11-07T08:33:17Z",
+   "level": 4,
+   "skill": "Broker Relations"
+  },
+  {
+   "finish": "2026-11-07T08:53:17Z",
+   "level": 1,
+   "skill": "Accounting"
+  },
+  {
+   "finish": "2026-11-07T10:26:26Z",
+   "level": 2,
+   "skill": "Accounting"
+  },
+  {
+   "finish": "2026-11-07T19:13:17Z",
+   "level": 3,
+   "skill": "Accounting"
+  },
+  {
+   "finish": "2026-11-09T20:53:41Z",
+   "level": 4,
+   "skill": "Accounting"
+  },
+  {
+   "finish": "2026-11-09T21:10:05Z",
+   "level": 1,
+   "skill": "Retail"
+  },
+  {
+   "finish": "2026-11-09T22:26:27Z",
+   "level": 2,
+   "skill": "Retail"
+  },
+  {
+   "finish": "2026-11-10T05:38:17Z",
+   "level": 3,
+   "skill": "Retail"
+  },
+  {
+   "finish": "2026-11-11T22:21:14Z",
+   "level": 4,
+   "skill": "Retail"
+  },
+  {
+   "finish": "2026-11-21T12:40:35Z",
+   "level": 5,
+   "skill": "Retail"
+  },
+  {
+   "finish": "2026-11-21T13:00:35Z",
+   "level": 1,
+   "skill": "Marketing"
+  },
+  {
+   "finish": "2026-11-21T14:33:43Z",
+   "level": 2,
+   "skill": "Marketing"
+  },
+  {
+   "finish": "2026-11-21T23:20:35Z",
+   "level": 3,
+   "skill": "Marketing"
+  },
+  {
+   "finish": "2026-11-24T01:00:59Z",
+   "level": 4,
+   "skill": "Marketing"
+  },
+  {
+   "finish": "2026-12-05T18:00:35Z",
+   "level": 5,
+   "skill": "Marketing"
+  },
+  {
+   "finish": "2026-12-10T13:10:15Z",
+   "level": 5,
+   "skill": "Trade"
+  }
+ ],
+ "queue_empty": false,
+ "standing_caldari_navy": 0.0,
+ "standing_caldari_state": 0.0,
+ "total_sp": 382580,
+ "unallocated_sp": 0,
+ "updated": "2026-11-04T22:18+00:00"
+}

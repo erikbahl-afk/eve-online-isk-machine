@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Wed 04 Nov 14:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 21 · **Est. time:** 19 min. Work top to bottom; stop any time.  
+**Updated:** Wed 04 Nov 14:18 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 22 · **Est. time:** 20 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -55,10 +55,11 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 18 | ☐ Compressed Fullerite-C28 | 666 | **12,290** | 12,900 | 12,280 |
-| 19 | ☐ Compressed Veldspar III-Grade | 9 | **12.17** | 12.45 | 12.16 |
-| 20 | ☐ Compressed Zeolites | 1 | **1,227** | 1,377 | 1,226 |
-| 21 | ☐ Inherent Implants 'Squire' Power Grid Management EG-604 | 2 | **75,010,000** | 109,800,000 | 75,000,000 |
+| 18 | ☐ Compressed Fullerite-C28 | 1 | **12,310** | 12,900 | 12,300 |
+| 19 | ☐ Compressed Fullerite-C32 | 408 | **20,030** | 21,970 | 20,020 |
+| 20 | ☐ Compressed Veldspar III-Grade | 57 | **12.17** | 12.45 | 12.16 |
+| 21 | ☐ Compressed Zeolites | 1 | **1,227** | 1,377 | 1,226 |
+| 22 | ☐ Inherent Implants 'Squire' Power Grid Management EG-604 | 2 | **75,010,000** | 109,800,000 | 75,000,000 |
 
 ---
 Wallet 260.10M · escrow 1.60B · stock 3.11B · in transit 0.00 · net worth 4.98B (liquidation 2.54B)

@@ -1,4 +1,4 @@
-# Summary · Wed 04 Nov 14:00 PST
+# Summary · Wed 04 Nov 14:18 PST
 
 Auto-generated every run. Reviewers: start here.
 
@@ -7,13 +7,19 @@ Auto-generated every run. Reviewers: start here.
 - Cash 260.10M · escrow 1.60B · stock 3.11B · in transit 0.00 · orders 7/113
 - Realized P&L -24.20M · sales 0.00 · buys 2.98B · fees: broker 24.20M, relist 0.00, tax 0.00, courier 138.00M
 - Character at **amarr** · import hub: **amarr** · shipments in transit: 0
-- Shelf space in use: slots 7/113 · ISK deployed 95% · last plan 19/25 min (whichever is near 100% is what limits profit)
+- Shelf space in use: slots 7/113 · ISK deployed 95% · last plan 20/25 min (whichever is near 100% is what limits profit)
 
 ## By strategy
 | Strategy | Buys | Sales | Fees | Realized |
 |---|---|---|---|---|
 | import | 2.96B | 0.00 | 138.00M | 0.00 |
 | station | 12.22M | 0.00 | 24.20M | -24.20M |
+## Trading character (read over SSO)
+- Plan progress **0.2%** (4,032,100 of 4,040,100 SP left) · about **80.1 days** of training at current attributes · total SP 382,580 · unallocated 0
+- Attributes: Cha 27 / Mem 21 / Wil 17 · free remaps: 2 · jump clones: 0
+- Queue: Trade 4, Broker Relations 1, Broker Relations 2, Broker Relations 3 · next plan skill: Trade → 5
+- Broker fee in Jita 4-4 right now: 3.0% (Caldari State +0.00, Caldari Navy +0.00)
+
 
 ## Strategy experiments (same market, same sessions, different settings)
 | Variant | Net worth | Change | Realized | What it tests |
@@ -51,43 +57,43 @@ Market size = ISK/day bought from sell orders at the station (what we'd be selli
 
 | Hub | Market size | Station types | Station top-30 | Import types (from Jita) | Import top-30 |
 |---|---|---|---|---|---|
-| jita | 4.61T | 86 | 201.45M | - | - |
-| amarr | 525.82B | 19 | 71.19M | 93 | 344.40M |
-| dodixie | 168.36B | 4 | 14.51M | 84 | 268.34M |
-| rens | 43.58B | 3 | 11.60M | 41 | 261.83M |
-| hek | 60.48B | 4 | 12.85M | 51 | 147.90M |
+| jita | 4.62T | 85 | 199.31M | - | - |
+| amarr | 525.65B | 20 | 72.36M | 92 | 348.60M |
+| dodixie | 168.18B | 6 | 21.98M | 82 | 269.31M |
+| rens | 43.76B | 3 | 11.27M | 42 | 257.87M |
+| hek | 60.59B | 5 | 15.16M | 51 | 154.17M |
 
 ## Top station candidates at jita
 | Type | Bid→Ask | Margin | Units/day | Still on top (ask/bid) | Exp. profit/day | Uses most |
 |---|---|---|---|---|---|---|
 | Inherent Implants 'Squire' Power Grid Management EG-604 | 75.01M→124.20M | 56.0% | 0.3 | 21%/32% | 10.65M | time |
-| Compressed Fullerite-C28 | 12.29k→14.60k | 11.5% | 6400.1 | 5%/11% | 8.33M | ISK |
-| Compressed Fullerite-C32 | 20.02k→24.85k | 16.6% | 2569.8 | 4%/9% | 8.04M | time |
-| Antipharmakon Aeolis | 22.51M→28.85M | 20.4% | 1.4 | 13%/82% | 6.11M | time |
-| Blood Raider NET Resonator | 3.27M→3.90M | 11.9% | 21.9 | 8%/3% | 7.87M | time |
-| Compressed Fullerite-C540 | 46.12k→54.80k | 11.5% | 1541.5 | 4%/18% | 7.57M | time |
-| Corpus C-Type Heavy Energy Nosferatu | 25.02M→40.96M | 54.2% | 0.5 | 26%/58% | 6.08M | time |
-| Damage Control Mutaplasmid Residue | 88.00k→144.70k | 54.9% | 152.8 | 12%/14% | 7.25M | time |
-| Mutated Blood Sample | 72.51k→86.39k | 11.8% | 932.9 | 1%/2% | 7.35M | time |
-| Crimson Totality Background | 81.25M→102.30M | 18.3% | 0.5 | 4%/4% | 6.91M | time |
-| Capital Disintegrator Specialization | 1.31B→1.53B | 9.8% | 0.2 | 3%/8% | 20.73M | ISK |
-| Corpus X-Type EM Armor Hardener | 157.80M→189.30M | 12.6% | 0.3 | 6%/9% | 6.28M | time |
+| Compressed Fullerite-C32 | 20.03k→24.85k | 16.5% | 2573.3 | 4%/9% | 8.02M | time |
+| Compressed Fullerite-C28 | 12.31k→14.60k | 11.3% | 6377.8 | 5%/11% | 8.17M | ISK |
+| Antipharmakon Aeolis | 22.51M→28.85M | 20.4% | 1.4 | 13%/82% | 6.10M | time |
+| Blood Raider NET Resonator | 3.27M→3.90M | 11.9% | 21.9 | 8%/3% | 7.89M | time |
+| Corpus C-Type Heavy Energy Nosferatu | 25.02M→40.96M | 54.2% | 0.5 | 26%/58% | 6.06M | time |
+| Damage Control Mutaplasmid Residue | 88.00k→144.70k | 54.9% | 152.7 | 12%/14% | 7.24M | time |
+| Mutated Blood Sample | 72.51k→86.29k | 11.7% | 929.9 | 1%/2% | 7.24M | time |
+| Crimson Totality Background | 81.25M→102.30M | 18.3% | 0.5 | 4%/4% | 6.90M | time |
+| Capital Disintegrator Specialization | 1.31B→1.53B | 9.8% | 0.2 | 3%/8% | 20.71M | ISK |
+| Corpus X-Type EM Armor Hardener | 157.80M→189.30M | 12.6% | 0.3 | 6%/9% | 6.27M | time |
+| Remote Sensor Dampener II | 1.30M→2.89M | 109.4% | 4.3 | 3%/7% | 6.10M | time |
 
 ## Top import candidates Jita → amarr
 | Type | Jita → sell | m³ | Margin | Units/day | Still on top | Exp. profit/day | Uses most |
 |---|---|---|---|---|---|---|---|
-| Small Vorton Projector II | 119.00M→217.50M | 5.0 | 69.3% | 0.2 | 36% | 19.00M | time |
-| Large Projectile Collision Accelerator II | 20.52M→48.23M | 20.0 | 119.0% | 0.6 | 100% | 13.69M | time |
-| Golem State Police SKIN | 59.98M→99.58M | 0.0 | 53.3% | 0.5 | 72% | 14.44M | time |
-| Ferrogel | 27.69k→41.40k | 1.0 | 37.6% | 1588.4 | 22% | 16.39M | time |
-| Starsi Blast! Classic | 41.68M→73.89M | 1.0 | 64.0% | 0.6 | 49% | 14.87M | time |
-| State Hardpoint Booster II | 9.79M→20.89M | 1.0 | 98.4% | 1.2 | 87% | 12.01M | time |
-| Caldari Navy Missile Guidance Enhancer | 84.49M→209.80M | 5.0 | 131.6% | 0.1 | 31% | 13.70M | time |
-| Ogdin's Eye Coordination Enhancer | 299.30M→401.80M | 1.0 | 23.1% | 0.2 | 37% | 13.71M | ISK |
-| Low-grade Grail Delta | 9.80M→22.97M | 1.0 | 118.4% | 0.9 | 83% | 10.84M | time |
-| Blood Raider NET Resonator | 3.90M→5.20M | 1.0 | 22.2% | 27.8 | 8% | 23.74M | ISK |
-| Large Energy Burst Aerator II | 6.93M→12.03M | 20.0 | 60.6% | 2.5 | 87% | 10.46M | time |
-| ElectroPunch Ultra L | 11.00k→16.37k | 0.0 | 37.0% | 2828.9 | 47% | 11.43M | time |
+| Small Vorton Projector II | 119.00M→217.50M | 5.0 | 69.3% | 0.2 | 36% | 18.98M | time |
+| Large Projectile Collision Accelerator II | 20.50M→48.23M | 20.0 | 119.2% | 0.6 | 100% | 13.67M | time |
+| Ferrogel | 27.68k→41.40k | 1.0 | 37.7% | 1587.9 | 22% | 16.41M | time |
+| Golem State Police SKIN | 59.98M→99.58M | 0.0 | 53.3% | 0.5 | 72% | 14.41M | time |
+| Starsi Blast! Classic | 41.68M→73.89M | 1.0 | 64.0% | 0.6 | 49% | 14.91M | time |
+| State Hardpoint Booster II | 9.79M→20.89M | 1.0 | 98.5% | 1.2 | 87% | 12.00M | time |
+| Caldari Navy Missile Guidance Enhancer | 84.49M→209.80M | 5.0 | 131.6% | 0.1 | 31% | 13.66M | time |
+| Ogdin's Eye Coordination Enhancer | 299.30M→401.80M | 1.0 | 23.1% | 0.2 | 37% | 13.70M | ISK |
+| Low-grade Grail Delta | 9.80M→22.97M | 1.0 | 118.4% | 0.9 | 83% | 10.81M | time |
+| Blood Raider NET Resonator | 3.90M→5.20M | 1.0 | 22.2% | 27.8 | 8% | 23.72M | ISK |
+| Large Energy Burst Aerator II | 6.93M→12.03M | 20.0 | 60.6% | 2.5 | 87% | 10.45M | time |
+| ElectroPunch Ultra L | 11.00k→16.37k | 0.0 | 37.0% | 2833.6 | 47% | 11.45M | time |
 
 ## Cornerability watchlist (read-only, nothing is traded)
 Buy out the cheapest N sell orders, relist just under the next one (capped where imports would kick in). Daily snapshots go to data/corners/ so we can see if these really hold.
@@ -99,7 +105,7 @@ Buy out the cheapest N sell orders, relist just under the next one (capped where
 | jita | Rattlesnake King's Ransom Luecin SKIN | 40.00M | 2 orders / 7 u | 299.90M | 67.62M | 150.36M | 50% | 5.3 | 0.6 |
 | jita | Capital Projectile Turret | 32.36M | 3 orders / 10 u | 323.80M | 48.58M | 138.32M | 43% | 7.8 | 1.5 |
 | jita | Inferno Javelin XL Torpedo | 11.00k | 3 orders / 29,731 u | 340.98M | 16.93k | 137.83M | 40% | 6.8 | 1.9 |
-| amarr | Vedmak Blood Raiders Crimson Mark SKIN | 14.00M | 13 orders / 17 u | 299.71M | 26.28M | 125.27M | 42% | 10.0 | 3.0 |
+| amarr | Vedmak Blood Raiders Crimson Mark SKIN | 14.00M | 13 orders / 17 u | 299.71M | 26.30M | 125.59M | 42% | 10.0 | 3.0 |
 | jita | Zainou 'Deadeye' Missile Projection MP-704 | 89.91M | 3 orders / 4 u | 369.77M | 129.90M | 124.50M | 34% | 5.4 | 0.4 |
 | jita | Capital Energy Turret | 17.90M | 3 orders / 16 u | 300.70M | 27.74M | 121.50M | 40% | 4.1 | 1.1 |
 | jita | Heavy Interdiction Cruisers | 38.00M | 2 orders / 8 u | 304.99M | 54.99M | 113.48M | 37% | 3.3 | 2.6 |
@@ -108,8 +114,8 @@ Buy out the cheapest N sell orders, relist just under the next one (capped where
 ## Data health
 | Hub | Orders | Hours today | Prints this run | Note |
 |---|---|---|---|---|
-| jita | 328,889 | 24.2 | 7,044 |  |
-| amarr | 128,788 | 24.2 | 2,175 |  |
-| dodixie | 68,726 | 24.2 | 1,307 |  |
-| rens | 31,687 | 24.2 | 407 |  |
-| hek | 41,280 | 24.2 | 730 |  |
+| jita | 328,863 | 24.5 | 2,355 |  |
+| amarr | 128,782 | 24.5 | 515 |  |
+| dodixie | 68,793 | 24.5 | 378 |  |
+| rens | 31,691 | 24.5 | 108 |  |
+| hek | 41,283 | 24.5 | 156 |  |

@@ -184,7 +184,7 @@ type_id,name,volume
 11448,Electromagnetic Physics,
 11449,Rocket Science,0.01
 11531,,1.0
-11535,,1.0
+11535,Magnetometric Sensor Cluster,1.0
 11536,,1.0
 11538,Nanomechanical Microprocessor,1.0
 11541,Photon Microprocessor,1.0
@@ -285,6 +285,7 @@ type_id,name,volume
 13924,Dread Guristas Torpedo Launcher,20.0
 13926,,5.0
 13933,Dread Guristas Rocket Launcher,5.0
+13935,,5.0
 13939,Domination Gyrostabilizer,
 13943,True Sansha Heat Sink,5.0
 13947,,25.0
@@ -503,6 +504,7 @@ type_id,name,volume
 18949,,5.0
 18963,Core B-Type Thermal Armor Hardener,
 18973,Core X-Type EM Armor Hardener,5.0
+18975,Core X-Type Explosive Armor Hardener,
 18985,Coreli A-Type Small Remote Armor Repairer,5.0
 18987,Corelum C-Type Medium Remote Armor Repairer,10.0
 18989,Corelum B-Type Medium Remote Armor Repairer,10.0
@@ -740,8 +742,10 @@ type_id,name,volume
 25888,,20.0
 25890,Large Kinetic Armor Reinforcer I,20.0
 25892,Large Thermal Armor Reinforcer I,20.0
+25896,,20.0
 25956,,20.0
 26020,Large Warhead Rigor Catalyst I,20.0
+26068,Large Hyperspatial Velocity Optimizer I,20.0
 26070,,20.0
 26084,,20.0
 26288,,20.0
