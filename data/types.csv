@@ -76,6 +76,7 @@ type_id,name,volume
 2998,Noctis,20000.0
 3033,,5.0
 3041,Small Focused Pulse Laser II,5.0
+3049,Mega Beam Laser II,20.0
 3057,Mega Pulse Laser II,20.0
 3080,,1.0
 3082,,10.0
@@ -226,7 +227,7 @@ type_id,name,volume
 12356,,20.0
 12484,Amarr Drone Specialization,0.01
 12486,Gallente Drone Specialization,0.01
-12487,,0.01
+12487,Caldari Drone Specialization,0.01
 12537,Serpentis Bronze Tag,0.1
 12608,Hail S,0.0025
 12729,Crane,20000.0
@@ -552,6 +553,7 @@ type_id,name,volume
 19301,Gist X-Type Shield Boost Amplifier,5.0
 19311,,5.0
 19315,Corelum C-Type 50MN Microwarpdrive,10.0
+19321,Corelum B-Type 50MN Microwarpdrive,
 19323,Core B-Type 500MN Microwarpdrive,10.0
 19327,Corelum A-Type 50MN Microwarpdrive,
 19329,Core A-Type 500MN Microwarpdrive,
@@ -589,7 +591,7 @@ type_id,name,volume
 20411,,0.1
 20415,Datacore - Molecular Engineering,0.1
 20418,Datacore - Electronic Engineering,
-20419,,0.1
+20419,Datacore - Graviton Physics,0.1
 20424,Datacore - Mechanical Engineering,0.1
 20443,Ogdin's Eye Coordination Enhancer,1.0
 20499,,1.0
@@ -745,7 +747,7 @@ type_id,name,volume
 26382,,20.0
 26402,Large Hybrid Locus Coordinator II,20.0
 26412,,20.0
-26414,,20.0
+26414,Large Warhead Rigor Catalyst II,20.0
 26416,,20.0
 26424,Large Projectile Collision Accelerator II,20.0
 26428,Large Projectile Ambit Extension II,20.0
@@ -783,6 +785,7 @@ type_id,name,volume
 27327,,0.005
 27339,Caldari Navy Mjolnir Torpedo,0.05
 27345,Caldari Navy Scourge Torpedo,
+27351,,0.05
 27355,Dread Guristas Inferno Torpedo,
 27377,,0.05
 27381,Caldari Navy Nova Light Missile,
@@ -901,7 +904,7 @@ type_id,name,volume
 31380,Capital Capacitor Control Circuit II,40.0
 31410,Capital Semiconductor Memory Cell I,40.0
 31414,,10.0
-31498,,10.0
+31498,Medium Energy Metastasis Adjuster II,10.0
 31544,,5.0
 31594,,10.0
 31606,,10.0
@@ -1434,6 +1437,7 @@ type_id,name,volume
 85178,Tetrimonic Warclone Blanks,
 85179,Overseer Sabik Vial,
 85390,Armor Mutaplasmid Residue,0.01
+85392,,0.01
 85400,X-Large Mutaplasmid Residue,
 85662,Glorified Unstable Gyrostabilizer Mutaplasmid,
 85668,Glorified Unstable Magnetic Field Stabilizer Mutaplasmid,

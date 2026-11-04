@@ -1,6 +1,6 @@
 {
- "est_secs": 1005,
- "generated": 1793779230.6143289,
+ "est_secs": 1185,
+ "generated": 1793786428.4269452,
  "hub": "jita",
  "location": "jita",
  "other": null,
@@ -55,9 +55,9 @@
    "kind": "new_sell",
    "n": 4,
    "qty": 1566,
-   "ref": 403.6,
+   "ref": 402.9,
    "secs": 45,
-   "target": 403.5,
+   "target": 402.8,
    "type_id": 16636,
    "value": 556243.2
   },
@@ -90,16 +90,16 @@
    "value": 141680000.0
   },
   {
-   "cap": 411000.0,
+   "cap": 414400.0,
    "group": 4,
    "hub": "jita",
    "kind": "modify_buy",
    "mine": 372100.0,
    "n": 7,
    "oid": 5,
-   "ref": 382600.0,
+   "ref": 391000.0,
    "secs": 25,
-   "target": 382700.0,
+   "target": 391100.0,
    "type_id": 28437,
    "value": 400379600.0
   },
@@ -160,7 +160,7 @@
    "value": 8016000.0
   },
   {
-   "cap": 8912000.0,
+   "cap": 8894000.0,
    "group": 4,
    "hub": "jita",
    "kind": "modify_buy",
@@ -174,16 +174,16 @@
    "value": 75240000.0
   },
   {
-   "cap": 6806.0,
+   "cap": 6805.0,
    "group": 4,
    "hub": "jita",
    "kind": "modify_buy",
    "mine": 6137.0,
    "n": 13,
    "oid": 10,
-   "ref": 6425.0,
+   "ref": 6423.0,
    "secs": 25,
-   "target": 6426.0,
+   "target": 6424.0,
    "type_id": 54786,
    "value": 402887913.0
   },
@@ -258,21 +258,21 @@
    "value": 264000000.0
   },
   {
-   "cap": 26490000.0,
+   "cap": 25600000.0,
    "group": 4,
    "hub": "jita",
    "kind": "modify_buy",
    "mine": 24530000.0,
    "n": 19,
    "oid": 17,
-   "ref": 25670000.0,
+   "ref": 25640000.0,
    "secs": 25,
-   "target": 25680000.0,
+   "target": 25600000.0,
    "type_id": 27188,
    "value": 367950000.0
   },
   {
-   "cap": 118500000.0,
+   "cap": 118600000.0,
    "group": 4,
    "hub": "jita",
    "kind": "modify_buy",
@@ -281,12 +281,12 @@
    "oid": 28,
    "ref": 124600000.0,
    "secs": 25,
-   "target": 118500000.0,
+   "target": 118600000.0,
    "type_id": 11959,
    "value": 183900000.0
   },
   {
-   "cap": 88590000.0,
+   "cap": 88410000.0,
    "group": 4,
    "hub": "jita",
    "kind": "modify_buy",
@@ -342,7 +342,7 @@
    "value": 187380000.0
   },
   {
-   "cap": 55250000.0,
+   "cap": 54350000.0,
    "group": 4,
    "hub": "jita",
    "kind": "modify_buy",
@@ -361,41 +361,83 @@
    "hub": "jita",
    "kind": "new_buy",
    "n": 26,
-   "qty": 5,
+   "qty": 3,
    "ref": 12150.0,
    "secs": 60,
    "tag": "station",
    "target": 12160.0,
    "type_id": 62402,
-   "value": 6595775.6387088895
+   "value": 6317794.168127707
   },
   {
-   "cap": 1493.0,
+   "cap": 2846.0,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
    "n": 27,
+   "qty": 1,
+   "ref": 2825.0,
+   "secs": 60,
+   "tag": "station",
+   "target": 2826.0,
+   "type_id": 62467,
+   "value": 12261627.374990372
+  },
+  {
+   "cap": 10690.0,
+   "group": 6,
+   "hub": "jita",
+   "kind": "new_buy",
+   "n": 28,
+   "qty": 1,
+   "ref": 6298.0,
+   "secs": 60,
+   "tag": "station",
+   "target": 6299.0,
+   "type_id": 25601,
+   "value": 5435596.834955686
+  },
+  {
+   "cap": 1492.0,
+   "group": 6,
+   "hub": "jita",
+   "kind": "new_buy",
+   "n": 29,
    "qty": 1,
    "ref": 900.1,
    "secs": 60,
    "tag": "station",
    "target": 900.2,
    "type_id": 27483,
-   "value": 2891880.9329368346
+   "value": 2965194.177696271
   },
   {
-   "cap": 78210.0,
+   "cap": 78200.0,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
-   "n": 28,
-   "qty": 1386,
-   "ref": 66170.0,
+   "n": 30,
+   "qty": 91,
+   "ref": 66270.0,
    "secs": 60,
    "tag": "station",
-   "target": 66180.0,
+   "target": 66280.0,
    "type_id": 28698,
-   "value": 9301541.348421015
+   "value": 7140969.504149656
+  },
+  {
+   "cap": 7058000.0,
+   "group": 6,
+   "hub": "jita",
+   "kind": "new_buy",
+   "n": 31,
+   "qty": 13,
+   "ref": 6592000.0,
+   "secs": 60,
+   "tag": "station",
+   "target": 6593000.0,
+   "type_id": 15632,
+   "value": 8760548.200259244
   }
  ]
 }

@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Wed 04 Nov 00:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 23 · **Est. time:** 21 min. Work top to bottom; stop any time.  
+**Updated:** Wed 04 Nov 02:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 24 · **Est. time:** 22 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -28,7 +28,7 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 | 10 | ☐ Men's 'Precision' Boots | 5 | **99,990,000** | 51,550,000 | 100,000,000 |
 | 11 | ☐ Standup M-Set Basic Small Ship Manufacturing Material Efficiency I | 1 | **699,600,000** | 347,300,000 | 699,700,000 |
 | 12 | ☐ Typhoon Fleet Issue Capsuleer Elite XX SKIN | 1 | **815,900,000** | 435,300,000 | 816,000,000 |
-| 13 | ☐ Void XL | 2,434 | **4,888** | 3,289 | 4,889 |
+| 13 | ☐ Void XL | 2,434 | **4,886** | 3,289 | 4,887 |
 
 ### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
@@ -43,7 +43,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 16 | ☐ Compressed Veldspar II-Grade | 29 | **10.03** | 10.48 | 10.02 |
+| 16 | ☐ Compressed Veldspar II-Grade | 52 | **10.07** | 10.48 | 10.06 |
 
 ## 17. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
 _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
@@ -62,11 +62,12 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 19 | ☐ Compressed Fullerite-C28 | 4 | **12,160** | 12,600 | 12,150 |
-| 20 | ☐ Compressed Glistening Bitumens | 1 | **2,427** | 2,438 | 2,426 |
+| 19 | ☐ Compressed Fullerite-C28 | 2 | **12,160** | 12,600 | 12,150 |
+| 20 | ☐ Compressed Glistening Zeolites | 1 | **2,826** | 2,846 | 2,825 |
 | 21 | ☐ Inherent Implants 'Squire' Power Grid Management EG-604 | 2 | **70,010,000** | 109,800,000 | 70,000,000 |
-| 22 | ☐ Legion Mjolnir Auto-Targeting Heavy Missile | 2 | **900.20** | 1,493 | 900.10 |
-| 23 | ☐ Lime Mykoserocin | 274 | **66,180** | 78,210 | 66,170 |
+| 22 | ☐ Legion Mjolnir Auto-Targeting Heavy Missile | 2 | **900.20** | 1,492 | 900.10 |
+| 23 | ☐ Lime Mykoserocin | 75 | **66,280** | 78,200 | 66,270 |
+| 24 | ☐ Republic Fleet Commander Insignia I | 2 | **6,593,000** | 7,058,000 | 6,592,000 |
 
 ---
 Wallet 260.10M · escrow 1.60B · stock 3.11B · in transit 0.00 · net worth 4.98B (liquidation 2.54B)
