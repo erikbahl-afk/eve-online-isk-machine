@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Wed 04 Nov 12:33 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Wed 04 Nov 14:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 21 · **Est. time:** 19 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -18,8 +18,8 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 |---|---|---|---|---|---|
 | 1 | ☐ 'Cartel' Power Diagnostic System I | 7 | **68,300,000** | 31,380,000 | 68,310,000 |
 | 2 | ☐ Black Market 'Valdimar' Drone Navigation DN-701 | 3 | **249,800,000** | 131,200,000 | 249,900,000 |
-| 3 | ☐ Capital I-a Enduring Armor Repairer | 3 | **199,900,000** | 91,990,000 | 200,000,000 |
-| 4 | ☐ Dread Guristas Rocket Launcher | 6 | **99,580,000** | 48,990,000 | 99,590,000 |
+| 3 | ☐ Capital I-a Enduring Armor Repairer | 3 | **199,800,000** | 91,990,000 | 199,900,000 |
+| 4 | ☐ Dread Guristas Rocket Launcher | 6 | **99,550,000** | 48,990,000 | 99,560,000 |
 | 5 | ☐ Golem Exoplanets Hunter SKIN | 3 | **294,500,000** | 134,900,000 | 294,600,000 |
 | 6 | ☐ Gravid Vorton Tuning System Mutaplasmid | 5 | **89,990,000** | 56,510,000 | 90,000,000 |
 | 7 | ☐ Infomorph Decryption Key | 3,642 | **4,098** | 3,491 | 4,099 |
@@ -55,10 +55,10 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 18 | ☐ Compressed Fullerite-C32 | 917 | **19,760** | 21,970 | 19,750 |
-| 19 | ☐ Compressed Veldspar III-Grade | 34 | **12.14** | 12.36 | 12.13 |
-| 20 | ☐ Compressed Zeolites | 5 | **1,227** | 1,377 | 1,226 |
-| 21 | ☐ Inherent Implants 'Squire' Power Grid Management EG-604 | 2 | **70,040,000** | 109,800,000 | 70,030,000 |
+| 18 | ☐ Compressed Fullerite-C28 | 666 | **12,290** | 12,900 | 12,280 |
+| 19 | ☐ Compressed Veldspar III-Grade | 9 | **12.17** | 12.45 | 12.16 |
+| 20 | ☐ Compressed Zeolites | 1 | **1,227** | 1,377 | 1,226 |
+| 21 | ☐ Inherent Implants 'Squire' Power Grid Management EG-604 | 2 | **75,010,000** | 109,800,000 | 75,000,000 |
 
 ---
 Wallet 260.10M · escrow 1.60B · stock 3.11B · in transit 0.00 · net worth 4.98B (liquidation 2.54B)

@@ -1,6 +1,6 @@
 {
  "est_secs": 1140,
- "generated": 1793824438.3977487,
+ "generated": 1793829636.731622,
  "hub": "amarr",
  "location": "amarr",
  "other": "jita",
@@ -41,9 +41,9 @@
    "kind": "new_sell",
    "n": 3,
    "qty": 3,
-   "ref": 200000000.0,
+   "ref": 199900000.0,
    "secs": 45,
-   "target": 199900000.0,
+   "target": 199800000.0,
    "type_id": 41498,
    "value": 265321033.2867546
   },
@@ -55,9 +55,9 @@
    "kind": "new_sell",
    "n": 4,
    "qty": 6,
-   "ref": 99590000.0,
+   "ref": 99560000.0,
    "secs": 45,
-   "target": 99580000.0,
+   "target": 99550000.0,
    "type_id": 13933,
    "value": 282557690.82159543
   },
@@ -239,32 +239,32 @@
    "value": 369400000.0
   },
   {
-   "cap": 21970.0,
+   "cap": 12900.0,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
    "n": 18,
-   "qty": 917,
-   "ref": 19750.0,
+   "qty": 666,
+   "ref": 12280.0,
    "secs": 60,
    "tag": "station",
-   "target": 19760.0,
-   "type_id": 62404,
-   "value": 8750908.896511076
+   "target": 12290.0,
+   "type_id": 62402,
+   "value": 8334482.946290728
   },
   {
-   "cap": 12.36,
+   "cap": 12.45,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
    "n": 19,
-   "qty": 34,
-   "ref": 12.13,
+   "qty": 9,
+   "ref": 12.16,
    "secs": 60,
    "tag": "station",
-   "target": 12.14,
+   "target": 12.17,
    "type_id": 62518,
-   "value": 3852101.3655967508
+   "value": 4064478.8410261953
   },
   {
    "cap": 1377.0,
@@ -272,13 +272,13 @@
    "hub": "jita",
    "kind": "new_buy",
    "n": 20,
-   "qty": 5,
+   "qty": 1,
    "ref": 1226.0,
    "secs": 60,
    "tag": "station",
    "target": 1227.0,
    "type_id": 62463,
-   "value": 5188866.938182072
+   "value": 4929143.376806918
   },
   {
    "cap": 109800000.0,
@@ -287,12 +287,12 @@
    "kind": "new_buy",
    "n": 21,
    "qty": 2,
-   "ref": 70030000.0,
+   "ref": 75000000.0,
    "secs": 60,
    "tag": "station",
-   "target": 70040000.0,
+   "target": 75010000.0,
    "type_id": 3257,
-   "value": 11960777.278304877
+   "value": 10651783.36867443
   }
  ]
 }

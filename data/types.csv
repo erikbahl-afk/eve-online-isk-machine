@@ -70,6 +70,7 @@ type_id,name,volume
 2867,,50.0
 2868,Integrity Response Drones,
 2870,Organic Mortar Applicators,
+2875,Sterile Conduits,
 2929,800mm Repeating Cannon II,20.0
 2953,,20.0
 2961,1400mm Howitzer Artillery II,
@@ -135,7 +136,7 @@ type_id,name,volume
 7447,425mm Prototype Gauss Gun,20.0
 7579,Modal Light Neutron Particle Accelerator I,5.0
 8263,,5.0
-8433,,10.0
+8433,Medium Azeotropic Restrained Shield Extender,10.0
 8517,Medium F-S9 Regolith Compact Shield Extender,10.0
 8863,,5.0
 9411,,5.0
@@ -886,6 +887,7 @@ type_id,name,volume
 30304,PPD Fullerene Fibers,
 30310,Carbon-86 Epoxy Resin,
 30370,Fullerite-C50,1.0
+30375,Fullerite-C28,
 30376,Fullerite-C32,
 30377,Fullerite-C320,
 30378,Fullerite-C540,
@@ -1226,6 +1228,7 @@ type_id,name,volume
 47845,,1.0
 47875,Large Disintegrator Specialization,0.01
 47886,Tetryon Exotic Plasma M,0.01
+47887,,0.01
 47891,Chaotic Exotic Filament,0.1
 47895,Chaotic Dark Filament,
 47897,,0.1
@@ -1365,6 +1368,7 @@ type_id,name,volume
 60300,,10.0
 60311,,10.0
 60313,Gas Cloud Harvester I,5.0
+60464,Exigent Heavy Drone Firepower Mutaplasmid,
 60470,Exigent Sentry Drone Projection Mutaplasmid,1.0
 60472,,1.0
 60476,Radical Drone Damage Amplifier Mutaplasmid,
@@ -1562,6 +1566,7 @@ type_id,name,volume
 96844,Entropic Rose Metallic - Unlimited,
 96845,Star of Pochven Background,0.1
 97265,Criterion Cipher,
+97422,Vedmak Blood Raiders Crimson Mark SKIN,
 97424,,0.01
 97431,Leshak Blood Raiders Crimson Mark SKIN,0.01
 97436,Kikimora Tetrimon Crimson Mark SKIN,
