@@ -172,7 +172,7 @@ type_id,name,volume
 11196,,2500.0
 11198,Stiletto,
 11200,,2500.0
-11365,,2500.0
+11365,Vengeance,2500.0
 11377,,2500.0
 11379,,2500.0
 11381,,2500.0
@@ -411,7 +411,7 @@ type_id,name,volume
 16637,Tungsten,0.05
 16641,Chromium,0.05
 16642,,0.05
-16643,,0.05
+16643,Cadmium,0.05
 16644,Platinum,0.05
 16646,,0.05
 16650,Dysprosium,0.05
@@ -490,6 +490,7 @@ type_id,name,volume
 18827,,5.0
 18829,Corpum C-Type Multispectrum Energized Membrane,5.0
 18835,Centum C-Type Kinetic Energized Membrane,
+18859,Centum B-Type Explosive Energized Membrane,5.0
 18877,Corpum A-Type Kinetic Energized Membrane,5.0
 18881,Corpum A-Type Multispectrum Energized Membrane,5.0
 18883,Centum A-Type Multispectrum Energized Membrane,
@@ -547,7 +548,7 @@ type_id,name,volume
 19208,Pith X-Type X-Large Shield Booster,50.0
 19215,,5.0
 19219,,5.0
-19227,,5.0
+19227,Pithum A-Type Thermal Shield Amplifier,5.0
 19229,,5.0
 19247,Gistum B-Type EM Shield Amplifier,
 19253,,5.0
