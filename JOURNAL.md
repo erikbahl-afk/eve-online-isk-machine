@@ -81,3 +81,4 @@
 - Fixed since: calibrate crash (numpy int), and a checklist crash on a blank item name (failed runs 16–17 on Oct 31).
 - Infra: GitHub starts the workflow only about every 6 h despite the 2 h cron (asked the user for the
   cron-job.org trigger). The review routine has no repo source, so it can't push (user to add the repo).
+- 2026-11-04 · review push test OK
