@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Wed 04 Nov 02:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 24 · **Est. time:** 22 min. Work top to bottom; stop any time.  
+**Updated:** Wed 04 Nov 04:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 22 · **Est. time:** 20 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -43,7 +43,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 16 | ☐ Compressed Veldspar II-Grade | 52 | **10.07** | 10.48 | 10.06 |
+| 16 | ☐ Compressed Veldspar II-Grade | 10 | **10.07** | 10.48 | 10.06 |
 
 ## 17. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
 _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
@@ -62,12 +62,10 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 19 | ☐ Compressed Fullerite-C28 | 2 | **12,160** | 12,600 | 12,150 |
-| 20 | ☐ Compressed Glistening Zeolites | 1 | **2,826** | 2,846 | 2,825 |
+| 19 | ☐ Compressed Fullerite-C32 | 2 | **19,600** | 20,730 | 19,590 |
+| 20 | ☐ Compressed Glistening Zeolites | 5 | **2,825** | 2,846 | 2,824 |
 | 21 | ☐ Inherent Implants 'Squire' Power Grid Management EG-604 | 2 | **70,010,000** | 109,800,000 | 70,000,000 |
-| 22 | ☐ Legion Mjolnir Auto-Targeting Heavy Missile | 2 | **900.20** | 1,492 | 900.10 |
-| 23 | ☐ Lime Mykoserocin | 75 | **66,280** | 78,200 | 66,270 |
-| 24 | ☐ Republic Fleet Commander Insignia I | 2 | **6,593,000** | 7,058,000 | 6,592,000 |
+| 22 | ☐ Mutated Blood Sample | 255 | **71,110** | 76,610 | 71,100 |
 
 ---
 Wallet 260.10M · escrow 1.60B · stock 3.11B · in transit 0.00 · net worth 4.98B (liquidation 2.54B)
