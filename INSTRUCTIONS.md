@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Wed 04 Nov 10:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 22 · **Est. time:** 20 min. Work top to bottom; stop any time.  
+**Updated:** Wed 04 Nov 11:45 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 21 · **Est. time:** 19 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -28,7 +28,7 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 | 10 | ☐ Men's 'Precision' Boots | 5 | **99,990,000** | 51,550,000 | 100,000,000 |
 | 11 | ☐ Standup M-Set Basic Small Ship Manufacturing Material Efficiency I | 1 | **699,600,000** | 347,300,000 | 699,700,000 |
 | 12 | ☐ Typhoon Fleet Issue Capsuleer Elite XX SKIN | 1 | **815,900,000** | 435,300,000 | 816,000,000 |
-| 13 | ☐ Void XL | 2,434 | **4,886** | 3,289 | 4,887 |
+| 13 | ☐ Void XL | 2,434 | **4,885** | 3,289 | 4,886 |
 
 ### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
@@ -48,18 +48,17 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 17 | ☐ Glorified Unstable Magnetic Field Stabilizer Mutaplasmid | 184,700,000 | **186,900,000** | 254,500,000 | 186,800,000 |
+| 17 | ☐ Glorified Unstable Magnetic Field Stabilizer Mutaplasmid | 184,700,000 | **187,200,000** | 254,500,000 | 187,100,000 |
 
 ### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 18 | ☐ Blood Raider NET Resonator | 5 | **3,250,000** | 3,525,000 | 3,249,000 |
-| 19 | ☐ Compressed Fullerite-C32 | 95 | **19,730** | 21,970 | 19,720 |
-| 20 | ☐ Compressed Zeolites | 1 | **1,222** | 1,377 | 1,221 |
+| 18 | ☐ Compressed Fullerite-C32 | 917 | **19,760** | 21,970 | 19,750 |
+| 19 | ☐ Compressed Veldspar III-Grade | 35 | **12.14** | 12.54 | 12.13 |
+| 20 | ☐ Compressed Zeolites | 5 | **1,225** | 1,377 | 1,224 |
 | 21 | ☐ Inherent Implants 'Squire' Power Grid Management EG-604 | 2 | **70,040,000** | 109,800,000 | 70,030,000 |
-| 22 | ☐ Legion Mjolnir Auto-Targeting Heavy Missile | 1 | **900.40** | 1,493 | 900.30 |
 
 ---
 Wallet 260.10M · escrow 1.60B · stock 3.11B · in transit 0.00 · net worth 4.98B (liquidation 2.54B)
