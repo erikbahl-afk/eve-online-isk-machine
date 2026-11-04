@@ -33,7 +33,7 @@ def main():
     ours = allf.groupby("type_id")[["ask_units", "bid_units"]].sum() / len(days)
     ours["units"] = ours.ask_units + ours.bid_units
     sample = ours.sort_values("units", ascending=False).head(n).index
-    dates = {(dt.date.fromisoformat(today) - dt.timedelta(days=k)).isoformat() for k in days}
+    dates = {(dt.date.fromisoformat(today) - dt.timedelta(days=int(k))).isoformat() for k in days}
     esi = ESI(workers=6)
 
     def hist(ty):

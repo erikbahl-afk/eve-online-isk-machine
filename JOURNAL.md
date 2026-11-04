@@ -72,3 +72,12 @@
 - Skill plan from ESI data: about 4.04M SP (Trade/Retail/Marketing/Daytrading/Accounting/BR/ABR V,
   Wholesale IV, IP I, IS III, Social I, Contracting II). About 80 days on Omega with a Cha/Mem remap.
   AIR gives 0.75–1.5M SP. Alpha can't train Retail or Accounting, so the trader must be Omega.
+
+## 2026-11-03 · review (recovered: the review's push was refused, so this entry was copied from its transcript)
+- Health OK. Net worth 4.98B (−0.48% over 5.9 d), realized −24.2M (broker fees only, no sales yet); 95% of ISK
+  deployed (1.6B escrow, 3.1B in transit to Amarr), 7/113 slots. Last session Sat 31 Oct.
+- Calibration: median inferred/official ratio 0.42 (Jita), 0.43 (Amarr). Stable and below 1; gone_weight unchanged.
+- Variants: no_imports −1.42% vs main −0.48%; loose identical to main. Too early to promote anything.
+- Fixed since: calibrate crash (numpy int), and a checklist crash on a blank item name (failed runs 16–17 on Oct 31).
+- Infra: GitHub starts the workflow only about every 6 h despite the 2 h cron (asked the user for the
+  cron-job.org trigger). The review routine has no repo source, so it can't push (user to add the repo).

@@ -3,6 +3,8 @@
 Budget: keep this session small, about 25 tool calls at most. The user is on a shared usage
 plan. Prefer one well-reasoned change over many small ones.
 
+0. Setup: `python3 -m pip install -q -r requirements.txt`, then always use `python3 -m ...` (a
+   bare `python` may be a different interpreter without the packages).
 1. `git pull`. Read `state/summary.md`, the last ~40 lines of `JOURNAL.md`, and the
    `STRATEGY.md` open questions. Skim the last week of `state/metrics.csv` (`tail -n 90`).
 2. **Health check.** Is the newest "run …" commit less than 6 hours old? Does the data-health

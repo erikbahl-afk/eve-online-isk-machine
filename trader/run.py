@@ -81,7 +81,7 @@ def load_types():
     df = pd.read_csv(path)
     if "volume" not in df:
         df["volume"] = np.nan
-    return (dict(zip(df.type_id, df.name)),
+    return ({int(t): str(n) for t, n in zip(df.type_id, df.name) if isinstance(n, str) and n},
             {int(t): float(v) for t, v in zip(df.type_id, df.volume) if not pd.isna(v)})
 
 

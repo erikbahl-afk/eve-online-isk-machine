@@ -32,7 +32,8 @@ GROUPS = {
 
 
 def _item(names, ty):
-    return names.get(ty, f"type {ty}")
+    n = names.get(ty)
+    return n if isinstance(n, str) and n else f"type {ty}"
 
 
 def _hub_section(cfg, steps, names, hub):
