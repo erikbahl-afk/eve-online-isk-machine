@@ -11,7 +11,9 @@ import time
 import numpy as np
 import pandas as pd
 
-from . import corners, logons, market, render
+import os
+
+from . import character, corners, logons, market, render, sso
 from .common import CACHE, DATA, HUBS, ROOT, STATE, load_config, load_json, save_json
 from .esi import ESI
 from .fees import Fees
@@ -126,6 +128,14 @@ def main():
         day.flush(cfg["collect"]["daily_min_isk"])
         day = market.Day(today)
     tops, books, prints, intervals, health = collect(cfg, esi, now, day)
+    char = None
+    secret = os.environ.get("ESI_CLIENT_SECRET")
+    if secret and sso.TOKEN_FILE.exists():
+        try:
+            token, cid = sso.access_token(cfg, secret)
+            char = character.report(cfg, esi, token, cid, STATE / "character.json")
+        except Exception as e:  # never let the character read break the market run
+            health["character"] = {"note": f"SSO read failed: {type(e).__name__}"}
     with open(CACHE / "day.pkl", "wb") as f:
         pickle.dump(day, f)
 
@@ -157,7 +167,7 @@ def main():
     summary = render.summary(cfg, pf, val, health, r["sessions"], names,
                              {h: add_density(df, cfg, val["nw_book"]) for h, df in r["station"].items()},
                              {h: add_density(df, cfg, val["nw_book"]) for h, df in r["imports_by_hub"].items()},
-                             now, stats, plan, variants, corner)
+                             now, stats, plan, variants, corner, char)
     (STATE / "summary.md").write_text(summary)
     week = dt.date.fromtimestamp(now).isocalendar()
     week = f"{week[0]}-W{week[1]:02d}"

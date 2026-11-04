@@ -86,3 +86,10 @@
 ## 2026-11-04 · in-game checks
 - Verified: 3% broker / 7.5% tax base, the 4-significant-figure price rule, and a relist charge of 50% × broker × new value
   at ABR 0. The fee model in config.toml needs no change. A jump clone looks installable in Jita 4-4.
+
+## 2026-11-04 · SSO connection
+- Training option A: the account's single training slot moves to the trader (no MCT).
+- Added `trader/sso.py` (login link, code exchange, refresh) and `trader/character.py` (skills, queue,
+  attributes, standings, jump clones → state/character.json, with no name or ID), plus `sso-connect.yml`
+  for the one-time code exchange. The refresh token is stored AES-GCM encrypted in state/sso_token.enc
+  with a key derived from the ESI_CLIENT_SECRET Actions secret. The summary shows plan progress and ETA.

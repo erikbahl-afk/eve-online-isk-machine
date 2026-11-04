@@ -124,7 +124,7 @@ def instructions(cfg, plan, names, val, warm_msg=None):
 
 
 def summary(cfg, pf, val, health, sessions, names, station, imports_by_hub, t, stats=None, plan=None,
-            variants=None, corner=None):
+            variants=None, corner=None, char=None):
     s0 = pf["start_isk"]
     pnl = pf["pnl"]
     days = max((t - pf["created"]) / 86400, 1e-9)
@@ -146,6 +146,21 @@ def summary(cfg, pf, val, health, sessions, names, station, imports_by_hub, t, s
     out += ["## By strategy", "| Strategy | Buys | Sales | Fees | Realized |", "|---|---|---|---|---|"]
     for tag, v in sorted(pf["per_strategy"].items()):
         out.append(f"| {tag} | {isk(v['buys'])} | {isk(v['sales'])} | {isk(v['fees'])} | {isk(v['realized'])} |")
+    if char:
+        nxt = next((r for r in char["plan"] if r["sp_left"] > 0), None)
+        a = char["attributes"]
+        qtxt = ("**EMPTY: nothing is training**" if char["queue_empty"]
+                else ", ".join(f"{e['skill']} {e['level']}" for e in char["queue"][:4]))
+        out += ["## Trading character (read over SSO)",
+                f"- Plan progress **{char['plan_done_pct']}%** ({char['plan_sp_left']:,} of {char['plan_sp_total']:,} SP "
+                f"left) · about **{char['eta_days']} days** of training at current attributes · total SP "
+                f"{char['total_sp']:,} · unallocated {char['unallocated_sp']:,}",
+                f"- Attributes: Cha {a['charisma']} / Mem {a['memory']} / Wil {a['willpower']} · free remaps: "
+                f"{char['bonus_remaps']} · jump clones: {char['jump_clones']}",
+                f"- Queue: {qtxt}"
+                + (f" · next plan skill: {nxt['skill']} → {nxt['target']}" if nxt else " · plan complete"),
+                f"- Broker fee in Jita 4-4 right now: {char['broker_fee_jita_now']}% (Caldari State "
+                f"{char['standing_caldari_state']:+.2f}, Caldari Navy {char['standing_caldari_navy']:+.2f})", ""]
     if variants:
         out += ["", "## Strategy experiments (same market, same sessions, different settings)",
                 "| Variant | Net worth | Change | Realized | What it tests |", "|---|---|---|---|---|"]

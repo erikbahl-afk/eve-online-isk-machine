@@ -36,6 +36,8 @@ jobs:
           restore-keys: work-
 
       - name: Run
+        env:
+          ESI_CLIENT_SECRET: ${{ secrets.ESI_CLIENT_SECRET }}
         run: python -m trader.run > run.log 2>&1 || (cat run.log; exit 1)
 
       - name: Save working cache
