@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Wed 04 Nov 22:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 21 · **Est. time:** 19 min. Work top to bottom; stop any time.  
+**Updated:** Thu 05 Nov 00:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 22 · **Est. time:** 20 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -28,7 +28,7 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 | 10 | ☐ Men's 'Precision' Boots | 5 | **99,990,000** | 51,550,000 | 100,000,000 |
 | 11 | ☐ Standup M-Set Basic Small Ship Manufacturing Material Efficiency I | 1 | **699,600,000** | 347,300,000 | 699,700,000 |
 | 12 | ☐ Typhoon Fleet Issue Capsuleer Elite XX SKIN | 1 | **815,900,000** | 435,300,000 | 816,000,000 |
-| 13 | ☐ Void XL | 2,434 | **4,883** | 3,289 | 4,884 |
+| 13 | ☐ Void XL | 2,434 | **4,882** | 3,289 | 4,883 |
 
 ### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
@@ -43,7 +43,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 16 | ☐ Mexallon | 1 | **44.34** | 52.37 | 44.33 |
+| 16 | ☐ Mexallon | 3 | **44.36** | 52.37 | 44.35 |
 
 ## 17. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
 _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
@@ -62,9 +62,10 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 19 | ☐ Angel NET Resonator | 3 | **2,247,000** | 2,407,000 | 2,246,000 |
-| 20 | ☐ Compressed Zeolites | 1,157 | **1,232** | 1,365 | 1,231 |
-| 21 | ☐ Inherent Implants 'Squire' Power Grid Management EG-604 | 2 | **75,020,000** | 109,800,000 | 75,010,000 |
+| 19 | ☐ Angel NET Resonator | 1 | **2,249,000** | 2,409,000 | 2,248,000 |
+| 20 | ☐ Compressed Zeolites | 726 | **1,236** | 1,365 | 1,235 |
+| 21 | ☐ Inherent Implants 'Squire' Power Grid Management EG-604 | 1 | **75,020,000** | 109,800,000 | 75,010,000 |
+| 22 | ☐ Standup Siren II | 4 | **20,010,000** | 34,830,000 | 20,000,000 |
 
 ---
 Wallet 260.10M · escrow 1.60B · stock 3.11B · in transit 0.00 · net worth 4.98B (liquidation 2.54B)

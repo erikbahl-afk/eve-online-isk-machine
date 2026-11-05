@@ -1,6 +1,6 @@
 {
- "est_secs": 1140,
- "generated": 1793858428.930399,
+ "est_secs": 1200,
+ "generated": 1793865626.9431033,
  "hub": "amarr",
  "location": "amarr",
  "other": "jita",
@@ -181,9 +181,9 @@
    "kind": "new_sell",
    "n": 13,
    "qty": 2434,
-   "ref": 4884.0,
+   "ref": 4883.0,
    "secs": 45,
-   "target": 4883.0,
+   "target": 4882.0,
    "type_id": 41322,
    "value": 7695392.096699673
   },
@@ -221,13 +221,13 @@
    "hub": "amarr",
    "kind": "new_buy",
    "n": 16,
-   "qty": 1,
-   "ref": 44.33,
+   "qty": 3,
+   "ref": 44.35,
    "secs": 60,
    "tag": "station",
-   "target": 44.34,
+   "target": 44.36,
    "type_id": 36,
-   "value": 3590778.5449154116
+   "value": 3483404.807054249
   },
   {
    "group": 0,
@@ -253,18 +253,18 @@
    "value": 369400000.0
   },
   {
-   "cap": 2453000.0,
+   "cap": 2455000.0,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
    "n": 19,
-   "qty": 3,
-   "ref": 2246000.0,
+   "qty": 1,
+   "ref": 2248000.0,
    "secs": 60,
    "tag": "station",
-   "target": 2247000.0,
+   "target": 2249000.0,
    "type_id": 83467,
-   "value": 13340891.342787812
+   "value": 12776208.33588173
   },
   {
    "cap": 1391.0,
@@ -272,13 +272,13 @@
    "hub": "jita",
    "kind": "new_buy",
    "n": 20,
-   "qty": 1157,
-   "ref": 1231.0,
+   "qty": 726,
+   "ref": 1235.0,
    "secs": 60,
    "tag": "station",
-   "target": 1232.0,
+   "target": 1236.0,
    "type_id": 62463,
-   "value": 8456794.281185374
+   "value": 8308344.660114682
   },
   {
    "cap": 111900000.0,
@@ -286,13 +286,27 @@
    "hub": "jita",
    "kind": "new_buy",
    "n": 21,
-   "qty": 2,
+   "qty": 1,
    "ref": 75010000.0,
    "secs": 60,
    "tag": "station",
    "target": 75020000.0,
    "type_id": 3257,
-   "value": 12408816.496483734
+   "value": 12382260.176266983
+  },
+  {
+   "cap": 35500000.0,
+   "group": 6,
+   "hub": "jita",
+   "kind": "new_buy",
+   "n": 22,
+   "qty": 4,
+   "ref": 20000000.0,
+   "secs": 60,
+   "tag": "station",
+   "target": 20010000.0,
+   "type_id": 47136,
+   "value": 13051632.534452042
   }
  ]
 }

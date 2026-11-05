@@ -160,6 +160,7 @@ type_id,name,volume
 10208,Memory Augmentation - Standard,
 10209,,1.0
 10217,Ocular Filter - Improved,1.0
+10221,Cybernetic Subprocessor - Standard,
 10222,Cybernetic Subprocessor - Improved,1.0
 10225,Social Adaptation Chip - Standard,
 10226,,1.0
@@ -295,6 +296,7 @@ type_id,name,volume
 13935,Domination Ballistic Control System,5.0
 13939,Domination Gyrostabilizer,
 13943,True Sansha Heat Sink,5.0
+13945,,5.0
 13947,,25.0
 13949,,10.0
 13951,Dread Guristas Small Shield Booster,5.0
@@ -850,6 +852,7 @@ type_id,name,volume
 28296,'Augmented' Valkyrie,10.0
 28300,'Augmented' Vespa,10.0
 28308,,25.0
+28324,,0.025
 28334,,0.0125
 28362,Drone Capillary Fluid,
 28375,,10.0
@@ -1235,6 +1238,7 @@ type_id,name,volume
 47029,Rattlesnake King's Ransom Luecin SKIN,
 47037,Standup Siren I,
 47133,Standup Dromi I,
+47136,Standup Siren II,
 47139,,2000.0
 47270,,10000.0
 47298,Standup Multirole Missile Launcher II,4000.0
@@ -1268,6 +1272,7 @@ type_id,name,volume
 47911,,5.0
 47914,Light Entropic Disintegrator II,5.0
 47915,Veles Light Entropic Disintegrator,5.0
+47916,Heavy Compact Entropic Disintegrator,
 47917,,10.0
 47919,Veles Heavy Entropic Disintegrator,10.0
 47923,,20.0
@@ -1378,7 +1383,7 @@ type_id,name,volume
 57457,Reinforced Carbon Fiber,0.1
 57459,Hypnagogic Neurolink Enhancer,4.0
 57466,,10.0
-57470,,16.0
+57470,U-C Trigger Neurolink Conduit,16.0
 57472,,16.0
 57474,,100.0
 57476,,100.0
@@ -1487,6 +1492,7 @@ type_id,name,volume
 81350,Kerr Sequencer,0.001
 81948,Consortium Small Tractor Beam,
 81951,Consortium Mobile Tractor Unit,
+82054,Stabber Capsuleer Day XXI SKIN,
 82184,Thrasher Fleet Issue Republic Police SKIN,
 82301,Compressed Kylixium II-Grade,
 82302,Compressed Kylixium III-Grade,

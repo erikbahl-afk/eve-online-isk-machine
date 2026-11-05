@@ -15,22 +15,22 @@
   "Infomorph Synchronizing",
   "Contracting"
  ],
- "broker_fee_jita_now": 3.0,
- "eta_days": 80.1,
+ "broker_fee_jita_now": 2.7,
+ "eta_days": 79.2,
  "jump_clones": 0,
  "plan": [
   {
    "injected": true,
-   "level": 3,
+   "level": 4,
    "skill": "Trade",
-   "sp_left": 248000,
+   "sp_left": 210745,
    "target": 5
   },
   {
    "injected": true,
-   "level": 0,
+   "level": 1,
    "skill": "Broker Relations",
-   "sp_left": 512000,
+   "sp_left": 511500,
    "target": 5
   },
   {
@@ -104,20 +104,10 @@
    "target": 2
   }
  ],
- "plan_done_pct": 0.2,
- "plan_sp_left": 4032100,
+ "plan_done_pct": 1.1,
+ "plan_sp_left": 3994345,
  "plan_sp_total": 4040100,
  "queue": [
-  {
-   "finish": "2026-11-05T07:05:45Z",
-   "level": 4,
-   "skill": "Trade"
-  },
-  {
-   "finish": "2026-11-05T07:22:09Z",
-   "level": 1,
-   "skill": "Broker Relations"
-  },
   {
    "finish": "2026-11-05T08:38:30Z",
    "level": 2,
@@ -212,7 +202,7 @@
  "queue_empty": false,
  "standing_caldari_navy": 0.0,
  "standing_caldari_state": 0.0,
- "total_sp": 382580,
+ "total_sp": 420335,
  "unallocated_sp": 0,
- "updated": "2026-11-05T06:00+00:00"
+ "updated": "2026-11-05T08:00+00:00"
 }
