@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Thu 05 Nov 10:02 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 24 · **Est. time:** 22 min. Work top to bottom; stop any time.  
+**Updated:** Thu 05 Nov 11:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 23 · **Est. time:** 21 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -36,14 +36,14 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 14 | ☐ Corelum B-Type 10MN Afterburner | 95,500,000 | **96,720,000** | 203,100,000 | 96,710,000 |
-| 15 | ☐ Sentient Damage Control | 313,000,000 | **313,500,000** | 439,300,000 | 313,400,000 |
+| 15 | ☐ Sentient Damage Control | 313,000,000 | **313,500,000** | 389,400,000 | 313,400,000 |
 
 ### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 16 | ☐ Mutated Blood Sample | 4 | **65,390** | 74,950 | 65,380 |
+| 16 | ☐ Mutated Blood Sample | 1 | **65,390** | 74,950 | 65,380 |
 
 ## 17. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
 _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
@@ -62,12 +62,11 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 19 | ☐ Compressed Dark Glitter | 9 | **316,100** | 347,300 | 316,000 |
+| 19 | ☐ Compressed Dark Glitter | 73 | **316,100** | 347,300 | 316,000 |
 | 20 | ☐ Compressed Omber | 4 | **119.50** | 121.70 | 119.40 |
-| 21 | ☐ Compressed Scordite III-Grade | 3 | **22.22** | 22.58 | 22.21 |
-| 22 | ☐ Compressed Zeolites | 31 | **1,273** | 1,365 | 1,272 |
-| 23 | ☐ Inherent Implants 'Squire' Power Grid Management EG-604 | 1 | **75,020,000** | 109,600,000 | 75,010,000 |
-| 24 | ☐ Standup Siren II | 4 | **20,010,000** | 34,830,000 | 20,000,000 |
+| 21 | ☐ Compressed Zeolites | 12 | **1,275** | 1,363 | 1,274 |
+| 22 | ☐ Inherent Implants 'Squire' Power Grid Management EG-604 | 1 | **75,020,000** | 109,500,000 | 75,010,000 |
+| 23 | ☐ Standup Siren II | 3 | **20,010,000** | 34,470,000 | 20,000,000 |
 
 ---
 Wallet 260.10M · escrow 1.60B · stock 3.11B · in transit 0.00 · net worth 4.98B (liquidation 2.54B)

@@ -190,6 +190,7 @@ type_id,name,volume
 11433,High Energy Physics,0.01
 11448,Electromagnetic Physics,
 11449,Rocket Science,0.01
+11529,Molecular Engineering,
 11531,,1.0
 11534,,1.0
 11535,Magnetometric Sensor Cluster,1.0
@@ -436,7 +437,7 @@ type_id,name,volume
 16647,,0.05
 16648,Hafnium,0.05
 16650,Dysprosium,0.05
-16651,,0.05
+16651,Neodymium,0.05
 16653,Thulium,
 16667,Neo Mercurite,
 16669,Ferrofluid,
@@ -573,7 +574,7 @@ type_id,name,volume
 19202,Pith C-Type X-Large Shield Booster,
 19203,Pith B-Type Large Shield Booster,25.0
 19204,Pith B-Type X-Large Shield Booster,50.0
-19207,,25.0
+19207,Pith X-Type Large Shield Booster,25.0
 19208,Pith X-Type X-Large Shield Booster,50.0
 19215,Pithum C-Type EM Shield Amplifier,5.0
 19219,,5.0
@@ -614,6 +615,7 @@ type_id,name,volume
 19719,Transport Ships,
 19739,Cruise Missile Launcher II,20.0
 20060,Amarr Control Tower Small,2000.0
+20064,Gallente Control Tower Small,2000.0
 20065,Minmatar Control Tower Medium,4000.0
 20125,Curse,10000.0
 20157,High-grade Crystal Beta,1.0
@@ -759,7 +761,7 @@ type_id,name,volume
 25601,Fried Interface Circuit,
 25604,,0.01
 25605,Armor Plates,
-25608,,0.01
+25608,Intact Shield Emitter,0.01
 25609,Nanite Compound,
 25619,Logic Circuit,0.01
 25624,Intact Armor Plates,
@@ -1270,7 +1272,7 @@ type_id,name,volume
 47356,Standup Capacitor Power Relay I,4000.0
 47448,C3-X 'Hivaa Saitsuo' Ballistic Control System,
 47466,Praxis,50000.0
-47700,,1.0
+47700,Unstable Stasis Webifier Mutaplasmid,1.0
 47752,Gravid 10MN Afterburner Mutaplasmid,1.0
 47771,,1.0
 47783,Unstable Medium Shield Booster Mutaplasmid,
@@ -1327,6 +1329,7 @@ type_id,name,volume
 52226,Unstable Damage Control Mutaplasmid,
 52236,Zorya's Light Entropic Disintegrator,
 52238,Zorya's Heavy Entropic Disintegrator,10.0
+52244,Veles Entropic Radiation Sink,
 52278,Praxis Capsuleer Day XVI SKIN,0.01
 52312,Zero-Point Field Manipulator,
 52313,Trinary State Processor,
@@ -1346,8 +1349,8 @@ type_id,name,volume
 53709,Mid-grade Nirvana Omega,1.0
 53710,High-grade Nirvana Alpha,
 53711,High-grade Nirvana Beta,1.0
-53712,High-grade Nirvana Delta,
-53713,High-grade Nirvana Epsilon,
+53712,High-grade Nirvana Delta,1.0
+53713,High-grade Nirvana Epsilon,1.0
 53714,High-grade Nirvana Omega,
 53715,High-grade Nirvana Gamma,1.0
 53856,Low-grade Nirvana Delta,
@@ -1374,6 +1377,7 @@ type_id,name,volume
 54785,StrikeSnipe Ultra M,0.0125
 54786,ElectroPunch Ultra M,0.0125
 54794,EDENCOM Battleship,
+54827,,0.01
 54828,Medium Vorton Specialization,0.01
 54841,Vorton Arc Guidance,
 54975,Vorton Tuning System II,5.0
@@ -1399,6 +1403,7 @@ type_id,name,volume
 57207,Mining Barge Operations,1.0
 57319,Mobile Cynosural Beacon,400.0
 57442,Counter-Subversion Sensor Array,2.0
+57443,Meta-Molecular Combiner,
 57444,,1.0
 57449,Nano Regulation Gate,
 57450,Electro-Neural Signaller,
