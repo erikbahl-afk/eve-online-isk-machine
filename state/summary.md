@@ -1,4 +1,4 @@
-# Summary · Thu 05 Nov 10:00 PST
+# Summary · Thu 05 Nov 10:02 PST
 
 Updated every ~2 hours. **Your real character** is the first section; everything after it is the **practice trader** (pretend ISK, real market data). Each section starts with a line on how to read it.
 
@@ -136,8 +136,8 @@ _Is the market data flowing? Orders = orders seen in the station · Hours today 
 
 | Hub | Orders | Hours today | Trades seen | Note |
 |---|---|---|---|---|
-| jita | 327,977 | 19.7 | 8,281 |  |
-| amarr | 128,212 | 19.7 | 2,777 |  |
-| dodixie | 68,356 | 19.7 | 1,570 |  |
-| rens | 31,784 | 19.7 | 839 |  |
-| hek | 41,340 | 19.7 | 839 |  |
+| jita | 327,977 | 19.7 | 0 | no new data since last run |
+| amarr | 128,212 | 19.7 | 0 | no new data since last run |
+| dodixie | 68,356 | 19.7 | 0 | no new data since last run |
+| rens | 31,784 | 19.7 | 0 | no new data since last run |
+| hek | 41,340 | 19.7 | 0 | no new data since last run |
