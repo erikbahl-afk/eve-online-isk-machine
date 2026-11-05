@@ -231,6 +231,7 @@ type_id,name,volume
 12044,,2500.0
 12054,,50.0
 12058,,5.0
+12076,50MN Microwarpdrive II,
 12084,500MN Microwarpdrive II,
 12102,Large Remote Capacitor Transmitter II,
 12108,,5.0
@@ -258,7 +259,7 @@ type_id,name,volume
 12779,,0.025
 12791,,0.025
 12818,Scorch M,
-13209,,1.0
+13209,Armored Command Mindlink,1.0
 13216,Zainou 'Gypsy' CPU Management EE-603,1.0
 13217,Inherent Implants 'Lancer' Large Energy Turret LE-1003,
 13218,Zainou 'Deadeye' Large Hybrid Turret LH-1003,
@@ -439,6 +440,7 @@ type_id,name,volume
 16653,Thulium,
 16667,Neo Mercurite,
 16669,Ferrofluid,
+16671,,0.01
 16672,,0.01
 16673,,0.01
 16678,Sylramic Fibers,0.05
@@ -481,7 +483,7 @@ type_id,name,volume
 17772,Small AutoCannon Battery,
 17843,Vexor Navy Issue,10000.0
 17887,Oxygen Isotopes,0.03
-17888,,0.03
+17888,Nitrogen Isotopes,0.03
 17889,Hydrogen Isotopes,0.03
 17894,High-Tech Scanner,0.01
 17895,High-Tech Manufacturing Tools,0.01
@@ -843,7 +845,7 @@ type_id,name,volume
 27419,Caldari Navy Mjolnir Heavy Assault Missile,0.015
 27421,,0.015
 27423,,0.05
-27435,,0.03
+27435,Caldari Navy Mjolnir Heavy Missile,0.03
 27441,,0.03
 27447,Caldari Navy Inferno Heavy Missile,0.03
 27459,,0.05
@@ -868,6 +870,7 @@ type_id,name,volume
 28334,,0.0125
 28362,Drone Capillary Fluid,
 28375,,10.0
+28377,Caldari Navy Heavy Assault Missile Launcher,10.0
 28379,Domination Heavy Assault Missile Launcher,
 28433,Compressed Blue Ice,
 28435,Compressed Dark Glitter,
@@ -1190,7 +1193,7 @@ type_id,name,volume
 41534,Zeugma Integrated Analyzer,5.0
 42145,Low-grade Asklepian Alpha,
 42201,Low-grade Asklepian Epsilon,1.0
-42205,Mid-grade Asklepian Beta,
+42205,Mid-grade Asklepian Beta,1.0
 42206,Mid-grade Asklepian Gamma,1.0
 42208,Mid-grade Asklepian Epsilon,1.0
 42209,Mid-grade Asklepian Omega,1.0
@@ -1248,7 +1251,7 @@ type_id,name,volume
 46003,Agency 'Hardshell' TB7 Dose III,1.0
 46005,Agency 'Overclocker' SB5 Dose II,
 46213,Ferrogel Reaction Formula,
-46355,,6.0
+46355,Ubiquitous Moon Mining Crystal Type A I,6.0
 46356,Ubiquitous Moon Mining Crystal Type A II,10.0
 46375,Daily Alpha Injector,
 46633,Standup M-Set Asteroid Ore Grading Processor I,10.0
@@ -1285,6 +1288,7 @@ type_id,name,volume
 47901,,0.1
 47902,Raging Gamma Filament,0.1
 47904,,0.1
+47905,Fierce Electrical Filament,0.1
 47906,Raging Electrical Filament,0.1
 47907,Chaotic Electrical Filament,
 47911,,5.0
@@ -1354,6 +1358,7 @@ type_id,name,volume
 54400,Mid-grade Hydra Gamma,
 54402,Mid-grade Hydra Epsilon,
 54403,Mid-grade Hydra Omega,
+54407,Low-grade Hydra Delta,
 54534,Black Market 'Valdimar' Drone Navigation DN-701,1.0
 54543,Black Market 'Valdimar' Drone Durability DD-1001,
 54731,Skybreaker,2500.0
@@ -1619,6 +1624,7 @@ type_id,name,volume
 96561,Harvest Damage Booster IV,
 96566,Tetrimon Anti-Drain Booster IV,1.0
 96568,,1.0
+96569,Tetrimon Capacitor Booster III,1.0
 96573,Tetrimon Resistance Booster III,
 96574,Tetrimon Resistance Booster IV,1.0
 96583,Chemal Tech Turret Booster III,1.0

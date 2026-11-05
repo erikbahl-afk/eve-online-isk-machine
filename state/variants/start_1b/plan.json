@@ -1,6 +1,6 @@
 {
  "est_secs": 1500,
- "generated": 1793894429.201751,
+ "generated": 1793901632.6991751,
  "hub": "jita",
  "location": "jita",
  "other": "amarr",
@@ -17,7 +17,7 @@
    "tag": "station",
    "target": 55630000.0,
    "type_id": 90318,
-   "value": 3572025.602581082
+   "value": 3608908.8621411547
   },
   {
    "cap": 1119000.0,
@@ -25,27 +25,27 @@
    "hub": "jita",
    "kind": "new_buy",
    "n": 2,
-   "qty": 41,
-   "ref": 800200.0,
+   "qty": 58,
+   "ref": 800400.0,
    "secs": 60,
    "tag": "station",
-   "target": 800300.0,
+   "target": 800500.0,
    "type_id": 34575,
-   "value": 3855077.970250428
+   "value": 5466425.072434996
   },
   {
-   "cap": 25480000.0,
+   "cap": 3503000.0,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
    "n": 3,
-   "qty": 3,
-   "ref": 22510000.0,
+   "qty": 9,
+   "ref": 2330000.0,
    "secs": 60,
    "tag": "station",
-   "target": 22520000.0,
-   "type_id": 36912,
-   "value": 5251046.889584198
+   "target": 2331000.0,
+   "type_id": 96583,
+   "value": 3088189.5655820887
   },
   {
    "cap": 36170000.0,
@@ -59,49 +59,49 @@
    "tag": "station",
    "target": 25020000.0,
    "type_id": 19113,
-   "value": 4136284.2931258148
+   "value": 4140381.9281492564
   },
   {
-   "cap": 29150000.0,
+   "cap": 133100.0,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
    "n": 5,
+   "qty": 406,
+   "ref": 89000.0,
+   "secs": 60,
+   "tag": "station",
+   "target": 89010.0,
+   "type_id": 85392,
+   "value": 5265955.169300584
+  },
+  {
+   "cap": 29100000.0,
+   "group": 6,
+   "hub": "jita",
+   "kind": "new_buy",
+   "n": 6,
    "qty": 2,
    "ref": 16990000.0,
    "secs": 60,
    "tag": "station",
    "target": 17000000.0,
    "type_id": 13809,
-   "value": 4267447.9572627535
+   "value": 4193408.689066825
   },
   {
-   "cap": 571500.0,
+   "cap": 571400.0,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
-   "n": 6,
-   "qty": 61,
+   "n": 7,
+   "qty": 59,
    "ref": 382000.0,
    "secs": 60,
    "tag": "station",
    "target": 382100.0,
    "type_id": 2993,
-   "value": 3371628.475436215
-  },
-  {
-   "cap": 1166.0,
-   "group": 6,
-   "hub": "jita",
-   "kind": "new_buy",
-   "n": 7,
-   "qty": 45939,
-   "ref": 952.0,
-   "secs": 60,
-   "tag": "station",
-   "target": 952.1,
-   "type_id": 22993,
-   "value": 3201713.7582110786
+   "value": 3274915.541777419
   },
   {
    "cap": 14280000.0,
@@ -115,94 +115,94 @@
    "tag": "station",
    "target": 6932000.0,
    "type_id": 47916,
-   "value": 2358514.588177521
+   "value": 2381127.9092956358
   },
   {
-   "cap": 44980000.0,
+   "cap": 109600000.0,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
    "n": 9,
-   "qty": 2,
-   "ref": 38880000.0,
-   "secs": 60,
-   "tag": "station",
-   "target": 38890000.0,
-   "type_id": 40730,
-   "value": 2899097.003447033
-  },
-  {
-   "cap": 109700000.0,
-   "group": 6,
-   "hub": "jita",
-   "kind": "new_buy",
-   "n": 10,
    "qty": 1,
    "ref": 75010000.0,
    "secs": 60,
    "tag": "station",
    "target": 75020000.0,
    "type_id": 3257,
-   "value": 11350128.366962489
+   "value": 12721972.37276164
   },
   {
-   "cap": 2654000.0,
+   "cap": 2688000.0,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
-   "n": 11,
+   "n": 10,
    "qty": 10,
-   "ref": 1330000.0,
+   "ref": 1334000.0,
    "secs": 60,
    "tag": "station",
-   "target": 1331000.0,
+   "target": 1335000.0,
    "type_id": 1969,
-   "value": 3598603.447911341
+   "value": 3631349.07120239
   },
   {
    "cap": 46520000.0,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
-   "n": 12,
+   "n": 11,
    "qty": 2,
    "ref": 37290000.0,
    "secs": 60,
    "tag": "station",
    "target": 37300000.0,
    "type_id": 17491,
-   "value": 4139148.6748288902
+   "value": 4116236.492240862
   },
   {
    "cap": 12820000.0,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
-   "n": 13,
+   "n": 12,
    "qty": 2,
    "ref": 6714000.0,
    "secs": 60,
    "tag": "station",
    "target": 6715000.0,
    "type_id": 82054,
-   "value": 2599091.1455119075
+   "value": 2604537.385175898
   },
   {
    "cap": 34830000.0,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
-   "n": 14,
+   "n": 13,
    "qty": 3,
    "ref": 20000000.0,
    "secs": 60,
    "tag": "station",
    "target": 20010000.0,
    "type_id": 47136,
-   "value": 13088155.713519502
+   "value": 13009022.859651215
   },
   {
-   "cap": 21390000.0,
+   "cap": 35190000.0,
+   "group": 6,
+   "hub": "jita",
+   "kind": "new_buy",
+   "n": 14,
+   "qty": 2,
+   "ref": 26690000.0,
+   "secs": 60,
+   "tag": "station",
+   "target": 26700000.0,
+   "type_id": 13982,
+   "value": 3054286.3567031077
+  },
+  {
+   "cap": 21380000.0,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
@@ -213,10 +213,10 @@
    "tag": "station",
    "target": 13180000.0,
    "type_id": 27167,
-   "value": 2674718.5075815762
+   "value": 2481618.6790209836
   },
   {
-   "cap": 17510000.0,
+   "cap": 17530000.0,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
@@ -227,7 +227,7 @@
    "tag": "station",
    "target": 14050000.0,
    "type_id": 13221,
-   "value": 4296875.525700462
+   "value": 4288747.483231552
   },
   {
    "group": 0,
@@ -239,18 +239,18 @@
    "value": 0.0
   },
   {
-   "cap": 6018000.0,
+   "cap": 6023000.0,
    "group": 6,
    "hub": "amarr",
    "kind": "new_buy",
    "n": 18,
    "qty": 9,
-   "ref": 4346000.0,
+   "ref": 4347000.0,
    "secs": 60,
    "tag": "station",
-   "target": 4347000.0,
+   "target": 4348000.0,
    "type_id": 3090,
-   "value": 4120124.7905545635
+   "value": 4182767.7539616036
   },
   {
    "cap": 68860000.0,
@@ -264,7 +264,7 @@
    "tag": "station",
    "target": 44020000.0,
    "type_id": 98147,
-   "value": 2986320.0643706257
+   "value": 3019718.0154496827
   },
   {
    "cap": 11590.0,
@@ -272,41 +272,41 @@
    "hub": "amarr",
    "kind": "new_buy",
    "n": 20,
-   "qty": 3684,
+   "qty": 3739,
    "ref": 8932.0,
    "secs": 60,
    "tag": "station",
    "target": 8933.0,
    "type_id": 30375,
-   "value": 3062430.858469559
+   "value": 3108034.171823539
   },
   {
-   "cap": 5265000.0,
+   "cap": 74950.0,
    "group": 6,
    "hub": "amarr",
    "kind": "new_buy",
    "n": 21,
-   "qty": 12,
-   "ref": 4675000.0,
+   "qty": 1223,
+   "ref": 65380.0,
    "secs": 60,
    "tag": "station",
-   "target": 4676000.0,
-   "type_id": 60314,
-   "value": 2463732.8031319566
+   "target": 65390.0,
+   "type_id": 96789,
+   "value": 11873736.15755651
   },
   {
-   "cap": 52.38,
+   "cap": 10350000.0,
    "group": 6,
    "hub": "amarr",
    "kind": "new_buy",
    "n": 22,
-   "qty": 1142081,
-   "ref": 44.72,
+   "qty": 8,
+   "ref": 9022000.0,
    "secs": 60,
    "tag": "station",
-   "target": 44.73,
-   "type_id": 36,
-   "value": 3001001.723618743
+   "target": 9023000.0,
+   "type_id": 47902,
+   "value": 4000262.332135014
   }
  ]
 }
