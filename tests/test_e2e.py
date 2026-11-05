@@ -87,6 +87,8 @@ def test_pipeline(tmp_path, monkeypatch):
             return {g: 7 for g in gids}  # 7 = Module
 
     monkeypatch.setattr(run, "ESI", FakeESI)
+    (tmp_path / "state" / "overrides.json").write_text(
+        '{"avoid": [{"type_id": 1001, "reason": "test"}], "exit": [{"type_id": 1002, "reason": "test"}]}')
     monkeypatch.setattr(run.time, "time", lambda: clock["t"])
     for _ in range(12 * 9):  # nine days of 2-hourly runs
         clock["t"] += 7200
@@ -100,6 +102,9 @@ def test_pipeline(tmp_path, monkeypatch):
     assert pf["pnl"]["broker"] > 0, "never placed an order"
     assert pf["import_hub"] == "amarr" and pf["pnl"]["courier"] > 0, "never shipped an import"
     assert any(s.get("to") != s.get("from") for s in sessions), "never jumped"
+    assert not [o for o in pf["orders"] if o["type_id"] in (1001, 1002) and o["side"] == "buy"], "override ignored"
+    assert isinstance(common.load_json(tmp_path / "state" / "alerts.json", None), list)
+    assert "## ⚠ Alerts" in (tmp_path / "state" / "summary.md").read_text()
     v = common.load_json(tmp_path / "state" / "variants" / "no_imports" / "portfolio.json", None)
     assert v and v["pnl"]["courier"] == 0 and v["pnl"]["broker"] > 0, "variant didn't trade independently"
     assert (tmp_path / "INSTRUCTIONS.md").read_text().startswith("> **PRACTICE MODE")

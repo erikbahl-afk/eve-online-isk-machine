@@ -126,3 +126,12 @@
 - `helper/ingame.py`: a local helper with the checklist, "Open in game" buttons (ESI ui/openwindow/marketdetails,
   PKCE login, token stays on the user's PC), tick logging, and a copyable session report. Tested here except
   the EVE login and the real window opening; the user tests it in-game in a few days.
+
+## 2026-11-05 · analysis system (designed with the user)
+- Daily Opus 5.5 session (about 15:40 PT) with a weekday topic: Sat risk, Sun fills, Mon picks, Tue competition,
+  Wed open questions (then time efficiency), Thu experiments, Fri weekly review + memo by 5 PM PT with a push
+  (monthly step-back on the first Friday). Runbook: ANALYSIS.md. Topics are graded weekly and can be reassigned.
+- Built: automatic alerts (config [alerts], shown at the top of the summary; every session must address them),
+  state/overrides.json avoid/exit lists, experiment kinds (1 bold slot reserved, 1 flex), and the first bold
+  experiment `bold_dodixie_imports` (imports only, to Dodixie, no trading inside hubs).
+- Usage: ~30 tool calls on weekdays, ~60 on Fridays. Ask the user before going deeper or if usage trends high.

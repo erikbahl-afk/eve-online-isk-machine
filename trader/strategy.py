@@ -164,6 +164,8 @@ class Planner:
         self.pf = self.sim.pf
         self.home = self.s["hub"]
         self.specs = active_spec(self.spec, self.t)
+        self.exits = getattr(self, "exits", {}) or {}
+        self.avoid = getattr(self, "avoid", set()) or set()
         self.station = {h: add_density(df, self.cfg, self.nw) for h, df in self.station.items()}
         self.imports = add_density(self.imports, self.cfg, self.nw)
 
@@ -197,7 +199,8 @@ class Planner:
             stale = self.lam(hub, o["type_id"], "a") * (t - o["updated"]) / 3600 > 0.7
             if (not np.isnan(ba) and ba <= o["price"]) or stale:
                 sp = self.specs.get((hub, o["type_id"]), {})
-                fl = floor_price(self.fees, self.cfg, o["unit_cost"], o.get("since"), t, sp.get("min_sell", 0.0))
+                fl = 0.01 if o["type_id"] in self.exits else floor_price(
+                    self.fees, self.cfg, o["unit_cost"], o.get("since"), t, sp.get("min_sell", 0.0))
                 tier1.append(self.step("modify_sell", hub, o["remain"] * o["price"], oid=o["oid"],
                                        type_id=o["type_id"], floor=fl, ref=ba, mine=o["price"],
                                        target=max(fl, tick_down(ba)) if not np.isnan(ba) else o["price"]))
@@ -210,6 +213,12 @@ class Planner:
                 continue  # bought for import, waiting for the courier step
             fl = floor_price(self.fees, self.cfg, it["cost"], it.get("since"), t, (sp or {}).get("min_sell", 0.0))
             ba, bb = self.best(hub, ty, "best_ask"), self.best(hub, ty, "best_bid")
+            if ty in self.exits:  # an analysis session decided to get out of this item
+                if self.exits[ty] == "dump" and not np.isnan(bb):
+                    tier1.append(self.step("instant_sell", hub, it["qty"] * it["cost"], type_id=ty, qty=it["qty"],
+                                           min_price=valid_up(bb * 0.98), ref=bb))
+                    continue
+                fl = 0.01
             list_net = tick_down(ba) * (1 - self.fees.tax - self.fees.broker) if not np.isnan(ba) else 0.0
             if not np.isnan(bb) and bb >= fl and bb * (1 - self.fees.tax) >= list_net * self.s["instant_sell_ratio"]:
                 tier1.append(self.step("instant_sell", hub, it["qty"] * it["cost"], type_id=ty, qty=it["qty"],
@@ -228,6 +237,7 @@ class Planner:
             else:
                 cap = buy_cap(self.fees, self.cfg, self.anchored_ask(hub, ty)) if not np.isnan(ba) else 0.0
                 keep = ty in selected or (not np.isnan(ba) and cap >= o["price"] * 0.97)
+                keep = keep and ty not in self.exits and ty not in self.avoid
             if not keep:
                 tier2.append(self.step("cancel", hub, o["remain"] * o["price"], oid=o["oid"], type_id=ty, ref=bb,
                                        mine=o["price"]))

@@ -13,7 +13,7 @@ import pandas as pd
 
 import os
 
-from . import character, corners, logons, market, render, sso
+from . import alerts, character, corners, logons, market, render, sso
 from .common import CACHE, DATA, HUBS, ROOT, STATE, load_config, load_json, save_json
 from .esi import ESI
 from .fees import Fees
@@ -166,7 +166,8 @@ def main():
         vcfg = merge(cfg, {k: val for k, val in v.items() if k not in ("name", "note")})
         r = run_portfolio(vcfg, STATE / "variants" / v["name"], shared)
         variants[v["name"]] = {"nw": r["val"]["nw_book"], "realized": r["pf"]["pnl"]["realized"], "note": v["note"],
-                               "start": r["pf"]["start_isk"]}
+                               "start": r["pf"]["start_isk"], "kind": v.get("kind", "regular"),
+                               "liquid": r["val"]["nw_liquid"]}
     r = run_portfolio(cfg, STATE, shared)
     pf, val, plan = r["pf"], r["val"], r["plan"]
     corner = corners.scan_all(cfg, Fees(cfg), books, stats, tops, val["nw_book"], today)
@@ -178,11 +179,13 @@ def main():
     warm = None
     if hours < cfg["strategy"]["warmup_hours"]:
         warm = f"Warming up: {hours:.0f} of {cfg['strategy']['warmup_hours']} hours of market data collected."
+    alert_list = alerts.compute(cfg, pf, val, plan, health, char, now, names)
+    save_json(STATE / "alerts.json", alert_list)
     (ROOT / "INSTRUCTIONS.md").write_text(render.instructions(cfg, plan, names, val, warm))
     summary = render.summary(cfg, pf, val, health, r["sessions"], names,
                              {h: add_density(df, cfg, val["nw_book"]) for h, df in r["station"].items()},
                              {h: add_density(df, cfg, val["nw_book"]) for h, df in r["imports_by_hub"].items()},
-                             now, stats, plan, variants, corner, char)
+                             now, stats, plan, variants, corner, char, alert_list)
     (STATE / "summary.md").write_text(summary)
     week = dt.date.fromtimestamp(now).isocalendar()
     week = f"{week[0]}-W{week[1]:02d}"
@@ -191,6 +194,15 @@ def main():
     pf["report_week"] = week
     save_json(STATE / "portfolio.json", pf)
     print(summary)
+
+
+def load_overrides(now):
+    """Avoid / exit lists the analysis sessions maintain in state/overrides.json (no code changes needed)."""
+    today = dt.datetime.fromtimestamp(now, dt.timezone.utc).date().isoformat()
+    o = load_json(STATE / "overrides.json", {})
+    live = [e for e in o.get("avoid", []) if e.get("until", "9999") >= today]
+    return ({int(e["type_id"]) for e in live},
+            {int(e["type_id"]): e.get("mode", "fast") for e in o.get("exit", []) if e.get("until", "9999") >= today})
 
 
 def merge(base, over):
@@ -230,6 +242,7 @@ def run_portfolio(cfg, sdir, sh):
     val = sim.valuation(tops)
     spec = load_json(STATE / "spec.json", [])
     spec_types = {int(e["type_id"]) for e in spec if e.get("active", True)}
+    avoid, exits = load_overrides(now)
     types = sh["types"]
     station = {h: candidates(cfg, fees, stats[h], tops[h], sh["start_w"], spec_types) for h in tops}
     pool = {int(i) for df in station.values() for i in df.index[:300]}
@@ -244,8 +257,10 @@ def run_portfolio(cfg, sdir, sh):
     lookup(sh["esi"], types, [], pool)
     # cosmetics (SKINs, clothing) are too thin and unpredictable to stock
     banned = {ty for ty in pool if types.category(ty) in cfg["strategy"]["exclude_categories"]}
-    skip = spec_types | banned
+    skip = spec_types | banned | avoid | set(exits)
     station = {h: candidates(cfg, fees, stats[h], tops[h], sh["start_w"], skip) for h in tops}
+    if not cfg["strategy"].get("station_enabled", True):
+        station = {h: pd.DataFrame() for h in tops}
     imports_by_hub = {h: import_candidates(cfg, fees, tops[hub], stats[h], tops[h], vols, cfg["routes"][h],
                                            sh["start_w"], skip) for h in rough_imports}
     pf["import_hub"] = choose_import_hub(cfg, imports_by_hub, pf.get("import_hub"))
@@ -262,7 +277,7 @@ def run_portfolio(cfg, sdir, sh):
     plan = Planner({"cfg": cfg, "fees": fees, "sim": sim, "t": now, "nw": val["nw_book"], "names": names,
                     "tops": tops, "stats": stats, "books": books, "vols": vols, "start_w": sh["start_w"],
                     "station": station, "imports": imports, "import_hub": pf["import_hub"],
-                    "spec": spec}).plan()
+                    "spec": spec, "exits": exits, "avoid": avoid}).plan()
     pf["last_t"] = now
     save_json(sdir / "portfolio.json", pf)
     save_json(sdir / "plan.json", plan)

@@ -111,6 +111,12 @@ max_m3 = 62_500
 max_collateral = 1_500_000_000
 days = 3.0
 
+[alerts]                     # automatic red flags in the summary (guidelines; tuned by usefulness)
+liquidation_ratio = 0.7      # liquidation value / net worth below this
+position_frac = 0.08         # one item above this share of net worth
+stale_days = 7               # stock or sell orders unsold this long
+buy_stale_days = 5           # buy orders with zero fills this long
+
 [corners]                    # read-only cornerability scanner (no trading)
 min_cost = 20_000_000
 min_roi = 0.15               # paper return if every bought unit resells at the relist price
@@ -119,14 +125,18 @@ max_refill_day = 3           # rival sell-order updates near the top per day
 
 # Strategy experiments: extra paper portfolios run on the same market data and session schedule,
 # each with these settings overridden. Compare them in state/summary.md; promote what wins.
+# Experiment slots (at most 6): 1 reserved for a bold experiment (a whole different approach), 1 flex slot
+# (bold or regular, whichever has better ideas waiting), the rest regular. kind = "regular" | "bold".
 [[variants]]
 name = "no_imports"
+kind = "regular"
 note = "station trading only: measures what imports add"
 [variants.strategy]
 import_hub = "none"
 
 [[variants]]
 name = "loose"
+kind = "regular"
 note = "lower margin bars (4% station, 7% import): more items, thinner edges"
 [variants.strategy]
 min_margin = 0.04
@@ -135,12 +145,14 @@ min_import_margin = 0.07
 # The user may start live with as little as 1B and spend extra time in the first weeks.
 [[variants]]
 name = "start_1b"
+kind = "regular"
 note = "1B starting capital, normal sessions: the likely live start"
 [variants.capital]
 start_isk = 1_000_000_000
 
 [[variants]]
 name = "start_1b_more_time"
+kind = "regular"
 note = "1B start with 60-min sessions and 2-3 weekday logins: is extra early time worth it?"
 [variants.capital]
 start_isk = 1_000_000_000
@@ -149,6 +161,15 @@ session_seconds = 3600
 weekday_logons = [2, 3]
 [variants.strategy]
 plan_seconds = 3300
+
+[[variants]]
+name = "bold_dodixie_imports"
+kind = "bold"
+note = "BOLD: imports only, to Dodixie (cheapest shipping), no trading inside hubs"
+[variants.strategy]
+station_enabled = false
+import_hub = "dodixie"
+import_min_nw = 0
 
 # Skill plan for the trading character, in training order (progress shows in state/summary.md once SSO is connected).
 [training]

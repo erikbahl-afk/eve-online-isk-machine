@@ -159,13 +159,23 @@ def _why(text):
 
 
 def summary(cfg, pf, val, health, sessions, names, station, imports_by_hub, t, stats=None, plan=None,
-            variants=None, corner=None, char=None):
+            variants=None, corner=None, char=None, alert_list=None):
     s0 = pf["start_isk"]
     pnl = pf["pnl"]
     days = max((t - pf["created"]) / 86400, 1e-9)
     out = [f"# Summary · {_local(cfg, t)}", "",
            "Updated every ~2 hours. **Your real character** is the first section; everything after it is the "
            "**practice trader** (pretend ISK, real market data). Each section starts with a line on how to read it.", ""]
+    if alert_list:
+        icon = {"high": "🔴", "medium": "🟠", "info": "🔵"}
+        out += ["## ⚠ Alerts", *_why("Automatic red flags from this run. The daily analysis must deal with each one: "
+                                     "fix it, or explain why it's fine."), ""]
+        for x in alert_list:
+            days = (t - x["since"]) / 86400
+            out.append(f"- {icon[x['severity']]} {x['text']}" + (f" _(open {days:.0f} days)_" if days >= 1 else ""))
+        out.append("")
+    else:
+        out += ["## ⚠ Alerts", "_None right now._", ""]
 
     if char:
         nxt = next((r for r in char["plan"] if r["sp_left"] > 0), None)
@@ -215,10 +225,13 @@ def summary(cfg, pf, val, health, sessions, names, station, imports_by_hub, t, s
         out += ["## 4. Strategy experiments",
                 *_why("Separate pretend portfolios trading the same market with the same logins but different "
                       "settings. Whichever wins for about 2 weeks gets adopted by the main one."),
-                "| Experiment | Net worth | Change | Realized profit | What it tests |", "|---|---|---|---|---|"]
-        for name, v in [("main", {"nw": val["nw_book"], "realized": pnl["realized"],
+                "| Experiment | Kind | Net worth | Change | Liquidation | Realized profit | What it tests |",
+                "|---|---|---|---|---|---|---|"]
+        for name, v in [("main", {"nw": val["nw_book"], "realized": pnl["realized"], "kind": "main",
+                                  "liquid": val["nw_liquid"],
                                   "note": "current settings (drives INSTRUCTIONS.md)"})] + list(variants.items()):
-            out.append(f"| {name} | {isk(v['nw'])} | {(v['nw'] / v.get('start', s0) - 1) * 100:+.2f}% | "
+            out.append(f"| {name} | {v.get('kind', 'regular')} | {isk(v['nw'])} | "
+                       f"{(v['nw'] / v.get('start', s0) - 1) * 100:+.2f}% | {v.get('liquid', 0) / max(v['nw'], 1):.0%} | "
                        f"{isk(v['realized'])} | {v['note']} |")
         out.append("")
 

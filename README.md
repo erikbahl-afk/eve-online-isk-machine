@@ -21,8 +21,10 @@ Until the character is ready, the system trades 5B of pretend ISK against the li
 3. Simulated logins follow your pattern (1–2 weekday logins before or after work, 1–2 on the
    weekend, sometimes cut short). Each one executes the checklist that was current at that time.
 4. A fresh checklist is written after every run.
-5. Twice a week a short Claude session reviews the results, tunes `config.toml` or the code,
-   and logs the reasons in `JOURNAL.md` (see `REVIEW.md`).
+5. Every day a Claude session (Opus 5.5) analyses one topic in depth (Saturday risk, Sunday fill realism,
+   Monday picks, Tuesday competition, Wednesday open questions, Thursday experiments), acts on what it finds,
+   and logs it in `JOURNAL.md`. Friday is the big-picture review, with a memo in `reports/` by 5 PM PT and a
+   push notification. See `ANALYSIS.md`.
 
 Fills are estimated conservatively: we capture only part of the observed volume, and our
 chance of staying top of the book decays at each item's measured rival-update rate.

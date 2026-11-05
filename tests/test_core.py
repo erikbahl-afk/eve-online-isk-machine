@@ -148,3 +148,16 @@ def test_import_exit_check():
 
     assert len(run(0.9e6)) == 1      # a fair buy order at the destination: OK to import
     assert len(run(0.05e6)) == 0     # no real buyers if it doesn't sell (the SKIN case): skip
+
+
+
+def test_alerts():
+    from trader import alerts
+    pf = new_portfolio(CFG, 0)
+    pf["inventory"] = {"amarr": {"7": {"qty": 3, "cost": 200e6, "since": 0, "tag": "import"}}}
+    val = {"nw_book": 5e9, "nw_liquid": 2e9, "cash": 4.4e9}
+    out = alerts.compute(CFG, pf, val, {"est_secs": 2000}, {"jita": {"note": "fetch failed: x"}},
+                         {"queue_empty": True, "unallocated_sp": 0}, 10 * 86400, {7: "Thing"})
+    keys = {a["key"] for a in out}
+    assert {"liquidation", "position:7", "stale_stock:amarr:7", "plan_time", "data:jita", "char_queue"} <= keys
+    assert out[0]["severity"] == "high"
