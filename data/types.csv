@@ -185,6 +185,7 @@ type_id,name,volume
 11448,Electromagnetic Physics,
 11449,Rocket Science,0.01
 11531,,1.0
+11534,,1.0
 11535,Magnetometric Sensor Cluster,1.0
 11536,,1.0
 11538,Nanomechanical Microprocessor,1.0
@@ -417,7 +418,7 @@ type_id,name,volume
 16642,,0.05
 16643,Cadmium,0.05
 16644,Platinum,0.05
-16646,,0.05
+16646,Mercury,0.05
 16647,,0.05
 16648,,0.05
 16650,Dysprosium,0.05
