@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Wed 04 Nov 16:55 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 21 · **Est. time:** 19 min. Work top to bottom; stop any time.  
+**Updated:** Wed 04 Nov 17:50 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 22 · **Est. time:** 20 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -43,7 +43,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 16 | ☐ Mexallon | 16 | **44.22** | 52.38 | 44.21 |
+| 16 | ☐ Mexallon | 13 | **44.23** | 52.38 | 44.22 |
 
 ## 17. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
 _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
@@ -62,9 +62,10 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 19 | ☐ Compressed Fullerite-C32 | 407 | **20,030** | 22,090 | 20,020 |
-| 20 | ☐ Compressed Zeolites | 11 | **1,229** | 1,381 | 1,228 |
-| 21 | ☐ Inherent Implants 'Squire' Power Grid Management EG-604 | 2 | **75,020,000** | 109,800,000 | 75,010,000 |
+| 19 | ☐ Compressed Fullerite-C32 | 406 | **20,110** | 22,090 | 20,100 |
+| 20 | ☐ Compressed Veldspar III-Grade | 1 | **12.14** | 12.48 | 12.13 |
+| 21 | ☐ Compressed Zeolites | 1 | **1,230** | 1,381 | 1,229 |
+| 22 | ☐ Inherent Implants 'Squire' Power Grid Management EG-604 | 2 | **75,020,000** | 109,800,000 | 75,010,000 |
 
 ---
 Wallet 260.10M · escrow 1.60B · stock 3.11B · in transit 0.00 · net worth 4.98B (liquidation 2.54B)

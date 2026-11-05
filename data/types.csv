@@ -201,7 +201,7 @@ type_id,name,volume
 11688,,1.0
 11690,,1.0
 11694,,1.0
-11957,,10000.0
+11957,Falcon,10000.0
 11959,Rook,10000.0
 11963,Rapier,10000.0
 11965,Pilgrim,10000.0
@@ -418,6 +418,8 @@ type_id,name,volume
 16643,Cadmium,0.05
 16644,Platinum,0.05
 16646,,0.05
+16647,,0.05
+16648,,0.05
 16650,Dysprosium,0.05
 16651,,0.05
 16653,Thulium,
@@ -483,7 +485,7 @@ type_id,name,volume
 18637,,5.0
 18658,,5.0
 18660,Gistum C-Type 10MN Afterburner,5.0
-18666,,5.0
+18666,Gistum B-Type 10MN Afterburner,5.0
 18676,Gist X-Type 100MN Afterburner,
 18682,,5.0
 18688,Corelum B-Type 10MN Afterburner,
@@ -648,7 +650,7 @@ type_id,name,volume
 21802,Capital Shield Operation,
 21815,Elite Drone AI,
 21888,Shield Command Mindlink,1.0
-21890,,1.0
+21890,Skirmish Command Mindlink,1.0
 21894,Republic Fleet EMP L,0.025
 21896,,0.0125
 21898,Republic Fleet EMP S,0.0025
@@ -1462,6 +1464,7 @@ type_id,name,volume
 78622,Gravid Vorton Tuning System Mutaplasmid,1.0
 79186,Mysterious GalNet Crate II,
 79744,Barghest Aurora Universalis SKIN,
+79951,Machariel Luminae Polaris SKIN,
 79954,Mamba Luminae Polaris SKIN,
 81008,,20000.0
 81046,Deluge,20000.0
