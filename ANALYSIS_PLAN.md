@@ -34,6 +34,13 @@ results, predicted vs actual margin and sell speed. Acts via the avoid list, tig
 scoring ideas. Push only if a large held position looks like a trap. The user has no favoured or avoided markets;
 no per-unit price cap beyond the 8% guideline.
 
+## Thursday: competition and timing (agreed)
+Rival activity by 6-hour block and weekday, undercut style (1 tick vs jumps), bot detection → avoid list,
+observed vs predicted time on top for our orders, day-of-week demand (when to refresh sells and place buys),
+rising competition as an exit signal, probes (e.g. minimum time-on-top filter). The user's login times are a
+black box until real sessions are observed; then weight rival activity by the logged real times. Never ask the
+user to shift login times.
+
 ## Friday: open questions, then time efficiency (agreed)
 Work through STRATEGY.md's open questions one at a time (investigate, write up, act or close).
 When the list is exhausted, focus on the user's time efficiency.
