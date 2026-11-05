@@ -45,6 +45,14 @@ user to shift login times.
 Work through STRATEGY.md's open questions one at a time (investigate, write up, act or close).
 When the list is exhausted, focus on the user's time efficiency.
 
+## Saturday: experiments (agreed)
+Scoreboard vs main (return %, realized, liquidation ratio, unsold stock, worst position, fees share, trade count),
+fair comparison over the same dates, robustness (drop each portfolio's best and worst item), and an adopt / extend /
+kill decision per experiment (2+ weeks baseline, adjusted from data). Hygiene: written hypothesis and success measure,
+one change each, at most 6 running, of which **2 slots are reserved for bold experiments** (whole different approaches).
+Weekly projection of the 1B start (weeks to 4B, value of extra early time).
+Cost: each experiment adds about 2–5 s to a GitHub run (free while public) and a couple of steps to Saturday's session.
+
 ## Live-phase inputs (agreed)
 The user will report each real session: from/to times and how far down the checklist they got. Keep a log
 and use it to set expectations (session length, sessions per week, usual times of day).
