@@ -53,6 +53,11 @@ import_hub = "auto"          # auto | amarr | dodixie | rens | hek | none. auto 
 jump_cooldown_hours = 19     # assumes Infomorph Synchronizing V (unverified, see CHECKS.md)
 min_import_margin = 0.10     # imports tie capital up in transit, so they need a higher margin
 max_import_types = 12        # per session (time: 40 s each + courier contract)
+import_hubs = []             # several hubs = visit them in rotation (the one seen least recently next)
+exports_enabled = false      # also buy cheap at the import hub and ship it back to Jita
+seeding_enabled = false      # also ship items that sold recently at the import hub but have no sellers now
+seed_capture = 0.5           # seeding: share of the recent sales rate assumed to come back once listed
+min_seed_margin = 0.15
 import_min_nw = 4_000_000_000 # below this, imports wait: one full contract would be most of the bankroll
 max_contracts = 2             # courier contracts per session (3 min each)
 min_contract_fill = 0.6       # ship only if contracts are at least 60% full (by collateral or m3)
@@ -135,15 +140,6 @@ note = "station trading only: measures what imports add"
 import_hub = "none"
 
 [[variants]]
-name = "loose"
-kind = "regular"
-note = "lower margin bars (4% station, 7% import): more items, thinner edges"
-[variants.strategy]
-min_margin = 0.04
-min_import_margin = 0.07
-
-# The user may start live with as little as 1B and spend extra time in the first weeks.
-[[variants]]
 name = "start_1b"
 kind = "regular"
 note = "1B starting capital, normal sessions: the likely live start"
@@ -163,13 +159,25 @@ weekday_logons = [2, 3]
 plan_seconds = 3300
 
 [[variants]]
-name = "bold_dodixie_imports"
-kind = "bold"
-note = "BOLD: imports only, to Dodixie (cheapest shipping), no trading inside hubs"
+name = "exports"
+kind = "regular"
+note = "open question: also ship cheap goods from the import hub back to Jita on the return trip"
 [variants.strategy]
-station_enabled = false
-import_hub = "dodixie"
-import_min_nw = 0
+exports_enabled = true
+
+[[variants]]
+name = "seeding"
+kind = "regular"
+note = "open question: also seed items that sold out at the import hub (demand is an assumption: 50% comes back)"
+[variants.strategy]
+seeding_enabled = true
+
+[[variants]]
+name = "rotation"
+kind = "bold"
+note = "BOLD / open question: two import hubs (Dodixie and Amarr) visited in rotation instead of one"
+[variants.strategy]
+import_hubs = ["dodixie", "amarr"]
 
 # Skill plan for the trading character, in training order (progress shows in state/summary.md once SSO is connected).
 [training]

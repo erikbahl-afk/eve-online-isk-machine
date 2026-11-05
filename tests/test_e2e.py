@@ -66,7 +66,8 @@ def test_pipeline(tmp_path, monkeypatch):
                 monkeypatch.setattr(mod, name, tmp_path / sub if sub else tmp_path)
     monkeypatch.setattr(run, "load_config", lambda: common.load_config(tmp_path / "config.toml"))
 
-    markets = {HUBS["jita"]["region"]: FakeMarket(0), HUBS["amarr"]["region"]: FakeMarket(1, "amarr", 1.35)}
+    markets = {HUBS["jita"]["region"]: FakeMarket(0), HUBS["amarr"]["region"]: FakeMarket(1, "amarr", 1.35),
+               HUBS["dodixie"]["region"]: FakeMarket(2, "dodixie", 1.3)}
     clock = {"t": 1_790_000_000.0}
 
     class FakeESI:
@@ -105,6 +106,8 @@ def test_pipeline(tmp_path, monkeypatch):
     assert not [o for o in pf["orders"] if o["type_id"] in (1001, 1002) and o["side"] == "buy"], "override ignored"
     assert isinstance(common.load_json(tmp_path / "state" / "alerts.json", None), list)
     assert "## ⚠ Alerts" in (tmp_path / "state" / "summary.md").read_text()
+    rot = common.load_json(tmp_path / "state" / "variants" / "rotation" / "portfolio.json", None)
+    assert {"amarr", "dodixie"} <= set(rot.get("visits", {})), "rotation never visited both import hubs"
     v = common.load_json(tmp_path / "state" / "variants" / "no_imports" / "portfolio.json", None)
     assert v and v["pnl"]["courier"] == 0 and v["pnl"]["broker"] > 0, "variant didn't trade independently"
     assert (tmp_path / "INSTRUCTIONS.md").read_text().startswith("> **PRACTICE MODE")

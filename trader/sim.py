@@ -85,11 +85,13 @@ class Sim:
     def inv(self, hub, type_id):
         return self.pf["inventory"].setdefault(hub, {}).get(str(type_id))
 
-    def _inv_add(self, hub, type_id, qty, cost, t, tag, since=None):
+    def _inv_add(self, hub, type_id, qty, cost, t, tag, since=None, dest=None):
         h = self.pf["inventory"].setdefault(hub, {})
         it = h.get(str(type_id))
         if it is None or it["qty"] <= 0:
             h[str(type_id)] = {"qty": qty, "cost": cost, "since": since or t, "tag": tag}
+            if dest:
+                h[str(type_id)]["dest"] = dest  # bought here to ship to dest
         else:
             it["cost"] = (it["qty"] * it["cost"] + qty * cost) / (it["qty"] + qty)
             it["qty"] += qty
@@ -173,10 +175,23 @@ class Sim:
         if o["remain"] <= 0:
             self.pf["orders"].remove(o)
 
+    def seed_fills(self, hub, top, t0, t1):
+        """Seeded items have no real trades to learn from (nobody else sells them here), so they fill at the
+        assumed demand rate, but only while no rival is selling it and our price is at or under the recent price."""
+        rates = self.pf.get("seed_rates", {})
+        for o in [o for o in self.pf["orders"] if o["hub"] == hub and o["side"] == "sell" and o.get("tag") == "seed"]:
+            rate, cap = rates.get(f"{hub}:{o['type_id']}", (0.0, 0.0))
+            rival = top.best_ask.get(o["type_id"], np.nan) if len(top) else np.nan
+            if rate <= 0 or o["price"] > cap or not np.isnan(rival):
+                continue
+            q = min(o["remain"], self._round(rate * (t1 - t0) / 86400))
+            if q > 0:
+                self._fill(o, q, t1)
+
     def arrivals(self, t):
         for c in [c for c in self.pf["in_transit"] if c["arrive"] <= t]:
             for it in c["items"]:
-                self._inv_add(c["to"], it["type_id"], it["qty"], it["cost"], c["arrive"], "import")
+                self._inv_add(c["to"], it["type_id"], it["qty"], it["cost"], c["arrive"], it.get("tag", "import"))
                 self.ledger.append((t, "arrived", c["to"], it["type_id"], it["qty"], it["cost"], 0.0, ""))
             self.pf["in_transit"].remove(c)
 
@@ -210,7 +225,7 @@ class Sim:
         self._fee("broker", self.fees.broker_fee(price, qty), hub, type_id, t, tag, f"bid o{o['oid']}")
         return o
 
-    def instant_buy(self, hub, type_id, qty, max_price, book, t, tag="import"):
+    def instant_buy(self, hub, type_id, qty, max_price, book, t, tag="import", dest=None):
         """Buy from the cheapest sell orders up to max_price (no fees for the buyer)."""
         asks = book[(book.type_id == type_id) & ~book.is_buy & (book.price <= max_price)].sort_values("price")
         take, cost = 0, 0.0
@@ -222,7 +237,7 @@ class Sim:
             cost += k * p
             self.pf["cash"] -= k * p
         if take:
-            self._inv_add(hub, type_id, take, cost / take, t, tag)
+            self._inv_add(hub, type_id, take, cost / take, t, tag, dest=dest)
             self.pf["pnl"]["buys"] += cost
             self._pt(hub, type_id)["bought_units"] += take
             self._pt(hub, type_id)["bought_isk"] += cost
@@ -269,15 +284,15 @@ class Sim:
         items, value, m3 = [], 0.0, 0.0
         for ty in type_ids:
             it = self.inv(src, ty)
-            if not it:
+            if not it or it.get("dest", dst) != dst:
                 continue
             v = vols.get(ty, 0.0)
             room = int(min((r["max_m3"] * n_max - m3) / v if v > 0 else it["qty"],
                            (r["max_collateral"] * n_max - value) / it["cost"]))
-            q, cost, _, _ = self._inv_take(src, ty, min(it["qty"], room))
+            q, cost, _, tag = self._inv_take(src, ty, min(it["qty"], room))
             if q <= 0:
                 continue
-            items.append({"type_id": ty, "qty": q, "cost": cost})
+            items.append({"type_id": ty, "qty": q, "cost": cost, "tag": tag})
             value += q * cost
             m3 += q * v
         if not items:
@@ -288,7 +303,7 @@ class Sim:
             it["cost"] += fee * (it["cost"] / value)  # spread by value
         self.pf["cash"] -= fee
         self.pf["pnl"]["courier"] += fee
-        self._ps("import")["fees"] += fee
+        self._ps(items[0].get("tag", "import"))["fees"] += fee
         arrive = t + r["days"] * 86400 * (1 + 0.5 * self.rng.random())
         c = {"from": src, "to": dst, "sent": t, "arrive": arrive, "fee": fee, "value": value, "m3": m3, "items": items}
         self.pf["in_transit"].append(c)
@@ -300,6 +315,7 @@ class Sim:
         if last is not None and t - last < self.cfg["strategy"]["jump_cooldown_hours"] * 3600:
             return False
         self.pf["location"], self.pf["last_jump"] = to, t
+        self.pf.setdefault("visits", {})[to] = t
         self.ledger.append((t, "jump", to, 0, 0, 0.0, 0.0, ""))
         return True
 
@@ -333,6 +349,7 @@ class Sim:
         c = self.cfg["sim"]
         used, done = c["secs_overhead"], 0
         slots = self.cfg["skills"]["order_slots"]
+        self.pf.setdefault("visits", {})[self.pf["location"]] = t
         for st in plan.get("steps", []):
             if used + st["secs"] > budget:
                 break
@@ -376,7 +393,10 @@ class Sim:
             elif k == "instant_sell" and hub in books:
                 self.instant_sell(hub, ty, st["qty"], st["min_price"], books[hub], t)
             elif k == "instant_buy" and hub in books:
-                self.instant_buy(hub, ty, st["qty"], st["max_price"], books[hub], t)
+                got = self.instant_buy(hub, ty, st["qty"], st["max_price"], books[hub], t, st.get("tag", "import"),
+                                       st.get("dest"))
+                if got and st.get("tag") == "seed":  # remember the demand assumption for this seeded item
+                    self.pf.setdefault("seed_rates", {})[f"{st['dest']}:{ty}"] = [st["seed_rate"], st["seed_cap"]]
             elif k == "courier":
                 self.courier(hub, st["to"], st["type_ids"], vols, t)
         return done, used

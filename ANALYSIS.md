@@ -106,7 +106,11 @@ time-on-top filter). The user's login times are a black box: never suggest chang
 activity by the logged real session times.
 
 ## Open questions, then time efficiency
-Work through STRATEGY.md's open questions **one per week**: investigate properly, write up the result, then act
+Until go-live, work through **two open questions per week** (front-loaded at the user's request), starting with
+standings and the Perimeter player station (its market can be read with the SSO token: `/markets/structures/{id}/`,
+structure found via the character's search). Exports, seeding and two-hub rotation are already running as
+experiments, so judge them from Thursday's data. Manufacturing research waits until after go-live. After go-live:
+one per week. For each question: investigate properly, write up the result, then act
 or close it. Add new questions as they come up. When the list is exhausted, this day turns to the user's
 time efficiency: steps per minute from session reports, which steps earn the most per second, whether the
 click-time estimates (`secs_*`) are right, and the minimum step value (`min_step_value_frac`).

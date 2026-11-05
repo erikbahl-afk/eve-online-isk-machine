@@ -142,3 +142,12 @@
 - Now: a quick ESI status check first. If ESI is down, or nothing could be downloaded, the run is skipped in seconds,
   the previous checklist and summary are kept, and an "esi_down" alert with a banner at the top of the summary is raised.
 - Fixed: the alerts box reused the `days` variable, so the summary showed "in 0.0 days".
+
+## 2026-11-05 · open questions front-loaded
+- The user asked to front-load the open questions before go-live (about late Nov / early Dec). Wednesday now takes two a
+  week until go-live, starting with standings and the Perimeter station. Live-only: fill accuracy, Wholesale, Perimeter fee.
+- New experiments (one change each): `exports` (reverse trip, hub → Jita), `seeding` (sold-out items at the import hub;
+  assumed 50% of the recent sales rate; fills only while no rival sells), and bold `rotation` (Dodixie + Amarr, least
+  recently visited next). Retired `loose` (identical to main) and `bold_dodixie_imports`. Still at most 6.
+- Code: generic shipping bundles (any src → dst, several per session), items remember their destination, couriers
+  carry each item's tag, and portfolios track hub visits.

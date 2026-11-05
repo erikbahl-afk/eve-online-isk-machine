@@ -119,6 +119,54 @@ def import_candidates(cfg, fees, src_top, dst_stats, dst_top, vols, route, start
     return df[ok].sort_values("profit_day", ascending=False)
 
 
+def seed_candidates(cfg, fees, src_top, dst_stats, dst_top, vols, route, start_w, exclude=()):
+    """Seeding: items that sold at the destination recently but have no sellers there now.
+
+    Sold-out items have no rivals to undercut, so we list at the recent trade price. Demand is an
+    assumption: a share (`seed_capture`) of the recent sales rate comes back once the item is on the shelf.
+    The way out if nobody buys: the best buy order at the destination, or Jita's after shipping it back.
+    """
+    s = cfg["strategy"]
+    if len(dst_stats) == 0 or len(src_top) == 0:
+        return pd.DataFrame()
+    df = dst_stats.join(dst_top, how="left").join(src_top.rename(columns={"best_ask": "src_ask",
+                                                                          "best_bid": "src_bid"}), how="inner")
+    df = df[df.best_ask.isna() & df.src_ask.notna() & df.vwap_a.notna() & (df.A > 0)]
+    df = df[~df.index.isin(list(s["exclude_types"]) + list(exclude))]
+    if len(df) == 0:
+        return df
+    T = cfg["sim"]["logon_gap_hours"]
+    df = df.assign(sell=df.vwap_a.map(valid_down))
+    df["vol_m3"] = [vols.get(int(t), np.nan) for t in df.index]
+    v = df.vol_m3.fillna(0.0)
+    fee, C, M = route["contract_fee"], route["max_collateral"], route["max_m3"]
+    df["ship_unit"] = fee * np.maximum(df.src_ask / C, v / M)
+    net = df.sell * (1 - fees.tax - fees.broker)
+    df["unit_margin"] = net - df.src_ask - df.ship_unit
+    df["margin"] = df.unit_margin / df.src_ask
+    m = s["min_seed_margin"]
+    cap = np.minimum(net / (1 + m + fee / C), (net - fee * v / M) / (1 + m))
+    df["max_price"] = cap.map(lambda p: valid_down(p) if p > 0 else 0.0)
+    df["sa"] = 1.0
+    df["q"] = cfg["sim"]["alpha"] * df.A * s["seed_capture"]
+    df["profit_day"] = df.unit_margin * df.q
+    c = cfg["sim"]
+    df["capital"] = df.src_ask * df.q * (T + 24 * route["days"]) / 24 * 1.2
+    df["slots"] = 1
+    df["secs"] = c["secs_instant_buy"] + c["secs_new_sell"]
+    df["tag"] = "seed"
+    exit_px = np.fmax(df.best_bid.fillna(0) * (1 - fees.tax),
+                      df.src_bid.fillna(0) * (1 - fees.tax) - df.ship_unit)
+    ok = (
+        (df.hours >= s["warmup_hours"])
+        & (df.margin >= m)
+        & (df.profit_day >= s["min_daily_profit"])
+        & (df.sell / df.src_ask <= s["max_price_ratio"])
+        & (exit_px >= s["min_exit_frac"] * (df.src_ask + df.ship_unit))
+    )
+    return df[ok].sort_values("profit_day", ascending=False)
+
+
 def add_density(df, cfg, nw):
     """Profit/day per share of the scarcest resource the item uses (shelf-space logic).
 
@@ -167,7 +215,10 @@ class Planner:
         self.exits = getattr(self, "exits", {}) or {}
         self.avoid = getattr(self, "avoid", set()) or set()
         self.station = {h: add_density(df, self.cfg, self.nw) for h, df in self.station.items()}
-        self.imports = add_density(self.imports, self.cfg, self.nw)
+        hubs = getattr(self, "import_hubs", None) or ([self.import_hub] if self.import_hub else [])
+        self.import_hubs = [h for h in hubs if h in self.tops]
+        self.imports = {h: add_density(df, self.cfg, self.nw) for h, df in (self.imports or {}).items()}
+        self.exports = {h: add_density(df, self.cfg, self.nw) for h, df in (getattr(self, "exports", None) or {}).items()}
 
     def best(self, hub, ty, col):
         top = self.tops.get(hub)
@@ -209,8 +260,10 @@ class Planner:
             sp = self.specs.get((hub, ty))
             if sp and not sp["selling"]:
                 continue  # speculation: hold until sell_after
-            if it.get("tag") == "import" and hub != self.import_hub and hub == self.home:
-                continue  # bought for import, waiting for the courier step
+            if it.get("dest") and it["dest"] != hub:
+                continue  # bought here to ship elsewhere: waits for its courier
+            if it.get("tag") == "import" and not it.get("dest") and hub == self.home:
+                continue  # (older stock without a destination) waiting for the courier step
             fl = floor_price(self.fees, self.cfg, it["cost"], it.get("since"), t, (sp or {}).get("min_sell", 0.0))
             ba, bb = self.best(hub, ty, "best_ask"), self.best(hub, ty, "best_bid")
             if ty in self.exits:  # an analysis session decided to get out of this item
@@ -224,9 +277,11 @@ class Planner:
                 tier1.append(self.step("instant_sell", hub, it["qty"] * it["cost"], type_id=ty, qty=it["qty"],
                                        min_price=valid_up(max(fl, bb * 0.98)), ref=bb))
                 continue
+            seed = self.pf.get("seed_rates", {}).get(f"{hub}:{ty}")
+            fallback = valid_up(max(fl, seed[1])) if seed else round(fl * 1.3, 2)  # seeded: recent trade price
             tier1.append(self.step("new_sell", hub, it["qty"] * it["cost"], type_id=ty, qty=it["qty"], floor=fl,
-                                   ref=ba, target=max(fl, tick_down(ba)) if not np.isnan(ba) else round(fl * 1.3, 2),
-                                   fallback=round(fl * 1.3, 2)))
+                                   ref=ba, target=max(fl, tick_down(ba)) if not np.isnan(ba) else fallback,
+                                   fallback=fallback))
         selected = set(self.station.get(hub, pd.DataFrame()).index[:200])
         for o in [o for o in self.pf["orders"] if o["hub"] == hub and o["side"] == "buy"]:
             ty = o["type_id"]
@@ -263,24 +318,27 @@ class Planner:
         n += sum(i["qty"] for c in self.pf["in_transit"] if c["to"] == hub for i in c["items"] if i["type_id"] == ty)
         return n
 
-    # ---- imports (at the home hub) ---------------------------------------------
-    def import_bundle(self):
-        hub, dst = self.home, self.import_hub
-        if not dst or dst not in self.tops or hub not in self.books:
+    # ---- shipments: imports (home -> hub), exports (hub -> home), seeding rides with imports ---------
+    def ship_bundle(self, src, dst, cands, tag):
+        """Market buys at src plus the courier contract(s) to dst, or None if not worth a contract."""
+        far = dst if dst != self.home else src
+        if src not in self.books or dst not in self.tops or far not in self.cfg["routes"]:
             return None
         if self.nw < self.s["import_min_nw"]:
             return None  # a worthwhile shipment would tie up too much of a small bankroll
-        route, book = self.cfg["routes"][dst], self.books[hub]
+        route, book = self.cfg["routes"][far], self.books[src]
         T = self.c["logon_gap_hours"] + route["days"] * 24
         steps, value, m3, profit = [], 0.0, 0.0, 0.0
         limit = self.s["max_type_frac"] * self.nw
         max_val, max_m3 = route["max_collateral"] * self.s["max_contracts"], route["max_m3"] * self.s["max_contracts"]
-        waiting = [int(k) for k, it in self.pf["inventory"].get(hub, {}).items() if it.get("tag") == "import"]
-        for ty, r in self.imports.iterrows():
+        inv = self.pf["inventory"].get(src, {})
+        waiting = [int(k) for k, it in inv.items() if it.get("dest") == dst
+                   or (tag == "import" and src == self.home and it.get("tag") == "import" and not it.get("dest"))]
+        for ty, r in (cands.iterrows() if cands is not None and len(cands) else []):
             if len(steps) >= self.s["max_import_types"]:
                 break
             ty = int(ty)
-            want = math.ceil(r.q * T / 24 * 1.2) - self.held_at(dst, ty) - self.held_at(hub, ty)
+            want = math.ceil(r.q * T / 24 * 1.2) - self.held_at(dst, ty) - self.held_at(src, ty)
             want = min(want, int((limit - self.exposure(ty)) / r.src_ask))
             vol = r.vol_m3 if not np.isnan(r.vol_m3) else 0.0
             if vol > 0:
@@ -291,24 +349,27 @@ class Planner:
             got, avg = walk_asks(book, ty, want, r.max_price)
             if got < 1:
                 continue
-            steps.append(self.step("instant_buy", hub, r.profit_day, type_id=ty, qty=got, max_price=r.max_price,
-                                   ref=float(r.src_ask), est_cost=avg * got))
+            row_tag = r.get("tag", tag) if hasattr(r, "get") else tag
+            extra = {"seed_rate": float(r.q), "seed_cap": float(r.sell)} if row_tag == "seed" else {}
+            steps.append(self.step("instant_buy", src, r.profit_day, type_id=ty, qty=got, max_price=r.max_price,
+                                   ref=float(r.src_ask), est_cost=avg * got, tag=row_tag, dest=dst, **extra))
             value += avg * got
             m3 += vol * got
             profit += r.profit_day
-        waiting_val = sum(self.pf["inventory"][hub][str(t)]["qty"] * self.pf["inventory"][hub][str(t)]["cost"]
-                          for t in waiting)
+        waiting_val = sum(inv[str(t)]["qty"] * inv[str(t)]["cost"] for t in waiting)
+        if not steps and not waiting:
+            return None
         n = contracts(route, value + waiting_val, m3)
         fill = max((value + waiting_val) / (n * route["max_collateral"]), m3 / (n * route["max_m3"]))
         if fill < self.s["min_contract_fill"] and not waiting:
             return None  # too little to fill a contract; the fee would eat the margin
         tys = [s["type_id"] for s in steps] + [t for t in waiting if t not in {s["type_id"] for s in steps}]
-        steps.append(self.step("courier", hub, 0.0, to=dst, type_ids=tys, est_value=value + waiting_val,
+        steps.append(self.step("courier", src, 0.0, to=dst, type_ids=tys, est_value=value + waiting_val,
                                est_m3=m3, contracts=n, est_fee=n * route["contract_fee"],
                                service=route.get("service", "the courier service")))
         steps[-1]["secs"] *= n
         for st in steps:
-            st["bundle"] = True  # market buys and their courier contract stay in one block
+            st["bundle"] = f"{src}->{dst}"  # market buys and their courier contract stay in one block
         return {"steps": steps, "value": profit, "cash": value + n * route["contract_fee"]}
 
     # ---- new buy orders --------------------------------------------------------
@@ -373,10 +434,9 @@ class Planner:
 
     def assign_blocks(self, steps):
         """Block 1 = must do, 2 = should do, 3 = if time; by benefit per second of your time."""
-        units, bundle = [], [s for s in steps if s.get("bundle")]
-        units += [[s] for s in steps if not s.get("bundle")]
-        if bundle:
-            units.append(bundle)
+        units = [[s] for s in steps if not s.get("bundle")]
+        for key in dict.fromkeys(s["bundle"] for s in steps if s.get("bundle")):
+            units.append([s for s in steps if s.get("bundle") == key])
         units.sort(key=lambda u: -sum(s["benefit"] for s in u) / max(sum(s["secs"] for s in u), 1))
         total = sum(s["secs"] for s in steps) or 1
         done = 0
@@ -391,8 +451,11 @@ class Planner:
     # ---- assemble ---------------------------------------------------------------
     def plan(self):
         L = self.pf["location"]
-        hubs = [self.home] + ([self.import_hub] if self.import_hub else [])
-        O = next((h for h in hubs if h != L), None) if L in hubs else self.home
+        if L == self.home:  # with several import hubs, visit the one seen least recently
+            visits = self.pf.get("visits", {})
+            O = min(self.import_hubs, key=lambda h: visits.get(h, 0)) if self.import_hubs else None
+        else:
+            O = self.home
         budget = self.s["plan_seconds"] - self.c["secs_overhead"]
         used, jumped = 0, False
         chosen = []
@@ -430,14 +493,22 @@ class Planner:
         slots = self.cfg["skills"]["order_slots"] - 4
         n_orders = len(self.pf["orders"]) + sum(s["kind"] == "new_sell" for s in chosen) \
             - sum(s["kind"] == "cancel" for s in chosen)
-        bundle = self.import_bundle()
-        if bundle and bundle["cash"] <= cash and fits(bundle["steps"]):
-            cash -= bundle["cash"]
-            n_orders += sum(s["kind"] == "instant_buy" for s in bundle["steps"])  # their sell orders later
+        bundles = []
+        if self.home in (L, O):
+            bundles += [self.ship_bundle(self.home, h, self.imports.get(h), "import") for h in self.import_hubs]
+        for h in (L, O):
+            if h and h != self.home and h in self.exports:
+                bundles.append(self.ship_bundle(h, self.home, self.exports.get(h), "export"))
+        shipped = []
+        for b in sorted([b for b in bundles if b], key=lambda b: -b["value"]):
+            if b["cash"] <= cash and fits(b["steps"]):
+                cash -= b["cash"]
+                n_orders += sum(s["kind"] == "instant_buy" for s in b["steps"])  # their sell orders later
+                shipped += b["steps"]
 
         # keep strategies on separate items so stock and results don't mix
-        avoid = {ty for (_, ty) in self.specs}
-        avoid |= {s["type_id"] for s in (bundle or {}).get("steps", []) if s["kind"] == "instant_buy"}
+        avoid = {ty for (_, ty) in self.specs} | set(self.avoid)
+        avoid |= {s["type_id"] for s in shipped if s["kind"] == "instant_buy"}
         avoid |= {o["type_id"] for o in self.pf["orders"] if o.get("tag") == "import"}
         avoid |= {i["type_id"] for c in self.pf["in_transit"] for i in c["items"]}
         avoid |= {int(k) for h in self.pf["inventory"].values() for k, it in h.items() if it.get("tag") == "import"}

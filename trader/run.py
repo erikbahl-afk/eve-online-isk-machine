@@ -18,7 +18,7 @@ from .common import CACHE, DATA, HUBS, ROOT, STATE, load_config, load_json, save
 from .esi import ESI
 from .fees import Fees
 from .sim import Sim, new_portfolio
-from .strategy import Planner, add_density, candidates, choose_import_hub, import_candidates
+from .strategy import Planner, add_density, candidates, choose_import_hub, import_candidates, seed_candidates
 
 LEDGER_COLS = ["t", "event", "hub", "type_id", "qty", "price", "cash_delta", "note"]
 
@@ -259,6 +259,7 @@ def run_portfolio(cfg, sdir, sh):
     sim.arrivals(now)
     for h, (t0, t1) in sh["intervals"].items():
         sim.apply_fills(h, sh["prints"][h], stats[h], t0, t1)
+        sim.seed_fills(h, tops[h], t0, t1)
 
     hub = cfg["strategy"]["hub"]
     sched = logons.ensure(cfg, load_json(sdir / "logons.json", []), now)
@@ -300,7 +301,21 @@ def run_portfolio(cfg, sdir, sh):
     imports_by_hub = {h: import_candidates(cfg, fees, tops[hub], stats[h], tops[h], vols, cfg["routes"][h],
                                            sh["start_w"], skip) for h in rough_imports}
     pf["import_hub"] = choose_import_hub(cfg, imports_by_hub, pf.get("import_hub"))
-    imports = imports_by_hub.get(pf["import_hub"], pd.DataFrame())
+    st = cfg["strategy"]
+    import_hubs = [h for h in (st.get("import_hubs") or ([pf["import_hub"]] if pf["import_hub"] else []))
+                   if h in imports_by_hub]
+    imports = {h: imports_by_hub[h] for h in import_hubs}
+    exports = {}
+    for h in import_hubs:
+        if st.get("seeding_enabled"):
+            seeds = seed_candidates(cfg, fees, tops[hub], stats[h], tops[h], vols, cfg["routes"][h], sh["start_w"], skip)
+            imports[h] = pd.concat([imports[h].assign(tag="import"), seeds]).sort_values("profit_day", ascending=False)
+        if st.get("exports_enabled"):
+            rough = import_candidates(cfg, fees, tops[h], stats[hub], tops[hub], vols, cfg["routes"][h],
+                                      sh["start_w"], skip)
+            lookup(sh["esi"], types, [], rough.index[:150])
+            exports[h] = import_candidates(cfg, fees, tops[h], stats[hub], tops[hub], vols, cfg["routes"][h],
+                                           sh["start_w"], skip)
 
     need = {int(k.split(":")[1]) for k in pf["per_type"]} | spec_types
     need |= {int(o["type_id"]) for o in pf["orders"]}
@@ -313,6 +328,7 @@ def run_portfolio(cfg, sdir, sh):
     plan = Planner({"cfg": cfg, "fees": fees, "sim": sim, "t": now, "nw": val["nw_book"], "names": names,
                     "tops": tops, "stats": stats, "books": books, "vols": vols, "start_w": sh["start_w"],
                     "station": station, "imports": imports, "import_hub": pf["import_hub"],
+                    "import_hubs": import_hubs, "exports": exports,
                     "spec": spec, "exits": exits, "avoid": avoid}).plan()
     pf["last_t"] = now
     save_json(sdir / "portfolio.json", pf)

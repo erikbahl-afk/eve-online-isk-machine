@@ -67,9 +67,9 @@ last two session gaps, since shelves only get restocked at logins.
 
 ## Experiments run in parallel
 `[[variants]]` in config.toml are extra paper portfolios that trade the same market data with the
-same sessions but different settings: currently `no_imports` (what imports add) and `loose`
-(lower margin bars). Promote a variant's settings when it beats main for about 2 weeks; then
-replace it with a new experiment.
+same sessions but different settings (at most 6: 1 bold slot, 1 flex, the rest regular). Current:
+`no_imports`, `start_1b`, `start_1b_more_time`, `exports`, `seeding`, `rotation` (bold). Retired
+2026-11-05: `loose` (no difference from main) and `bold_dodixie_imports` (replaced by `rotation`).
 
 ## Bootstrap phase (live start may be ~1B, with longer sessions at first)
 - The session times in Constraints are a floor. Early on the user may log in more and for longer.
@@ -103,14 +103,15 @@ replace it with a new experiment.
    second trading character (a third hub, more slots). Revisit at about 15B net worth.
 6. **Calibration**: when live, compare real fills against what the simulation predicted and
    adjust `alpha` and `gone_weight`.
-7. **Exports** (next experiment): the reverse trip. Buy cheap at the import hub (loot and mission
+7. **Exports**: experiment `exports` running since 2026-11-05. The reverse trip. Buy cheap at the import hub (loot and mission
    drops get dumped there) and courier it to Jita on the same trip. That uses the session we're
    already in and the second clone.
-8. **Seeding**: items with steady demand at the import hub but no sellers there. The current import
+8. **Seeding**: experiment `seeding` running since 2026-11-05 (demand assumed: 50% of the recent sales rate).
+   Items with steady demand at the import hub but no sellers there. The current import
    scoring needs an existing sell side, so it misses these; estimate demand from ESI history.
 9. **Structure orders** (needs SSO): buy orders placed in the Perimeter Keepstar with a 1-jump range
    fill from Jita sellers at the structure's lower broker fee.
-10. **Two import hubs in rotation** (needs Infomorph Psychology II, 1,415 SP): the cooldown allows one
+10. **Two import hubs in rotation**: bold experiment `rotation` running since 2026-11-05 (Dodixie and Amarr). (needs Infomorph Psychology II, 1,415 SP): the cooldown allows one
     jump per session, so each import hub would be visited every other session. That could suit thin, slow
     hubs (Rens, Hek). Infomorph Synchronizing III is enough: over 200 simulated weeks only 1.5% of
     session gaps fall in the 19–21 h window that level V would unlock, and 15% are under 19 h anyway.

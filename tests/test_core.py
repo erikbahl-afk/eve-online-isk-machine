@@ -174,3 +174,37 @@ def test_skip_run_keeps_summary(tmp_path, monkeypatch):
     assert "old content" in text and text.count("Skipped run") == 1
     al = __import__("json").loads((tmp_path / "alerts.json").read_text())
     assert al[0]["key"] == "esi_down" and al[0]["since"] == 1_800_000_000
+
+
+
+def test_seed_candidates_and_fills():
+    from trader.strategy import seed_candidates
+    stats = pd.DataFrame({"A": [10.0], "vwap_a": [3e6], "hours": [100.0]}, index=[7])
+    src = pd.DataFrame({"best_ask": [1.5e6], "best_bid": [1.4e6]}, index=[7])
+    dst = pd.DataFrame({"best_ask": [np.nan], "best_bid": [np.nan]}, index=[7])  # sold out at the destination
+    w = np.ones(24) / 24
+    cand = seed_candidates(CFG, Fees(CFG), src, stats, dst, {7: 1.0}, CFG["routes"]["dodixie"], w)
+    assert len(cand) == 1 and cand.iloc[0].tag == "seed" and cand.iloc[0].sell <= 3e6
+    pf = new_portfolio(CFG, 0)
+    sim = Sim(CFG, pf, Fees(CFG), np.random.default_rng(1), [])
+    sim._inv_add("dodixie", 7, 10, 1.6e6, 0, "seed")
+    o = sim.place_sell("dodixie", 7, 10, 2.9e6, 0)
+    pf["seed_rates"] = {"dodixie:7": [2.0, 3e6]}
+    sim.seed_fills("dodixie", dst, 0, 2 * 86400)  # no rival seller: fills at the assumed rate (2/day)
+    assert o["remain"] == 6
+    rival = pd.DataFrame({"best_ask": [2.5e6], "best_bid": [np.nan]}, index=[7])
+    sim.seed_fills("dodixie", rival, 0, 2 * 86400)  # someone else now sells it: no assumed fills
+    assert o["remain"] == 6
+
+
+def test_courier_respects_destination():
+    pf = new_portfolio(CFG, 0)
+    sim = Sim(CFG, pf, Fees(CFG), np.random.default_rng(1), [])
+    book = pd.DataFrame({"type_id": [7, 8], "is_buy": [False, False], "price": [1e6, 2e6], "vol": [5, 5]})
+    sim.instant_buy("jita", 7, 5, 1e6, book, 0, "import", dest="amarr")
+    sim.instant_buy("jita", 8, 5, 2e6, book, 0, "seed", dest="dodixie")
+    c = sim.courier("jita", "amarr", [7, 8], {7: 1.0, 8: 1.0}, 0)
+    assert [i["type_id"] for i in c["items"]] == [7] and pf["inventory"]["jita"]["8"]["qty"] == 5
+    c2 = sim.courier("jita", "dodixie", [8], {8: 1.0}, 0)
+    sim.arrivals(c2["arrive"] + 1)
+    assert pf["inventory"]["dodixie"]["8"]["tag"] == "seed"
