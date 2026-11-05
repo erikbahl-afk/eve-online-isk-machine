@@ -135,6 +135,7 @@ type_id,name,volume
 4347,Pithum A-Type Multispectrum Shield Hardener,
 4348,Pithum B-Type Multispectrum Shield Hardener,5.0
 4349,Pithum C-Type Multispectrum Shield Hardener,5.0
+5051,Heavy F-RX Compact Capacitor Booster,
 5973,5MN Y-T8 Compact Microwarpdrive,
 6719,,5.0
 7447,425mm Prototype Gauss Gun,20.0
@@ -194,6 +195,7 @@ type_id,name,volume
 11535,Magnetometric Sensor Cluster,1.0
 11536,,1.0
 11538,Nanomechanical Microprocessor,1.0
+11539,Nanoelectrical Microprocessor,1.0
 11540,,1.0
 11541,Photon Microprocessor,1.0
 11543,,1.0
@@ -311,6 +313,7 @@ type_id,name,volume
 13969,Dread Guristas Multispectrum Shield Hardener,5.0
 13974,True Sansha Explosive Armor Hardener,
 13976,Dark Blood Explosive Armor Hardener,
+13978,True Sansha Kinetic Armor Hardener,
 13982,True Sansha Thermal Armor Hardener,
 13984,Dark Blood Thermal Armor Hardener,
 14001,True Sansha Multispectrum Coating,
@@ -416,7 +419,7 @@ type_id,name,volume
 16248,Zainou 'Gnome' Shield Operation SP-905,1.0
 16272,Heavy Water,0.4
 16273,,0.4
-16275,,3.0
+16275,Strontium Clathrates,3.0
 16278,,5.0
 16457,Crosslink Compact Ballistic Control System,5.0
 16535,Copasetic Compact Shield Boost Amplifier,
@@ -425,7 +428,7 @@ type_id,name,volume
 16636,Silicates,
 16637,Tungsten,0.05
 16641,Chromium,0.05
-16642,,0.05
+16642,Vanadium,0.05
 16643,Cadmium,0.05
 16644,Platinum,0.05
 16646,Mercury,0.05
@@ -487,7 +490,7 @@ type_id,name,volume
 17922,,10000.0
 17924,Succubus,2500.0
 17928,,2500.0
-17930,,2500.0
+17930,Worm,2500.0
 17932,Dramiel,2500.0
 18054,Mercoxit Asteroid Mining Crystal Type A I,6.0
 18068,,5.0
@@ -639,7 +642,7 @@ type_id,name,volume
 20509,High-grade Amulet Omega,
 20567,'Dyad' Co-Processor I,5.0
 20595,'Gallows' Light Missile Launcher,5.0
-20599,,10.0
+20599,'Undertaker' Heavy Missile Launcher,10.0
 20623,,50.0
 20629,,10.0
 20855,True Sanshas Standard S,
@@ -666,7 +669,7 @@ type_id,name,volume
 21894,Republic Fleet EMP L,0.025
 21896,,0.0125
 21898,Republic Fleet EMP S,0.0025
-21918,Republic Fleet Phased Plasma L,
+21918,Republic Fleet Phased Plasma L,0.025
 21922,,0.0125
 22109,Mid-grade Crystal Delta,1.0
 22110,Mid-grade Crystal Epsilon,1.0
@@ -716,6 +719,7 @@ type_id,name,volume
 23073,,1.0
 23105,,1.0
 23107,,1.0
+23119,Imperial Navy Radio L,1.0
 23128,,0.1
 23134,Takmahl Dynamic Gauge,
 23785,'Bailey' 1600mm Steel Plates,20.0
@@ -764,6 +768,7 @@ type_id,name,volume
 25888,,20.0
 25890,Large Kinetic Armor Reinforcer I,20.0
 25892,Large Thermal Armor Reinforcer I,20.0
+25894,Large Trimark Armor Pump I,
 25896,,20.0
 25956,,20.0
 26020,Large Warhead Rigor Catalyst I,20.0
@@ -1092,6 +1097,7 @@ type_id,name,volume
 34481,Domination Inertial Stabilizers,5.0
 34496,,500.0
 34562,Svipul,5000.0
+34575,Antikythera Element,
 34590,Victorieux Luxury Yacht,
 34593,Entosis Link I,20.0
 34631,Rokh Wiyrkomi SKIN,
@@ -1145,6 +1151,7 @@ type_id,name,volume
 40690,,5.0
 40730,Heavy Warp Disruptor I,
 40734,,100.0
+41038,,5.0
 41057,Heavy Stasis Grappler II,50.0
 41058,,50.0
 41059,Domination Heavy Stasis Grappler,50.0
@@ -1165,7 +1172,7 @@ type_id,name,volume
 41276,Inferno Javelin XL Torpedo,
 41308,Restrained Compounds,
 41312,Scoped Conductors,
-41314,,0.125
+41314,Hail XL,0.125
 41322,Void XL,0.125
 41403,Capital Autocannon Specialization,
 41405,Capital Blaster Specialization,
@@ -1534,6 +1541,7 @@ type_id,name,volume
 86264,Breacher Pod Rapid Firing,0.01
 87324,Navy Scan Pinpointing Array,
 87504,Paladin Imperial Police SKIN,0.01
+87562,ORE Deep Core Strip Miner,5.0
 88001,Babaroga,
 88133,Historic Capsuleer Day SKIN Crate,0.0
 88147,Triplot Scan Acquisition Array,5.0

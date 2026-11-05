@@ -1,1 +1,14 @@
-[]
+[
+ {
+  "done": 33,
+  "frac": 1.0,
+  "from": "jita",
+  "local": "Thu 05 Nov 07:09",
+  "merged": 1,
+  "planned": 33,
+  "run_t": 1793894429.201751,
+  "secs": 2160,
+  "t": 1793891340.0,
+  "to": "amarr"
+ }
+]
