@@ -123,69 +123,101 @@ def instructions(cfg, plan, names, val, warm_msg=None):
     return "\n".join(out)
 
 
+def _why(text):
+    """One-line explanation under a heading."""
+    return [f"_{text}_", ""]
+
+
 def summary(cfg, pf, val, health, sessions, names, station, imports_by_hub, t, stats=None, plan=None,
             variants=None, corner=None, char=None):
     s0 = pf["start_isk"]
     pnl = pf["pnl"]
     days = max((t - pf["created"]) / 86400, 1e-9)
-    out = [f"# Summary · {_local(cfg, t)}", "", "Auto-generated every run. Reviewers: start here.", "",
-           "## Portfolio",
-           f"- Net worth (book): **{isk(val['nw_book'])}** ({(val['nw_book'] / s0 - 1) * 100:+.2f}% "
-           f"over {days:.1f} days) · liquidation value {isk(val['nw_liquid'])}",
-           f"- Cash {isk(val['cash'])} · escrow {isk(val['escrow'])} · stock {isk(val['stock_cost'])} · "
-           f"in transit {isk(val['transit'])} · orders {len(pf['orders'])}/{cfg['skills']['order_slots']}",
-           f"- Realized P&L {isk(pnl['realized'])} · sales {isk(pnl['sales'])} · buys {isk(pnl['buys'])} · "
-           f"fees: broker {isk(pnl['broker'])}, relist {isk(pnl['relist'])}, tax {isk(pnl['tax'])}, "
-           f"courier {isk(pnl['courier'])}",
-           f"- Character at **{pf['location']}** · import hub: **{pf.get('import_hub') or 'none yet'}** · "
-           f"shipments in transit: {len(pf['in_transit'])}",
-           f"- Shelf space in use: slots {len(pf['orders'])}/{cfg['skills']['order_slots']} · "
-           f"ISK deployed {(1 - val['cash'] / max(val['nw_book'], 1)) * 100:.0f}% · last plan "
-           f"{(plan or {}).get('est_secs', 0) / 60:.0f}/{cfg['strategy']['plan_seconds'] / 60:.0f} min "
-           "(whichever is near 100% is what limits profit)", ""]
-    out += ["## By strategy", "| Strategy | Buys | Sales | Fees | Realized |", "|---|---|---|---|---|"]
-    for tag, v in sorted(pf["per_strategy"].items()):
-        out.append(f"| {tag} | {isk(v['buys'])} | {isk(v['sales'])} | {isk(v['fees'])} | {isk(v['realized'])} |")
+    out = [f"# Summary · {_local(cfg, t)}", "",
+           "Updated every ~2 hours. **Your real character** is the first section; everything after it is the "
+           "**practice trader** (pretend ISK, real market data). Each section starts with a line on how to read it.", ""]
+
     if char:
         nxt = next((r for r in char["plan"] if r["sp_left"] > 0), None)
         a = char["attributes"]
-        qtxt = ("**EMPTY: nothing is training**" if char["queue_empty"]
+        qtxt = ("**EMPTY: nothing is training!**" if char["queue_empty"]
                 else ", ".join(f"{e['skill']} {e['level']}" for e in char["queue"][:4]))
-        out += ["## Trading character (read over SSO)",
-                f"- Plan progress **{char['plan_done_pct']}%** ({char['plan_sp_left']:,} of {char['plan_sp_total']:,} SP "
-                f"left) · about **{char['eta_days']} days** of training at current attributes · total SP "
-                f"{char['total_sp']:,} · unallocated {char['unallocated_sp']:,}",
-                f"- Attributes: Cha {a['charisma']} / Mem {a['memory']} / Wil {a['willpower']} · free remaps: "
-                f"{char['bonus_remaps']} · jump clones: {char['jump_clones']}",
-                f"- Queue: {qtxt}"
-                + (f" · next plan skill: {nxt['skill']} → {nxt['target']}" if nxt else " · plan complete"),
-                f"- Skill books still to buy and inject: {', '.join(char.get('books_needed', [])) or 'none'} "
-                "(AIR skill points can only go into injected skills)",
-                f"- Broker fee in Jita 4-4 right now: {char['broker_fee_jita_now']}% (Caldari State "
-                f"{char['standing_caldari_state']:+.2f}, Caldari Navy {char['standing_caldari_navy']:+.2f})", ""]
+        books = ", ".join(char.get("books_needed", [])) or "none, all injected"
+        out += ["## 1. Your trading character",
+                *_why("Read from the game over SSO. Shows how far the skill plan is and what needs your attention."),
+                f"- **Skill plan:** {char['plan_done_pct']}% done · {char['plan_sp_left']:,} SP to go · "
+                f"about **{char['eta_days']} days** of training left",
+                f"- **Training now:** {qtxt}" + (f" · next plan skill: {nxt['skill']} → {nxt['target']}" if nxt else ""),
+                f"- **Unallocated SP:** {char['unallocated_sp']:,}"
+                + (" ← apply these (Retail, Broker Relations or Trade first)" if char["unallocated_sp"] else ""),
+                f"- **Skill books still to buy and inject:** {books}",
+                f"- Attributes Cha {a['charisma']} / Mem {a['memory']} / Wil {a['willpower']} · free remaps "
+                f"{char['bonus_remaps']} · jump clones {char['jump_clones']} · total SP {char['total_sp']:,}",
+                f"- Broker fee in Jita 4-4 with today's skills: {char['broker_fee_jita_now']}% (goal 1.5%)", ""]
+
+    out += ["## 2. Practice portfolio",
+            *_why(f"The paper trader started with {isk(s0)} on {_local(cfg, pf['created'], '%d %b')}. "
+                  "Net worth counts stock at what we paid; liquidation is the worst case if we dumped "
+                  "everything into buy orders right now."),
+            f"- **Net worth:** {isk(val['nw_book'])} ({(val['nw_book'] / s0 - 1) * 100:+.2f}% in {days:.1f} days) · "
+            f"liquidation {isk(val['nw_liquid'])}",
+            f"- **Where the ISK is:** cash {isk(val['cash'])} · locked in buy orders {isk(val['escrow'])} · "
+            f"stock {isk(val['stock_cost'])} · on a courier {isk(val['transit'])}",
+            f"- **Profit so far (realized):** {isk(pnl['realized'])}. That's completed sales minus every fee paid. "
+            f"Fees: broker {isk(pnl['broker'])}, relist {isk(pnl['relist'])}, sales tax {isk(pnl['tax'])}, "
+            f"courier {isk(pnl['courier'])}",
+            f"- **Location:** {pf['location']} · import hub {pf.get('import_hub') or 'not chosen yet'} · "
+            f"shipments on the way {len(pf['in_transit'])}",
+            f"- **What's limiting profit** (near 100% = the bottleneck): order slots "
+            f"{len(pf['orders'])}/{cfg['skills']['order_slots']} · ISK in use "
+            f"{(1 - val['cash'] / max(val['nw_book'], 1)) * 100:.0f}% · your time last plan "
+            f"{(plan or {}).get('est_secs', 0) / 60:.0f} of {cfg['strategy']['plan_seconds'] / 60:.0f} min", ""]
+
+    out += ["## 3. Results by strategy",
+            *_why("station = buy and sell in the same hub · import = buy in Jita, ship, sell elsewhere · "
+                  "spec = bets ahead of patches. Realized stays at 0 until items actually sell."),
+            "| Strategy | Spent buying | Sold for | Fees | Realized profit |", "|---|---|---|---|---|"]
+    for tag, v in sorted(pf["per_strategy"].items()):
+        out.append(f"| {tag} | {isk(v['buys'])} | {isk(v['sales'])} | {isk(v['fees'])} | {isk(v['realized'])} |")
+    out.append("")
+
     if variants:
-        out += ["", "## Strategy experiments (same market, same sessions, different settings)",
-                "| Variant | Net worth | Change | Realized | What it tests |", "|---|---|---|---|---|"]
+        out += ["## 4. Strategy experiments",
+                *_why("Separate pretend portfolios trading the same market with the same logins but different "
+                      "settings. Whichever wins for about 2 weeks gets adopted by the main one."),
+                "| Experiment | Net worth | Change | Realized profit | What it tests |", "|---|---|---|---|---|"]
         for name, v in [("main", {"nw": val["nw_book"], "realized": pnl["realized"],
                                   "note": "current settings (drives INSTRUCTIONS.md)"})] + list(variants.items()):
-            out.append(f"| {name} | {isk(v['nw'])} | {(v['nw'] / v.get('start', s0) - 1) * 100:+.2f}% | {isk(v['realized'])} | "
-                       f"{v['note']} |")
-    out += ["", "## Recent sessions", "| When (PT) | Route | Steps done/planned | Minutes | Partial |",
-            "|---|---|---|---|---|"]
+            out.append(f"| {name} | {isk(v['nw'])} | {(v['nw'] / v.get('start', s0) - 1) * 100:+.2f}% | "
+                       f"{isk(v['realized'])} | {v['note']} |")
+        out.append("")
+
+    out += ["## 5. Recent simulated logins",
+            *_why("When the practice 'you' logged in, which hubs it visited, and how much of the checklist "
+                  "it got through. Partial = the session was cut short on purpose, to test that."),
+            "| When (PT) | Hubs | Steps done / planned | Minutes | Cut short |", "|---|---|---|---|---|"]
     for e in sessions[-8:]:
-        route = e.get("from", "?") + (f"→{e['to']}" if e.get("to") and e.get("to") != e.get("from") else "")
-        out.append(f"| {e['local']} | {route} | {e['done']}/{e['planned']} | {e['secs'] / 60:.0f} | "
+        route = e.get("from", "?") + (f" → {e['to']}" if e.get("to") and e.get("to") != e.get("from") else "")
+        out.append(f"| {e['local']} | {route} | {e['done']} / {e['planned']} | {e['secs'] / 60:.0f} | "
                    f"{'yes' if e['frac'] < 1 else ''} |")
-    out += ["", "## Per-type results (best and worst realized)", "| Type | Bought | Sold | Fees | Realized |",
-            "|---|---|---|---|---|"]
+    out.append("")
+
+    out += ["## 6. Best and worst items",
+            *_why("Per item: units bought and sold, fees paid, and realized profit. Items bought but not sold yet "
+                  "show 0 profit and only their fees."),
+            "| Item (hub) | Bought | Sold | Fees | Realized profit |", "|---|---|---|---|---|"]
     rows = sorted(pf["per_type"].items(), key=lambda kv: kv[1]["realized"])
     for k, v in (rows[-8:][::-1] + rows[:5]) if len(rows) > 13 else rows[::-1]:
         ty = int(k.split(":")[1])
         out.append(f"| {names.get(ty, ty)} ({k.split(':')[0]}) | {v['bought_units']:,} | {v['sold_units']:,} | "
                    f"{isk(v['fees'])} | {isk(v['realized'])} |")
-    out += ["", "## Hub comparison (expected profit/day of the top 30 types)",
-            "Market size = ISK/day bought from sell orders at the station (what we'd be selling into).", "",
-            "| Hub | Market size | Station types | Station top-30 | Import types (from Jita) | Import top-30 |",
+    out.append("")
+
+    out += ["## 7. Which hub is best",
+            *_why("Market size = ISK spent per day buying from sell orders in that station. Items = how many pass "
+                  "our filters. Profit/day = expected daily profit from the best 30. Station = trading inside that "
+                  "hub; Import = buying in Jita and selling there."),
+            "| Hub | Market size/day | Station items | Station profit/day | Import items | Import profit/day |",
             "|---|---|---|---|---|---|"]
     for hub in station:
         st, im = station[hub], imports_by_hub.get(hub)
@@ -194,35 +226,50 @@ def summary(cfg, pf, val, health, sessions, names, station, imports_by_hub, t, s
         out.append(f"| {hub} | {size} | {len(st)} | {isk(st.head(30).profit_day.sum()) if len(st) else '-'} | "
                    f"{len(im) if im is not None else '-'} | "
                    f"{isk(im.head(30).profit_day.sum()) if im is not None and len(im) else '-'} |")
+    out.append("")
+
     home = cfg["strategy"]["hub"]
     st = station.get(home)
     if st is not None and len(st):
-        out += ["", f"## Top station candidates at {home}",
-                "| Type | Bid→Ask | Margin | Units/day | Still on top (ask/bid) | Exp. profit/day | Uses most |",
+        out += [f"## 8. Best items to trade inside {home.title()}",
+                *_why("Buy at the highest buy price + 1 tick, sell at the lowest sell price − 1 tick. Margin is after "
+                      "all fees. On top = how much of the time between your logins our order would stay the best "
+                      "price before a rival undercuts it (sell side / buy side). Limited by = which resource it eats "
+                      "most: order slots, ISK, or your time."),
+                "| Item | Buy → sell price | Margin | Sold per day | On top (sell/buy) | Profit/day | Limited by |",
                 "|---|---|---|---|---|---|---|"]
         for ty, r in st.head(12).iterrows():
-            out.append(f"| {names.get(ty, ty)} | {isk(r.bid_t)}→{isk(r.ask_t)} | {r.margin * 100:.1f}% | {r.q:.1f} | "
-                       f"{r.sa:.0%}/{r.sb:.0%} | {isk(r.profit_day)} | {r.get('limited_by', '-')} |")
+            out.append(f"| {names.get(ty, ty)} | {isk(r.bid_t)} → {isk(r.ask_t)} | {r.margin * 100:.1f}% | {r.q:.1f} | "
+                       f"{r.sa:.0%} / {r.sb:.0%} | {isk(r.profit_day)} | {r.get('limited_by', '-')} |")
+        out.append("")
     im = imports_by_hub.get(pf.get("import_hub"))
     if im is not None and len(im):
-        out += ["", f"## Top import candidates Jita → {pf['import_hub']}",
-                "| Type | Jita → sell | m³ | Margin | Units/day | Still on top | Exp. profit/day | Uses most |",
+        out += [f"## 9. Best items to import Jita → {pf['import_hub'].title()}",
+                *_why("Buy from Jita sellers, ship by courier, sell just under the cheapest seller there. Margin is "
+                      "after shipping and fees. m³ = cargo volume per unit."),
+                "| Item | Jita price → sell price | m³ | Margin | Sold per day | On top | Profit/day | Limited by |",
                 "|---|---|---|---|---|---|---|---|"]
         for ty, r in im.head(12).iterrows():
-            out.append(f"| {names.get(ty, ty)} | {isk(r.src_ask)}→{isk(r.sell)} | {r.vol_m3:,.1f} | "
+            out.append(f"| {names.get(ty, ty)} | {isk(r.src_ask)} → {isk(r.sell)} | {r.vol_m3:,.1f} | "
                        f"{r.margin * 100:.1f}% | {r.q:.1f} | {r.sa:.0%} | {isk(r.profit_day)} | "
                        f"{r.get('limited_by', '-')} |")
+        out.append("")
     if corner is not None and len(corner):
-        out += ["", "## Cornerability watchlist (read-only, nothing is traded)",
-                "Buy out the cheapest N sell orders, relist just under the next one (capped where imports "
-                "would kick in). Daily snapshots go to data/corners/ so we can see if these really hold.", "",
-                "| Hub | Item | Best ask | Buy out | Cost | Relist at | Paper profit | ROI | Days to sell | "
+        out += ["## 10. Cornering watchlist (read-only, nothing is traded)",
+                *_why("Items where buying out the cheapest few sell orders and relisting higher would pay on paper. "
+                      "We only watch them, to learn whether such prices hold or get undercut."),
+                "| Hub | Item | Cheapest now | Buy out | Cost | Relist at | Paper profit | Return | Days to sell | "
                 "Rival updates/day |", "|---|---|---|---|---|---|---|---|---|---|"]
         for _, r in corner.head(10).iterrows():
             out.append(f"| {r.hub} | {names.get(int(r.type_id), int(r.type_id))} | {isk(r.best_ask)} | "
-                       f"{int(r.orders)} orders / {int(r.units):,} u | {isk(r.cost)} | {isk(r.relist)} | "
+                       f"{int(r.orders)} orders / {int(r.units):,} units | {isk(r.cost)} | {isk(r.relist)} | "
                        f"{isk(r.profit)} | {r.roi * 100:.0f}% | {r.exit_days:.1f} | {r.refill_day:.1f} |")
-    out += ["", "## Data health", "| Hub | Orders | Hours today | Prints this run | Note |", "|---|---|---|---|---|"]
+        out.append("")
+    out += ["## 11. Data health",
+            *_why("Is the market data flowing? Orders = orders seen in the station · Hours today = hours of data "
+                  "collected since 00:00 UTC · Trades seen = trades inferred since the last snapshot. "
+                  "Any note means something went wrong."),
+            "| Hub | Orders | Hours today | Trades seen | Note |", "|---|---|---|---|---|"]
     for hub, h in health.items():
         out.append(f"| {hub} | {h.get('orders', 0):,} | {h.get('hours', 0):.1f} | {h.get('prints', 0):,} | "
                    f"{h.get('note', '')} |")
