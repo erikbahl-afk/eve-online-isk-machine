@@ -99,3 +99,9 @@
   first weeks. Added variants `start_1b` (1B, normal sessions) and `start_1b_more_time` (1B, 60-min sessions,
   2–3 weekday logins). Imports now wait until net worth ≥4B (`import_min_nw`).
 - Use these two to set expectations: weeks to grow 1B → 4B, and whether extra early time pays.
+
+## 2026-11-05 · AIR Career Program
+- An Omega character earns up to 1.5M SP (750k base + 750k Omega track, per patch 23.01 and the EVE University table);
+  Alpha gets 750k. CCP says the program moves into Paragon Services around Fractured Skies (launches Nov 10) and all
+  progress resets, so it can be run again; unclaimed rewards are lost at the move. Exact move date and post-reset
+  SP not confirmed. Each 1M SP saves about 20 days of training (about 50k SP/day at Cha 27/Mem 21).
