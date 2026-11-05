@@ -1,6 +1,6 @@
 {
  "est_secs": 1260,
- "generated": 1793905231.175452,
+ "generated": 1793905297.7739646,
  "hub": "amarr",
  "location": "amarr",
  "other": "jita",
@@ -292,7 +292,7 @@
    "tag": "station",
    "target": 1275.0,
    "type_id": 62463,
-   "value": 5910172.995983939
+   "value": 5910172.99598394
   },
   {
    "cap": 111600000.0,

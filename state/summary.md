@@ -1,4 +1,4 @@
-# Summary · Thu 05 Nov 11:00 PST
+# Summary · Thu 05 Nov 11:01 PST
 
 Updated every ~2 hours. **Your real character** is the first section; everything after it is the **practice trader** (pretend ISK, real market data). Each section starts with a line on how to read it.
 
@@ -73,11 +73,11 @@ _Market size = ISK spent per day buying from sell orders in that station. Items 
 
 | Hub | Market size/day | Station items | Station profit/day | Import items | Import profit/day |
 |---|---|---|---|---|---|
-| jita | 4.73T | 87 | 220.52M | - | - |
-| amarr | 518.72B | 23 | 149.93M | 102 | 495.42M |
-| dodixie | 167.11B | 8 | 23.64M | 89 | 254.32M |
-| rens | 45.51B | 1 | 2.05M | 51 | 235.35M |
-| hek | 66.06B | 4 | 10.01M | 48 | 165.25M |
+| jita | 4.73T | 82 | 216.88M | - | - |
+| amarr | 518.72B | 22 | 146.90M | 56 | 324.25M |
+| dodixie | 167.11B | 8 | 23.64M | 48 | 229.50M |
+| rens | 45.51B | 1 | 2.05M | 15 | 102.46M |
+| hek | 66.06B | 4 | 10.01M | 23 | 112.93M |
 
 ## 8. Best items to trade inside Jita
 _Buy at the highest buy price + 1 tick, sell at the lowest sell price − 1 tick. Margin is after all fees. On top = how much of the time between your logins our order would stay the best price before a rival undercuts it (sell side / buy side). Limited by = which resource it eats most: order slots, ISK, or your time._
@@ -102,18 +102,18 @@ _Buy from Jita sellers, ship by courier, sell just under the cheapest seller the
 
 | Item | Jita price → sell price | m³ | Margin | Sold per day | On top | Profit/day | Limited by |
 |---|---|---|---|---|---|---|---|
-| Dark Blood Mega Pulse Laser | 63.15M → 129.70M | 20.0 | 90.8% | 1.4 | 75% | 78.16M | ISK |
 | Mid-grade Amulet Epsilon | 259.60M → 406.70M | 1.0 | 44.4% | 0.4 | 14% | 47.68M | ISK |
-| Large Projectile Collision Accelerator II | 20.18M → 48.23M | 20.0 | 122.7% | 0.6 | 100% | 14.69M | time |
 | Dread Guristas Torpedo Launcher | 95.97M → 136.20M | 20.0 | 30.4% | 0.8 | 85% | 22.57M | ISK |
 | Starsi Blast! Classic | 40.75M → 73.89M | 1.0 | 67.9% | 0.6 | 51% | 16.12M | time |
-| High-grade Mimesis Delta | 219.60M → 307.20M | 1.0 | 28.5% | 0.2 | 75% | 14.69M | ISK |
 | Corelum C-Type Medium Remote Armor Repairer | 29.52M → 46.79M | 10.0 | 46.2% | 1.1 | 44% | 14.49M | time |
-| Golem State Police SKIN | 53.30M → 99.57M | 0.0 | 73.1% | 0.3 | 63% | 13.56M | time |
-| Large Mercoxit Compressor I | 46.96M → 115.90M | 1,000.0 | 130.2% | 0.2 | 55% | 13.28M | time |
-| Ogdin's Eye Coordination Enhancer | 299.40M → 402.90M | 1.0 | 23.4% | 0.3 | 44% | 19.78M | ISK |
-| Large Energy Burst Aerator II | 6.92M → 12.11M | 20.0 | 61.8% | 2.4 | 87% | 10.11M | time |
 | Gallente Control Tower Small | 122.30M → 159.80M | 2,000.0 | 19.7% | 0.5 | 56% | 12.24M | ISK |
+| Mid-grade Virtue Gamma | 137.70M → 178.70M | 1.0 | 18.8% | 0.8 | 86% | 19.77M | ISK |
+| Mid-grade Virtue Epsilon | 402.50M → 518.50M | 1.0 | 17.9% | 0.3 | 38% | 19.50M | ISK |
+| Federation Navy 50MN Microwarpdrive | 83.74M → 120.30M | 10.0 | 32.1% | 0.3 | 73% | 8.84M | time |
+| Mid-grade Virtue Alpha | 74.59M → 127.80M | 1.0 | 58.4% | 0.2 | 19% | 8.82M | time |
+| Zainou 'Beancounter' Metallurgy MY-705 | 150.30M → 187.90M | 1.0 | 14.3% | 0.3 | 87% | 7.36M | ISK |
+| Mid-grade Virtue Delta | 239.30M → 296.60M | 1.0 | 13.3% | 0.5 | 50% | 14.86M | ISK |
+| Nighthawk | 290.00M → 373.90M | 15,000.0 | 16.9% | 0.2 | 6% | 7.64M | time |
 
 ## 10. Cornering watchlist (read-only, nothing is traded)
 _Items where buying out the cheapest few sell orders and relisting higher would pay on paper. We only watch them, to learn whether such prices hold or get undercut._
@@ -136,8 +136,8 @@ _Is the market data flowing? Orders = orders seen in the station · Hours today 
 
 | Hub | Orders | Hours today | Trades seen | Note |
 |---|---|---|---|---|
-| jita | 328,124 | 20.7 | 5,752 |  |
-| amarr | 128,086 | 20.7 | 1,359 |  |
-| dodixie | 68,327 | 20.7 | 852 |  |
-| rens | 31,812 | 20.7 | 247 |  |
-| hek | 41,353 | 20.7 | 338 |  |
+| jita | 328,124 | 20.7 | 0 | no new data since last run |
+| amarr | 128,086 | 20.7 | 0 | no new data since last run |
+| dodixie | 68,327 | 20.7 | 0 | no new data since last run |
+| rens | 31,812 | 20.7 | 0 | no new data since last run |
+| hek | 41,353 | 20.7 | 0 | no new data since last run |

@@ -1,6 +1,6 @@
 {
  "est_secs": 1195,
- "generated": 1793905231.175452,
+ "generated": 1793905297.7739646,
  "hub": "jita",
  "location": "jita",
  "other": null,
@@ -449,7 +449,7 @@
    "tag": "station",
    "target": 1275.0,
    "type_id": 62463,
-   "value": 5910172.995983939
+   "value": 5910172.99598394
   },
   {
    "cap": 34470000.0,
