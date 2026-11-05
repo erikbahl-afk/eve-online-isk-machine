@@ -31,18 +31,21 @@ GROUPS = {
 }
 
 
+BLOCKS = {1: "must do", 2: "should do", 3: "if there's time"}
+
+
 def _item(names, ty):
     n = names.get(ty)
     return n if isinstance(n, str) and n else f"type {ty}"
 
 
-def _hub_section(cfg, steps, names, hub):
+def _hub_section(cfg, steps, names, hub, level="###"):
     out = []
     for g, (title, how) in GROUPS.items():
         gs = [s for s in steps if s["group"] == g]
         if not gs:
             continue
-        out += [f"### {title}", f"_{how}_" if how else "", ""]
+        out += [f"{level} {title}", f"_{how}_" if how else "", ""]
         if g == 1:
             out += ["| # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |",
                     "|---|---|---|---|---|---|"]
@@ -109,12 +112,33 @@ def instructions(cfg, plan, names, val, warm_msg=None):
     jump = next((s for s in steps if s["kind"] == "jump"), None)
     first = [s for s in steps if s["hub"] == L and s["kind"] != "jump"]
     second = [s for s in steps if jump and s["hub"] == O]
-    out += [f"## At {HUBS[L]['name']}", ""] + (_hub_section(cfg, first, names, L) if first else ["Nothing here.", ""])
+
+    def density(ss):
+        return sum(x.get("benefit", 0) for x in ss) / max(sum(x["secs"] for x in ss), 1)
+
+    def blocks(ss, hub, skip_note=None):
+        res = []
+        for b, label in BLOCKS.items():
+            bs = [x for x in ss if x.get("block", 1) == b]
+            if not bs:
+                continue
+            res += [f"### Block {b} · {label} · about {max(1, round(sum(x['secs'] for x in bs) / 60))} min"]
+            if b > 1 and skip_note and density(bs) < skip_note[1]:
+                res += [f"_Short on time? Skip to the jump (step {skip_note[0]}): the next hub's Block 1 is worth "
+                        "more per minute than the rest of this hub._"]
+            res += [""] + _hub_section(cfg, bs, names, hub, "####")
+        return res
+
+    o_first = [x for x in second if x.get("block") == 1]
+    note = (jump["n"], density(o_first)) if jump and o_first else None
+    out += ["Each hub's steps come in **priority blocks**: finish Block 1 before anything else, and stop "
+            "wherever your time runs out. Within a block, steps follow the in-game windows for speed.", ""]
+    out += [f"## At {HUBS[L]['name']}", ""] + (blocks(first, L, note) if first else ["Nothing here.", ""])
     if jump:
         out += [f"## {jump['n']}. ☐ Jump clone to {HUBS[O]['name']}",
                 f"_Clone Bay → Jump Clone → {HUBS[O]['name']}. Needs {cfg['strategy']['jump_cooldown_hours']} h "
                 "since your last jump; if it isn't allowed yet, you're done for this session._", ""]
-        out += [f"## At {HUBS[O]['name']}", ""] + _hub_section(cfg, second, names, O)
+        out += [f"## At {HUBS[O]['name']}", ""] + blocks(second, O)
     if not steps:
         out += ["**Nothing to do this session.**", ""]
     out += ["---", f"Wallet {isk(val['cash'])} · escrow {isk(val['escrow'])} · stock {isk(val['stock_cost'])} · "

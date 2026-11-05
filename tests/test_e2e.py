@@ -103,6 +103,10 @@ def test_pipeline(tmp_path, monkeypatch):
     v = common.load_json(tmp_path / "state" / "variants" / "no_imports" / "portfolio.json", None)
     assert v and v["pnl"]["courier"] == 0 and v["pnl"]["broker"] > 0, "variant didn't trade independently"
     assert (tmp_path / "INSTRUCTIONS.md").read_text().startswith("> **PRACTICE MODE")
+    plan = common.load_json(tmp_path / "state" / "plan.json", {})
+    for hub in {s["hub"] for s in plan["steps"] if s["kind"] != "jump"}:
+        blks = [s["block"] for s in plan["steps"] if s["hub"] == hub and s["kind"] != "jump"]
+        assert blks == sorted(blks) and set(blks) <= {1, 2, 3}, "blocks out of order"
     assert list((tmp_path / "data" / "daily").glob("*.csv.gz"))
     print(open(tmp_path / "state" / "summary.md").read())
     print(open(tmp_path / "INSTRUCTIONS.md").read())

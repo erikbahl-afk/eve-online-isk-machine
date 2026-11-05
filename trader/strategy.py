@@ -297,6 +297,8 @@ class Planner:
                                est_m3=m3, contracts=n, est_fee=n * route["contract_fee"],
                                service=route.get("service", "the courier service")))
         steps[-1]["secs"] *= n
+        for st in steps:
+            st["bundle"] = True  # market buys and their courier contract stay in one block
         return {"steps": steps, "value": profit, "cash": value + n * route["contract_fee"]}
 
     # ---- new buy orders --------------------------------------------------------
@@ -317,6 +319,64 @@ class Planner:
             out.append(("station", int(ty), math.ceil(r.q * T / 24 * 2), buy_cap(self.fees, self.cfg, r.ask_ref),
                         float(r.profit_day), float(r.density)))
         return out
+
+    # ---- priority blocks ----------------------------------------------------------
+    def rate(self, hub, ty, side):
+        """Units/day we'd move on this side if we keep repricing at sessions."""
+        st = self.stats.get(hub)
+        col = "A" if side == "a" else "B"
+        if st is None or not len(st) or ty not in st.index:
+            return 0.0
+        lam = st.loc[ty, [f"lam_{side}{b}" for b in range(4)]].to_numpy(dtype=float)
+        return self.c["alpha"] * float(st.loc[ty, col]) * float(surv_avg(lam, self.c["logon_gap_hours"],
+                                                                          self.start_w)[0])
+
+    def benefit(self, st):
+        """Rough ISK gained over the next gap between sessions by doing this step (for ordering only)."""
+        days = self.c["logon_gap_hours"] / 24
+        idle = 0.01 * days  # stock or escrow doing nothing costs ~1%/day of opportunity
+        k, hub, ty = st["kind"], st["hub"], st.get("type_id")
+        if k in ("new_buy", "instant_buy"):
+            return st["value"] * days  # value = expected profit/day
+        if k == "courier":
+            return 0.0  # carries its bundle's value
+        if k == "cancel":
+            return st["value"] * idle
+        if k == "modify_buy":
+            o = self.sim.order(st["oid"])
+            units = min(o["remain"], self.rate(hub, ty, "b") * days) if o else 0
+            cands = self.station.get(hub)
+            gain = (float(cands.unit_margin.get(ty, 0.05 * st["target"])) if cands is not None and len(cands)
+                    else 0.05 * st["target"])
+            return units * max(gain, 0.0)
+        if k in ("modify_sell", "new_sell", "instant_sell"):
+            if k == "modify_sell":
+                o = self.sim.order(st["oid"])
+                qty, cost = (o["remain"], o["unit_cost"]) if o else (0, 0.0)
+            else:
+                it = self.pf["inventory"].get(hub, {}).get(str(ty)) or {"qty": 0, "cost": 0.0}
+                qty, cost = st.get("qty", it["qty"]), it["cost"]
+            price = st.get("min_price") or st.get("target") or cost
+            units = qty if k == "instant_sell" else min(qty, self.rate(hub, ty, "a") * days)
+            return units * max(price * (1 - self.fees.tax) - cost, 0.0) + qty * price * idle
+        return 0.0
+
+    def assign_blocks(self, steps):
+        """Block 1 = must do, 2 = should do, 3 = if time; by benefit per second of your time."""
+        units, bundle = [], [s for s in steps if s.get("bundle")]
+        units += [[s] for s in steps if not s.get("bundle")]
+        if bundle:
+            units.append(bundle)
+        units.sort(key=lambda u: -sum(s["benefit"] for s in u) / max(sum(s["secs"] for s in u), 1))
+        total = sum(s["secs"] for s in steps) or 1
+        done = 0
+        for u in units:
+            secs = sum(s["secs"] for s in u)
+            mid = (done + secs / 2) / total  # where this unit sits in the session
+            blk = 1 if mid <= self.s["block1_share"] else 2 if mid <= self.s["block1_share"] + self.s["block2_share"] else 3
+            for s in u:
+                s["block"] = blk
+            done += secs
 
     # ---- assemble ---------------------------------------------------------------
     def plan(self):
@@ -391,12 +451,16 @@ class Planner:
         def name(st):
             return str(self.names.get(st.get("type_id"), st.get("type_id", "")))
 
+        for st in chosen:
+            st["benefit"] = self.benefit(st)
         steps = []
         for h in [L] + ([O] if O else []):
-            part = sorted([s for s in chosen if s["hub"] == h], key=lambda s: (s["group"], name(s)))
+            part = [s for s in chosen if s["hub"] == h]
+            self.assign_blocks(part)
+            part.sort(key=lambda s: (s["block"], s["group"], name(s)))
             if h == O and part:
                 steps.append({"kind": "jump", "hub": L, "to": O, "secs": self.c["secs_jump"], "group": 0,
-                              "value": 0.0})
+                              "value": 0.0, "block": 0})
             steps += part
         for i, st in enumerate(steps, 1):
             st["n"] = i

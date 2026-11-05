@@ -47,8 +47,12 @@ last two session gaps, since shelves only get restocked at logins.
   (19 h cooldown assumed) and do its work there. Imports are bought and shipped at Jita.
 - Time goes by tier: (1) fix undercut sells and list stock, (2) fix or cancel buys, imports and spec,
   (3) new station buys by expected profit. The plan uses 25 of the 30 minutes.
-- Within each hub the steps follow the in-game windows, sorted by item name, with an exact
-  "type this" price plus the rule to use if the market has moved.
+- Each hub's steps come in priority blocks (user's request): Block 1 must do (~45% of the time),
+  Block 2 should do (~35%), Block 3 if there's time. Blocks are ranked by estimated ISK gained over the
+  next gap per second of your time. Within a block, steps follow the in-game windows, sorted by item name,
+  with an exact "type this" price plus the rule to use if the market has moved. Imports (market buys plus
+  courier) stay together. If the second hub's Block 1 is worth more per minute, the checklist says to
+  skip ahead to the jump.
 
 ## Guards against bad fills
 - **Pumped prices:** we never plan around a sell price above recent real trade prices + 5%. Someone

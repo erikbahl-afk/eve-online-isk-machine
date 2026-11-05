@@ -26,3 +26,6 @@ When the list is exhausted, focus on the user's time efficiency.
 ## Live-phase inputs (agreed)
 The user will report each real session: from/to times and how far down the checklist they got. Keep a log
 and use it to set expectations (session length, sessions per week, usual times of day).
+
+## Checklist ordering (agreed)
+Priority blocks (must do / should do / if time) instead of one long list grouped by window; implemented 2026-11-05.
