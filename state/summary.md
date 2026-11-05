@@ -1,4 +1,4 @@
-# Summary · Wed 04 Nov 16:00 PST
+# Summary · Wed 04 Nov 16:55 PST
 
 Auto-generated every run. Reviewers: start here.
 
@@ -7,7 +7,7 @@ Auto-generated every run. Reviewers: start here.
 - Cash 260.10M · escrow 1.60B · stock 3.11B · in transit 0.00 · orders 7/113
 - Realized P&L -24.20M · sales 0.00 · buys 2.98B · fees: broker 24.20M, relist 0.00, tax 0.00, courier 138.00M
 - Character at **amarr** · import hub: **amarr** · shipments in transit: 0
-- Shelf space in use: slots 7/113 · ISK deployed 95% · last plan 20/25 min (whichever is near 100% is what limits profit)
+- Shelf space in use: slots 7/113 · ISK deployed 95% · last plan 19/25 min (whichever is near 100% is what limits profit)
 
 ## By strategy
 | Strategy | Buys | Sales | Fees | Realized |
@@ -57,43 +57,43 @@ Market size = ISK/day bought from sell orders at the station (what we'd be selli
 
 | Hub | Market size | Station types | Station top-30 | Import types (from Jita) | Import top-30 |
 |---|---|---|---|---|---|
-| jita | 4.56T | 88 | 261.48M | - | - |
-| amarr | 490.84B | 18 | 64.68M | 97 | 423.78M |
-| dodixie | 162.33B | 5 | 18.48M | 81 | 263.94M |
-| rens | 43.92B | 1 | 2.13M | 44 | 256.85M |
-| hek | 60.36B | 5 | 12.19M | 46 | 156.90M |
+| jita | 4.58T | 86 | 265.58M | - | - |
+| amarr | 493.78B | 19 | 68.01M | 97 | 423.51M |
+| dodixie | 162.57B | 5 | 18.05M | 81 | 264.80M |
+| rens | 44.44B | 2 | 5.76M | 43 | 255.93M |
+| hek | 61.16B | 5 | 12.24M | 45 | 157.29M |
 
 ## Top station candidates at jita
 | Type | Bid→Ask | Margin | Units/day | Still on top (ask/bid) | Exp. profit/day | Uses most |
 |---|---|---|---|---|---|---|
-| Inherent Implants 'Squire' Power Grid Management EG-604 | 75.02M→124.20M | 56.0% | 0.3 | 25%/54% | 12.99M | time |
-| Compressed Fullerite-C32 | 20.06k→24.99k | 17.0% | 4409.5 | 4%/8% | 14.20M | ISK |
-| Blood Raider NET Resonator | 3.28M→3.99M | 14.3% | 21.0 | 8%/3% | 9.19M | time |
-| Compressed Fullerite-C28 | 12.32k→14.67k | 11.8% | 7925.4 | 5%/10% | 10.60M | ISK |
-| Corpus C-Type Heavy Energy Nosferatu | 25.02M→40.96M | 54.2% | 0.5 | 26%/58% | 6.14M | time |
-| Azbel | 3.90B→4.59B | 10.4% | 0.2 | 29%/50% | 60.50M | ISK |
-| Antipharmakon Aeolis | 22.51M→28.85M | 20.4% | 1.2 | 13%/82% | 5.55M | time |
-| Capital Disintegrator Specialization | 1.31B→1.53B | 9.7% | 0.2 | 3%/8% | 19.93M | ISK |
-| Republic Fleet Light Missile Launcher | 37.30M→52.62M | 32.7% | 0.4 | 42%/73% | 4.57M | time |
-| Remote Sensor Dampener II | 1.30M→2.93M | 112.6% | 4.3 | 3%/7% | 6.29M | time |
-| Corpus X-Type EM Armor Hardener | 158.20M→189.10M | 12.2% | 0.3 | 6%/9% | 6.11M | time |
-| Dark Blood Small Focused Beam Laser | 16.99M→32.89M | 82.6% | 0.4 | 35%/45% | 5.00M | time |
+| Inherent Implants 'Squire' Power Grid Management EG-604 | 75.02M→124.20M | 56.0% | 0.3 | 25%/54% | 12.90M | time |
+| Compressed Fullerite-C32 | 20.03k→24.99k | 17.2% | 4301.9 | 4%/8% | 13.98M | ISK |
+| Compressed Zeolites | 1.23k→1.56k | 19.5% | 47884.7 | 5%/6% | 10.90M | time |
+| Blood Raider NET Resonator | 3.28M→4.00M | 14.4% | 20.3 | 8%/3% | 8.98M | time |
+| Compressed Fullerite-C28 | 12.31k→14.67k | 11.9% | 7657.6 | 5%/10% | 10.32M | ISK |
+| Azbel | 3.90B→4.59B | 10.4% | 0.2 | 29%/50% | 60.29M | ISK |
+| Antipharmakon Aeolis | 22.51M→28.85M | 20.4% | 1.3 | 13%/83% | 5.58M | time |
+| Corpus C-Type Heavy Energy Nosferatu | 25.02M→40.95M | 54.2% | 0.4 | 23%/59% | 5.51M | time |
+| Capital Disintegrator Specialization | 1.31B→1.53B | 9.6% | 0.2 | 3%/8% | 19.64M | ISK |
+| Republic Fleet Light Missile Launcher | 37.30M→52.62M | 32.7% | 0.4 | 42%/73% | 4.54M | time |
+| Corpus X-Type EM Armor Hardener | 158.20M→189.10M | 12.2% | 0.3 | 6%/9% | 6.15M | time |
+| Dark Blood Small Focused Beam Laser | 16.99M→32.89M | 82.6% | 0.4 | 35%/46% | 5.01M | time |
 
 ## Top import candidates Jita → amarr
 | Type | Jita → sell | m³ | Margin | Units/day | Still on top | Exp. profit/day | Uses most |
 |---|---|---|---|---|---|---|---|
-| Dark Blood Mega Pulse Laser | 64.43M→129.70M | 20.0 | 86.9% | 1.5 | 73% | 85.10M | ISK |
-| Golem State Police SKIN | 54.99M→99.58M | 0.0 | 67.7% | 0.5 | 72% | 16.93M | time |
-| Ferrogel | 27.66k→42.12k | 1.0 | 40.3% | 1584.9 | 22% | 17.49M | time |
-| Large Projectile Collision Accelerator II | 20.47M→48.23M | 20.0 | 119.5% | 0.6 | 100% | 13.91M | time |
-| Starsi Blast! Classic | 41.63M→73.89M | 1.0 | 64.2% | 0.6 | 48% | 14.70M | time |
-| Dread Guristas Torpedo Launcher | 98.57M→136.20M | 20.0 | 26.8% | 0.8 | 82% | 19.81M | ISK |
-| Corelum C-Type Medium Remote Armor Repairer | 29.51M→45.60M | 10.0 | 42.4% | 1.1 | 47% | 14.16M | time |
-| State Hardpoint Booster II | 9.79M→20.89M | 1.0 | 98.5% | 1.3 | 86% | 12.10M | time |
-| Large Energy Burst Aerator II | 6.93M→12.07M | 20.0 | 61.1% | 2.6 | 86% | 11.05M | time |
-| ElectroPunch Ultra L | 11.00k→16.37k | 0.0 | 37.0% | 2802.6 | 47% | 11.32M | time |
-| Small Vorton Projector II | 148.00M→217.50M | 5.0 | 35.2% | 0.2 | 32% | 11.04M | time |
-| CONCORD Capital Shield Booster | 314.00M→409.10M | 1,000.0 | 19.3% | 0.5 | 73% | 31.99M | ISK |
+| Dark Blood Mega Pulse Laser | 64.42M→129.70M | 20.0 | 86.9% | 1.5 | 73% | 84.52M | ISK |
+| Golem State Police SKIN | 54.99M→99.58M | 0.0 | 67.7% | 0.5 | 72% | 16.89M | time |
+| Ferrogel | 27.66k→42.13k | 1.0 | 40.3% | 1589.0 | 22% | 17.55M | time |
+| Large Projectile Collision Accelerator II | 20.44M→48.23M | 20.0 | 119.9% | 0.6 | 100% | 13.83M | time |
+| Starsi Blast! Classic | 41.62M→73.89M | 1.0 | 64.3% | 0.6 | 49% | 14.83M | time |
+| Dread Guristas Torpedo Launcher | 98.57M→136.20M | 20.0 | 26.8% | 0.8 | 83% | 19.92M | ISK |
+| Corelum C-Type Medium Remote Armor Repairer | 29.51M→45.60M | 10.0 | 42.4% | 1.1 | 48% | 14.23M | time |
+| State Hardpoint Booster II | 9.79M→20.89M | 1.0 | 98.5% | 1.2 | 86% | 12.02M | time |
+| Large Energy Burst Aerator II | 6.93M→12.07M | 20.0 | 61.1% | 2.6 | 86% | 10.97M | time |
+| ElectroPunch Ultra L | 11.00k→16.37k | 0.0 | 37.0% | 2826.8 | 47% | 11.42M | time |
+| CONCORD Capital Shield Booster | 314.00M→409.10M | 1,000.0 | 19.3% | 0.5 | 73% | 31.76M | ISK |
+| Republic Fleet Missile Guidance Enhancer | 136.40M→212.30M | 5.0 | 43.5% | 0.2 | 48% | 10.15M | time |
 
 ## Cornerability watchlist (read-only, nothing is traded)
 Buy out the cheapest N sell orders, relist just under the next one (capped where imports would kick in). Daily snapshots go to data/corners/ so we can see if these really hold.
@@ -103,19 +103,19 @@ Buy out the cheapest N sell orders, relist just under the next one (capped where
 | jita | Mid-grade Centurion Alpha | 78.00M | 2 orders / 5 u | 392.00M | 118.00M | 169.24M | 43% | 5.5 | 1.5 |
 | jita | Rattlesnake King's Ransom Luecin SKIN | 40.00M | 2 orders / 7 u | 299.90M | 64.16M | 127.33M | 42% | 5.7 | 0.4 |
 | jita | Zainou 'Deadeye' Missile Projection MP-704 | 89.91M | 3 orders / 4 u | 369.77M | 129.90M | 124.50M | 34% | 6.3 | 0.4 |
-| jita | Dark Blood Small Capacitor Booster | 46.89M | 5 orders / 5 u | 239.78M | 76.34M | 123.31M | 51% | 5.3 | 1.9 |
+| jita | Dark Blood Small Capacitor Booster | 46.88M | 5 orders / 5 u | 238.67M | 76.34M | 124.42M | 52% | 5.3 | 2.1 |
 | jita | Capital Energy Turret | 17.90M | 3 orders / 16 u | 300.70M | 27.72M | 121.20M | 40% | 4.1 | 1.1 |
-| jita | Medium Hybrid Locus Coordinator I | 989.80k | 6 orders / 332 u | 351.96M | 1.48M | 116.08M | 33% | 8.0 | 0.8 |
-| jita | Heavy Interdiction Cruisers | 38.00M | 2 orders / 8 u | 304.99M | 54.99M | 113.48M | 37% | 3.4 | 2.7 |
-| jita | Advanced Armor Layering | 17.00M | 2 orders / 17 u | 289.50M | 24.86M | 112.52M | 39% | 3.9 | 0.4 |
-| jita | Zainou 'Deadeye' Large Hybrid Turret LH-1003 | 18.00M | 3 orders / 14 u | 267.88M | 28.44M | 110.87M | 41% | 2.5 | 1.5 |
-| amarr | Small Auxiliary Nano Pump I | 590.00k | 1 orders / 316 u | 186.44M | 985.70k | 109.86M | 59% | 6.2 | 2.5 |
+| jita | Heavy Interdiction Cruisers | 38.00M | 2 orders / 8 u | 304.99M | 54.99M | 113.48M | 37% | 3.4 | 2.6 |
+| jita | Advanced Armor Layering | 17.00M | 2 orders / 17 u | 289.50M | 24.86M | 112.52M | 39% | 4.0 | 0.4 |
+| jita | Zainou 'Deadeye' Large Hybrid Turret LH-1003 | 18.00M | 3 orders / 14 u | 267.88M | 28.44M | 110.87M | 41% | 2.6 | 1.5 |
+| jita | Vorton Projector Operation | 25.30M | 2 orders / 11 u | 279.00M | 37.14M | 109.62M | 39% | 3.9 | 0.4 |
+| amarr | Small Auxiliary Nano Pump I | 590.00k | 1 orders / 312 u | 184.08M | 985.60k | 108.44M | 59% | 6.1 | 2.4 |
 
 ## Data health
 | Hub | Orders | Hours today | Prints this run | Note |
 |---|---|---|---|---|
-| jita | 328,613 | 1.7 | 6,411 |  |
-| amarr | 128,509 | 1.7 | 2,538 |  |
-| dodixie | 68,834 | 1.7 | 1,280 |  |
-| rens | 31,686 | 1.7 | 290 |  |
-| hek | 41,354 | 1.7 | 513 |  |
+| jita | 328,267 | 2.6 | 3,763 |  |
+| amarr | 128,424 | 2.6 | 1,109 |  |
+| dodixie | 68,769 | 2.6 | 601 |  |
+| rens | 31,683 | 2.6 | 162 |  |
+| hek | 41,362 | 2.6 | 311 |  |

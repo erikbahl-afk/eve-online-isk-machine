@@ -100,6 +100,7 @@ type_id,name,volume
 3239,Inherent Implants 'Squire' Capacitor Management EM-806,1.0
 3240,Inherent Implants 'Squire' Capacitor Systems Operation EO-602,1.0
 3241,Inherent Implants 'Squire' Capacitor Systems Operation EO-604,1.0
+3256,,1.0
 3257,Inherent Implants 'Squire' Power Grid Management EG-604,
 3265,Zainou 'Gypsy' CPU Management EE-602,1.0
 3488,,5.0
@@ -428,7 +429,7 @@ type_id,name,volume
 16679,Fullerides,0.15
 16680,Phenolic Composites,0.2
 16681,Nanotransistors,0.25
-16682,,0.6
+16682,Hypersynaptic Fibers,0.6
 16683,Ferrogel,1.0
 17136,Ukomi Superconductors,
 17180,Sensor Dampening Battery,
@@ -456,7 +457,7 @@ type_id,name,volume
 17636,Raven Navy Issue,
 17709,,10000.0
 17713,,10000.0
-17715,,10000.0
+17715,Gila,10000.0
 17718,Phantasm,10000.0
 17720,Cynabal,10000.0
 17726,,50000.0
@@ -723,6 +724,7 @@ type_id,name,volume
 24632,,1.0
 24640,Zainou 'Deadeye' Guided Missile Precision GP-805,
 24663,Zor's Custom Navigation Hyper-Link,
+24692,,50000.0
 24702,Hurricane,
 25252,Pure Standard Frentix Booster,
 25266,,5.0
@@ -911,6 +913,7 @@ type_id,name,volume
 31011,Medium Explosive Armor Reinforcer I,
 31027,,5.0
 31029,,10.0
+31037,Capital Thermal Armor Reinforcer I,
 31039,Small Thermal Armor Reinforcer II,5.0
 31041,,10.0
 31045,Small Auxiliary Nano Pump I,
@@ -1283,6 +1286,7 @@ type_id,name,volume
 50149,Kronos Caille Neon SKIN,0.01
 50153,Nemesis Caille Neon SKIN,
 52225,Gravid Damage Control Mutaplasmid,1.0
+52226,Unstable Damage Control Mutaplasmid,
 52236,Zorya's Light Entropic Disintegrator,
 52238,Zorya's Heavy Entropic Disintegrator,10.0
 52278,Praxis Capsuleer Day XVI SKIN,0.01
