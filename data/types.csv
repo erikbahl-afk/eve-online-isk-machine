@@ -6,15 +6,17 @@ type_id,name,volume,group_id
 38,Nocxium,0.01,
 39,Zydrine,0.01,18
 40,Megacyte,0.01,
-204,Inferno Cruise Missile,,
+204,Inferno Cruise Missile,0.05,386
 233,,0.025,
 421,,5,
 438,,5,
 448,,5,
 519,Gyrostabilizer II,5,
+621,,10000,26
 622,Stabber,,
 627,,10000,
 630,Bellicose,,
+632,,10000,26
 638,,50000,
 641,,50000,
 642,Apocalypse,,
@@ -38,6 +40,7 @@ type_id,name,volume,group_id
 1978,Tracking Computer II,5,
 1987,Signal Amplifier II,,
 1999,Tracking Enhancer II,,
+2006,,10000,26
 2032,Cap Recharger II,,
 2175,,10,
 2185,Hammerhead II,,
@@ -99,7 +102,7 @@ type_id,name,volume,group_id
 3186,Neutron Blaster Cannon II,20,
 3203,,1,
 3214,,1,
-3239,Inherent Implants 'Squire' Capacitor Management EM-806,1,
+3239,Inherent Implants 'Squire' Capacitor Management EM-806,1,741
 3240,Inherent Implants 'Squire' Capacitor Systems Operation EO-602,1,
 3241,Inherent Implants 'Squire' Capacitor Systems Operation EO-604,1,
 3256,,1,
@@ -107,14 +110,16 @@ type_id,name,volume,group_id
 3265,Zainou 'Gypsy' CPU Management EE-602,1,
 3488,,5,
 3520,,10,
+3536,,1000,325
 3542,CONCORD Capital Shield Booster,1000,
+3616,,1000,41
 3645,Water,,
 3683,Oxygen,,
 3695,Polytextiles,,
 3756,,15000,
 3775,Viral Agent,,
 3893,Mining Connections,0.01,
-3894,Distribution Connections,0.01,
+3894,Distribution Connections,0.01,278
 3895,Security Connections,,
 3898,Quafe Zero Classic,1,
 3962,Customs Office Gantry,7600,
@@ -124,11 +129,13 @@ type_id,name,volume,group_id
 4051,,5,
 4144,Women's 'Structure' Dress (black/white),0.1,
 4147,Dual Heavy Pulse Laser II,20,
+4248,,50,899
 4250,Small Tractor Beam II,,
 4260,Expanded Probe Launcher II,5,
 4292,Siege Module II,1000,
 4294,Triage Module II,,
 4302,Oracle,,
+4306,,15000,1201
 4313,Oxygen Fuel Block Blueprint,0.01,
 4315,,0.01,
 4345,Gistum B-Type Multispectrum Shield Hardener,5,77
@@ -207,7 +214,7 @@ type_id,name,volume,group_id
 11556,,1,
 11577,Improved Cloaking Device II,100,
 11578,Covert Ops Cloaking Device II,100,
-11648,,5,
+11648,,5,328
 11688,,1,
 11690,,1,
 11694,,1,
@@ -279,7 +286,7 @@ type_id,name,volume,group_id
 13256,Inherent Implants 'Noble' Hull Upgrades HG-1003,1,
 13258,Inherent Implants 'Noble' Repair Systems RS-603,,
 13259,Inherent Implants 'Squire' Capacitor Management EM-803,1,741
-13260,,1,
+13260,Inherent Implants 'Squire' Capacitor Systems Operation EO-603,1,
 13261,Inherent Implants 'Squire' Power Grid Management EG-603,1,
 13263,Zainou 'Gnome' Shield Operation SP-903,1,
 13265,,1,
@@ -313,6 +320,7 @@ type_id,name,volume,group_id
 13960,,10,
 13965,,5,
 13969,Dread Guristas Multispectrum Shield Hardener,5,77
+13970,,5,328
 13974,True Sansha Explosive Armor Hardener,,
 13976,Dark Blood Explosive Armor Hardener,,
 13978,True Sansha Kinetic Armor Hardener,,
@@ -335,7 +343,7 @@ type_id,name,volume,group_id
 14108,,5,
 14126,Domination Overdrive Injector,5,
 14128,,5,
-14130,,5,
+14130,True Sansha Reactor Control Unit,5,769
 14136,,5,
 14140,True Sansha Cap Recharger,5,43
 14144,Dark Blood Capacitor Power Relay,5,
@@ -386,6 +394,7 @@ type_id,name,volume,group_id
 15729,Imperial Navy Multispectrum Energized Membrane,5,
 15739,Federation Navy Multispectrum Energized Membrane,5,326
 15749,,5,
+15751,,10,46
 15753,,5,
 15764,Federation Navy 50MN Microwarpdrive,10,46
 15766,,5,
@@ -416,6 +425,7 @@ type_id,name,volume,group_id
 16062,Caldari Navy Cruise Missile Launcher,20,
 16067,Caldari Navy Torpedo Launcher,20,
 16068,Caldari Navy Light Missile Launcher,,
+16229,,15000,419
 16233,Prophecy,,
 16246,Zainou 'Gnome' Shield Management SM-705,1,749
 16247,,1,
@@ -452,6 +462,7 @@ type_id,name,volume,group_id
 16682,Hypersynaptic Fibers,0.6,429
 16683,Ferrogel,1,429
 17136,Ukomi Superconductors,,
+17177,,4000,439
 17180,Sensor Dampening Battery,,
 17182,Warp Scrambling Battery,,
 17187,,4000,
@@ -484,7 +495,7 @@ type_id,name,volume,group_id
 17738,Machariel,,
 17772,Small AutoCannon Battery,,
 17843,Vexor Navy Issue,10000,26
-17887,Oxygen Isotopes,0.03,
+17887,Oxygen Isotopes,0.03,423
 17888,Nitrogen Isotopes,0.03,423
 17889,Hydrogen Isotopes,0.03,
 17894,High-Tech Scanner,0.01,
@@ -510,6 +521,7 @@ type_id,name,volume,group_id
 18688,Corelum B-Type 10MN Afterburner,5,46
 18692,Coreli A-Type 1MN Afterburner,5,
 18698,Core X-Type 100MN Afterburner,,
+18706,,5,98
 18708,Corpii A-Type Multispectrum Coating,5,98
 18766,,5,
 18768,Coreli C-Type Multispectrum Coating,5,
@@ -521,6 +533,7 @@ type_id,name,volume,group_id
 18829,Corpum C-Type Multispectrum Energized Membrane,5,
 18835,Centum C-Type Kinetic Energized Membrane,,
 18859,Centum B-Type Explosive Energized Membrane,5,
+18863,,5,326
 18877,Corpum A-Type Kinetic Energized Membrane,5,
 18881,Corpum A-Type Multispectrum Energized Membrane,5,
 18883,Centum A-Type Multispectrum Energized Membrane,,
@@ -654,6 +667,7 @@ type_id,name,volume,group_id
 20855,True Sanshas Standard S,,
 21009,Capital Propulsion Engine,2000,
 21013,Capital Sensor Cluster,2000,
+21017,,2000,873
 21018,Capital Armor Plates Blueprint,0.01,
 21023,Capital Shield Emitter,2000,
 21208,,1,
@@ -707,7 +721,7 @@ type_id,name,volume,group_id
 22570,Inherent Implants 'Yeti' Ice Harvesting IH-1003,1,1229
 22571,Inherent Implants 'Yeti' Ice Harvesting IH-1005,1,1229
 22611,,5,
-22613,'Carpo' Mining Laser Upgrade,5,
+22613,'Carpo' Mining Laser Upgrade,5,546
 22778,Warp Disrupt Probe,5,
 22782,Interdiction Sphere Launcher I,,
 22875,,5,
@@ -720,11 +734,12 @@ type_id,name,volume,group_id
 23009,Caldari Navy Antimatter Charge S,0.0025,
 23025,Caldari Navy Antimatter Charge M,0.0125,85
 23055,Templar I,,
-23061,Einherji I,,
+23061,Einherji I,1000,1652
 23071,,1,
 23073,,1,
 23105,,1,
 23107,,1,
+23111,,1,86
 23119,Imperial Navy Radio L,1,
 23128,,0.1,
 23134,Takmahl Dynamic Gauge,,
@@ -760,7 +775,7 @@ type_id,name,volume,group_id
 25590,Contaminated Nanite Compound,,
 25591,Contaminated Lorentz Fluid,0.01,
 25594,Tangled Power Conduit,0.01,
-25601,Fried Interface Circuit,,
+25601,Fried Interface Circuit,0.01,754
 25604,,0.01,
 25605,Armor Plates,,
 25608,Intact Shield Emitter,0.01,754
@@ -813,7 +828,7 @@ type_id,name,volume,group_id
 26890,Mobile Medium Warp Disruptor II,195,361
 26892,Mobile Small Warp Disruptor II,65,361
 26912,Small Remote Armor Repairer II,5,
-26914,Large Remote Armor Repairer II,25,
+26914,Large Remote Armor Repairer II,25,325
 27094,,1,
 27108,Zainou 'Snapshot' Light Missiles LM-903,1,
 27109,,1,
@@ -973,6 +988,7 @@ type_id,name,volume,group_id
 31544,,5,
 31564,Medium Hybrid Locus Coordinator I,,
 31594,,10,
+31598,,5,779
 31606,,10,
 31614,Small Rocket Fuel Cache Partition II,5,
 31616,,10,
@@ -1087,6 +1103,7 @@ type_id,name,volume,group_id
 33975,Low-grade Virtue Gamma,,
 33981,Limited Hyperspatial Accelerator,5,
 33983,Experimental Hyperspatial Accelerator,5,
+34049,Women's 'Hover' Tights (opaque black),,
 34057,Men's 'Tectonic' Headwear (matte black),,
 34132,Pilot's Body Resculpt Certificate,,
 34264,Focused Void Bomb,75,
@@ -1147,7 +1164,7 @@ type_id,name,volume,group_id
 37847,Standup Heavy Missile,0.5,
 37848,,0.5,
 40347,,3000,
-40351,25000mm Steel Plates II,,
+40351,25000mm Steel Plates II,1000,329
 40519,Skill Extractor,,
 40520,Large Skill Injector,0.01,1739
 40556,Templar II,1000,
@@ -1197,6 +1214,7 @@ type_id,name,volume,group_id
 41534,Zeugma Integrated Analyzer,5,
 42145,Low-grade Asklepian Alpha,,
 42201,Low-grade Asklepian Epsilon,1,
+42203,Low-grade Asklepian Omega,1,300
 42205,Mid-grade Asklepian Beta,1,
 42206,Mid-grade Asklepian Gamma,1,
 42208,Mid-grade Asklepian Epsilon,1,
@@ -1286,6 +1304,7 @@ type_id,name,volume,group_id
 47875,Large Disintegrator Specialization,0.01,
 47886,Tetryon Exotic Plasma M,0.01,
 47887,,0.01,
+47890,Raging Exotic Filament,0.1,1979
 47891,Chaotic Exotic Filament,0.1,1979
 47895,Chaotic Dark Filament,,
 47897,,0.1,
@@ -1308,7 +1327,7 @@ type_id,name,volume,group_id
 47932,,0.01,
 47934,,0.01,
 47975,,0.3,
-48112,Zero-Point Condensate,,
+48112,Zero-Point Condensate,0.2,1996
 48113,Agency 'Hardshell' TB9 Dose IV,,
 48115,Agency 'Pyrolancea' DB9 Dose IV,1,303
 48386,,0.1,
@@ -1340,6 +1359,7 @@ type_id,name,volume,group_id
 52694,Industrial Cynosural Field Generator,25,
 52919,High-grade Mimesis Delta,1,
 52997,Precursor Dreadnought,,
+53290,Capital Trinary State Processor,,
 53291,Dreadnought Systems Diagram,0.1,526
 53301,Tetryon Exotic Plasma XL,,
 53302,Meson Exotic Plasma XL,,
@@ -1373,7 +1393,7 @@ type_id,name,volume,group_id
 54748,Medium Vorton Projector II,25,
 54749,Medium Consortium Vorton Projector,25,
 54754,Large Consortium Vorton Projector,50,
-54773,GalvaSurge Condenser Pack M,0.0125,
+54773,GalvaSurge Condenser Pack M,0.0125,4062
 54782,,0.025,
 54783,ElectroPunch Ultra L,0.025,
 54785,StrikeSnipe Ultra M,0.0125,
@@ -1458,7 +1478,7 @@ type_id,name,volume,group_id
 62404,Compressed Fullerite-C32,,
 62405,Compressed Fullerite-C540,,
 62454,Compressed Bitumens,,
-62455,Compressed Brimful Bitumens,,
+62455,Compressed Brimful Bitumens,0.1,1884
 62456,Compressed Glistening Bitumens,,
 62461,Compressed Brimful Sylvite,,
 62463,Compressed Zeolites,0.1,1884
@@ -1624,6 +1644,7 @@ type_id,name,volume,group_id
 95673,Foundation Wisdom Background,0.1,
 95741,Akoman,15000,
 96318,,0.01,
+96320,,0.01,1950
 96321,Salvation Sanguinary Savant SKIN,,
 96326,Captured Bioadaptive Cache,1,
 96543,Potent 'Radiance' Cerebral Accelerator,1,

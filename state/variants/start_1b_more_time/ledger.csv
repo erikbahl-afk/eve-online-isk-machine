@@ -41,3 +41,4 @@ t,event,hub,type_id,qty,price,cash_delta,note
 1793901486,buy_fill,jita,62522,1,22.22,-22.22,o5
 1793901451,buy_fill,amarr,36,2,44.73,-89.46,o30
 1793908743,buy_fill,jita,13221,3,14050000.0,-42150000.0,o25
+1793919633,buy_fill,jita,2993,3,382100.0,-1146300.0,o9

@@ -1,4 +1,4 @@
-# Summary · Thu 05 Nov 13:49 PST
+# Summary · Thu 05 Nov 15:02 PST
 
 Updated every ~2 hours. **Your real character** is the first section; everything after it is the **practice trader** (pretend ISK, real market data). Each section starts with a line on how to read it.
 
@@ -6,13 +6,7 @@ Updated every ~2 hours. **Your real character** is the first section; everything
 _Automatic red flags from this run. The daily analysis must deal with each one: fix it, or explain why it's fine._
 
 
-- 🔴 Data problem in amarr: fetch failed: ESI GET /markets/10000043/orders/ failed after 6 tries
-- 🔴 Data problem in character: SSO read failed: RuntimeError
-- 🔴 Data problem in dodixie: fetch failed: ESI GET /markets/10000032/orders/ failed after 6 tries
-- 🔴 Data problem in hek: fetch failed: ESI GET /markets/10000042/orders/ failed after 6 tries
-- 🔴 Data problem in jita: fetch failed: ESI GET /markets/10000002/orders/ failed after 6 tries
-- 🔴 Data problem in rens: fetch failed: ESI GET /markets/10000030/orders/ failed after 6 tries
-- 🟠 Liquidation value is 69% of net worth (3.42B of 4.98B): much of the stock couldn't be sold quickly without a big loss.
+- 🟠 Liquidation value is 51% of net worth (2.54B of 4.98B): much of the stock couldn't be sold quickly without a big loss.
 - 🟠 Typhoon Fleet Issue Capsuleer Elite XX SKIN is 8.4% of net worth (418.51M).
 - 🔵 Buy order for Glorified Unstable Magnetic Field Stabilizer Mutaplasmid in jita hasn't filled at all in 5 days (369.40M tied up).
 - 🔵 Buy order for Mid-grade Centurion Delta in jita hasn't filled at all in 5 days (333.80M tied up).
@@ -22,14 +16,24 @@ _Automatic red flags from this run. The daily analysis must deal with each one: 
 - 🔵 Buy order for Tetryon Exotic Plasma XL in amarr hasn't filled at all in 5 days (98.99M tied up).
 - 🔵 Buy order for Unstable Large Shield Extender Mutaplasmid in amarr hasn't filled at all in 5 days (104.60M tied up).
 
+## 1. Your trading character
+_Read from the game over SSO. Shows how far the skill plan is and what needs your attention._
+
+- **Skill plan:** 1.1% done · 3,994,345 SP to go · about **79.2 days** of training left
+- **Training now:** Broker Relations 2, Broker Relations 3, Broker Relations 4, Accounting 1 · next plan skill: Trade → 5
+- **Unallocated SP:** 0
+- **Skill books still to buy and inject:** Daytrading, Advanced Broker Relations, Wholesale, Infomorph Psychology, Infomorph Synchronizing, Contracting
+- Attributes Cha 27 / Mem 21 / Wil 17 · free remaps 2 · jump clones 0 · total SP 420,335
+- Broker fee in Jita 4-4 with today's skills: 2.7% (goal 1.5%)
+
 ## 2. Practice portfolio
 _The paper trader started with 5.00B on 28 Oct. Net worth counts stock at what we paid; liquidation is the worst case if we dumped everything into buy orders right now._
 
-- **Net worth:** 4.98B (-0.48% in 0.0 days) · liquidation 3.42B
+- **Net worth:** 4.98B (-0.48% in 8.2 days) · liquidation 2.54B
 - **Where the ISK is:** cash 260.10M · locked in buy orders 1.60B · stock 3.11B · on a courier 0.00
 - **Profit so far (realized):** -24.20M. That's completed sales minus every fee paid. Fees: broker 24.20M, relist 0.00, sales tax 0.00, courier 138.00M
 - **Location:** amarr · import hub amarr · shipments on the way 0
-- **What's limiting profit** (near 100% = the bottleneck): order slots 7/113 · ISK in use 95% · your time last plan 13 of 25 min
+- **What's limiting profit** (near 100% = the bottleneck): order slots 7/113 · ISK in use 95% · your time last plan 18 of 25 min
 
 ## 3. Results by strategy
 _station = buy and sell in the same hub · import = buy in Jita, ship, sell elsewhere · spec = bets ahead of patches. Realized stays at 0 until items actually sell._
@@ -44,12 +48,13 @@ _Separate pretend portfolios trading the same market with the same logins but di
 
 | Experiment | Kind | Net worth | Change | Liquidation | Realized profit | What it tests |
 |---|---|---|---|---|---|---|
-| main | main | 4.98B | -0.48% | 69% | -24.20M | current settings (drives INSTRUCTIONS.md) |
-| no_imports | regular | 4.93B | -1.42% | 98% | -71.06M | station trading only: measures what imports add |
-| loose | regular | 4.98B | -0.48% | 69% | -24.20M | lower margin bars (4% station, 7% import): more items, thinner edges |
+| main | main | 4.98B | -0.48% | 51% | -24.20M | current settings (drives INSTRUCTIONS.md) |
+| no_imports | regular | 4.93B | -1.42% | 100% | -71.06M | station trading only: measures what imports add |
 | start_1b | regular | 1.00B | +0.00% | 100% | 0.00 | 1B starting capital, normal sessions: the likely live start |
-| start_1b_more_time | regular | 986.11M | -1.39% | 91% | -13.89M | 1B start with 60-min sessions and 2-3 weekday logins: is extra early time worth it? |
-| bold_dodixie_imports | bold | 5.00B | +0.00% | 100% | 0.00 | BOLD: imports only, to Dodixie (cheapest shipping), no trading inside hubs |
+| start_1b_more_time | regular | 986.11M | -1.39% | 99% | -13.89M | 1B start with 60-min sessions and 2-3 weekday logins: is extra early time worth it? |
+| exports | regular | 5.00B | +0.00% | 100% | 0.00 | open question: also ship cheap goods from the import hub back to Jita on the return trip |
+| seeding | regular | 5.00B | +0.00% | 100% | 0.00 | open question: also seed items that sold out at the import hub (demand is an assumption: 50% comes back) |
+| rotation | bold | 5.00B | +0.00% | 100% | 0.00 | BOLD / open question: two import hubs (Dodixie and Amarr) visited in rotation instead of one |
 
 ## 5. Recent simulated logins
 _When the practice 'you' logged in, which hubs it visited, and how much of the checklist it got through. Partial = the session was cut short on purpose, to test that._
@@ -84,15 +89,73 @@ _Market size = ISK spent per day buying from sell orders in that station. Items 
 
 | Hub | Market size/day | Station items | Station profit/day | Import items | Import profit/day |
 |---|---|---|---|---|---|
+| jita | 4.77T | 75 | 247.89M | - | - |
+| amarr | 520.82B | 24 | 148.07M | 60 | 347.49M |
+| dodixie | 167.00B | 8 | 23.44M | 52 | 230.21M |
+| rens | 44.97B | 2 | 8.44M | 14 | 94.29M |
+| hek | 66.28B | 3 | 7.97M | 27 | 126.20M |
+
+## 8. Best items to trade inside Jita
+_Buy at the highest buy price + 1 tick, sell at the lowest sell price − 1 tick. Margin is after all fees. On top = how much of the time between your logins our order would stay the best price before a rival undercuts it (sell side / buy side). Limited by = which resource it eats most: order slots, ISK, or your time._
+
+| Item | Buy → sell price | Margin | Sold per day | On top (sell/buy) | Profit/day | Limited by |
+|---|---|---|---|---|---|---|
+| Standup Siren II | 20.01M → 38.99M | 83.9% | 0.7 | 24% / 74% | 11.97M | time |
+| Inherent Implants 'Squire' Power Grid Management EG-604 | 75.02M → 123.90M | 55.6% | 0.3 | 24% / 57% | 12.09M | time |
+| Mid-grade Amulet Epsilon | 202.50M → 299.90M | 39.4% | 0.2 | 5% / 3% | 14.72M | time |
+| Zainou 'Deadeye' Medium Hybrid Turret MH-803 | 11.53M → 19.97M | 63.3% | 1.2 | 32% / 65% | 8.89M | time |
+| Compressed Dark Glitter | 316.10k → 390.10k | 15.9% | 227.4 | 18% / 23% | 10.85M | ISK |
+| Compressed Brimful Bitumens | 1.11k → 1.45k | 22.5% | 37589.6 | 6% / 14% | 9.00M | time |
+| Babaroga | 4.69B → 5.63B | 12.6% | 0.1 | 6% / 22% | 48.91M | ISK |
+| 50MN Microwarpdrive II | 3.52M → 4.23M | 12.7% | 17.1 | 12% / 41% | 7.17M | time |
+| Blood Raider NET Resonator | 3.67M → 4.40M | 12.5% | 16.0 | 8% / 2% | 6.79M | time |
+| Electro-Neural Signaller | 112.40M → 131.40M | 9.7% | 1.0 | 3% / 7% | 10.35M | ISK |
+| Antipharmakon Aeolis | 22.52M → 28.80M | 20.2% | 1.1 | 13% / 73% | 4.99M | time |
+| Compressed Fullerite-C28 | 12.70k → 14.73k | 8.8% | 6497.1 | 4% / 9% | 6.54M | ISK |
+
+## 9. Best items to import Jita → Amarr
+_Buy from Jita sellers, ship by courier, sell just under the cheapest seller there. Margin is after shipping and fees. m³ = cargo volume per unit._
+
+| Item | Jita price → sell price | m³ | Margin | Sold per day | On top | Profit/day | Limited by |
+|---|---|---|---|---|---|---|---|
+| Starsi Blast! Classic | 40.73M → 73.89M | 1.0 | 68.0% | 0.6 | 53% | 16.63M | time |
+| Dread Guristas Torpedo Launcher | 95.89M → 136.20M | 20.0 | 30.5% | 0.8 | 85% | 22.64M | ISK |
+| Mid-grade Amulet Epsilon | 300.00M → 415.00M | 1.0 | 27.0% | 0.4 | 14% | 33.65M | ISK |
+| Corelum C-Type Medium Remote Armor Repairer | 29.51M → 46.79M | 10.0 | 46.2% | 1.0 | 42% | 13.70M | time |
+| Gallente Control Tower Small | 121.80M → 161.30M | 2,000.0 | 21.4% | 0.5 | 57% | 13.54M | ISK |
+| Inherent Implants 'Squire' Capacitor Management EM-806 | 548.30M → 723.20M | 1.0 | 20.9% | 0.3 | 65% | 30.08M | ISK |
+| Nanomechanical Microprocessor | 41.32k → 58.88k | 1.0 | 31.0% | 795.3 | 45% | 10.09M | time |
+| Mid-grade Virtue Epsilon | 402.80M → 518.50M | 1.0 | 17.8% | 0.3 | 39% | 19.07M | ISK |
+| Mid-grade Virtue Gamma | 139.10M → 178.70M | 1.0 | 17.6% | 0.7 | 86% | 18.15M | ISK |
+| Federation Navy 50MN Microwarpdrive | 83.75M → 120.30M | 10.0 | 32.0% | 0.3 | 73% | 8.60M | time |
+| Zainou 'Beancounter' Metallurgy MY-705 | 150.40M → 191.20M | 1.0 | 16.3% | 0.4 | 88% | 10.35M | ISK |
+| Mid-grade Virtue Alpha | 74.57M → 127.80M | 1.0 | 58.4% | 0.2 | 20% | 8.80M | time |
+
+## 10. Cornering watchlist (read-only, nothing is traded)
+_Items where buying out the cheapest few sell orders and relisting higher would pay on paper. We only watch them, to learn whether such prices hold or get undercut._
+
+| Hub | Item | Cheapest now | Buy out | Cost | Relist at | Paper profit | Return | Days to sell | Rival updates/day |
+|---|---|---|---|---|---|---|---|---|---|
+| amarr | Inherent Implants 'Squire' Capacitor Systems Operation EO-603 | 21.29M | 3 orders / 17 units | 364.22M | 38.99M | 266.30M | 73% | 3.6 | 1.8 |
+| jita | Inherent Implants 'Squire' Capacitor Systems Operation EO-602 | 7.00M | 1 orders / 45 units | 315.00M | 11.85M | 192.25M | 61% | 4.8 | 0.8 |
+| dodixie | Tetrimon Resistance Booster IV | 15.00M | 7 orders / 8 units | 171.96M | 47.85M | 192.18M | 112% | 8.4 | 2.1 |
+| jita | Oxidative Stress - Unlimited | 39.99M | 6 orders / 6 units | 301.66M | 84.10M | 178.34M | 59% | 9.7 | 1.3 |
+| jita | Mid-grade Centurion Alpha | 78.00M | 2 orders / 5 units | 392.00M | 118.00M | 169.24M | 43% | 6.5 | 1.3 |
+| jita | Capital Trinary State Processor | 64.88k | 1 orders / 5,849 units | 379.48M | 97.17k | 161.16M | 42% | 6.4 | 0.2 |
+| dodixie | Tetrimon Resistance Booster III | 1.20M | 10 orders / 13 units | 36.57M | 13.89M | 135.20M | 370% | 7.9 | 2.1 |
+| jita | Women's 'Hover' Tights (opaque black) | 75.93M | 5 orders / 5 units | 385.98M | 108.90M | 131.98M | 34% | 9.3 | 1.3 |
+| jita | Rattlesnake King's Ransom Luecin SKIN | 40.00M | 2 orders / 7 units | 299.90M | 64.16M | 127.33M | 42% | 6.7 | 0.3 |
+| jita | Zainou 'Snapshot' Light Missiles LM-902 | 7.00M | 3 orders / 54 units | 396.05M | 10.18M | 126.87M | 32% | 8.5 | 0.5 |
 
 ## 11. Data health
 _Is the market data flowing? Orders = orders seen in the station · Hours today = hours of data collected since 00:00 UTC · Trades seen = trades inferred since the last snapshot. Any note means something went wrong._
 
 | Hub | Orders | Hours today | Trades seen | Note |
 |---|---|---|---|---|
-| jita | 0 | 0.0 | 0 | fetch failed: ESI GET /markets/10000002/orders/ failed after 6 tries |
-| amarr | 0 | 0.0 | 0 | fetch failed: ESI GET /markets/10000043/orders/ failed after 6 tries |
-| dodixie | 0 | 0.0 | 0 | fetch failed: ESI GET /markets/10000032/orders/ failed after 6 tries |
-| rens | 0 | 0.0 | 0 | fetch failed: ESI GET /markets/10000030/orders/ failed after 6 tries |
-| hek | 0 | 0.0 | 0 | fetch failed: ESI GET /markets/10000042/orders/ failed after 6 tries |
-| character | 0 | 0.0 | 0 | SSO read failed: RuntimeError |
+| jita | 328,479 | 24.7 | 9,326 |  |
+| amarr | 127,889 | 24.7 | 3,069 |  |
+| dodixie | 68,353 | 24.7 | 1,706 |  |
+| rens | 31,934 | 24.7 | 472 |  |
+| hek | 41,361 | 24.7 | 278 |  |
+
+_This run took 39 s (market data 20 s, stats and character 1 s, experiments 15 s, main portfolio 2 s, cornering scan 1 s, ESI back-off 0 s; 965 ESI calls). A slow run usually means ESI rate limits (back-off) or a first-time lookup of many item types._

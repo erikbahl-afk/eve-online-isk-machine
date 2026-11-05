@@ -3,15 +3,13 @@
 
 # Session checklist
 
-**Updated:** Thu 05 Nov 13:49 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 18 · **Est. time:** 13 min. Work top to bottom; stop any time.  
+**Updated:** Thu 05 Nov 15:02 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 17 · **Est. time:** 18 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
-
-_Warming up: 0 of 20 hours of market data collected._
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
 
-_Left out 3 small steps worth less than 995.16k per minute of your time (0.02% of net worth per minute)._
+_Left out 6 small steps worth less than 995.16k per minute of your time (0.02% of net worth per minute)._
 
 Each hub's steps come in **priority blocks**: finish Block 1 before anything else, and stop wherever your time runs out. Within a block, steps follow the in-game windows for speed.
 
@@ -24,74 +22,69 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 1 | ☐ Black Market 'Valdimar' Drone Navigation DN-701 | 3 | **170,560,000** | 131,200,000 | - |
-| 2 | ☐ Golem Exoplanets Hunter SKIN | 3 | **175,370,000** | 134,900,000 | - |
-| 3 | ☐ Standup M-Set Basic Small Ship Manufacturing Material Efficiency I | 1 | **451,490,000** | 347,300,000 | - |
-| 4 | ☐ Typhoon Fleet Issue Capsuleer Elite XX SKIN | 1 | **565,890,000** | 435,300,000 | - |
+| 1 | ☐ Black Market 'Valdimar' Drone Navigation DN-701 | 3 | **249,800,000** | 131,200,000 | 249,900,000 |
+| 2 | ☐ Capital I-a Enduring Armor Repairer | 3 | **199,800,000** | 91,990,000 | 199,900,000 |
+| 3 | ☐ Dread Guristas Rocket Launcher | 6 | **99,480,000** | 48,990,000 | 99,490,000 |
+| 4 | ☐ Standup M-Set Basic Small Ship Manufacturing Material Efficiency I | 1 | **699,600,000** | 347,300,000 | 699,700,000 |
+| 5 | ☐ Typhoon Fleet Issue Capsuleer Elite XX SKIN | 1 | **815,900,000** | 435,300,000 | 816,000,000 |
 
-#### Cancel buy orders
-_My Orders → Buying. Right-click → Cancel Order._
-
-| # | Item | Your price |
-|---|---|---|
-| 5 | ☐ Corelum B-Type 10MN Afterburner | 95,500,000 |
-| 6 | ☐ Sentient Damage Control | 313,000,000 |
-| 7 | ☐ Standup Guided Bomb Launcher I | 95,030,000 |
-
-### Block 2 · should do · about 3 min
-_Short on time? Skip to the jump (step 16): the next hub's Block 1 is worth more per minute than the rest of this hub._
+### Block 2 · should do · about 2 min
+_Short on time? Skip to the jump (step 11): the next hub's Block 1 is worth more per minute than the rest of this hub._
 
 #### List new stock
 _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Duration 3 months._
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 8 | ☐ Capital I-a Enduring Armor Repairer | 3 | **119,587,000** | 91,990,000 | - |
-| 9 | ☐ Dread Guristas Rocket Launcher | 6 | **63,687,000** | 48,990,000 | - |
-| 10 | ☐ Gravid Vorton Tuning System Mutaplasmid | 5 | **73,463,000** | 56,510,000 | - |
-| 11 | ☐ Low-grade Crystal Epsilon | 2 | **200,720,000** | 154,400,000 | - |
+| 6 | ☐ Golem Exoplanets Hunter SKIN | 3 | **175,370,000** | 134,900,000 | - |
+| 7 | ☐ Low-grade Crystal Epsilon | 2 | **247,700,000** | 154,400,000 | 247,800,000 |
+| 8 | ☐ Men's 'Precision' Boots | 5 | **99,990,000** | 51,550,000 | 100,000,000 |
 
 ### Block 3 · if there's time · about 2 min
-_Short on time? Skip to the jump (step 16): the next hub's Block 1 is worth more per minute than the rest of this hub._
+_Short on time? Skip to the jump (step 11): the next hub's Block 1 is worth more per minute than the rest of this hub._
 
 #### List new stock
 _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Duration 3 months._
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 12 | ☐ 'Cartel' Power Diagnostic System I | 7 | **40,794,000** | 31,380,000 | - |
-| 13 | ☐ Men's 'Precision' Boots | 5 | **67,015,000** | 51,550,000 | - |
+| 9 | ☐ 'Cartel' Power Diagnostic System I | 7 | **68,300,000** | 31,380,000 | 68,310,000 |
+| 10 | ☐ Gravid Vorton Tuning System Mutaplasmid | 5 | **89,990,000** | 56,510,000 | 90,000,000 |
 
-#### Cancel buy orders
-_My Orders → Buying. Right-click → Cancel Order._
-
-| # | Item | Your price |
-|---|---|---|
-| 14 | ☐ Tetryon Exotic Plasma XL | 6,602 |
-| 15 | ☐ Unstable Large Shield Extender Mutaplasmid | 52,300,000 |
-
-## 16. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
+## 11. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
 _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
 
 ## At Jita IV - Moon 4 - Caldari Navy Assembly Plant
 
-### Block 1 · must do · about 1 min
+### Block 1 · must do · about 3 min
 
-#### Cancel buy orders
-_My Orders → Buying. Right-click → Cancel Order._
+#### New buy orders
+_Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
-| # | Item | Your price |
-|---|---|---|
-| 17 | ☐ Glorified Unstable Magnetic Field Stabilizer Mutaplasmid | 184,700,000 |
+| # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
+|---|---|---|---|---|---|
+| 12 | ☐ Compressed Brimful Bitumens | 86 | **1,109** | 1,278 | 1,108 |
+| 13 | ☐ Inherent Implants 'Squire' Power Grid Management EG-604 | 1 | **75,020,000** | 109,500,000 | 75,010,000 |
+| 14 | ☐ Standup Siren II | 3 | **20,010,000** | 34,470,000 | 20,000,000 |
 
-### Block 2 · should do · about 1 min
+### Block 2 · should do · about 2 min
 
-#### Cancel buy orders
-_My Orders → Buying. Right-click → Cancel Order._
+#### New buy orders
+_Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
-| # | Item | Your price |
-|---|---|---|
-| 18 | ☐ Mid-grade Centurion Delta | 166,900,000 |
+| # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
+|---|---|---|---|---|---|
+| 15 | ☐ Federation Navy Antimatter Charge L | 1 | **953.60** | 1,147 | 953.50 |
+| 16 | ☐ Zainou 'Deadeye' Medium Hybrid Turret MH-803 | 2 | **11,530,000** | 17,650,000 | 11,520,000 |
+
+### Block 3 · if there's time · about 1 min
+
+#### New buy orders
+_Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
+
+| # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
+|---|---|---|---|---|---|
+| 17 | ☐ Compressed Omber | 1 | **119.70** | 121.70 | 119.60 |
 
 ---
-Wallet 260.10M · escrow 1.60B · stock 3.11B · in transit 0.00 · net worth 4.98B (liquidation 3.42B)
+Wallet 260.10M · escrow 1.60B · stock 3.11B · in transit 0.00 · net worth 4.98B (liquidation 2.54B)

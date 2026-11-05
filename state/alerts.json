@@ -1,45 +1,9 @@
 [
  {
-  "key": "data:amarr",
-  "severity": "high",
-  "since": 1793915372.8054109,
-  "text": "Data problem in amarr: fetch failed: ESI GET /markets/10000043/orders/ failed after 6 tries"
- },
- {
-  "key": "data:character",
-  "severity": "high",
-  "since": 1793915372.8054109,
-  "text": "Data problem in character: SSO read failed: RuntimeError"
- },
- {
-  "key": "data:dodixie",
-  "severity": "high",
-  "since": 1793915372.8054109,
-  "text": "Data problem in dodixie: fetch failed: ESI GET /markets/10000032/orders/ failed after 6 tries"
- },
- {
-  "key": "data:hek",
-  "severity": "high",
-  "since": 1793915372.8054109,
-  "text": "Data problem in hek: fetch failed: ESI GET /markets/10000042/orders/ failed after 6 tries"
- },
- {
-  "key": "data:jita",
-  "severity": "high",
-  "since": 1793915372.8054109,
-  "text": "Data problem in jita: fetch failed: ESI GET /markets/10000002/orders/ failed after 6 tries"
- },
- {
-  "key": "data:rens",
-  "severity": "high",
-  "since": 1793915372.8054109,
-  "text": "Data problem in rens: fetch failed: ESI GET /markets/10000030/orders/ failed after 6 tries"
- },
- {
   "key": "liquidation",
   "severity": "medium",
   "since": 1793915372.8054109,
-  "text": "Liquidation value is 69% of net worth (3.42B of 4.98B): much of the stock couldn't be sold quickly without a big loss."
+  "text": "Liquidation value is 51% of net worth (2.54B of 4.98B): much of the stock couldn't be sold quickly without a big loss."
  },
  {
   "key": "position:77169",
