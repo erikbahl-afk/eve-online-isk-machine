@@ -208,3 +208,20 @@ def test_courier_respects_destination():
     c2 = sim.courier("jita", "dodixie", [8], {8: 1.0}, 0)
     sim.arrivals(c2["arrive"] + 1)
     assert pf["inventory"]["dodixie"]["8"]["tag"] == "seed"
+
+
+def test_scoreboard(tmp_path):
+    import json
+
+    from trader import scoreboard
+    pf = new_portfolio(CFG, 1000.0)
+    pf["pnl"].update(broker=10.0, buys=100.0, realized=-10.0)
+    pf["per_type"] = {f"jita:{i}": {"realized": float(r)} for i, r in enumerate([-5, 1, 2, 9])}
+    (tmp_path / "portfolio.json").write_text(json.dumps(pf))
+    (tmp_path / "metrics.csv").write_text("t,cash,escrow,stock_cost,transit,nw_book,nw_liquid,realized,orders,esi_calls\n"
+                                          "1000,100,0,0,0,100,100,0,0,0\n2000,50,0,60,0,110,55,-10,1,0\n")
+    (tmp_path / "ledger.csv").write_text("t,event,hub,type_id,qty,price,cash_delta,note\n"
+                                         "1500,buy_fill,jita,1,1,1,-1,o1\n1500,broker,jita,1,0,0,-1,bid\n")
+    s = scoreboard.score("x", tmp_path, 1000.0)
+    assert abs(s["ret"] - 10.0) < 1e-9 and abs(s["liq"] - 0.5) < 1e-9 and s["trades"] == 1
+    assert s["worst"] == (-5.0, "jita:0") and s["trimmed"] == 3.0 and abs(s["fees"] - 0.1) < 1e-9

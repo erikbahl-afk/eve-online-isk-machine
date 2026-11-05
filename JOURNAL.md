@@ -151,3 +151,21 @@
   recently visited next). Retired `loose` (identical to main) and `bold_dodixie_imports`. Still at most 6.
 - Code: generic shipping bundles (any src → dst, several per session), items remember their destination, couriers
   carry each item's tag, and portfolios track hub visits.
+
+## 2026-11-05 · experiments (Thursday)
+- New `python3 -m trader.scoreboard [--since YYYY-MM-DD]`: main vs variants over the same window (return, realized,
+  liquidation, unsold, worst item, fees/turnover, trades, realized without best+worst item). Tested.
+- Since 28 Oct: main -0.48% (realized -24M, all fees; liq 51%), no_imports -1.42% (-71M; fees 47% of turnover).
+  start_1b_more_time -1.4% (11 buy fills, nothing sold yet). start_1b, exports, seeding, rotation started today and have no
+  login yet (first sim login Thu 19:39 PT). Verdict for all six: **extend** (no sale anywhere yet; nothing to judge).
+  Slots 6/6 (bold = rotation, flex = start_1b_more_time). Success measures: exports/seeding = realized ahead of main
+  with liq ≥ main's; rotation = return ahead of main over 2 weeks at equal liq; start_1b pair = weeks to 4B, and whether the
+  extra-time arm leads by more than its extra minutes are worth.
+- Finding: broker fee is charged on the full bid at placement, and big thin-item bids barely fill: no_imports paid 71M
+  broker on 4.7B of bids that filled 150M (3%) in 7 days. Idea for the next free slot (or Monday/Sunday): probe a
+  minimum expected fill rate per bid, or smaller bid quantities on rare items.
+- Alerts. Liquidation 51%: known (yesterday's import guards); acceptable until those imports list tonight and get a week.
+  Typhoon FI SKIN 8.4%: over 8% only because courier cost entered its basis; Amarr best bid 16M vs 418M cost, the only
+  Amarr ask is 816M. Dumping would lose 400M, so hold and list; no new SKINs (excluded). Recheck Saturday (risk day).
+  7 idle buys (5 days): no sim login since 31 Oct; live books show 3 outbid (85668 Jita, 18688 and 41202 Amarr) and 4 still
+  top in thin markets. Tonight's login reprices. Alerts fine as is.
