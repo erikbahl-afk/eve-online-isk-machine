@@ -324,7 +324,7 @@ type_id,name,volume,group_id
 13974,True Sansha Explosive Armor Hardener,,
 13976,Dark Blood Explosive Armor Hardener,,
 13978,True Sansha Kinetic Armor Hardener,,
-13982,True Sansha Thermal Armor Hardener,,
+13982,True Sansha Thermal Armor Hardener,5,328
 13984,Dark Blood Thermal Armor Hardener,,
 14001,True Sansha Multispectrum Coating,,
 14041,,5,
@@ -387,7 +387,7 @@ type_id,name,volume,group_id
 15615,Imperial Navy General Insignia I,0.1,
 15632,Republic Fleet Commander Insignia I,0.1,409
 15661,Republic Fleet Commander Insignia II,,
-15669,Imperial Navy General Insignia II,,
+15669,Imperial Navy General Insignia II,0.1,409
 15675,Caldari Navy Co-Processor,5,
 15681,Caldari Navy Ballistic Control System,5,367
 15683,Republic Fleet Ballistic Control System,5,
@@ -877,7 +877,7 @@ type_id,name,volume,group_id
 27924,,75,
 28201,Light Armor Maintenance Bot II,5,
 28213,,25,
-28272,'Augmented' Hammerhead,10,
+28272,'Augmented' Hammerhead,10,100
 28276,,5,
 28280,'Augmented' Hornet,5,
 28292,'Augmented' Praetor,25,
@@ -1454,7 +1454,7 @@ type_id,name,volume,group_id
 60289,,10,
 60291,Variegated Asteroid Mining Crystal Type A I,6,
 60292,,6,
-60294,Variegated Asteroid Mining Crystal Type A II,10,
+60294,Variegated Asteroid Mining Crystal Type A II,10,482
 60297,,6,
 60300,,10,
 60311,,10,

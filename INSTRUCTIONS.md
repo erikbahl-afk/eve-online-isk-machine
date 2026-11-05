@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Thu 05 Nov 15:02 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 17 · **Est. time:** 18 min. Work top to bottom; stop any time.  
+**Updated:** Thu 05 Nov 15:38 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 16 · **Est. time:** 16 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -56,16 +56,15 @@ _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Ne
 
 ## At Jita IV - Moon 4 - Caldari Navy Assembly Plant
 
-### Block 1 · must do · about 3 min
+### Block 1 · must do · about 2 min
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 12 | ☐ Compressed Brimful Bitumens | 86 | **1,109** | 1,278 | 1,108 |
-| 13 | ☐ Inherent Implants 'Squire' Power Grid Management EG-604 | 1 | **75,020,000** | 109,500,000 | 75,010,000 |
-| 14 | ☐ Standup Siren II | 3 | **20,010,000** | 34,470,000 | 20,000,000 |
+| 12 | ☐ Inherent Implants 'Squire' Power Grid Management EG-604 | 1 | **75,020,000** | 109,500,000 | 75,010,000 |
+| 13 | ☐ Standup Siren II | 3 | **20,010,000** | 34,470,000 | 20,000,000 |
 
 ### Block 2 · should do · about 2 min
 
@@ -74,8 +73,8 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 15 | ☐ Federation Navy Antimatter Charge L | 1 | **953.60** | 1,147 | 953.50 |
-| 16 | ☐ Zainou 'Deadeye' Medium Hybrid Turret MH-803 | 2 | **11,530,000** | 17,650,000 | 11,520,000 |
+| 14 | ☐ Compressed Brimful Bitumens | 86 | **1,110** | 1,278 | 1,109 |
+| 15 | ☐ Zainou 'Deadeye' Medium Hybrid Turret MH-803 | 2 | **11,530,000** | 17,650,000 | 11,520,000 |
 
 ### Block 3 · if there's time · about 1 min
 
@@ -84,7 +83,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 17 | ☐ Compressed Omber | 1 | **119.70** | 121.70 | 119.60 |
+| 16 | ☐ Federation Navy Antimatter Charge L | 1 | **953.90** | 1,147 | 953.80 |
 
 ---
-Wallet 260.10M · escrow 1.60B · stock 3.11B · in transit 0.00 · net worth 4.98B (liquidation 2.54B)
+Wallet 260.10M · escrow 1.60B · stock 3.11B · in transit 0.00 · net worth 4.98B (liquidation 2.55B)
