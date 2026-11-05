@@ -76,31 +76,44 @@ def collect(cfg, esi, now, day):
     return tops, books, prints, intervals, health
 
 
-def load_types():
-    path = DATA / "types.csv"
-    if not path.exists():
-        return {}, {}
-    df = pd.read_csv(path)
-    if "volume" not in df:
-        df["volume"] = np.nan
-    return ({int(t): str(n) for t, n in zip(df.type_id, df.name) if isinstance(n, str) and n},
-            {int(t): float(v) for t, v in zip(df.type_id, df.volume) if not pd.isna(v)})
+class Types:
+    """Cached type facts: names, packaged volume, group, and group -> category."""
+
+    def __init__(self):
+        path = DATA / "types.csv"
+        df = pd.read_csv(path) if path.exists() else pd.DataFrame(columns=["type_id", "name", "volume", "group_id"])
+        for c in ("volume", "group_id"):
+            if c not in df:
+                df[c] = np.nan
+        self.names = {int(t): str(n) for t, n in zip(df.type_id, df.name) if isinstance(n, str) and n}
+        self.vols = {int(t): float(v) for t, v in zip(df.type_id, df.volume) if not pd.isna(v)}
+        self.groups = {int(t): int(g) for t, g in zip(df.type_id, df.group_id) if not pd.isna(g)}
+        self.cats = {int(k): v for k, v in load_json(DATA / "groups.json", {}).items()}
+
+    def save(self):
+        ids = sorted(set(self.names) | set(self.vols) | set(self.groups))
+        pd.DataFrame({"type_id": ids, "name": [self.names.get(i, "") for i in ids],
+                      "volume": [self.vols.get(i, np.nan) for i in ids],
+                      "group_id": [self.groups.get(i, np.nan) for i in ids]}).to_csv(DATA / "types.csv", index=False,
+                                                                                      float_format="%.10g")
+        save_json(DATA / "groups.json", {str(k): v for k, v in self.cats.items()})
+
+    def category(self, ty):
+        return self.cats.get(self.groups.get(int(ty), -1))
 
 
-def save_types(names, vols):
-    ids = sorted(set(names) | set(vols))
-    pd.DataFrame({"type_id": ids, "name": [names.get(i, "") for i in ids],
-                  "volume": [vols.get(i, np.nan) for i in ids]}).to_csv(DATA / "types.csv", index=False)
-
-
-def lookup(esi, names, vols, need_names, need_vols):
+def lookup(esi, types, need_names, need_info):
     try:
-        miss = set(need_names) - set(names)
+        miss = set(int(i) for i in need_names) - set(types.names)
         if miss:
-            names.update(esi.names(miss))
-        miss = set(need_vols) - set(vols)
+            types.names.update(esi.names(miss))
+        miss = set(int(i) for i in need_info) - (set(types.vols) & set(types.groups))
         if miss:
-            vols.update(esi.volumes(miss))
+            for ty, (vol, grp) in esi.type_info(miss).items():
+                types.vols[ty], types.groups[ty] = vol, grp
+        miss = {types.groups[i] for i in need_info if int(i) in types.groups} - set(types.cats)
+        if miss:
+            types.cats.update(esi.group_categories(miss))
     except Exception as e:
         print("type lookup failed:", e, file=sys.stderr)
 
@@ -144,9 +157,10 @@ def main():
     stats = {h: market.build_stats(h, frames, today_frame) for h in tops}
     start_w = logons.start_profile(cfg, now)
 
-    names, vols = load_types()
+    types = Types()
+    names, vols = types.names, types.vols
     shared = {"esi": esi, "now": now, "tops": tops, "books": books, "prints": prints, "intervals": intervals,
-              "stats": stats, "start_w": start_w, "names": names, "vols": vols}
+              "stats": stats, "start_w": start_w, "names": names, "vols": vols, "types": types}
     variants = {}
     for v in cfg.get("variants", []):
         vcfg = merge(cfg, {k: val for k, val in v.items() if k not in ("name", "note")})
@@ -156,8 +170,8 @@ def main():
     r = run_portfolio(cfg, STATE, shared)
     pf, val, plan = r["pf"], r["val"], r["plan"]
     corner = corners.scan_all(cfg, Fees(cfg), books, stats, tops, val["nw_book"], today)
-    lookup(esi, names, vols, corner.type_id.head(15) if len(corner) else [], [])
-    save_types(names, vols)
+    lookup(esi, types, corner.type_id.head(15) if len(corner) else [], [])
+    types.save()
 
     hub = cfg["strategy"]["hub"]
     hours = float(stats[hub].hours.max()) if hub in stats and len(stats[hub]) else 0.0
@@ -216,16 +230,24 @@ def run_portfolio(cfg, sdir, sh):
     val = sim.valuation(tops)
     spec = load_json(STATE / "spec.json", [])
     spec_types = {int(e["type_id"]) for e in spec if e.get("active", True)}
+    types = sh["types"]
     station = {h: candidates(cfg, fees, stats[h], tops[h], sh["start_w"], spec_types) for h in tops}
-    imports_by_hub = {}
+    pool = {int(i) for df in station.values() for i in df.index[:300]}
+    rough_imports = {}
     if hub in tops:
         for h in tops:
             if h == hub or h not in cfg["routes"]:
                 continue
-            args = (cfg, fees, tops[hub], stats[h], tops[h])
-            rough = import_candidates(*args, vols, cfg["routes"][h], sh["start_w"], spec_types)
-            lookup(sh["esi"], names, vols, [], rough.index[:150])
-            imports_by_hub[h] = import_candidates(*args, vols, cfg["routes"][h], sh["start_w"], spec_types)
+            rough_imports[h] = import_candidates(cfg, fees, tops[hub], stats[h], tops[h], vols, cfg["routes"][h],
+                                                 sh["start_w"], spec_types)
+            pool |= {int(i) for i in rough_imports[h].index[:150]}
+    lookup(sh["esi"], types, [], pool)
+    # cosmetics (SKINs, clothing) are too thin and unpredictable to stock
+    banned = {ty for ty in pool if types.category(ty) in cfg["strategy"]["exclude_categories"]}
+    skip = spec_types | banned
+    station = {h: candidates(cfg, fees, stats[h], tops[h], sh["start_w"], skip) for h in tops}
+    imports_by_hub = {h: import_candidates(cfg, fees, tops[hub], stats[h], tops[h], vols, cfg["routes"][h],
+                                           sh["start_w"], skip) for h in rough_imports}
     pf["import_hub"] = choose_import_hub(cfg, imports_by_hub, pf.get("import_hub"))
     imports = imports_by_hub.get(pf["import_hub"], pd.DataFrame())
 
@@ -235,7 +257,7 @@ def run_portfolio(cfg, sdir, sh):
         need |= {int(k) for k in h}
     for df in list(station.values()) + list(imports_by_hub.values()):
         need |= {int(i) for i in df.index[:60]}
-    lookup(sh["esi"], names, vols, need, [])
+    lookup(sh["esi"], types, need, [])
 
     plan = Planner({"cfg": cfg, "fees": fees, "sim": sim, "t": now, "nw": val["nw_book"], "names": names,
                     "tops": tops, "stats": stats, "books": books, "vols": vols, "start_w": sh["start_w"],

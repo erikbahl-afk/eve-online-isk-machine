@@ -80,8 +80,11 @@ def test_pipeline(tmp_path, monkeypatch):
         def names(self, ids):
             return {i: f"Item {i}" for i in ids}
 
-        def volumes(self, ids):
-            return {i: 5.0 for i in ids}
+        def type_info(self, ids):
+            return {i: (5.0, 1000 + i % 3) for i in ids}
+
+        def group_categories(self, gids):
+            return {g: 7 for g in gids}  # 7 = Module
 
     monkeypatch.setattr(run, "ESI", FakeESI)
     monkeypatch.setattr(run.time, "time", lambda: clock["t"])

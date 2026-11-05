@@ -132,3 +132,19 @@ def test_corner_scan():
     out = corners.scan(CFG, Fees(CFG), "jita", book, stats, pd.DataFrame(columns=["best_ask"]), 5e9)
     r = out.iloc[0]
     assert r.orders == 3 and r.cost == 303e6 and r.relist == tick_down(150e6) and r.roi > 0.3
+
+
+def test_import_exit_check():
+    from trader.strategy import import_candidates
+    stats = pd.DataFrame({"A": [5.0], "vwap_a": [2e6], "hours": [100.0], "trend_a": [1.0],
+                          **{f"lam_a{b}": [0.0] for b in range(4)}}, index=[7])
+    src = pd.DataFrame({"best_ask": [1e6], "best_bid": [0.9e6]}, index=[7])
+    w = np.ones(24) / 24
+    route = CFG["routes"]["dodixie"]
+
+    def run(dst_bid):
+        dst = pd.DataFrame({"best_ask": [2e6], "best_bid": [dst_bid]}, index=[7])
+        return import_candidates(CFG, Fees(CFG), src, stats, dst, {7: 1.0}, route, w)
+
+    assert len(run(0.9e6)) == 1      # a fair buy order at the destination: OK to import
+    assert len(run(0.05e6)) == 0     # no real buyers if it doesn't sell (the SKIN case): skip

@@ -109,3 +109,11 @@
   reset, meaning all capsuleers can complete it again, for rewards and achievements". CCP's advice: claim unfinished
   rewards before the move. The user will fully complete it before and after (2 × 1.5M SP), so expect the trader ready
   around late November or early December instead of late January. Pull the go-live tasks forward to mid-November.
+
+## 2026-11-05 · liquidation gap → import guards
+- Practice book value 4.98B, liquidation 2.54B. The 3.1B of Amarr imports would fetch about 0.7B if dumped: the picker had
+  chosen SKINs (best bids 0–4% of cost), clothing (1%), a Standup rig (7%) and rare modules (19–46%). Their Amarr asks
+  are about 2× our cost, so they're big winners only if they sell. Nothing has listed yet (next simulated login Thu evening).
+- Fixes: SKIN and Apparel categories excluded; imports need destination bid × (1 − tax) ≥ 60% of all-in cost
+  (`min_exit_frac`). Existing stock is left alone: next week shows whether those thin items actually sell.
+- Pipeline: 31 runs since cron-job.org went live, average gap 1.2 h, max 2.0 h.

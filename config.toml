@@ -70,6 +70,8 @@ stale_loss = 0.03
 max_price_ratio = 2.5        # skip if ask/bid wider than this (dead or manipulated market)
 vwap_band = 0.25             # recent trade prices must be within +-25% of our target prices
 exclude_types = [44992]      # PLEX (global market)
+exclude_categories = [30, 91] # Apparel, SKINs: cosmetic, thin, unpredictable
+min_exit_frac = 0.6          # imports: destination buy orders must return >=60% of cost incl. shipping
 max_trend_drop = 0.10        # skip new buys if trade prices fell >10% vs the prior days
 instant_sell_ratio = 0.97    # sell straight into buy orders if that nets >= 97% of listing (saves a slot,
                              # a reprice cycle and the risk of being undercut)

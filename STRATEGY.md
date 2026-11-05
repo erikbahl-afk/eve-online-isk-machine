@@ -55,6 +55,9 @@ last two session gaps, since shelves only get restocked at logins.
   buying out the cheap sell orders can't bait us into raising our buy caps.
 - **Falling prices:** no new buys of items whose trade price dropped >10% over the last ~2 days
   compared with the days before.
+- **A way out (imports):** only import an item if the destination's best buy order would still return
+  ≥60% of what we paid including shipping. Thin, high-markup items can't trap the bankroll.
+- **No cosmetics:** SKINs and clothing (categories 91 and 30) are excluded everywhere: thin, irregular buyers.
 - **Take the bid:** if selling straight into a buy order nets at least 97% of what listing would,
   sell immediately. It saves a slot, a repricing cycle and the risk of being undercut.
 

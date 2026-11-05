@@ -113,6 +113,8 @@ def import_candidates(cfg, fees, src_top, dst_stats, dst_top, vols, route, start
         & (df.sell / df.src_ask <= s["max_price_ratio"])
         & df.vwap_a.between(df.sell * (1 - band), df.sell * (1 + band))
         & ~(df.trend_a < 1 - s["max_trend_drop"])
+        # way out if it doesn't sell: the destination's best buy order must return most of the all-in cost
+        & (df.best_bid * (1 - fees.tax) >= s["min_exit_frac"] * (df.src_ask + df.ship_unit))
     )
     return df[ok].sort_values("profit_day", ascending=False)
 
