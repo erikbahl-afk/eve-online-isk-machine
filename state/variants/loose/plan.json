@@ -1,6 +1,6 @@
 {
  "est_secs": 1140,
- "generated": 1793871012.5606837,
+ "generated": 1793872829.7532074,
  "hub": "amarr",
  "location": "amarr",
  "other": "jita",
@@ -216,18 +216,18 @@
    "value": 313000000.0
   },
   {
-   "cap": 53.36,
+   "cap": 53.34,
    "group": 6,
    "hub": "amarr",
    "kind": "new_buy",
    "n": 16,
-   "qty": 14,
+   "qty": 5,
    "ref": 44.43,
    "secs": 60,
    "tag": "station",
    "target": 44.44,
    "type_id": 36,
-   "value": 3345596.569767067
+   "value": 3350760.0180016095
   },
   {
    "group": 0,
@@ -258,13 +258,13 @@
    "hub": "jita",
    "kind": "new_buy",
    "n": 19,
-   "qty": 2539,
-   "ref": 1238.0,
+   "qty": 2519,
+   "ref": 1248.0,
    "secs": 60,
    "tag": "station",
-   "target": 1239.0,
+   "target": 1249.0,
    "type_id": 62463,
-   "value": 8140036.391902036
+   "value": 7739775.051429797
   },
   {
    "cap": 111800000.0,
@@ -278,7 +278,7 @@
    "tag": "station",
    "target": 75020000.0,
    "type_id": 3257,
-   "value": 11256571.117393618
+   "value": 11258430.852017086
   },
   {
    "cap": 35500000.0,
@@ -292,7 +292,7 @@
    "tag": "station",
    "target": 20010000.0,
    "type_id": 47136,
-   "value": 13124256.433823945
+   "value": 13145511.120102098
   }
  ]
 }

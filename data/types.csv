@@ -119,7 +119,7 @@ type_id,name,volume
 3962,Customs Office Gantry,7600.0
 3966,Men's 'Precision' Boots,0.1
 3989,Large Plasma Smartbomb II,
-3995,,50.0
+3995,Large EMP Smartbomb II,50.0
 4051,,5.0
 4144,Women's 'Structure' Dress (black/white),0.1
 4147,Dual Heavy Pulse Laser II,20.0
@@ -670,7 +670,7 @@ type_id,name,volume
 22111,Mid-grade Crystal Gamma,1.0
 22112,Mid-grade Crystal Omega,1.0
 22119,,1.0
-22120,Mid-grade Amulet Beta,
+22120,Mid-grade Amulet Beta,1.0
 22121,Mid-grade Amulet Delta,1.0
 22122,Mid-grade Amulet Epsilon,1.0
 22123,Mid-grade Amulet Gamma,1.0
