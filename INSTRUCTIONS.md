@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Wed 04 Nov 21:18 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Wed 04 Nov 22:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 21 · **Est. time:** 19 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -43,7 +43,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 16 | ☐ Mexallon | 11 | **44.28** | 52.37 | 44.27 |
+| 16 | ☐ Mexallon | 1 | **44.34** | 52.37 | 44.33 |
 
 ## 17. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
 _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
@@ -62,8 +62,8 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 19 | ☐ Angel NET Resonator | 3 | **2,246,000** | 2,407,000 | 2,245,000 |
-| 20 | ☐ Compressed Zeolites | 1,160 | **1,231** | 1,366 | 1,230 |
+| 19 | ☐ Angel NET Resonator | 3 | **2,247,000** | 2,407,000 | 2,246,000 |
+| 20 | ☐ Compressed Zeolites | 1,157 | **1,232** | 1,365 | 1,231 |
 | 21 | ☐ Inherent Implants 'Squire' Power Grid Management EG-604 | 2 | **75,020,000** | 109,800,000 | 75,010,000 |
 
 ---

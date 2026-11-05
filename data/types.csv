@@ -67,7 +67,7 @@ type_id,name,volume
 2571,Gravimetric ECM II,
 2613,Mjolnir Fury Light Missile,
 2801,Nova Javelin Torpedo,0.05
-2867,,50.0
+2867,Broadcast Node,50.0
 2868,Integrity Response Drones,
 2870,Organic Mortar Applicators,
 2875,Sterile Conduits,
@@ -173,6 +173,7 @@ type_id,name,volume
 11186,Malediction,2500.0
 11188,Anathema,2500.0
 11192,Buzzard,2500.0
+11194,,2500.0
 11196,,2500.0
 11198,Stiletto,
 11200,,2500.0
@@ -424,7 +425,7 @@ type_id,name,volume
 16644,Platinum,0.05
 16646,Mercury,0.05
 16647,,0.05
-16648,,0.05
+16648,Hafnium,0.05
 16650,Dysprosium,0.05
 16651,,0.05
 16653,Thulium,
@@ -1018,7 +1019,7 @@ type_id,name,volume
 33155,Harbinger Navy Issue,15000.0
 33157,,15000.0
 33201,,5.0
-33359,,1.0
+33359,Photonic Metamaterials,1.0
 33360,Terahertz Metamaterials,1.0
 33361,Plasmonic Metamaterials,1.0
 33362,Nonlinear Metamaterials,1.0
@@ -1169,7 +1170,7 @@ type_id,name,volume
 42145,Low-grade Asklepian Alpha,
 42201,Low-grade Asklepian Epsilon,1.0
 42205,Mid-grade Asklepian Beta,
-42206,,1.0
+42206,Mid-grade Asklepian Gamma,1.0
 42208,Mid-grade Asklepian Epsilon,1.0
 42209,Mid-grade Asklepian Omega,1.0
 42212,High-grade Asklepian Gamma,1.0
@@ -1286,7 +1287,7 @@ type_id,name,volume
 48744,'Subverted' JVN-UC49,20.0
 49099,Zero-Point Mass Entangler,50.0
 49710,Kikimora,5000.0
-49711,,15000.0
+49711,Drekavac,15000.0
 49712,,10000.0
 49732,,1.0
 49733,Unstable Gyrostabilizer Mutaplasmid,1.0
@@ -1319,6 +1320,7 @@ type_id,name,volume
 53710,High-grade Nirvana Alpha,
 53711,High-grade Nirvana Beta,1.0
 53712,High-grade Nirvana Delta,
+53713,High-grade Nirvana Epsilon,
 53714,High-grade Nirvana Omega,
 53715,High-grade Nirvana Gamma,1.0
 53856,Low-grade Nirvana Delta,
@@ -1495,6 +1497,7 @@ type_id,name,volume
 84100,Paladin War for the Empire SKIN,0.01
 84173,Imperial Gold Metallic - Limited,
 85087,Tholos,5000.0
+85089,,0.5
 85178,Tetrimonic Warclone Blanks,
 85179,Overseer Sabik Vial,
 85390,Armor Mutaplasmid Residue,0.01
