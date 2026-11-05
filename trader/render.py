@@ -134,6 +134,9 @@ def instructions(cfg, plan, names, val, warm_msg=None):
 
     o_first = [x for x in second if x.get("block") == 1]
     note = (jump["n"], density(o_first)) if jump and o_first else None
+    if plan.get("skipped_low_value"):
+        out += [f"_Left out {plan['skipped_low_value']} small steps worth less than {isk(plan['min_isk_per_min'])} "
+                "per minute of your time (0.02% of net worth per minute)._", ""]
     out += ["Each hub's steps come in **priority blocks**: finish Block 1 before anything else, and stop "
             "wherever your time runs out. Within a block, steps follow the in-game windows for speed.", ""]
     out += [f"## At {HUBS[L]['name']}", ""] + (blocks(first, L, note) if first else ["Nothing here.", ""])

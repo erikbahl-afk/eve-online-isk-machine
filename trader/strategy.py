@@ -387,9 +387,17 @@ class Planner:
         used, jumped = 0, False
         chosen = []
 
+        min_rate = self.s["min_step_value_frac"] * self.nw / 60  # ISK per second of your time
+        dropped = []
+
         def fits(steps):
             nonlocal used, jumped
             secs = sum(s["secs"] for s in steps)
+            for st in steps:
+                st.setdefault("benefit", self.benefit(st))
+            if sum(st["benefit"] for st in steps) < min_rate * secs:
+                dropped.extend(steps)  # not worth the player's time at this bankroll
+                return False
             extra = self.c["secs_jump"] if (O and not jumped and any(s["hub"] == O for s in steps)) else 0
             if used + secs + extra > budget:
                 return False
@@ -465,7 +473,8 @@ class Planner:
         for i, st in enumerate(steps, 1):
             st["n"] = i
         return {"generated": self.t, "hub": L, "location": L, "other": O, "steps": steps,
-                "est_secs": used + self.c["secs_overhead"]}
+                "est_secs": used + self.c["secs_overhead"], "skipped_low_value": len(dropped),
+                "min_isk_per_min": round(min_rate * 60)}
 
 
 def contracts(route, value, m3):

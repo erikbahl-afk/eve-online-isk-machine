@@ -58,6 +58,7 @@ max_contracts = 2             # courier contracts per session (3 min each)
 min_contract_fill = 0.6       # ship only if contracts are at least 60% full (by collateral or m3)
 spec_max_frac = 0.10         # cap on speculation positions (state/spec.json)
 plan_seconds = 1500          # leave slack inside the 30 min window
+min_step_value_frac = 0.0002 # a step must be worth >= 0.02% of net worth per minute of your time
 block1_share = 0.45          # checklist priority blocks: first ~45% of the time is "must do"
 block2_share = 0.35          # next ~35% "should do", the rest "if time"
 warmup_hours = 20            # data needed before trading a type

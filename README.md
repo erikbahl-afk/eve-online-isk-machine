@@ -41,6 +41,7 @@ Real results should be at least as good as practice ones.
 | `state/` | portfolio, plan, sessions, ledger, metrics (committed by the bot) |
 | `data/daily/` | per-type daily trade stats for each hub |
 | `reports/` | weekly snapshots of the summary |
+| `helper/ingame.py` | runs on your PC: checklist with "Open in game" buttons (see helper/README.md) |
 
 Run the tests with `pip install -r requirements.txt && python -m pytest -q`.
 

@@ -117,3 +117,12 @@
 - Fixes: SKIN and Apparel categories excluded; imports need destination bid × (1 − tax) ≥ 60% of all-in cost
   (`min_exit_frac`). Existing stock is left alone: next week shows whether those thin items actually sell.
 - Pipeline: 31 runs since cron-job.org went live, average gap 1.2 h, max 2.0 h.
+
+## 2026-11-05 · player-time features
+- Checklist in priority blocks (must / should / if time), ranked by estimated ISK over the next gap per second of
+  player time. Paste-ready Multibuy list for import purchases.
+- Steps worth less than 0.02% of net worth per minute of player time are left out (`min_step_value_frac`), as
+  the user asked (tied to net worth, not PvE income). The number is a guideline for Monday probes.
+- `helper/ingame.py`: a local helper with the checklist, "Open in game" buttons (ESI ui/openwindow/marketdetails,
+  PKCE login, token stays on the user's PC), tick logging, and a copyable session report. Tested here except
+  the EVE login and the real window opening; the user tests it in-game in a few days.
