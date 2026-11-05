@@ -65,6 +65,7 @@ type_id,name,volume
 2563,,5.0
 2567,Multispectral ECM II,5.0
 2571,Gravimetric ECM II,
+2605,Nanofiber Internal Structure II,5.0
 2613,Mjolnir Fury Light Missile,
 2801,Nova Javelin Torpedo,0.05
 2867,Broadcast Node,50.0
@@ -509,7 +510,7 @@ type_id,name,volume
 18797,Coreli A-Type Thermal Coating,
 18799,,5.0
 18813,,5.0
-18827,,5.0
+18827,Corelum A-Type Thermal Energized Membrane,5.0
 18829,Corpum C-Type Multispectrum Energized Membrane,5.0
 18835,Centum C-Type Kinetic Energized Membrane,
 18859,Centum B-Type Explosive Energized Membrane,5.0
@@ -768,6 +769,7 @@ type_id,name,volume
 26020,Large Warhead Rigor Catalyst I,20.0
 26068,Large Hyperspatial Velocity Optimizer I,20.0
 26070,,20.0
+26076,Large EM Shield Reinforcer I,
 26084,,20.0
 26288,,20.0
 26290,,20.0
@@ -1154,9 +1156,11 @@ type_id,name,volume
 41201,Syndicate Damage Control,5.0
 41202,Sentient Damage Control,5.0
 41212,,5.0
+41215,Republic Fleet Medium Cap Battery,10.0
 41218,Republic Fleet Large Cap Battery,15.0
 41220,Thukker Large Cap Battery,15.0
 41238,10000MN Monopropellant Enduring Afterburner,
+41249,50000MN Microwarpdrive I,1000.0
 41251,50000MN Quad LiF Restrained Microwarpdrive,1000.0
 41276,Inferno Javelin XL Torpedo,
 41308,Restrained Compounds,
@@ -1365,10 +1369,12 @@ type_id,name,volume
 55031,EDENCOM Frigate,
 55033,Vorton Projector Operation,
 55761,,5.0
+55831,Triglavian Transconduit Datacaster,
 56068,Proximity-5 'Extraction' Filament,0.1
 56069,Proximity-15 'Extraction' Filament,
 56133,,0.1
 56140,Cataclysmic Dark Filament,
+56141,Cataclysmic Exotic Filament,
 56201,Astrahus Upwell Quantum Core,500.0
 56226,Men's Triglavian Survival Suit (Liminality),
 56290,Unstable Capital Energy Nosferatu Mutaplasmid,

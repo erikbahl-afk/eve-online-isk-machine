@@ -1,4 +1,4 @@
-# Summary · Thu 05 Nov 04:00 PST
+# Summary · Thu 05 Nov 06:00 PST
 
 Updated every ~2 hours. **Your real character** is the first section; everything after it is the **practice trader** (pretend ISK, real market data). Each section starts with a line on how to read it.
 
@@ -73,47 +73,47 @@ _Market size = ISK spent per day buying from sell orders in that station. Items 
 
 | Hub | Market size/day | Station items | Station profit/day | Import items | Import profit/day |
 |---|---|---|---|---|---|
-| jita | 4.66T | 77 | 216.67M | - | - |
-| amarr | 503.17B | 26 | 85.08M | 100 | 410.57M |
-| dodixie | 165.29B | 9 | 29.64M | 79 | 260.06M |
-| rens | 44.28B | 2 | 6.26M | 41 | 224.70M |
-| hek | 62.64B | 4 | 9.76M | 50 | 190.58M |
+| jita | 4.66T | 78 | 173.83M | - | - |
+| amarr | 501.78B | 23 | 73.26M | 99 | 408.88M |
+| dodixie | 164.77B | 9 | 29.43M | 83 | 254.51M |
+| rens | 44.69B | 2 | 6.30M | 41 | 227.92M |
+| hek | 63.20B | 4 | 9.65M | 53 | 193.10M |
 
 ## 8. Best items to trade inside Jita
 _Buy at the highest buy price + 1 tick, sell at the lowest sell price − 1 tick. Margin is after all fees. On top = how much of the time between your logins our order would stay the best price before a rival undercuts it (sell side / buy side). Limited by = which resource it eats most: order slots, ISK, or your time._
 
 | Item | Buy → sell price | Margin | Sold per day | On top (sell/buy) | Profit/day | Limited by |
 |---|---|---|---|---|---|---|
-| Standup Siren II | 20.01M → 39.40M | 85.8% | 0.8 | 24% / 73% | 13.22M | time |
-| Inherent Implants 'Squire' Power Grid Management EG-604 | 75.02M → 124.10M | 55.9% | 0.3 | 24% / 54% | 11.26M | time |
-| Potent 'Radiance' Cerebral Accelerator | 3.40M → 6.90M | 91.7% | 2.8 | 3% / 3% | 8.54M | time |
-| Dread Guristas Multispectrum Shield Hardener | 177.60M → 221.60M | 17.2% | 0.3 | 3% / 10% | 7.91M | time |
-| Compressed Zeolites | 1.25k → 1.54k | 16.0% | 41528.9 | 5% / 6% | 7.81M | time |
-| Angel NET Resonator | 2.25M → 2.65M | 10.7% | 48.0 | 9% / 5% | 10.55M | ISK |
-| Antipharmakon Aeolis | 22.51M → 28.85M | 20.4% | 1.3 | 14% / 85% | 5.69M | time |
-| Blood Raider NET Resonator | 3.36M → 4.00M | 11.7% | 17.8 | 8% / 2% | 6.43M | time |
-| Noctis | 73.31M → 85.89M | 9.9% | 0.8 | 11% / 62% | 5.20M | time |
-| Republic Fleet Light Missile Launcher | 37.30M → 52.62M | 32.7% | 0.3 | 43% / 73% | 4.18M | time |
-| Zainou 'Deadeye' Medium Hybrid Turret MH-803 | 14.05M → 19.81M | 32.6% | 1.0 | 32% / 63% | 4.34M | time |
-| Platinum | 7.03k → 8.09k | 8.1% | 13475.0 | 5% / 4% | 6.78M | ISK |
+| Standup Siren II | 20.01M → 39.40M | 85.8% | 0.8 | 24% / 73% | 13.16M | time |
+| Inherent Implants 'Squire' Power Grid Management EG-604 | 75.02M → 124.10M | 55.9% | 0.3 | 24% / 54% | 11.31M | time |
+| Antipharmakon Aeolis | 22.51M → 28.85M | 20.4% | 1.3 | 14% / 85% | 5.67M | time |
+| Dread Guristas Multispectrum Shield Hardener | 178.40M → 221.30M | 16.5% | 0.3 | 3% / 10% | 7.30M | time |
+| Angel NET Resonator | 2.25M → 2.65M | 10.4% | 46.1 | 9% / 5% | 9.82M | ISK |
+| Corelum B-Type 10MN Afterburner | 169.60M → 213.90M | 18.5% | 0.2 | 13% / 28% | 6.38M | time |
+| Compressed Zeolites | 1.26k → 1.54k | 14.6% | 38707.3 | 4% / 6% | 6.67M | time |
+| Syndicate Gas Cloud Scoop | 94.04M → 111.10M | 10.9% | 0.7 | 4% / 5% | 6.15M | time |
+| Republic Fleet Light Missile Launcher | 37.30M → 52.62M | 32.7% | 0.3 | 40% / 74% | 4.16M | time |
+| Zainou 'Deadeye' Medium Hybrid Turret MH-803 | 14.05M → 19.81M | 32.6% | 1.0 | 32% / 63% | 4.32M | time |
+| Platinum | 7.03k → 8.09k | 8.0% | 13504.9 | 5% / 4% | 6.71M | ISK |
+| Core C-Type 100MN Afterburner | 120.40M → 159.80M | 24.8% | 0.2 | 22% / 33% | 4.65M | time |
 
 ## 9. Best items to import Jita → Amarr
 _Buy from Jita sellers, ship by courier, sell just under the cheapest seller there. Margin is after shipping and fees. m³ = cargo volume per unit._
 
 | Item | Jita price → sell price | m³ | Margin | Sold per day | On top | Profit/day | Limited by |
 |---|---|---|---|---|---|---|---|
-| Dark Blood Mega Pulse Laser | 64.40M → 129.70M | 20.0 | 87.0% | 1.4 | 73% | 77.79M | ISK |
-| Starsi Blast! Classic | 40.84M → 73.89M | 1.0 | 67.5% | 0.6 | 51% | 15.94M | time |
+| Dark Blood Mega Pulse Laser | 64.20M → 129.70M | 20.0 | 87.6% | 1.4 | 74% | 77.75M | ISK |
+| Starsi Blast! Classic | 40.82M → 73.89M | 1.0 | 67.6% | 0.6 | 51% | 15.95M | time |
 | Dread Guristas Torpedo Launcher | 98.16M → 136.20M | 20.0 | 27.4% | 0.8 | 85% | 20.80M | ISK |
-| Large Projectile Collision Accelerator II | 20.34M → 48.23M | 20.0 | 121.0% | 0.5 | 100% | 12.78M | time |
-| Corelum C-Type Medium Remote Armor Repairer | 29.50M → 46.79M | 10.0 | 46.3% | 1.1 | 44% | 14.40M | time |
-| Golem State Police SKIN | 54.86M → 99.57M | 0.0 | 68.1% | 0.4 | 63% | 13.60M | time |
-| Ogdin's Eye Coordination Enhancer | 299.60M → 402.90M | 1.0 | 23.3% | 0.3 | 49% | 20.41M | ISK |
-| State Hardpoint Booster II | 9.78M → 20.89M | 1.0 | 98.5% | 1.1 | 86% | 11.06M | time |
-| ElectroPunch Ultra L | 11.00k → 16.37k | 0.0 | 37.0% | 2946.6 | 49% | 11.91M | time |
-| Large Energy Burst Aerator II | 6.93M → 12.11M | 20.0 | 61.7% | 2.5 | 86% | 10.57M | time |
-| Large Mercoxit Compressor I | 46.99M → 115.80M | 1,000.0 | 129.8% | 0.2 | 54% | 10.87M | time |
-| Blood Raider NET Resonator | 4.00M → 5.19M | 1.0 | 18.8% | 22.3 | 7% | 16.43M | ISK |
+| Large Projectile Collision Accelerator II | 20.32M → 48.23M | 20.0 | 121.2% | 0.5 | 100% | 12.61M | time |
+| Corelum C-Type Medium Remote Armor Repairer | 29.50M → 46.79M | 10.0 | 46.3% | 1.1 | 44% | 14.41M | time |
+| Golem State Police SKIN | 54.86M → 99.57M | 0.0 | 68.1% | 0.4 | 63% | 13.41M | time |
+| Ogdin's Eye Coordination Enhancer | 295.00M → 402.90M | 1.0 | 25.3% | 0.3 | 49% | 21.52M | ISK |
+| State Hardpoint Booster II | 9.78M → 20.89M | 1.0 | 98.5% | 1.1 | 86% | 10.90M | time |
+| Large Energy Burst Aerator II | 6.93M → 12.11M | 20.0 | 61.7% | 2.4 | 86% | 10.42M | time |
+| Large Mercoxit Compressor I | 46.97M → 115.80M | 1,000.0 | 129.9% | 0.2 | 54% | 10.81M | time |
+| ElectroPunch Ultra L | 11.00k → 16.37k | 0.0 | 37.0% | 2628.3 | 44% | 10.61M | time |
+| Blood Raider NET Resonator | 4.00M → 5.19M | 1.0 | 18.8% | 21.8 | 7% | 16.02M | ISK |
 
 ## 10. Cornering watchlist (read-only, nothing is traded)
 _Items where buying out the cheapest few sell orders and relisting higher would pay on paper. We only watch them, to learn whether such prices hold or get undercut._
@@ -121,23 +121,23 @@ _Items where buying out the cheapest few sell orders and relisting higher would 
 | Hub | Item | Cheapest now | Buy out | Cost | Relist at | Paper profit | Return | Days to sell | Rival updates/day |
 |---|---|---|---|---|---|---|---|---|---|
 | jita | Inherent Implants 'Squire' Capacitor Systems Operation EO-602 | 7.00M | 1 orders / 47 units | 329.00M | 11.88M | 202.14M | 61% | 4.8 | 0.9 |
-| jita | Mid-grade Centurion Alpha | 78.00M | 2 orders / 5 units | 392.00M | 118.00M | 169.24M | 43% | 6.0 | 1.4 |
-| jita | Oxidative Stress - Unlimited | 40.00M | 5 orders / 5 units | 261.67M | 88.56M | 159.54M | 61% | 8.9 | 1.2 |
-| jita | Capital Nanobot Accelerator I | 45.60M | 2 orders / 8 units | 365.79M | 68.19M | 153.14M | 42% | 4.8 | 1.9 |
-| jita | Rattlesnake King's Ransom Luecin SKIN | 40.00M | 2 orders / 7 units | 299.90M | 64.16M | 127.33M | 42% | 6.2 | 0.3 |
-| jita | Capital Projectile Turret | 32.35M | 3 orders / 9 units | 291.30M | 48.63M | 125.03M | 43% | 7.6 | 1.6 |
+| jita | Mid-grade Centurion Alpha | 78.00M | 2 orders / 5 units | 392.00M | 118.00M | 169.24M | 43% | 6.1 | 1.4 |
+| jita | Oxidative Stress - Unlimited | 40.00M | 5 orders / 5 units | 261.67M | 88.56M | 159.54M | 61% | 9.0 | 1.2 |
+| jita | Rattlesnake King's Ransom Luecin SKIN | 40.00M | 2 orders / 7 units | 299.90M | 64.16M | 127.33M | 42% | 6.3 | 0.3 |
+| jita | Capital Projectile Turret | 32.35M | 3 orders / 9 units | 291.30M | 48.63M | 125.03M | 43% | 7.7 | 1.5 |
 | jita | Dark Blood Small Capacitor Booster | 46.88M | 5 orders / 5 units | 238.67M | 76.34M | 124.42M | 52% | 5.3 | 1.9 |
-| jita | Advanced Armor Layering | 17.00M | 2 orders / 17 units | 289.50M | 24.86M | 112.52M | 39% | 4.3 | 0.3 |
-| jita | Capital Energy Turret | 17.90M | 3 orders / 15 units | 282.80M | 27.70M | 112.44M | 40% | 4.1 | 1.0 |
-| jita | Vorton Projector Operation | 25.30M | 2 orders / 11 units | 279.00M | 37.14M | 109.62M | 39% | 4.2 | 0.3 |
+| jita | Advanced Armor Layering | 17.00M | 2 orders / 17 units | 289.50M | 24.86M | 112.52M | 39% | 4.4 | 0.3 |
+| amarr | Small Auxiliary Nano Pump I | 588.00k | 3 orders / 356 units | 209.96M | 931.10k | 105.35M | 50% | 7.2 | 2.7 |
+| jita | Capital Energy Turret | 17.90M | 3 orders / 14 units | 264.90M | 27.67M | 103.60M | 39% | 3.8 | 1.0 |
+| jita | Rupture Blueprint | 87.88M | 2 orders / 4 units | 351.76M | 119.40M | 102.56M | 29% | 5.4 | 1.7 |
 
 ## 11. Data health
 _Is the market data flowing? Orders = orders seen in the station · Hours today = hours of data collected since 00:00 UTC · Trades seen = trades inferred since the last snapshot. Any note means something went wrong._
 
 | Hub | Orders | Hours today | Trades seen | Note |
 |---|---|---|---|---|
-| jita | 328,049 | 13.7 | 2,451 |  |
-| amarr | 128,652 | 13.7 | 430 |  |
-| dodixie | 68,232 | 13.7 | 397 |  |
-| rens | 31,798 | 13.7 | 84 |  |
-| hek | 41,388 | 13.7 | 73 |  |
+| jita | 328,163 | 15.7 | 6,821 |  |
+| amarr | 128,624 | 15.7 | 1,998 |  |
+| dodixie | 68,363 | 15.7 | 985 |  |
+| rens | 31,796 | 15.7 | 375 |  |
+| hek | 41,411 | 15.7 | 560 |  |
