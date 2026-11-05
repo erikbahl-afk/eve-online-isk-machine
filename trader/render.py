@@ -74,7 +74,10 @@ def _hub_section(cfg, steps, names, hub, level="###"):
             out += [f"| {s['n']} | ☐ {_item(names, s['type_id'])}{' (spec)' if s.get('tag') == 'spec' else ''} | "
                     f"{s['qty']:,} | **{_p(s['target'])}** | {_p(s['cap'])} | {_p(s['ref'])} |" for s in gs]
         elif g == 7:
-            out += ["| # | Item | Qty | Max price per unit | Lowest when written |", "|---|---|---|---|---|"]
+            out += ["**Fast way:** Market → **Multibuy** → import from clipboard, paste the list below, check that "
+                    "no line costs more than its max price, then buy all at once.", "", "```"]
+            out += [f"{_item(names, s['type_id'])}\t{s['qty']}" for s in gs]
+            out += ["```", "", "| # | Item | Qty | Max price per unit | Lowest when written |", "|---|---|---|---|---|"]
             out += [f"| {s['n']} | ☐ {_item(names, s['type_id'])} | {s['qty']:,} | **{_p(s['max_price'])}** | "
                     f"{_p(s['ref'])} |" for s in gs]
         else:
