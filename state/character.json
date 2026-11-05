@@ -7,77 +7,97 @@
   "willpower": 17
  },
  "bonus_remaps": 2,
+ "books_needed": [
+  "Daytrading",
+  "Advanced Broker Relations",
+  "Wholesale",
+  "Infomorph Psychology",
+  "Infomorph Synchronizing",
+  "Contracting"
+ ],
  "broker_fee_jita_now": 3.0,
  "eta_days": 80.1,
  "jump_clones": 0,
  "plan": [
   {
+   "injected": true,
    "level": 3,
    "skill": "Trade",
    "sp_left": 248000,
    "target": 5
   },
   {
+   "injected": true,
    "level": 0,
    "skill": "Broker Relations",
    "sp_left": 512000,
    "target": 5
   },
   {
+   "injected": true,
    "level": 0,
    "skill": "Accounting",
    "sp_left": 768000,
    "target": 5
   },
   {
+   "injected": true,
    "level": 0,
    "skill": "Retail",
    "sp_left": 512000,
    "target": 5
   },
   {
+   "injected": true,
    "level": 0,
    "skill": "Marketing",
    "sp_left": 768000,
    "target": 5
   },
   {
+   "injected": false,
    "level": 0,
    "skill": "Daytrading",
    "sp_left": 256000,
    "target": 5
   },
   {
+   "injected": false,
    "level": 0,
    "skill": "Advanced Broker Relations",
    "sp_left": 768000,
    "target": 5
   },
   {
+   "injected": false,
    "level": 0,
    "skill": "Wholesale",
    "sp_left": 181020,
    "target": 4
   },
   {
+   "injected": false,
    "level": 0,
    "skill": "Infomorph Psychology",
    "sp_left": 1415,
    "target": 2
   },
   {
+   "injected": false,
    "level": 0,
    "skill": "Infomorph Synchronizing",
    "sp_left": 16000,
    "target": 3
   },
   {
+   "injected": true,
    "level": 0,
    "skill": "Social",
    "sp_left": 250,
    "target": 1
   },
   {
+   "injected": false,
    "level": 0,
    "skill": "Contracting",
    "sp_left": 1415,
@@ -194,5 +214,5 @@
  "standing_caldari_state": 0.0,
  "total_sp": 382580,
  "unallocated_sp": 0,
- "updated": "2026-11-05T04:00+00:00"
+ "updated": "2026-11-05T05:03+00:00"
 }

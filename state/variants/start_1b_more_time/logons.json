@@ -1,0 +1,51 @@
+[
+ {
+  "done": false,
+  "frac": 1.0,
+  "local": "Thu 05 Nov 07:09",
+  "t": 1793891340.0,
+  "week": "2026-11-02"
+ },
+ {
+  "done": false,
+  "frac": 1.0,
+  "local": "Fri 06 Nov 19:29",
+  "t": 1794022140.0,
+  "week": "2026-11-02"
+ },
+ {
+  "done": false,
+  "frac": 1.0,
+  "local": "Sat 07 Nov 17:23",
+  "t": 1794100980.0,
+  "week": "2026-11-02"
+ },
+ {
+  "done": false,
+  "frac": 1.0,
+  "local": "Sat 07 Nov 21:13",
+  "t": 1794114780.0,
+  "week": "2026-11-02"
+ },
+ {
+  "done": false,
+  "frac": 1.0,
+  "local": "Mon 09 Nov 18:16",
+  "t": 1794276960.0,
+  "week": "2026-11-09"
+ },
+ {
+  "done": false,
+  "frac": 1.0,
+  "local": "Thu 12 Nov 20:11",
+  "t": 1794543060.0,
+  "week": "2026-11-09"
+ },
+ {
+  "done": false,
+  "frac": 0.8,
+  "local": "Sun 15 Nov 11:32",
+  "t": 1794771120.0,
+  "week": "2026-11-09"
+ }
+]

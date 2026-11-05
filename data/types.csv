@@ -209,6 +209,7 @@ type_id,name,volume
 11965,Pilgrim,10000.0
 11969,Arazu,10000.0
 11985,Basilisk,
+11987,Guardian,
 11989,,10000.0
 11993,Cerberus,10000.0
 11995,Onyx,10000.0
@@ -345,6 +346,7 @@ type_id,name,volume
 14238,Shadow Serpentis Tracking Computer,5.0
 14244,Domination Warp Disruptor,
 14246,Dread Guristas Warp Disruptor,5.0
+14248,,5.0
 14252,Dark Blood Warp Scrambler,
 14260,,5.0
 14262,,5.0
@@ -973,7 +975,7 @@ type_id,name,volume
 31874,Caldari Navy Vespa,10.0
 31876,,25.0
 31878,Caldari Navy Warden,25.0
-31880,,5.0
+31880,Federation Navy Hobgoblin,5.0
 31882,,10.0
 31884,Federation Navy Ogre,25.0
 31888,,5.0
@@ -1313,6 +1315,7 @@ type_id,name,volume
 53707,Mid-grade Nirvana Epsilon,
 53708,Mid-grade Nirvana Gamma,1.0
 53709,Mid-grade Nirvana Omega,1.0
+53710,High-grade Nirvana Alpha,
 53711,High-grade Nirvana Beta,1.0
 53712,High-grade Nirvana Delta,
 53714,High-grade Nirvana Omega,
@@ -1429,6 +1432,7 @@ type_id,name,volume
 62529,Compressed Plagioclase II-Grade,
 62532,Compressed Omber,
 62533,Compressed Omber II-Grade,
+62554,Compressed Gneiss III-Grade,
 62564,Compressed Bistot,
 62566,,0.16
 62567,Compressed Bistot IV-Grade,0.16
@@ -1483,7 +1487,7 @@ type_id,name,volume
 82184,Thrasher Fleet Issue Republic Police SKIN,
 82301,Compressed Kylixium II-Grade,
 82302,Compressed Kylixium III-Grade,
-83467,,1.0
+83467,Angel NET Resonator,1.0
 83468,Blood Raider NET Resonator,1.0
 83470,Mordu NET Resonator,1.0
 83471,Sansha NET Resonator,
@@ -1501,6 +1505,7 @@ type_id,name,volume
 85747,Satori-Horigu Combat Scanner Probe,
 85930,Archon Arkombine Arisen SKIN,
 85931,Chimera Arkombine Arisen SKIN,
+86261,,0.01
 86262,,0.01
 86264,Breacher Pod Rapid Firing,0.01
 87324,Navy Scan Pinpointing Array,
