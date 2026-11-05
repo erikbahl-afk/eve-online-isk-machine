@@ -26,6 +26,14 @@ vanished-order guess (80%) against official volumes, the effect of snapshot spac
 on alpha / gone_weight judged by match to official volume, not profit. Live: the user's wallet transactions
 (SSO) are the ground truth, and every real fill is compared with the model's prediction.
 
+## Wednesday: audit the picks (agreed)
+For the top ~20 station and import candidates and everything held: real repeated demand (distinct trades/day),
+believable margin (not one stale or absurd order), 30–90 day official history (spike?), supply (manufacturable
+or NPC-seeded price ceilings, imports), and an exit if it doesn't sell. Patterns by item kind and their actual
+results, predicted vs actual margin and sell speed. Acts via the avoid list, tighter filters (with probes) and
+scoring ideas. Push only if a large held position looks like a trap. The user has no favoured or avoided markets;
+no per-unit price cap beyond the 8% guideline.
+
 ## Friday: open questions, then time efficiency (agreed)
 Work through STRATEGY.md's open questions one at a time (investigate, write up, act or close).
 When the list is exhausted, focus on the user's time efficiency.
