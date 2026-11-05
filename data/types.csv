@@ -21,7 +21,7 @@ type_id,name,volume
 644,Typhoon,
 645,Dominix,
 686,,0.01
-687,,0.01
+687,Caracal Blueprint,0.01
 969,Maller Blueprint,
 974,Rupture Blueprint,
 976,,0.01
@@ -101,7 +101,7 @@ type_id,name,volume
 3240,Inherent Implants 'Squire' Capacitor Systems Operation EO-602,1.0
 3241,Inherent Implants 'Squire' Capacitor Systems Operation EO-604,1.0
 3257,Inherent Implants 'Squire' Power Grid Management EG-604,
-3265,,1.0
+3265,Zainou 'Gypsy' CPU Management EE-602,1.0
 3488,,5.0
 3520,,10.0
 3542,CONCORD Capital Shield Booster,1000.0
@@ -167,7 +167,7 @@ type_id,name,volume
 11176,Crow,2500.0
 11182,Cheetah,2500.0
 11184,,2500.0
-11186,,2500.0
+11186,Malediction,2500.0
 11188,Anathema,2500.0
 11192,Buzzard,2500.0
 11196,,2500.0
@@ -247,6 +247,7 @@ type_id,name,volume
 12779,,0.025
 12791,,0.025
 12818,Scorch M,
+13209,,1.0
 13216,Zainou 'Gypsy' CPU Management EE-603,1.0
 13217,Inherent Implants 'Lancer' Large Energy Turret LE-1003,
 13218,Zainou 'Deadeye' Large Hybrid Turret LH-1003,
@@ -274,7 +275,7 @@ type_id,name,volume
 13785,Domination 800mm Repeating Cannon,20.0
 13791,Dark Blood Dual Heavy Pulse Laser,20.0
 13809,Dark Blood Small Focused Beam Laser,
-13815,,20.0
+13815,Dark Blood Mega Pulse Laser,20.0
 13824,,10.0
 13832,True Sansha Mega Pulse Laser,20.0
 13868,Shadow Serpentis 200mm Railgun,
@@ -285,7 +286,7 @@ type_id,name,volume
 13924,Dread Guristas Torpedo Launcher,20.0
 13926,,5.0
 13933,Dread Guristas Rocket Launcher,5.0
-13935,,5.0
+13935,Domination Ballistic Control System,5.0
 13939,Domination Gyrostabilizer,
 13943,True Sansha Heat Sink,5.0
 13947,,25.0
@@ -438,12 +439,14 @@ type_id,name,volume
 17478,Retriever,3750.0
 17482,Strip Miner I,5.0
 17487,Republic Fleet Heavy Missile Launcher,10.0
+17491,Republic Fleet Light Missile Launcher,
 17494,,5.0
 17495,Caldari Navy Kinetic Shield Hardener,
 17498,Caldari Navy Multispectrum Shield Hardener,
 17500,,5.0
 17520,Federation Navy Sensor Booster,5.0
 17526,Imperial Navy Cap Recharger,5.0
+17528,,5.0
 17546,Imperial Navy Large Armor Repairer,
 17549,Federation Navy Multispectrum Coating,
 17559,Federation Navy Stasis Webifier,5.0
@@ -455,6 +458,7 @@ type_id,name,volume
 17713,,10000.0
 17715,,10000.0
 17718,Phantasm,10000.0
+17720,Cynabal,10000.0
 17726,,50000.0
 17738,Machariel,
 17772,Small AutoCannon Battery,
@@ -478,15 +482,17 @@ type_id,name,volume
 18637,,5.0
 18658,,5.0
 18660,Gistum C-Type 10MN Afterburner,5.0
+18666,,5.0
 18676,Gist X-Type 100MN Afterburner,
 18682,,5.0
 18688,Corelum B-Type 10MN Afterburner,
-18692,,5.0
+18692,Coreli A-Type 1MN Afterburner,5.0
 18698,Core X-Type 100MN Afterburner,
 18708,Corpii A-Type Multispectrum Coating,
 18766,,5.0
 18768,Coreli C-Type Multispectrum Coating,5.0
 18789,Coreli A-Type Multispectrum Coating,
+18797,Coreli A-Type Thermal Coating,
 18799,,5.0
 18813,,5.0
 18827,,5.0
@@ -823,6 +829,7 @@ type_id,name,volume
 27507,Legion Mjolnir Auto-Targeting Light Missile,0.015
 27916,,75.0
 27922,Lockbreaker Bomb,
+27924,,75.0
 28201,Light Armor Maintenance Bot II,5.0
 28213,,25.0
 28272,'Augmented' Hammerhead,10.0
@@ -906,6 +913,7 @@ type_id,name,volume
 31029,,10.0
 31039,Small Thermal Armor Reinforcer II,5.0
 31041,,10.0
+31045,Small Auxiliary Nano Pump I,
 31047,Medium Auxiliary Nano Pump I,
 31053,Medium Auxiliary Nano Pump II,10.0
 31059,Medium Trimark Armor Pump II,10.0
@@ -928,6 +936,7 @@ type_id,name,volume
 31414,,10.0
 31498,Medium Energy Metastasis Adjuster II,10.0
 31544,,5.0
+31564,Medium Hybrid Locus Coordinator I,
 31594,,10.0
 31606,,10.0
 31614,Small Rocket Fuel Cache Partition II,5.0
@@ -1064,6 +1073,7 @@ type_id,name,volume
 34828,Jackdaw,5000.0
 35683,Hecate,5000.0
 35790,Missile Guidance Computer II,5.0
+35826,Azbel,
 35832,Astrahus,8000.0
 35833,Fortizar,
 35878,Standup Manufacturing Plant I,4000.0
@@ -1152,6 +1162,7 @@ type_id,name,volume
 42209,Mid-grade Asklepian Omega,1.0
 42212,High-grade Asklepian Gamma,1.0
 42215,High-grade Asklepian Omega,
+42244,,50000.0
 42685,,5000.0
 42696,Shield Extension Charge,0.01
 42787,,0.01
@@ -1381,6 +1392,7 @@ type_id,name,volume
 60766,,20.0
 61199,Ubiquitous Moon Mining Crystal Type B II,10.0
 62380,Compressed Celadon Mykoserocin,
+62383,Compressed Malachite Mykoserocin,
 62385,Compressed Viridian Mykoserocin,
 62397,Compressed Fullerite-C60,
 62400,Compressed Fullerite-C84,
@@ -1533,6 +1545,7 @@ type_id,name,volume
 93466,Imperial Benediction - Unlimited,
 93745,Tempest Fleet Issue Capsuleer Day XXIII SKIN,0.01
 93908,Caldari Navy Missile Guidance Enhancer,5.0
+93909,Republic Fleet Missile Guidance Enhancer,5.0
 93912,Revelli’s Modified Integrated Analyzer,5.0
 93998,Federation Navy 'Argyreos' Magnetic Field Stabilizer,
 94008,Republic Fleet Bastion Module,200.0

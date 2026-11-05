@@ -1,6 +1,6 @@
 {
  "est_secs": 1200,
- "generated": 1793830696.6322565,
+ "generated": 1793836831.1709597,
  "hub": "amarr",
  "location": "amarr",
  "other": "jita",
@@ -188,7 +188,7 @@
    "value": 7695392.096699673
   },
   {
-   "cap": 207400000.0,
+   "cap": 207000000.0,
    "group": 4,
    "hub": "amarr",
    "kind": "modify_buy",
@@ -225,46 +225,46 @@
    "value": 0.0
   },
   {
-   "cap": 259400000.0,
+   "cap": 295000000.0,
    "group": 4,
    "hub": "jita",
    "kind": "modify_buy",
    "mine": 184700000.0,
    "n": 17,
    "oid": 1,
-   "ref": 187100000.0,
+   "ref": 187600000.0,
    "secs": 25,
-   "target": 187200000.0,
+   "target": 187700000.0,
    "type_id": 85668,
    "value": 369400000.0
   },
   {
-   "cap": 13150.0,
+   "cap": 22510.0,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
    "n": 18,
-   "qty": 1,
-   "ref": 12300.0,
+   "qty": 407,
+   "ref": 20050.0,
    "secs": 60,
    "tag": "station",
-   "target": 12310.0,
-   "type_id": 62402,
-   "value": 8174622.214812763
+   "target": 20060.0,
+   "type_id": 62404,
+   "value": 14199175.418113757
   },
   {
-   "cap": 22390.0,
+   "cap": 272.0,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
    "n": 19,
-   "qty": 408,
-   "ref": 20020.0,
+   "qty": 3,
+   "ref": 253.0,
    "secs": 60,
    "tag": "station",
-   "target": 20030.0,
-   "type_id": 62404,
-   "value": 8024556.326488568
+   "target": 253.1,
+   "type_id": 82301,
+   "value": 3805273.203116556
   },
   {
    "cap": 12.69,
@@ -272,13 +272,13 @@
    "hub": "jita",
    "kind": "new_buy",
    "n": 20,
-   "qty": 57,
+   "qty": 5,
    "ref": 12.16,
    "secs": 60,
    "tag": "station",
    "target": 12.17,
    "type_id": 62518,
-   "value": 4069139.2908629077
+   "value": 2486839.5012933845
   },
   {
    "cap": 1403.0,
@@ -287,12 +287,12 @@
    "kind": "new_buy",
    "n": 21,
    "qty": 1,
-   "ref": 1226.0,
+   "ref": 1228.0,
    "secs": 60,
    "tag": "station",
-   "target": 1227.0,
+   "target": 1229.0,
    "type_id": 62463,
-   "value": 4872239.503105172
+   "value": 4843776.448871062
   },
   {
    "cap": 111900000.0,
@@ -301,12 +301,12 @@
    "kind": "new_buy",
    "n": 22,
    "qty": 2,
-   "ref": 75000000.0,
+   "ref": 75010000.0,
    "secs": 60,
    "tag": "station",
-   "target": 75010000.0,
+   "target": 75020000.0,
    "type_id": 3257,
-   "value": 10650522.640075149
+   "value": 12992740.083751513
   }
  ]
 }
