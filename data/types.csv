@@ -164,7 +164,7 @@ type_id,name,volume,group_id
 10217,Ocular Filter - Improved,1,
 10221,Cybernetic Subprocessor - Standard,,
 10222,Cybernetic Subprocessor - Improved,1,
-10225,Social Adaptation Chip - Standard,,
+10225,Social Adaptation Chip - Standard,1,745
 10226,,1,
 10228,Zainou 'Gnome' Shield Management SM-703,1,
 10244,,1,
@@ -233,7 +233,7 @@ type_id,name,volume,group_id
 12054,,50,
 12058,,5,
 12076,50MN Microwarpdrive II,10,46
-12084,500MN Microwarpdrive II,,
+12084,500MN Microwarpdrive II,10,46
 12102,Large Remote Capacitor Transmitter II,,
 12108,Deep Core Mining Laser I,5,54
 12200,Mobile Large Warp Disruptor I,585,361
@@ -398,7 +398,7 @@ type_id,name,volume,group_id
 15837,Federation Navy 425mm Railgun,20,
 15840,Federation Navy 250mm Railgun,10,
 15862,Imperial Navy Mega Pulse Laser,20,53
-15887,Caldari Navy Warp Scrambler,5,
+15887,Caldari Navy Warp Scrambler,5,52
 15889,Caldari Navy Warp Disruptor,5,
 15893,,5,
 15895,Federation Navy Magnetic Field Stabilizer,,
@@ -448,9 +448,9 @@ type_id,name,volume,group_id
 16678,Sylramic Fibers,0.05,429
 16679,Fullerides,0.15,429
 16680,Phenolic Composites,0.2,
-16681,Nanotransistors,0.25,
+16681,Nanotransistors,0.25,429
 16682,Hypersynaptic Fibers,0.6,429
-16683,Ferrogel,1,
+16683,Ferrogel,1,429
 17136,Ukomi Superconductors,,
 17180,Sensor Dampening Battery,,
 17182,Warp Scrambling Battery,,
@@ -510,7 +510,7 @@ type_id,name,volume,group_id
 18688,Corelum B-Type 10MN Afterburner,5,46
 18692,Coreli A-Type 1MN Afterburner,5,
 18698,Core X-Type 100MN Afterburner,,
-18708,Corpii A-Type Multispectrum Coating,,
+18708,Corpii A-Type Multispectrum Coating,5,98
 18766,,5,
 18768,Coreli C-Type Multispectrum Coating,5,
 18789,Coreli A-Type Multispectrum Coating,5,98
@@ -608,6 +608,7 @@ type_id,name,volume,group_id
 19548,Inherent Implants 'Noble' Remote Armor Repair Systems RA-705,1,
 19549,Inherent Implants 'Noble' Mechanic MC-805,1,
 19550,Inherent Implants 'Noble' Hull Upgrades HG-1005,1,
+19554,High-grade Snake Delta,1,300
 19556,High-grade Snake Omega,,
 19685,Inherent Implants 'Noble' Repair Proficiency RP-905,1,
 19686,Eifyr and Co. 'Gunslinger' Motion Prediction MR-705,1,
@@ -738,7 +739,7 @@ type_id,name,volume,group_id
 24511,Inferno Fury Heavy Missile,0.03,
 24515,,0.03,
 24517,Mjolnir Precision Heavy Missile,0.03,
-24519,,0.05,
+24519,Nova Rage Torpedo,0.05,657
 24521,,0.05,
 24523,,0.05,
 24531,Nova Fury Cruise Missile,,
@@ -1248,7 +1249,7 @@ type_id,name,volume,group_id
 45633,Loki Core - Immobility Drivers,40,
 45856,Golem Exoplanets Hunter SKIN,0.01,
 45866,Bustard Exoplanets Hunter SKIN,,
-45999,Agency 'Pyrolancea' DB5 Dose II,1,
+45999,Agency 'Pyrolancea' DB5 Dose II,1,303
 46000,Agency 'Pyrolancea' DB7 Dose III,,
 46002,Agency 'Hardshell' TB5 Dose II,1,
 46003,Agency 'Hardshell' TB7 Dose III,1,
@@ -1316,7 +1317,7 @@ type_id,name,volume,group_id
 48720,Osprey Combat Medic Section SKIN,,
 48744,'Subverted' JVN-UC49,20,
 49099,Zero-Point Mass Entangler,50,
-49710,Kikimora,5000,
+49710,Kikimora,5000,420
 49711,Drekavac,15000,419
 49712,,10000,
 49732,,1,
@@ -1447,8 +1448,8 @@ type_id,name,volume,group_id
 60575,Quafe Zero Green Apple,1,
 60766,,20,
 61199,Ubiquitous Moon Mining Crystal Type B II,10,
-62380,Compressed Celadon Mykoserocin,,
-62383,Compressed Malachite Mykoserocin,,
+62380,Compressed Celadon Mykoserocin,1,4168
+62383,Compressed Malachite Mykoserocin,1,4168
 62385,Compressed Viridian Mykoserocin,,
 62397,Compressed Fullerite-C60,0.1,4168
 62400,Compressed Fullerite-C84,,
@@ -1468,7 +1469,7 @@ type_id,name,volume,group_id
 62518,Compressed Veldspar III-Grade,,
 62520,Compressed Scordite,,
 62521,Compressed Scordite II-Grade,,
-62522,Compressed Scordite III-Grade,,
+62522,Compressed Scordite III-Grade,0.0015,460
 62526,,0.003,
 62529,Compressed Plagioclase II-Grade,0.0035,458
 62532,Compressed Omber,0.006,469

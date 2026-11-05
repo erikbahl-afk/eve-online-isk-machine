@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Thu 05 Nov 11:01 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Thu 05 Nov 12:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 23 · **Est. time:** 21 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -43,7 +43,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 16 | ☐ Mutated Blood Sample | 1 | **65,390** | 74,950 | 65,380 |
+| 16 | ☐ Mutated Blood Sample | 1 | **65,390** | 74,250 | 65,380 |
 
 ## 17. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
 _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
@@ -55,18 +55,18 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 18 | ☐ Glorified Unstable Magnetic Field Stabilizer Mutaplasmid | 184,700,000 | **188,100,000** | 289,400,000 | 188,000,000 |
+| 18 | ☐ Glorified Unstable Magnetic Field Stabilizer Mutaplasmid | 184,700,000 | **188,700,000** | 289,400,000 | 188,600,000 |
 
 ### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 19 | ☐ Compressed Dark Glitter | 73 | **316,100** | 347,300 | 316,000 |
-| 20 | ☐ Compressed Omber | 4 | **119.50** | 121.70 | 119.40 |
-| 21 | ☐ Compressed Zeolites | 12 | **1,275** | 1,363 | 1,274 |
-| 22 | ☐ Inherent Implants 'Squire' Power Grid Management EG-604 | 1 | **75,020,000** | 109,500,000 | 75,010,000 |
-| 23 | ☐ Standup Siren II | 3 | **20,010,000** | 34,470,000 | 20,000,000 |
+| 19 | ☐ Compressed Scordite III-Grade | 21 | **22.23** | 22.58 | 22.22 |
+| 20 | ☐ Compressed Zeolites | 24 | **1,275** | 1,366 | 1,274 |
+| 21 | ☐ Inherent Implants 'Squire' Power Grid Management EG-604 | 1 | **75,020,000** | 109,500,000 | 75,010,000 |
+| 22 | ☐ Standup Siren II | 3 | **20,010,000** | 34,470,000 | 20,000,000 |
+| 23 | ☐ Zainou 'Deadeye' Medium Hybrid Turret MH-803 | 2 | **11,530,000** | 17,650,000 | 11,520,000 |
 
 ---
 Wallet 260.10M · escrow 1.60B · stock 3.11B · in transit 0.00 · net worth 4.98B (liquidation 2.54B)
