@@ -148,8 +148,14 @@ def main():
     if day.date != today:
         day.flush(cfg["collect"]["daily_min_isk"])
         day = market.Day(today)
+    if hasattr(esi, "healthy") and not esi.healthy():
+        skip_run(now, "ESI (CCP's API) is not answering; this run was skipped and the previous checklist kept.")
+        return
     tops, books, prints, intervals, health = collect(cfg, esi, now, day)
     lap("market data")
+    if not tops:
+        skip_run(now, "No market data could be downloaded; this run was skipped and the previous checklist kept.")
+        return
     char = None
     secret = os.environ.get("ESI_CLIENT_SECRET")
     if secret and sso.TOKEN_FILE.exists():
@@ -219,6 +225,20 @@ def load_overrides(now):
     live = [e for e in o.get("avoid", []) if e.get("until", "9999") >= today]
     return ({int(e["type_id"]) for e in live},
             {int(e["type_id"]): e.get("mode", "fast") for e in o.get("exit", []) if e.get("until", "9999") >= today})
+
+
+def skip_run(now, why):
+    """Keep the last good checklist and summary; just flag the outage."""
+    prev = [a for a in load_json(STATE / "alerts.json", []) if a["key"] != "esi_down"]
+    since = next((a["since"] for a in load_json(STATE / "alerts.json", []) if a["key"] == "esi_down"), now)
+    save_json(STATE / "alerts.json", [{"key": "esi_down", "severity": "high", "text": why, "since": since}] + prev)
+    path = STATE / "summary.md"
+    if path.exists():
+        lines = [ln for ln in path.read_text().splitlines() if not ln.startswith("> ⚠ Skipped run")]
+        stamp = dt.datetime.fromtimestamp(now, dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+        lines.insert(1, f"> ⚠ Skipped run {stamp}: {why}")
+        path.write_text("\n".join(lines) + "\n")
+    print(why)
 
 
 def merge(base, over):

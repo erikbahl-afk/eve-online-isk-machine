@@ -53,6 +53,13 @@ class ESI:
         self.waited += secs
         time.sleep(secs)
 
+    def healthy(self):
+        """Quick check that ESI answers at all, so an outage costs seconds, not ten minutes of retries."""
+        try:
+            return self.s.get(BASE + "/status/", timeout=15).status_code == 200
+        except requests.RequestException:
+            return False
+
     def region_orders(self, region_id):
         """All orders in a region from one consistent cache generation.
 

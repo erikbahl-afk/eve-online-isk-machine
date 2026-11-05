@@ -135,3 +135,10 @@
   state/overrides.json avoid/exit lists, experiment kinds (1 bold slot reserved, 1 flex), and the first bold
   experiment `bold_dodixie_imports` (imports only, to Dodixie, no trading inside hubs).
 - Usage: ~30 tool calls on weekdays, ~60 on Fridays. Ask the user before going deeper or if usage trends high.
+
+## 2026-11-05 · ESI outage handling
+- From about 21:50 UTC ESI returned 504s; runs spent 10–20 min in retries and committed empty data (all hubs "fetch failed").
+  A profile confirmed ~100% of the run time was ESI back-off, not our code.
+- Now: a quick ESI status check first. If ESI is down, or nothing could be downloaded, the run is skipped in seconds,
+  the previous checklist and summary are kept, and an "esi_down" alert with a banner at the top of the summary is raised.
+- Fixed: the alerts box reused the `days` variable, so the summary showed "in 0.0 days".

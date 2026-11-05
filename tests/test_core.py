@@ -161,3 +161,16 @@ def test_alerts():
     keys = {a["key"] for a in out}
     assert {"liquidation", "position:7", "stale_stock:amarr:7", "plan_time", "data:jita", "char_queue"} <= keys
     assert out[0]["severity"] == "high"
+
+
+
+def test_skip_run_keeps_summary(tmp_path, monkeypatch):
+    import trader.run as run
+    monkeypatch.setattr(run, "STATE", tmp_path)
+    (tmp_path / "summary.md").write_text("# Summary\nold content\n")
+    run.skip_run(1_800_000_000, "ESI down")
+    run.skip_run(1_800_007_200, "ESI down")
+    text = (tmp_path / "summary.md").read_text()
+    assert "old content" in text and text.count("Skipped run") == 1
+    al = __import__("json").loads((tmp_path / "alerts.json").read_text())
+    assert al[0]["key"] == "esi_down" and al[0]["since"] == 1_800_000_000

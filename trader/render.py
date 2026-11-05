@@ -171,8 +171,9 @@ def summary(cfg, pf, val, health, sessions, names, station, imports_by_hub, t, s
         out += ["## ⚠ Alerts", *_why("Automatic red flags from this run. The daily analysis must deal with each one: "
                                      "fix it, or explain why it's fine."), ""]
         for x in alert_list:
-            days = (t - x["since"]) / 86400
-            out.append(f"- {icon[x['severity']]} {x['text']}" + (f" _(open {days:.0f} days)_" if days >= 1 else ""))
+            open_days = (t - x["since"]) / 86400
+            out.append(f"- {icon[x['severity']]} {x['text']}"
+                       + (f" _(open {open_days:.0f} days)_" if open_days >= 1 else ""))
         out.append("")
     else:
         out += ["## ⚠ Alerts", "_None right now._", ""]
