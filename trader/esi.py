@@ -25,28 +25,33 @@ class ESI:
         self.s.mount("https://", ad)
         self.workers = workers
         self.calls = 0
+        self.waited = 0.0  # seconds spent backing off (rate limits, errors)
 
     def request(self, method, path, tries=6, **kw):
         for i in range(tries):
             try:
                 r = self.s.request(method, BASE + path, timeout=40, **kw)
             except requests.RequestException:
-                time.sleep(2 ** i)
+                self._wait(2 ** i)
                 continue
             self.calls += 1
             remain = r.headers.get("X-ESI-Error-Limit-Remain")
             if remain is not None and int(remain) < 15:
-                time.sleep(int(r.headers.get("X-ESI-Error-Limit-Reset", 30)) + 1)
+                self._wait(int(r.headers.get("X-ESI-Error-Limit-Reset", 30)) + 1)
             if r.status_code in (200, 404):
                 return r
             if r.status_code in (420, 429):
-                time.sleep(float(r.headers.get("Retry-After", 30)))
+                self._wait(float(r.headers.get("Retry-After", 30)))
                 continue
             if r.status_code >= 500:
-                time.sleep(2 ** i)
+                self._wait(2 ** i)
                 continue
             r.raise_for_status()
         raise RuntimeError(f"ESI {method} {path} failed after {tries} tries")
+
+    def _wait(self, secs):
+        self.waited += secs
+        time.sleep(secs)
 
     def region_orders(self, region_id):
         """All orders in a region from one consistent cache generation.

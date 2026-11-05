@@ -159,7 +159,7 @@ def _why(text):
 
 
 def summary(cfg, pf, val, health, sessions, names, station, imports_by_hub, t, stats=None, plan=None,
-            variants=None, corner=None, char=None, alert_list=None):
+            variants=None, corner=None, char=None, alert_list=None, timing=None):
     s0 = pf["start_isk"]
     pnl = pf["pnl"]
     days = max((t - pf["created"]) / 86400, 1e-9)
@@ -316,5 +316,10 @@ def summary(cfg, pf, val, health, sessions, names, station, imports_by_hub, t, s
     for hub, h in health.items():
         out.append(f"| {hub} | {h.get('orders', 0):,} | {h.get('hours', 0):.1f} | {h.get('prints', 0):,} | "
                    f"{h.get('note', '')} |")
+    if timing:
+        parts = [f"{k} {v:.0f} s" for k, v in timing.items() if k not in ("total", "ESI calls")]
+        out += ["", f"_This run took {timing.get('total', 0):.0f} s ({', '.join(parts)}; "
+                f"{int(timing.get('ESI calls', 0)):,} ESI calls). A slow run usually means ESI rate limits "
+                "(back-off) or a first-time lookup of many item types._"]
     out.append("")
     return "\n".join(out)

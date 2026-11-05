@@ -136,11 +136,20 @@ def main():
     STATE.mkdir(exist_ok=True)
     esi = ESI()
 
+    clock = {"start": time.perf_counter()}
+    timing = {}
+
+    def lap(name):
+        now_ = time.perf_counter()
+        timing[name] = timing.get(name, 0.0) + now_ - clock.get("last", clock["start"])
+        clock["last"] = now_
+
     day = load_day(today)
     if day.date != today:
         day.flush(cfg["collect"]["daily_min_isk"])
         day = market.Day(today)
     tops, books, prints, intervals, health = collect(cfg, esi, now, day)
+    lap("market data")
     char = None
     secret = os.environ.get("ESI_CLIENT_SECRET")
     if secret and sso.TOKEN_FILE.exists():
@@ -161,6 +170,7 @@ def main():
     names, vols = types.names, types.vols
     shared = {"esi": esi, "now": now, "tops": tops, "books": books, "prints": prints, "intervals": intervals,
               "stats": stats, "start_w": start_w, "names": names, "vols": vols, "types": types}
+    lap("stats and character")
     variants = {}
     for v in cfg.get("variants", []):
         vcfg = merge(cfg, {k: val for k, val in v.items() if k not in ("name", "note")})
@@ -168,24 +178,30 @@ def main():
         variants[v["name"]] = {"nw": r["val"]["nw_book"], "realized": r["pf"]["pnl"]["realized"], "note": v["note"],
                                "start": r["pf"]["start_isk"], "kind": v.get("kind", "regular"),
                                "liquid": r["val"]["nw_liquid"]}
+    lap("experiments")
     r = run_portfolio(cfg, STATE, shared)
     pf, val, plan = r["pf"], r["val"], r["plan"]
+    lap("main portfolio")
     corner = corners.scan_all(cfg, Fees(cfg), books, stats, tops, val["nw_book"], today)
     lookup(esi, types, corner.type_id.head(15) if len(corner) else [], [])
     types.save()
+    lap("cornering scan")
 
     hub = cfg["strategy"]["hub"]
     hours = float(stats[hub].hours.max()) if hub in stats and len(stats[hub]) else 0.0
     warm = None
     if hours < cfg["strategy"]["warmup_hours"]:
         warm = f"Warming up: {hours:.0f} of {cfg['strategy']['warmup_hours']} hours of market data collected."
+    timing["total"] = time.perf_counter() - clock["start"]
+    timing["ESI calls"] = esi.calls
+    timing["ESI back-off"] = getattr(esi, "waited", 0.0)
     alert_list = alerts.compute(cfg, pf, val, plan, health, char, now, names)
     save_json(STATE / "alerts.json", alert_list)
     (ROOT / "INSTRUCTIONS.md").write_text(render.instructions(cfg, plan, names, val, warm))
     summary = render.summary(cfg, pf, val, health, r["sessions"], names,
                              {h: add_density(df, cfg, val["nw_book"]) for h, df in r["station"].items()},
                              {h: add_density(df, cfg, val["nw_book"]) for h, df in r["imports_by_hub"].items()},
-                             now, stats, plan, variants, corner, char, alert_list)
+                             now, stats, plan, variants, corner, char, alert_list, timing)
     (STATE / "summary.md").write_text(summary)
     week = dt.date.fromtimestamp(now).isocalendar()
     week = f"{week[0]}-W{week[1]:02d}"
