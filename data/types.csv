@@ -569,7 +569,7 @@ type_id,name,volume
 19204,Pith B-Type X-Large Shield Booster,50.0
 19207,,25.0
 19208,Pith X-Type X-Large Shield Booster,50.0
-19215,,5.0
+19215,Pithum C-Type EM Shield Amplifier,5.0
 19219,,5.0
 19227,Pithum A-Type Thermal Shield Amplifier,5.0
 19229,,5.0
@@ -855,6 +855,7 @@ type_id,name,volume
 28292,'Augmented' Praetor,25.0
 28296,'Augmented' Valkyrie,10.0
 28300,'Augmented' Vespa,10.0
+28304,,5.0
 28308,,25.0
 28324,,0.025
 28334,,0.0125

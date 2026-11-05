@@ -1,4 +1,4 @@
-# Summary · Thu 05 Nov 03:34 PST
+# Summary · Thu 05 Nov 04:00 PST
 
 Updated every ~2 hours. **Your real character** is the first section; everything after it is the **practice trader** (pretend ISK, real market data). Each section starts with a line on how to read it.
 
@@ -15,11 +15,11 @@ _Read from the game over SSO. Shows how far the skill plan is and what needs you
 ## 2. Practice portfolio
 _The paper trader started with 5.00B on 28 Oct. Net worth counts stock at what we paid; liquidation is the worst case if we dumped everything into buy orders right now._
 
-- **Net worth:** 4.98B (-0.48% in 7.7 days) · liquidation 2.54B
+- **Net worth:** 4.98B (-0.48% in 7.8 days) · liquidation 2.54B
 - **Where the ISK is:** cash 260.10M · locked in buy orders 1.60B · stock 3.11B · on a courier 0.00
 - **Profit so far (realized):** -24.20M. That's completed sales minus every fee paid. Fees: broker 24.20M, relist 0.00, sales tax 0.00, courier 138.00M
 - **Location:** amarr · import hub amarr · shipments on the way 0
-- **What's limiting profit** (near 100% = the bottleneck): order slots 7/113 · ISK in use 95% · your time last plan 19 of 25 min
+- **What's limiting profit** (near 100% = the bottleneck): order slots 7/113 · ISK in use 95% · your time last plan 20 of 25 min
 
 ## 3. Results by strategy
 _station = buy and sell in the same hub · import = buy in Jita, ship, sell elsewhere · spec = bets ahead of patches. Realized stays at 0 until items actually sell._
@@ -73,54 +73,54 @@ _Market size = ISK spent per day buying from sell orders in that station. Items 
 
 | Hub | Market size/day | Station items | Station profit/day | Import items | Import profit/day |
 |---|---|---|---|---|---|
-| jita | 4.66T | 76 | 208.93M | - | - |
-| amarr | 503.01B | 26 | 81.73M | 100 | 411.16M |
-| dodixie | 164.49B | 8 | 26.24M | 78 | 265.11M |
-| rens | 44.29B | 2 | 6.26M | 42 | 225.27M |
-| hek | 62.71B | 5 | 12.37M | 51 | 190.83M |
+| jita | 4.66T | 77 | 216.67M | - | - |
+| amarr | 503.17B | 26 | 85.08M | 100 | 410.57M |
+| dodixie | 165.29B | 9 | 29.64M | 79 | 260.06M |
+| rens | 44.28B | 2 | 6.26M | 41 | 224.70M |
+| hek | 62.64B | 4 | 9.76M | 50 | 190.58M |
 
 ## 8. Best items to trade inside Jita
 _Buy at the highest buy price + 1 tick, sell at the lowest sell price − 1 tick. Margin is after all fees. On top = how much of the time between your logins our order would stay the best price before a rival undercuts it (sell side / buy side). Limited by = which resource it eats most: order slots, ISK, or your time._
 
 | Item | Buy → sell price | Margin | Sold per day | On top (sell/buy) | Profit/day | Limited by |
 |---|---|---|---|---|---|---|
-| Standup Siren II | 20.01M → 39.40M | 85.8% | 0.8 | 24% / 73% | 13.20M | time |
+| Standup Siren II | 20.01M → 39.40M | 85.8% | 0.8 | 24% / 73% | 13.22M | time |
 | Inherent Implants 'Squire' Power Grid Management EG-604 | 75.02M → 124.10M | 55.9% | 0.3 | 24% / 54% | 11.26M | time |
+| Potent 'Radiance' Cerebral Accelerator | 3.40M → 6.90M | 91.7% | 2.8 | 3% / 3% | 8.54M | time |
 | Dread Guristas Multispectrum Shield Hardener | 177.60M → 221.60M | 17.2% | 0.3 | 3% / 10% | 7.91M | time |
-| Compressed Zeolites | 1.25k → 1.54k | 16.0% | 41448.4 | 5% / 6% | 7.80M | time |
-| Antipharmakon Aeolis | 22.51M → 28.84M | 20.4% | 1.2 | 13% / 85% | 5.50M | time |
-| Blood Raider NET Resonator | 3.36M → 4.00M | 11.7% | 17.9 | 8% / 2% | 6.50M | time |
+| Compressed Zeolites | 1.25k → 1.54k | 16.0% | 41528.9 | 5% / 6% | 7.81M | time |
+| Angel NET Resonator | 2.25M → 2.65M | 10.7% | 48.0 | 9% / 5% | 10.55M | ISK |
+| Antipharmakon Aeolis | 22.51M → 28.85M | 20.4% | 1.3 | 14% / 85% | 5.69M | time |
+| Blood Raider NET Resonator | 3.36M → 4.00M | 11.7% | 17.8 | 8% / 2% | 6.43M | time |
 | Noctis | 73.31M → 85.89M | 9.9% | 0.8 | 11% / 62% | 5.20M | time |
-| Republic Fleet Light Missile Launcher | 37.30M → 52.62M | 32.7% | 0.3 | 43% / 73% | 4.19M | time |
-| Potent 'Radiance' Cerebral Accelerator | 4.33M → 6.88M | 49.6% | 2.8 | 3% / 3% | 5.90M | time |
-| Zainou 'Deadeye' Medium Hybrid Turret MH-803 | 14.05M → 19.81M | 32.6% | 1.0 | 32% / 63% | 4.35M | time |
-| Platinum | 7.03k → 8.09k | 8.1% | 13440.2 | 5% / 4% | 6.76M | ISK |
-| Compressed Glistening Zeolites | 2.84k → 3.26k | 7.9% | 68844.1 | 10% / 12% | 13.77M | ISK |
+| Republic Fleet Light Missile Launcher | 37.30M → 52.62M | 32.7% | 0.3 | 43% / 73% | 4.18M | time |
+| Zainou 'Deadeye' Medium Hybrid Turret MH-803 | 14.05M → 19.81M | 32.6% | 1.0 | 32% / 63% | 4.34M | time |
+| Platinum | 7.03k → 8.09k | 8.1% | 13475.0 | 5% / 4% | 6.78M | ISK |
 
 ## 9. Best items to import Jita → Amarr
 _Buy from Jita sellers, ship by courier, sell just under the cheapest seller there. Margin is after shipping and fees. m³ = cargo volume per unit._
 
 | Item | Jita price → sell price | m³ | Margin | Sold per day | On top | Profit/day | Limited by |
 |---|---|---|---|---|---|---|---|
-| Dark Blood Mega Pulse Laser | 64.40M → 129.70M | 20.0 | 87.0% | 1.4 | 73% | 78.02M | ISK |
+| Dark Blood Mega Pulse Laser | 64.40M → 129.70M | 20.0 | 87.0% | 1.4 | 73% | 77.79M | ISK |
 | Starsi Blast! Classic | 40.84M → 73.89M | 1.0 | 67.5% | 0.6 | 51% | 15.94M | time |
 | Dread Guristas Torpedo Launcher | 98.16M → 136.20M | 20.0 | 27.4% | 0.8 | 85% | 20.80M | ISK |
-| Large Projectile Collision Accelerator II | 20.34M → 48.23M | 20.0 | 121.0% | 0.5 | 100% | 12.82M | time |
-| Corelum C-Type Medium Remote Armor Repairer | 29.42M → 46.79M | 10.0 | 46.7% | 1.1 | 44% | 14.47M | time |
-| Golem State Police SKIN | 54.89M → 99.57M | 0.0 | 68.0% | 0.4 | 63% | 13.61M | time |
-| Ogdin's Eye Coordination Enhancer | 299.60M → 402.90M | 1.0 | 23.3% | 0.3 | 49% | 20.47M | ISK |
-| State Hardpoint Booster II | 9.78M → 20.89M | 1.0 | 98.5% | 1.2 | 86% | 11.09M | time |
+| Large Projectile Collision Accelerator II | 20.34M → 48.23M | 20.0 | 121.0% | 0.5 | 100% | 12.78M | time |
+| Corelum C-Type Medium Remote Armor Repairer | 29.50M → 46.79M | 10.0 | 46.3% | 1.1 | 44% | 14.40M | time |
+| Golem State Police SKIN | 54.86M → 99.57M | 0.0 | 68.1% | 0.4 | 63% | 13.60M | time |
+| Ogdin's Eye Coordination Enhancer | 299.60M → 402.90M | 1.0 | 23.3% | 0.3 | 49% | 20.41M | ISK |
+| State Hardpoint Booster II | 9.78M → 20.89M | 1.0 | 98.5% | 1.1 | 86% | 11.06M | time |
 | ElectroPunch Ultra L | 11.00k → 16.37k | 0.0 | 37.0% | 2946.6 | 49% | 11.91M | time |
-| Large Energy Burst Aerator II | 6.93M → 12.11M | 20.0 | 61.7% | 2.5 | 86% | 10.60M | time |
-| Large Mercoxit Compressor I | 46.99M → 115.80M | 1,000.0 | 129.8% | 0.2 | 54% | 10.90M | time |
-| Blood Raider NET Resonator | 4.00M → 5.19M | 1.0 | 18.8% | 22.3 | 7% | 16.44M | ISK |
+| Large Energy Burst Aerator II | 6.93M → 12.11M | 20.0 | 61.7% | 2.5 | 86% | 10.57M | time |
+| Large Mercoxit Compressor I | 46.99M → 115.80M | 1,000.0 | 129.8% | 0.2 | 54% | 10.87M | time |
+| Blood Raider NET Resonator | 4.00M → 5.19M | 1.0 | 18.8% | 22.3 | 7% | 16.43M | ISK |
 
 ## 10. Cornering watchlist (read-only, nothing is traded)
 _Items where buying out the cheapest few sell orders and relisting higher would pay on paper. We only watch them, to learn whether such prices hold or get undercut._
 
 | Hub | Item | Cheapest now | Buy out | Cost | Relist at | Paper profit | Return | Days to sell | Rival updates/day |
 |---|---|---|---|---|---|---|---|---|---|
-| jita | Inherent Implants 'Squire' Capacitor Systems Operation EO-602 | 7.00M | 1 orders / 47 units | 329.00M | 11.88M | 202.14M | 61% | 4.7 | 0.9 |
+| jita | Inherent Implants 'Squire' Capacitor Systems Operation EO-602 | 7.00M | 1 orders / 47 units | 329.00M | 11.88M | 202.14M | 61% | 4.8 | 0.9 |
 | jita | Mid-grade Centurion Alpha | 78.00M | 2 orders / 5 units | 392.00M | 118.00M | 169.24M | 43% | 6.0 | 1.4 |
 | jita | Oxidative Stress - Unlimited | 40.00M | 5 orders / 5 units | 261.67M | 88.56M | 159.54M | 61% | 8.9 | 1.2 |
 | jita | Capital Nanobot Accelerator I | 45.60M | 2 orders / 8 units | 365.79M | 68.19M | 153.14M | 42% | 4.8 | 1.9 |
@@ -136,8 +136,8 @@ _Is the market data flowing? Orders = orders seen in the station · Hours today 
 
 | Hub | Orders | Hours today | Trades seen | Note |
 |---|---|---|---|---|
-| jita | 328,099 | 13.3 | 5,327 |  |
-| amarr | 128,627 | 13.3 | 1,293 |  |
-| dodixie | 68,289 | 13.3 | 839 |  |
-| rens | 31,808 | 13.3 | 279 |  |
-| hek | 41,395 | 13.3 | 290 |  |
+| jita | 328,049 | 13.7 | 2,451 |  |
+| amarr | 128,652 | 13.7 | 430 |  |
+| dodixie | 68,232 | 13.7 | 397 |  |
+| rens | 31,798 | 13.7 | 84 |  |
+| hek | 41,388 | 13.7 | 73 |  |
