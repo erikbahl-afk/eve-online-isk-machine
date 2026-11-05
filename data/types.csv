@@ -115,7 +115,7 @@ type_id,name,volume
 3893,Mining Connections,0.01
 3894,Distribution Connections,0.01
 3895,Security Connections,
-3898,Quafe Zero Classic,
+3898,Quafe Zero Classic,1.0
 3962,Customs Office Gantry,7600.0
 3966,Men's 'Precision' Boots,0.1
 3989,Large Plasma Smartbomb II,
@@ -359,6 +359,7 @@ type_id,name,volume
 14266,,5.0
 14268,,5.0
 14278,,10.0
+14297,Limited Memory Augmentation - Beta,
 15457,,1.0
 15463,,1.0
 15464,Improved Mindflood Booster,1.0
@@ -497,6 +498,7 @@ type_id,name,volume
 18666,Gistum B-Type 10MN Afterburner,5.0
 18676,Gist X-Type 100MN Afterburner,
 18682,,5.0
+18684,Core C-Type 100MN Afterburner,
 18688,Corelum B-Type 10MN Afterburner,
 18692,Coreli A-Type 1MN Afterburner,5.0
 18698,Core X-Type 100MN Afterburner,
@@ -1055,6 +1057,7 @@ type_id,name,volume
 33842,Federation Navy Drone Damage Amplifier,5.0
 33844,Imperial Navy Drone Damage Amplifier,
 33846,Dread Guristas Drone Damage Amplifier,5.0
+33894,Medium Transverse Bulkhead I,10.0
 33896,Medium Transverse Bulkhead II,10.0
 33898,,20.0
 33900,Large Transverse Bulkhead II,20.0

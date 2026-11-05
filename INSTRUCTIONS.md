@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Thu 05 Nov 02:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Thu 05 Nov 03:34 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 21 · **Est. time:** 19 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -19,7 +19,7 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 | 1 | ☐ 'Cartel' Power Diagnostic System I | 7 | **68,310,000** | 31,380,000 | 68,320,000 |
 | 2 | ☐ Black Market 'Valdimar' Drone Navigation DN-701 | 3 | **249,800,000** | 131,200,000 | 249,900,000 |
 | 3 | ☐ Capital I-a Enduring Armor Repairer | 3 | **199,800,000** | 91,990,000 | 199,900,000 |
-| 4 | ☐ Dread Guristas Rocket Launcher | 6 | **99,550,000** | 48,990,000 | 99,560,000 |
+| 4 | ☐ Dread Guristas Rocket Launcher | 6 | **99,520,000** | 48,990,000 | 99,530,000 |
 | 5 | ☐ Golem Exoplanets Hunter SKIN | 3 | **294,500,000** | 134,900,000 | 294,600,000 |
 | 6 | ☐ Gravid Vorton Tuning System Mutaplasmid | 5 | **89,990,000** | 56,510,000 | 90,000,000 |
 | 7 | ☐ Infomorph Decryption Key | 3,642 | **4,098** | 3,491 | 4,099 |
@@ -43,7 +43,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 16 | ☐ Mexallon | 5 | **44.44** | 52.34 | 44.43 |
+| 16 | ☐ Mexallon | 5 | **44.53** | 52.32 | 44.52 |
 
 ## 17. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
 _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
