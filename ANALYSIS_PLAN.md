@@ -19,6 +19,13 @@ age (stock/sells >7 and >14 days, buys unfilled >5 days, late couriers), falling
 (item cap 8%, import exit check 60%, stale stock 10 d / 3%, falling-price filter 10%). Alert thresholds are
 tuned by usefulness (false alarms vs real catches). Push only for serious risk.
 
+## Tuesday: is the fill model realistic? (agreed)
+Calibration trend (inferred vs official volume, per hub and item kind), fill sanity on our own orders (first in
+line? implausible share of the day's volume?), predicted vs observed time on top (incl. time of day), the
+vanished-order guess (80%) against official volumes, the effect of snapshot spacing (1 h vs 2 h), and probes
+on alpha / gone_weight judged by match to official volume, not profit. Live: the user's wallet transactions
+(SSO) are the ground truth, and every real fill is compared with the model's prediction.
+
 ## Friday: open questions, then time efficiency (agreed)
 Work through STRATEGY.md's open questions one at a time (investigate, write up, act or close).
 When the list is exhausted, focus on the user's time efficiency.
