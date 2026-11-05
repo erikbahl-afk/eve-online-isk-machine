@@ -1,6 +1,6 @@
 {
- "est_secs": 1200,
- "generated": 1793865626.9431033,
+ "est_secs": 1140,
+ "generated": 1793871012.5606837,
  "hub": "amarr",
  "location": "amarr",
  "other": "jita",
@@ -13,9 +13,9 @@
    "kind": "new_sell",
    "n": 1,
    "qty": 7,
-   "ref": 68310000.0,
+   "ref": 68320000.0,
    "secs": 45,
-   "target": 68300000.0,
+   "target": 68310000.0,
    "type_id": 22953,
    "value": 211130740.19907644
   },
@@ -216,18 +216,18 @@
    "value": 313000000.0
   },
   {
-   "cap": 53.38,
+   "cap": 53.36,
    "group": 6,
    "hub": "amarr",
    "kind": "new_buy",
    "n": 16,
-   "qty": 3,
-   "ref": 44.35,
+   "qty": 14,
+   "ref": 44.43,
    "secs": 60,
    "tag": "station",
-   "target": 44.36,
+   "target": 44.44,
    "type_id": 36,
-   "value": 3483404.807054249
+   "value": 3345596.569767067
   },
   {
    "group": 0,
@@ -253,60 +253,46 @@
    "value": 369400000.0
   },
   {
-   "cap": 2455000.0,
+   "cap": 1390.0,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
    "n": 19,
-   "qty": 1,
-   "ref": 2248000.0,
+   "qty": 2539,
+   "ref": 1238.0,
    "secs": 60,
    "tag": "station",
-   "target": 2249000.0,
-   "type_id": 83467,
-   "value": 12776208.33588173
+   "target": 1239.0,
+   "type_id": 62463,
+   "value": 8140036.391902036
   },
   {
-   "cap": 1391.0,
+   "cap": 111800000.0,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
    "n": 20,
-   "qty": 726,
-   "ref": 1235.0,
-   "secs": 60,
-   "tag": "station",
-   "target": 1236.0,
-   "type_id": 62463,
-   "value": 8308344.660114682
-  },
-  {
-   "cap": 111900000.0,
-   "group": 6,
-   "hub": "jita",
-   "kind": "new_buy",
-   "n": 21,
    "qty": 1,
    "ref": 75010000.0,
    "secs": 60,
    "tag": "station",
    "target": 75020000.0,
    "type_id": 3257,
-   "value": 12382260.176266983
+   "value": 11256571.117393618
   },
   {
    "cap": 35500000.0,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
-   "n": 22,
+   "n": 21,
    "qty": 4,
    "ref": 20000000.0,
    "secs": 60,
    "tag": "station",
    "target": 20010000.0,
    "type_id": 47136,
-   "value": 13051632.534452042
+   "value": 13124256.433823945
   }
  ]
 }

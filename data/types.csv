@@ -193,6 +193,7 @@ type_id,name,volume
 11535,Magnetometric Sensor Cluster,1.0
 11536,,1.0
 11538,Nanomechanical Microprocessor,1.0
+11540,,1.0
 11541,Photon Microprocessor,1.0
 11543,,1.0
 11548,Nuclear Reactor Unit,1.0
@@ -238,7 +239,7 @@ type_id,name,volume
 12259,Medium Energy Nosferatu II,
 12263,Heavy Energy Nosferatu II,5.0
 12271,,5.0
-12356,,20.0
+12356,350mm Railgun II,20.0
 12484,Amarr Drone Specialization,0.01
 12486,Gallente Drone Specialization,0.01
 12487,Caldari Drone Specialization,0.01
@@ -788,6 +789,7 @@ type_id,name,volume
 26416,Large Hydraulic Bay Thrusters II,20.0
 26424,Large Projectile Collision Accelerator II,20.0
 26428,Large Projectile Ambit Extension II,20.0
+26434,Large Projectile Metastasis Adjuster II,20.0
 26436,Large EM Shield Reinforcer II,20.0
 26442,,20.0
 26444,,20.0
@@ -932,6 +934,7 @@ type_id,name,volume
 31047,Medium Auxiliary Nano Pump I,
 31053,Medium Auxiliary Nano Pump II,10.0
 31059,Medium Trimark Armor Pump II,10.0
+31067,Capital Nanobot Accelerator I,
 31077,,5.0
 31079,,10.0
 31111,,5.0
@@ -1406,6 +1409,7 @@ type_id,name,volume
 60300,,10.0
 60311,,10.0
 60313,Gas Cloud Harvester I,5.0
+60314,Gas Cloud Harvester II,
 60464,Exigent Heavy Drone Firepower Mutaplasmid,
 60470,Exigent Sentry Drone Projection Mutaplasmid,1.0
 60472,,1.0
