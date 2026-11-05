@@ -159,6 +159,8 @@ def summary(cfg, pf, val, health, sessions, names, station, imports_by_hub, t, s
                 f"{char['bonus_remaps']} · jump clones: {char['jump_clones']}",
                 f"- Queue: {qtxt}"
                 + (f" · next plan skill: {nxt['skill']} → {nxt['target']}" if nxt else " · plan complete"),
+                f"- Skill books still to buy and inject: {', '.join(char.get('books_needed', [])) or 'none'} "
+                "(AIR skill points can only go into injected skills)",
                 f"- Broker fee in Jita 4-4 right now: {char['broker_fee_jita_now']}% (Caldari State "
                 f"{char['standing_caldari_state']:+.2f}, Caldari Navy {char['standing_caldari_navy']:+.2f})", ""]
     if variants:

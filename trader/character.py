@@ -55,7 +55,8 @@ def report(cfg, esi, token, cid, path):
         sp = cur.get("skillpoints_in_skill", 0)
         left = max(0, need - sp)
         rate = attrs[si["pri"]] + attrs[si["sec"]] / 2  # SP per minute (Omega)
-        rows.append({"skill": name, "level": cur.get("trained_skill_level", 0), "target": lvl, "sp_left": left})
+        rows.append({"skill": name, "level": cur.get("trained_skill_level", 0), "target": lvl, "sp_left": left,
+                     "injected": si["id"] in have})
         left_total += left
         total += need
         minutes += left / rate
@@ -76,6 +77,7 @@ def report(cfg, esi, token, cid, path):
         "standing_caldari_state": fac, "standing_caldari_navy": corp,
         "broker_fee_jita_now": round(max(1.0, 3 - 0.3 * br - 0.03 * fac - 0.02 * corp), 3),
         "jump_clones": len(clones.get("jump_clones", [])),
+        "books_needed": [r["skill"] for r in rows if not r["injected"]],
     }
     save_json(path, out)
     return out

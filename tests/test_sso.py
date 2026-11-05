@@ -64,3 +64,4 @@ def test_character_report(tmp_path, monkeypatch):
     assert trade["target"] == 5 and trade["sp_left"] == 256000 - 45255
     assert out["queue"][0]["skill"] == "Trade" and out["jump_clones"] == 1 and out["eta_days"] > 0
     assert "123" not in (tmp_path / "c.json").read_text()  # no character ID written
+    assert out["books_needed"] == ["Retail"]  # only Trade (id 1) is injected in the fake

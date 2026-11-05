@@ -105,3 +105,7 @@
   Alpha gets 750k. CCP says the program moves into Paragon Services around Fractured Skies (launches Nov 10) and all
   progress resets, so it can be run again; unclaimed rewards are lost at the move. Exact move date and post-reset
   SP not confirmed. Each 1M SP saves about 20 days of training (about 50k SP/day at Cha 27/Mem 21).
+- Confirmed on eveonline.com: with Fractured Skies (10 Nov) the ACP moves into Achievements, "all current progress will be
+  reset, meaning all capsuleers can complete it again, for rewards and achievements". CCP's advice: claim unfinished
+  rewards before the move. The user will fully complete it before and after (2 × 1.5M SP), so expect the trader ready
+  around late November or early December instead of late January. Pull the go-live tasks forward to mid-November.
