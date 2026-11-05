@@ -127,6 +127,7 @@ type_id,name,volume
 4292,Siege Module II,1000.0
 4294,Triage Module II,
 4302,Oracle,
+4313,Oxygen Fuel Block Blueprint,0.01
 4315,,0.01
 4345,Gistum B-Type Multispectrum Shield Hardener,5.0
 4347,Pithum A-Type Multispectrum Shield Hardener,
@@ -805,6 +806,7 @@ type_id,name,volume
 27187,,1.0
 27188,Poteque 'Prospector' Astrometric Rangefinding AR-806,1.0
 27190,Poteque 'Prospector' Astrometric Pinpointing AP-610,
+27196,,1.0
 27239,Eifyr and Co. 'Alchemist' Gas Harvesting GH-805,1.0
 27245,Zainou 'Snapshot' Heavy Assault Missiles AM-705,
 27252,Zainou 'Snapshot' Light Missiles LM-905,
@@ -1001,6 +1003,7 @@ type_id,name,volume
 32105,Low-grade Grail Gamma,1.0
 32109,Low-grade Spur Delta,
 32305,Armageddon Navy Issue,50000.0
+32309,Scorpion Navy Issue,50000.0
 32414,Domination Target Painter,5.0
 32881,Venture Blueprint,0.01
 32947,Unit P-343554's Modified Drone Navigation Computer,
@@ -1270,6 +1273,7 @@ type_id,name,volume
 47932,,0.01
 47934,,0.01
 47975,,0.3
+48112,Zero-Point Condensate,
 48113,Agency 'Hardshell' TB9 Dose IV,
 48115,Agency 'Pyrolancea' DB9 Dose IV,
 48386,,0.1
@@ -1360,6 +1364,7 @@ type_id,name,volume
 57319,Mobile Cynosural Beacon,400.0
 57442,Counter-Subversion Sensor Array,2.0
 57444,,1.0
+57449,Nano Regulation Gate,
 57450,Electro-Neural Signaller,
 57452,Isotropic Deposition Guide,
 57454,Oxy-Organic Solvents,
@@ -1500,6 +1505,7 @@ type_id,name,volume
 86264,Breacher Pod Rapid Firing,0.01
 87324,Navy Scan Pinpointing Array,
 87504,Paladin Imperial Police SKIN,0.01
+88001,Babaroga,
 88133,Historic Capsuleer Day SKIN Crate,0.0
 88147,Triplot Scan Acquisition Array,5.0
 88716,Xarasier Medium Ancillary Shield Booster,
