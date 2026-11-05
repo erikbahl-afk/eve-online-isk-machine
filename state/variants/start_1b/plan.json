@@ -1,8 +1,10 @@
 {
  "est_secs": 120,
- "generated": 1793910453.9242687,
+ "generated": 1793915372.8054109,
  "hub": "jita",
  "location": "jita",
+ "min_isk_per_min": 200000,
  "other": "amarr",
+ "skipped_low_value": 0,
  "steps": []
 }
