@@ -49,6 +49,9 @@ Run the tests with `pip install -r requirements.txt && python -m pytest -q`.
   cron in `.github/workflows/market.yml` back to a single every-3-hours line (drop the odd-hour
   backup) to stay within the free 2,000 Actions minutes a month. Have the user make cron edits:
   GitHub appears to only fire schedules last edited by a person, not the Claude app.
+- In live mode, take fees and order slots from the character's actual skills (state/character.json),
+  since early on they won't all be at V. Start with the session length the user expects for the
+  first weeks (longer than the floor).
 - Set `mode = "live"` in `config.toml`, and enter the verified fees, slots and standings from `CHECKS.md`.
 - Keep the trading character in an NPC corporation: it can't be war-decced and pays no corp tax.
   Courier contracts must go to the real PushX corporation; scammers copy names.

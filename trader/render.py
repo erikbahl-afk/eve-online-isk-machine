@@ -166,7 +166,7 @@ def summary(cfg, pf, val, health, sessions, names, station, imports_by_hub, t, s
                 "| Variant | Net worth | Change | Realized | What it tests |", "|---|---|---|---|---|"]
         for name, v in [("main", {"nw": val["nw_book"], "realized": pnl["realized"],
                                   "note": "current settings (drives INSTRUCTIONS.md)"})] + list(variants.items()):
-            out.append(f"| {name} | {isk(v['nw'])} | {(v['nw'] / s0 - 1) * 100:+.2f}% | {isk(v['realized'])} | "
+            out.append(f"| {name} | {isk(v['nw'])} | {(v['nw'] / v.get('start', s0) - 1) * 100:+.2f}% | {isk(v['realized'])} | "
                        f"{v['note']} |")
     out += ["", "## Recent sessions", "| When (PT) | Route | Steps done/planned | Minutes | Partial |",
             "|---|---|---|---|---|"]

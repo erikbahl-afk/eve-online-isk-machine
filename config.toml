@@ -53,6 +53,7 @@ import_hub = "auto"          # auto | amarr | dodixie | rens | hek | none. auto 
 jump_cooldown_hours = 19     # assumes Infomorph Synchronizing V (unverified, see CHECKS.md)
 min_import_margin = 0.10     # imports tie capital up in transit, so they need a higher margin
 max_import_types = 12        # per session (time: 40 s each + courier contract)
+import_min_nw = 4_000_000_000 # below this, imports wait: one full contract would be most of the bankroll
 max_contracts = 2             # courier contracts per session (3 min each)
 min_contract_fill = 0.6       # ship only if contracts are at least 60% full (by collateral or m3)
 spec_max_frac = 0.10         # cap on speculation positions (state/spec.json)
@@ -125,6 +126,24 @@ note = "lower margin bars (4% station, 7% import): more items, thinner edges"
 [variants.strategy]
 min_margin = 0.04
 min_import_margin = 0.07
+
+# The user may start live with as little as 1B and spend extra time in the first weeks.
+[[variants]]
+name = "start_1b"
+note = "1B starting capital, normal sessions: the likely live start"
+[variants.capital]
+start_isk = 1_000_000_000
+
+[[variants]]
+name = "start_1b_more_time"
+note = "1B start with 60-min sessions and 2-3 weekday logins: is extra early time worth it?"
+[variants.capital]
+start_isk = 1_000_000_000
+[variants.sim]
+session_seconds = 3600
+weekday_logons = [2, 3]
+[variants.strategy]
+plan_seconds = 3300
 
 # Skill plan for the trading character, in training order (progress shows in state/summary.md once SSO is connected).
 [training]

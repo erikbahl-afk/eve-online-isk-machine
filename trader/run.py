@@ -151,7 +151,8 @@ def main():
     for v in cfg.get("variants", []):
         vcfg = merge(cfg, {k: val for k, val in v.items() if k not in ("name", "note")})
         r = run_portfolio(vcfg, STATE / "variants" / v["name"], shared)
-        variants[v["name"]] = {"nw": r["val"]["nw_book"], "realized": r["pf"]["pnl"]["realized"], "note": v["note"]}
+        variants[v["name"]] = {"nw": r["val"]["nw_book"], "realized": r["pf"]["pnl"]["realized"], "note": v["note"],
+                               "start": r["pf"]["start_isk"]}
     r = run_portfolio(cfg, STATE, shared)
     pf, val, plan = r["pf"], r["val"], r["plan"]
     corner = corners.scan_all(cfg, Fees(cfg), books, stats, tops, val["nw_book"], today)

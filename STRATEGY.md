@@ -64,6 +64,13 @@ same sessions but different settings: currently `no_imports` (what imports add) 
 (lower margin bars). Promote a variant's settings when it beats main for about 2 weeks; then
 replace it with a new experiment.
 
+## Bootstrap phase (live start may be ~1B, with longer sessions at first)
+- The session times in Constraints are a floor. Early on the user may log in more and for longer.
+- Below `import_min_nw` (4B), imports pause: a contract worth shipping (≥60% of 1.5B collateral) would be
+  most of the bankroll in transit. Station trading compounds the capital first, then imports switch on.
+- The `start_1b` and `start_1b_more_time` experiments measure the likely live start and what extra early
+  time is worth. Use them to set expectations and the session plan for the first live weeks.
+
 ## Sizing and risk
 - At most 8% of net worth in one item, 10% in speculation, and a 2% cash reserve. Slots are capped at 113.
 - Sell floors start at break-even + 0.5%, and break-even includes the shipping cost. After 10 days

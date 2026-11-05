@@ -93,3 +93,9 @@
   attributes, standings, jump clones → state/character.json, with no name or ID), plus `sso-connect.yml`
   for the one-time code exchange. The refresh token is stored AES-GCM encrypted in state/sso_token.enc
   with a key derived from the ESI_CLIENT_SECRET Actions secret. The summary shows plan progress and ETA.
+
+## 2026-11-05 · bootstrap scenario
+- The user says the live start may be as little as 1B ISK, and the session times are a floor: more time in the
+  first weeks. Added variants `start_1b` (1B, normal sessions) and `start_1b_more_time` (1B, 60-min sessions,
+  2–3 weekday logins). Imports now wait until net worth ≥4B (`import_min_nw`).
+- Use these two to set expectations: weeks to grow 1B → 4B, and whether extra early time pays.

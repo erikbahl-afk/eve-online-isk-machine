@@ -256,6 +256,8 @@ class Planner:
         hub, dst = self.home, self.import_hub
         if not dst or dst not in self.tops or hub not in self.books:
             return None
+        if self.nw < self.s["import_min_nw"]:
+            return None  # a worthwhile shipment would tie up too much of a small bankroll
         route, book = self.cfg["routes"][dst], self.books[hub]
         T = self.c["logon_gap_hours"] + route["days"] * 24
         steps, value, m3, profit = [], 0.0, 0.0, 0.0
