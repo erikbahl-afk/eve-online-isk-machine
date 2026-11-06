@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Fri 06 Nov 07:55 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
+**Updated:** Fri 06 Nov 08:00 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
 **Steps:** 15 · **Est. time:** 12 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -40,7 +40,7 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 4 | ☐ Antikythera Element | 8 | **1,416,000** | 884,200 | 1,417,000 |
+| 4 | ☐ Antikythera Element | 8 | **1,415,000** | 884,200 | 1,416,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._

@@ -1,4 +1,4 @@
-# Summary · Fri 06 Nov 07:55 PST
+# Summary · Fri 06 Nov 08:00 PST
 
 Updated every ~2 hours. **Your real character** is the first section; everything after it is the **practice trader** (pretend ISK, real market data). Each section starts with a line on how to read it.
 
@@ -90,46 +90,46 @@ _Market size = ISK spent per day buying from sell orders in that station. Items 
 
 | Hub | Market size/day | Station items | Station profit/day | Import items | Import profit/day |
 |---|---|---|---|---|---|
-| jita | 4.78T | 72 | 261.37M | - | - |
-| amarr | 518.30B | 22 | 201.39M | 70 | 351.44M |
-| dodixie | 151.75B | 7 | 21.27M | 44 | 223.97M |
-| rens | 44.98B | 0 | - | 12 | 76.17M |
-| hek | 62.89B | 1 | 3.29M | 26 | 125.77M |
+| jita | 4.78T | 72 | 261.52M | - | - |
+| amarr | 520.42B | 23 | 202.48M | 70 | 351.33M |
+| dodixie | 151.79B | 7 | 21.28M | 44 | 224.05M |
+| rens | 44.97B | 0 | - | 12 | 76.15M |
+| hek | 62.95B | 1 | 3.29M | 24 | 114.79M |
 
 ## 8. Best items to trade inside Jita
 _Buy at the highest buy price + 1 tick, sell at the lowest sell price − 1 tick. Margin is after all fees. On top = how much of the time between your logins our order would stay the best price before a rival undercuts it (sell side / buy side). Limited by = which resource it eats most: order slots, ISK, or your time._
 
 | Item | Buy → sell price | Margin | Sold per day | On top (sell/buy) | Profit/day | Limited by |
 |---|---|---|---|---|---|---|
-| Pure Standard Frentix Booster | 44.61k → 83.27k | 76.1% | 291.4 | 85% / 86% | 9.86M | time |
-| Veles Entropic Radiation Sink | 310.90M → 395.20M | 19.4% | 0.3 | 4% / 8% | 14.94M | ISK |
+| Pure Standard Frentix Booster | 44.61k → 83.27k | 76.1% | 291.2 | 85% / 86% | 9.86M | time |
+| Veles Entropic Radiation Sink | 310.90M → 390.80M | 18.1% | 0.3 | 4% / 8% | 13.85M | ISK |
 | Inherent Implants 'Squire' Power Grid Management EG-604 | 80.03M → 123.90M | 45.8% | 0.3 | 22% / 36% | 9.87M | time |
 | Blood Raider Blueprint Crate | 1.57B → 1.92B | 14.5% | 0.2 | 1% / 13% | 33.66M | ISK |
 | Mid-grade Amulet Epsilon | 220.10M → 299.90M | 28.1% | 0.2 | 5% / 3% | 10.15M | time |
-| Antikythera Element | 786.90k → 1.27M | 52.6% | 19.0 | 4% / 4% | 7.71M | time |
 | Angel NET Resonator | 2.19M → 2.59M | 11.0% | 55.7 | 6% / 4% | 12.28M | ISK |
-| Zainou 'Deadeye' Medium Hybrid Turret MH-803 | 11.53M → 20.27M | 65.7% | 0.8 | 26% / 64% | 5.75M | time |
-| Small Artillery Battery | 1.20M → 3.00M | 135.9% | 2.6 | 72% / 73% | 4.17M | time |
+| Antikythera Element | 789.10k → 1.27M | 52.2% | 18.9 | 4% / 4% | 7.61M | time |
+| Zainou 'Deadeye' Medium Hybrid Turret MH-803 | 11.53M → 20.35M | 66.4% | 0.8 | 26% / 64% | 5.81M | time |
+| Small Artillery Battery | 1.20M → 3.00M | 135.9% | 2.5 | 72% / 73% | 4.14M | time |
 | Ametat II | 21.31M → 26.54M | 17.0% | 1.6 | 15% / 40% | 5.69M | time |
-| Navy Cap Booster 800 | 195.40k → 250.70k | 20.5% | 163.8 | 1% / 6% | 6.26M | time |
-| Antipharmakon Aeolis | 22.55M → 28.79M | 19.9% | 1.2 | 12% / 54% | 5.04M | time |
+| Navy Cap Booster 800 | 195.40k → 250.70k | 20.5% | 163.9 | 1% / 6% | 6.26M | time |
+| Antipharmakon Aeolis | 22.55M → 28.83M | 20.1% | 1.2 | 12% / 55% | 5.10M | time |
 
 ## 9. Best items to import Jita → Amarr
 _Buy from Jita sellers, ship by courier, sell just under the cheapest seller there. Margin is after shipping and fees. m³ = cargo volume per unit._
 
 | Item | Jita price → sell price | m³ | Margin | Sold per day | On top | Profit/day | Limited by |
 |---|---|---|---|---|---|---|---|
-| Mid-grade Amulet Epsilon | 300.00M → 423.50M | 1.0 | 29.7% | 0.4 | 13% | 36.34M | ISK |
+| Mid-grade Amulet Epsilon | 300.00M → 423.50M | 1.0 | 29.7% | 0.4 | 13% | 36.36M | ISK |
 | Gallente Control Tower Small | 121.30M → 163.20M | 2,000.0 | 23.4% | 0.6 | 63% | 16.98M | ISK |
-| Mid-grade Virtue Gamma | 139.10M → 184.10M | 1.0 | 21.3% | 0.7 | 73% | 19.81M | ISK |
-| Nanomechanical Microprocessor | 41.30k → 63.59k | 1.0 | 41.9% | 617.4 | 48% | 10.61M | time |
-| Mid-grade Virtue Epsilon | 402.20M → 524.50M | 1.0 | 19.5% | 0.5 | 73% | 41.42M | ISK |
+| Mid-grade Virtue Gamma | 139.10M → 184.10M | 1.0 | 21.3% | 0.7 | 73% | 19.82M | ISK |
+| Nanomechanical Microprocessor | 41.30k → 63.59k | 1.0 | 41.9% | 617.7 | 48% | 10.62M | time |
+| Mid-grade Virtue Epsilon | 402.20M → 524.50M | 1.0 | 19.5% | 0.5 | 73% | 41.39M | ISK |
 | 'Thurifer' Large Cap Battery | 200.40M → 258.10M | 15.0 | 17.9% | 0.4 | 73% | 13.19M | ISK |
 | Federation Navy 50MN Microwarpdrive | 80.00M → 120.30M | 10.0 | 38.4% | 0.3 | 72% | 8.10M | time |
 | Antimatter Reactor Unit | 100.00k → 140.80k | 1.0 | 29.3% | 278.0 | 55% | 8.10M | time |
 | Legion Mjolnir Auto-Targeting Light Missile | 999.00 → 2.32k | 0.0 | 116.0% | 6016.7 | 100% | 6.97M | time |
 | Zainou 'Beancounter' Metallurgy MY-705 | 151.30M → 190.30M | 1.0 | 15.0% | 0.4 | 63% | 8.97M | ISK |
-| Cynabal | 181.80M → 234.60M | 10,000.0 | 16.7% | 0.3 | 30% | 7.97M | time |
+| Cynabal | 181.70M → 234.60M | 10,000.0 | 16.7% | 0.3 | 30% | 7.99M | time |
 | Upwell Starship Engineering | 25.00M → 44.99M | 0.0 | 66.6% | 0.4 | 100% | 6.44M | time |
 
 ## 10. Cornering watchlist (read-only, nothing is traded)
@@ -153,10 +153,10 @@ _Is the market data flowing? Orders = orders seen in the station · Hours today 
 
 | Hub | Orders | Hours today | Trades seen | Note |
 |---|---|---|---|---|
-| jita | 329,727 | 16.3 | 8,017 |  |
-| amarr | 127,877 | 16.3 | 2,862 |  |
-| dodixie | 68,428 | 16.3 | 1,171 |  |
-| rens | 31,751 | 16.3 | 459 |  |
-| hek | 41,322 | 16.3 | 532 |  |
+| jita | 329,655 | 16.4 | 1,059 |  |
+| amarr | 127,869 | 16.4 | 220 |  |
+| dodixie | 68,354 | 16.4 | 422 |  |
+| rens | 31,750 | 16.4 | 37 |  |
+| hek | 41,318 | 16.4 | 77 |  |
 
-_This run took 38 s (market data 21 s, stats and character 1 s, experiments 13 s, main portfolio 2 s, cornering scan 1 s, ESI back-off 0 s; 939 ESI calls). A slow run usually means ESI rate limits (back-off) or a first-time lookup of many item types._
+_This run took 28 s (market data 20 s, stats and character 1 s, experiments 6 s, main portfolio 1 s, cornering scan 0 s, ESI back-off 0 s; 920 ESI calls). A slow run usually means ESI rate limits (back-off) or a first-time lookup of many item types._
