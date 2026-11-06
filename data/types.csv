@@ -1,6 +1,6 @@
 type_id,name,volume,group_id
 34,Tritanium,0.01,18
-35,Pyerite,,
+35,Pyerite,0.01,18
 36,Mexallon,0.01,18
 37,Isogen,0.01,18
 38,Nocxium,0.01,
@@ -85,7 +85,7 @@ type_id,name,volume,group_id
 3033,Small Focused Beam Laser II,5,
 3041,Small Focused Pulse Laser II,5,
 3049,Mega Beam Laser II,20,
-3057,Mega Pulse Laser II,20,
+3057,Mega Pulse Laser II,20,53
 3080,,1,
 3082,,10,
 3090,425mm Railgun II,20,74
@@ -95,9 +95,10 @@ type_id,name,volume,group_id
 3135,Zainou 'Deadeye' Missile Projection MP-706,1,
 3141,Zainou 'Deadeye' Target Navigation Prediction TN-902,,
 3142,Zainou 'Deadeye' Target Navigation Prediction TN-904,,
-3146,Heavy Neutron Blaster II,10,
+3146,Heavy Neutron Blaster II,10,74
 3167,Zainou 'Snapshot' Heavy Missiles HM-706,1,
 3168,Zainou 'Snapshot' Light Missiles LM-902,,
+3178,Light Neutron Blaster II,5,74
 3180,Zainou 'Snapshot' Torpedoes TD-606,1,
 3185,Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-802,,
 3186,Neutron Blaster Cannon II,20,
@@ -390,7 +391,7 @@ type_id,name,volume,group_id
 15605,Caldari Navy Vice Admiral Insignia I,,
 15615,Imperial Navy General Insignia I,0.1,409
 15632,Republic Fleet Commander Insignia I,0.1,409
-15661,Republic Fleet Commander Insignia II,,
+15661,Republic Fleet Commander Insignia II,0.1,409
 15669,Imperial Navy General Insignia II,0.1,409
 15675,Caldari Navy Co-Processor,5,
 15681,Caldari Navy Ballistic Control System,5,367
@@ -441,7 +442,7 @@ type_id,name,volume,group_id
 16278,,5,
 16457,Crosslink Compact Ballistic Control System,5,367
 16535,Copasetic Compact Shield Boost Amplifier,,
-16537,Vigor Compact Micro Auxiliary Power Core,5,
+16537,Vigor Compact Micro Auxiliary Power Core,5,339
 16633,Hydrocarbons,,
 16636,Silicates,,
 16637,Tungsten,0.05,
@@ -487,7 +488,7 @@ type_id,name,volume,group_id
 17528,Imperial Navy Capacitor Power Relay,5,767
 17546,Imperial Navy Large Armor Repairer,,
 17549,Federation Navy Multispectrum Coating,,
-17559,Federation Navy Stasis Webifier,5,
+17559,Federation Navy Stasis Webifier,5,65
 17619,,2500,
 17621,,4000,
 17634,Caracal Navy Issue,10000,26
@@ -567,7 +568,7 @@ type_id,name,volume,group_id
 19038,Core X-Type Large Armor Repairer,50,
 19039,Corpus C-Type Large Armor Repairer,50,
 19045,Corpus X-Type Large Armor Repairer,50,62
-19046,Centus X-Type Large Armor Repairer,50,
+19046,Centus X-Type Large Armor Repairer,50,62
 19081,Corpum A-Type Medium Remote Capacitor Transmitter,10,
 19087,,10,
 19105,,5,
@@ -1135,7 +1136,7 @@ type_id,name,volume,group_id
 34590,Victorieux Luxury Yacht,,
 34593,Entosis Link I,20,
 34631,Rokh Wiyrkomi SKIN,,
-34828,Jackdaw,5000,
+34828,Jackdaw,5000,1305
 35683,Hecate,5000,1305
 35790,Missile Guidance Computer II,5,
 35826,Azbel,,
@@ -1281,7 +1282,7 @@ type_id,name,volume,group_id
 46000,Agency 'Pyrolancea' DB7 Dose III,,
 46002,Agency 'Hardshell' TB5 Dose II,1,
 46003,Agency 'Hardshell' TB7 Dose III,1,
-46005,Agency 'Overclocker' SB5 Dose II,,
+46005,Agency 'Overclocker' SB5 Dose II,1,303
 46213,Ferrogel Reaction Formula,,
 46355,Ubiquitous Moon Mining Crystal Type A I,6,
 46356,Ubiquitous Moon Mining Crystal Type A II,10,
@@ -1336,11 +1337,11 @@ type_id,name,volume,group_id
 47928,,0.01,
 47932,,0.01,
 47934,,0.01,
-47975,,0.3,
+47975,,0.3,1996
 48112,Zero-Point Condensate,0.2,1996
 48113,Agency 'Hardshell' TB9 Dose IV,,
 48115,Agency 'Pyrolancea' DB9 Dose IV,1,303
-48386,,0.1,
+48386,,0.1,1088
 48434,Unstable Medium Cap Battery Mutaplasmid,,
 48501,Bellicose Dawn of Liberation SKIN,,
 48720,Osprey Combat Medic Section SKIN,,
@@ -1506,6 +1507,7 @@ type_id,name,volume,group_id
 62532,Compressed Omber,0.006,469
 62533,Compressed Omber II-Grade,,
 62554,Compressed Gneiss III-Grade,0.05,467
+62560,Compressed Crokite,0.16,452
 62564,Compressed Bistot,,
 62566,,0.16,
 62567,Compressed Bistot IV-Grade,0.16,
@@ -1520,7 +1522,7 @@ type_id,name,volume,group_id
 62625,Large Asteroid Ore Compressor I,1000,4174
 62628,Large Ice Compressor I,1000,
 62630,Large Mercoxit Compressor I,1000,
-62631,Large Moon Ore Compressor I,1000,
+62631,Large Moon Ore Compressor I,1000,4174
 63054,Men's 'Semiotique Superluminal' Pants,,
 63140,,5000,
 64380,Men's Amarr Courtly Robe,,
@@ -1551,6 +1553,7 @@ type_id,name,volume,group_id
 79954,Mamba Luminae Polaris SKIN,,
 81008,,20000,
 81046,Deluge,20000,1202
+81047,Torrent,20000,380
 81050,Upwell Starship Engineering,0.01,
 81083,Starsi Blast! Classic,1,303
 81143,Magmatic Gas,0.01,
