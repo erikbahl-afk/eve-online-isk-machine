@@ -33,7 +33,7 @@
    },
    "2993": {
     "cost": 382100.0,
-    "qty": 6,
+    "qty": 7,
     "since": 1793901486.0,
     "tag": "station"
    },
@@ -70,7 +70,7 @@
   }
  },
  "last_jump": 1793894429.201751,
- "last_t": 1793966426.2755249,
+ "last_t": 1793973628.5445037,
  "location": "amarr",
  "next_oid": 32,
  "orders": [
@@ -140,7 +140,7 @@
    "oid": 9,
    "price": 382100.0,
    "qty": 61,
-   "remain": 55,
+   "remain": 54,
    "side": "buy",
    "tag": "station",
    "type_id": 2993,
@@ -389,7 +389,7 @@
  ],
  "per_strategy": {
   "station": {
-   "buys": 177300711.68,
+   "buys": 177682811.68,
    "fees": 13889876.285,
    "realized": -13889876.285,
    "sales": 0.0
@@ -525,8 +525,8 @@
    "sold_units": 0
   },
   "jita:2993": {
-   "bought_isk": 2292600.0,
-   "bought_units": 6,
+   "bought_isk": 2674700.0,
+   "bought_units": 7,
    "fees": 349621.5,
    "realized": -349621.5,
    "sold_net": 0.0,
@@ -647,7 +647,7 @@
  },
  "pnl": {
   "broker": 13889876.285,
-  "buys": 177300711.68,
+  "buys": 177682811.68,
   "courier": 0.0,
   "realized": -13889876.285,
   "relist": 0.0,

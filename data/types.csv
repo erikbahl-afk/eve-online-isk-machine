@@ -91,6 +91,7 @@ type_id,name,volume,group_id
 3080,,1,
 3082,,10,
 3090,425mm Railgun II,20,74
+3095,Eifyr and Co. 'Rogue' Evasive Maneuvering EM-706,1,747
 3106,,10,
 3130,Heavy Electron Blaster II,10,
 3134,Zainou 'Deadeye' Missile Projection MP-704,,
@@ -147,7 +148,7 @@ type_id,name,volume,group_id
 4345,Gistum B-Type Multispectrum Shield Hardener,5,77
 4347,Pithum A-Type Multispectrum Shield Hardener,,
 4348,Pithum B-Type Multispectrum Shield Hardener,5,
-4349,Pithum C-Type Multispectrum Shield Hardener,5,
+4349,Pithum C-Type Multispectrum Shield Hardener,5,77
 5051,Heavy F-RX Compact Capacitor Booster,,
 5973,5MN Y-T8 Compact Microwarpdrive,,
 6719,,5,
@@ -191,7 +192,7 @@ type_id,name,volume,group_id
 11188,Anathema,2500,830
 11192,Buzzard,2500,830
 11194,,2500,
-11196,,2500,
+11196,Claw,2500,831
 11198,Stiletto,,
 11200,,2500,
 11365,Vengeance,2500,
@@ -204,6 +205,7 @@ type_id,name,volume,group_id
 11433,High Energy Physics,0.01,
 11448,Electromagnetic Physics,0.01,270
 11449,Rocket Science,0.01,
+11453,,0.01,270
 11529,Molecular Engineering,0.01,270
 11531,,1,
 11534,Gravimetric Sensor Cluster,1,334
@@ -273,15 +275,16 @@ type_id,name,volume,group_id
 12745,Occator,20000,380
 12747,Mastodon,20000,380
 12753,Impel,20000,380
+12761,,0.025,376
 12779,,0.025,
 12791,,0.025,
 12807,,0.025,373
-12816,,1,375
+12816,Conflagration L,1,375
 12818,Scorch M,,
 13209,Armored Command Mindlink,1,744
 13216,Zainou 'Gypsy' CPU Management EE-603,1,741
 13217,Inherent Implants 'Lancer' Large Energy Turret LE-1003,,
-13218,Zainou 'Deadeye' Large Hybrid Turret LH-1003,,
+13218,Zainou 'Deadeye' Large Hybrid Turret LH-1003,1,742
 13219,Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1003,,
 13220,Inherent Implants 'Lancer' Medium Energy Turret ME-803,,
 13221,Zainou 'Deadeye' Medium Hybrid Turret MH-803,1,742
@@ -387,6 +390,7 @@ type_id,name,volume,group_id
 14266,,5,
 14268,,5,
 14278,,10,
+14295,,1,745
 14297,Limited Memory Augmentation - Beta,1,745
 15457,,1,
 15463,Standard Mindflood Booster,1,303
@@ -452,6 +456,7 @@ type_id,name,volume,group_id
 16457,Crosslink Compact Ballistic Control System,5,367
 16535,Copasetic Compact Shield Boost Amplifier,,
 16537,Vigor Compact Micro Auxiliary Power Core,5,339
+16631,Small Artillery Battery,500,426
 16633,Hydrocarbons,,
 16636,Silicates,,
 16637,Tungsten,0.05,
@@ -617,7 +622,7 @@ type_id,name,volume,group_id
 19263,Gist C-Type EM Shield Hardener,,
 19268,,5,
 19281,Gist X-Type EM Shield Hardener,,
-19282,Pith X-Type EM Shield Hardener,5,
+19282,Pith X-Type EM Shield Hardener,5,77
 19284,Pith X-Type Thermal Shield Hardener,5,77
 19285,,5,
 19288,Pith X-Type Kinetic Shield Hardener,5,77
@@ -669,7 +674,7 @@ type_id,name,volume,group_id
 20415,Datacore - Molecular Engineering,0.1,
 20418,Datacore - Electronic Engineering,,
 20419,Datacore - Graviton Physics,0.1,333
-20424,Datacore - Mechanical Engineering,0.1,
+20424,Datacore - Mechanical Engineering,0.1,333
 20443,Ogdin's Eye Coordination Enhancer,1,
 20499,,1,
 20501,High-grade Amulet Beta,,
@@ -709,7 +714,7 @@ type_id,name,volume,group_id
 21896,,0.0125,
 21898,Republic Fleet EMP S,0.0025,
 21918,Republic Fleet Phased Plasma L,0.025,
-21922,,0.0125,
+21922,Republic Fleet Phased Plasma M,0.0125,83
 22109,Mid-grade Crystal Delta,1,
 22110,Mid-grade Crystal Epsilon,1,
 22111,Mid-grade Crystal Gamma,1,
@@ -892,7 +897,7 @@ type_id,name,volume,group_id
 27447,Caldari Navy Inferno Heavy Missile,0.03,
 27459,,0.05,
 27465,Legion Scourge Auto-Targeting Cruise Missile,,
-27483,Legion Mjolnir Auto-Targeting Heavy Missile,,
+27483,Legion Mjolnir Auto-Targeting Heavy Missile,0.03,395
 27489,Legion Scourge Auto-Targeting Heavy Missile,0.03,
 27507,Legion Mjolnir Auto-Targeting Light Missile,0.015,394
 27916,,75,
@@ -1032,7 +1037,7 @@ type_id,name,volume,group_id
 31760,Medium Thermal Shield Reinforcer II,10,774
 31770,,5,
 31774,Capital Core Defense Capacitor Safeguard II,40,
-31790,Medium Core Defense Field Extender I,10,
+31790,Medium Core Defense Field Extender I,10,774
 31792,,40,
 31796,Medium Core Defense Field Extender II,10,
 31802,Medium Core Defense Field Purger I,10,
@@ -1184,7 +1189,7 @@ type_id,name,volume,group_id
 37452,ORE Ice Mining Laser,5,54
 37454,,2500,
 37456,,2500,
-37457,,2500,
+37457,Deacon,2500,1527
 37458,,2500,1527
 37459,,2500,
 37460,Scalpel,,
@@ -1521,6 +1526,7 @@ type_id,name,volume,group_id
 62403,Compressed Fullerite-C72,,
 62404,Compressed Fullerite-C32,,
 62405,Compressed Fullerite-C540,,
+62450,Shipboard Compression Technology,,
 62454,Compressed Bitumens,,
 62455,Compressed Brimful Bitumens,0.1,1884
 62456,Compressed Glistening Bitumens,,
@@ -1704,6 +1710,7 @@ type_id,name,volume,group_id
 96566,Tetrimon Anti-Drain Booster IV,1,
 96568,,1,
 96569,Tetrimon Capacitor Booster III,1,
+96570,,1,303
 96573,Tetrimon Resistance Booster III,,
 96574,Tetrimon Resistance Booster IV,1,303
 96583,Chemal Tech Turret Booster III,1,303
