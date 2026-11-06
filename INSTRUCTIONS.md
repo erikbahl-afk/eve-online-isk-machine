@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Fri 06 Nov 00:30 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
-**Steps:** 7 · **Est. time:** 9 min. Work top to bottom; stop any time.  
+**Updated:** Fri 06 Nov 02:00 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
+**Steps:** 10 · **Est. time:** 11 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -15,43 +15,52 @@ Each hub's steps come in **priority blocks**: finish Block 1 before anything els
 
 ## At Jita IV - Moon 4 - Caldari Navy Assembly Plant
 
-### Block 1 · must do · about 1 min
+### Block 1 · must do · about 2 min
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 1 | ☐ 50MN Microwarpdrive II | 3,532,000 | **3,533,000** | 3,738,000 | 3,532,000 |
+| 1 | ☐ 50MN Microwarpdrive II | 3,532,000 | **3,533,000** | 3,736,000 | 3,532,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 2 | ☐ Angel NET Resonator | 1 | **2,155,000** | 2,290,000 | 2,154,000 |
+| 2 | ☐ Angel NET Resonator | 1 | **2,155,000** | 2,289,000 | 2,154,000 |
+| 3 | ☐ Compressed Brimful Bitumens | 17 | **1,115** | 1,281 | 1,114 |
 
-### Block 2 · should do · about 1 min
-_Short on time? Skip to the jump (step 5): the next hub's Block 1 is worth more per minute than the rest of this hub._
-
-#### New buy orders
-_Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
-
-| # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
-|---|---|---|---|---|---|
-| 3 | ☐ Compressed Brimful Bitumens | 17 | **1,114** | 1,315 | 1,113 |
-
-### Block 3 · if there's time · about 1 min
-_Short on time? Skip to the jump (step 5): the next hub's Block 1 is worth more per minute than the rest of this hub._
+### Block 2 · should do · about 3 min
+_Short on time? Skip to the jump (step 8): the next hub's Block 1 is worth more per minute than the rest of this hub._
 
 #### List new stock
 _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Duration 3 months._
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 4 | ☐ Antikythera Element | 8 | **1,454,000** | 884,200 | 1,455,000 |
+| 4 | ☐ Antikythera Element | 8 | **1,449,000** | 884,200 | 1,450,000 |
 
-## 5. ☐ Jump clone to Amarr VIII (Oris) - Emperor Family Academy
+#### New buy orders
+_Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
+
+| # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
+|---|---|---|---|---|---|
+| 5 | ☐ Compressed Omber | 1 | **120.10** | 122.60 | 120.00 |
+| 6 | ☐ Compressed Polycrase X-Grade | 2 | **189.10** | 190.50 | 189.00 |
+
+### Block 3 · if there's time · about 1 min
+_Short on time? Skip to the jump (step 8): the next hub's Block 1 is worth more per minute than the rest of this hub._
+
+#### List new stock
+_Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Duration 3 months._
+
+| # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
+|---|---|---|---|---|---|
+| 7 | ☐ 50MN Microwarpdrive II | 2 | **4,226,000** | 3,674,000 | 4,227,000 |
+
+## 8. ☐ Jump clone to Amarr VIII (Oris) - Emperor Family Academy
 _Clone Bay → Jump Clone → Amarr VIII (Oris) - Emperor Family Academy. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
 
 ## At Amarr VIII (Oris) - Emperor Family Academy
@@ -63,7 +72,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 6 | ☐ 'Cartel' Power Diagnostic System I | 68,300,000 | **68,290,000** | 31,380,000 | 68,300,000 |
+| 9 | ☐ 'Cartel' Power Diagnostic System I | 68,300,000 | **68,290,000** | 31,380,000 | 68,300,000 |
 
 ### Block 2 · should do · about 1 min
 
@@ -72,7 +81,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 7 | ☐ Mutated Blood Sample | 1 | **70,440** | 74,250 | 70,430 |
+| 10 | ☐ Mutated Blood Sample | 1 | **70,470** | 73,360 | 70,460 |
 
 ---
 Wallet 100.00M · escrow 1.66B · stock 3.13B · in transit 0.00 · net worth 4.89B (liquidation 2.46B)

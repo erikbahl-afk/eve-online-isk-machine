@@ -201,7 +201,7 @@ type_id,name,volume,group_id
 11399,Morphite,0.01,18
 11400,,2500,
 11433,High Energy Physics,0.01,
-11448,Electromagnetic Physics,,
+11448,Electromagnetic Physics,0.01,270
 11449,Rocket Science,0.01,
 11529,Molecular Engineering,0.01,270
 11531,,1,
@@ -357,7 +357,7 @@ type_id,name,volume,group_id
 14140,True Sansha Cap Recharger,5,43
 14144,Dark Blood Capacitor Power Relay,5,
 14146,True Sansha Capacitor Power Relay,,
-14148,Dark Blood Small Energy Nosferatu,,
+14148,Dark Blood Small Energy Nosferatu,5,68
 14152,,5,
 14158,,5,
 14164,Dark Blood Medium Energy Neutralizer,5,
@@ -388,7 +388,7 @@ type_id,name,volume,group_id
 15457,,1,
 15463,Standard Mindflood Booster,1,303
 15464,Improved Mindflood Booster,1,303
-15466,,1,
+15466,Standard Drop Booster,1,303
 15477,Improved Drop Booster,1,
 15478,Strong Drop Booster,,
 15592,Federation Navy Fleet Captain Insignia I,,
@@ -411,7 +411,7 @@ type_id,name,volume,group_id
 15766,,5,
 15792,Federation Navy Tracking Computer,5,213
 15804,Imperial Navy Heavy Energy Neutralizer,,
-15806,Republic Fleet Gyrostabilizer,5,
+15806,Republic Fleet Gyrostabilizer,5,59
 15812,Republic Fleet Overdrive Injector,5,764
 15813,Republic Fleet Nanofiber Structure,,
 15830,Federation Navy Heavy Neutron Blaster,10,
@@ -424,11 +424,12 @@ type_id,name,volume,group_id
 15895,Federation Navy Magnetic Field Stabilizer,,
 15897,Caldari Navy X-Large Shield Booster,50,
 15898,Caldari Navy Small Shield Booster,5,
+15902,Republic Fleet Small Shield Booster,5,40
 15905,,5,
 15909,Caldari Navy EM Shield Amplifier,5,
 15931,Caldari Navy Large Graviton Smartbomb,,
 15955,Federation Navy Large Plasma Smartbomb,50,
-15963,Imperial Navy Large EMP Smartbomb,50,
+15963,Imperial Navy Large EMP Smartbomb,50,72
 15965,Republic Fleet Tracking Enhancer,5,
 16004,Eifyr and Co. 'Rogue' Evasive Maneuvering EM-705,,
 16050,Republic Fleet 200mm Autocannon,,
@@ -487,7 +488,7 @@ type_id,name,volume,group_id
 17494,,5,
 17495,Caldari Navy Kinetic Shield Hardener,,
 17498,Caldari Navy Multispectrum Shield Hardener,5,77
-17500,,5,
+17500,Caldari Navy Stasis Webifier,5,65
 17520,Federation Navy Sensor Booster,5,
 17526,Imperial Navy Cap Recharger,5,
 17528,Imperial Navy Capacitor Power Relay,5,767
@@ -907,7 +908,7 @@ type_id,name,volume,group_id
 28324,,0.025,
 28332,,0.025,83
 28334,,0.0125,
-28362,Drone Capillary Fluid,,
+28362,Drone Capillary Fluid,0.02,886
 28375,,10,
 28377,Caldari Navy Heavy Assault Missile Launcher,10,
 28379,Domination Heavy Assault Missile Launcher,,
@@ -1108,6 +1109,7 @@ type_id,name,volume,group_id
 33702,'Magpie' Mobile Tractor Unit,100,
 33790,Men's 'Rider' Pants (black silver),,
 33816,Garmur,2500,25
+33818,Orthrus,10000,26
 33820,Barghest,50000,
 33830,Dread Guristas Omnidirectional Tracking Enhancer,,
 33842,Federation Navy Drone Damage Amplifier,5,645
@@ -1246,6 +1248,7 @@ type_id,name,volume,group_id
 42203,Low-grade Asklepian Omega,1,300
 42205,Mid-grade Asklepian Beta,1,
 42206,Mid-grade Asklepian Gamma,1,300
+42207,Mid-grade Asklepian Delta,1,300
 42208,Mid-grade Asklepian Epsilon,1,
 42209,Mid-grade Asklepian Omega,1,300
 42212,High-grade Asklepian Gamma,1,300
@@ -1589,6 +1592,7 @@ type_id,name,volume,group_id
 82302,Compressed Kylixium III-Grade,,
 83467,Angel NET Resonator,1,334
 83468,Blood Raider NET Resonator,1,334
+83469,Guristas NET Resonator,1,334
 83470,Mordu NET Resonator,1,
 83471,Sansha NET Resonator,,
 84100,Paladin War for the Empire SKIN,0.01,
@@ -1625,7 +1629,7 @@ type_id,name,volume,group_id
 89689,Advanced Armor Layering,,
 90022,Babaroga Deathglow Remnant SKIN,,
 90037,Mobile Phase Anchor,50,
-90134,Historic Crimson Harvest SKIN Crate,1,
+90134,Historic Crimson Harvest SKIN Crate,1,1194
 90135,Crimson Harvest SKINR Crate,,
 90315,Confessor Sanguinary Savant SKIN,0.01,
 90316,Sacrilege Sanguinary Savant SKIN,0.01,1950
@@ -1663,6 +1667,7 @@ type_id,name,volume,group_id
 92469,Torafugu TD-900-I,,
 92541,Capital Disintegrator Specialization,0.01,255
 92572,Crystalline Kangite,,
+92819,Compressed Polycrase X-Grade,0.01,5084
 93466,Imperial Benediction - Unlimited,,
 93745,Tempest Fleet Issue Capsuleer Day XXIII SKIN,0.01,
 93908,Caldari Navy Missile Guidance Enhancer,5,
