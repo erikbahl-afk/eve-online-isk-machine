@@ -197,6 +197,7 @@ type_id,name,volume,group_id
 11198,Stiletto,,
 11200,,2500,
 11325,,20,329
+11343,100mm Crystalline Carbonide Restrained Plates,,
 11365,Vengeance,2500,
 11377,,2500,
 11379,,2500,
@@ -242,7 +243,7 @@ type_id,name,volume,group_id
 11995,Onyx,10000,
 11999,Vagabond,10000,
 12003,Zealot,10000,358
-12005,Ishtar,10000,
+12005,Ishtar,10000,358
 12015,Muninn,10000,
 12023,Deimos,10000,
 12032,Manticore,2500,
@@ -323,6 +324,7 @@ type_id,name,volume,group_id
 13926,,5,
 13933,Dread Guristas Rocket Launcher,5,
 13935,Domination Ballistic Control System,5,
+13937,Dread Guristas Ballistic Control System,5,367
 13939,Domination Gyrostabilizer,,
 13943,True Sansha Heat Sink,5,
 13945,,5,
@@ -401,9 +403,10 @@ type_id,name,volume,group_id
 15466,Standard Drop Booster,1,303
 15477,Improved Drop Booster,1,
 15478,Strong Drop Booster,,
-15592,Federation Navy Fleet Captain Insignia I,,
+15592,Federation Navy Fleet Captain Insignia I,0.1,409
+15593,,0.1,409
 15594,Federation Navy Fleet Colonel Insignia I,0.1,409
-15605,Caldari Navy Vice Admiral Insignia I,,
+15605,Caldari Navy Vice Admiral Insignia I,0.1,409
 15615,Imperial Navy General Insignia I,0.1,409
 15632,Republic Fleet Commander Insignia I,0.1,409
 15661,Republic Fleet Commander Insignia II,0.1,409
@@ -474,6 +477,7 @@ type_id,name,volume,group_id
 16651,Neodymium,0.05,427
 16653,Thulium,,
 16667,Neo Mercurite,0.2,428
+16668,Dysporite,0.2,428
 16669,Ferrofluid,,
 16671,,0.01,
 16672,Tungsten Carbide,0.01,429
@@ -614,6 +618,7 @@ type_id,name,volume,group_id
 19202,Pith C-Type X-Large Shield Booster,50,40
 19203,Pith B-Type Large Shield Booster,25,
 19204,Pith B-Type X-Large Shield Booster,50,
+19205,,25,40
 19207,Pith X-Type Large Shield Booster,25,40
 19208,Pith X-Type X-Large Shield Booster,50,40
 19215,Pithum C-Type EM Shield Amplifier,5,295
@@ -951,7 +956,7 @@ type_id,name,volume,group_id
 28752,ORE Ice Harvester,5,
 28754,ORE Strip Miner,5,
 28756,Sisters Expanded Probe Launcher,5,
-28758,Sisters Core Probe Launcher,5,
+28758,Sisters Core Probe Launcher,5,481
 28780,Syndicate 1600mm Steel Plates,20,329
 28788,Syndicate Gas Cloud Scoop,5,737
 28790,Mid-grade Centurion Alpha,,
@@ -1013,7 +1018,7 @@ type_id,name,volume,group_id
 31119,,10,782
 31123,Small Cargohold Optimization II,5,782
 31167,Medium Hyperspatial Velocity Optimizer II,10,782
-31171,,5,782
+31171,Small Low Friction Nozzle Joints II,5,782
 31173,Medium Low Friction Nozzle Joints II,10,782
 31220,,5,
 31244,Small Memetic Algorithm Bank II,5,
@@ -1123,7 +1128,7 @@ type_id,name,volume,group_id
 33557,Mid-grade Ascendancy Beta,1,
 33619,Rogue Drone 43-X Nexus Chip,0.1,314
 33681,Gecko,50,100
-33697,Prospect,,
+33697,Prospect,2500,1283
 33700,'Packrat' Mobile Tractor Unit,125,1250
 33702,'Magpie' Mobile Tractor Unit,100,
 33790,Men's 'Rider' Pants (black silver),,
@@ -1183,6 +1188,7 @@ type_id,name,volume,group_id
 35886,Standup Invention Lab I,,
 35894,Standup Cloning Center I,4000,
 35923,Standup Guided Bomb Launcher I,,
+35940,,4000,1332
 35947,Standup Target Painter I,4000,
 35949,,4000,
 36909,Antipharmakon Kosybo,1,303
@@ -1476,7 +1482,7 @@ type_id,name,volume,group_id
 56226,Men's Triglavian Survival Suit (Liminality),,
 56290,Unstable Capital Energy Nosferatu Mutaplasmid,,
 56701,Mobile Sanguine Harvester,100,1250
-56715,Cultural Semiosis Data,,
+56715,Cultural Semiosis Data,0.1,526
 56716,,0.1,
 57112,Low-grade Rapture Gamma,,
 57118,,1,
@@ -1577,7 +1583,7 @@ type_id,name,volume,group_id
 63054,Men's 'Semiotique Superluminal' Pants,,
 63140,,5000,
 64380,Men's Amarr Courtly Robe,,
-72812,Ferox Navy Issue,15000,
+72812,Ferox Navy Issue,15000,419
 72869,Myrmidon Navy Issue,,
 72904,Heron Navy Issue,2500,
 72913,Imicus Navy Issue,,
@@ -1642,6 +1648,7 @@ type_id,name,volume,group_id
 87324,Navy Scan Pinpointing Array,5,1223
 87504,Paladin Imperial Police SKIN,0.01,
 87562,ORE Deep Core Strip Miner,5,464
+87573,,0.1,1088
 88001,Babaroga,50000,900
 88133,Historic Capsuleer Day SKIN Crate,0,
 88147,Triplot Scan Acquisition Array,5,
