@@ -504,6 +504,7 @@ type_id,name,volume,group_id
 17738,Machariel,,
 17772,Small AutoCannon Battery,,
 17843,Vexor Navy Issue,10000,26
+17871,,1,738
 17887,Oxygen Isotopes,0.03,423
 17888,Nitrogen Isotopes,0.03,423
 17889,Hydrogen Isotopes,0.03,423
@@ -1236,7 +1237,7 @@ type_id,name,volume,group_id
 42201,Low-grade Asklepian Epsilon,1,
 42203,Low-grade Asklepian Omega,1,300
 42205,Mid-grade Asklepian Beta,1,
-42206,Mid-grade Asklepian Gamma,1,
+42206,Mid-grade Asklepian Gamma,1,300
 42208,Mid-grade Asklepian Epsilon,1,
 42209,Mid-grade Asklepian Omega,1,300
 42212,High-grade Asklepian Gamma,1,300
