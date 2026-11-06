@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Thu 05 Nov 22:46 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
+**Updated:** Fri 06 Nov 00:00 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
 **Steps:** 6 · **Est. time:** 8 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -22,7 +22,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 1 | ☐ 50MN Microwarpdrive II | 3,532,000 | **3,533,000** | 3,730,000 | 3,532,000 |
+| 1 | ☐ 50MN Microwarpdrive II | 3,532,000 | **3,533,000** | 3,738,000 | 3,532,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
@@ -38,7 +38,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 3 | ☐ Compressed Brimful Bitumens | 80 | **1,114** | 1,317 | 1,113 |
+| 3 | ☐ Compressed Brimful Bitumens | 80 | **1,114** | 1,316 | 1,113 |
 
 ### Block 3 · if there's time · about 1 min
 
@@ -47,7 +47,7 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 4 | ☐ Antikythera Element | 8 | **1,456,000** | 884,200 | 1,457,000 |
+| 4 | ☐ Antikythera Element | 8 | **1,454,000** | 884,200 | 1,455,000 |
 
 ## 5. ☐ Jump clone to Amarr VIII (Oris) - Emperor Family Academy
 _Clone Bay → Jump Clone → Amarr VIII (Oris) - Emperor Family Academy. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._

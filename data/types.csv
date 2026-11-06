@@ -37,7 +37,7 @@ type_id,name,volume,group_id
 1818,Scourge Auto-Targeting Heavy Missile I,0.03,
 1830,,0.05,
 1855,,5,
-1952,Sensor Booster II,,
+1952,Sensor Booster II,5,212
 1969,Remote Sensor Dampener II,5,208
 1978,Tracking Computer II,5,
 1987,Signal Amplifier II,,
@@ -206,6 +206,7 @@ type_id,name,volume,group_id
 11534,Gravimetric Sensor Cluster,1,334
 11535,Magnetometric Sensor Cluster,1,
 11536,,1,
+11537,Radar Sensor Cluster,1,334
 11538,Nanomechanical Microprocessor,1,334
 11539,Nanoelectrical Microprocessor,1,334
 11540,Quantum Microprocessor,1,334
@@ -233,7 +234,7 @@ type_id,name,volume,group_id
 11993,Cerberus,10000,358
 11995,Onyx,10000,
 11999,Vagabond,10000,
-12003,,10000,
+12003,Zealot,10000,358
 12005,Ishtar,10000,
 12015,Muninn,10000,
 12023,Deimos,10000,
@@ -572,6 +573,7 @@ type_id,name,volume,group_id
 19039,Corpus C-Type Large Armor Repairer,50,
 19045,Corpus X-Type Large Armor Repairer,50,62
 19046,Centus X-Type Large Armor Repairer,50,62
+19051,,5,325
 19081,Corpum A-Type Medium Remote Capacitor Transmitter,10,
 19087,,10,
 19105,,5,
@@ -696,7 +698,7 @@ type_id,name,volume,group_id
 21802,Capital Shield Operation,,
 21815,Elite Drone AI,,
 21888,Shield Command Mindlink,1,
-21890,Skirmish Command Mindlink,1,
+21890,Skirmish Command Mindlink,1,744
 21894,Republic Fleet EMP L,0.025,
 21896,,0.0125,
 21898,Republic Fleet EMP S,0.0025,
@@ -728,7 +730,7 @@ type_id,name,volume,group_id
 22546,Skiff,3750,
 22548,Mackinaw,3750,543
 22551,,0.01,
-22559,Mining Foreman Mindlink,1,
+22559,Mining Foreman Mindlink,1,744
 22570,Inherent Implants 'Yeti' Ice Harvesting IH-1003,1,1229
 22571,Inherent Implants 'Yeti' Ice Harvesting IH-1005,1,1229
 22611,,5,
@@ -872,7 +874,7 @@ type_id,name,volume,group_id
 27355,Dread Guristas Inferno Torpedo,,
 27377,,0.05,
 27381,Caldari Navy Nova Light Missile,,
-27395,Caldari Navy Scourge Cruise Missile,0.05,
+27395,Caldari Navy Scourge Cruise Missile,0.05,386
 27401,,0.015,
 27419,Caldari Navy Mjolnir Heavy Assault Missile,0.015,
 27421,,0.015,
@@ -1007,7 +1009,7 @@ type_id,name,volume,group_id
 31564,Medium Hybrid Locus Coordinator I,,
 31594,,10,
 31598,,5,779
-31606,,10,
+31606,,10,779
 31614,Small Rocket Fuel Cache Partition II,5,
 31616,,10,
 31650,,5,
@@ -1068,7 +1070,7 @@ type_id,name,volume,group_id
 32414,Domination Target Painter,5,379
 32881,Venture Blueprint,0.01,
 32947,Unit P-343554's Modified Drone Navigation Computer,,
-33101,Medium Ancillary Armor Repairer,10,
+33101,Medium Ancillary Armor Repairer,10,1199
 33140,Clone Soldier Transporter Tag,,
 33141,Clone Soldier Negotiator Tag,0.1,
 33151,,15000,
@@ -1103,7 +1105,7 @@ type_id,name,volume,group_id
 33816,Garmur,2500,25
 33820,Barghest,50000,
 33830,Dread Guristas Omnidirectional Tracking Enhancer,,
-33842,Federation Navy Drone Damage Amplifier,5,
+33842,Federation Navy Drone Damage Amplifier,5,645
 33844,Imperial Navy Drone Damage Amplifier,5,645
 33846,Dread Guristas Drone Damage Amplifier,5,645
 33894,Medium Transverse Bulkhead I,10,
@@ -1178,7 +1180,7 @@ type_id,name,volume,group_id
 37482,,5000,
 37624,Corpii A-Type Small Energy Neutralizer,5,71
 37627,Corpum A-Type Medium Energy Neutralizer,,
-37631,Corpus X-Type Heavy Energy Neutralizer,,
+37631,Corpus X-Type Heavy Energy Neutralizer,5,71
 37820,Caldari Navy Shield Power Relay,5,57
 37843,,0.5,
 37846,Standup Cruise Missile,0.5,
@@ -1191,6 +1193,7 @@ type_id,name,volume,group_id
 40556,Templar II,1000,
 40558,Firbolg II,1000,
 40559,Einherji II,,
+40569,,3000,1537
 40570,,3000,
 40661,Capital Infectious Scoped Energy Neutralizer,,
 40690,,5,
@@ -1259,6 +1262,7 @@ type_id,name,volume,group_id
 43701,'Augmented' Ice Harvesting Drone,50,
 43880,Standup M-Set Invention Accelerator I,,
 43898,,20,
+44102,,5,512
 44993,Pacifier,2500,
 45586,Legion Defensive - Covert Reconfiguration,,
 45587,Legion Defensive - Augmented Plating,40,
@@ -1320,6 +1324,7 @@ type_id,name,volume,group_id
 47787,Unstable Large Shield Booster Mutaplasmid,1,
 47806,Unstable Large Shield Extender Mutaplasmid,1,
 47818,Unstable Large Armor Plate Mutaplasmid,1,1964
+47826,,1,1964
 47830,Unstable Heavy Energy Neutralizer Mutaplasmid,,
 47845,,1,
 47875,Large Disintegrator Specialization,0.01,
@@ -1465,6 +1470,7 @@ type_id,name,volume,group_id
 57479,,180,
 57486,,45,
 57487,Capital Core Temperature Regulator,28000,873
+57488,Neurolink Protection Cell,5500,873
 58945,,3500,
 58950,Large Industrial Core II,3500,
 58966,,5,
@@ -1494,6 +1500,7 @@ type_id,name,volume,group_id
 62383,Compressed Malachite Mykoserocin,1,4168
 62385,Compressed Viridian Mykoserocin,,
 62397,Compressed Fullerite-C60,0.1,4168
+62398,Compressed Fullerite-C70,0.1,4168
 62400,Compressed Fullerite-C84,,
 62402,Compressed Fullerite-C28,0.2,4168
 62403,Compressed Fullerite-C72,,
@@ -1509,8 +1516,8 @@ type_id,name,volume,group_id
 62516,Compressed Veldspar,,
 62517,Compressed Veldspar II-Grade,,
 62518,Compressed Veldspar III-Grade,,
-62520,Compressed Scordite,,
-62521,Compressed Scordite II-Grade,,
+62520,Compressed Scordite,0.0015,460
+62521,Compressed Scordite II-Grade,0.0015,460
 62522,Compressed Scordite III-Grade,0.0015,460
 62526,,0.003,
 62529,Compressed Plagioclase II-Grade,0.0035,458
@@ -1672,7 +1679,7 @@ type_id,name,volume,group_id
 96320,,0.01,1950
 96321,Salvation Sanguinary Savant SKIN,,
 96326,Captured Bioadaptive Cache,1,
-96543,Potent 'Radiance' Cerebral Accelerator,1,
+96543,Potent 'Radiance' Cerebral Accelerator,1,303
 96544,Extended 'Radiance' Cerebral Accelerator,1,303
 96556,,1,
 96561,Harvest Damage Booster IV,1,303
