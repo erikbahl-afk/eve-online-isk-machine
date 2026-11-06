@@ -169,3 +169,15 @@
   Amarr ask is 816M. Dumping would lose 400M, so hold and list; no new SKINs (excluded). Recheck Saturday (risk day).
   7 idle buys (5 days): no sim login since 31 Oct; live books show 3 outbid (85668 Jita, 18688 and 41202 Amarr) and 4 still
   top in thin markets. Tonight's login reprices. Alerts fine as is.
+
+## 2026-11-06 · weekly review (Friday, first-Friday step-back)
+- Memo: reports/2026-11-06-memo.md. Main 4.89B (−2.3%), liq 50%, realized −113.9M (fees only), no sale in any portfolio.
+- Alerts. Liquidation 50% and Typhoon FI SKIN 8.6%: the import stock was finally listed Thu (0.8 d ago); hold and give it a week,
+  recheck Sat. 7 idle buys (6 d, 1.64B): Thu's login was cut at 56% and didn't reprice them. Live books show 4 outbid
+  (85668, 18688, 41202, 47806). Official 30 d regional volume is 1–4/day, at prices near the ask. Our snapshots' bid
+  "trades" on them were 0.8-unit events, so one vanished buy order (gone_weight 0.8) was read as a fill. Cause found.
+- Changed: overrides avoid (until 2026-11-20) for 85668, 28792, 18688, 41202, 35923, 47806 → bids cancelled, ~1.54B freed.
+  Kept 53301 Tetryon XL (7k units/day). Alert thresholds unchanged: every alert was useful.
+- Next: Sun fills: count distinct bid events / use official volume before a thin station bid is fillable (with a probe).
+  Mon picks: liquidity floor for station items. exports/seeding/rotation identical so far (no import-hub step yet).
+
