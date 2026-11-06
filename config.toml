@@ -121,6 +121,7 @@ liquidation_ratio = 0.7      # liquidation value / net worth below this
 position_frac = 0.08         # one item above this share of net worth
 stale_days = 7               # stock or sell orders unsold this long
 buy_stale_days = 5           # buy orders with zero fills this long
+analysis_stale_days = 2      # no JOURNAL.md entry for this long = the daily analysis may have stopped
 
 [corners]                    # read-only cornerability scanner (no trading)
 min_cost = 20_000_000

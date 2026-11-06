@@ -60,7 +60,8 @@ Aim for about 30 tool calls on weekdays and 60 on Friday. If a topic needs a dee
 send a push notification asking the user, and note it in the journal. Friday tracks the week's usage. If the
 claude-code-remote tools are available, read each analysis session's `result` events (cost and tokens) with
 `list_sessions` / `list_events`; otherwise use `reports/usage.csv`. If usage trends above the first weeks' baseline
-by more than 50%, ask the user before continuing at that pace.
+by more than 50%, ask the user before continuing at that pace. Baseline from the first session (Thu 2026-11-05,
+experiments): 22 tool calls, about 1.6M cached input tokens and 12k output tokens, about $0.99 at list price.
 
 ---
 

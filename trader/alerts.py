@@ -3,7 +3,10 @@
 Thresholds live in config.toml [alerts]. Like every other number here they are guidelines: the analysis
 sessions tune them by whether past alerts turned out useful or were false alarms.
 """
-from .common import STATE, isk, load_json
+import datetime as dt
+import re
+
+from .common import ROOT, STATE, isk, load_json
 
 
 def compute(cfg, pf, val, plan, health, char, now, names=None):
@@ -64,6 +67,16 @@ def compute(cfg, pf, val, plan, health, char, now, names=None):
             add("char_queue", "high", "Trading character's skill queue is EMPTY: nothing is training.")
         if char.get("unallocated_sp", 0) > 0:
             add("char_unallocated", "info", f"{char['unallocated_sp']:,} unallocated SP on the trading character.")
+
+    # watch the watchers: the daily analysis should leave a journal entry every day
+    journal = ROOT / "JOURNAL.md"
+    dates = re.findall(r"^## (\d{4}-\d{2}-\d{2})", journal.read_text(), re.M) if journal.exists() else []
+    if dates:
+        last = dt.date.fromisoformat(max(dates))
+        gap = (dt.datetime.fromtimestamp(now, dt.timezone.utc).date() - last).days
+        if gap >= a.get("analysis_stale_days", 2):
+            add("analysis_stale", "high", f"No analysis journal entry since {last} ({gap} days): "
+                                          "the daily analysis session may have stopped.")
 
     # keep the first-seen time so the summary can show how long an alert has been open
     prev = {x["key"]: x.get("since", now) for x in load_json(STATE / "alerts.json", [])}
