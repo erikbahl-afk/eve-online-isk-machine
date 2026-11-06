@@ -3,13 +3,13 @@
 
 # Session checklist
 
-**Updated:** Thu 05 Nov 15:38 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 16 · **Est. time:** 16 min. Work top to bottom; stop any time.  
+**Updated:** Thu 05 Nov 16:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 17 · **Est. time:** 18 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
 
-_Left out 6 small steps worth less than 995.16k per minute of your time (0.02% of net worth per minute)._
+_Left out 7 small steps worth less than 995.16k per minute of your time (0.02% of net worth per minute)._
 
 Each hub's steps come in **priority blocks**: finish Block 1 before anything else, and stop wherever your time runs out. Within a block, steps follow the in-game windows for speed.
 
@@ -56,15 +56,16 @@ _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Ne
 
 ## At Jita IV - Moon 4 - Caldari Navy Assembly Plant
 
-### Block 1 · must do · about 2 min
+### Block 1 · must do · about 3 min
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 12 | ☐ Inherent Implants 'Squire' Power Grid Management EG-604 | 1 | **75,020,000** | 109,500,000 | 75,010,000 |
-| 13 | ☐ Standup Siren II | 3 | **20,010,000** | 34,470,000 | 20,000,000 |
+| 12 | ☐ 50MN Microwarpdrive II | 12 | **3,523,000** | 3,738,000 | 3,522,000 |
+| 13 | ☐ Antikythera Element | 4 | **800,800** | 1,121,000 | 800,700 |
+| 14 | ☐ Electro-Neural Signaller | 1 | **112,700,000** | 117,200,000 | 112,600,000 |
 
 ### Block 2 · should do · about 2 min
 
@@ -73,8 +74,8 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 14 | ☐ Compressed Brimful Bitumens | 86 | **1,110** | 1,278 | 1,109 |
-| 15 | ☐ Zainou 'Deadeye' Medium Hybrid Turret MH-803 | 2 | **11,530,000** | 17,650,000 | 11,520,000 |
+| 15 | ☐ Compressed Gneiss III-Grade | 11 | **2,331** | 2,446 | 2,330 |
+| 16 | ☐ Federation Navy Antimatter Charge L | 1 | **953.90** | 1,147 | 953.80 |
 
 ### Block 3 · if there's time · about 1 min
 
@@ -83,7 +84,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 16 | ☐ Federation Navy Antimatter Charge L | 1 | **953.90** | 1,147 | 953.80 |
+| 17 | ☐ Compressed Omber | 5 | **119.70** | 121.80 | 119.60 |
 
 ---
 Wallet 260.10M · escrow 1.60B · stock 3.11B · in transit 0.00 · net worth 4.98B (liquidation 2.55B)
