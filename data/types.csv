@@ -55,6 +55,7 @@ type_id,name,volume,group_id
 2303,Thermal Shield Hardener II,,
 2309,Ionic Solutions,,
 2327,,0.75,
+2328,,0.75,1034
 2345,Camera Drones,3,
 2348,Gel-Matrix Biopaste,,
 2352,Nuclear Reactors,3,
@@ -167,7 +168,7 @@ type_id,name,volume,group_id
 9899,,1,
 9941,Memory Augmentation - Basic,1,745
 9947,Standard Crash Booster,,
-9950,Standard Blue Pill Booster,1,
+9950,Standard Blue Pill Booster,1,303
 9957,Eifyr and Co. 'Gunslinger' Motion Prediction MR-703,,
 10151,,1,
 10155,,1,
@@ -366,10 +367,11 @@ type_id,name,volume,group_id
 14146,True Sansha Capacitor Power Relay,,
 14148,Dark Blood Small Energy Nosferatu,5,68
 14152,,5,
+14156,Dark Blood Medium Energy Nosferatu,,
 14158,,5,
 14164,Dark Blood Medium Energy Neutralizer,5,
 14168,Dark Blood Heavy Energy Neutralizer,5,
-14170,True Sansha Heavy Energy Neutralizer,5,
+14170,True Sansha Heavy Energy Neutralizer,5,71
 14176,Dark Blood Medium Capacitor Booster,,
 14184,Dark Blood Small Capacitor Booster,,
 14190,True Sansha Large EMP Smartbomb,,
@@ -975,7 +977,7 @@ type_id,name,volume,group_id
 29990,Loki,5000,963
 30018,,0.01,
 30251,Neurovisual Input Matrix,,
-30254,Electromechanical Hull Sheeting,,
+30254,Electromechanical Hull Sheeting,0.01,966
 30304,PPD Fullerene Fibers,0.5,974
 30310,Carbon-86 Epoxy Resin,,
 30370,Fullerite-C50,1,
@@ -1123,7 +1125,7 @@ type_id,name,volume,group_id
 33790,Men's 'Rider' Pants (black silver),,
 33816,Garmur,2500,25
 33818,Orthrus,10000,26
-33820,Barghest,50000,
+33820,Barghest,50000,27
 33830,Dread Guristas Omnidirectional Tracking Enhancer,,
 33842,Federation Navy Drone Damage Amplifier,5,645
 33844,Imperial Navy Drone Damage Amplifier,5,645
@@ -1446,7 +1448,7 @@ type_id,name,volume,group_id
 54754,Large Consortium Vorton Projector,50,
 54773,GalvaSurge Condenser Pack M,0.0125,4062
 54782,,0.025,
-54783,ElectroPunch Ultra L,0.025,
+54783,ElectroPunch Ultra L,0.025,4061
 54785,StrikeSnipe Ultra M,0.0125,
 54786,ElectroPunch Ultra M,0.0125,
 54794,EDENCOM Battleship,,
@@ -1467,7 +1469,7 @@ type_id,name,volume,group_id
 56201,Astrahus Upwell Quantum Core,500,
 56226,Men's Triglavian Survival Suit (Liminality),,
 56290,Unstable Capital Energy Nosferatu Mutaplasmid,,
-56701,Mobile Sanguine Harvester,,
+56701,Mobile Sanguine Harvester,100,1250
 56715,Cultural Semiosis Data,,
 56716,,0.1,
 57112,Low-grade Rapture Gamma,,
