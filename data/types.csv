@@ -128,7 +128,9 @@ type_id,name,volume,group_id
 3962,Customs Office Gantry,7600,
 3966,Men's 'Precision' Boots,0.1,
 3989,Large Plasma Smartbomb II,,
+3993,Large EMP Smartbomb I,50,72
 3995,Large EMP Smartbomb II,50,
+4033,Women's 'Impress' Skirt (black leather),,
 4051,,5,
 4144,Women's 'Structure' Dress (black/white),0.1,
 4147,Dual Heavy Pulse Laser II,20,
@@ -346,7 +348,7 @@ type_id,name,volume,group_id
 14094,Dark Blood Thermal Energized Membrane,,
 14100,Domination Tracking Enhancer,5,
 14104,,5,
-14106,Domination 10MN Afterburner,5,
+14106,Domination 10MN Afterburner,5,46
 14108,,5,
 14126,Domination Overdrive Injector,5,
 14128,,5,
@@ -587,7 +589,7 @@ type_id,name,volume,group_id
 19177,Pithi B-Type Small Shield Booster,5,
 19179,Pithi A-Type Small Shield Booster,5,40
 19183,Gistum B-Type Medium Shield Booster,10,
-19185,Gistum A-Type Medium Shield Booster,10,
+19185,Gistum A-Type Medium Shield Booster,10,40
 19187,Pithum C-Type Medium Shield Booster,10,40
 19189,,10,
 19191,Pithum A-Type Medium Shield Booster,10,
@@ -760,6 +762,7 @@ type_id,name,volume,group_id
 23785,'Bailey' 1600mm Steel Plates,20,
 23797,,10,
 23803,'Censer' Medium Cap Battery,10,
+23805,'Thurifer' Large Cap Battery,15,61
 24242,Infomorph Psychology,,
 24438,Omnidirectional Tracking Link II,,
 24486,Inferno Rage Heavy Assault Missile,,
@@ -990,6 +993,7 @@ type_id,name,volume,group_id
 31083,,5,1232
 31111,,5,
 31113,Medium Auxiliary Thrusters II,10,782
+31119,,10,782
 31167,Medium Hyperspatial Velocity Optimizer II,10,782
 31173,Medium Low Friction Nozzle Joints II,10,782
 31220,,5,
@@ -1071,6 +1075,7 @@ type_id,name,volume,group_id
 32881,Venture Blueprint,0.01,
 32947,Unit P-343554's Modified Drone Navigation Computer,,
 33101,Medium Ancillary Armor Repairer,10,1199
+33139,Clone Soldier Recruiter Tag,0.1,1206
 33140,Clone Soldier Transporter Tag,,
 33141,Clone Soldier Negotiator Tag,0.1,
 33151,,15000,
@@ -1454,6 +1459,7 @@ type_id,name,volume,group_id
 57442,Counter-Subversion Sensor Array,2,
 57443,Meta-Molecular Combiner,1,526
 57444,,1,
+57446,,1,526
 57449,Nano Regulation Gate,,
 57450,Electro-Neural Signaller,0.25,526
 57452,Isotropic Deposition Guide,5,526
