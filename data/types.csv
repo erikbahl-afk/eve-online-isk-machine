@@ -1,11 +1,12 @@
 type_id,name,volume,group_id
-34,Tritanium,,
+34,Tritanium,0.01,18
 35,Pyerite,,
 36,Mexallon,0.01,18
 37,Isogen,0.01,18
 38,Nocxium,0.01,
 39,Zydrine,0.01,18
 40,Megacyte,0.01,
+203,,0.05,386
 204,Inferno Cruise Missile,0.05,386
 233,,0.025,
 421,,5,
@@ -387,7 +388,7 @@ type_id,name,volume,group_id
 15592,Federation Navy Fleet Captain Insignia I,,
 15594,Federation Navy Fleet Colonel Insignia I,0.1,409
 15605,Caldari Navy Vice Admiral Insignia I,,
-15615,Imperial Navy General Insignia I,0.1,
+15615,Imperial Navy General Insignia I,0.1,409
 15632,Republic Fleet Commander Insignia I,0.1,409
 15661,Republic Fleet Commander Insignia II,,
 15669,Imperial Navy General Insignia II,0.1,409
@@ -457,7 +458,7 @@ type_id,name,volume,group_id
 16667,Neo Mercurite,0.2,428
 16669,Ferrofluid,,
 16671,,0.01,
-16672,,0.01,
+16672,Tungsten Carbide,0.01,429
 16673,,0.01,
 16678,Sylramic Fibers,0.05,429
 16679,Fullerides,0.15,429
@@ -470,6 +471,7 @@ type_id,name,volume,group_id
 17180,Sensor Dampening Battery,,
 17182,Warp Scrambling Battery,,
 17187,,4000,
+17217,Serpentis Brass Tag,0.1,370
 17317,Fermionic Condensates,1.3,
 17368,,100000,
 17478,Retriever,3750,
@@ -867,7 +869,7 @@ type_id,name,volume,group_id
 27401,,0.015,
 27419,Caldari Navy Mjolnir Heavy Assault Missile,0.015,
 27421,,0.015,
-27423,,0.05,
+27423,Caldari Navy Inferno Cruise Missile,0.05,386
 27435,Caldari Navy Mjolnir Heavy Missile,0.03,385
 27441,,0.03,
 27447,Caldari Navy Inferno Heavy Missile,0.03,
@@ -1107,6 +1109,7 @@ type_id,name,volume,group_id
 33942,Low-grade Harvest Beta,1,
 33948,Low-grade Nomad Beta,,
 33960,,1,
+33973,,1,300
 33975,Low-grade Virtue Gamma,,
 33981,Limited Hyperspatial Accelerator,5,
 33983,Experimental Hyperspatial Accelerator,5,
@@ -1230,7 +1233,7 @@ type_id,name,volume,group_id
 42215,High-grade Asklepian Omega,,
 42244,,50000,
 42685,,5000,
-42696,Shield Extension Charge,0.01,
+42696,Shield Extension Charge,0.01,1769
 42787,,0.01,
 42789,,0.01,
 42830,Mining Laser Optimization Charge,,
@@ -1563,7 +1566,7 @@ type_id,name,volume,group_id
 83470,Mordu NET Resonator,1,
 83471,Sansha NET Resonator,,
 84100,Paladin War for the Empire SKIN,0.01,
-84173,Imperial Gold Metallic - Limited,,
+84173,Imperial Gold Metallic - Limited,0.1,4726
 85087,Tholos,5000,420
 85089,,0.5,
 85178,Tetrimonic Warclone Blanks,,

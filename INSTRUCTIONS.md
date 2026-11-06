@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Thu 05 Nov 16:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Thu 05 Nov 16:34 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 17 · **Est. time:** 18 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -65,7 +65,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 |---|---|---|---|---|---|
 | 12 | ☐ 50MN Microwarpdrive II | 12 | **3,523,000** | 3,738,000 | 3,522,000 |
 | 13 | ☐ Antikythera Element | 4 | **800,800** | 1,121,000 | 800,700 |
-| 14 | ☐ Electro-Neural Signaller | 1 | **112,700,000** | 117,200,000 | 112,600,000 |
+| 14 | ☐ Electro-Neural Signaller | 1 | **112,700,000** | 117,300,000 | 112,600,000 |
 
 ### Block 2 · should do · about 2 min
 
@@ -75,7 +75,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 15 | ☐ Compressed Gneiss III-Grade | 11 | **2,331** | 2,446 | 2,330 |
-| 16 | ☐ Federation Navy Antimatter Charge L | 1 | **953.90** | 1,147 | 953.80 |
+| 16 | ☐ Federation Navy Antimatter Charge L | 1 | **954.00** | 1,147 | 953.90 |
 
 ### Block 3 · if there's time · about 1 min
 
