@@ -27,7 +27,7 @@
   "jita": {
    "12076": {
     "cost": 3532000.0,
-    "qty": 2,
+    "qty": 3,
     "since": 1793944534.0,
     "tag": "station"
    },
@@ -40,7 +40,7 @@
   }
  },
  "last_jump": 1793937633.3983545,
- "last_t": 1793959226.2361472,
+ "last_t": 1793966426.2755249,
  "location": "jita",
  "next_oid": 22,
  "orders": [
@@ -274,7 +274,7 @@
    "oid": 19,
    "price": 3532000.0,
    "qty": 18,
-   "remain": 16,
+   "remain": 15,
    "side": "buy",
    "tag": "station",
    "type_id": 12076,
@@ -301,7 +301,7 @@
    "sales": 0.0
   },
   "station": {
-   "buys": 26087352.0,
+   "buys": 29619352.0,
    "fees": 25251846.1,
    "realized": -25251846.1,
    "sales": 0.0
@@ -437,8 +437,8 @@
    "sold_units": 0
   },
   "jita:12076": {
-   "bought_isk": 7064000.0,
-   "bought_units": 2,
+   "bought_isk": 10596000.0,
+   "bought_units": 3,
    "fees": 953640.0,
    "realized": -953640.0,
    "sold_net": 0.0,
@@ -575,7 +575,7 @@
  },
  "pnl": {
   "broker": 113912196.1,
-  "buys": 2990722664.0,
+  "buys": 2994254664.0,
   "courier": 138000000.0,
   "realized": -113912196.1,
   "relist": 0.0,

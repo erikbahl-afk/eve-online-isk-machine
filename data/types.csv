@@ -60,6 +60,7 @@ type_id,name,volume,group_id
 2352,Nuclear Reactors,3,
 2361,Hermetic Membranes,3,
 2390,Electrolytes,,
+2392,,0.19,1042
 2393,Bacteria,,
 2399,Precious Metals,,
 2401,Chiral Structures,,
@@ -270,10 +271,12 @@ type_id,name,volume,group_id
 12735,Prowler,20000,1202
 12743,Viator,20000,1202
 12745,Occator,20000,380
+12747,Mastodon,20000,380
 12753,Impel,20000,380
 12779,,0.025,
 12791,,0.025,
 12807,,0.025,373
+12816,,1,375
 12818,Scorch M,,
 13209,Armored Command Mindlink,1,744
 13216,Zainou 'Gypsy' CPU Management EE-603,1,741
@@ -786,6 +789,7 @@ type_id,name,volume,group_id
 25252,Pure Standard Frentix Booster,,
 25266,,5,
 25267,,0.01,
+25349,Strong Exile Booster,1,303
 25530,,0.01,
 25538,,0.01,
 25544,Gas Cloud Harvesting,0.01,
@@ -954,6 +958,7 @@ type_id,name,volume,group_id
 28812,Mid-grade Virtue Gamma,1,300
 28813,Mid-grade Virtue Omega,1,300
 28844,Rhea,,
+29336,,10000,26
 29337,Augoror Navy Issue,,
 29340,,10000,
 29344,,10000,
@@ -976,7 +981,7 @@ type_id,name,volume,group_id
 30488,Sisters Core Scanner Probe,,
 30586,Malfunctioning Power Cores,,
 30752,Intact Hull Section,,
-30987,Small Trimark Armor Pump I,,
+30987,Small Trimark Armor Pump I,5,773
 31003,Small EM Armor Reinforcer II,5,
 31011,Medium Explosive Armor Reinforcer I,,
 31027,,5,
@@ -1024,7 +1029,7 @@ type_id,name,volume,group_id
 31674,Small Projectile Burst Aerator II,,
 31676,,10,
 31748,,10,
-31760,,10,
+31760,Medium Thermal Shield Reinforcer II,10,774
 31770,,5,
 31774,Capital Core Defense Capacitor Safeguard II,40,
 31790,Medium Core Defense Field Extender I,10,
@@ -1358,6 +1363,7 @@ type_id,name,volume,group_id
 47924,Baryon Exotic Plasma S,,
 47927,Mystic S,0.01,
 47928,,0.01,
+47931,Mystic M,0.01,1989
 47932,,0.01,
 47934,,0.01,
 47975,,0.3,1996
@@ -1563,6 +1569,7 @@ type_id,name,volume,group_id
 73795,Cormorant Navy Issue,5000,
 73796,,5000,
 74160,,0.01,
+75275,,0.001,4513
 75276,Compressed Mordunium II-Grade,,
 75287,Compressed Ducinium,,
 76954,Ishkur Zydrine Burn SKIN,,
