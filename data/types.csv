@@ -160,7 +160,7 @@ type_id,name,volume,group_id
 9838,Superconductors,,
 9840,,0.75,
 9899,,1,
-9941,Memory Augmentation - Basic,1,
+9941,Memory Augmentation - Basic,1,745
 9947,Standard Crash Booster,,
 9950,Standard Blue Pill Booster,1,
 9957,Eifyr and Co. 'Gunslinger' Motion Prediction MR-703,,
@@ -177,6 +177,7 @@ type_id,name,volume,group_id
 10226,,1,
 10228,Zainou 'Gnome' Shield Management SM-703,1,
 10244,,1,
+10842,,50,40
 10858,Large Shield Booster II,,
 11172,Helios,2500,
 11176,Crow,2500,
@@ -331,7 +332,7 @@ type_id,name,volume,group_id
 13984,Dark Blood Thermal Armor Hardener,,
 14001,True Sansha Multispectrum Coating,,
 14041,,5,
-14045,,5,
+14045,Domination Shield Boost Amplifier,5,338
 14047,,5,
 14049,,5,
 14065,Shadow Serpentis Thermal Armor Hardener,5,328
@@ -657,7 +658,7 @@ type_id,name,volume,group_id
 20411,,0.1,
 20415,Datacore - Molecular Engineering,0.1,
 20418,Datacore - Electronic Engineering,,
-20419,Datacore - Graviton Physics,0.1,
+20419,Datacore - Graviton Physics,0.1,333
 20424,Datacore - Mechanical Engineering,0.1,
 20443,Ogdin's Eye Coordination Enhancer,1,
 20499,,1,
@@ -666,6 +667,7 @@ type_id,name,volume,group_id
 20507,High-grade Amulet Gamma,1,
 20508,High-grade Halo Omega,1,
 20509,High-grade Amulet Omega,,
+20565,Improved 'Guise' Cloaking Device II,100,330
 20567,'Dyad' Co-Processor I,5,
 20595,'Gallows' Light Missile Launcher,5,
 20599,'Undertaker' Heavy Missile Launcher,10,
@@ -894,6 +896,7 @@ type_id,name,volume,group_id
 28304,,5,
 28308,,25,
 28324,,0.025,
+28332,,0.025,83
 28334,,0.0125,
 28362,Drone Capillary Fluid,,
 28375,,10,
@@ -954,6 +957,7 @@ type_id,name,volume,group_id
 30304,PPD Fullerene Fibers,0.5,974
 30310,Carbon-86 Epoxy Resin,,
 30370,Fullerite-C50,1,
+30371,,1,711
 30375,Fullerite-C28,2,711
 30376,Fullerite-C32,5,711
 30377,Fullerite-C320,,
@@ -1019,7 +1023,7 @@ type_id,name,volume,group_id
 31810,Small Core Defense Field Purger II,5,
 31812,Medium Core Defense Field Purger II,10,
 31824,,10,
-31866,Imperial Navy Infiltrator,10,
+31866,Imperial Navy Infiltrator,10,100
 31868,,25,
 31870,Imperial Navy Praetor,25,100
 31872,Caldari Navy Hornet,5,
@@ -1222,7 +1226,7 @@ type_id,name,volume,group_id
 41498,Capital I-a Enduring Armor Repairer,1000,
 41503,Capital Ancillary Armor Repairer,,
 41533,Ligature Integrated Analyzer,5,538
-41534,Zeugma Integrated Analyzer,5,
+41534,Zeugma Integrated Analyzer,5,538
 42145,Low-grade Asklepian Alpha,,
 42201,Low-grade Asklepian Epsilon,1,
 42203,Low-grade Asklepian Omega,1,300

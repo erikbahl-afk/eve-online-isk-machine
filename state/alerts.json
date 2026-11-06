@@ -3,13 +3,13 @@
   "key": "liquidation",
   "severity": "medium",
   "since": 1793915372.8054109,
-  "text": "Liquidation value is 51% of net worth (2.55B of 4.98B): much of the stock couldn't be sold quickly without a big loss."
+  "text": "Liquidation value is 50% of net worth (2.46B of 4.89B): much of the stock couldn't be sold quickly without a big loss."
  },
  {
   "key": "position:77169",
   "severity": "medium",
   "since": 1793915372.8054109,
-  "text": "Typhoon Fleet Issue Capsuleer Elite XX SKIN is 8.4% of net worth (418.51M)."
+  "text": "Typhoon Fleet Issue Capsuleer Elite XX SKIN is 8.6% of net worth (418.51M)."
  },
  {
   "key": "idle_buy:1",
