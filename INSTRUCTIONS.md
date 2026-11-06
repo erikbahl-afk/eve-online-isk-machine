@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Fri 06 Nov 12:00 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
+**Updated:** Fri 06 Nov 13:30 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
 **Steps:** 14 · **Est. time:** 11 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -22,7 +22,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 1 | ☐ Hydrogen Isotopes | 27 | **535.20** | 559.80 | 535.10 |
+| 1 | ☐ Hydrogen Isotopes | 26 | **538.00** | 556.90 | 537.90 |
 | 2 | ☐ Pure Standard Frentix Booster | 50 | **44,610** | 73,620 | 44,600 |
 
 ### Block 2 · should do · about 1 min
@@ -33,14 +33,14 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 3 | ☐ Antikythera Element | 8 | **1,362,000** | 884,200 | 1,363,000 |
+| 3 | ☐ Antikythera Element | 8 | **1,353,000** | 884,200 | 1,354,000 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 4 | ☐ 50MN Microwarpdrive II | 3,532,000 | **3,543,000** | 3,734,000 | 3,542,000 |
+| 4 | ☐ 50MN Microwarpdrive II | 3,532,000 | **3,545,000** | 3,733,000 | 3,544,000 |
 
 ### Block 3 · if there's time · about 1 min
 _Short on time? Skip to the jump (step 6): the next hub's Block 1 is worth more per minute than the rest of this hub._
@@ -50,7 +50,7 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 5 | ☐ 50MN Microwarpdrive II | 6 | **4,224,000** | 3,674,000 | 4,225,000 |
+| 5 | ☐ 50MN Microwarpdrive II | 6 | **4,223,000** | 3,674,000 | 4,224,000 |
 
 ## 6. ☐ Jump clone to Amarr VIII (Oris) - Emperor Family Academy
 _Clone Bay → Jump Clone → Amarr VIII (Oris) - Emperor Family Academy. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
@@ -76,7 +76,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 11 | ☐ Dread Guristas Rocket Launcher | 99,480,000 | **99,460,000** | 48,990,000 | 99,470,000 |
+| 11 | ☐ Dread Guristas Rocket Launcher | 99,480,000 | **99,440,000** | 48,990,000 | 99,450,000 |
 | 12 | ☐ Men's 'Precision' Boots | 99,990,000 | **99,990,000** | 51,550,000 | 100,000,000 |
 
 ### Block 3 · if there's time · about 1 min
@@ -90,4 +90,4 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 | 14 | ☐ Gravid Vorton Tuning System Mutaplasmid | 89,990,000 | **89,990,000** | 56,510,000 | 90,000,000 |
 
 ---
-Wallet 100.00M · escrow 1.64B · stock 3.14B · in transit 0.00 · net worth 4.89B (liquidation 2.45B)
+Wallet 100.00M · escrow 1.64B · stock 3.14B · in transit 0.00 · net worth 4.89B (liquidation 2.46B)
