@@ -3,13 +3,13 @@
 
 # Session checklist
 
-**Updated:** Fri 06 Nov 08:57 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
+**Updated:** Fri 06 Nov 10:00 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
 **Steps:** 14 · **Est. time:** 11 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
 
-_Left out 10 small steps worth less than 977.22k per minute of your time (0.02% of net worth per minute)._
+_Left out 9 small steps worth less than 977.22k per minute of your time (0.02% of net worth per minute)._
 
 Each hub's steps come in **priority blocks**: finish Block 1 before anything else, and stop wherever your time runs out. Within a block, steps follow the in-game windows for speed.
 
@@ -22,18 +22,25 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 1 | ☐ Compressed Brimful Zeolites | 9 | **1,507** | 1,611 | 1,506 |
+| 1 | ☐ Hydrogen Isotopes | 27 | **535.20** | 559.80 | 535.10 |
 | 2 | ☐ Pure Standard Frentix Booster | 50 | **44,610** | 73,620 | 44,600 |
 
 ### Block 2 · should do · about 1 min
 _Short on time? Skip to the jump (step 6): the next hub's Block 1 is worth more per minute than the rest of this hub._
 
-#### New buy orders
-_Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
+#### List new stock
+_Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Duration 3 months._
 
-| # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
+| # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 3 | ☐ Legion Mjolnir Auto-Targeting Heavy Missile | 1 | **900.90** | 1,497 | 900.80 |
+| 3 | ☐ Antikythera Element | 8 | **1,371,000** | 884,200 | 1,372,000 |
+
+#### Fix outbid buy orders
+_My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
+
+| # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
+|---|---|---|---|---|---|
+| 4 | ☐ 50MN Microwarpdrive II | 3,532,000 | **3,543,000** | 3,735,000 | 3,542,000 |
 
 ### Block 3 · if there's time · about 1 min
 _Short on time? Skip to the jump (step 6): the next hub's Block 1 is worth more per minute than the rest of this hub._
@@ -43,14 +50,7 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 4 | ☐ Antikythera Element | 8 | **1,376,000** | 884,200 | 1,377,000 |
-
-#### Cancel buy orders
-_My Orders → Buying. Right-click → Cancel Order._
-
-| # | Item | Your price |
-|---|---|---|
-| 5 | ☐ 50MN Microwarpdrive II | 3,532,000 |
+| 5 | ☐ 50MN Microwarpdrive II | 6 | **4,225,000** | 3,674,000 | 4,226,000 |
 
 ## 6. ☐ Jump clone to Amarr VIII (Oris) - Emperor Family Academy
 _Clone Bay → Jump Clone → Amarr VIII (Oris) - Emperor Family Academy. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._

@@ -55,7 +55,7 @@ type_id,name,volume,group_id
 2303,Thermal Shield Hardener II,,
 2309,Ionic Solutions,,
 2327,,0.75,
-2328,,0.75,1034
+2328,Water-Cooled CPU,0.75,1034
 2345,Camera Drones,3,
 2348,Gel-Matrix Biopaste,,
 2352,Nuclear Reactors,3,
@@ -561,7 +561,7 @@ type_id,name,volume,group_id
 18863,,5,326
 18877,Corpum A-Type Kinetic Energized Membrane,5,
 18881,Corpum A-Type Multispectrum Energized Membrane,5,
-18883,Centum A-Type Multispectrum Energized Membrane,,
+18883,Centum A-Type Multispectrum Energized Membrane,5,326
 18897,Corpus C-Type Thermal Armor Hardener,5,
 18923,Centus A-Type Kinetic Armor Hardener,,
 18933,Corpus X-Type EM Armor Hardener,5,328
@@ -640,7 +640,7 @@ type_id,name,volume,group_id
 19327,Corelum A-Type 50MN Microwarpdrive,,
 19329,Core A-Type 500MN Microwarpdrive,,
 19335,,10,
-19345,Gistum B-Type 50MN Microwarpdrive,10,
+19345,Gistum B-Type 50MN Microwarpdrive,10,46
 19359,Gist X-Type 500MN Microwarpdrive,10,
 19363,Centum B-Type EM Energized Membrane,5,
 19547,Inherent Implants 'Noble' Repair Systems RS-605,,
@@ -691,6 +691,7 @@ type_id,name,volume,group_id
 20599,'Undertaker' Heavy Missile Launcher,10,
 20623,,50,
 20629,,10,
+20783,,0.0125,83
 20855,True Sanshas Standard S,,
 21009,Capital Propulsion Engine,2000,
 21013,Capital Sensor Cluster,2000,
@@ -979,6 +980,7 @@ type_id,name,volume,group_id
 30251,Neurovisual Input Matrix,,
 30254,Electromechanical Hull Sheeting,0.01,966
 30304,PPD Fullerene Fibers,0.5,974
+30306,Methanofullerene,0.75,974
 30310,Carbon-86 Epoxy Resin,,
 30370,Fullerite-C50,1,
 30371,,1,711
@@ -1009,7 +1011,9 @@ type_id,name,volume,group_id
 31111,,5,
 31113,Medium Auxiliary Thrusters II,10,782
 31119,,10,782
+31123,Small Cargohold Optimization II,5,782
 31167,Medium Hyperspatial Velocity Optimizer II,10,782
+31171,,5,782
 31173,Medium Low Friction Nozzle Joints II,10,782
 31220,,5,
 31244,Small Memetic Algorithm Bank II,5,
@@ -1210,6 +1214,7 @@ type_id,name,volume,group_id
 37848,,0.5,
 40347,,3000,
 40351,25000mm Steel Plates II,1000,329
+40356,,1000,38
 40519,Skill Extractor,,
 40520,Large Skill Injector,0.01,1739
 40556,Templar II,1000,
@@ -1226,6 +1231,7 @@ type_id,name,volume,group_id
 41057,Heavy Stasis Grappler II,50,
 41058,,50,
 41059,Domination Heavy Stasis Grappler,50,1672
+41061,Federation Navy Warp Scrambler,5,52
 41066,Dark Blood Quad Mega Pulse Laser,,
 41191,Sentient Sensor Booster,5,212
 41193,Unit F-435454's Modified Sensor Booster,,
@@ -1643,7 +1649,7 @@ type_id,name,volume,group_id
 89156,Vigilance Resonance Key,0.1,474
 89485,,0.01,
 89615,Expedition Command Burst II,60,
-89647,Pioneer Consortium Issue,5000,
+89647,Pioneer Consortium Issue,5000,420
 89648,Venture Consortium Issue,2500,25
 89649,,5000,
 89689,Advanced Armor Layering,,
