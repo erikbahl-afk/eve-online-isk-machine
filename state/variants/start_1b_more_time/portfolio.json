@@ -25,6 +25,12 @@
     "since": 1793901486.0,
     "tag": "station"
    },
+   "17491": {
+    "cost": 37300000.0,
+    "qty": 1,
+    "since": 1794002392.0,
+    "tag": "station"
+   },
    "1969": {
     "cost": 1331000.0,
     "qty": 2,
@@ -70,7 +76,7 @@
   }
  },
  "last_jump": 1793894429.201751,
- "last_t": 1794000610.3371456,
+ "last_t": 1794002423.2682447,
  "location": "amarr",
  "next_oid": 32,
  "orders": [
@@ -248,7 +254,7 @@
    "oid": 18,
    "price": 37300000.0,
    "qty": 2,
-   "remain": 2,
+   "remain": 1,
    "side": "buy",
    "tag": "station",
    "type_id": 17491,
@@ -389,7 +395,7 @@
  ],
  "per_strategy": {
   "station": {
-   "buys": 177682811.68,
+   "buys": 214982811.68,
    "fees": 13889876.285,
    "realized": -13889876.285,
    "sales": 0.0
@@ -477,8 +483,8 @@
    "sold_units": 0
   },
   "jita:17491": {
-   "bought_isk": 0.0,
-   "bought_units": 0,
+   "bought_isk": 37300000.0,
+   "bought_units": 1,
    "fees": 1119000.0,
    "realized": -1119000.0,
    "sold_net": 0.0,
@@ -647,7 +653,7 @@
  },
  "pnl": {
   "broker": 13889876.285,
-  "buys": 177682811.68,
+  "buys": 214982811.68,
   "courier": 0.0,
   "realized": -13889876.285,
   "relist": 0.0,

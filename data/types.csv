@@ -271,6 +271,7 @@ type_id,name,volume,group_id
 12487,Caldari Drone Specialization,0.01,
 12537,Serpentis Bronze Tag,0.1,370
 12608,Hail S,0.0025,
+12631,,0.0025,376
 12729,Crane,20000,
 12731,Bustard,20000,
 12733,,20000,
@@ -441,7 +442,7 @@ type_id,name,volume,group_id
 15902,Republic Fleet Small Shield Booster,5,40
 15905,,5,
 15909,Caldari Navy EM Shield Amplifier,5,
-15931,Caldari Navy Large Graviton Smartbomb,,
+15931,Caldari Navy Large Graviton Smartbomb,50,72
 15955,Federation Navy Large Plasma Smartbomb,50,
 15963,Imperial Navy Large EMP Smartbomb,50,72
 15965,Republic Fleet Tracking Enhancer,5,
@@ -1086,6 +1087,7 @@ type_id,name,volume,group_id
 31959,,1,
 31965,High-grade Talon Epsilon,,
 31990,,4.5,
+31998,Navy Cap Booster 200,6,87
 32014,Navy Cap Booster 800,24,87
 32039,,10,
 32063,Medium Drone Speed Augmentor II,10,
@@ -1267,7 +1269,7 @@ type_id,name,volume,group_id
 41486,,1000,
 41489,,128,
 41490,Navy Cap Booster 3200,96,87
-41492,Capital F-RX Compact Capacitor Booster,,
+41492,Capital F-RX Compact Capacitor Booster,1000,76
 41493,,1000,
 41498,Capital I-a Enduring Armor Repairer,1000,
 41503,Capital Ancillary Armor Repairer,,
@@ -1419,7 +1421,7 @@ type_id,name,volume,group_id
 52244,Veles Entropic Radiation Sink,5,1988
 52278,Praxis Capsuleer Day XVI SKIN,0.01,
 52312,Zero-Point Field Manipulator,1,334
-52313,Trinary State Processor,,
+52313,Trinary State Processor,1,334
 52562,,0.01,
 52568,,0.01,
 52694,Industrial Cynosural Field Generator,25,
@@ -1441,6 +1443,7 @@ type_id,name,volume,group_id
 53713,High-grade Nirvana Epsilon,1,
 53714,High-grade Nirvana Omega,,
 53715,High-grade Nirvana Gamma,1,
+53854,Low-grade Nirvana Beta,1,300
 53856,Low-grade Nirvana Delta,,
 53893,High-grade Savior Delta,,
 53894,High-grade Savior Epsilon,,
