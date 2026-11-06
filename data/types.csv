@@ -30,6 +30,7 @@ type_id,name,volume,group_id
 976,,0.01,
 1183,,5,
 1231,Hemorphite,,
+1319,Expanded Cargohold II,5,765
 1355,Reactor Control Unit II,,
 1436,Auto Targeting System II,,
 1565,Small EMP Smartbomb II,,
@@ -248,7 +249,7 @@ type_id,name,volume,group_id
 12108,Deep Core Mining Laser I,5,54
 12200,Mobile Large Warp Disruptor I,585,361
 12209,Large Autocannon Specialization,,
-12221,,10,
+12221,Medium Remote Capacitor Transmitter II,10,
 12223,,1000,
 12237,,8000,
 12259,Medium Energy Nosferatu II,,
@@ -527,7 +528,7 @@ type_id,name,volume,group_id
 18682,,5,
 18684,Core C-Type 100MN Afterburner,5,46
 18688,Corelum B-Type 10MN Afterburner,5,46
-18692,Coreli A-Type 1MN Afterburner,5,
+18692,Coreli A-Type 1MN Afterburner,5,46
 18698,Core X-Type 100MN Afterburner,,
 18706,,5,98
 18708,Corpii A-Type Multispectrum Coating,5,98
@@ -746,7 +747,8 @@ type_id,name,volume,group_id
 23061,Einherji I,1000,1652
 23071,,1,
 23073,,1,
-23105,,1,
+23097,Imperial Navy Standard M,1,86
+23105,Imperial Navy Multifrequency L,1,86
 23107,,1,
 23111,,1,86
 23119,Imperial Navy Radio L,1,86
@@ -853,6 +855,7 @@ type_id,name,volume,group_id
 27187,,1,
 27188,Poteque 'Prospector' Astrometric Rangefinding AR-806,1,
 27190,Poteque 'Prospector' Astrometric Pinpointing AP-610,,
+27192,Poteque 'Prospector' Astrometric Acquisition AQ-710,1,1230
 27196,,1,
 27239,Eifyr and Co. 'Alchemist' Gas Harvesting GH-805,1,
 27245,Zainou 'Snapshot' Heavy Assault Missiles AM-705,,
@@ -974,7 +977,7 @@ type_id,name,volume,group_id
 31037,Capital Thermal Armor Reinforcer I,,
 31039,Small Thermal Armor Reinforcer II,5,
 31041,,10,
-31045,Small Auxiliary Nano Pump I,,
+31045,Small Auxiliary Nano Pump I,5,773
 31047,Medium Auxiliary Nano Pump I,,
 31053,Medium Auxiliary Nano Pump II,10,
 31059,Medium Trimark Armor Pump II,10,
@@ -1088,7 +1091,7 @@ type_id,name,volume,group_id
 33526,,1,
 33527,High-grade Ascendancy Epsilon,1,
 33528,High-grade Ascendancy Gamma,,
-33539,Shattered Villard Wheel,,
+33539,Shattered Villard Wheel,0.1,526
 33557,Mid-grade Ascendancy Beta,1,
 33619,Rogue Drone 43-X Nexus Chip,0.1,314
 33681,Gecko,50,100
@@ -1141,6 +1144,7 @@ type_id,name,volume,group_id
 34593,Entosis Link I,20,
 34631,Rokh Wiyrkomi SKIN,,
 34828,Jackdaw,5000,1305
+35662,,10,46
 35683,Hecate,5000,1305
 35790,Missile Guidance Computer II,5,
 35826,Azbel,,
@@ -1166,6 +1170,7 @@ type_id,name,volume,group_id
 37454,,2500,
 37456,,2500,
 37457,,2500,
+37458,,2500,1527
 37459,,2500,
 37460,Scalpel,,
 37480,,5000,
@@ -1234,7 +1239,7 @@ type_id,name,volume,group_id
 42206,Mid-grade Asklepian Gamma,1,
 42208,Mid-grade Asklepian Epsilon,1,
 42209,Mid-grade Asklepian Omega,1,300
-42212,High-grade Asklepian Gamma,1,
+42212,High-grade Asklepian Gamma,1,300
 42215,High-grade Asklepian Omega,,
 42244,,50000,
 42685,,5000,
@@ -1279,7 +1284,7 @@ type_id,name,volume,group_id
 45630,,40,
 45631,Loki Core - Dissolution Sequencer,40,
 45632,Loki Core - Augmented Nuclear Reactor,40,
-45633,Loki Core - Immobility Drivers,40,
+45633,Loki Core - Immobility Drivers,40,958
 45856,Golem Exoplanets Hunter SKIN,0.01,
 45866,Bustard Exoplanets Hunter SKIN,,
 45999,Agency 'Pyrolancea' DB5 Dose II,1,303
@@ -1473,7 +1478,7 @@ type_id,name,volume,group_id
 60294,Variegated Asteroid Mining Crystal Type A II,10,482
 60297,,6,
 60300,,10,
-60311,,10,
+60311,Mercoxit Asteroid Mining Crystal Type B II,10,663
 60313,Gas Cloud Harvester I,5,
 60314,Gas Cloud Harvester II,5,4138
 60464,Exigent Heavy Drone Firepower Mutaplasmid,1,1964
@@ -1661,6 +1666,7 @@ type_id,name,volume,group_id
 95672,Liberated Matar Background,0.1,
 95673,Foundation Wisdom Background,0.1,
 95741,Akoman,15000,
+96317,,0.01,1950
 96318,,0.01,1950
 96320,,0.01,1950
 96321,Salvation Sanguinary Savant SKIN,,

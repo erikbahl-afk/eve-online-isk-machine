@@ -13,3 +13,4 @@ t,event,hub,type_id,qty,price,cash_delta,note
 1793937633,broker,jita,87324,0,0.0,-977250.0,bid o12
 1793937633,broker,jita,17217,0,0.0,-298410.0,bid o13
 1793937633,broker,jita,49790,0,0.0,-525150.0,bid o14
+1793944534,buy_fill,jita,34575,16,850100.0,-13601600.0,o1
