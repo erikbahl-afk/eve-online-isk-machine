@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Fri 06 Nov 06:00 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
-**Steps:** 15 · **Est. time:** 13 min. Work top to bottom; stop any time.  
+**Updated:** Fri 06 Nov 07:55 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
+**Steps:** 15 · **Est. time:** 12 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -22,57 +22,57 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 1 | ☐ 50MN Microwarpdrive II | 3,532,000 | **3,533,000** | 3,735,000 | 3,532,000 |
+| 1 | ☐ 50MN Microwarpdrive II | 3,532,000 | **3,538,000** | 3,734,000 | 3,537,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 2 | ☐ Angel NET Resonator | 1 | **2,181,000** | 2,289,000 | 2,180,000 |
-| 3 | ☐ Compressed Brimful Zeolites | 42 | **1,506** | 1,611 | 1,505 |
+| 2 | ☐ Compressed Brimful Zeolites | 9 | **1,507** | 1,611 | 1,506 |
+| 3 | ☐ Pure Standard Frentix Booster | 50 | **44,610** | 73,620 | 44,600 |
 
 ### Block 2 · should do · about 2 min
-_Short on time? Skip to the jump (step 8): the next hub's Block 1 is worth more per minute than the rest of this hub._
+_Short on time? Skip to the jump (step 7): the next hub's Block 1 is worth more per minute than the rest of this hub._
 
 #### List new stock
 _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Duration 3 months._
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 4 | ☐ 50MN Microwarpdrive II | 6 | **4,225,000** | 3,674,000 | 4,226,000 |
-| 5 | ☐ Antikythera Element | 8 | **1,427,000** | 884,200 | 1,428,000 |
+| 4 | ☐ Antikythera Element | 8 | **1,416,000** | 884,200 | 1,417,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 6 | ☐ Compressed Polycrase X-Grade | 3 | **189.10** | 190.50 | 189.00 |
+| 5 | ☐ Legion Mjolnir Auto-Targeting Heavy Missile | 1 | **900.90** | 1,497 | 900.80 |
 
 ### Block 3 · if there's time · about 1 min
-_Short on time? Skip to the jump (step 8): the next hub's Block 1 is worth more per minute than the rest of this hub._
+_Short on time? Skip to the jump (step 7): the next hub's Block 1 is worth more per minute than the rest of this hub._
 
-#### New buy orders
-_Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
+#### List new stock
+_Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Duration 3 months._
 
-| # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
+| # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 7 | ☐ Compressed Omber | 1 | **120.60** | 122.60 | 120.50 |
+| 6 | ☐ 50MN Microwarpdrive II | 6 | **4,224,000** | 3,674,000 | 4,225,000 |
 
-## 8. ☐ Jump clone to Amarr VIII (Oris) - Emperor Family Academy
+## 7. ☐ Jump clone to Amarr VIII (Oris) - Emperor Family Academy
 _Clone Bay → Jump Clone → Amarr VIII (Oris) - Emperor Family Academy. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
 
 ## At Amarr VIII (Oris) - Emperor Family Academy
 
-### Block 1 · must do · about 1 min
+### Block 1 · must do · about 2 min
 
 #### Fix undercut sell orders
 _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours is already the lowest, skip._
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 9 | ☐ Black Market 'Valdimar' Drone Navigation DN-701 | 249,800,000 | **249,800,000** | 131,200,000 | 249,900,000 |
+| 8 | ☐ Black Market 'Valdimar' Drone Navigation DN-701 | 249,800,000 | **249,800,000** | 131,200,000 | 249,900,000 |
+| 9 | ☐ Capital I-a Enduring Armor Repairer | 199,800,000 | **199,700,000** | 91,990,000 | 199,800,000 |
 | 10 | ☐ Standup M-Set Basic Small Ship Manufacturing Material Efficiency I | 699,600,000 | **699,600,000** | 347,300,000 | 699,700,000 |
 | 11 | ☐ Typhoon Fleet Issue Capsuleer Elite XX SKIN | 815,900,000 | **815,900,000** | 435,300,000 | 816,000,000 |
 
@@ -83,9 +83,8 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 12 | ☐ 'Cartel' Power Diagnostic System I | 68,300,000 | **68,280,000** | 31,380,000 | 68,290,000 |
-| 13 | ☐ Dread Guristas Rocket Launcher | 99,480,000 | **99,480,000** | 48,990,000 | 99,490,000 |
-| 14 | ☐ Men's 'Precision' Boots | 99,990,000 | **99,990,000** | 51,550,000 | 100,000,000 |
+| 12 | ☐ Dread Guristas Rocket Launcher | 99,480,000 | **99,480,000** | 48,990,000 | 99,490,000 |
+| 13 | ☐ Men's 'Precision' Boots | 99,990,000 | **99,990,000** | 51,550,000 | 100,000,000 |
 
 ### Block 3 · if there's time · about 1 min
 
@@ -94,6 +93,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
+| 14 | ☐ 'Cartel' Power Diagnostic System I | 68,300,000 | **68,280,000** | 31,380,000 | 68,290,000 |
 | 15 | ☐ Gravid Vorton Tuning System Mutaplasmid | 89,990,000 | **89,990,000** | 56,510,000 | 90,000,000 |
 
 ---

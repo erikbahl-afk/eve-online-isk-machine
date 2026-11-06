@@ -146,7 +146,7 @@ type_id,name,volume,group_id
 4313,Oxygen Fuel Block Blueprint,0.01,
 4315,,0.01,
 4345,Gistum B-Type Multispectrum Shield Hardener,5,77
-4347,Pithum A-Type Multispectrum Shield Hardener,,
+4347,Pithum A-Type Multispectrum Shield Hardener,5,77
 4348,Pithum B-Type Multispectrum Shield Hardener,5,
 4349,Pithum C-Type Multispectrum Shield Hardener,5,77
 5051,Heavy F-RX Compact Capacitor Booster,,
@@ -195,6 +195,7 @@ type_id,name,volume,group_id
 11196,Claw,2500,831
 11198,Stiletto,,
 11200,,2500,
+11325,,20,329
 11365,Vengeance,2500,
 11377,,2500,
 11379,,2500,
@@ -701,6 +702,7 @@ type_id,name,volume,group_id
 21474,,5,
 21478,50MN Digital Booster Microwarpdrive,,
 21486,,5,
+21510,'Interruptive' Warp Disruptor,5,52
 21540,'Inception' Target Painter,5,
 21569,Sleeper Profound Research Notes,1,
 21667,Capital Projectile Turret,,
@@ -791,7 +793,7 @@ type_id,name,volume,group_id
 24663,Zor's Custom Navigation Hyper-Link,,
 24692,,50000,
 24702,Hurricane,,
-25252,Pure Standard Frentix Booster,,
+25252,Pure Standard Frentix Booster,1,712
 25266,,5,
 25267,,0.01,
 25349,Strong Exile Booster,1,303
@@ -885,7 +887,7 @@ type_id,name,volume,group_id
 27345,Caldari Navy Scourge Torpedo,,
 27351,,0.05,
 27355,Dread Guristas Inferno Torpedo,,
-27377,,0.05,
+27377,Caldari Navy Mjolnir Cruise Missile,0.05,386
 27381,Caldari Navy Nova Light Missile,,
 27395,Caldari Navy Scourge Cruise Missile,0.05,386
 27401,,0.015,
@@ -981,7 +983,7 @@ type_id,name,volume,group_id
 30375,Fullerite-C28,2,711
 30376,Fullerite-C32,5,711
 30377,Fullerite-C320,,
-30378,Fullerite-C540,,
+30378,Fullerite-C540,10,711
 30486,Sisters Combat Scanner Probe,1,
 30488,Sisters Core Scanner Probe,,
 30586,Malfunctioning Power Cores,,
@@ -1106,7 +1108,8 @@ type_id,name,volume,group_id
 33468,Astero,2500,25
 33470,Stratios,10000,26
 33472,Nestor,,
-33522,,50,
+33513,Leopard,500,31
+33522,'Yurt' Mobile Depot,50,1246
 33526,,1,
 33527,High-grade Ascendancy Epsilon,1,
 33528,High-grade Ascendancy Gamma,,
@@ -1210,6 +1213,7 @@ type_id,name,volume,group_id
 40556,Templar II,1000,
 40558,Firbolg II,1000,
 40559,Einherji II,,
+40560,Ametat II,2000,1653
 40569,,3000,1537
 40570,,3000,
 40661,Capital Infectious Scoped Energy Neutralizer,,
@@ -1221,7 +1225,7 @@ type_id,name,volume,group_id
 41058,,50,
 41059,Domination Heavy Stasis Grappler,50,1672
 41066,Dark Blood Quad Mega Pulse Laser,,
-41191,,5,
+41191,Sentient Sensor Booster,5,212
 41193,Unit F-435454's Modified Sensor Booster,,
 41197,,5,
 41200,Shadow Serpentis Damage Control,5,
@@ -1424,6 +1428,7 @@ type_id,name,volume,group_id
 53856,Low-grade Nirvana Delta,,
 53893,High-grade Savior Delta,,
 53894,High-grade Savior Epsilon,,
+54162,,1,1194
 54398,Mid-grade Hydra Alpha,,
 54399,Mid-grade Hydra Beta,,
 54400,Mid-grade Hydra Gamma,,
@@ -1593,7 +1598,7 @@ type_id,name,volume,group_id
 81008,,20000,
 81046,Deluge,20000,1202
 81047,Torrent,20000,380
-81050,Upwell Starship Engineering,0.01,
+81050,Upwell Starship Engineering,0.01,270
 81083,Starsi Blast! Classic,1,303
 81143,Magmatic Gas,0.01,
 81350,Kerr Sequencer,0.001,
@@ -1655,7 +1660,7 @@ type_id,name,volume,group_id
 91174,Perseverance,5000,
 91775,,5000,
 91849,Algos Navy Issue,5000,
-91857,,5000,
+91857,Corax Navy Issue,5000,420
 91932,,1,
 91939,Imperial Defense Booster II,,
 91944,Federation Defense Booster II,1,
@@ -1692,6 +1697,7 @@ type_id,name,volume,group_id
 94010,Caldari Navy Bastion Module,,
 94034,Harpy State Regulator SKIN,0.01,
 94065,,5,
+94067,Caldari Navy Signal Distortion Amplifier,,
 95228,Manifest Homecoming Background,,
 95413,Harmonius Bridge - Unlimited,,
 95556,,5,
