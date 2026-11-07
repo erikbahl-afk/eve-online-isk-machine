@@ -37,6 +37,7 @@ type_id,name,volume,group_id
 1436,Auto Targeting System II,,
 1565,Small EMP Smartbomb II,,
 1818,Scourge Auto-Targeting Heavy Missile I,0.03,
+1826,Scourge Auto-Targeting Cruise Missile I,0.05,396
 1830,,0.05,
 1855,,5,
 1952,Sensor Booster II,5,212
@@ -46,6 +47,7 @@ type_id,name,volume,group_id
 1999,Tracking Enhancer II,,
 2006,,10000,26
 2032,Cap Recharger II,,
+2050,Gistum C-Type Multispectrum Shield Hardener,5,77
 2175,,10,
 2185,Hammerhead II,,
 2270,,0.005,
@@ -291,7 +293,7 @@ type_id,name,volume,group_id
 12631,,0.0025,376
 12729,Crane,20000,
 12731,Bustard,20000,
-12733,,20000,
+12733,Prorator,20000,1202
 12735,Prowler,20000,1202
 12743,Viator,20000,1202
 12745,Occator,20000,380
@@ -396,6 +398,7 @@ type_id,name,volume,group_id
 14164,Dark Blood Medium Energy Neutralizer,5,
 14168,Dark Blood Heavy Energy Neutralizer,5,
 14170,True Sansha Heavy Energy Neutralizer,5,71
+14172,Dark Blood Heavy Capacitor Booster,20,76
 14176,Dark Blood Medium Capacitor Booster,,
 14184,Dark Blood Small Capacitor Booster,,
 14190,True Sansha Large EMP Smartbomb,,
@@ -548,6 +551,7 @@ type_id,name,volume,group_id
 17726,,50000,
 17736,Nightmare,50000,27
 17738,Machariel,,
+17769,,0.2,428
 17772,Small AutoCannon Battery,,
 17843,Vexor Navy Issue,10000,26
 17871,,1,738
@@ -981,7 +985,7 @@ type_id,name,volume,group_id
 28609,Heavy Interdiction Cruisers,,
 28656,Black Ops,,
 28659,Paladin,50000,900
-28661,Kronos,50000,
+28661,Kronos,50000,900
 28665,Vargur,50000,900
 28668,Nanite Repair Paste,,
 28672,Synth Crash Booster,,
@@ -1032,6 +1036,7 @@ type_id,name,volume,group_id
 30310,Carbon-86 Epoxy Resin,,
 30370,Fullerite-C50,1,
 30371,Fullerite-C60,1,711
+30372,,1,711
 30374,,2,711
 30375,Fullerite-C28,2,711
 30376,Fullerite-C32,5,711
@@ -1738,7 +1743,7 @@ type_id,name,volume,group_id
 90647,Oxidative Stress - Unlimited,,
 90734,,0.01,
 91174,Perseverance,5000,420
-91775,,5000,
+91775,Dragoon Navy Issue,5000,420
 91849,Algos Navy Issue,5000,
 91857,Corax Navy Issue,5000,420
 91932,,1,
@@ -1748,6 +1753,7 @@ type_id,name,volume,group_id
 91954,State Mobility Booster III,,
 91958,,1,
 91960,,1,
+91961,Republic Mobility Booster III,,
 91962,,1,
 91963,,1,
 91972,State Hardpoint Booster II,1,303
