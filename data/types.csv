@@ -326,7 +326,7 @@ type_id,name,volume,group_id
 13868,Shadow Serpentis 200mm Railgun,,
 13872,Shadow Serpentis 250mm Railgun,,
 13879,Dread Guristas 425mm Railgun,,
-13920,Dread Guristas Rapid Light Missile Launcher,10,
+13920,Dread Guristas Rapid Light Missile Launcher,10,511
 13923,Domination Torpedo Launcher,20,
 13924,Dread Guristas Torpedo Launcher,20,508
 13926,,5,
@@ -587,6 +587,7 @@ type_id,name,volume,group_id
 18985,Coreli A-Type Small Remote Armor Repairer,5,325
 18987,Corelum C-Type Medium Remote Armor Repairer,10,325
 18989,Corelum B-Type Medium Remote Armor Repairer,10,
+18991,Corelum A-Type Medium Remote Armor Repairer,10,325
 18999,,5,
 19003,,5,
 19015,Coreli A-Type Small Armor Repairer,5,
@@ -877,6 +878,7 @@ type_id,name,volume,group_id
 26890,Mobile Medium Warp Disruptor II,195,361
 26892,Mobile Small Warp Disruptor II,65,361
 26912,Small Remote Armor Repairer II,5,
+26913,,10,325
 26914,Large Remote Armor Repairer II,25,325
 27094,,1,
 27108,Zainou 'Snapshot' Light Missiles LM-903,1,
@@ -1095,7 +1097,7 @@ type_id,name,volume,group_id
 31932,Republic Fleet Large Shield Extender,20,38
 31942,Federation Navy Omnidirectional Tracking Link,5,
 31946,Imperial Navy Large Remote Capacitor Transmitter,25,
-31952,Caldari Navy Power Diagnostic System,5,
+31952,Caldari Navy Power Diagnostic System,5,766
 31959,,1,
 31965,High-grade Talon Epsilon,,
 31990,,4.5,
@@ -1155,6 +1157,7 @@ type_id,name,volume,group_id
 33842,Federation Navy Drone Damage Amplifier,5,645
 33844,Imperial Navy Drone Damage Amplifier,5,645
 33846,Dread Guristas Drone Damage Amplifier,5,645
+33852,,25,644
 33894,Medium Transverse Bulkhead I,10,
 33896,Medium Transverse Bulkhead II,10,
 33898,,20,
@@ -1584,6 +1587,7 @@ type_id,name,volume,group_id
 62533,Compressed Omber II-Grade,,
 62554,Compressed Gneiss III-Grade,0.05,467
 62555,Compressed Gneiss IV-Grade,0.05,467
+62559,Compressed Dark Ochre IV-Grade,0.08,453
 62560,Compressed Crokite,0.16,452
 62564,Compressed Bistot,,
 62566,,0.16,

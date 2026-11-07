@@ -1,6 +1,6 @@
 {
  "est_secs": 825,
- "generated": 1794024024.3654218,
+ "generated": 1794031229.2721665,
  "hub": "jita",
  "location": "jita",
  "min_isk_per_min": 977218,
@@ -36,23 +36,23 @@
    "value": 333800000.0
   },
   {
-   "benefit": 19574228.603033002,
+   "benefit": 26447962.786132466,
    "block": 1,
-   "cap": 1364.0,
+   "cap": 556.5,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
    "n": 3,
-   "qty": 11,
-   "ref": 1298.0,
+   "qty": 27,
+   "ref": 535.8,
    "secs": 60,
    "tag": "station",
-   "target": 1299.0,
-   "type_id": 62463,
-   "value": 9787114.301516501
+   "target": 535.9,
+   "type_id": 17889,
+   "value": 13223981.393066233
   },
   {
-   "benefit": 18564601.525039513,
+   "benefit": 18325786.25857286,
    "block": 1,
    "cap": 73620.0,
    "group": 6,
@@ -65,10 +65,10 @@
    "tag": "station",
    "target": 44610.0,
    "type_id": 25252,
-   "value": 9282300.762519756
+   "value": 9162893.12928643
   },
   {
-   "benefit": 3803520.0,
+   "benefit": 3797602.5,
    "block": 2,
    "fallback": 4776200.0,
    "floor": 3674000.0,
@@ -77,16 +77,16 @@
    "kind": "new_sell",
    "n": 5,
    "qty": 6,
-   "ref": 4225000.0,
+   "ref": 4224000.0,
    "secs": 45,
-   "target": 4224000.0,
+   "target": 4223000.0,
    "type_id": 12076,
    "value": 21192000.0
   },
   {
-   "benefit": 4751542.586260002,
+   "benefit": 4618695.724463011,
    "block": 2,
-   "cap": 3734000.0,
+   "cap": 3733000.0,
    "group": 4,
    "hub": "jita",
    "kind": "modify_buy",
@@ -100,23 +100,23 @@
    "value": 42384000.0
   },
   {
-   "benefit": 5373150.202367827,
+   "benefit": 5312426.359495597,
    "block": 2,
-   "cap": 20.72,
+   "cap": 20.71,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
    "n": 7,
-   "qty": 9,
+   "qty": 1,
    "ref": 20.5,
    "secs": 60,
    "tag": "station",
    "target": 20.51,
    "type_id": 62520,
-   "value": 2686575.1011839136
+   "value": 2656213.1797477985
   },
   {
-   "benefit": 3692900.0,
+   "benefit": 3669230.0,
    "block": 3,
    "fallback": 1149460.0,
    "floor": 884200.0,
@@ -125,9 +125,9 @@
    "kind": "new_sell",
    "n": 8,
    "qty": 8,
-   "ref": 1331000.0,
+   "ref": 1328000.0,
    "secs": 45,
-   "target": 1330000.0,
+   "target": 1327000.0,
    "type_id": 34575,
    "value": 6800800.0
   },
@@ -158,7 +158,7 @@
    "value": 749400000.0
   },
   {
-   "benefit": 11982000.09335174,
+   "benefit": 11982000.093971018,
    "block": 1,
    "floor": 91990000.0,
    "group": 1,
