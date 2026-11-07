@@ -181,3 +181,22 @@
 - Next: Sun fills: count distinct bid events / use official volume before a thin station bid is fillable (with a probe).
   Mon picks: liquidity floor for station items. exports/seeding/rotation identical so far (no import-hub step yet).
 
+
+## 2026-11-07 · risk and concentration (Saturday)
+- Live books (ESI, 23:40 UTC) on every holding: stock costs 3.14B but dumps for only 0.45B (14%). With cash + escrow,
+  liquidation is ~45% of 4.89B, not the summary's 50%. Bottom of the list (best bid ÷ cost): Golem Exoplanets SKIN 0%,
+  Men's 'Precision' Boots 1%, Typhoon FI XX SKIN 4%, Standup M-Set ME I 7%, Gravid Vorton Mutaplasmid 9%, Capital I-a
+  Enduring Armor Rep 18%, 'Cartel' PDS 20%, Low-grade Crystal Epsilon 22%, Valdimar DN-701 25%, Dread Guristas RL 31%.
+  All are 31 Oct Amarr imports, bought before the 60% exit check existed; today's guards would block every one of them.
+- Bug fixed (trader/sim.py `_liq`): an item with no buy order at all was valued at 50% of cost, which hid ~0.27B of
+  stuck stock. Now 0 (the 50% guess stays only when a whole hub's data is missing). Test added. Liquidation will read lower.
+- Concentration: top 5 = 37% of net worth, all Amarr imports (one hub, one strategy, one buying day). Only Typhoon SKIN is
+  over 8% (8.6%, courier cost in basis). Stress: 3 largest −30% = 7.3% of net worth. No price fell >10% in the daily files.
+- Domain 30 d history: real demand exists for Crystal Epsilon (34, avg 293M vs our 248M ask), Cartel PDS (48), Capital
+  rep (45), Dread RL (90, but avg 49M vs our 99M ask), M-Set (14, avg 780M vs 700M), Gravid (33). Lottery tickets:
+  Golem SKIN (2/30 d), Boots (3), Typhoon SKIN (1); their Jita asks are 95%, 88%, 95% of our cost. Dumping loses ~99%, so
+  hold all: no exit entries. Alerts: liquidation and Typhoon 8.6% are true and known; thresholds unchanged.
+  7 idle buys: 6 are on the avoid list and get cancelled at the next sim login; Tetryon XL kept (still top bid).
+- Unlisted: 3,642 Infomorph Decryption Keys (6 d) and 2,434 Void XL in Amarr. Thursday's cut login missed them; the next
+  login lists them. No probe started: 6/6 slots full (Thursday decides). Idea for a slot: a "ship stuck imports back to Jita"
+  exit mode, and a min-regional-history (≥1 sale/day) import filter (Monday).

@@ -421,8 +421,10 @@ class Sim:
 
     def _liq(self, tops, hub, ty, cost):
         top = tops.get(hub)
-        if top is None or ty not in top.index or np.isnan(top.best_bid.get(ty, np.nan)):
-            return 0.5 * cost
+        if top is None:
+            return 0.5 * cost  # no data for the hub this run: a guess, not a measurement
+        if ty not in top.index or np.isnan(top.best_bid.get(ty, np.nan)):
+            return 0.0  # nobody is buying: it can't be dumped at all (was 50% of cost, hid stuck imports)
         return min(cost, top.best_bid[ty]) * (1 - self.fees.tax)
 
 

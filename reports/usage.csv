@@ -1,3 +1,4 @@
 date,topic,tool_calls,notes
 2026-11-05,experiments,22,scoreboard tool; all experiments extend; alerts reviewed
 2026-11-06,weekly review,16,memo; avoid list for 6 thin station bids; gone_weight artefact found
+2026-11-07,risk,17,live liquidation 45%; _liq no-bid bug fixed; hold legacy imports

@@ -225,3 +225,13 @@ def test_scoreboard(tmp_path):
     s = scoreboard.score("x", tmp_path, 1000.0)
     assert abs(s["ret"] - 10.0) < 1e-9 and abs(s["liq"] - 0.5) < 1e-9 and s["trades"] == 1
     assert s["worst"] == (-5.0, "jita:0") and s["trimmed"] == 3.0 and abs(s["fees"] - 0.1) < 1e-9
+
+
+def test_liquidation_no_bid_is_zero():
+    pf = new_portfolio(CFG, 0.0)
+    sim = Sim(CFG, pf, Fees(CFG), np.random.default_rng(1), [])
+    top = pd.DataFrame({"best_bid": [50.0, np.nan], "best_ask": [120.0, 130.0]}, index=[1, 2])
+    assert sim._liq({"jita": top}, "jita", 1, 100.0) == 50.0 * (1 - sim.fees.tax)
+    assert sim._liq({"jita": top}, "jita", 2, 100.0) == 0.0   # no bid at all
+    assert sim._liq({"jita": top}, "jita", 3, 100.0) == 0.0   # no orders at all
+    assert sim._liq({}, "jita", 1, 100.0) == 50.0              # hub missing this run: fallback guess
