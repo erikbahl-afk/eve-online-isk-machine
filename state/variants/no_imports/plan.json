@@ -1,6 +1,6 @@
 {
  "est_secs": 585,
- "generated": 1794009627.6776779,
+ "generated": 1794016571.2734919,
  "hub": "jita",
  "location": "jita",
  "min_isk_per_min": 984839,
@@ -8,7 +8,7 @@
  "skipped_low_value": 25,
  "steps": [
   {
-   "benefit": 21992876.917825602,
+   "benefit": 21745786.80576496,
    "block": 1,
    "floor": 84850000.0,
    "group": 1,
@@ -24,7 +24,7 @@
    "value": 123900000.0
   },
   {
-   "benefit": 14913434.115450121,
+   "benefit": 14609825.284622863,
    "block": 1,
    "cap": 1128000.0,
    "group": 4,
@@ -33,14 +33,14 @@
    "mine": 850100.0,
    "n": 2,
    "oid": 30,
-   "ref": 790500.0,
+   "ref": 790700.0,
    "secs": 25,
-   "target": 790600.0,
+   "target": 790800.0,
    "type_id": 34575,
    "value": 45055300.0
   },
   {
-   "benefit": 14393496.905237185,
+   "benefit": 14469464.924160728,
    "block": 1,
    "cap": 108500000.0,
    "group": 4,
@@ -56,7 +56,7 @@
    "value": 81570000.0
   },
   {
-   "benefit": 11075786.88935525,
+   "benefit": 9801005.018504877,
    "block": 1,
    "cap": 18320000.0,
    "group": 4,
@@ -65,9 +65,9 @@
    "mine": 11530000.0,
    "n": 4,
    "oid": 31,
-   "ref": 11620000.0,
+   "ref": 11630000.0,
    "secs": 25,
-   "target": 11630000.0,
+   "target": 11640000.0,
    "type_id": 13221,
    "value": 23060000.0
   },
@@ -100,9 +100,9 @@
    "value": 333800000.0
   },
   {
-   "benefit": 73222721.1761687,
+   "benefit": 71486099.33574831,
    "block": 1,
-   "cap": 65770000.0,
+   "cap": 65750000.0,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
@@ -113,10 +113,10 @@
    "tag": "station",
    "target": 50010000.0,
    "type_id": 56715,
-   "value": 36611360.58808435
+   "value": 35743049.66787416
   },
   {
-   "benefit": 6889325.129048497,
+   "benefit": 6817356.304754158,
    "block": 2,
    "floor": 43710000.0,
    "group": 1,
@@ -132,39 +132,39 @@
    "value": 59990000.0
   },
   {
-   "benefit": 14314618.819829673,
+   "benefit": 8468797.5,
    "block": 2,
-   "cap": 21480.0,
-   "group": 6,
+   "fallback": 1149460.0,
+   "floor": 884200.0,
+   "group": 2,
    "hub": "jita",
-   "kind": "new_buy",
+   "kind": "new_sell",
    "n": 9,
-   "qty": 1,
-   "ref": 20030.0,
-   "secs": 60,
-   "tag": "station",
-   "target": 20040.0,
-   "type_id": 16668,
-   "value": 7157309.409914836
+   "qty": 18,
+   "ref": 1340000.0,
+   "secs": 45,
+   "target": 1339000.0,
+   "type_id": 34575,
+   "value": 15301800.0
   },
   {
-   "benefit": 26123459.22017482,
+   "benefit": 19131929.589996308,
    "block": 2,
-   "cap": 556.2,
+   "cap": 1363.0,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
    "n": 10,
-   "qty": 30,
-   "ref": 535.2,
+   "qty": 28,
+   "ref": 1298.0,
    "secs": 60,
    "tag": "station",
-   "target": 535.3,
-   "type_id": 17889,
-   "value": 13061729.61008741
+   "target": 1299.0,
+   "type_id": 62463,
+   "value": 9565964.794998154
   },
   {
-   "benefit": 19061256.6569142,
+   "benefit": 18820041.28257285,
    "block": 2,
    "cap": 73620.0,
    "group": 6,
@@ -177,39 +177,39 @@
    "tag": "station",
    "target": 44610.0,
    "type_id": 25252,
-   "value": 9530628.3284571
+   "value": 9410020.641286425
   },
   {
-   "benefit": 8575312.5,
-   "block": 3,
-   "fallback": 1149460.0,
-   "floor": 884200.0,
-   "group": 2,
-   "hub": "jita",
-   "kind": "new_sell",
-   "n": 12,
-   "qty": 18,
-   "ref": 1346000.0,
-   "secs": 45,
-   "target": 1345000.0,
-   "type_id": 34575,
-   "value": 15301800.0
-  },
-  {
-   "benefit": 815729.6408806962,
+   "benefit": 819098.0671527003,
    "block": 3,
    "cap": 26570000.0,
    "group": 4,
    "hub": "jita",
    "kind": "modify_buy",
    "mine": 25510000.0,
-   "n": 13,
+   "n": 12,
    "oid": 17,
    "ref": 25590000.0,
    "secs": 25,
    "target": 25600000.0,
    "type_id": 27188,
    "value": 382650000.0
+  },
+  {
+   "benefit": 5082944.476515903,
+   "block": 3,
+   "cap": 23.36,
+   "group": 6,
+   "hub": "jita",
+   "kind": "new_buy",
+   "n": 13,
+   "qty": 10,
+   "ref": 20.02,
+   "secs": 60,
+   "tag": "station",
+   "target": 20.03,
+   "type_id": 75278,
+   "value": 2541472.2382579516
   }
  ]
 }

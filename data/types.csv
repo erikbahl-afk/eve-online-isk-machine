@@ -53,7 +53,7 @@ type_id,name,volume,group_id
 2287,,0.005,
 2297,Explosive Shield Hardener II,,
 2301,EM Shield Hardener II,,
-2303,Thermal Shield Hardener II,,
+2303,Thermal Shield Hardener II,5,77
 2309,Ionic Solutions,,
 2327,,0.75,
 2328,Water-Cooled CPU,0.75,1034
@@ -198,6 +198,7 @@ type_id,name,volume,group_id
 11196,Claw,2500,831
 11198,Stiletto,,
 11200,,2500,
+11202,,2500,831
 11325,,20,329
 11343,100mm Crystalline Carbonide Restrained Plates,,
 11365,Vengeance,2500,
@@ -315,7 +316,7 @@ type_id,name,volume,group_id
 13785,Domination 800mm Repeating Cannon,20,
 13791,Dark Blood Dual Heavy Pulse Laser,20,
 13809,Dark Blood Small Focused Beam Laser,5,53
-13815,Dark Blood Mega Pulse Laser,20,
+13815,Dark Blood Mega Pulse Laser,20,53
 13824,,10,
 13832,True Sansha Mega Pulse Laser,20,
 13868,Shadow Serpentis 200mm Railgun,,
@@ -388,7 +389,7 @@ type_id,name,volume,group_id
 14236,Shadow Serpentis Sensor Booster,5,
 14238,Shadow Serpentis Tracking Computer,5,213
 14244,Domination Warp Disruptor,,
-14246,Dread Guristas Warp Disruptor,5,
+14246,Dread Guristas Warp Disruptor,5,52
 14248,,5,
 14252,Dark Blood Warp Scrambler,,
 14254,Domination Warp Scrambler,5,52
@@ -590,6 +591,7 @@ type_id,name,volume,group_id
 19027,,10,
 19029,Corelum C-Type Medium Armor Repairer,10,
 19031,Corelum B-Type Medium Armor Repairer,,
+19036,Core B-Type Large Armor Repairer,50,62
 19037,Core A-Type Large Armor Repairer,50,
 19038,Core X-Type Large Armor Repairer,50,
 19039,Corpus C-Type Large Armor Repairer,50,
@@ -727,6 +729,7 @@ type_id,name,volume,group_id
 21894,Republic Fleet EMP L,0.025,
 21896,,0.0125,
 21898,Republic Fleet EMP S,0.0025,
+21902,,0.025,83
 21918,Republic Fleet Phased Plasma L,0.025,
 21922,Republic Fleet Phased Plasma M,0.0125,83
 22109,Mid-grade Crystal Delta,1,
@@ -918,7 +921,7 @@ type_id,name,volume,group_id
 27922,Lockbreaker Bomb,,
 27924,,75,
 28201,Light Armor Maintenance Bot II,5,
-28213,,25,
+28213,Curator II,25,100
 28264,'Augmented' Acolyte,5,100
 28272,'Augmented' Hammerhead,10,100
 28276,,5,
@@ -932,6 +935,7 @@ type_id,name,volume,group_id
 28332,,0.025,83
 28334,,0.0125,
 28362,Drone Capillary Fluid,0.02,886
+28363,,0.03,886
 28375,,10,
 28377,Caldari Navy Heavy Assault Missile Launcher,10,
 28379,Domination Heavy Assault Missile Launcher,,
@@ -992,7 +996,7 @@ type_id,name,volume,group_id
 30306,Methanofullerene,0.75,974
 30310,Carbon-86 Epoxy Resin,,
 30370,Fullerite-C50,1,
-30371,,1,711
+30371,Fullerite-C60,1,711
 30374,,2,711
 30375,Fullerite-C28,2,711
 30376,Fullerite-C32,5,711
@@ -1108,7 +1112,7 @@ type_id,name,volume,group_id
 33101,Medium Ancillary Armor Repairer,10,1199
 33139,Clone Soldier Recruiter Tag,0.1,1206
 33140,Clone Soldier Transporter Tag,,
-33141,Clone Soldier Negotiator Tag,0.1,
+33141,Clone Soldier Negotiator Tag,0.1,1206
 33151,,15000,
 33153,Drake Navy Issue,15000,419
 33155,Harbinger Navy Issue,15000,419
@@ -1194,7 +1198,7 @@ type_id,name,volume,group_id
 35878,Standup Manufacturing Plant I,4000,
 35886,Standup Invention Lab I,,
 35894,Standup Cloning Center I,4000,
-35923,Standup Guided Bomb Launcher I,,
+35923,Standup Guided Bomb Launcher I,8000,1328
 35940,Standup Variable Spectrum ECM I,4000,1332
 35947,Standup Target Painter I,4000,
 35949,,4000,
@@ -1428,12 +1432,13 @@ type_id,name,volume,group_id
 52562,,0.01,
 52568,,0.01,
 52694,Industrial Cynosural Field Generator,25,
+52916,,0.01,1987
 52919,High-grade Mimesis Delta,1,
 52997,Precursor Dreadnought,,
 53290,Capital Trinary State Processor,,
 53291,Dreadnought Systems Diagram,0.1,526
 53301,Tetryon Exotic Plasma XL,,
-53302,Meson Exotic Plasma XL,,
+53302,Meson Exotic Plasma XL,0.01,1987
 53374,,0.01,
 53704,Mid-grade Nirvana Alpha,1,
 53706,Mid-grade Nirvana Delta,1,
@@ -1563,7 +1568,7 @@ type_id,name,volume,group_id
 62467,Compressed Glistening Zeolites,0.1,1884
 62516,Compressed Veldspar,0.001,462
 62517,Compressed Veldspar II-Grade,,
-62518,Compressed Veldspar III-Grade,,
+62518,Compressed Veldspar III-Grade,0.001,462
 62520,Compressed Scordite,0.0015,460
 62521,Compressed Scordite II-Grade,0.0015,460
 62522,Compressed Scordite III-Grade,0.0015,460
@@ -1605,6 +1610,7 @@ type_id,name,volume,group_id
 74160,,0.01,
 75275,,0.001,4513
 75276,Compressed Mordunium II-Grade,,
+75278,Compressed Mordunium IV-Grade,0.001,4513
 75287,Compressed Ducinium,,
 76954,Ishkur Zydrine Burn SKIN,,
 77114,Metamorphosis,2500,25
