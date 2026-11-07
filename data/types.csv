@@ -18,6 +18,7 @@ type_id,name,volume,group_id
 627,,10000,
 630,Bellicose,,
 632,,10000,26
+633,,10000,26
 638,Raven,50000,27
 640,,50000,27
 641,,50000,
@@ -55,6 +56,7 @@ type_id,name,volume,group_id
 2301,EM Shield Hardener II,,
 2303,Thermal Shield Hardener II,5,77
 2309,Ionic Solutions,,
+2311,,0.005,1033
 2327,,0.75,
 2328,Water-Cooled CPU,0.75,1034
 2344,,3,1040
@@ -144,6 +146,7 @@ type_id,name,volume,group_id
 4051,,5,
 4144,Women's 'Structure' Dress (black/white),0.1,
 4147,Dual Heavy Pulse Laser II,20,
+4246,Hydrogen Fuel Block,5,1136
 4248,,50,899
 4250,Small Tractor Beam II,,
 4260,Expanded Probe Launcher II,5,
@@ -235,6 +238,7 @@ type_id,name,volume,group_id
 11552,,1,
 11554,Tesseract Capacitor Unit,1,
 11556,,1,
+11557,,1,334
 11577,Improved Cloaking Device II,100,330
 11578,Covert Ops Cloaking Device II,100,330
 11648,,5,328
@@ -321,6 +325,7 @@ type_id,name,volume,group_id
 13261,Inherent Implants 'Squire' Power Grid Management EG-603,1,
 13263,Zainou 'Gnome' Shield Operation SP-903,1,
 13265,Inherent Implants 'Squire' Capacitor Emission Systems ES-703,1,741
+13782,Domination 425mm Autocannon,10,55
 13783,,10,
 13784,Domination 720mm Howitzer Artillery,,
 13785,Domination 800mm Repeating Cannon,20,
@@ -518,6 +523,7 @@ type_id,name,volume,group_id
 17491,Republic Fleet Light Missile Launcher,5,509
 17494,,5,
 17495,Caldari Navy Kinetic Shield Hardener,,
+17497,,5,77
 17498,Caldari Navy Multispectrum Shield Hardener,5,77
 17500,Caldari Navy Stasis Webifier,5,65
 17520,Federation Navy Sensor Booster,5,
@@ -1112,6 +1118,7 @@ type_id,name,volume,group_id
 31930,Caldari Navy Large Shield Extender,20,38
 31932,Republic Fleet Large Shield Extender,20,38
 31942,Federation Navy Omnidirectional Tracking Link,5,
+31944,Republic Fleet Target Painter,5,379
 31946,Imperial Navy Large Remote Capacitor Transmitter,25,
 31952,Caldari Navy Power Diagnostic System,5,766
 31959,,1,
@@ -1226,6 +1233,7 @@ type_id,name,volume,group_id
 35894,Standup Cloning Center I,4000,
 35923,Standup Guided Bomb Launcher I,8000,1328
 35940,Standup Variable Spectrum ECM I,4000,1332
+35941,,4000,1719
 35947,Standup Target Painter I,4000,
 35949,,4000,
 36909,Antipharmakon Kosybo,1,303
