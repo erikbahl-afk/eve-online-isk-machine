@@ -80,7 +80,7 @@ type_id,name,volume,group_id
 2867,Broadcast Node,50,1041
 2868,Integrity Response Drones,,
 2870,Organic Mortar Applicators,,
-2875,Sterile Conduits,,
+2875,Sterile Conduits,50,1041
 2929,800mm Repeating Cannon II,20,
 2953,,20,
 2961,1400mm Howitzer Artillery II,,
@@ -152,6 +152,7 @@ type_id,name,volume,group_id
 4347,Pithum A-Type Multispectrum Shield Hardener,5,77
 4348,Pithum B-Type Multispectrum Shield Hardener,5,
 4349,Pithum C-Type Multispectrum Shield Hardener,5,77
+4403,,25,1150
 5051,Heavy F-RX Compact Capacitor Booster,,
 5973,5MN Y-T8 Compact Microwarpdrive,,
 6719,,5,
@@ -284,6 +285,7 @@ type_id,name,volume,group_id
 12747,Mastodon,20000,380
 12753,Impel,20000,380
 12761,,0.025,376
+12765,,0.025,376
 12779,,0.025,
 12791,,0.025,
 12807,,0.025,373
@@ -353,7 +355,7 @@ type_id,name,volume,group_id
 14041,,5,
 14045,Domination Shield Boost Amplifier,5,338
 14047,,5,
-14049,,5,
+14049,Shadow Serpentis Multispectrum Coating,5,98
 14065,Shadow Serpentis Thermal Armor Hardener,5,328
 14067,Shadow Serpentis Large Armor Repairer,50,
 14068,,10,
@@ -720,6 +722,7 @@ type_id,name,volume,group_id
 21510,'Interruptive' Warp Disruptor,5,52
 21540,'Inception' Target Painter,5,
 21569,Sleeper Profound Research Notes,1,
+21640,,10,100
 21667,Capital Projectile Turret,,
 21721,,0.1,
 21740,Caldari Navy Antimatter Charge L,0.025,
@@ -1025,7 +1028,7 @@ type_id,name,volume,group_id
 31083,,5,1232
 31111,,5,
 31113,Medium Auxiliary Thrusters II,10,782
-31119,,10,782
+31119,Medium Cargohold Optimization I,10,782
 31123,Small Cargohold Optimization II,5,782
 31167,Medium Hyperspatial Velocity Optimizer II,10,782
 31171,Small Low Friction Nozzle Joints II,5,782
@@ -1190,6 +1193,7 @@ type_id,name,volume,group_id
 34593,Entosis Link I,20,
 34631,Rokh Wiyrkomi SKIN,,
 34828,Jackdaw,5000,1305
+35661,,10,46
 35662,,10,46
 35683,Hecate,5000,1305
 35790,Missile Guidance Computer II,5,
@@ -1312,7 +1316,7 @@ type_id,name,volume,group_id
 43898,,20,
 44102,,5,512
 44993,Pacifier,2500,
-45586,Legion Defensive - Covert Reconfiguration,,
+45586,Legion Defensive - Covert Reconfiguration,40,954
 45587,Legion Defensive - Augmented Plating,40,
 45588,Legion Defensive - Nanobot Injector,40,
 45589,Tengu Defensive - Covert Reconfiguration,40,
@@ -1688,7 +1692,7 @@ type_id,name,volume,group_id
 90528,Unstable Gas Cloud Scoop Mutaplasmid,1,1964
 90647,Oxidative Stress - Unlimited,,
 90734,,0.01,
-91174,Perseverance,5000,
+91174,Perseverance,5000,420
 91775,,5000,
 91849,Algos Navy Issue,5000,
 91857,Corax Navy Issue,5000,420
