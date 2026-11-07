@@ -457,6 +457,7 @@ type_id,name,volume,group_id
 16050,Republic Fleet 200mm Autocannon,,
 16057,Republic Fleet 800mm Repeating Cannon,,
 16062,Caldari Navy Cruise Missile Launcher,20,
+16064,Caldari Navy Heavy Missile Launcher,10,510
 16067,Caldari Navy Torpedo Launcher,20,
 16068,Caldari Navy Light Missile Launcher,,
 16229,,15000,419
@@ -707,6 +708,7 @@ type_id,name,volume,group_id
 20599,'Undertaker' Heavy Missile Launcher,10,
 20623,,50,
 20629,,10,
+20779,,0.0125,83
 20783,,0.0125,83
 20855,True Sanshas Standard S,,
 21009,Capital Propulsion Engine,2000,
@@ -891,6 +893,7 @@ type_id,name,volume,group_id
 27174,Zainou 'Beancounter' Reprocessing RX-804,1,
 27176,Zainou 'Beancounter' Metallurgy MY-703,,
 27181,Zainou 'Beancounter' Metallurgy MY-705,1,748
+27184,Zainou 'Beancounter' Science SC-805,1,748
 27186,Poteque 'Prospector' Astrometric Pinpointing AP-606,1,
 27187,,1,
 27188,Poteque 'Prospector' Astrometric Rangefinding AR-806,1,
@@ -1038,6 +1041,7 @@ type_id,name,volume,group_id
 31173,Medium Low Friction Nozzle Joints II,10,782
 31220,,5,
 31244,Small Memetic Algorithm Bank II,5,
+31298,Small Particle Dispersion Projector I,,
 31330,Medium Targeting System Subcontroller II,10,
 31342,Medium Targeting Systems Stabilizer II,10,
 31364,Small Ancillary Current Router II,5,
@@ -1240,7 +1244,7 @@ type_id,name,volume,group_id
 37848,,0.5,
 40347,,3000,
 40351,25000mm Steel Plates II,1000,329
-40356,,1000,38
+40356,Capital F-S9 Regolith Compact Shield Extender,1000,38
 40519,Skill Extractor,0.01,1301
 40520,Large Skill Injector,0.01,1739
 40556,Templar II,1000,
@@ -1479,6 +1483,7 @@ type_id,name,volume,group_id
 54743,Small Consortium Vorton Projector,5,
 54748,Medium Vorton Projector II,25,
 54749,Medium Consortium Vorton Projector,25,
+54753,Large Vorton Projector II,50,4060
 54754,Large Consortium Vorton Projector,50,
 54773,GalvaSurge Condenser Pack M,0.0125,4062
 54782,,0.025,
