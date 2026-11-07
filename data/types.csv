@@ -68,6 +68,7 @@ type_id,name,volume,group_id
 2392,,0.19,1042
 2393,Bacteria,,
 2399,Precious Metals,,
+2400,,0.19,1042
 2401,Chiral Structures,,
 2420,Torpedo Launcher II,20,508
 2444,,25,
@@ -111,7 +112,7 @@ type_id,name,volume,group_id
 3178,Light Neutron Blaster II,5,74
 3180,Zainou 'Snapshot' Torpedoes TD-606,1,
 3185,Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-802,,
-3186,Neutron Blaster Cannon II,20,
+3186,Neutron Blaster Cannon II,20,74
 3203,,1,
 3214,,1,
 3239,Inherent Implants 'Squire' Capacitor Management EM-806,1,741
@@ -188,6 +189,7 @@ type_id,name,volume,group_id
 10165,Improved Sooth Sayer Booster,1,
 10208,Memory Augmentation - Standard,,
 10209,,1,
+10213,Neural Boost - Improved,1,745
 10217,Ocular Filter - Improved,1,
 10221,Cybernetic Subprocessor - Standard,,
 10222,Cybernetic Subprocessor - Improved,1,
@@ -540,7 +542,7 @@ type_id,name,volume,group_id
 17636,Raven Navy Issue,,
 17709,,10000,
 17713,,10000,
-17715,Gila,10000,
+17715,Gila,10000,26
 17718,Phantasm,10000,
 17720,Cynabal,10000,26
 17726,,50000,
@@ -926,6 +928,7 @@ type_id,name,volume,group_id
 27321,,0.005,
 27327,,0.005,
 27339,Caldari Navy Mjolnir Torpedo,0.05,
+27341,Dread Guristas Mjolnir Torpedo,0.05,89
 27345,Caldari Navy Scourge Torpedo,,
 27351,,0.05,
 27355,Dread Guristas Inferno Torpedo,,
@@ -978,11 +981,12 @@ type_id,name,volume,group_id
 28656,Black Ops,,
 28659,Paladin,50000,900
 28661,Kronos,50000,
-28665,Vargur,50000,
+28665,Vargur,50000,900
 28668,Nanite Repair Paste,,
 28672,Synth Crash Booster,,
 28674,Synth Drop Booster,1,303
 28676,Synth Exile Booster,1,
+28678,,1,303
 28680,,1,
 28684,Synth Sooth Sayer Booster,1,
 28696,Celadon Mykoserocin,,
@@ -1399,6 +1403,7 @@ type_id,name,volume,group_id
 47334,,4000,
 47340,Standup Missile Guidance Enhancer II,,
 47342,Standup Ballistic Control System II,4000,
+47351,,4000,1441
 47356,Standup Capacitor Power Relay I,4000,
 47448,C3-X 'Hivaa Saitsuo' Ballistic Control System,5,367
 47466,Praxis,50000,
@@ -1549,7 +1554,7 @@ type_id,name,volume,group_id
 57450,Electro-Neural Signaller,0.25,526
 57452,Isotropic Deposition Guide,5,526
 57454,Oxy-Organic Solvents,,
-57456,,0.1,
+57456,Pressurized Oxidizers,0.1,429
 57457,Reinforced Carbon Fiber,0.1,429
 57459,Hypnagogic Neurolink Enhancer,4,
 57466,,10,
@@ -1784,7 +1789,7 @@ type_id,name,volume,group_id
 96544,Extended 'Radiance' Cerebral Accelerator,1,303
 96556,,1,
 96561,Harvest Damage Booster IV,1,303
-96566,Tetrimon Anti-Drain Booster IV,1,
+96566,Tetrimon Anti-Drain Booster IV,1,303
 96568,,1,
 96569,Tetrimon Capacitor Booster III,1,
 96570,,1,303
