@@ -71,7 +71,7 @@ type_id,name,volume,group_id
 2392,,0.19,1042
 2393,Bacteria,,
 2399,Precious Metals,,
-2400,,0.19,1042
+2400,Toxic Metals,0.19,1042
 2401,Chiral Structures,,
 2420,Torpedo Launcher II,20,508
 2444,,25,
@@ -145,7 +145,7 @@ type_id,name,volume,group_id
 3966,Men's 'Precision' Boots,0.1,
 3989,Large Plasma Smartbomb II,,
 3993,Large EMP Smartbomb I,50,72
-3995,Large EMP Smartbomb II,50,
+3995,Large EMP Smartbomb II,50,72
 4033,Women's 'Impress' Skirt (black leather),,
 4051,,5,
 4144,Women's 'Structure' Dress (black/white),0.1,
@@ -620,7 +620,7 @@ type_id,name,volume,group_id
 19025,,10,
 19027,,10,
 19029,Corelum C-Type Medium Armor Repairer,10,
-19031,Corelum B-Type Medium Armor Repairer,,
+19031,Corelum B-Type Medium Armor Repairer,10,62
 19036,Core B-Type Large Armor Repairer,50,62
 19037,Core A-Type Large Armor Repairer,50,
 19038,Core X-Type Large Armor Repairer,50,62
@@ -862,7 +862,7 @@ type_id,name,volume,group_id
 25608,Intact Shield Emitter,0.01,754
 25609,Nanite Compound,,
 25619,Logic Circuit,0.01,
-25624,Intact Armor Plates,,
+25624,Intact Armor Plates,0.01,754
 25715,,10,
 25718,,0.01,
 25736,Large EM Armor Reinforcer I,,
@@ -1026,6 +1026,7 @@ type_id,name,volume,group_id
 28812,Mid-grade Virtue Gamma,1,300
 28813,Mid-grade Virtue Omega,1,300
 28844,Rhea,,
+29015,Targeting Range Dampening Script,,
 29336,,10000,26
 29337,Augoror Navy Issue,,
 29340,,10000,
@@ -1671,7 +1672,7 @@ type_id,name,volume,group_id
 73796,,5000,
 74160,,0.01,
 75275,,0.001,4513
-75276,Compressed Mordunium II-Grade,,
+75276,Compressed Mordunium II-Grade,0.001,4513
 75278,Compressed Mordunium IV-Grade,0.001,4513
 75279,,0.006,4514
 75287,Compressed Ducinium,,
@@ -1779,6 +1780,7 @@ type_id,name,volume,group_id
 92469,Torafugu TD-900-I,,
 92541,Capital Disintegrator Specialization,0.01,255
 92572,Crystalline Kangite,,
+92818,Compressed Raspite X-Grade,0.01,5083
 92819,Compressed Polycrase X-Grade,0.01,5084
 93466,Imperial Benediction - Unlimited,,
 93745,Tempest Fleet Issue Capsuleer Day XXIII SKIN,0.01,
