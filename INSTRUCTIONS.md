@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Sat 07 Nov 08:27 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
+**Updated:** Sat 07 Nov 08:59 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
 **Steps:** 21 · **Est. time:** 14 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -41,8 +41,8 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 5 | ☐ 50MN Microwarpdrive II | 6 | **4,184,000** | 3,674,000 | 4,185,000 |
-| 6 | ☐ Antikythera Element | 8 | **1,308,000** | 884,200 | 1,309,000 |
+| 5 | ☐ 50MN Microwarpdrive II | 6 | **4,227,000** | 3,674,000 | 4,228,000 |
+| 6 | ☐ Antikythera Element | 8 | **1,306,000** | 884,200 | 1,307,000 |
 
 ### Block 3 · if there's time · about 1 min
 _Short on time? Skip to the jump (step 9): the next hub's Block 1 is worth more per minute than the rest of this hub._
@@ -52,7 +52,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 7 | ☐ 50MN Microwarpdrive II | 3,532,000 | **3,585,000** | 3,699,000 | 3,584,000 |
+| 7 | ☐ 50MN Microwarpdrive II | 3,532,000 | **3,585,000** | 3,737,000 | 3,584,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
@@ -75,7 +75,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 |---|---|---|---|---|---|
 | 10 | ☐ Black Market 'Valdimar' Drone Navigation DN-701 | 249,800,000 | **249,800,000** | 131,200,000 | 249,900,000 |
 | 11 | ☐ Capital I-a Enduring Armor Repairer | 199,800,000 | **199,700,000** | 91,990,000 | 199,800,000 |
-| 12 | ☐ Dread Guristas Rocket Launcher | 99,480,000 | **99,410,000** | 48,990,000 | 99,420,000 |
+| 12 | ☐ Dread Guristas Rocket Launcher | 99,480,000 | **99,390,000** | 48,990,000 | 99,400,000 |
 | 13 | ☐ Standup M-Set Basic Small Ship Manufacturing Material Efficiency I | 699,600,000 | **699,600,000** | 347,300,000 | 699,700,000 |
 | 14 | ☐ Typhoon Fleet Issue Capsuleer Elite XX SKIN | 815,900,000 | **815,900,000** | 435,300,000 | 816,000,000 |
 

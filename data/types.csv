@@ -23,7 +23,7 @@ type_id,name,volume,group_id
 640,,50000,27
 641,,50000,
 642,Apocalypse,,
-644,Typhoon,,
+644,Typhoon,50000,27
 645,Dominix,,
 686,,0.01,
 687,Caracal Blueprint,0.01,
@@ -1180,6 +1180,7 @@ type_id,name,volume,group_id
 33697,Prospect,2500,1283
 33700,'Packrat' Mobile Tractor Unit,125,1250
 33702,'Magpie' Mobile Tractor Unit,100,1250
+33754,Women's 'Strut' Pants (black),,
 33790,Men's 'Rider' Pants (black silver),,
 33816,Garmur,2500,25
 33818,Orthrus,10000,26
@@ -1493,7 +1494,7 @@ type_id,name,volume,group_id
 53711,High-grade Nirvana Beta,1,
 53712,High-grade Nirvana Delta,1,300
 53713,High-grade Nirvana Epsilon,1,
-53714,High-grade Nirvana Omega,,
+53714,High-grade Nirvana Omega,1,300
 53715,High-grade Nirvana Gamma,1,
 53854,Low-grade Nirvana Beta,1,300
 53856,Low-grade Nirvana Delta,,
@@ -1607,6 +1608,7 @@ type_id,name,volume,group_id
 62454,Compressed Bitumens,0.1,1884
 62455,Compressed Brimful Bitumens,0.1,1884
 62456,Compressed Glistening Bitumens,,
+62457,,0.1,1884
 62459,,0.1,1884
 62460,Compressed Sylvite,0.1,1884
 62461,Compressed Brimful Sylvite,,
