@@ -57,6 +57,7 @@ type_id,name,volume,group_id
 2309,Ionic Solutions,,
 2327,,0.75,
 2328,Water-Cooled CPU,0.75,1034
+2344,,3,1040
 2345,Camera Drones,3,
 2348,Gel-Matrix Biopaste,,
 2352,Nuclear Reactors,3,
@@ -96,6 +97,7 @@ type_id,name,volume,group_id
 3090,425mm Railgun II,20,74
 3095,Eifyr and Co. 'Rogue' Evasive Maneuvering EM-706,1,747
 3106,,10,
+3119,Eifyr and Co. 'Rogue' Warp Drive Speed WS-618,1,747
 3130,Heavy Electron Blaster II,10,
 3134,Zainou 'Deadeye' Missile Projection MP-704,,
 3135,Zainou 'Deadeye' Missile Projection MP-706,1,
@@ -124,6 +126,7 @@ type_id,name,volume,group_id
 3645,Water,0.19,1042
 3683,Oxygen,,
 3685,,1,280
+3693,,0.75,1034
 3695,Polytextiles,,
 3756,,15000,
 3775,Viral Agent,,
@@ -190,7 +193,7 @@ type_id,name,volume,group_id
 10244,,1,
 10842,,50,40
 10858,Large Shield Booster II,,
-11172,Helios,2500,
+11172,Helios,2500,830
 11176,Crow,2500,
 11182,Cheetah,2500,
 11184,,2500,
@@ -506,7 +509,7 @@ type_id,name,volume,group_id
 17182,Warp Scrambling Battery,,
 17187,,4000,
 17217,Serpentis Brass Tag,0.1,370
-17317,Fermionic Condensates,1.3,
+17317,Fermionic Condensates,1.3,429
 17368,,100000,
 17478,Retriever,3750,
 17482,Strip Miner I,5,
@@ -618,6 +621,7 @@ type_id,name,volume,group_id
 19175,,5,
 19177,Pithi B-Type Small Shield Booster,5,
 19179,Pithi A-Type Small Shield Booster,5,40
+19181,Gistum C-Type Medium Shield Booster,10,40
 19183,Gistum B-Type Medium Shield Booster,10,
 19185,Gistum A-Type Medium Shield Booster,10,40
 19187,Pithum C-Type Medium Shield Booster,10,40
@@ -744,7 +748,7 @@ type_id,name,volume,group_id
 21918,Republic Fleet Phased Plasma L,0.025,
 21922,Republic Fleet Phased Plasma M,0.0125,83
 22109,Mid-grade Crystal Delta,1,
-22110,Mid-grade Crystal Epsilon,1,
+22110,Mid-grade Crystal Epsilon,1,300
 22111,Mid-grade Crystal Gamma,1,
 22112,Mid-grade Crystal Omega,1,
 22119,,1,
@@ -934,6 +938,7 @@ type_id,name,volume,group_id
 27922,Lockbreaker Bomb,,
 27924,,75,
 28201,Light Armor Maintenance Bot II,5,
+28209,,25,100
 28213,Curator II,25,100
 28264,'Augmented' Acolyte,5,100
 28272,'Augmented' Hammerhead,10,100
@@ -1035,6 +1040,7 @@ type_id,name,volume,group_id
 31077,,5,
 31079,,10,
 31083,,5,1232
+31107,Medium Auxiliary Thrusters I,,
 31111,,5,
 31113,Medium Auxiliary Thrusters II,10,782
 31119,Medium Cargohold Optimization I,10,782
@@ -1133,7 +1139,7 @@ type_id,name,volume,group_id
 33157,,15000,
 33201,,5,
 33359,Photonic Metamaterials,1,429
-33360,Terahertz Metamaterials,1,
+33360,Terahertz Metamaterials,1,429
 33361,Plasmonic Metamaterials,1,
 33362,Nonlinear Metamaterials,1,
 33393,Genolution Core Augmentation CA-3,1,
@@ -1335,6 +1341,7 @@ type_id,name,volume,group_id
 45592,,40,
 45595,Loki Defensive - Covert Reconfiguration,40,954
 45601,Tengu Offensive - Accelerated Ejection Bay,40,
+45605,Proteus Offensive - Drone Synthesis Projector,40,956
 45606,Proteus Offensive - Support Processor,40,
 45607,Loki Offensive - Projectile Scoping Array,40,
 45608,Loki Offensive - Launcher Efficiency Configuration,40,
@@ -1577,9 +1584,10 @@ type_id,name,volume,group_id
 62404,Compressed Fullerite-C32,,
 62405,Compressed Fullerite-C540,,
 62450,Shipboard Compression Technology,,
-62454,Compressed Bitumens,,
+62454,Compressed Bitumens,0.1,1884
 62455,Compressed Brimful Bitumens,0.1,1884
 62456,Compressed Glistening Bitumens,,
+62460,Compressed Sylvite,0.1,1884
 62461,Compressed Brimful Sylvite,,
 62463,Compressed Zeolites,0.1,1884
 62464,Compressed Brimful Zeolites,0.1,1884
