@@ -101,6 +101,7 @@ type_id,name,volume,group_id
 3080,,1,
 3082,,10,
 3090,425mm Railgun II,20,74
+3092,Zainou 'Gnome' Shield Operation SP-906,1,749
 3095,Eifyr and Co. 'Rogue' Evasive Maneuvering EM-706,1,747
 3106,,10,
 3119,Eifyr and Co. 'Rogue' Warp Drive Speed WS-618,1,747
@@ -1245,7 +1246,7 @@ type_id,name,volume,group_id
 35662,,10,46
 35683,Hecate,5000,1305
 35789,,5,1396
-35790,Missile Guidance Computer II,5,
+35790,Missile Guidance Computer II,5,1396
 35795,Missile Precision Script,,
 35826,Azbel,,
 35832,Astrahus,8000,
