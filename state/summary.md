@@ -1,4 +1,4 @@
-# Summary · Sat 07 Nov 04:00 PST
+# Summary · Sat 07 Nov 06:00 PST
 
 Updated every ~2 hours. **Your real character** is the first section; everything after it is the **practice trader** (pretend ISK, real market data). Each section starts with a line on how to read it.
 
@@ -90,73 +90,73 @@ _Market size = ISK spent per day buying from sell orders in that station. Items 
 
 | Hub | Market size/day | Station items | Station profit/day | Import items | Import profit/day |
 |---|---|---|---|---|---|
-| jita | 5.02T | 76 | 269.34M | - | - |
-| amarr | 536.91B | 24 | 240.64M | 65 | 299.50M |
-| dodixie | 156.15B | 5 | 14.89M | 50 | 230.09M |
-| rens | 46.98B | 2 | 6.98M | 12 | 80.32M |
-| hek | 63.87B | 3 | 16.73M | 23 | 100.58M |
+| jita | 5.02T | 78 | 258.92M | - | - |
+| amarr | 540.31B | 24 | 232.70M | 70 | 328.12M |
+| dodixie | 157.31B | 5 | 15.71M | 53 | 224.84M |
+| rens | 47.88B | 2 | 6.87M | 14 | 88.59M |
+| hek | 64.79B | 2 | 5.97M | 24 | 105.88M |
 
 ## 8. Best items to trade inside Jita
 _Buy at the highest buy price + 1 tick, sell at the lowest sell price − 1 tick. Margin is after all fees. On top = how much of the time between your logins our order would stay the best price before a rival undercuts it (sell side / buy side). Limited by = which resource it eats most: order slots, ISK, or your time._
 
 | Item | Buy → sell price | Margin | Sold per day | On top (sell/buy) | Profit/day | Limited by |
 |---|---|---|---|---|---|---|
-| Cultural Semiosis Data | 50.01M → 71.89M | 35.2% | 1.7 | 2% / 14% | 28.51M | ISK |
-| Mid-grade Amulet Epsilon | 211.00M → 308.80M | 37.7% | 0.2 | 4% / 3% | 17.49M | time |
-| Pure Standard Frentix Booster | 44.61k → 83.27k | 76.1% | 260.6 | 86% / 88% | 8.82M | time |
+| Cultural Semiosis Data | 50.01M → 71.89M | 35.2% | 1.7 | 2% / 14% | 28.40M | ISK |
+| Pure Standard Frentix Booster | 44.61k → 83.27k | 76.1% | 257.4 | 87% / 88% | 8.72M | time |
+| Mid-grade Amulet Epsilon | 212.10M → 279.90M | 24.0% | 0.2 | 4% / 3% | 10.95M | time |
 | Imperial Navy Mega Pulse Laser | 86.33M → 127.20M | 38.7% | 0.3 | 10% / 15% | 9.22M | time |
-| Corelum A-Type Medium Remote Armor Repairer | 236.50M → 282.10M | 12.0% | 0.3 | 34% / 70% | 8.89M | ISK |
-| Republic Fleet Light Missile Launcher | 37.30M → 52.92M | 33.5% | 0.4 | 32% / 76% | 5.49M | time |
-| Inherent Implants 'Squire' Power Grid Management EG-604 | 81.71M → 122.70M | 41.3% | 0.2 | 19% / 29% | 5.99M | time |
-| Large Vorton Projector II | 470.50M → 549.20M | 9.5% | 0.4 | 11% / 23% | 16.56M | ISK |
-| Compressed Gneiss IV-Grade | 2.44k → 2.84k | 9.3% | 89185.7 | 5% / 8% | 18.27M | ISK |
-| Mid-grade Crystal Epsilon | 111.10M → 144.10M | 21.9% | 0.3 | 3% / 6% | 6.16M | time |
-| Compressed Fullerite-C60 | 4.64k → 5.53k | 11.9% | 10922.7 | 4% / 8% | 5.54M | time |
-| Compressed Glistening Zeolites | 2.84k → 3.28k | 8.3% | 67954.3 | 8% / 11% | 14.24M | ISK |
+| Corelum A-Type Medium Remote Armor Repairer | 236.50M → 282.10M | 12.0% | 0.3 | 35% / 70% | 8.68M | ISK |
+| Large Vorton Projector II | 470.80M → 549.80M | 9.6% | 0.4 | 11% / 21% | 14.80M | ISK |
+| Compressed Gneiss IV-Grade | 2.44k → 2.84k | 9.4% | 89637.0 | 5% / 8% | 18.51M | ISK |
+| Republic Fleet Light Missile Launcher | 37.31M → 52.92M | 33.4% | 0.4 | 32% / 67% | 4.80M | time |
+| Compressed Glistening Zeolites | 2.84k → 3.30k | 9.0% | 73573.8 | 8% / 11% | 16.88M | ISK |
+| Mid-grade Crystal Epsilon | 111.20M → 144.30M | 21.9% | 0.3 | 3% / 6% | 6.08M | time |
+| Compressed Fullerite-C60 | 4.64k → 5.53k | 11.8% | 10824.6 | 4% / 8% | 5.47M | time |
+| Compressed Arkonor IV-Grade | 3.57k → 4.18k | 9.9% | 14804.2 | 19% / 34% | 4.84M | time |
 
 ## 9. Best items to import Jita → Amarr
 _Buy from Jita sellers, ship by courier, sell just under the cheapest seller there. Margin is after shipping and fees. m³ = cargo volume per unit._
 
 | Item | Jita price → sell price | m³ | Margin | Sold per day | On top | Profit/day | Limited by |
 |---|---|---|---|---|---|---|---|
-| Mid-grade Amulet Epsilon | 308.90M → 431.90M | 1.0 | 28.4% | 0.3 | 11% | 27.71M | ISK |
-| Inherent Implants 'Squire' Capacitor Management EM-806 | 553.30M → 723.20M | 1.0 | 19.7% | 0.2 | 65% | 26.60M | ISK |
-| Mid-grade Virtue Epsilon | 402.40M → 524.50M | 1.0 | 19.4% | 0.4 | 68% | 33.62M | ISK |
+| Mid-grade Amulet Epsilon | 280.00M → 431.90M | 1.0 | 42.1% | 0.3 | 11% | 37.34M | ISK |
+| Mid-grade Virtue Epsilon | 402.40M → 524.50M | 1.0 | 19.4% | 0.4 | 68% | 33.20M | ISK |
+| Mid-grade Amulet Omega | 380.00M → 496.00M | 1.0 | 19.6% | 0.2 | 18% | 14.97M | ISK |
 | Gallente Control Tower Small | 115.00M → 163.20M | 2,000.0 | 30.4% | 0.3 | 58% | 9.77M | time |
-| Cynabal | 183.00M → 239.10M | 10,000.0 | 18.3% | 0.3 | 31% | 8.72M | time |
-| 'Thurifer' Large Cap Battery | 205.20M → 258.10M | 15.0 | 15.0% | 0.3 | 68% | 9.22M | ISK |
-| Antimatter Reactor Unit | 100.00k → 141.90k | 1.0 | 30.4% | 250.7 | 47% | 7.56M | time |
-| Mid-grade Virtue Delta | 238.50M → 297.60M | 1.0 | 14.1% | 0.4 | 46% | 13.17M | ISK |
-| High-grade Asklepian Gamma | 211.00M → 263.40M | 1.0 | 14.1% | 0.2 | 54% | 7.13M | time |
-| Mekubal | 110.90M → 141.60M | 5,000.0 | 16.5% | 0.4 | 39% | 7.40M | time |
-| Mid-grade Virtue Gamma | 140.00M → 184.10M | 1.0 | 20.5% | 0.3 | 33% | 7.39M | time |
-| ORE Deep Core Strip Miner | 226.90M → 280.30M | 5.0 | 12.9% | 0.6 | 65% | 18.05M | ISK |
+| Inherent Implants 'Squire' Capacitor Management EM-806 | 559.90M → 723.20M | 1.0 | 18.3% | 0.2 | 67% | 25.10M | ISK |
+| Mid-grade Nomad Alpha | 90.20M → 171.20M | 1.0 | 75.9% | 0.1 | 47% | 9.50M | time |
+| Cynabal | 183.40M → 239.10M | 10,000.0 | 18.0% | 0.3 | 31% | 8.61M | time |
+| 'Thurifer' Large Cap Battery | 205.20M → 258.10M | 15.0 | 15.0% | 0.3 | 68% | 9.11M | ISK |
+| Antimatter Reactor Unit | 100.00k → 141.90k | 1.0 | 30.4% | 250.5 | 48% | 7.55M | time |
+| Mid-grade Virtue Delta | 238.30M → 297.60M | 1.0 | 14.2% | 0.4 | 47% | 13.25M | ISK |
+| High-grade Asklepian Gamma | 212.00M → 263.40M | 1.0 | 13.6% | 0.2 | 55% | 6.88M | time |
+| Blood Raider NET Resonator | 4.15M → 5.16M | 1.0 | 13.7% | 13.9 | 7% | 7.66M | time |
 
 ## 10. Cornering watchlist (read-only, nothing is traded)
 _Items where buying out the cheapest few sell orders and relisting higher would pay on paper. We only watch them, to learn whether such prices hold or get undercut._
 
 | Hub | Item | Cheapest now | Buy out | Cost | Relist at | Paper profit | Return | Days to sell | Rival updates/day |
 |---|---|---|---|---|---|---|---|---|---|
-| jita | Inherent Implants 'Squire' Capacitor Systems Operation EO-602 | 6.99M | 2 orders / 52 units | 363.84M | 12.03M | 231.22M | 64% | 6.0 | 0.6 |
-| jita | Vorton Projector Operation | 23.28M | 2 orders / 13 units | 302.84M | 37.92M | 166.09M | 55% | 4.5 | 0.7 |
-| jita | Thrasher Fleet Issue Republic Police SKIN | 6.30M | 6 orders / 17 units | 208.27M | 19.72M | 110.63M | 53% | 9.7 | 1.2 |
-| jita | Proven Chrome Metallic - Unlimited | 30.00M | 2 orders / 7 units | 219.98M | 48.56M | 103.37M | 47% | 7.5 | 0.7 |
-| jita | Amarr Drone Specialization | 2.55M | 9 orders / 111 units | 299.53M | 3.81M | 102.76M | 34% | 8.5 | 3.0 |
-| jita | Vorton Arc Guidance | 36.00M | 3 orders / 8 units | 290.89M | 50.99M | 97.14M | 33% | 2.4 | 1.0 |
-| jita | Minmatar Freighter | 98.84M | 2 orders / 3 units | 296.59M | 137.70M | 96.37M | 32% | 1.2 | 2.5 |
+| jita | Inherent Implants 'Squire' Capacitor Systems Operation EO-602 | 6.99M | 2 orders / 52 units | 363.84M | 12.03M | 231.22M | 64% | 6.1 | 0.6 |
+| jita | Vorton Projector Operation | 23.27M | 2 orders / 13 units | 302.54M | 37.92M | 166.39M | 55% | 4.5 | 0.9 |
+| jita | Thrasher Fleet Issue Republic Police SKIN | 6.30M | 6 orders / 17 units | 208.27M | 19.72M | 110.63M | 53% | 9.8 | 1.2 |
+| jita | Proven Chrome Metallic - Unlimited | 30.00M | 2 orders / 7 units | 219.98M | 48.56M | 103.37M | 47% | 7.6 | 0.7 |
+| jita | Vorton Arc Guidance | 36.00M | 3 orders / 8 units | 290.89M | 50.99M | 97.14M | 33% | 2.5 | 1.0 |
 | jita | Imperial Defense Booster II | 9.82M | 8 orders / 38 units | 374.80M | 12.99M | 94.75M | 25% | 3.6 | 2.8 |
-| amarr | Medium Cargohold Optimization I | 252.40k | 4 orders / 918 units | 231.71M | 366.70k | 88.51M | 38% | 8.7 | 2.8 |
-| jita | Zainou 'Snapshot' Light Missiles LM-902 | 7.00M | 3 orders / 38 units | 284.05M | 10.26M | 86.82M | 31% | 5.8 | 0.4 |
+| amarr | Medium Cargohold Optimization I | 200.00k | 5 orders / 916 units | 231.15M | 366.70k | 88.37M | 38% | 8.7 | 2.9 |
+| jita | Zainou 'Snapshot' Light Missiles LM-902 | 7.00M | 3 orders / 38 units | 284.05M | 10.26M | 86.82M | 31% | 5.9 | 0.4 |
+| jita | Historic Capsuleer Day SKIN Crate | 4.50M | 3 orders / 30 units | 135.77M | 7.53M | 79.09M | 58% | 0.5 | 2.8 |
+| jita | Caldari Drone Specialization | 1.03M | 13 orders / 230 units | 253.86M | 1.51M | 76.07M | 30% | 8.9 | 1.3 |
 
 ## 11. Data health
 _Is the market data flowing? Orders = orders seen in the station · Hours today = hours of data collected since 00:00 UTC · Trades seen = trades inferred since the last snapshot. Any note means something went wrong._
 
 | Hub | Orders | Hours today | Trades seen | Note |
 |---|---|---|---|---|
-| jita | 328,834 | 13.6 | 4,937 |  |
-| amarr | 127,868 | 13.6 | 1,391 |  |
-| dodixie | 67,719 | 13.6 | 700 |  |
-| rens | 31,659 | 13.6 | 289 |  |
-| hek | 41,303 | 13.6 | 269 |  |
+| jita | 329,610 | 15.6 | 7,683 |  |
+| amarr | 127,728 | 15.6 | 2,576 |  |
+| dodixie | 67,621 | 15.6 | 1,489 |  |
+| rens | 31,593 | 15.6 | 616 |  |
+| hek | 41,173 | 15.6 | 811 |  |
 
-_This run took 44 s (market data 26 s, stats and character 2 s, experiments 13 s, main portfolio 2 s, cornering scan 0 s, ESI back-off 0 s; 931 ESI calls). A slow run usually means ESI rate limits (back-off) or a first-time lookup of many item types._
+_This run took 43 s (market data 25 s, stats and character 1 s, experiments 14 s, main portfolio 2 s, cornering scan 1 s, ESI back-off 0 s; 932 ESI calls). A slow run usually means ESI rate limits (back-off) or a first-time lookup of many item types._

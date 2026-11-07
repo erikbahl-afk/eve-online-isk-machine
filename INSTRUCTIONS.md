@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Sat 07 Nov 04:00 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
+**Updated:** Sat 07 Nov 06:00 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
 **Steps:** 24 · **Est. time:** 17 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -30,8 +30,8 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 3 | ☐ Compressed Gneiss IV-Grade | 5 | **2,437** | 2,510 | 2,436 |
-| 4 | ☐ Hydrogen Isotopes | 1 | **537.10** | 547.10 | 537.00 |
+| 3 | ☐ Compressed Gneiss IV-Grade | 5 | **2,440** | 2,514 | 2,439 |
+| 4 | ☐ Hydrogen Isotopes | 1 | **540.10** | 547.00 | 540.00 |
 | 5 | ☐ Pure Standard Frentix Booster | 50 | **44,610** | 73,620 | 44,600 |
 
 ### Block 2 · should do · about 4 min
@@ -43,15 +43,15 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
 | 6 | ☐ 50MN Microwarpdrive II | 6 | **4,224,000** | 3,674,000 | 4,225,000 |
-| 7 | ☐ Antikythera Element | 8 | **1,315,000** | 884,200 | 1,316,000 |
+| 7 | ☐ Antikythera Element | 8 | **1,312,000** | 884,200 | 1,313,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 8 | ☐ Compressed Mordunium IV-Grade | 23 | **20.03** | 23.36 | 20.02 |
-| 9 | ☐ Compressed Zeolites | 1 | **1,301** | 1,325 | 1,300 |
+| 8 | ☐ Compressed Mordunium IV-Grade | 22 | **20.02** | 23.36 | 20.01 |
+| 9 | ☐ Compressed Zeolites | 1 | **1,302** | 1,322 | 1,301 |
 
 ### Block 3 · if there's time · about 1 min
 _Short on time? Skip to the jump (step 12): the next hub's Block 1 is worth more per minute than the rest of this hub._
@@ -68,7 +68,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 11 | ☐ type 2311 | 2 | **2.35** | 4.29 | 2.34 |
+| 11 | ☐ type 2311 | 3 | **2.35** | 4.29 | 2.34 |
 
 ## 12. ☐ Jump clone to Amarr VIII (Oris) - Emperor Family Academy
 _Clone Bay → Jump Clone → Amarr VIII (Oris) - Emperor Family Academy. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
@@ -84,7 +84,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 |---|---|---|---|---|---|
 | 13 | ☐ Black Market 'Valdimar' Drone Navigation DN-701 | 249,800,000 | **249,800,000** | 131,200,000 | 249,900,000 |
 | 14 | ☐ Capital I-a Enduring Armor Repairer | 199,800,000 | **199,700,000** | 91,990,000 | 199,800,000 |
-| 15 | ☐ Dread Guristas Rocket Launcher | 99,480,000 | **99,440,000** | 48,990,000 | 99,450,000 |
+| 15 | ☐ Dread Guristas Rocket Launcher | 99,480,000 | **99,410,000** | 48,990,000 | 99,420,000 |
 | 16 | ☐ Standup M-Set Basic Small Ship Manufacturing Material Efficiency I | 699,600,000 | **699,600,000** | 347,300,000 | 699,700,000 |
 | 17 | ☐ Typhoon Fleet Issue Capsuleer Elite XX SKIN | 815,900,000 | **815,900,000** | 435,300,000 | 816,000,000 |
 

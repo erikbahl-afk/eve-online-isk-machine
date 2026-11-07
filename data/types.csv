@@ -158,11 +158,11 @@ type_id,name,volume,group_id
 4315,,0.01,
 4345,Gistum B-Type Multispectrum Shield Hardener,5,77
 4347,Pithum A-Type Multispectrum Shield Hardener,5,77
-4348,Pithum B-Type Multispectrum Shield Hardener,5,
+4348,Pithum B-Type Multispectrum Shield Hardener,5,77
 4349,Pithum C-Type Multispectrum Shield Hardener,5,77
 4403,Reactive Armor Hardener,25,1150
 5051,Heavy F-RX Compact Capacitor Booster,,
-5973,5MN Y-T8 Compact Microwarpdrive,,
+5973,5MN Y-T8 Compact Microwarpdrive,10,46
 6719,,5,
 7447,425mm Prototype Gauss Gun,20,
 7579,Modal Light Neutron Particle Accelerator I,5,
@@ -233,6 +233,7 @@ type_id,name,volume,group_id
 11540,Quantum Microprocessor,1,334
 11541,Photon Microprocessor,1,334
 11543,,1,
+11547,Fusion Reactor Unit,1,334
 11548,Nuclear Reactor Unit,1,
 11549,Antimatter Reactor Unit,1,334
 11552,,1,
@@ -313,7 +314,7 @@ type_id,name,volume,group_id
 13242,Eifyr and Co. 'Rogue' Warp Drive Speed WS-610,1,
 13243,,1,
 13244,Eifyr and Co. 'Gunslinger' Surgical Strike SS-903,1,742
-13245,Zainou 'Deadeye' Trajectory Analysis TA-703,1,
+13245,Zainou 'Deadeye' Trajectory Analysis TA-703,1,742
 13247,,1,
 13248,Zainou 'Deadeye' Missile Projection MP-703,1,
 13254,Zainou 'Gypsy' Electronics Upgrades EU-603,,
@@ -399,6 +400,7 @@ type_id,name,volume,group_id
 14204,Dread Guristas Large Graviton Smartbomb,50,72
 14206,Shadow Serpentis Large Plasma Smartbomb,50,72
 14208,Domination Large Proton Smartbomb,50,
+14210,,10,72
 14230,,5,
 14234,Dread Guristas Cloaking Device,100,
 14236,Shadow Serpentis Sensor Booster,5,
@@ -633,7 +635,7 @@ type_id,name,volume,group_id
 19183,Gistum B-Type Medium Shield Booster,10,
 19185,Gistum A-Type Medium Shield Booster,10,40
 19187,Pithum C-Type Medium Shield Booster,10,40
-19189,,10,
+19189,Pithum B-Type Medium Shield Booster,10,40
 19191,Pithum A-Type Medium Shield Booster,10,
 19193,Gist C-Type Large Shield Booster,,
 19194,Gist B-Type Large Shield Booster,25,
@@ -988,6 +990,7 @@ type_id,name,volume,group_id
 28701,Viridian Mykoserocin,,
 28710,Golem,50000,900
 28746,Thukker Medium Shield Extender,,
+28750,ORE Miner,5,54
 28752,ORE Ice Harvester,5,
 28754,ORE Strip Miner,5,
 28756,Sisters Expanded Probe Launcher,5,
@@ -997,7 +1000,7 @@ type_id,name,volume,group_id
 28790,Mid-grade Centurion Alpha,,
 28791,Mid-grade Centurion Beta,,
 28792,Mid-grade Centurion Delta,,
-28796,,1,
+28796,Mid-grade Nomad Alpha,1,300
 28797,Mid-grade Nomad Beta,1,
 28798,Mid-grade Nomad Delta,1,
 28800,Mid-grade Nomad Gamma,,
@@ -1397,7 +1400,7 @@ type_id,name,volume,group_id
 47340,Standup Missile Guidance Enhancer II,,
 47342,Standup Ballistic Control System II,4000,
 47356,Standup Capacitor Power Relay I,4000,
-47448,C3-X 'Hivaa Saitsuo' Ballistic Control System,,
+47448,C3-X 'Hivaa Saitsuo' Ballistic Control System,5,367
 47466,Praxis,50000,
 47700,Unstable Stasis Webifier Mutaplasmid,1,1964
 47752,Gravid 10MN Afterburner Mutaplasmid,1,
@@ -1555,7 +1558,7 @@ type_id,name,volume,group_id
 57474,,100,
 57476,,100,
 57478,Auto-Integrity Preservation Seal,16,334
-57479,,180,
+57479,Core Temperature Regulator,180,334
 57486,,45,
 57487,Capital Core Temperature Regulator,28000,873
 57488,Neurolink Protection Cell,5500,873
@@ -1738,7 +1741,7 @@ type_id,name,volume,group_id
 91960,,1,
 91962,,1,
 91963,,1,
-91972,State Hardpoint Booster II,1,
+91972,State Hardpoint Booster II,1,303
 91973,State Hardpoint Booster III,,
 91975,Federation Hardpoint Booster III,,
 92033,Orbweaver SW-300-I,5,
@@ -1774,7 +1777,7 @@ type_id,name,volume,group_id
 95741,Akoman,15000,
 96317,,0.01,1950
 96318,,0.01,1950
-96320,,0.01,1950
+96320,Coercer Sanguinary Savant SKIN,0.01,1950
 96321,Salvation Sanguinary Savant SKIN,,
 96326,Captured Bioadaptive Cache,1,
 96543,Potent 'Radiance' Cerebral Accelerator,1,303
