@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Sat 07 Nov 00:00 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
+**Updated:** Sat 07 Nov 00:47 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
 **Steps:** 20 · **Est. time:** 13 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -30,7 +30,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 3 | ☐ Hydrogen Isotopes | 27 | **536.00** | 556.30 | 535.90 |
+| 3 | ☐ Hydrogen Isotopes | 27 | **536.40** | 556.40 | 536.30 |
 
 ### Block 2 · should do · about 2 min
 _Short on time? Skip to the jump (step 8): the next hub's Block 1 is worth more per minute than the rest of this hub._
@@ -40,7 +40,7 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 4 | ☐ 50MN Microwarpdrive II | 6 | **4,224,000** | 3,674,000 | 4,225,000 |
+| 4 | ☐ 50MN Microwarpdrive II | 6 | **4,225,000** | 3,674,000 | 4,226,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
@@ -57,14 +57,14 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 6 | ☐ Antikythera Element | 8 | **1,316,000** | 884,200 | 1,317,000 |
+| 6 | ☐ Antikythera Element | 8 | **1,311,000** | 884,200 | 1,312,000 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 7 | ☐ 50MN Microwarpdrive II | 3,532,000 | **3,561,000** | 3,734,000 | 3,560,000 |
+| 7 | ☐ 50MN Microwarpdrive II | 3,532,000 | **3,561,000** | 3,735,000 | 3,560,000 |
 
 ## 8. ☐ Jump clone to Amarr VIII (Oris) - Emperor Family Academy
 _Clone Bay → Jump Clone → Amarr VIII (Oris) - Emperor Family Academy. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._

@@ -121,8 +121,9 @@ type_id,name,volume,group_id
 3536,,1000,325
 3542,CONCORD Capital Shield Booster,1000,
 3616,,1000,41
-3645,Water,,
+3645,Water,0.19,1042
 3683,Oxygen,,
+3685,,1,280
 3695,Polytextiles,,
 3756,,15000,
 3775,Viral Agent,,
@@ -152,7 +153,7 @@ type_id,name,volume,group_id
 4347,Pithum A-Type Multispectrum Shield Hardener,5,77
 4348,Pithum B-Type Multispectrum Shield Hardener,5,
 4349,Pithum C-Type Multispectrum Shield Hardener,5,77
-4403,,25,1150
+4403,Reactive Armor Hardener,25,1150
 5051,Heavy F-RX Compact Capacitor Booster,,
 5973,5MN Y-T8 Compact Microwarpdrive,,
 6719,,5,
@@ -253,6 +254,7 @@ type_id,name,volume,group_id
 12023,Deimos,10000,
 12032,Manticore,2500,
 12034,,2500,
+12038,,2500,834
 12042,,2500,
 12044,,2500,
 12054,,50,
@@ -702,6 +704,7 @@ type_id,name,volume,group_id
 20507,High-grade Amulet Gamma,1,
 20508,High-grade Halo Omega,1,
 20509,High-grade Amulet Omega,,
+20528,Minmatar Freighter,,
 20565,Improved 'Guise' Cloaking Device II,100,330
 20567,'Dyad' Co-Processor I,5,
 20595,'Gallows' Light Missile Launcher,5,
@@ -1204,6 +1207,7 @@ type_id,name,volume,group_id
 35661,,10,46
 35662,,10,46
 35683,Hecate,5000,1305
+35789,,5,1396
 35790,Missile Guidance Computer II,5,
 35826,Azbel,,
 35832,Astrahus,8000,

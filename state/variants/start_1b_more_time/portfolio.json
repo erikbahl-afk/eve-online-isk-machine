@@ -15,7 +15,7 @@
   "jita": {
    "2993": {
     "cost": 384300.0,
-    "qty": 8,
+    "qty": 10,
     "since": 1794038395.0,
     "tag": "station"
    },
@@ -40,7 +40,7 @@
   }
  },
  "last_jump": 1794024024.3654218,
- "last_t": 1794038425.6552374,
+ "last_t": 1794041267.8429313,
  "location": "jita",
  "next_oid": 42,
  "orders": [
@@ -110,7 +110,7 @@
    "oid": 9,
    "price": 384300.0,
    "qty": 61,
-   "remain": 46,
+   "remain": 44,
    "side": "buy",
    "tag": "station",
    "type_id": 2993,
@@ -455,7 +455,7 @@
  ],
  "per_strategy": {
   "station": {
-   "buys": 226085288.68,
+   "buys": 226853888.68,
    "fees": 20681700.908000004,
    "realized": -285440.78300000355,
    "sales": 93799700.0
@@ -599,8 +599,8 @@
    "sold_units": 0
   },
   "jita:2993": {
-   "bought_isk": 5749100.0,
-   "bought_units": 15,
+   "bought_isk": 6517700.0,
+   "bought_units": 17,
    "fees": 481500.6,
    "realized": 1213858.275,
    "sold_net": 4370058.875,
@@ -721,7 +721,7 @@
  },
  "pnl": {
   "broker": 19042030.535,
-  "buys": 226085288.68,
+  "buys": 226853888.68,
   "courier": 0.0,
   "realized": -285440.78300000355,
   "relist": 1639670.3729999997,

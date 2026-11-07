@@ -1,6 +1,6 @@
 {
  "est_secs": 1200,
- "generated": 1794038425.6552374,
+ "generated": 1794041267.8429313,
  "hub": "jita",
  "location": "jita",
  "min_isk_per_min": 1000000,
@@ -8,9 +8,9 @@
  "skipped_low_value": 0,
  "steps": [
   {
-   "benefit": 48561016.19499698,
+   "benefit": 65991178.895100616,
    "block": 1,
-   "cap": 60570000.0,
+   "cap": 65400000.0,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
@@ -21,42 +21,42 @@
    "tag": "station",
    "target": 50010000.0,
    "type_id": 56715,
-   "value": 24280508.09749849
+   "value": 32995589.447550308
   },
   {
-   "benefit": 25047156.427889783,
+   "benefit": 25146297.424741093,
    "block": 1,
-   "cap": 556.3,
+   "cap": 556.4,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
    "n": 2,
-   "qty": 62,
-   "ref": 535.9,
+   "qty": 13,
+   "ref": 536.3,
    "secs": 60,
    "tag": "station",
-   "target": 536.0,
+   "target": 536.4,
    "type_id": 17889,
-   "value": 12523578.213944891
+   "value": 12573148.712370547
   },
   {
-   "benefit": 18093069.112787314,
+   "benefit": 18007316.761546932,
    "block": 1,
    "cap": 73620.0,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
    "n": 3,
-   "qty": 170,
+   "qty": 183,
    "ref": 44600.0,
    "secs": 60,
    "tag": "station",
    "target": 44610.0,
    "type_id": 25252,
-   "value": 9046534.556393657
+   "value": 9003658.380773466
   },
   {
-   "benefit": 19133024.084365014,
+   "benefit": 19181407.977656372,
    "block": 2,
    "bundle": "jita->amarr",
    "dest": "amarr",
@@ -71,25 +71,25 @@
    "secs": 40,
    "tag": "import",
    "type_id": 23805,
-   "value": 9566512.042182507
+   "value": 9590703.988828186
   },
   {
-   "benefit": 15184937.951917127,
+   "benefit": 15150335.01607013,
    "block": 2,
    "bundle": "jita->amarr",
    "dest": "amarr",
-   "est_cost": 151100000.0,
+   "est_cost": 150800000.0,
    "group": 7,
    "hub": "jita",
    "kind": "instant_buy",
    "max_price": 117700.0,
    "n": 5,
-   "qty": 1511,
+   "qty": 1508,
    "ref": 100000.0,
    "secs": 40,
    "tag": "import",
    "type_id": 11549,
-   "value": 7592468.975958563
+   "value": 7575167.508035065
   },
   {
    "benefit": 8797994.06649264,
@@ -110,7 +110,7 @@
    "value": 4398997.03324632
   },
   {
-   "benefit": 10327979.024610562,
+   "benefit": 10360133.349850548,
    "block": 2,
    "bundle": "jita->amarr",
    "dest": "amarr",
@@ -125,10 +125,10 @@
    "secs": 40,
    "tag": "import",
    "type_id": 37457,
-   "value": 5163989.512305281
+   "value": 5180066.674925274
   },
   {
-   "benefit": 19537939.15776137,
+   "benefit": 19595096.289890755,
    "block": 2,
    "bundle": "jita->amarr",
    "dest": "amarr",
@@ -143,10 +143,10 @@
    "secs": 40,
    "tag": "import",
    "type_id": 20064,
-   "value": 9768969.578880684
+   "value": 9797548.144945377
   },
   {
-   "benefit": 13640007.703806877,
+   "benefit": 13575338.808670532,
    "block": 2,
    "bundle": "jita->amarr",
    "dest": "amarr",
@@ -161,25 +161,25 @@
    "secs": 40,
    "tag": "import",
    "type_id": 42212,
-   "value": 6820003.851903439
+   "value": 6787669.404335266
   },
   {
-   "benefit": 10907491.053729072,
+   "benefit": 9576143.828956658,
    "block": 2,
    "bundle": "jita->amarr",
    "dest": "amarr",
-   "est_cost": 101280000.0,
+   "est_cost": 101080000.0,
    "group": 7,
    "hub": "jita",
    "kind": "instant_buy",
    "max_price": 24210000.0,
    "n": 10,
    "qty": 5,
-   "ref": 20220000.0,
+   "ref": 20210000.0,
    "secs": 40,
    "tag": "import",
    "type_id": 22570,
-   "value": 5453745.526864536
+   "value": 4788071.914478329
   },
   {
    "benefit": 9646585.454252047,
@@ -200,43 +200,43 @@
    "value": 4823292.727126024
   },
   {
-   "benefit": 12669066.581303848,
+   "benefit": 12671711.064670239,
    "block": 2,
    "bundle": "jita->amarr",
    "dest": "amarr",
-   "est_cost": 253760000.0,
+   "est_cost": 253738000.0,
    "group": 7,
    "hub": "jita",
    "kind": "instant_buy",
    "max_price": 8300000.0,
    "n": 12,
    "qty": 32,
-   "ref": 7930000.0,
+   "ref": 7928000.0,
    "secs": 40,
    "tag": "import",
    "type_id": 56068,
-   "value": 6334533.290651924
+   "value": 6335855.532335119
   },
   {
-   "benefit": 12087880.266823104,
+   "benefit": 12043345.53210415,
    "block": 2,
    "bundle": "jita->amarr",
    "dest": "amarr",
-   "est_cost": 176000000.0,
+   "est_cost": 175960000.0,
    "group": 7,
    "hub": "jita",
    "kind": "instant_buy",
    "max_price": 48840000.0,
    "n": 13,
    "qty": 4,
-   "ref": 44000000.0,
+   "ref": 43990000.0,
    "secs": 40,
    "tag": "import",
    "type_id": 21890,
-   "value": 6043940.133411552
+   "value": 6021672.766052075
   },
   {
-   "benefit": 9925861.779104667,
+   "benefit": 9924622.745212425,
    "block": 2,
    "bundle": "jita->amarr",
    "dest": "amarr",
@@ -251,10 +251,10 @@
    "secs": 40,
    "tag": "import",
    "type_id": 15466,
-   "value": 4962930.889552333
+   "value": 4962311.372606212
   },
   {
-   "benefit": 11516312.891871087,
+   "benefit": 11461712.685849655,
    "block": 2,
    "bundle": "jita->amarr",
    "dest": "amarr",
@@ -269,7 +269,7 @@
    "secs": 40,
    "tag": "import",
    "type_id": 81050,
-   "value": 5758156.445935544
+   "value": 5730856.342924828
   },
   {
    "benefit": 0.0,
@@ -277,8 +277,8 @@
    "bundle": "jita->amarr",
    "contracts": 2,
    "est_fee": 138000000,
-   "est_m3": 32661.7,
-   "est_value": 1956749052.0,
+   "est_m3": 32658.7,
+   "est_value": 1956187052.0,
    "group": 8,
    "hub": "jita",
    "kind": "courier",
@@ -295,28 +295,28 @@
     56068,
     21890,
     27507,
-    22570,
     37457,
     15466,
+    22570,
     16647
    ],
    "value": 0.0
   },
   {
-   "benefit": 5132370.510211494,
+   "benefit": 5129051.784967126,
    "block": 3,
    "cap": 23.36,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
    "n": 17,
-   "qty": 4,
+   "qty": 5,
    "ref": 20.02,
    "secs": 60,
    "tag": "station",
    "target": 20.03,
    "type_id": 75278,
-   "value": 2566185.255105747
+   "value": 2564525.892483563
   }
  ]
 }
