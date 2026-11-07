@@ -6,6 +6,7 @@ type_id,name,volume,group_id
 38,Nocxium,0.01,
 39,Zydrine,0.01,18
 40,Megacyte,0.01,
+202,,0.05,386
 203,,0.05,386
 204,Inferno Cruise Missile,0.05,386
 233,,0.025,
@@ -157,6 +158,7 @@ type_id,name,volume,group_id
 4294,Triage Module II,,
 4302,Oracle,,
 4306,,15000,1201
+4310,,15000,1201
 4313,Oxygen Fuel Block Blueprint,0.01,
 4315,,0.01,
 4345,Gistum B-Type Multispectrum Shield Hardener,5,77
@@ -180,6 +182,7 @@ type_id,name,volume,group_id
 9734,,10,72
 9838,Superconductors,,
 9840,,0.75,
+9842,,0.75,1034
 9899,,1,
 9941,Memory Augmentation - Basic,1,745
 9947,Standard Crash Booster,,
@@ -512,7 +515,7 @@ type_id,name,volume,group_id
 16673,,0.01,
 16678,Sylramic Fibers,0.05,429
 16679,Fullerides,0.15,429
-16680,Phenolic Composites,0.2,
+16680,Phenolic Composites,0.2,429
 16681,Nanotransistors,0.25,429
 16682,Hypersynaptic Fibers,0.6,429
 16683,Ferrogel,1,429
@@ -704,7 +707,7 @@ type_id,name,volume,group_id
 20172,,0.1,
 20183,,1300000,
 20185,Charon,1300000,
-20199,,5,
+20199,Dread Guristas Multispectral ECM,5,201
 20212,,0.01,
 20327,Capital Energy Turret,,
 20342,Advanced Spaceship Command,,
@@ -714,7 +717,7 @@ type_id,name,volume,group_id
 20410,Datacore - Gallentean Starship Engineering,0.1,
 20411,,0.1,
 20415,Datacore - Molecular Engineering,0.1,
-20418,Datacore - Electronic Engineering,,
+20418,Datacore - Electronic Engineering,0.1,333
 20419,Datacore - Graviton Physics,0.1,333
 20424,Datacore - Mechanical Engineering,0.1,333
 20443,Ogdin's Eye Coordination Enhancer,1,
@@ -809,6 +812,8 @@ type_id,name,volume,group_id
 23061,Einherji I,1000,1652
 23071,,1,
 23073,,1,
+23079,Imperial Navy Standard S,,
+23085,,1,86
 23097,Imperial Navy Standard M,1,86
 23105,Imperial Navy Multifrequency L,1,86
 23107,,1,
@@ -1112,7 +1117,7 @@ type_id,name,volume,group_id
 31868,,25,
 31870,Imperial Navy Praetor,25,100
 31872,Caldari Navy Hornet,5,
-31874,Caldari Navy Vespa,10,
+31874,Caldari Navy Vespa,10,100
 31876,,25,
 31878,Caldari Navy Warden,25,
 31880,Federation Navy Hobgoblin,5,
@@ -1126,7 +1131,7 @@ type_id,name,volume,group_id
 31910,Federation Navy 400mm Steel Plates,10,329
 31918,Federation Navy 800mm Steel Plates,20,
 31922,Caldari Navy Small Shield Extender,5,
-31926,Caldari Navy Medium Shield Extender,10,
+31926,Caldari Navy Medium Shield Extender,10,38
 31928,Republic Fleet Medium Shield Extender,10,38
 31930,Caldari Navy Large Shield Extender,20,38
 31932,Republic Fleet Large Shield Extender,20,38
@@ -1198,7 +1203,7 @@ type_id,name,volume,group_id
 33894,Medium Transverse Bulkhead I,10,
 33896,Medium Transverse Bulkhead II,10,
 33898,,20,
-33900,Large Transverse Bulkhead II,20,
+33900,Large Transverse Bulkhead II,20,773
 33904,Capital Transverse Bulkhead II,40,
 33925,Low-grade Crystal Delta,1,
 33926,Low-grade Crystal Epsilon,1,
@@ -1358,7 +1363,7 @@ type_id,name,volume,group_id
 43880,Standup M-Set Invention Accelerator I,,
 43898,,20,
 44102,,5,512
-44993,Pacifier,2500,
+44993,Pacifier,2500,830
 45586,Legion Defensive - Covert Reconfiguration,40,954
 45587,Legion Defensive - Augmented Plating,40,
 45588,Legion Defensive - Nanobot Injector,40,
@@ -1666,6 +1671,7 @@ type_id,name,volume,group_id
 75275,,0.001,4513
 75276,Compressed Mordunium II-Grade,,
 75278,Compressed Mordunium IV-Grade,0.001,4513
+75279,,0.006,4514
 75287,Compressed Ducinium,,
 76954,Ishkur Zydrine Burn SKIN,,
 77114,Metamorphosis,2500,25
