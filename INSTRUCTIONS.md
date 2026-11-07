@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Fri 06 Nov 19:14 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
+**Updated:** Fri 06 Nov 20:00 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
 **Steps:** 21 · **Est. time:** 14 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -30,7 +30,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 3 | ☐ Compressed Zeolites | 11 | **1,299** | 1,365 | 1,298 |
+| 3 | ☐ Compressed Zeolites | 11 | **1,299** | 1,364 | 1,298 |
 | 4 | ☐ Pure Standard Frentix Booster | 50 | **44,610** | 73,620 | 44,600 |
 
 ### Block 2 · should do · about 2 min
@@ -48,14 +48,14 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 6 | ☐ 50MN Microwarpdrive II | 3,532,000 | **3,555,000** | 3,734,000 | 3,554,000 |
+| 6 | ☐ 50MN Microwarpdrive II | 3,532,000 | **3,556,000** | 3,734,000 | 3,555,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 7 | ☐ Compressed Scordite | 9 | **20.50** | 20.72 | 20.49 |
+| 7 | ☐ Compressed Scordite | 9 | **20.51** | 20.72 | 20.50 |
 
 ### Block 3 · if there's time · about 1 min
 _Short on time? Skip to the jump (step 9): the next hub's Block 1 is worth more per minute than the rest of this hub._
@@ -65,7 +65,7 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 8 | ☐ Antikythera Element | 8 | **1,333,000** | 884,200 | 1,334,000 |
+| 8 | ☐ Antikythera Element | 8 | **1,330,000** | 884,200 | 1,331,000 |
 
 ## 9. ☐ Jump clone to Amarr VIII (Oris) - Emperor Family Academy
 _Clone Bay → Jump Clone → Amarr VIII (Oris) - Emperor Family Academy. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
@@ -115,4 +115,4 @@ _My Orders → Buying. Right-click → Cancel Order._
 | 21 | ☐ Unstable Large Shield Extender Mutaplasmid | 52,300,000 |
 
 ---
-Wallet 100.00M · escrow 1.64B · stock 3.14B · in transit 0.00 · net worth 4.89B (liquidation 2.46B)
+Wallet 100.00M · escrow 1.64B · stock 3.14B · in transit 0.00 · net worth 4.89B (liquidation 2.45B)

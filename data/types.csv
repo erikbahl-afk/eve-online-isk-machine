@@ -230,7 +230,7 @@ type_id,name,volume,group_id
 11552,,1,
 11554,Tesseract Capacitor Unit,1,
 11556,,1,
-11577,Improved Cloaking Device II,100,
+11577,Improved Cloaking Device II,100,330
 11578,Covert Ops Cloaking Device II,100,330
 11648,,5,328
 11688,,1,
@@ -307,6 +307,7 @@ type_id,name,volume,group_id
 13247,,1,
 13248,Zainou 'Deadeye' Missile Projection MP-703,1,
 13254,Zainou 'Gypsy' Electronics Upgrades EU-603,,
+13255,Inherent Implants 'Squire' Energy Grid Upgrades EU-703,,
 13256,Inherent Implants 'Noble' Hull Upgrades HG-1003,1,
 13258,Inherent Implants 'Noble' Repair Systems RS-603,,
 13259,Inherent Implants 'Squire' Capacitor Management EM-803,1,741
@@ -449,7 +450,7 @@ type_id,name,volume,group_id
 15905,,5,
 15909,Caldari Navy EM Shield Amplifier,5,
 15931,Caldari Navy Large Graviton Smartbomb,50,72
-15955,Federation Navy Large Plasma Smartbomb,50,
+15955,Federation Navy Large Plasma Smartbomb,50,72
 15963,Imperial Navy Large EMP Smartbomb,50,72
 15965,Republic Fleet Tracking Enhancer,5,
 16004,Eifyr and Co. 'Rogue' Evasive Maneuvering EM-705,,
@@ -471,7 +472,7 @@ type_id,name,volume,group_id
 16535,Copasetic Compact Shield Boost Amplifier,,
 16537,Vigor Compact Micro Auxiliary Power Core,5,339
 16631,Small Artillery Battery,500,426
-16633,Hydrocarbons,,
+16633,Hydrocarbons,0.05,427
 16636,Silicates,,
 16637,Tungsten,0.05,
 16641,Chromium,0.05,
@@ -596,7 +597,7 @@ type_id,name,volume,group_id
 19031,Corelum B-Type Medium Armor Repairer,,
 19036,Core B-Type Large Armor Repairer,50,62
 19037,Core A-Type Large Armor Repairer,50,
-19038,Core X-Type Large Armor Repairer,50,
+19038,Core X-Type Large Armor Repairer,50,62
 19039,Corpus C-Type Large Armor Repairer,50,
 19045,Corpus X-Type Large Armor Repairer,50,62
 19046,Centus X-Type Large Armor Repairer,50,62
