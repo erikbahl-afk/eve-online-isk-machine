@@ -56,7 +56,7 @@ type_id,name,volume,group_id
 2301,EM Shield Hardener II,,
 2303,Thermal Shield Hardener II,5,77
 2309,Ionic Solutions,,
-2311,,0.005,1033
+2311,Reactive Gas,0.005,1033
 2327,,0.75,
 2328,Water-Cooled CPU,0.75,1034
 2344,,3,1040
@@ -930,6 +930,7 @@ type_id,name,volume,group_id
 27339,Caldari Navy Mjolnir Torpedo,0.05,
 27341,Dread Guristas Mjolnir Torpedo,0.05,89
 27345,Caldari Navy Scourge Torpedo,,
+27347,,0.05,89
 27351,,0.05,
 27355,Dread Guristas Inferno Torpedo,,
 27377,Caldari Navy Mjolnir Cruise Missile,0.05,386
@@ -1606,6 +1607,7 @@ type_id,name,volume,group_id
 62454,Compressed Bitumens,0.1,1884
 62455,Compressed Brimful Bitumens,0.1,1884
 62456,Compressed Glistening Bitumens,,
+62459,,0.1,1884
 62460,Compressed Sylvite,0.1,1884
 62461,Compressed Brimful Sylvite,,
 62463,Compressed Zeolites,0.1,1884

@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Sat 07 Nov 08:00 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
+**Updated:** Sat 07 Nov 08:27 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
 **Steps:** 21 · **Est. time:** 14 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -42,7 +42,7 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
 | 5 | ☐ 50MN Microwarpdrive II | 6 | **4,184,000** | 3,674,000 | 4,185,000 |
-| 6 | ☐ Antikythera Element | 8 | **1,309,000** | 884,200 | 1,310,000 |
+| 6 | ☐ Antikythera Element | 8 | **1,308,000** | 884,200 | 1,309,000 |
 
 ### Block 3 · if there's time · about 1 min
 _Short on time? Skip to the jump (step 9): the next hub's Block 1 is worth more per minute than the rest of this hub._
@@ -59,7 +59,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 8 | ☐ type 2311 | 117 | **2.35** | 4.29 | 2.34 |
+| 8 | ☐ Reactive Gas | 117 | **2.35** | 4.29 | 2.34 |
 
 ## 9. ☐ Jump clone to Amarr VIII (Oris) - Emperor Family Academy
 _Clone Bay → Jump Clone → Amarr VIII (Oris) - Emperor Family Academy. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
