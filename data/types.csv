@@ -164,6 +164,7 @@ type_id,name,volume,group_id
 9491,1400mm 'Scout' Artillery I,20,55
 9497,1400mm Prototype Siege Cannon,,
 9632,,5,
+9734,,10,72
 9838,Superconductors,,
 9840,,0.75,
 9899,,1,
@@ -236,7 +237,7 @@ type_id,name,volume,group_id
 11959,Rook,10000,
 11963,Rapier,10000,
 11965,Pilgrim,10000,
-11969,Arazu,10000,
+11969,Arazu,10000,833
 11985,Basilisk,,
 11987,Guardian,10000,832
 11989,,10000,
@@ -308,7 +309,7 @@ type_id,name,volume,group_id
 13260,Inherent Implants 'Squire' Capacitor Systems Operation EO-603,1,
 13261,Inherent Implants 'Squire' Power Grid Management EG-603,1,
 13263,Zainou 'Gnome' Shield Operation SP-903,1,
-13265,,1,
+13265,Inherent Implants 'Squire' Capacitor Emission Systems ES-703,1,741
 13783,,10,
 13784,Domination 720mm Howitzer Artillery,,
 13785,Domination 800mm Repeating Cannon,20,
@@ -411,6 +412,7 @@ type_id,name,volume,group_id
 15605,Caldari Navy Vice Admiral Insignia I,0.1,409
 15615,Imperial Navy General Insignia I,0.1,409
 15632,Republic Fleet Commander Insignia I,0.1,409
+15646,Federation Navy Command Sergeant Major Insignia I,0.1,409
 15661,Republic Fleet Commander Insignia II,0.1,409
 15669,Imperial Navy General Insignia II,0.1,409
 15675,Caldari Navy Co-Processor,5,
@@ -534,7 +536,7 @@ type_id,name,volume,group_id
 17912,Modulated Strip Miner II,,
 17918,Rattlesnake,50000,
 17922,,10000,26
-17924,Succubus,2500,
+17924,Succubus,2500,25
 17928,Daredevil,2500,25
 17930,Worm,2500,
 17932,Dramiel,2500,
@@ -938,7 +940,7 @@ type_id,name,volume,group_id
 28437,Compressed Gelidus,,
 28439,Compressed Glare Crust,,
 28440,Compressed Krystallos,,
-28606,,500000,
+28606,Orca,500000,941
 28609,Heavy Interdiction Cruisers,,
 28656,Black Ops,,
 28659,Paladin,50000,900
@@ -1073,6 +1075,7 @@ type_id,name,volume,group_id
 31888,,5,
 31890,,10,
 31900,Imperial Navy 1600mm Steel Plates,20,329
+31902,Federation Navy 1600mm Steel Plates,20,329
 31904,,10,
 31910,Federation Navy 400mm Steel Plates,10,329
 31918,Federation Navy 800mm Steel Plates,20,
@@ -1134,7 +1137,7 @@ type_id,name,volume,group_id
 33681,Gecko,50,100
 33697,Prospect,2500,1283
 33700,'Packrat' Mobile Tractor Unit,125,1250
-33702,'Magpie' Mobile Tractor Unit,100,
+33702,'Magpie' Mobile Tractor Unit,100,1250
 33790,Men's 'Rider' Pants (black silver),,
 33816,Garmur,2500,25
 33818,Orthrus,10000,26
@@ -1192,7 +1195,7 @@ type_id,name,volume,group_id
 35886,Standup Invention Lab I,,
 35894,Standup Cloning Center I,4000,
 35923,Standup Guided Bomb Launcher I,,
-35940,,4000,1332
+35940,Standup Variable Spectrum ECM I,4000,1332
 35947,Standup Target Painter I,4000,
 35949,,4000,
 36909,Antipharmakon Kosybo,1,303
@@ -1225,7 +1228,7 @@ type_id,name,volume,group_id
 40347,,3000,
 40351,25000mm Steel Plates II,1000,329
 40356,,1000,38
-40519,Skill Extractor,,
+40519,Skill Extractor,0.01,1301
 40520,Large Skill Injector,0.01,1739
 40556,Templar II,1000,
 40558,Firbolg II,1000,
@@ -1516,7 +1519,7 @@ type_id,name,volume,group_id
 57487,Capital Core Temperature Regulator,28000,873
 57488,Neurolink Protection Cell,5500,873
 58945,,3500,
-58950,Large Industrial Core II,3500,
+58950,Large Industrial Core II,3500,515
 58966,,5,
 58972,,5,
 60032,Golem State Police SKIN,0.01,
