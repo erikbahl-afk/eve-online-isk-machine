@@ -363,7 +363,7 @@ type_id,name,volume,group_id
 13956,True Sansha Large Armor Repairer,50,62
 13957,Dark Blood Large Armor Repairer,50,
 13960,,10,
-13965,,5,
+13965,,5,77
 13969,Dread Guristas Multispectrum Shield Hardener,5,77
 13970,,5,328
 13974,True Sansha Explosive Armor Hardener,,
@@ -593,7 +593,7 @@ type_id,name,volume,group_id
 18799,,5,
 18813,,5,
 18827,Corelum A-Type Thermal Energized Membrane,5,
-18829,Corpum C-Type Multispectrum Energized Membrane,5,
+18829,Corpum C-Type Multispectrum Energized Membrane,5,326
 18835,Centum C-Type Kinetic Energized Membrane,,
 18859,Centum B-Type Explosive Energized Membrane,5,
 18863,,5,326
@@ -795,7 +795,7 @@ type_id,name,volume,group_id
 22559,Mining Foreman Mindlink,1,744
 22570,Inherent Implants 'Yeti' Ice Harvesting IH-1003,1,1229
 22571,Inherent Implants 'Yeti' Ice Harvesting IH-1005,1,1229
-22611,,5,
+22611,Elara Restrained Mining Laser Upgrade,5,546
 22613,'Carpo' Mining Laser Upgrade,5,546
 22778,Warp Disrupt Probe,5,
 22782,Interdiction Sphere Launcher I,,
@@ -821,6 +821,7 @@ type_id,name,volume,group_id
 23119,Imperial Navy Radio L,1,86
 23128,,0.1,
 23134,Takmahl Dynamic Gauge,,
+23707,,5,639
 23785,'Bailey' 1600mm Steel Plates,20,329
 23797,,10,
 23803,'Censer' Medium Cap Battery,10,
@@ -1244,6 +1245,7 @@ type_id,name,volume,group_id
 35683,Hecate,5000,1305
 35789,,5,1396
 35790,Missile Guidance Computer II,5,
+35795,Missile Precision Script,,
 35826,Azbel,,
 35832,Astrahus,8000,
 35833,Fortizar,,
