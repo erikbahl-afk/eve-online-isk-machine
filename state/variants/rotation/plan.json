@@ -1,6 +1,6 @@
 {
- "est_secs": 1180,
- "generated": 1794045624.3690484,
+ "est_secs": 1120,
+ "generated": 1794048126.7168818,
  "hub": "jita",
  "location": "jita",
  "min_isk_per_min": 1000000,
@@ -8,43 +8,43 @@
  "skipped_low_value": 0,
  "steps": [
   {
-   "benefit": 64974769.854271315,
+   "benefit": 36926376.10755528,
    "block": 1,
-   "cap": 65320000.0,
+   "cap": 2510.0,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
    "n": 1,
+   "qty": 18,
+   "ref": 2434.0,
+   "secs": 60,
+   "tag": "station",
+   "target": 2435.0,
+   "type_id": 62555,
+   "value": 18463188.05377764
+  },
+  {
+   "benefit": 57169746.91067918,
+   "block": 1,
+   "cap": 63560000.0,
+   "group": 6,
+   "hub": "jita",
+   "kind": "new_buy",
+   "n": 2,
    "qty": 1,
    "ref": 50000000.0,
    "secs": 60,
    "tag": "station",
    "target": 50010000.0,
    "type_id": 56715,
-   "value": 32487384.927135658
+   "value": 28584873.45533959
   },
   {
-   "benefit": 24842831.94331016,
-   "block": 1,
-   "cap": 556.4,
-   "group": 6,
-   "hub": "jita",
-   "kind": "new_buy",
-   "n": 2,
-   "qty": 1,
-   "ref": 536.8,
-   "secs": 60,
-   "tag": "station",
-   "target": 536.9,
-   "type_id": 17889,
-   "value": 12421415.97165508
-  },
-  {
-   "benefit": 17362868.39876374,
+   "benefit": 17290563.52339075,
    "block": 2,
    "bundle": "jita->dodixie",
    "dest": "dodixie",
-   "est_cost": 342800000.0,
+   "est_cost": 342900000.0,
    "group": 7,
    "hub": "jita",
    "kind": "instant_buy",
@@ -55,10 +55,10 @@
    "secs": 40,
    "tag": "import",
    "type_id": 33702,
-   "value": 8681434.19938187
+   "value": 8645281.761695376
   },
   {
-   "benefit": 42060795.993807726,
+   "benefit": 42240558.670339,
    "block": 2,
    "bundle": "jita->dodixie",
    "dest": "dodixie",
@@ -73,10 +73,10 @@
    "secs": 40,
    "tag": "import",
    "type_id": 11969,
-   "value": 21030397.996903863
+   "value": 21120279.3351695
   },
   {
-   "benefit": 27551586.59460325,
+   "benefit": 27493374.677700236,
    "block": 2,
    "bundle": "jita->dodixie",
    "dest": "dodixie",
@@ -91,10 +91,10 @@
    "secs": 40,
    "tag": "import",
    "type_id": 78367,
-   "value": 13775793.297301626
+   "value": 13746687.338850118
   },
   {
-   "benefit": 25862780.393514175,
+   "benefit": 25929714.100834478,
    "block": 2,
    "bundle": "jita->dodixie",
    "dest": "dodixie",
@@ -109,10 +109,10 @@
    "secs": 40,
    "tag": "import",
    "type_id": 91174,
-   "value": 12931390.196757087
+   "value": 12964857.050417239
   },
   {
-   "benefit": 47542089.825144835,
+   "benefit": 47434723.26514029,
    "block": 2,
    "bundle": "jita->dodixie",
    "dest": "dodixie",
@@ -127,43 +127,43 @@
    "secs": 40,
    "tag": "import",
    "type_id": 12735,
-   "value": 23771044.912572417
+   "value": 23717361.632570144
   },
   {
-   "benefit": 16023333.944549879,
+   "benefit": 16079605.594830574,
    "block": 2,
    "bundle": "jita->dodixie",
    "dest": "dodixie",
-   "est_cost": 172491272.0,
+   "est_cost": 172555984.0,
    "group": 7,
    "hub": "jita",
    "kind": "instant_buy",
    "max_price": 3664.0,
    "n": 8,
    "qty": 48000,
-   "ref": 3593.0,
+   "ref": 3594.0,
    "secs": 40,
    "tag": "import",
    "type_id": 57457,
-   "value": 8011666.9722749395
+   "value": 8039802.797415287
   },
   {
-   "benefit": 34378157.49405976,
+   "benefit": 29324448.87675164,
    "block": 2,
    "bundle": "jita->dodixie",
    "dest": "dodixie",
-   "est_cost": 229700000.0,
+   "est_cost": 229800000.0,
    "group": 7,
    "hub": "jita",
    "kind": "instant_buy",
-   "max_price": 249200000.0,
+   "max_price": 249100000.0,
    "n": 9,
    "qty": 1,
-   "ref": 229700000.0,
+   "ref": 229800000.0,
    "secs": 40,
    "tag": "import",
    "type_id": 81047,
-   "value": 17189078.74702988
+   "value": 14662224.43837582
   },
   {
    "benefit": 0.0,
@@ -172,7 +172,7 @@
    "contracts": 2,
    "est_fee": 48000000,
    "est_m3": 125000.0,
-   "est_value": 2084691272.0,
+   "est_value": 2084955984.0,
    "group": 8,
    "hub": "jita",
    "kind": "courier",
@@ -192,62 +192,46 @@
    "value": 0.0
   },
   {
-   "benefit": 19139633.691047788,
-   "block": 3,
-   "cap": 1364.0,
-   "group": 6,
-   "hub": "jita",
-   "kind": "new_buy",
-   "n": 11,
-   "qty": 28,
-   "ref": 1301.0,
-   "secs": 60,
-   "tag": "station",
-   "target": 1302.0,
-   "type_id": 62463,
-   "value": 9569816.845523894
-  },
-  {
-   "benefit": 17866157.234307855,
+   "benefit": 17791789.75561893,
    "block": 3,
    "cap": 73620.0,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
-   "n": 12,
-   "qty": 453,
+   "n": 11,
+   "qty": 447,
    "ref": 44600.0,
    "secs": 60,
    "tag": "station",
    "target": 44610.0,
    "type_id": 25252,
-   "value": 8933078.617153928
+   "value": 8895894.877809465
   },
   {
    "block": 0,
    "group": 0,
    "hub": "jita",
    "kind": "jump",
-   "n": 13,
+   "n": 12,
    "secs": 120,
    "to": "dodixie",
    "value": 0.0
   },
   {
-   "benefit": 11188126.372078665,
+   "benefit": 11141535.217644297,
    "block": 2,
    "cap": 28.81,
    "group": 6,
    "hub": "dodixie",
    "kind": "new_buy",
-   "n": 14,
-   "qty": 8,
+   "n": 13,
+   "qty": 9,
    "ref": 25.04,
    "secs": 60,
    "tag": "station",
    "target": 25.05,
    "type_id": 62529,
-   "value": 5594063.186039332
+   "value": 5570767.608822148
   }
  ]
 }

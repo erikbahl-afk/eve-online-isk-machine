@@ -120,6 +120,7 @@ type_id,name,volume,group_id
 3265,Zainou 'Gypsy' CPU Management EE-602,1,
 3488,,5,
 3520,,10,
+3534,CONCORD Capital Armor Repairer,1000,62
 3536,,1000,325
 3542,CONCORD Capital Shield Booster,1000,
 3616,,1000,41
@@ -378,7 +379,7 @@ type_id,name,volume,group_id
 14130,True Sansha Reactor Control Unit,5,769
 14136,,5,
 14140,True Sansha Cap Recharger,5,43
-14144,Dark Blood Capacitor Power Relay,5,
+14144,Dark Blood Capacitor Power Relay,5,767
 14146,True Sansha Capacitor Power Relay,,
 14148,Dark Blood Small Energy Nosferatu,5,68
 14152,,5,
@@ -535,6 +536,7 @@ type_id,name,volume,group_id
 17718,Phantasm,10000,
 17720,Cynabal,10000,26
 17726,,50000,
+17736,Nightmare,50000,27
 17738,Machariel,,
 17772,Small AutoCannon Battery,,
 17843,Vexor Navy Issue,10000,26
@@ -940,6 +942,7 @@ type_id,name,volume,group_id
 28201,Light Armor Maintenance Bot II,5,
 28209,,25,100
 28213,Curator II,25,100
+28262,'Integrated' Acolyte,,
 28264,'Augmented' Acolyte,5,100
 28272,'Augmented' Hammerhead,10,100
 28276,,5,
@@ -1106,7 +1109,7 @@ type_id,name,volume,group_id
 31922,Caldari Navy Small Shield Extender,5,
 31926,Caldari Navy Medium Shield Extender,10,
 31928,Republic Fleet Medium Shield Extender,10,38
-31930,Caldari Navy Large Shield Extender,20,
+31930,Caldari Navy Large Shield Extender,20,38
 31932,Republic Fleet Large Shield Extender,20,38
 31942,Federation Navy Omnidirectional Tracking Link,5,
 31946,Imperial Navy Large Remote Capacitor Transmitter,25,
@@ -1609,7 +1612,7 @@ type_id,name,volume,group_id
 62564,Compressed Bistot,,
 62566,,0.16,
 62567,Compressed Bistot IV-Grade,0.16,
-62571,Compressed Arkonor IV-Grade,,
+62571,Compressed Arkonor IV-Grade,0.16,450
 62572,,0.16,
 62573,Compressed Spodumain II-Grade,0.16,
 62587,Compressed Mercoxit II-Grade,,
