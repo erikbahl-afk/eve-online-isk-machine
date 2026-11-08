@@ -1,9 +1,39 @@
 [
  {
+  "key": "data:amarr",
+  "severity": "medium",
+  "since": 1794172982.5196922,
+  "text": "Data problem in amarr: gap 20.4h too long; restarted"
+ },
+ {
+  "key": "data:dodixie",
+  "severity": "medium",
+  "since": 1794172982.5196922,
+  "text": "Data problem in dodixie: gap 20.4h too long; restarted"
+ },
+ {
+  "key": "data:hek",
+  "severity": "medium",
+  "since": 1794172982.5196922,
+  "text": "Data problem in hek: gap 20.4h too long; restarted"
+ },
+ {
+  "key": "data:jita",
+  "severity": "medium",
+  "since": 1794172982.5196922,
+  "text": "Data problem in jita: gap 20.4h too long; restarted"
+ },
+ {
+  "key": "data:rens",
+  "severity": "medium",
+  "since": 1794172982.5196922,
+  "text": "Data problem in rens: gap 20.4h too long; restarted"
+ },
+ {
   "key": "liquidation",
   "severity": "medium",
   "since": 1793915372.8054109,
-  "text": "Liquidation value is 50% of net worth (2.46B of 4.89B): much of the stock couldn't be sold quickly without a big loss."
+  "text": "Liquidation value is 51% of net worth (2.47B of 4.88B): much of the stock couldn't be sold quickly without a big loss."
  },
  {
   "key": "position:77169",
@@ -12,45 +42,9 @@
   "text": "Typhoon Fleet Issue Capsuleer Elite XX SKIN is 8.6% of net worth (418.51M)."
  },
  {
-  "key": "idle_buy:1",
-  "severity": "info",
-  "since": 1793915372.8054109,
-  "text": "Buy order for Glorified Unstable Magnetic Field Stabilizer Mutaplasmid in jita hasn't filled at all in 7 days (369.40M tied up)."
- },
- {
-  "key": "idle_buy:2",
-  "severity": "info",
-  "since": 1793915372.8054109,
-  "text": "Buy order for Mid-grade Centurion Delta in jita hasn't filled at all in 7 days (333.80M tied up)."
- },
- {
-  "key": "idle_buy:3",
-  "severity": "info",
-  "since": 1793915372.8054109,
-  "text": "Buy order for Corelum B-Type 10MN Afterburner in amarr hasn't filled at all in 7 days (191.00M tied up)."
- },
- {
-  "key": "idle_buy:4",
-  "severity": "info",
-  "since": 1793915372.8054109,
-  "text": "Buy order for Sentient Damage Control in amarr hasn't filled at all in 7 days (313.00M tied up)."
- },
- {
-  "key": "idle_buy:5",
-  "severity": "info",
-  "since": 1793915372.8054109,
-  "text": "Buy order for Standup Guided Bomb Launcher I in amarr hasn't filled at all in 7 days (190.06M tied up)."
- },
- {
   "key": "idle_buy:6",
   "severity": "info",
   "since": 1793915372.8054109,
-  "text": "Buy order for Tetryon Exotic Plasma XL in amarr hasn't filled at all in 7 days (98.99M tied up)."
- },
- {
-  "key": "idle_buy:7",
-  "severity": "info",
-  "since": 1793915372.8054109,
-  "text": "Buy order for Unstable Large Shield Extender Mutaplasmid in amarr hasn't filled at all in 7 days (104.60M tied up)."
+  "text": "Buy order for Tetryon Exotic Plasma XL in amarr hasn't filled at all in 8 days (98.99M tied up)."
  }
 ]
