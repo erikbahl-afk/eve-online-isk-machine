@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Sat 07 Nov 16:00 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
+**Updated:** Sat 07 Nov 16:55 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
 **Steps:** 22 · **Est. time:** 15 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -15,60 +15,59 @@ Each hub's steps come in **priority blocks**: finish Block 1 before anything els
 
 ## At Jita IV - Moon 4 - Caldari Navy Assembly Plant
 
-### Block 1 · must do · about 3 min
-
-#### List new stock
-_Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Duration 3 months._
-
-| # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
-|---|---|---|---|---|---|
-| 1 | ☐ 50MN Microwarpdrive II | 6 | **4,225,000** | 3,674,000 | 4,226,000 |
+### Block 1 · must do · about 2 min
 
 #### Cancel buy orders
 _My Orders → Buying. Right-click → Cancel Order._
 
 | # | Item | Your price |
 |---|---|---|
-| 2 | ☐ Glorified Unstable Magnetic Field Stabilizer Mutaplasmid | 184,700,000 |
-| 3 | ☐ Mid-grade Centurion Delta | 166,900,000 |
+| 1 | ☐ Glorified Unstable Magnetic Field Stabilizer Mutaplasmid | 184,700,000 |
+| 2 | ☐ Mid-grade Centurion Delta | 166,900,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 4 | ☐ Compressed Dark Glitter | 7 | **320,300** | 373,500 | 320,200 |
-| 5 | ☐ Compressed Glistening Zeolites | 1 | **2,844** | 2,917 | 2,843 |
+| 3 | ☐ Compressed Dark Glitter | 7 | **320,300** | 373,500 | 320,200 |
+| 4 | ☐ Compressed Gneiss IV-Grade | 1 | **2,459** | 2,510 | 2,458 |
 
 ### Block 2 · should do · about 2 min
-_Short on time? Skip to the jump (step 10): the next hub's Block 1 is worth more per minute than the rest of this hub._
-
-#### New buy orders
-_Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
-
-| # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
-|---|---|---|---|---|---|
-| 6 | ☐ Compressed Mordunium IV-Grade | 2 | **20.03** | 23.36 | 20.02 |
-| 7 | ☐ Reactive Gas | 2 | **2.37** | 4.29 | 2.36 |
-
-### Block 3 · if there's time · about 1 min
-_Short on time? Skip to the jump (step 10): the next hub's Block 1 is worth more per minute than the rest of this hub._
+_Short on time? Skip to the jump (step 9): the next hub's Block 1 is worth more per minute than the rest of this hub._
 
 #### List new stock
 _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Duration 3 months._
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 8 | ☐ Antikythera Element | 8 | **1,196,000** | 884,200 | 1,197,000 |
+| 5 | ☐ 50MN Microwarpdrive II | 6 | **4,225,000** | 3,674,000 | 4,226,000 |
+
+#### New buy orders
+_Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
+
+| # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
+|---|---|---|---|---|---|
+| 6 | ☐ Compressed Mordunium IV-Grade | 5 | **20.03** | 23.36 | 20.02 |
+
+### Block 3 · if there's time · about 1 min
+_Short on time? Skip to the jump (step 9): the next hub's Block 1 is worth more per minute than the rest of this hub._
+
+#### List new stock
+_Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Duration 3 months._
+
+| # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
+|---|---|---|---|---|---|
+| 7 | ☐ Antikythera Element | 8 | **1,195,000** | 884,200 | 1,196,000 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 9 | ☐ 50MN Microwarpdrive II | 3,532,000 | **3,590,000** | 3,735,000 | 3,589,000 |
+| 8 | ☐ 50MN Microwarpdrive II | 3,532,000 | **3,593,000** | 3,735,000 | 3,592,000 |
 
-## 10. ☐ Jump clone to Amarr VIII (Oris) - Emperor Family Academy
+## 9. ☐ Jump clone to Amarr VIII (Oris) - Emperor Family Academy
 _Clone Bay → Jump Clone → Amarr VIII (Oris) - Emperor Family Academy. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
 
 ## At Amarr VIII (Oris) - Emperor Family Academy
@@ -80,11 +79,18 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 11 | ☐ Black Market 'Valdimar' Drone Navigation DN-701 | 249,800,000 | **249,800,000** | 131,200,000 | 249,900,000 |
-| 12 | ☐ Capital I-a Enduring Armor Repairer | 199,800,000 | **199,700,000** | 91,990,000 | 199,800,000 |
-| 13 | ☐ Dread Guristas Rocket Launcher | 99,480,000 | **99,370,000** | 48,990,000 | 99,380,000 |
-| 14 | ☐ Standup M-Set Basic Small Ship Manufacturing Material Efficiency I | 699,600,000 | **699,600,000** | 347,300,000 | 699,700,000 |
-| 15 | ☐ Typhoon Fleet Issue Capsuleer Elite XX SKIN | 815,900,000 | **815,900,000** | 435,300,000 | 816,000,000 |
+| 10 | ☐ Black Market 'Valdimar' Drone Navigation DN-701 | 249,800,000 | **249,800,000** | 131,200,000 | 249,900,000 |
+| 11 | ☐ Capital I-a Enduring Armor Repairer | 199,800,000 | **199,700,000** | 91,990,000 | 199,800,000 |
+| 12 | ☐ Dread Guristas Rocket Launcher | 99,480,000 | **99,370,000** | 48,990,000 | 99,380,000 |
+| 13 | ☐ Standup M-Set Basic Small Ship Manufacturing Material Efficiency I | 699,600,000 | **699,600,000** | 347,300,000 | 699,700,000 |
+| 14 | ☐ Typhoon Fleet Issue Capsuleer Elite XX SKIN | 815,900,000 | **815,900,000** | 435,300,000 | 816,000,000 |
+
+#### Cancel buy orders
+_My Orders → Buying. Right-click → Cancel Order._
+
+| # | Item | Your price |
+|---|---|---|
+| 15 | ☐ Sentient Damage Control | 313,000,000 |
 
 ### Block 2 · should do · about 2 min
 
@@ -102,18 +108,18 @@ _My Orders → Buying. Right-click → Cancel Order._
 
 | # | Item | Your price |
 |---|---|---|
-| 19 | ☐ Sentient Damage Control | 313,000,000 |
+| 19 | ☐ Corelum B-Type 10MN Afterburner | 95,500,000 |
+| 20 | ☐ Standup Guided Bomb Launcher I | 95,030,000 |
+| 21 | ☐ Unstable Large Shield Extender Mutaplasmid | 52,300,000 |
 
 ### Block 3 · if there's time · about 1 min
 
-#### Cancel buy orders
-_My Orders → Buying. Right-click → Cancel Order._
+#### New buy orders
+_Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
-| # | Item | Your price |
-|---|---|---|
-| 20 | ☐ Corelum B-Type 10MN Afterburner | 95,500,000 |
-| 21 | ☐ Standup Guided Bomb Launcher I | 95,030,000 |
-| 22 | ☐ Unstable Large Shield Extender Mutaplasmid | 52,300,000 |
+| # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
+|---|---|---|---|---|---|
+| 22 | ☐ Compressed Raspite X-Grade | 2 | **164.90** | 208.30 | 164.80 |
 
 ---
 Wallet 100.00M · escrow 1.64B · stock 3.14B · in transit 0.00 · net worth 4.89B (liquidation 2.46B)

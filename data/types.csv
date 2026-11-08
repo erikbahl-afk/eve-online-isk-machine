@@ -137,7 +137,7 @@ type_id,name,volume,group_id
 3683,Oxygen,,
 3685,,1,280
 3693,,0.75,1034
-3695,Polytextiles,,
+3695,Polytextiles,0.75,1034
 3756,,15000,
 3775,Viral Agent,,
 3893,Mining Connections,0.01,
@@ -197,6 +197,7 @@ type_id,name,volume,group_id
 10165,Improved Sooth Sayer Booster,1,
 10208,Memory Augmentation - Standard,,
 10209,,1,
+10212,Neural Boost - Standard,1,745
 10213,Neural Boost - Improved,1,745
 10217,Ocular Filter - Improved,1,
 10221,Cybernetic Subprocessor - Standard,,
@@ -384,6 +385,7 @@ type_id,name,volume,group_id
 14067,Shadow Serpentis Large Armor Repairer,50,
 14068,,10,
 14069,,5,
+14070,,5,326
 14072,True Sansha Multispectrum Energized Membrane,,
 14074,,5,
 14094,Dark Blood Thermal Energized Membrane,,
@@ -603,7 +605,7 @@ type_id,name,volume,group_id
 18835,Centum C-Type Kinetic Energized Membrane,,
 18859,Centum B-Type Explosive Energized Membrane,5,
 18863,,5,326
-18867,,5,326
+18867,Centum A-Type Thermal Energized Membrane,5,326
 18877,Corpum A-Type Kinetic Energized Membrane,5,
 18881,Corpum A-Type Multispectrum Energized Membrane,5,
 18883,Centum A-Type Multispectrum Energized Membrane,5,326
@@ -1052,7 +1054,7 @@ type_id,name,volume,group_id
 30310,Carbon-86 Epoxy Resin,,
 30370,Fullerite-C50,1,
 30371,Fullerite-C60,1,711
-30372,,1,711
+30372,Fullerite-C70,1,711
 30374,,2,711
 30375,Fullerite-C28,2,711
 30376,Fullerite-C32,5,711
@@ -1298,6 +1300,7 @@ type_id,name,volume,group_id
 40347,,3000,
 40351,25000mm Steel Plates II,1000,329
 40356,Capital F-S9 Regolith Compact Shield Extender,1000,38
+40361,,800,1652
 40519,Skill Extractor,0.01,1301
 40520,Large Skill Injector,0.01,1739
 40556,Templar II,1000,
