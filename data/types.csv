@@ -32,6 +32,7 @@ type_id,name,volume,group_id
 974,Rupture Blueprint,,
 976,,0.01,
 1183,,5,
+1230,,0.1,462
 1231,Hemorphite,,
 1319,Expanded Cargohold II,5,765
 1355,Reactor Control Unit II,,
@@ -70,6 +71,7 @@ type_id,name,volume,group_id
 2390,Electrolytes,,
 2392,,0.19,1042
 2393,Bacteria,,
+2396,,0.19,1042
 2399,Precious Metals,,
 2400,Toxic Metals,0.19,1042
 2401,Chiral Structures,,
@@ -167,7 +169,7 @@ type_id,name,volume,group_id
 4348,Pithum B-Type Multispectrum Shield Hardener,5,77
 4349,Pithum C-Type Multispectrum Shield Hardener,5,77
 4403,Reactive Armor Hardener,25,1150
-5051,Heavy F-RX Compact Capacitor Booster,,
+5051,Heavy F-RX Compact Capacitor Booster,20,76
 5973,5MN Y-T8 Compact Microwarpdrive,10,46
 6719,,5,
 7447,425mm Prototype Gauss Gun,20,
@@ -181,7 +183,7 @@ type_id,name,volume,group_id
 9497,1400mm Prototype Siege Cannon,,
 9632,,5,
 9734,,10,72
-9838,Superconductors,,
+9838,Superconductors,0.75,1034
 9840,,0.75,
 9842,,0.75,1034
 9899,,1,
@@ -247,7 +249,7 @@ type_id,name,volume,group_id
 11552,,1,
 11554,Tesseract Capacitor Unit,1,
 11556,,1,
-11557,,1,334
+11557,Linear Shield Emitter,1,334
 11577,Improved Cloaking Device II,100,330
 11578,Covert Ops Cloaking Device II,100,330
 11648,,5,328
@@ -292,6 +294,7 @@ type_id,name,volume,group_id
 12484,Amarr Drone Specialization,0.01,
 12486,Gallente Drone Specialization,0.01,
 12487,Caldari Drone Specialization,0.01,
+12532,Blood Bronze Tag,0.1,370
 12537,Serpentis Bronze Tag,0.1,370
 12608,Hail S,0.0025,
 12631,,0.0025,376
@@ -400,6 +403,7 @@ type_id,name,volume,group_id
 14156,Dark Blood Medium Energy Nosferatu,,
 14158,,5,
 14164,Dark Blood Medium Energy Neutralizer,5,
+14166,,5,71
 14168,Dark Blood Heavy Energy Neutralizer,5,
 14170,True Sansha Heavy Energy Neutralizer,5,71
 14172,Dark Blood Heavy Capacitor Booster,20,76
@@ -453,6 +457,7 @@ type_id,name,volume,group_id
 15753,,5,
 15764,Federation Navy 50MN Microwarpdrive,10,46
 15766,,5,
+15790,Caldari Navy Cloaking Device,100,330
 15792,Federation Navy Tracking Computer,5,213
 15804,Imperial Navy Heavy Energy Neutralizer,,
 15806,Republic Fleet Gyrostabilizer,5,59
@@ -465,7 +470,7 @@ type_id,name,volume,group_id
 15887,Caldari Navy Warp Scrambler,5,52
 15889,Caldari Navy Warp Disruptor,5,
 15893,,5,
-15895,Federation Navy Magnetic Field Stabilizer,,
+15895,Federation Navy Magnetic Field Stabilizer,5,302
 15897,Caldari Navy X-Large Shield Booster,50,
 15898,Caldari Navy Small Shield Booster,5,
 15902,Republic Fleet Small Shield Booster,5,40
@@ -598,6 +603,7 @@ type_id,name,volume,group_id
 18835,Centum C-Type Kinetic Energized Membrane,,
 18859,Centum B-Type Explosive Energized Membrane,5,
 18863,,5,326
+18867,,5,326
 18877,Corpum A-Type Kinetic Energized Membrane,5,
 18881,Corpum A-Type Multispectrum Energized Membrane,5,
 18883,Centum A-Type Multispectrum Energized Membrane,5,326
@@ -756,7 +762,7 @@ type_id,name,volume,group_id
 21640,,10,100
 21667,Capital Projectile Turret,,
 21721,,0.1,
-21740,Caldari Navy Antimatter Charge L,0.025,
+21740,Caldari Navy Antimatter Charge L,0.025,85
 21802,Capital Shield Operation,,
 21815,Elite Drone AI,,
 21888,Shield Command Mindlink,1,
@@ -822,6 +828,7 @@ type_id,name,volume,group_id
 23119,Imperial Navy Radio L,1,86
 23128,,0.1,
 23134,Takmahl Dynamic Gauge,,
+23473,Wasp EC-900,,
 23707,,5,639
 23785,'Bailey' 1600mm Steel Plates,20,329
 23797,,10,
@@ -867,6 +874,7 @@ type_id,name,volume,group_id
 25715,,10,
 25718,,0.01,
 25736,Large EM Armor Reinforcer I,,
+25812,Gas Cloud Scoop II,5,737
 25887,,0.1,
 25888,,20,
 25890,Large Kinetic Armor Reinforcer I,20,
@@ -920,13 +928,13 @@ type_id,name,volume,group_id
 27126,Inherent Implants 'Squire' Power Grid Management EG-605,1,
 27142,Zainou 'Gypsy' CPU Management EE-605,1,
 27167,Zainou 'Beancounter' Industry BX-802,1,743
-27174,Zainou 'Beancounter' Reprocessing RX-804,1,
+27174,Zainou 'Beancounter' Reprocessing RX-804,1,1229
 27176,Zainou 'Beancounter' Metallurgy MY-703,,
 27181,Zainou 'Beancounter' Metallurgy MY-705,1,748
 27184,Zainou 'Beancounter' Science SC-805,1,748
 27186,Poteque 'Prospector' Astrometric Pinpointing AP-606,1,
 27187,,1,
-27188,Poteque 'Prospector' Astrometric Rangefinding AR-806,1,
+27188,Poteque 'Prospector' Astrometric Rangefinding AR-806,1,1230
 27190,Poteque 'Prospector' Astrometric Pinpointing AP-610,,
 27192,Poteque 'Prospector' Astrometric Acquisition AQ-710,1,1230
 27196,,1,
@@ -1002,7 +1010,7 @@ type_id,name,volume,group_id
 28680,,1,
 28684,Synth Sooth Sayer Booster,1,
 28696,Celadon Mykoserocin,,
-28698,Lime Mykoserocin,,
+28698,Lime Mykoserocin,10,711
 28701,Viridian Mykoserocin,,
 28710,Golem,50000,900
 28746,Thukker Medium Shield Extender,,
@@ -1178,6 +1186,7 @@ type_id,name,volume,group_id
 33406,Caldari Navy Command Mindlink,,
 33450,Rapid Heavy Missile Launcher II,20,
 33452,Domination Rapid Heavy Missile Launcher,20,
+33453,,20,1245
 33468,Astero,2500,25
 33470,Stratios,10000,26
 33472,Nestor,,
@@ -1225,7 +1234,7 @@ type_id,name,volume,group_id
 34264,Focused Void Bomb,75,
 34272,,5,
 34276,Polarized Mega Pulse Laser,20,
-34278,,5,
+34278,Polarized Light Neutron Blaster,5,74
 34280,Polarized Heavy Neutron Blaster,10,
 34282,Polarized Neutron Blaster Cannon,20,
 34290,Polarized Rocket Launcher,5,
@@ -1296,7 +1305,7 @@ type_id,name,volume,group_id
 40559,Einherji II,,
 40560,Ametat II,2000,1653
 40569,,3000,1537
-40570,,3000,
+40570,,3000,1537
 40661,Capital Infectious Scoped Energy Neutralizer,,
 40690,,5,
 40730,Heavy Warp Disruptor I,100,52
@@ -1348,6 +1357,7 @@ type_id,name,volume,group_id
 42208,Mid-grade Asklepian Epsilon,1,
 42209,Mid-grade Asklepian Omega,1,300
 42212,High-grade Asklepian Gamma,1,300
+42213,High-grade Asklepian Delta,1,300
 42215,High-grade Asklepian Omega,,
 42244,,50000,
 42685,,5000,
@@ -1484,6 +1494,7 @@ type_id,name,volume,group_id
 52226,Unstable Damage Control Mutaplasmid,1,1964
 52236,Zorya's Light Entropic Disintegrator,,
 52238,Zorya's Heavy Entropic Disintegrator,10,
+52242,Zorya's Entropic Radiation Sink,5,1988
 52244,Veles Entropic Radiation Sink,5,1988
 52278,Praxis Capsuleer Day XVI SKIN,0.01,
 52312,Zero-Point Field Manipulator,1,334
@@ -1636,9 +1647,11 @@ type_id,name,volume,group_id
 62521,Compressed Scordite II-Grade,0.0015,460
 62522,Compressed Scordite III-Grade,0.0015,460
 62526,,0.003,
+62528,,0.0035,458
 62529,Compressed Plagioclase II-Grade,0.0035,458
 62532,Compressed Omber,0.006,469
 62533,Compressed Omber II-Grade,,
+62553,,0.05,467
 62554,Compressed Gneiss III-Grade,0.05,467
 62555,Compressed Gneiss IV-Grade,0.05,467
 62559,Compressed Dark Ochre IV-Grade,0.08,453
@@ -1756,6 +1769,7 @@ type_id,name,volume,group_id
 91775,Dragoon Navy Issue,5000,420
 91849,Algos Navy Issue,5000,
 91857,Corax Navy Issue,5000,420
+91926,Federation Electronics Booster III,1,303
 91932,,1,
 91939,Imperial Defense Booster II,,
 91944,Federation Defense Booster II,1,
@@ -1783,6 +1797,7 @@ type_id,name,volume,group_id
 92572,Crystalline Kangite,,
 92818,Compressed Raspite X-Grade,0.01,5083
 92819,Compressed Polycrase X-Grade,0.01,5084
+93350,Guerilla Republic - Unlimited,,
 93466,Imperial Benediction - Unlimited,,
 93745,Tempest Fleet Issue Capsuleer Day XXIII SKIN,0.01,
 93908,Caldari Navy Missile Guidance Enhancer,5,
@@ -1838,6 +1853,7 @@ type_id,name,volume,group_id
 97621,Pioneer Medical Enforcement Taskforce SKIN,,
 97639,Unstable Capital Remote Armor Repairer Mutaplasmid,,
 97650,Decayed Large Remote Armor Repairer Mutaplasmid,,
+97654,Glorified Unstable Large Remote Armor Repairer Mutaplasmid,1,1964
 97662,Unstable Medium Remote Armor Repairer Mutaplasmid,,
 97670,Unstable Small Remote Armor Repairer Mutaplasmid,,
 97671,,1,
