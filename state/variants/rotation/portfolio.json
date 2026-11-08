@@ -88,10 +88,17 @@
   }
  ],
  "inventory": {
-  "jita": {}
+  "jita": {
+   "31998": {
+    "cost": 40290.0,
+    "qty": 1,
+    "since": 1794175207.0,
+    "tag": "station"
+   }
+  }
  },
  "last_jump": 1794172982.5196922,
- "last_t": 1794172982.5196922,
+ "last_t": 1794175226.357571,
  "location": "dodixie",
  "next_oid": 14,
  "orders": [
@@ -197,7 +204,7 @@
    "oid": 9,
    "price": 40290.0,
    "qty": 250,
-   "remain": 250,
+   "remain": 249,
    "side": "buy",
    "tag": "station",
    "type_id": 31998,
@@ -260,7 +267,7 @@
    "sales": 0.0
   },
   "station": {
-   "buys": 0.0,
+   "buys": 40290.0,
    "fees": 30721879.027999997,
    "realized": -30721879.027999997,
    "sales": 0.0
@@ -396,8 +403,8 @@
    "sold_units": 0
   },
   "jita:31998": {
-   "bought_isk": 0.0,
-   "bought_units": 0,
+   "bought_isk": 40290.0,
+   "bought_units": 1,
    "fees": 151087.5,
    "realized": -151087.5,
    "sold_net": 0.0,
@@ -470,7 +477,7 @@
  },
  "pnl": {
   "broker": 30721879.027999997,
-  "buys": 2557999365.0,
+  "buys": 2558039655.0,
   "courier": 138000000.0,
   "realized": -30721879.027999997,
   "relist": 0.0,

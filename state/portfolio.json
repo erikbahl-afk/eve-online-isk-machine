@@ -1,5 +1,5 @@
 {
- "cash": 1591819052.8999999,
+ "cash": 1616307692.8999999,
  "created": 1793209927.0295653,
  "import_hub": "amarr",
  "in_transit": [],
@@ -24,10 +24,17 @@
     "tag": "station"
    }
   },
-  "jita": {}
+  "jita": {
+   "12076": {
+    "cost": 3606000.0,
+    "qty": 1,
+    "since": 1794175207.0,
+    "tag": "station"
+   }
+  }
  },
  "last_jump": 1794172982.5196922,
- "last_t": 1794172982.5196922,
+ "last_t": 1794175226.357571,
  "location": "amarr",
  "next_oid": 28,
  "orders": [
@@ -189,7 +196,7 @@
    "oid": 19,
    "price": 3606000.0,
    "qty": 18,
-   "remain": 12,
+   "remain": 11,
    "side": "buy",
    "tag": "station",
    "type_id": 12076,
@@ -229,20 +236,6 @@
    "side": "buy",
    "tag": "station",
    "type_id": 62555,
-   "updated": 1794172982.5196922
-  },
-  {
-   "created": 1794172982.5196922,
-   "hub": "jita",
-   "oid": 24,
-   "price": 4224000.0,
-   "qty": 6,
-   "remain": 6,
-   "side": "sell",
-   "since": 1793944534.0,
-   "tag": "station",
-   "type_id": 12076,
-   "unit_cost": 3532000.0,
    "updated": 1794172982.5196922
   },
   {
@@ -292,10 +285,10 @@
    "sales": 0.0
   },
   "station": {
-   "buys": 40215352.0,
+   "buys": 43821352.0,
    "fees": 25928772.1,
-   "realized": -25928772.1,
-   "sales": 0.0
+   "realized": -22632132.1,
+   "sales": 25344000.0
   }
  },
  "per_type": {
@@ -436,12 +429,12 @@
    "sold_units": 0
   },
   "jita:12076": {
-   "bought_isk": 21192000.0,
-   "bought_units": 6,
+   "bought_isk": 24798000.0,
+   "bought_units": 7,
    "fees": 1476936.0,
-   "realized": -1476936.0,
-   "sold_net": 0.0,
-   "sold_units": 0
+   "realized": 1819704.0,
+   "sold_net": 24488640.0,
+   "sold_units": 6
   },
   "jita:13933": {
    "bought_isk": 269990000.0,
@@ -598,12 +591,12 @@
  },
  "pnl": {
   "broker": 114445986.1,
-  "buys": 3004850664.0,
+  "buys": 3008456664.0,
   "courier": 138000000.0,
-  "realized": -120808812.1,
+  "realized": -117512172.1,
   "relist": 6362825.999999998,
-  "sales": 0.0,
-  "tax": 0.0
+  "sales": 25344000.0,
+  "tax": 855359.9999999998
  },
  "report_week": "2026-W45",
  "start_isk": 5000000000,

@@ -1,13 +1,26 @@
 {
- "cash": 109620224.81950009,
+ "cash": 112991471.06950009,
  "created": 1793854970.3735604,
  "import_hub": "amarr",
  "in_transit": [],
  "inventory": {
-  "jita": {}
+  "jita": {
+   "23025": {
+    "cost": 2874.0,
+    "qty": 1353,
+    "since": 1794175207.0,
+    "tag": "station"
+   },
+   "31998": {
+    "cost": 40290.0,
+    "qty": 1,
+    "since": 1794175207.0,
+    "tag": "station"
+   }
+  }
  },
  "last_jump": null,
- "last_t": 1794172982.5196922,
+ "last_t": 1794175226.357571,
  "location": "jita",
  "next_oid": 27,
  "orders": [
@@ -249,7 +262,7 @@
    "oid": 20,
    "price": 40290.0,
    "qty": 1359,
-   "remain": 1359,
+   "remain": 1358,
    "side": "buy",
    "tag": "station",
    "type_id": 31998,
@@ -275,7 +288,7 @@
    "oid": 22,
    "price": 3489000.0,
    "qty": 3,
-   "remain": 3,
+   "remain": 2,
    "side": "sell",
    "since": 1793947534.0,
    "tag": "station",
@@ -289,7 +302,7 @@
    "oid": 23,
    "price": 2874.0,
    "qty": 2893,
-   "remain": 2893,
+   "remain": 1540,
    "side": "buy",
    "tag": "station",
    "type_id": 23025,
@@ -336,10 +349,10 @@
  ],
  "per_strategy": {
   "station": {
-   "buys": 68720300.0,
+   "buys": 72649112.0,
    "fees": 16530236.080500001,
-   "realized": -16530236.080500001,
-   "sales": 0.0
+   "realized": -15505989.830500001,
+   "sales": 3489000.0
   }
  },
  "per_type": {
@@ -384,8 +397,8 @@
    "sold_units": 0
   },
   "jita:23025": {
-   "bought_isk": 0.0,
-   "bought_units": 0,
+   "bought_isk": 3888522.0,
+   "bought_units": 1353,
    "fees": 124717.23,
    "realized": -124717.23,
    "sold_net": 0.0,
@@ -416,8 +429,8 @@
    "sold_units": 0
   },
   "jita:31998": {
-   "bought_isk": 0.0,
-   "bought_units": 0,
+   "bought_isk": 40290.0,
+   "bought_units": 1,
    "fees": 821311.65,
    "realized": -821311.65,
    "sold_net": 0.0,
@@ -507,19 +520,19 @@
    "bought_isk": 7041000.0,
    "bought_units": 3,
    "fees": 497790.0,
-   "realized": -497790.0,
-   "sold_net": 0.0,
-   "sold_units": 0
+   "realized": 526456.25,
+   "sold_net": 3371246.25,
+   "sold_units": 1
   }
  },
  "pnl": {
   "broker": 14543093.503500002,
-  "buys": 68720300.0,
+  "buys": 72649112.0,
   "courier": 0.0,
-  "realized": -16530236.080500001,
+  "realized": -15505989.830500001,
   "relist": 1987142.5769999998,
-  "sales": 0.0,
-  "tax": 0.0
+  "sales": 3489000.0,
+  "tax": 117753.74999999999
  },
  "start_isk": 1000000000,
  "version": 2,

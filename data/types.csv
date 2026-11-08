@@ -12,7 +12,7 @@ type_id,name,volume,group_id
 233,,0.025,
 421,,5,
 438,,5,
-448,,5,
+448,Warp Scrambler II,5,52
 519,Gyrostabilizer II,5,
 621,,10000,26
 622,Stabber,,
@@ -254,6 +254,7 @@ type_id,name,volume,group_id
 11554,Tesseract Capacitor Unit,1,
 11556,,1,
 11557,Linear Shield Emitter,1,334
+11563,,20,339
 11577,Improved Cloaking Device II,100,330
 11578,Covert Ops Cloaking Device II,100,330
 11648,,5,328
@@ -274,6 +275,7 @@ type_id,name,volume,group_id
 12003,Zealot,10000,358
 12005,Ishtar,10000,358
 12015,Muninn,10000,
+12019,,10000,358
 12023,Deimos,10000,
 12032,Manticore,2500,
 12034,,2500,
@@ -451,6 +453,7 @@ type_id,name,volume,group_id
 15646,Federation Navy Command Sergeant Major Insignia I,0.1,409
 15661,Republic Fleet Commander Insignia II,0.1,409
 15669,Imperial Navy General Insignia II,0.1,409
+15673,,0.1,409
 15675,Caldari Navy Co-Processor,5,
 15681,Caldari Navy Ballistic Control System,5,367
 15683,Republic Fleet Ballistic Control System,5,
@@ -698,6 +701,7 @@ type_id,name,volume,group_id
 19329,Core A-Type 500MN Microwarpdrive,,
 19335,,10,
 19345,Gistum B-Type 50MN Microwarpdrive,10,46
+19351,Gistum A-Type 50MN Microwarpdrive,10,46
 19359,Gist X-Type 500MN Microwarpdrive,10,
 19363,Centum B-Type EM Energized Membrane,5,
 19547,Inherent Implants 'Noble' Repair Systems RS-605,,
@@ -1232,7 +1236,7 @@ type_id,name,volume,group_id
 33904,Capital Transverse Bulkhead II,40,
 33925,Low-grade Crystal Delta,1,
 33926,Low-grade Crystal Epsilon,1,
-33927,,1,
+33927,,1,300
 33928,,1,300
 33941,,1,
 33942,Low-grade Harvest Beta,1,
@@ -1320,7 +1324,7 @@ type_id,name,volume,group_id
 40559,Einherji II,,
 40560,Ametat II,2000,1653
 40569,,3000,1537
-40570,,3000,1537
+40570,Siren II,3000,1537
 40661,Capital Infectious Scoped Energy Neutralizer,,
 40690,,5,
 40730,Heavy Warp Disruptor I,100,52
@@ -1669,6 +1673,7 @@ type_id,name,volume,group_id
 62529,Compressed Plagioclase II-Grade,0.0035,458
 62532,Compressed Omber,0.006,469
 62533,Compressed Omber II-Grade,,
+62536,Compressed Kernite,0.012,457
 62553,,0.05,467
 62554,Compressed Gneiss III-Grade,0.05,467
 62555,Compressed Gneiss IV-Grade,0.05,467
