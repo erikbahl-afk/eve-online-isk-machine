@@ -174,7 +174,9 @@ def main():
 
     types = Types()
     names, vols = types.names, types.vols
-    shared = {"esi": esi, "now": now, "tops": tops, "books": books, "prints": prints, "intervals": intervals,
+    levels = (market.PriceLevels(esi, {h: HUBS[h]["region"] for h in HUBS}, cfg["sim"].get("history_days", 14))
+              if cfg["sim"].get("history_gate", True) else None)
+    shared = {"levels": levels, "esi": esi, "now": now, "tops": tops, "books": books, "prints": prints, "intervals": intervals,
               "stats": stats, "start_w": start_w, "names": names, "vols": vols, "types": types}
     lap("stats and character")
     variants = {}
@@ -258,7 +260,7 @@ def run_portfolio(cfg, sdir, sh):
     sim = Sim(cfg, pf, fees, np.random.default_rng(int(now)), ledger)
     sim.arrivals(now)
     for h, (t0, t1) in sh["intervals"].items():
-        sim.apply_fills(h, sh["prints"][h], stats[h], t0, t1)
+        sim.apply_fills(h, sh["prints"][h], stats[h], t0, t1, sh.get("levels"))
         sim.seed_fills(h, tops[h], t0, t1)
 
     hub = cfg["strategy"]["hub"]

@@ -214,3 +214,47 @@ def build_stats(hub, frames, today_frame):
     out["trend_a"] = ((rec.ask_isk / rec.ask_units) / (pri.ask_isk / pri.ask_units)).reindex(out.index)
     out["hours"] = total_h
     return out
+
+
+class PriceLevels:
+    """Official daily price range (region history) per type, fetched lazily and kept for one run.
+
+    Used to sanity-check paper fills: in thin, wide-spread markets most vanished top bids are
+    cancels, so the snapshot diff can "fill" a bid at a price nobody traded at all day. A fill at
+    price p is scaled by the share of recent trading days whose official lowest (for our buys) or
+    highest (for our sells) price reached p. Unknown history (ESI error) leaves fills unchanged.
+    """
+
+    def __init__(self, esi, regions, days=14, tol=0.002, fetch=None):
+        self.esi, self.regions, self.days, self.tol = esi, regions, days, tol
+        self.cache = {}
+        self._fetch = fetch or self._esi_fetch
+
+    def _esi_fetch(self, hub, type_id):
+        r = self.esi.request("GET", f"/markets/{self.regions[hub]}/history/", params={"type_id": int(type_id)})
+        if r.status_code != 200:
+            return None
+        return pd.DataFrame(r.json(), columns=["date", "lowest", "highest", "volume"])
+
+    def history(self, hub, type_id, now):
+        key = (hub, int(type_id))
+        if key not in self.cache:
+            try:
+                self.cache[key] = self._fetch(hub, int(type_id))
+            except Exception:
+                self.cache[key] = None
+        h = self.cache[key]
+        if h is None:
+            return None
+        start = (dt.datetime.fromtimestamp(now, dt.timezone.utc).date() - dt.timedelta(days=self.days)).isoformat()
+        return h[(h.date >= start) & (h.volume > 0)]
+
+    def reach(self, hub, type_id, side, price, now):
+        """Share of recent trading days on which trades happened at our price or better for the counterparty."""
+        h = self.history(hub, type_id, now)
+        if h is None:
+            return 1.0
+        if not len(h):
+            return 0.0
+        hit = h.lowest <= price * (1 + self.tol) if side == "buy" else h.highest >= price * (1 - self.tol)
+        return float(hit.mean())

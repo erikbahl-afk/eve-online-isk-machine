@@ -200,3 +200,22 @@
 - Unlisted: 3,642 Infomorph Decryption Keys (6 d) and 2,434 Void XL in Amarr. Thursday's cut login missed them; the next
   login lists them. No probe started: 6/6 slots full (Thursday decides). Idea for a slot: a "ship stuck imports back to Jita"
   exit mode, and a min-regional-history (≥1 sale/day) import filter (Monday).
+
+## 2026-11-08 · is the fill model realistic? (Sunday)
+- Calibration (7 d, inferred station ÷ official region units): top-60 Jita median 0.64, Amarr 0.65; a random 80 thin items
+  (<5 units/day, >5M) per hub: median 0.80 both. Implied bid share (official avg vs our best bid/ask) 22–27% vs inferred 18%
+  on thin items, 35–50% vs 26–46% on liquid ones. In aggregate the market inference does not over-count.
+- Our own fills do: of 34 paper fills (all portfolios) with official data for that day, 25 were at a price no official trade
+  reached (buys below the day's lowest, sells above its highest). Examples: 2993 bought at 382k for 3 days while every
+  trade was 646k; 13982 bid 26.6M vs low 38.5M; 1969 sold at 3.48M vs high 2.2M. Cause: in wide-spread markets most
+  vanished top bids are cancels, and gone_weight 0.8 credits them as fills at a price nobody traded at.
+- Changed: new `[sim] history_gate` (on) / `history_days = 14` and `market.PriceLevels`: every fill is scaled by the share of
+  recent trading days whose official low (our buys) or high (our sells) reached our price; 0 blocks the fill; ESI error = no
+  change. Test added; 22 pass. Back-test: 10 of 51 buy fills blocked, ISK-weighted reach 0.49 buys / 0.55 sells. Main's
+  fills 69M → 22M, start_1b_more_time 436M → 244M. Paper results so far are roughly 2x optimistic on fills; the gate applies
+  to every portfolio from tonight, so experiment comparisons stay fair from here (older fills are not rewritten).
+- Alerts. Liquidation 51% and Typhoon SKIN 8.6%: unchanged, known (Sat entry), hold. Tetryon XL bid (6,602, 15k units, 99M,
+  9 d): sellers hit the 6,601 bid on 2 of ~20 days (33k units on 29 Oct), asks trade at 11.3k: slow but real; keep.
+- Not done (budget): time-on-top vs observed, 1 h vs 2 h spacing, gone_weight probe. With the gate in place, the bid-side
+  gone_weight matters less; next Sunday measure fills/official volume per portfolio after a week of gated fills.
+- Next: Mon picks: the gate's reach (share of days at our price) is a natural pick filter for station bids; consider it.

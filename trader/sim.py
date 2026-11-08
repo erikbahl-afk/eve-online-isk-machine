@@ -116,12 +116,13 @@ class Sim:
         f = math.floor(x)
         return int(f + (self.rng.random() < x - f))
 
-    def apply_fills(self, hub, prints, stats, t0, t1):
+    def apply_fills(self, hub, prints, stats, t0, t1, levels=None):
         """Fill our open orders at `hub` from trades observed in (t0, t1].
 
         A buyer who paid >= our ask (or a seller who took <= our bid) would have hit us
         first, as long as no rival had undercut us yet; that survival decays with the
-        type's rival update rate (by time of day) since our last reprice.
+        type's rival update rate (by time of day) since our last reprice. With `levels`
+        (market.PriceLevels), fills are also scaled by how often official trades reached our price.
         """
         if prints is None or len(prints) == 0:
             return
@@ -141,7 +142,10 @@ class Sim:
                 if elig <= 0:
                     continue
                 surv = math.exp(-hazard(lam4_of(stats, o["type_id"], lside), o["updated"], tmid))
-                q = min(o["remain"], self._round(alpha * elig * surv))
+                reach = levels.reach(hub, o["type_id"], side, o["price"], t1) if levels is not None else 1.0
+                if reach <= 0:
+                    continue
+                q = min(o["remain"], self._round(alpha * elig * surv * reach))
                 if q <= 0:
                     continue
                 used[o["type_id"]] = used.get(o["type_id"], 0.0) + q / alpha

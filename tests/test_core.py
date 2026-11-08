@@ -91,6 +91,28 @@ def test_fill_and_session():
     assert not pf["orders"] and pf["pnl"]["realized"] > 0
 
 
+def test_history_gate_blocks_fills_nobody_traded_at():
+    from trader.market import PriceLevels
+    hist = pd.DataFrame({"date": ["1970-01-05", "1970-01-06", "1970-01-07", "1970-01-08"],
+                         "lowest": [100.0, 100.0, 80.0, 100.0], "highest": [120.0] * 4, "volume": [5, 5, 5, 5]})
+    lv = PriceLevels(None, {}, days=14, fetch=lambda hub, ty: hist)
+    t = 8 * 86400
+    assert lv.reach("jita", 7, "buy", 60.0, t) == 0.0     # bid below every official trade
+    assert lv.reach("jita", 7, "buy", 90.0, t) == 0.25    # one day in four traded down to 90
+    assert lv.reach("jita", 7, "sell", 130.0, t) == 0.0   # ask above every official trade
+    assert lv.reach("jita", 7, "sell", 110.0, t) == 1.0
+    assert PriceLevels(None, {}, fetch=lambda h, ty: None).reach("jita", 7, "buy", 1.0, t) == 1.0  # unknown: no change
+    pf = new_portfolio(CFG, 0)
+    sim = Sim(CFG, pf, Fees(CFG), np.random.default_rng(1), [])
+    sim.place_buy("jita", 7, 10, 60.0, 0)
+    stats = pd.DataFrame({f"lam_{s}{b}": [0.0] for s in "ab" for b in range(4)}, index=[7])
+    pr = pd.DataFrame({"type_id": [7], "side": ["bid"], "price": [59.0], "qty": [100.0]})
+    sim.apply_fills("jita", pr, stats, t - 7200, t, lv)
+    assert pf["orders"][0]["remain"] == 10                 # phantom fill blocked
+    sim.apply_fills("jita", pr, stats, t - 7200, t)
+    assert not pf["orders"] or pf["orders"][0]["remain"] < 10  # without the gate it would have filled
+
+
 def test_survival_by_time_of_day():
     from trader.sim import hazard, surv_avg
     w = np.zeros(24)

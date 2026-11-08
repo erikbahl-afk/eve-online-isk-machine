@@ -29,6 +29,8 @@ daily_min_isk = 1_000_000    # rows below this daily traded value are not stored
 
 [sim]
 alpha = 0.6                  # share of eligible observed trades we assume we'd have captured
+history_gate = true          # scale fills by how often official daily trades reached our price (phantom-fill guard)
+history_days = 14            # trading days looked back for that check
 logon_gap_hours = 48         # typical time between sessions (planning assumption)
 session_seconds = 1800
 partial_prob = 0.2           # chance a simulated session stops early
