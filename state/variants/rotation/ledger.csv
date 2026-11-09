@@ -27,3 +27,4 @@ t,event,hub,type_id,qty,price,cash_delta,note
 1794172982,jump,dodixie,0,0,0.0,0.0,
 1794172982,broker,dodixie,17715,0,0.0,-3025500.0,bid o13
 1794175207,buy_fill,jita,31998,1,40290.0,-40290.0,o9
+1794182408,buy_fill,jita,2311,2,2.44,-4.88,o12

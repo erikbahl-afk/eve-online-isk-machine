@@ -34,7 +34,7 @@
   }
  },
  "last_jump": 1794172982.5196922,
- "last_t": 1794175560.3689957,
+ "last_t": 1794182424.367624,
  "location": "amarr",
  "next_oid": 28,
  "orders": [
@@ -598,7 +598,7 @@
   "sales": 25344000.0,
   "tax": 855359.9999999998
  },
- "report_week": "2026-W45",
+ "report_week": "2026-W46",
  "start_isk": 5000000000,
  "version": 1,
  "visits": {

@@ -5,7 +5,7 @@ type_id,name,volume,group_id
 37,Isogen,0.01,18
 38,Nocxium,0.01,
 39,Zydrine,0.01,18
-40,Megacyte,0.01,
+40,Megacyte,0.01,18
 202,,0.05,386
 203,,0.05,386
 204,Inferno Cruise Missile,0.05,386
@@ -21,7 +21,7 @@ type_id,name,volume,group_id
 632,,10000,26
 633,,10000,26
 638,Raven,50000,27
-640,,50000,27
+640,Scorpion,50000,27
 641,,50000,
 642,Apocalypse,,
 644,Typhoon,50000,27
@@ -33,7 +33,7 @@ type_id,name,volume,group_id
 976,,0.01,
 990,Epithal Blueprint,0.01,108
 1183,,5,
-1230,,0.1,462
+1230,Veldspar,0.1,462
 1231,Hemorphite,,
 1319,Expanded Cargohold II,5,765
 1355,Reactor Control Unit II,,
@@ -91,6 +91,7 @@ type_id,name,volume,group_id
 2868,Integrity Response Drones,,
 2870,Organic Mortar Applicators,,
 2875,Sterile Conduits,50,1041
+2897,220mm Vulcan AutoCannon II,10,55
 2929,800mm Repeating Cannon II,20,
 2953,,20,
 2961,1400mm Howitzer Artillery II,,
@@ -140,7 +141,7 @@ type_id,name,volume,group_id
 3685,Hydrogen Batteries,1,280
 3693,,0.75,1034
 3695,Polytextiles,0.75,1034
-3756,,15000,
+3756,Gnosis,15000,419
 3775,Viral Agent,,
 3893,Mining Connections,0.01,
 3894,Distribution Connections,0.01,278
@@ -213,7 +214,7 @@ type_id,name,volume,group_id
 11172,Helios,2500,830
 11176,Crow,2500,
 11182,Cheetah,2500,
-11184,,2500,
+11184,Crusader,2500,831
 11186,Malediction,2500,
 11188,Anathema,2500,830
 11190,,2500,893
@@ -275,7 +276,7 @@ type_id,name,volume,group_id
 12003,Zealot,10000,358
 12005,Ishtar,10000,358
 12015,Muninn,10000,
-12019,,10000,358
+12019,Sacrilege,10000,358
 12023,Deimos,10000,
 12032,Manticore,2500,
 12034,,2500,
@@ -351,6 +352,7 @@ type_id,name,volume,group_id
 13809,Dark Blood Small Focused Beam Laser,5,53
 13815,Dark Blood Mega Pulse Laser,20,53
 13824,,10,
+13829,,5,53
 13832,True Sansha Mega Pulse Laser,20,
 13868,Shadow Serpentis 200mm Railgun,,
 13872,Shadow Serpentis 250mm Railgun,,
@@ -447,6 +449,7 @@ type_id,name,volume,group_id
 15592,Federation Navy Fleet Captain Insignia I,0.1,409
 15593,,0.1,409
 15594,Federation Navy Fleet Colonel Insignia I,0.1,409
+15604,Caldari Navy Admiral Insignia I,0.1,409
 15605,Caldari Navy Vice Admiral Insignia I,0.1,409
 15615,Imperial Navy General Insignia I,0.1,409
 15632,Republic Fleet Commander Insignia I,0.1,409
@@ -674,7 +677,7 @@ type_id,name,volume,group_id
 19202,Pith C-Type X-Large Shield Booster,50,40
 19203,Pith B-Type Large Shield Booster,25,
 19204,Pith B-Type X-Large Shield Booster,50,
-19205,,25,40
+19205,Pith A-Type Large Shield Booster,25,40
 19207,Pith X-Type Large Shield Booster,25,40
 19208,Pith X-Type X-Large Shield Booster,50,40
 19215,Pithum C-Type EM Shield Amplifier,5,295
@@ -755,7 +758,7 @@ type_id,name,volume,group_id
 20623,,50,
 20629,,10,
 20779,,0.0125,83
-20783,,0.0125,83
+20783,Domination EMP M,0.0125,83
 20855,True Sanshas Standard S,,
 21009,Capital Propulsion Engine,2000,
 21013,Capital Sensor Cluster,2000,
@@ -779,7 +782,7 @@ type_id,name,volume,group_id
 21740,Caldari Navy Antimatter Charge L,0.025,85
 21802,Capital Shield Operation,,
 21815,Elite Drone AI,0.01,886
-21888,Shield Command Mindlink,1,
+21888,Shield Command Mindlink,1,744
 21890,Skirmish Command Mindlink,1,744
 21894,Republic Fleet EMP L,0.025,
 21896,,0.0125,
@@ -790,7 +793,7 @@ type_id,name,volume,group_id
 21926,Republic Fleet Proton L,,
 22109,Mid-grade Crystal Delta,1,
 22110,Mid-grade Crystal Epsilon,1,300
-22111,Mid-grade Crystal Gamma,1,
+22111,Mid-grade Crystal Gamma,1,300
 22112,Mid-grade Crystal Omega,1,
 22119,,1,
 22120,Mid-grade Amulet Beta,1,
@@ -831,6 +834,7 @@ type_id,name,volume,group_id
 23007,Federation Navy Iron Charge L,,
 23009,Caldari Navy Antimatter Charge S,0.0025,
 23025,Caldari Navy Antimatter Charge M,0.0125,85
+23047,Caldari Navy Lead Charge L,,
 23055,Templar I,1000,1652
 23061,Einherji I,1000,1652
 23071,,1,
@@ -1231,7 +1235,7 @@ type_id,name,volume,group_id
 33846,Dread Guristas Drone Damage Amplifier,5,645
 33852,,25,644
 33894,Medium Transverse Bulkhead I,10,
-33896,Medium Transverse Bulkhead II,10,
+33896,Medium Transverse Bulkhead II,10,773
 33898,,20,
 33900,Large Transverse Bulkhead II,20,773
 33904,Capital Transverse Bulkhead II,40,
@@ -1482,7 +1486,7 @@ type_id,name,volume,group_id
 47915,Veles Light Entropic Disintegrator,5,1986
 47916,Heavy Compact Entropic Disintegrator,10,1986
 47917,,10,
-47918,,10,1986
+47918,Heavy Entropic Disintegrator II,10,1986
 47919,Veles Heavy Entropic Disintegrator,10,
 47923,,20,
 47924,Baryon Exotic Plasma S,,
@@ -1636,7 +1640,7 @@ type_id,name,volume,group_id
 60464,Exigent Heavy Drone Firepower Mutaplasmid,1,1964
 60470,Exigent Sentry Drone Projection Mutaplasmid,1,
 60472,,1,1964
-60473,,1,1964
+60473,Exigent Medium Drone Firepower Mutaplasmid,1,1964
 60476,Radical Drone Damage Amplifier Mutaplasmid,,
 60515,,0.01,
 60575,Quafe Zero Green Apple,1,
@@ -1666,6 +1670,7 @@ type_id,name,volume,group_id
 62516,Compressed Veldspar,0.001,462
 62517,Compressed Veldspar II-Grade,,
 62518,Compressed Veldspar III-Grade,0.001,462
+62519,Compressed Veldspar IV-Grade,0.001,462
 62520,Compressed Scordite,0.0015,460
 62521,Compressed Scordite II-Grade,0.0015,460
 62522,Compressed Scordite III-Grade,0.0015,460
@@ -1704,13 +1709,14 @@ type_id,name,volume,group_id
 72913,Imicus Navy Issue,,
 73455,Prophecy Sanguinary Savant SKIN,,
 73466,Paladin Order of Tetrimon SKIN,0.01,
-73789,Coercer Navy Issue,5000,
+73789,Coercer Navy Issue,5000,420
 73794,,5000,
 73795,Cormorant Navy Issue,5000,
 73796,,5000,
 74160,,0.01,
 75275,,0.001,4513
 75276,Compressed Mordunium II-Grade,0.001,4513
+75277,,0.001,4513
 75278,Compressed Mordunium IV-Grade,0.001,4513
 75279,,0.006,4514
 75287,Compressed Ducinium,,
@@ -1740,6 +1746,7 @@ type_id,name,volume,group_id
 82184,Thrasher Fleet Issue Republic Police SKIN,,
 82301,Compressed Kylixium II-Grade,,
 82302,Compressed Kylixium III-Grade,,
+82303,,0.012,4755
 83467,Angel NET Resonator,1,334
 83468,Blood Raider NET Resonator,1,334
 83469,Guristas NET Resonator,1,334
@@ -1817,6 +1824,7 @@ type_id,name,volume,group_id
 92462,Darter TP-600-I,10,
 92463,,25,
 92466,Atlas SD-900-I,,
+92468,Immaculate TD-600-I,10,5239
 92469,Torafugu TD-900-I,,
 92541,Capital Disintegrator Specialization,0.01,255
 92572,Crystalline Kangite,,
@@ -1845,7 +1853,7 @@ type_id,name,volume,group_id
 96318,,0.01,1950
 96320,Coercer Sanguinary Savant SKIN,0.01,1950
 96321,Salvation Sanguinary Savant SKIN,,
-96326,Captured Bioadaptive Cache,1,
+96326,Captured Bioadaptive Cache,1,1194
 96543,Potent 'Radiance' Cerebral Accelerator,1,303
 96544,Extended 'Radiance' Cerebral Accelerator,1,303
 96556,,1,
