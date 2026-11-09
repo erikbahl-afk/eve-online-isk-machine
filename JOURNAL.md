@@ -234,5 +234,5 @@
 - Alert, stale Infomorph Decryption Keys (3,642, 8.6 d) and Void XL: never listed because a 45 s listing of a 12M stack is under
   min_step_value at 4.9B. New `list_after_days = 3`: stock older than that is always listed. Keys cost 3,356 vs avg 3,526.
 - Alert, Tetryon XL idle bid (99M, 11 d): reach about 10%, under the new bar → avoid until 11-20 (bid cancelled). Liquidation 50% and
-  Typhoon SKIN 8.6%: unchanged legacy imports (Sat entry), hold. Tests: 26 pass.
+  Typhoon SKIN 8.6%: unchanged legacy imports (Sat entry), hold. Tests: 24 pass (2 new).
 - Next: Tue: does reach shrink station profit/day in the summary, and by how much? Thu: a probe of pick_min_reach 0.15 vs 0.4.
