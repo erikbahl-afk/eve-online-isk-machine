@@ -18,6 +18,7 @@ type_id,name,volume,group_id
 620,,10000,26
 621,,10000,26
 622,Stabber,,
+626,,10000,26
 627,,10000,
 630,Bellicose,,
 632,,10000,26
@@ -332,6 +333,7 @@ type_id,name,volume,group_id
 13220,Inherent Implants 'Lancer' Medium Energy Turret ME-803,,
 13221,Zainou 'Deadeye' Medium Hybrid Turret MH-803,1,742
 13222,Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-803,,
+13237,Eifyr and Co. 'Rogue' Navigation NN-603,1,747
 13240,Eifyr and Co. 'Rogue' Evasive Maneuvering EM-703,1,
 13242,Eifyr and Co. 'Rogue' Warp Drive Speed WS-610,1,
 13243,,1,
@@ -580,7 +582,7 @@ type_id,name,volume,group_id
 17726,,50000,
 17736,Nightmare,50000,27
 17738,Machariel,,
-17769,,0.2,428
+17769,Fluxed Condensates,0.2,428
 17772,Small AutoCannon Battery,,
 17843,Vexor Navy Issue,10000,26
 17871,,1,738
@@ -805,7 +807,7 @@ type_id,name,volume,group_id
 22111,Mid-grade Crystal Gamma,1,300
 22112,Mid-grade Crystal Omega,1,
 22119,Mid-grade Amulet Alpha,1,300
-22120,Mid-grade Amulet Beta,1,
+22120,Mid-grade Amulet Beta,1,300
 22121,Mid-grade Amulet Delta,1,300
 22122,Mid-grade Amulet Epsilon,1,300
 22123,Mid-grade Amulet Gamma,1,300
@@ -1491,6 +1493,7 @@ type_id,name,volume,group_id
 47891,Chaotic Exotic Filament,0.1,1979
 47895,Chaotic Dark Filament,,
 47897,,0.1,
+47899,Chaotic Firestorm Filament,0.1,1979
 47901,,0.1,
 47902,Raging Gamma Filament,0.1,1979
 47904,,0.1,
@@ -1652,6 +1655,7 @@ type_id,name,volume,group_id
 60291,Variegated Asteroid Mining Crystal Type A I,6,
 60292,,6,
 60294,Variegated Asteroid Mining Crystal Type A II,10,482
+60295,Variegated Asteroid Mining Crystal Type B II,10,482
 60297,,6,
 60300,,10,
 60311,Mercoxit Asteroid Mining Crystal Type B II,10,663
@@ -1674,7 +1678,7 @@ type_id,name,volume,group_id
 62400,Compressed Fullerite-C84,,
 62402,Compressed Fullerite-C28,0.2,4168
 62403,Compressed Fullerite-C72,,
-62404,Compressed Fullerite-C32,,
+62404,Compressed Fullerite-C32,0.5,4168
 62405,Compressed Fullerite-C540,,
 62450,Shipboard Compression Technology,,
 62454,Compressed Bitumens,0.1,1884
