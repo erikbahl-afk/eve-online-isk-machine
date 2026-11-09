@@ -3,13 +3,13 @@
 
 # Session checklist
 
-**Updated:** Mon 09 Nov 00:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Mon 09 Nov 00:41 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 20 · **Est. time:** 18 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
 
-_Left out 8 small steps worth less than 976.50k per minute of your time (0.02% of net worth per minute)._
+_Left out 9 small steps worth less than 976.50k per minute of your time (0.02% of net worth per minute)._
 
 Each hub's steps come in **priority blocks**: finish Block 1 before anything else, and stop wherever your time runs out. Within a block, steps follow the in-game windows for speed.
 
@@ -64,11 +64,11 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 8 | ☐ Compressed Gneiss IV-Grade | 6,325 | **2,451** | 2,518 | 2,450 |
+| 8 | ☐ Compressed Gneiss IV-Grade | 5,048 | **2,451** | 2,518 | 2,450 |
 | 9 | ☐ Cultural Semiosis Data | 6 | **55,230,000** | 57,440,000 | 55,220,000 |
-| 10 | ☐ Daily Alpha Injector | 13 | **28,550,000** | 29,380,000 | 28,540,000 |
-| 11 | ☐ Gistum A-Type 50MN Microwarpdrive | 1 | **269,600,000** | 334,200,000 | 269,500,000 |
-| 12 | ☐ Glorified Unstable Large Remote Armor Repairer Mutaplasmid | 1 | **153,300,000** | 210,200,000 | 153,200,000 |
+| 10 | ☐ Daily Alpha Injector | 13 | **28,560,000** | 29,380,000 | 28,550,000 |
+| 11 | ☐ Gistum A-Type 50MN Microwarpdrive | 1 | **270,600,000** | 334,200,000 | 270,500,000 |
+| 12 | ☐ Glorified Unstable Large Remote Armor Repairer Mutaplasmid | 1 | **155,300,000** | 210,200,000 | 155,200,000 |
 
 ### Block 2 · should do · about 4 min
 
@@ -96,14 +96,14 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 18 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,612,000** | 3,729,000 | 3,611,000 |
+| 18 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,612,000** | 3,728,000 | 3,611,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 19 | ☐ Compressed Mordunium II-Grade | 46 | **17.85** | 21.93 | 17.84 |
+| 19 | ☐ Compressed Mordunium II-Grade | 42 | **17.86** | 21.93 | 17.85 |
 | 20 | ☐ Compressed Zeolites | 1 | **1,315** | 1,320 | 1,314 |
 
 ---
