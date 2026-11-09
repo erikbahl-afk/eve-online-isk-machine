@@ -73,3 +73,4 @@ t,event,hub,type_id,qty,price,cash_delta,note
 1794172982,broker,amarr,92818,0,0.0,-100,bid o27
 1794175207,sell_fill,jita,12076,6,4224000.0,24488640.0,o24
 1794175207,buy_fill,jita,12076,1,3606000.0,-3606000.0,o19
+1794196809,buy_fill,jita,62555,1,2451.0,-2451.0,o23

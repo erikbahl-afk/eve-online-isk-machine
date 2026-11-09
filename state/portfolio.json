@@ -30,11 +30,17 @@
     "qty": 1,
     "since": 1794175207.0,
     "tag": "station"
+   },
+   "62555": {
+    "cost": 2451.0,
+    "qty": 1,
+    "since": 1794196809.0,
+    "tag": "station"
    }
   }
  },
  "last_jump": 1794172982.5196922,
- "last_t": 1794189626.3275456,
+ "last_t": 1794196825.5258353,
  "location": "amarr",
  "next_oid": 28,
  "orders": [
@@ -229,18 +235,6 @@
   {
    "created": 1794172982.5196922,
    "hub": "jita",
-   "oid": 23,
-   "price": 2451.0,
-   "qty": 1,
-   "remain": 1,
-   "side": "buy",
-   "tag": "station",
-   "type_id": 62555,
-   "updated": 1794172982.5196922
-  },
-  {
-   "created": 1794172982.5196922,
-   "hub": "jita",
    "oid": 25,
    "price": 20.16,
    "qty": 5,
@@ -285,7 +279,7 @@
    "sales": 0.0
   },
   "station": {
-   "buys": 43821352.0,
+   "buys": 43823803.0,
    "fees": 25928772.1,
    "realized": -22632132.1,
    "sales": 25344000.0
@@ -549,8 +543,8 @@
    "sold_units": 0
   },
   "jita:62555": {
-   "bought_isk": 0.0,
-   "bought_units": 0,
+   "bought_isk": 2451.0,
+   "bought_units": 1,
    "fees": 100.0,
    "realized": -100.0,
    "sold_net": 0.0,
@@ -591,7 +585,7 @@
  },
  "pnl": {
   "broker": 114445986.1,
-  "buys": 3008456664.0,
+  "buys": 3008459115.0,
   "courier": 138000000.0,
   "realized": -117512172.1,
   "relist": 6362825.999999998,

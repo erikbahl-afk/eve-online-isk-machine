@@ -221,7 +221,7 @@ type_id,name,volume,group_id
 11192,Buzzard,2500,830
 11194,,2500,
 11196,Claw,2500,831
-11198,Stiletto,,
+11198,Stiletto,2500,831
 11200,,2500,
 11202,,2500,831
 11325,,20,329
@@ -892,7 +892,7 @@ type_id,name,volume,group_id
 25609,Nanite Compound,,
 25619,Logic Circuit,0.01,
 25624,Intact Armor Plates,0.01,754
-25715,,10,
+25715,Heavy Assault Missile Launcher II,10,771
 25718,,0.01,
 25736,Large EM Armor Reinforcer I,,
 25812,Gas Cloud Scoop II,5,737
@@ -1009,6 +1009,7 @@ type_id,name,volume,group_id
 28334,,0.0125,
 28362,Drone Capillary Fluid,0.02,886
 28363,,0.03,886
+28364,,0.07,886
 28375,,10,
 28377,Caldari Navy Heavy Assault Missile Launcher,10,
 28379,Domination Heavy Assault Missile Launcher,,
@@ -1162,7 +1163,7 @@ type_id,name,volume,group_id
 31902,Federation Navy 1600mm Steel Plates,20,329
 31904,,10,
 31910,Federation Navy 400mm Steel Plates,10,329
-31918,Federation Navy 800mm Steel Plates,20,
+31918,Federation Navy 800mm Steel Plates,20,329
 31922,Caldari Navy Small Shield Extender,5,
 31926,Caldari Navy Medium Shield Extender,10,38
 31928,Republic Fleet Medium Shield Extender,10,38
@@ -1420,7 +1421,7 @@ type_id,name,volume,group_id
 45614,Tengu Propulsion - Chassis Optimization,40,957
 45615,Tengu Propulsion - Fuel Catalyst,40,957
 45617,,40,
-45618,Proteus Propulsion - Localized Injectors,40,
+45618,Proteus Propulsion - Localized Injectors,40,957
 45619,Loki Propulsion - Interdiction Nullifier,,
 45620,Loki Propulsion - Intercalated Nanofibers,40,
 45621,Loki Propulsion - Wake Limiter,40,957
@@ -1529,7 +1530,7 @@ type_id,name,volume,group_id
 52312,Zero-Point Field Manipulator,1,334
 52313,Trinary State Processor,1,334
 52562,,0.01,
-52568,,0.01,
+52568,HyperCore,0.01,526
 52694,Industrial Cynosural Field Generator,25,
 52916,,0.01,1987
 52919,High-grade Mimesis Delta,1,
@@ -1554,6 +1555,7 @@ type_id,name,volume,group_id
 53856,Low-grade Nirvana Delta,,
 53893,High-grade Savior Delta,,
 53894,High-grade Savior Epsilon,,
+53983,Signal-25 'Needlejack' Filament,0.1,4041
 54162,,1,1194
 54398,Mid-grade Hydra Alpha,,
 54399,Mid-grade Hydra Beta,,
@@ -1666,7 +1668,7 @@ type_id,name,volume,group_id
 62457,,0.1,1884
 62459,,0.1,1884
 62460,Compressed Sylvite,0.1,1884
-62461,Compressed Brimful Sylvite,,
+62461,Compressed Brimful Sylvite,0.1,1884
 62463,Compressed Zeolites,0.1,1884
 62464,Compressed Brimful Zeolites,0.1,1884
 62467,Compressed Glistening Zeolites,0.1,1884
@@ -1708,7 +1710,7 @@ type_id,name,volume,group_id
 64380,Men's Amarr Courtly Robe,,
 72812,Ferox Navy Issue,15000,419
 72869,Myrmidon Navy Issue,,
-72904,Heron Navy Issue,2500,
+72904,Heron Navy Issue,2500,25
 72913,Imicus Navy Issue,,
 73455,Prophecy Sanguinary Savant SKIN,,
 73466,Paladin Order of Tetrimon SKIN,0.01,
