@@ -599,7 +599,7 @@ type_id,name,volume,group_id
 17924,Succubus,2500,25
 17928,Daredevil,2500,25
 17930,Worm,2500,
-17932,Dramiel,2500,
+17932,Dramiel,2500,25
 18054,Mercoxit Asteroid Mining Crystal Type A I,6,
 18068,,5,
 18580,Tycoon,,
@@ -760,10 +760,11 @@ type_id,name,volume,group_id
 20443,Ogdin's Eye Coordination Enhancer,1,
 20499,,1,
 20501,High-grade Amulet Beta,,
+20503,High-grade Amulet Delta,1,300
 20504,High-grade Halo Epsilon,,
 20507,High-grade Amulet Gamma,1,
 20508,High-grade Halo Omega,1,
-20509,High-grade Amulet Omega,,
+20509,High-grade Amulet Omega,1,300
 20528,Minmatar Freighter,,
 20565,Improved 'Guise' Cloaking Device II,100,330
 20567,'Dyad' Co-Processor I,5,
@@ -838,7 +839,7 @@ type_id,name,volume,group_id
 22611,Elara Restrained Mining Laser Upgrade,5,546
 22613,'Carpo' Mining Laser Upgrade,5,546
 22619,Frigoris Restrained Ice Harvester Upgrade,5,546
-22778,Warp Disrupt Probe,5,
+22778,Warp Disrupt Probe,5,548
 22782,Interdiction Sphere Launcher I,,
 22875,,5,
 22895,,5,
@@ -884,7 +885,7 @@ type_id,name,volume,group_id
 24531,Nova Fury Cruise Missile,,
 24535,,0.05,
 24539,,0.05,
-24632,,1,
+24632,Zainou 'Deadeye' Guided Missile Precision GP-803,1,746
 24640,Zainou 'Deadeye' Guided Missile Precision GP-805,,
 24663,Zor's Custom Navigation Hyper-Link,,
 24692,,50000,
@@ -1291,7 +1292,7 @@ type_id,name,volume,group_id
 34496,,500,
 34562,Svipul,5000,1305
 34575,Antikythera Element,0.1,1314
-34590,Victorieux Luxury Yacht,,
+34590,Victorieux Luxury Yacht,10000,5087
 34593,Entosis Link I,20,
 34631,Rokh Wiyrkomi SKIN,,
 34828,Jackdaw,5000,1305
@@ -1420,6 +1421,7 @@ type_id,name,volume,group_id
 43694,'Augmented' Mining Drone,5,101
 43700,Ice Harvesting Drone II,,
 43701,'Augmented' Ice Harvesting Drone,50,
+43775,ORE Mining Director Mindlink,1,744
 43880,Standup M-Set Invention Accelerator I,,
 43898,,20,
 44102,,5,512
@@ -1558,7 +1560,7 @@ type_id,name,volume,group_id
 52997,Precursor Dreadnought,,
 53290,Capital Trinary State Processor,,
 53291,Dreadnought Systems Diagram,0.1,526
-53299,,0.1,526
+53299,Zirnitra Blueprint Data Vault,0.1,526
 53301,Tetryon Exotic Plasma XL,,
 53302,Meson Exotic Plasma XL,0.01,1987
 53374,,0.01,
@@ -1567,7 +1569,7 @@ type_id,name,volume,group_id
 53707,Mid-grade Nirvana Epsilon,,
 53708,Mid-grade Nirvana Gamma,1,300
 53709,Mid-grade Nirvana Omega,1,
-53710,High-grade Nirvana Alpha,,
+53710,High-grade Nirvana Alpha,1,300
 53711,High-grade Nirvana Beta,1,
 53712,High-grade Nirvana Delta,1,300
 53713,High-grade Nirvana Epsilon,1,
@@ -1911,7 +1913,7 @@ type_id,name,volume,group_id
 97265,Criterion Cipher,,
 97422,Vedmak Blood Raiders Crimson Mark SKIN,,
 97424,,0.01,
-97431,Leshak Blood Raiders Crimson Mark SKIN,0.01,
+97431,Leshak Blood Raiders Crimson Mark SKIN,0.01,1950
 97436,Kikimora Tetrimon Crimson Mark SKIN,,
 97437,Ikitursa Tetrimon Crimson Mark SKIN,,
 97516,Akoman Blueprint Crate,1,1194
