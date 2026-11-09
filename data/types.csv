@@ -381,7 +381,7 @@ type_id,name,volume,group_id
 13954,,50,
 13956,True Sansha Large Armor Repairer,50,62
 13957,Dark Blood Large Armor Repairer,50,
-13960,,10,
+13960,Dark Blood Medium Armor Repairer,10,62
 13965,,5,77
 13969,Dread Guristas Multispectrum Shield Hardener,5,77
 13970,,5,328
@@ -487,7 +487,7 @@ type_id,name,volume,group_id
 15862,Imperial Navy Mega Pulse Laser,20,53
 15863,Imperial Navy Mega Beam Laser,,
 15887,Caldari Navy Warp Scrambler,5,52
-15889,Caldari Navy Warp Disruptor,5,
+15889,Caldari Navy Warp Disruptor,5,52
 15893,,5,
 15895,Federation Navy Magnetic Field Stabilizer,5,302
 15897,Caldari Navy X-Large Shield Booster,50,
@@ -912,7 +912,7 @@ type_id,name,volume,group_id
 25888,,20,
 25890,Large Kinetic Armor Reinforcer I,20,
 25892,Large Thermal Armor Reinforcer I,20,
-25894,Large Trimark Armor Pump I,,
+25894,Large Trimark Armor Pump I,20,773
 25896,,20,
 25956,,20,
 26020,Large Warhead Rigor Catalyst I,20,
@@ -1170,7 +1170,7 @@ type_id,name,volume,group_id
 31882,,10,
 31884,Federation Navy Ogre,25,
 31888,,5,
-31890,,10,
+31890,Republic Fleet Valkyrie,10,100
 31900,Imperial Navy 1600mm Steel Plates,20,329
 31902,Federation Navy 1600mm Steel Plates,20,329
 31904,,10,
@@ -1451,7 +1451,7 @@ type_id,name,volume,group_id
 45856,Golem Exoplanets Hunter SKIN,0.01,
 45866,Bustard Exoplanets Hunter SKIN,,
 45999,Agency 'Pyrolancea' DB5 Dose II,1,303
-46000,Agency 'Pyrolancea' DB7 Dose III,,
+46000,Agency 'Pyrolancea' DB7 Dose III,1,303
 46002,Agency 'Hardshell' TB5 Dose II,1,
 46003,Agency 'Hardshell' TB7 Dose III,1,
 46005,Agency 'Overclocker' SB5 Dose II,1,303

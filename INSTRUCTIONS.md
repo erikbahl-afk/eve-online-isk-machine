@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Mon 09 Nov 01:49 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Mon 09 Nov 02:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 19 · **Est. time:** 17 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -65,7 +65,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 8 | ☐ Compressed Gneiss IV-Grade | 156,529 | **2,451** | 2,518 | 2,450 |
-| 9 | ☐ Cultural Semiosis Data | 6 | **55,230,000** | 57,390,000 | 55,220,000 |
+| 9 | ☐ Cultural Semiosis Data | 6 | **55,230,000** | 57,380,000 | 55,220,000 |
 | 10 | ☐ Gistum A-Type 50MN Microwarpdrive | 1 | **270,600,000** | 334,100,000 | 270,500,000 |
 | 11 | ☐ Glorified Unstable Large Remote Armor Repairer Mutaplasmid | 1 | **155,300,000** | 210,200,000 | 155,200,000 |
 | 12 | ☐ Imperial Navy Mega Pulse Laser | 1 | **89,110,000** | 116,100,000 | 89,100,000 |
