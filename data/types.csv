@@ -291,6 +291,7 @@ type_id,name,volume,group_id
 12044,,2500,
 12054,,50,
 12058,,5,
+12066,100MN Afterburner I,,
 12076,50MN Microwarpdrive II,10,46
 12084,500MN Microwarpdrive II,10,46
 12102,Large Remote Capacitor Transmitter II,,
@@ -595,7 +596,7 @@ type_id,name,volume,group_id
 17894,High-Tech Scanner,0.01,
 17895,High-Tech Manufacturing Tools,0.01,
 17912,Modulated Strip Miner II,,
-17918,Rattlesnake,50000,
+17918,Rattlesnake,50000,27
 17922,,10000,26
 17924,Succubus,2500,25
 17928,Daredevil,2500,25
@@ -672,6 +673,7 @@ type_id,name,volume,group_id
 19119,Corpus X-Type Heavy Energy Nosferatu,5,
 19141,Gistum C-Type Medium Remote Shield Booster,,
 19143,Gistum B-Type Medium Remote Shield Booster,,
+19149,Pithum B-Type Medium Remote Shield Booster,10,41
 19151,Pithum A-Type Medium Remote Shield Booster,10,41
 19171,,5,
 19175,,5,
@@ -791,6 +793,7 @@ type_id,name,volume,group_id
 21478,50MN Digital Booster Microwarpdrive,,
 21486,,5,
 21510,'Interruptive' Warp Disruptor,5,52
+21512,'Delineative' Warp Scrambler,5,52
 21540,'Inception' Target Painter,5,
 21569,Sleeper Profound Research Notes,1,
 21640,,10,100
@@ -801,7 +804,7 @@ type_id,name,volume,group_id
 21815,Elite Drone AI,0.01,886
 21888,Shield Command Mindlink,1,744
 21890,Skirmish Command Mindlink,1,744
-21894,Republic Fleet EMP L,0.025,
+21894,Republic Fleet EMP L,0.025,83
 21896,,0.0125,
 21898,Republic Fleet EMP S,0.0025,
 21902,,0.025,83
@@ -901,7 +904,7 @@ type_id,name,volume,group_id
 25544,Gas Cloud Harvesting,0.01,
 25563,,5,
 25590,Contaminated Nanite Compound,0.01,754
-25591,Contaminated Lorentz Fluid,0.01,
+25591,Contaminated Lorentz Fluid,0.01,754
 25594,Tangled Power Conduit,0.01,754
 25601,Fried Interface Circuit,0.01,754
 25604,,0.01,
@@ -1124,6 +1127,7 @@ type_id,name,volume,group_id
 31113,Medium Auxiliary Thrusters II,10,782
 31119,Medium Cargohold Optimization I,10,782
 31123,Small Cargohold Optimization II,5,782
+31161,Medium Hyperspatial Velocity Optimizer I,10,782
 31167,Medium Hyperspatial Velocity Optimizer II,10,782
 31171,Small Low Friction Nozzle Joints II,5,782
 31173,Medium Low Friction Nozzle Joints II,10,782
@@ -1188,6 +1192,7 @@ type_id,name,volume,group_id
 31928,Republic Fleet Medium Shield Extender,10,38
 31930,Caldari Navy Large Shield Extender,20,38
 31932,Republic Fleet Large Shield Extender,20,38
+31936,Navy Micro Auxiliary Power Core,20,339
 31942,Federation Navy Omnidirectional Tracking Link,5,646
 31944,Republic Fleet Target Painter,5,379
 31946,Imperial Navy Large Remote Capacitor Transmitter,25,
@@ -1223,7 +1228,7 @@ type_id,name,volume,group_id
 33359,Photonic Metamaterials,1,429
 33360,Terahertz Metamaterials,1,429
 33361,Plasmonic Metamaterials,1,
-33362,Nonlinear Metamaterials,1,
+33362,Nonlinear Metamaterials,1,429
 33393,Genolution Core Augmentation CA-3,1,
 33400,,200,
 33406,Caldari Navy Command Mindlink,,
@@ -1817,6 +1822,7 @@ type_id,name,volume,group_id
 88716,Xarasier Medium Ancillary Shield Booster,,
 89156,Vigilance Resonance Key,0.1,474
 89485,,0.01,
+89607,Odysseus,50000,4902
 89615,Expedition Command Burst II,60,
 89647,Pioneer Consortium Issue,5000,420
 89648,Venture Consortium Issue,2500,25
