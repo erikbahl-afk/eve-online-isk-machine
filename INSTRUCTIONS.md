@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Sun 08 Nov 17:44 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 17 · **Est. time:** 16 min. Work top to bottom; stop any time.  
+**Updated:** Sun 08 Nov 18:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 16 · **Est. time:** 15 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -41,7 +41,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 5 | ☐ Mutated Blood Sample | 2,113 | **65,390** | 77,650 | 65,380 |
+| 5 | ☐ Mutated Blood Sample | 2,121 | **65,390** | 77,650 | 65,380 |
 
 ### Block 3 · if there's time · about 1 min
 _Short on time? Skip to the jump (step 7): the next hub's Block 1 is worth more per minute than the rest of this hub._
@@ -68,18 +68,17 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 | 8 | ☐ Clone Soldier Transporter Tag | 9 | **28,020,000** | 31,360,000 | 28,010,000 |
 | 9 | ☐ Cultural Semiosis Data | 6 | **55,220,000** | 59,130,000 | 55,210,000 |
 | 10 | ☐ Daily Alpha Injector | 13 | **28,320,000** | 29,570,000 | 28,310,000 |
-| 11 | ☐ Promethium | 918 | **46,530** | 47,180 | 46,520 |
+| 11 | ☐ Promethium | 907 | **46,530** | 47,170 | 46,520 |
 
-### Block 2 · should do · about 3 min
+### Block 2 · should do · about 2 min
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 12 | ☐ Compressed Mordunium II-Grade | 1,726 | **18.02** | 21.93 | 18.01 |
-| 13 | ☐ Corpus B-Type Explosive Armor Hardener | 2 | **79,970,000** | 88,400,000 | 79,960,000 |
-| 14 | ☐ Pith X-Type X-Large Shield Booster | 1 | **203,700,000** | 216,400,000 | 203,600,000 |
+| 12 | ☐ Corpus B-Type Explosive Armor Hardener | 2 | **79,970,000** | 88,400,000 | 79,960,000 |
+| 13 | ☐ Pith X-Type X-Large Shield Booster | 1 | **203,700,000** | 216,300,000 | 203,600,000 |
 
 ### Block 3 · if there's time · about 2 min
 
@@ -88,21 +87,21 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 15 | ☐ Antikythera Element | 996,000 | **993,500** | 884,200 | 993,600 |
+| 14 | ☐ Antikythera Element | 996,000 | **993,500** | 884,200 | 993,600 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 16 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,608,000** | 3,721,000 | 3,607,000 |
+| 15 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,608,000** | 3,721,000 | 3,607,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 17 | ☐ Reactive Gas | 1 | **2.45** | 4.29 | 2.44 |
+| 16 | ☐ Compressed Mordunium II-Grade | 1,099 | **18.02** | 21.93 | 18.01 |
 
 ---
 Wallet 1.62B · escrow 140.92M · stock 3.13B · in transit 0.00 · net worth 4.88B (liquidation 2.48B)
