@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Mon 09 Nov 02:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Mon 09 Nov 04:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 19 · **Est. time:** 17 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -64,7 +64,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 8 | ☐ Compressed Gneiss IV-Grade | 156,529 | **2,451** | 2,518 | 2,450 |
+| 8 | ☐ Compressed Gneiss IV-Grade | 156,513 | **2,451** | 2,518 | 2,450 |
 | 9 | ☐ Cultural Semiosis Data | 6 | **55,230,000** | 57,380,000 | 55,220,000 |
 | 10 | ☐ Gistum A-Type 50MN Microwarpdrive | 1 | **270,600,000** | 334,100,000 | 270,500,000 |
 | 11 | ☐ Glorified Unstable Large Remote Armor Repairer Mutaplasmid | 1 | **155,300,000** | 210,200,000 | 155,200,000 |
@@ -77,9 +77,9 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 13 | ☐ Compressed Zeolites | 1 | **1,315** | 1,318 | 1,314 |
+| 13 | ☐ Compressed Zeolites | 1 | **1,315** | 1,315 | 1,314 |
 | 14 | ☐ Coreli B-Type 1MN Afterburner | 2 | **29,110,000** | 36,500,000 | 29,100,000 |
-| 15 | ☐ Corpus B-Type Explosive Armor Hardener | 2 | **79,970,000** | 88,400,000 | 79,960,000 |
+| 15 | ☐ Corpus B-Type Explosive Armor Hardener | 2 | **79,990,000** | 88,400,000 | 79,980,000 |
 | 16 | ☐ Low-grade Crystal Beta | 1 | **48,010,000** | 66,260,000 | 48,000,000 |
 
 ### Block 3 · if there's time · about 2 min
@@ -89,7 +89,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 17 | ☐ Antikythera Element | 996,000 | **989,900** | 884,200 | 990,000 |
+| 17 | ☐ Antikythera Element | 996,000 | **989,300** | 884,200 | 989,400 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
@@ -103,7 +103,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 19 | ☐ Compressed Mordunium II-Grade | 45 | **17.87** | 21.93 | 17.86 |
+| 19 | ☐ Compressed Mordunium II-Grade | 2 | **17.88** | 21.93 | 17.87 |
 
 ---
 Wallet 1.62B · escrow 140.91M · stock 3.13B · in transit 0.00 · net worth 4.88B (liquidation 2.48B)

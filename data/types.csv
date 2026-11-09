@@ -134,6 +134,7 @@ type_id,name,volume,group_id
 3256,,1,
 3257,Inherent Implants 'Squire' Power Grid Management EG-604,1,741
 3265,Zainou 'Gypsy' CPU Management EE-602,1,
+3475,Inherent Implants 'Noble' Mechanic MC-806,1,738
 3488,,5,
 3520,,10,
 3534,CONCORD Capital Armor Repairer,1000,62
@@ -325,6 +326,7 @@ type_id,name,volume,group_id
 12807,,0.025,373
 12816,Conflagration L,1,375
 12818,Scorch M,,
+12820,Scorch L,1,375
 13209,Armored Command Mindlink,1,744
 13216,Zainou 'Gypsy' CPU Management EE-603,1,741
 13217,Inherent Implants 'Lancer' Large Energy Turret LE-1003,,
@@ -1071,7 +1073,7 @@ type_id,name,volume,group_id
 28844,Rhea,,
 29015,Targeting Range Dampening Script,,
 29336,,10000,26
-29337,Augoror Navy Issue,,
+29337,Augoror Navy Issue,10000,26
 29340,,10000,
 29344,,10000,
 29984,Tengu,5000,963
@@ -1220,6 +1222,7 @@ type_id,name,volume,group_id
 33393,Genolution Core Augmentation CA-3,1,
 33400,,200,
 33406,Caldari Navy Command Mindlink,,
+33446,Caldari Navy Rapid Heavy Missile Launcher,20,1245
 33450,Rapid Heavy Missile Launcher II,20,
 33452,Domination Rapid Heavy Missile Launcher,20,
 33453,,20,1245
