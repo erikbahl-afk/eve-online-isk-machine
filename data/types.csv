@@ -14,6 +14,8 @@ type_id,name,volume,group_id
 438,,5,
 448,Warp Scrambler II,5,52
 519,Gyrostabilizer II,5,
+527,,5,65
+620,,10000,26
 621,,10000,26
 622,Stabber,,
 627,,10000,
@@ -26,6 +28,7 @@ type_id,name,volume,group_id
 642,Apocalypse,,
 644,Typhoon,50000,27
 645,Dominix,,
+655,,20000,28
 686,,0.01,
 687,Caracal Blueprint,0.01,
 969,Maller Blueprint,,
@@ -213,7 +216,7 @@ type_id,name,volume,group_id
 10858,Large Shield Booster II,,
 11172,Helios,2500,830
 11176,Crow,2500,
-11182,Cheetah,2500,
+11182,Cheetah,2500,830
 11184,Crusader,2500,831
 11186,Malediction,2500,
 11188,Anathema,2500,830
@@ -341,7 +344,7 @@ type_id,name,volume,group_id
 13258,Inherent Implants 'Noble' Repair Systems RS-603,,
 13259,Inherent Implants 'Squire' Capacitor Management EM-803,1,741
 13260,Inherent Implants 'Squire' Capacitor Systems Operation EO-603,1,
-13261,Inherent Implants 'Squire' Power Grid Management EG-603,1,
+13261,Inherent Implants 'Squire' Power Grid Management EG-603,1,741
 13263,Zainou 'Gnome' Shield Operation SP-903,1,
 13265,Inherent Implants 'Squire' Capacitor Emission Systems ES-703,1,741
 13782,Domination 425mm Autocannon,10,55
@@ -487,7 +490,7 @@ type_id,name,volume,group_id
 15898,Caldari Navy Small Shield Booster,5,
 15902,Republic Fleet Small Shield Booster,5,40
 15905,,5,
-15907,,5,338
+15907,Republic Fleet Shield Boost Amplifier,5,338
 15909,Caldari Navy EM Shield Amplifier,5,
 15931,Caldari Navy Large Graviton Smartbomb,50,72
 15955,Federation Navy Large Plasma Smartbomb,50,72
@@ -500,7 +503,7 @@ type_id,name,volume,group_id
 16064,Caldari Navy Heavy Missile Launcher,10,510
 16067,Caldari Navy Torpedo Launcher,20,
 16068,Caldari Navy Light Missile Launcher,,
-16229,,15000,419
+16229,Brutix,15000,419
 16233,Prophecy,,
 16246,Zainou 'Gnome' Shield Management SM-705,1,749
 16247,,1,
@@ -517,7 +520,7 @@ type_id,name,volume,group_id
 16636,Silicates,,
 16637,Tungsten,0.05,
 16641,Chromium,0.05,
-16642,Vanadium,0.05,
+16642,Vanadium,0.05,427
 16643,Cadmium,0.05,
 16644,Platinum,0.05,427
 16646,Mercury,0.05,427
@@ -724,6 +727,7 @@ type_id,name,volume,group_id
 20060,Amarr Control Tower Small,2000,
 20064,Gallente Control Tower Small,2000,365
 20065,Minmatar Control Tower Medium,4000,
+20066,,2000,365
 20125,Curse,10000,906
 20157,High-grade Crystal Beta,1,
 20159,High-grade Crystal Delta,1,
@@ -808,7 +812,7 @@ type_id,name,volume,group_id
 22436,Widow,50000,898
 22440,,50000,
 22442,Eos,15000,540
-22444,Sleipnir,15000,
+22444,Sleipnir,15000,540
 22456,,5000,
 22464,,5000,
 22468,Claymore,15000,
@@ -833,7 +837,7 @@ type_id,name,volume,group_id
 22993,Federation Navy Antimatter Charge L,0.025,85
 22995,,0.025,
 23007,Federation Navy Iron Charge L,,
-23009,Caldari Navy Antimatter Charge S,0.0025,
+23009,Caldari Navy Antimatter Charge S,0.0025,85
 23025,Caldari Navy Antimatter Charge M,0.0125,85
 23047,Caldari Navy Lead Charge L,,
 23055,Templar I,1000,1652
@@ -846,6 +850,7 @@ type_id,name,volume,group_id
 23105,Imperial Navy Multifrequency L,1,86
 23107,,1,86
 23111,,1,86
+23115,,1,86
 23119,Imperial Navy Radio L,1,86
 23128,,0.1,
 23134,Takmahl Dynamic Gauge,,
@@ -969,7 +974,7 @@ type_id,name,volume,group_id
 27327,,0.005,
 27339,Caldari Navy Mjolnir Torpedo,0.05,
 27341,Dread Guristas Mjolnir Torpedo,0.05,89
-27345,Caldari Navy Scourge Torpedo,,
+27345,Caldari Navy Scourge Torpedo,0.05,89
 27347,,0.05,89
 27351,,0.05,
 27355,Dread Guristas Inferno Torpedo,,
@@ -1000,7 +1005,7 @@ type_id,name,volume,group_id
 28276,,5,
 28280,'Augmented' Hornet,5,
 28292,'Augmented' Praetor,25,
-28296,'Augmented' Valkyrie,10,
+28296,'Augmented' Valkyrie,10,100
 28300,'Augmented' Vespa,10,100
 28304,,5,
 28308,,25,
@@ -1532,6 +1537,7 @@ type_id,name,volume,group_id
 52562,,0.01,
 52568,HyperCore,0.01,526
 52694,Industrial Cynosural Field Generator,25,
+52915,Ultratidal Entropic Disintegrator I,1600,1986
 52916,,0.01,1987
 52919,High-grade Mimesis Delta,1,
 52997,Precursor Dreadnought,,
