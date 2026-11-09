@@ -73,7 +73,7 @@ type_id,name,volume,group_id
 2348,Gel-Matrix Biopaste,,
 2352,Nuclear Reactors,3,
 2361,Hermetic Membranes,3,
-2390,Electrolytes,,
+2390,Electrolytes,0.19,1042
 2392,,0.19,1042
 2393,Bacteria,,
 2396,,0.19,1042
@@ -84,7 +84,7 @@ type_id,name,volume,group_id
 2420,Torpedo Launcher II,20,508
 2444,,25,
 2456,,5,
-2478,,25,100
+2478,Berserker II,25,100
 2539,,5,
 2563,,5,
 2567,Multispectral ECM II,5,
@@ -427,7 +427,7 @@ type_id,name,volume,group_id
 14172,Dark Blood Heavy Capacitor Booster,20,76
 14176,Dark Blood Medium Capacitor Booster,,
 14184,Dark Blood Small Capacitor Booster,,
-14190,True Sansha Large EMP Smartbomb,,
+14190,True Sansha Large EMP Smartbomb,50,72
 14204,Dread Guristas Large Graviton Smartbomb,50,72
 14206,Shadow Serpentis Large Plasma Smartbomb,50,72
 14208,Domination Large Proton Smartbomb,50,
@@ -583,7 +583,7 @@ type_id,name,volume,group_id
 17720,Cynabal,10000,26
 17726,,50000,
 17736,Nightmare,50000,27
-17738,Machariel,,
+17738,Machariel,50000,27
 17769,Fluxed Condensates,0.2,428
 17772,Small AutoCannon Battery,,
 17843,Vexor Navy Issue,10000,26
@@ -643,6 +643,7 @@ type_id,name,volume,group_id
 18963,Core B-Type Thermal Armor Hardener,,
 18973,Core X-Type EM Armor Hardener,5,
 18975,Core X-Type Explosive Armor Hardener,5,328
+18979,,5,328
 18985,Coreli A-Type Small Remote Armor Repairer,5,325
 18987,Corelum C-Type Medium Remote Armor Repairer,10,325
 18989,Corelum B-Type Medium Remote Armor Repairer,10,
@@ -750,7 +751,7 @@ type_id,name,volume,group_id
 20351,800mm Steel Plates II,,
 20353,1600mm Steel Plates II,20,329
 20358,Numon Family Heirloom,1,
-20410,Datacore - Gallentean Starship Engineering,0.1,
+20410,Datacore - Gallentean Starship Engineering,0.1,333
 20411,,0.1,
 20415,Datacore - Molecular Engineering,0.1,
 20418,Datacore - Electronic Engineering,0.1,333
@@ -889,7 +890,7 @@ type_id,name,volume,group_id
 24692,,50000,
 24702,Hurricane,,
 25252,Pure Standard Frentix Booster,1,712
-25266,,5,
+25266,Gas Cloud Scoop I,5,737
 25267,,0.01,
 25349,Strong Exile Booster,1,303
 25530,,0.01,
@@ -898,7 +899,7 @@ type_id,name,volume,group_id
 25563,,5,
 25590,Contaminated Nanite Compound,0.01,754
 25591,Contaminated Lorentz Fluid,0.01,
-25594,Tangled Power Conduit,0.01,
+25594,Tangled Power Conduit,0.01,754
 25601,Fried Interface Circuit,0.01,754
 25604,,0.01,
 25605,Armor Plates,0.01,754
@@ -1029,7 +1030,7 @@ type_id,name,volume,group_id
 28379,Domination Heavy Assault Missile Launcher,,
 28433,Compressed Blue Ice,,
 28435,Compressed Dark Glitter,100,465
-28437,Compressed Gelidus,,
+28437,Compressed Gelidus,100,465
 28439,Compressed Glare Crust,,
 28440,Compressed Krystallos,,
 28606,Orca,500000,941
@@ -1557,6 +1558,7 @@ type_id,name,volume,group_id
 52997,Precursor Dreadnought,,
 53290,Capital Trinary State Processor,,
 53291,Dreadnought Systems Diagram,0.1,526
+53299,,0.1,526
 53301,Tetryon Exotic Plasma XL,,
 53302,Meson Exotic Plasma XL,0.01,1987
 53374,,0.01,
@@ -1678,6 +1680,7 @@ type_id,name,volume,group_id
 62385,Compressed Viridian Mykoserocin,,
 62397,Compressed Fullerite-C60,0.1,4168
 62398,Compressed Fullerite-C70,0.1,4168
+62399,Compressed Fullerite-C50,0.1,4168
 62400,Compressed Fullerite-C84,,
 62402,Compressed Fullerite-C28,0.2,4168
 62403,Compressed Fullerite-C72,,
@@ -1826,6 +1829,7 @@ type_id,name,volume,group_id
 90647,Oxidative Stress - Unlimited,,
 90734,,0.01,
 91174,Perseverance,5000,420
+91773,Rampancy Data Dump,0.01,5067
 91775,Dragoon Navy Issue,5000,420
 91849,Algos Navy Issue,5000,
 91857,Corax Navy Issue,5000,420
