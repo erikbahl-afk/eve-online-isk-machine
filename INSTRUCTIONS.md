@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Mon 09 Nov 12:09 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 21 · **Est. time:** 20 min. Work top to bottom; stop any time.  
+**Updated:** Mon 09 Nov 12:44 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 22 · **Est. time:** 21 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -37,7 +37,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 6 | ☐ Eifyr and Co. 'Rogue' Navigation NN-603 | 2 | **9,711,000** | 18,460,000 | 9,710,000 |
-| 7 | ☐ Mutated Blood Sample | 262 | **70,560** | 77,650 | 70,550 |
+| 7 | ☐ Mutated Blood Sample | 1,903 | **65,390** | 77,650 | 65,380 |
 
 ### Block 3 · if there's time · about 1 min
 _Short on time? Skip to the jump (step 9): the next hub's Block 1 is worth more per minute than the rest of this hub._
@@ -47,7 +47,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 8 | ☐ Compressed Kernite | 6 | **157.40** | 189.10 | 157.30 |
+| 8 | ☐ Compressed Kernite | 4 | **157.40** | 189.10 | 157.30 |
 
 ## 9. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
 _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
@@ -74,19 +74,19 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 15 | ☐ Akoman Blueprint Crate | 1 | **114,200,000** | 140,900,000 | 114,100,000 |
-| 16 | ☐ Compressed Gneiss II-Grade | 12 | **2,302** | 2,416 | 2,301 |
-| 17 | ☐ Coreli B-Type 1MN Afterburner | 1 | **29,260,000** | 36,500,000 | 29,250,000 |
-| 18 | ☐ Low-grade Crystal Beta | 1 | **48,010,000** | 66,260,000 | 48,000,000 |
+| 15 | ☐ Compressed Fullerite-C28 | 9 | **12,700** | 12,890 | 12,690 |
+| 16 | ☐ Compressed Gneiss II-Grade | 4 | **2,302** | 2,416 | 2,301 |
+| 17 | ☐ Low-grade Crystal Beta | 1 | **48,010,000** | 63,640,000 | 48,000,000 |
+| 18 | ☐ Rampancy Data Dump | 45 | **181,200** | 187,700 | 181,100 |
 
-### Block 3 · if there's time · about 2 min
+### Block 3 · if there's time · about 3 min
 
 #### Fix undercut sell orders
 _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours is already the lowest, skip._
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 19 | ☐ Antikythera Element | 996,000 | **985,200** | 884,200 | 985,300 |
+| 19 | ☐ Antikythera Element | 996,000 | **985,100** | 884,200 | 985,200 |
 
 #### Cancel buy orders
 _My Orders → Buying. Right-click → Cancel Order._
@@ -100,7 +100,8 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 21 | ☐ Republic Fleet EMP L | 1 | **1,120** | 1,246 | 1,119 |
+| 21 | ☐ Compressed Brimful Bitumens | 1 | **1,137** | 1,225 | 1,136 |
+| 22 | ☐ Coreli B-Type 1MN Afterburner | 1 | **29,260,000** | 36,500,000 | 29,250,000 |
 
 ---
 Wallet 1.62B · escrow 140.91M · stock 3.13B · in transit 0.00 · net worth 4.88B (liquidation 2.46B)

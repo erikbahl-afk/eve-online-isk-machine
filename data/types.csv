@@ -6,6 +6,7 @@ type_id,name,volume,group_id
 38,Nocxium,0.01,
 39,Zydrine,0.01,18
 40,Megacyte,0.01,18
+44,Enriched Uranium,0.75,1034
 202,,0.05,386
 203,,0.05,386
 204,Inferno Cruise Missile,0.05,386
@@ -336,6 +337,7 @@ type_id,name,volume,group_id
 13220,Inherent Implants 'Lancer' Medium Energy Turret ME-803,,
 13221,Zainou 'Deadeye' Medium Hybrid Turret MH-803,1,742
 13222,Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-803,,
+13229,Zainou 'Snapshot' Heavy Missiles HM-703,1,746
 13237,Eifyr and Co. 'Rogue' Navigation NN-603,1,747
 13240,Eifyr and Co. 'Rogue' Evasive Maneuvering EM-703,1,
 13242,Eifyr and Co. 'Rogue' Warp Drive Speed WS-610,1,
@@ -1599,7 +1601,7 @@ type_id,name,volume,group_id
 54534,Black Market 'Valdimar' Drone Navigation DN-701,1,
 54543,Black Market 'Valdimar' Drone Durability DD-1001,,
 54731,Skybreaker,2500,25
-54732,,10000,
+54732,Stormbringer,10000,26
 54742,Small Vorton Projector II,5,4060
 54743,Small Consortium Vorton Projector,5,
 54748,Medium Vorton Projector II,25,4060
