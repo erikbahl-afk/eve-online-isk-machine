@@ -19,6 +19,7 @@ type_id,name,volume,group_id
 620,,10000,26
 621,,10000,26
 622,Stabber,,
+625,,10000,26
 626,,10000,26
 627,,10000,
 630,Bellicose,,
@@ -66,6 +67,7 @@ type_id,name,volume,group_id
 2301,EM Shield Hardener II,,
 2303,Thermal Shield Hardener II,5,77
 2309,Ionic Solutions,,
+2310,Noble Gas,0.005,1033
 2311,Reactive Gas,0.005,1033
 2327,,0.75,
 2328,Water-Cooled CPU,0.75,1034
@@ -239,11 +241,11 @@ type_id,name,volume,group_id
 11381,,2500,
 11393,Retribution,2500,
 11399,Morphite,0.01,18
-11400,,2500,
+11400,Jaguar,2500,324
 11433,High Energy Physics,0.01,
 11448,Electromagnetic Physics,0.01,270
 11449,Rocket Science,0.01,
-11453,,0.01,270
+11453,Electronic Engineering,0.01,270
 11529,Molecular Engineering,0.01,270
 11531,,1,
 11534,Gravimetric Sensor Cluster,1,334
@@ -365,6 +367,7 @@ type_id,name,volume,group_id
 13824,,10,
 13829,,5,53
 13832,True Sansha Mega Pulse Laser,20,
+13865,Dread Guristas 125mm Railgun,,
 13868,Shadow Serpentis 200mm Railgun,,
 13872,Shadow Serpentis 250mm Railgun,,
 13879,Dread Guristas 425mm Railgun,,
@@ -461,6 +464,7 @@ type_id,name,volume,group_id
 15592,Federation Navy Fleet Captain Insignia I,0.1,409
 15593,,0.1,409
 15594,Federation Navy Fleet Colonel Insignia I,0.1,409
+15602,,0.1,409
 15604,Caldari Navy Admiral Insignia I,0.1,409
 15605,Caldari Navy Vice Admiral Insignia I,0.1,409
 15614,,0.1,409
@@ -812,6 +816,7 @@ type_id,name,volume,group_id
 21902,,0.025,83
 21918,Republic Fleet Phased Plasma L,0.025,
 21922,Republic Fleet Phased Plasma M,0.0125,83
+21924,,0.0025,83
 21926,Republic Fleet Proton L,,
 22109,Mid-grade Crystal Delta,1,
 22110,Mid-grade Crystal Epsilon,1,300
@@ -1023,6 +1028,7 @@ type_id,name,volume,group_id
 28272,'Augmented' Hammerhead,10,100
 28276,,5,
 28280,'Augmented' Hornet,5,
+28288,'Augmented' Ogre,25,100
 28292,'Augmented' Praetor,25,
 28296,'Augmented' Valkyrie,10,100
 28300,'Augmented' Vespa,10,100
@@ -1179,7 +1185,7 @@ type_id,name,volume,group_id
 31874,Caldari Navy Vespa,10,100
 31876,,25,
 31878,Caldari Navy Warden,25,
-31880,Federation Navy Hobgoblin,5,
+31880,Federation Navy Hobgoblin,5,100
 31882,,10,
 31884,Federation Navy Ogre,25,
 31888,Republic Fleet Warrior,5,100
