@@ -18,7 +18,7 @@ from .common import CACHE, DATA, HUBS, ROOT, STATE, load_config, load_json, save
 from .esi import ESI
 from .fees import Fees
 from .sim import Sim, new_portfolio
-from .strategy import Planner, add_density, candidates, choose_import_hub, import_candidates, seed_candidates
+from .strategy import Planner, add_density, apply_reach, candidates, choose_import_hub, import_candidates, seed_candidates
 
 LEDGER_COLS = ["t", "event", "hub", "type_id", "qty", "price", "cash_delta", "note"]
 
@@ -302,6 +302,11 @@ def run_portfolio(cfg, sdir, sh):
         station = {h: pd.DataFrame() for h in tops}
     imports_by_hub = {h: import_candidates(cfg, fees, tops[hub], stats[h], tops[h], vols, cfg["routes"][h],
                                            sh["start_w"], skip) for h in rough_imports}
+    st_cfg = cfg["strategy"]
+    lv, mr, tn = sh.get("levels"), st_cfg.get("pick_min_reach", 0.0), st_cfg.get("pick_reach_top", 40)
+    if lv is not None and mr > 0:
+        station = {h: apply_reach(df, lv, h, now, mr, tn, buy_col="bid_t") for h, df in station.items()}
+        imports_by_hub = {h: apply_reach(df, lv, h, now, mr, tn, sell_col="sell") for h, df in imports_by_hub.items()}
     pf["import_hub"] = choose_import_hub(cfg, imports_by_hub, pf.get("import_hub"))
     st = cfg["strategy"]
     import_hubs = [h for h in (st.get("import_hubs") or ([pf["import_hub"]] if pf["import_hub"] else []))
@@ -318,6 +323,8 @@ def run_portfolio(cfg, sdir, sh):
             lookup(sh["esi"], types, [], rough.index[:150])
             exports[h] = import_candidates(cfg, fees, tops[h], stats[hub], tops[hub], vols, cfg["routes"][h],
                                            sh["start_w"], skip)
+            if lv is not None and mr > 0:
+                exports[h] = apply_reach(exports[h], lv, hub, now, mr, tn, sell_col="sell")
 
     need = {int(k.split(":")[1]) for k in pf["per_type"]} | spec_types
     need |= {int(o["type_id"]) for o in pf["orders"]}

@@ -167,6 +167,31 @@ def seed_candidates(cfg, fees, src_top, dst_stats, dst_top, vols, route, start_w
     return df[ok].sort_values("profit_day", ascending=False)
 
 
+def apply_reach(df, levels, hub, now, min_reach, top_n=40, buy_col=None, sell_col="ask_t"):
+    """Scale the top picks by how often official trades reached our prices (same check the sim applies to fills).
+
+    reach = share of recent trading days whose official high reached our ask (and, for station bids, whose
+    low reached our bid). Expected units and profit are scaled by it; picks under `min_reach` are dropped.
+    Only the top `top_n` rows are checked (one history call each); the rest keep their place after them.
+    """
+    if levels is None or df is None or len(df) == 0:
+        return df
+    head, tail = df.iloc[:top_n].copy(), df.iloc[top_n:]
+    if hasattr(levels, "prefetch"):
+        levels.prefetch(hub, head.index)
+    r = []
+    for ty, row in head.iterrows():
+        x = levels.reach(hub, ty, "sell", float(row[sell_col]), now)
+        if buy_col:
+            x = min(x, levels.reach(hub, ty, "buy", float(row[buy_col]), now))
+        r.append(x)
+    head["reach"] = r
+    for c in ("q", "profit_day"):
+        head[c] = head[c] * head.reach
+    head = head[head.reach >= min_reach].sort_values("profit_day", ascending=False)
+    return pd.concat([head, tail])
+
+
 def add_density(df, cfg, nw):
     """Profit/day per share of the scarcest resource the item uses (shelf-space logic).
 
@@ -402,6 +427,14 @@ class Planner:
         return self.c["alpha"] * float(st.loc[ty, col]) * float(surv_avg(lam, self.c["logon_gap_hours"],
                                                                           self.start_w)[0])
 
+    def aged(self, st):
+        """Stock sitting unlisted in a hangar this long gets listed even if the step looks low-value."""
+        if st["kind"] not in ("new_sell", "instant_sell"):
+            return False
+        it = self.pf["inventory"].get(st["hub"], {}).get(str(st.get("type_id")))
+        days = self.s.get("list_after_days", 3)
+        return bool(it) and (self.t - it.get("since", self.t)) / 86400 >= days
+
     def benefit(self, st):
         """Rough ISK gained over the next gap between sessions by doing this step (for ordering only)."""
         days = self.c["logon_gap_hours"] / 24
@@ -468,7 +501,7 @@ class Planner:
             secs = sum(s["secs"] for s in steps)
             for st in steps:
                 st.setdefault("benefit", self.benefit(st))
-            if sum(st["benefit"] for st in steps) < min_rate * secs:
+            if sum(st["benefit"] for st in steps) < min_rate * secs and not any(self.aged(st) for st in steps):
                 dropped.extend(steps)  # not worth the player's time at this bankroll
                 return False
             extra = self.c["secs_jump"] if (O and not jumped and any(s["hub"] == O for s in steps)) else 0

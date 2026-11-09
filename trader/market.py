@@ -249,6 +249,19 @@ class PriceLevels:
         start = (dt.datetime.fromtimestamp(now, dt.timezone.utc).date() - dt.timedelta(days=self.days)).isoformat()
         return h[(h.date >= start) & (h.volume > 0)]
 
+    def prefetch(self, hub, type_ids, workers=8):
+        """Fetch several histories in parallel (the ESI client is thread-safe)."""
+        from concurrent.futures import ThreadPoolExecutor
+        todo = [int(t) for t in type_ids if (hub, int(t)) not in self.cache]
+        def one(t):
+            try:
+                return t, self._fetch(hub, t)
+            except Exception:
+                return t, None
+        with ThreadPoolExecutor(workers) as ex:
+            for t, h in ex.map(one, todo):
+                self.cache[(hub, t)] = h
+
     def reach(self, hub, type_id, side, price, now):
         """Share of recent trading days on which trades happened at our price or better for the counterparty."""
         h = self.history(hub, type_id, now)

@@ -219,3 +219,20 @@
 - Not done (budget): time-on-top vs observed, 1 h vs 2 h spacing, gone_weight probe. With the gate in place, the bid-side
   gone_weight matters less; next Sunday measure fills/official volume per portfolio after a week of gated fills.
 - Next: Mon picks: the gate's reach (share of days at our price) is a natural pick filter for station bids; consider it.
+
+## 2026-11-09 · audit the picks (Monday)
+- Rebuilt today's top 20 Jita station, 20 Amarr station and 20 Jita→Amarr import picks plus holdings, against 30 d official
+  region history. Demand is real for most (19–29 trading days of 30) and no pick looks like a spike (7 d ÷ 90 d volume 0.4–2.7).
+- The trap is price, not demand: on 33 of 60 picks the official daily high reached our ask (or the low reached our station
+  bid) on under 25% of days. #1 import Mid-grade Virtue Omega (26M/day predicted): 0 of 19 days at our 1.04B ask. Gneiss IV
+  ask 2,847 vs 30 d avg 2,423 (3%). Rattlesnake, Corpus B hardener, Triplot bids: no trade that low in 30 d. Only ~3 of 20 Jita
+  station picks survive. The planner ranked by profits Sunday's fill gate will never pay.
+- Changed: `strategy.apply_reach` + `[strategy] pick_min_reach = 0.25`, `pick_reach_top = 40`: the top 40 picks per hub (station,
+  import, export) are scaled by that reach and dropped under 25% (one cached history call each, prefetched in parallel).
+  Applies to every portfolio, as the fill gate does, so comparisons stay fair. 25% sits between the bad cluster (0–0.12) and the
+  good one (0.3–1.0); probe it when a slot frees.
+- Alert, stale Infomorph Decryption Keys (3,642, 8.6 d) and Void XL: never listed because a 45 s listing of a 12M stack is under
+  min_step_value at 4.9B. New `list_after_days = 3`: stock older than that is always listed. Keys cost 3,356 vs avg 3,526.
+- Alert, Tetryon XL idle bid (99M, 11 d): reach about 10%, under the new bar → avoid until 11-20 (bid cancelled). Liquidation 50% and
+  Typhoon SKIN 8.6%: unchanged legacy imports (Sat entry), hold. Tests: 26 pass.
+- Next: Tue: does reach shrink station profit/day in the summary, and by how much? Thu: a probe of pick_min_reach 0.15 vs 0.4.

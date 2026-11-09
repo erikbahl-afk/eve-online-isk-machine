@@ -257,3 +257,28 @@ def test_liquidation_no_bid_is_zero():
     assert sim._liq({"jita": top}, "jita", 2, 100.0) == 0.0   # no bid at all
     assert sim._liq({"jita": top}, "jita", 3, 100.0) == 0.0   # no orders at all
     assert sim._liq({}, "jita", 1, 100.0) == 50.0              # hub missing this run: fallback guess
+
+
+def test_apply_reach_drops_and_scales_picks():
+    from trader.market import PriceLevels
+    from trader.strategy import apply_reach
+    hist = pd.DataFrame({"date": ["1970-01-05", "1970-01-06", "1970-01-07", "1970-01-08"],
+                         "lowest": [100.0] * 4, "highest": [120.0, 120.0, 150.0, 150.0], "volume": [5] * 4})
+    lv = PriceLevels(None, {}, days=14, fetch=lambda hub, ty: hist)
+    df = pd.DataFrame({"ask_t": [140.0, 200.0, 115.0], "bid_t": [100.0, 100.0, 100.0],
+                       "q": [1.0, 1.0, 1.0], "profit_day": [10.0, 20.0, 6.0]}, index=[1, 2, 3])
+    out = apply_reach(df, lv, "jita", 8 * 86400, 0.25, buy_col="bid_t")
+    assert list(out.index) == [3, 1]                 # 2: ask never traded -> dropped; 1 halved below 3
+    assert out.loc[1, "profit_day"] == 5.0 and out.loc[3, "reach"] == 1.0
+    assert apply_reach(df, None, "jita", 0, 0.25) is df  # no history source: unchanged
+
+
+def test_aged_stock_is_listed_even_if_low_value():
+    from trader.strategy import Planner
+    pl = Planner.__new__(Planner)
+    pl.s, pl.t = {"list_after_days": 3}, 10 * 86400
+    pl.pf = {"inventory": {"amarr": {"7": {"qty": 5, "cost": 1.0, "since": 0}, "8": {"qty": 5, "cost": 1.0,
+                                                                                    "since": 9 * 86400}}}}
+    assert pl.aged({"kind": "new_sell", "hub": "amarr", "type_id": 7})
+    assert not pl.aged({"kind": "new_sell", "hub": "amarr", "type_id": 8})
+    assert not pl.aged({"kind": "new_buy", "hub": "amarr", "type_id": 7})
