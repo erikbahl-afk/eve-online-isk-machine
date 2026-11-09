@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Sun 08 Nov 17:14 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Sun 08 Nov 17:44 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 17 · **Est. time:** 16 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -41,7 +41,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 5 | ☐ Mutated Blood Sample | 2,100 | **65,390** | 77,650 | 65,380 |
+| 5 | ☐ Mutated Blood Sample | 2,113 | **65,390** | 77,650 | 65,380 |
 
 ### Block 3 · if there's time · about 1 min
 _Short on time? Skip to the jump (step 7): the next hub's Block 1 is worth more per minute than the rest of this hub._
@@ -67,8 +67,8 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 |---|---|---|---|---|---|
 | 8 | ☐ Clone Soldier Transporter Tag | 9 | **28,020,000** | 31,360,000 | 28,010,000 |
 | 9 | ☐ Cultural Semiosis Data | 6 | **55,220,000** | 59,130,000 | 55,210,000 |
-| 10 | ☐ Daily Alpha Injector | 13 | **28,320,000** | 29,580,000 | 28,310,000 |
-| 11 | ☐ Promethium | 946 | **46,150** | 47,180 | 46,140 |
+| 10 | ☐ Daily Alpha Injector | 13 | **28,320,000** | 29,570,000 | 28,310,000 |
+| 11 | ☐ Promethium | 918 | **46,530** | 47,180 | 46,520 |
 
 ### Block 2 · should do · about 3 min
 
@@ -77,9 +77,9 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 12 | ☐ Compressed Mordunium II-Grade | 2,098 | **18.02** | 21.93 | 18.01 |
+| 12 | ☐ Compressed Mordunium II-Grade | 1,726 | **18.02** | 21.93 | 18.01 |
 | 13 | ☐ Corpus B-Type Explosive Armor Hardener | 2 | **79,970,000** | 88,400,000 | 79,960,000 |
-| 14 | ☐ Pith X-Type X-Large Shield Booster | 1 | **203,600,000** | 216,400,000 | 203,500,000 |
+| 14 | ☐ Pith X-Type X-Large Shield Booster | 1 | **203,700,000** | 216,400,000 | 203,600,000 |
 
 ### Block 3 · if there's time · about 2 min
 
@@ -88,7 +88,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 15 | ☐ Antikythera Element | 996,000 | **993,700** | 884,200 | 993,800 |
+| 15 | ☐ Antikythera Element | 996,000 | **993,500** | 884,200 | 993,600 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
@@ -102,7 +102,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 17 | ☐ Veldspar | 1 | **9.20** | 10.91 | 9.19 |
+| 17 | ☐ Reactive Gas | 1 | **2.45** | 4.29 | 2.44 |
 
 ---
 Wallet 1.62B · escrow 140.92M · stock 3.13B · in transit 0.00 · net worth 4.88B (liquidation 2.48B)

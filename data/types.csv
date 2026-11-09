@@ -427,7 +427,7 @@ type_id,name,volume,group_id
 14234,Dread Guristas Cloaking Device,100,
 14236,Shadow Serpentis Sensor Booster,5,
 14238,Shadow Serpentis Tracking Computer,5,213
-14244,Domination Warp Disruptor,,
+14244,Domination Warp Disruptor,5,52
 14246,Dread Guristas Warp Disruptor,5,52
 14248,,5,
 14252,Dark Blood Warp Scrambler,,
@@ -865,7 +865,7 @@ type_id,name,volume,group_id
 24517,Mjolnir Precision Heavy Missile,0.03,
 24519,Nova Rage Torpedo,0.05,657
 24521,,0.05,
-24523,,0.05,
+24523,Mjolnir Rage Torpedo,0.05,657
 24531,Nova Fury Cruise Missile,,
 24535,,0.05,
 24539,,0.05,
@@ -1510,6 +1510,7 @@ type_id,name,volume,group_id
 49710,Kikimora,5000,420
 49711,Drekavac,15000,419
 49712,,10000,
+49713,Zarmazd,10000,832
 49732,,1,
 49733,Unstable Gyrostabilizer Mutaplasmid,1,
 49741,Unstable Ballistic Control System Mutaplasmid,,
