@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Mon 09 Nov 12:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Mon 09 Nov 12:09 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 21 · **Est. time:** 20 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
