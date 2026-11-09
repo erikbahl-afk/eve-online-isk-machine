@@ -79,6 +79,7 @@ type_id,name,volume,group_id
 2399,Precious Metals,,
 2400,Toxic Metals,0.19,1042
 2401,Chiral Structures,,
+2410,,10,510
 2420,Torpedo Launcher II,20,508
 2444,,25,
 2456,,5,
@@ -360,10 +361,11 @@ type_id,name,volume,group_id
 13868,Shadow Serpentis 200mm Railgun,,
 13872,Shadow Serpentis 250mm Railgun,,
 13879,Dread Guristas 425mm Railgun,,
+13919,Domination Rapid Light Missile Launcher,10,511
 13920,Dread Guristas Rapid Light Missile Launcher,10,511
 13923,Domination Torpedo Launcher,20,
 13924,Dread Guristas Torpedo Launcher,20,508
-13926,,5,
+13926,Dread Guristas Light Missile Launcher,5,509
 13933,Dread Guristas Rocket Launcher,5,
 13935,Domination Ballistic Control System,5,
 13937,Dread Guristas Ballistic Control System,5,367
@@ -604,6 +606,7 @@ type_id,name,volume,group_id
 18676,Gist X-Type 100MN Afterburner,,
 18682,,5,
 18684,Core C-Type 100MN Afterburner,5,46
+18686,Coreli B-Type 1MN Afterburner,5,46
 18688,Corelum B-Type 10MN Afterburner,5,46
 18692,Coreli A-Type 1MN Afterburner,5,46
 18698,Core X-Type 100MN Afterburner,,
@@ -828,6 +831,7 @@ type_id,name,volume,group_id
 22571,Inherent Implants 'Yeti' Ice Harvesting IH-1005,1,1229
 22611,Elara Restrained Mining Laser Upgrade,5,546
 22613,'Carpo' Mining Laser Upgrade,5,546
+22619,Frigoris Restrained Ice Harvester Upgrade,5,546
 22778,Warp Disrupt Probe,5,
 22782,Interdiction Sphere Launcher I,,
 22875,,5,
@@ -1240,12 +1244,15 @@ type_id,name,volume,group_id
 33842,Federation Navy Drone Damage Amplifier,5,645
 33844,Imperial Navy Drone Damage Amplifier,5,645
 33846,Dread Guristas Drone Damage Amplifier,5,645
+33850,Federation Navy Drone Navigation Computer,25,644
 33852,,25,644
 33894,Medium Transverse Bulkhead I,10,
 33896,Medium Transverse Bulkhead II,10,773
 33898,,20,
 33900,Large Transverse Bulkhead II,20,773
 33904,Capital Transverse Bulkhead II,40,
+33923,Low-grade Crystal Alpha,1,300
+33924,Low-grade Crystal Beta,1,300
 33925,Low-grade Crystal Delta,1,
 33926,Low-grade Crystal Epsilon,1,
 33927,,1,300
@@ -1691,6 +1698,7 @@ type_id,name,volume,group_id
 62532,Compressed Omber,0.006,469
 62533,Compressed Omber II-Grade,,
 62536,Compressed Kernite,0.012,457
+62538,Compressed Kernite III-Grade,,
 62553,,0.05,467
 62554,Compressed Gneiss III-Grade,0.05,467
 62555,Compressed Gneiss IV-Grade,0.05,467
