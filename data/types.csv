@@ -460,6 +460,7 @@ type_id,name,volume,group_id
 15594,Federation Navy Fleet Colonel Insignia I,0.1,409
 15604,Caldari Navy Admiral Insignia I,0.1,409
 15605,Caldari Navy Vice Admiral Insignia I,0.1,409
+15614,,0.1,409
 15615,Imperial Navy General Insignia I,0.1,409
 15632,Republic Fleet Commander Insignia I,0.1,409
 15646,Federation Navy Command Sergeant Major Insignia I,0.1,409
@@ -532,7 +533,7 @@ type_id,name,volume,group_id
 16646,Mercury,0.05,427
 16647,Caesium,0.05,427
 16648,Hafnium,0.05,427
-16650,Dysprosium,0.05,
+16650,Dysprosium,0.05,427
 16651,Neodymium,0.05,427
 16652,Promethium,0.05,427
 16653,Thulium,,
@@ -633,6 +634,7 @@ type_id,name,volume,group_id
 18877,Corpum A-Type Kinetic Energized Membrane,5,
 18881,Corpum A-Type Multispectrum Energized Membrane,5,
 18883,Centum A-Type Multispectrum Energized Membrane,5,326
+18885,Corpus C-Type EM Armor Hardener,5,328
 18897,Corpus C-Type Thermal Armor Hardener,5,
 18905,Corpus B-Type Explosive Armor Hardener,5,328
 18923,Centus A-Type Kinetic Armor Hardener,,
@@ -965,6 +967,7 @@ type_id,name,volume,group_id
 27126,Inherent Implants 'Squire' Power Grid Management EG-605,1,
 27142,Zainou 'Gypsy' CPU Management EE-605,1,
 27167,Zainou 'Beancounter' Industry BX-802,1,743
+27171,Zainou 'Beancounter' Industry BX-804,1,743
 27174,Zainou 'Beancounter' Reprocessing RX-804,1,1229
 27176,Zainou 'Beancounter' Metallurgy MY-703,,
 27181,Zainou 'Beancounter' Metallurgy MY-705,1,748
@@ -1173,7 +1176,7 @@ type_id,name,volume,group_id
 31880,Federation Navy Hobgoblin,5,
 31882,,10,
 31884,Federation Navy Ogre,25,
-31888,,5,
+31888,,5,100
 31890,Republic Fleet Valkyrie,10,100
 31900,Imperial Navy 1600mm Steel Plates,20,329
 31902,Federation Navy 1600mm Steel Plates,20,329
@@ -1482,6 +1485,7 @@ type_id,name,volume,group_id
 47356,Standup Capacitor Power Relay I,4000,
 47448,C3-X 'Hivaa Saitsuo' Ballistic Control System,5,367
 47466,Praxis,50000,
+47532,,0.01,1950
 47700,Unstable Stasis Webifier Mutaplasmid,1,1964
 47752,Gravid 10MN Afterburner Mutaplasmid,1,
 47771,,1,
@@ -1713,7 +1717,7 @@ type_id,name,volume,group_id
 62533,Compressed Omber II-Grade,,
 62536,Compressed Kernite,0.012,457
 62538,Compressed Kernite III-Grade,,
-62553,,0.05,467
+62553,Compressed Gneiss II-Grade,0.05,467
 62554,Compressed Gneiss III-Grade,0.05,467
 62555,Compressed Gneiss IV-Grade,0.05,467
 62559,Compressed Dark Ochre IV-Grade,0.08,453

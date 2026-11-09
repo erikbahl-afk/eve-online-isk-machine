@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Mon 09 Nov 08:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 23 · **Est. time:** 22 min. Work top to bottom; stop any time.  
+**Updated:** Mon 09 Nov 10:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 25 · **Est. time:** 24 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -44,27 +44,28 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 6 | ☐ Mutated Blood Sample | 2,009 | **65,390** | 74,250 | 65,380 |
+| 6 | ☐ Eifyr and Co. 'Rogue' Navigation NN-603 | 2 | **9,711,000** | 18,460,000 | 9,710,000 |
 
 ## 7. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
 _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
 
 ## At Jita IV - Moon 4 - Caldari Navy Assembly Plant
 
-### Block 1 · must do · about 7 min
+### Block 1 · must do · about 8 min
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 8 | ☐ Compressed Fullerite-C70 | 37,049 | **9,222** | 9,451 | 9,221 |
-| 9 | ☐ Compressed Gneiss IV-Grade | 1 | **2,501** | 2,518 | 2,500 |
-| 10 | ☐ Cultural Semiosis Data | 6 | **55,230,000** | 57,190,000 | 55,220,000 |
-| 11 | ☐ Gistum A-Type 50MN Microwarpdrive | 1 | **271,500,000** | 334,000,000 | 271,400,000 |
-| 12 | ☐ Glorified Unstable Large Remote Armor Repairer Mutaplasmid | 1 | **155,300,000** | 210,200,000 | 155,200,000 |
-| 13 | ☐ Imperial Navy Mega Pulse Laser | 1 | **89,110,000** | 116,100,000 | 89,100,000 |
-| 14 | ☐ Promethium | 1 | **46,560** | 47,090 | 46,550 |
+| 8 | ☐ Akoman Blueprint Crate | 1 | **114,200,000** | 140,900,000 | 114,100,000 |
+| 9 | ☐ Compressed Fullerite-C70 | 36,388 | **9,222** | 9,451 | 9,221 |
+| 10 | ☐ Cultural Semiosis Data | 6 | **55,230,000** | 63,110,000 | 55,220,000 |
+| 11 | ☐ Daily Alpha Injector | 2 | **28,570,000** | 29,160,000 | 28,560,000 |
+| 12 | ☐ Gistum A-Type 50MN Microwarpdrive | 1 | **271,500,000** | 333,900,000 | 271,400,000 |
+| 13 | ☐ Glorified Unstable Large Remote Armor Repairer Mutaplasmid | 1 | **155,300,000** | 210,200,000 | 155,200,000 |
+| 14 | ☐ Imperial Navy Mega Pulse Laser | 1 | **89,110,000** | 116,100,000 | 89,100,000 |
+| 15 | ☐ Promethium | 2 | **46,560** | 47,040 | 46,550 |
 
 ### Block 2 · should do · about 5 min
 
@@ -73,35 +74,36 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 15 | ☐ Akoman Blueprint Crate | 1 | **114,200,000** | 140,900,000 | 114,100,000 |
-| 16 | ☐ Compressed Fullerite-C32 | 2 | **19,630** | 20,070 | 19,620 |
-| 17 | ☐ Compressed Zeolites | 1 | **1,308** | 1,313 | 1,307 |
-| 18 | ☐ Low-grade Crystal Beta | 1 | **48,010,000** | 66,260,000 | 48,000,000 |
-| 19 | ☐ Rampancy Data Dump | 75 | **181,200** | 187,700 | 181,100 |
+| 16 | ☐ Compressed Fullerite-C32 | 1 | **19,630** | 20,070 | 19,620 |
+| 17 | ☐ Compressed Gneiss II-Grade | 1 | **2,302** | 2,416 | 2,301 |
+| 18 | ☐ Compressed Zeolites | 1 | **1,309** | 1,313 | 1,308 |
+| 19 | ☐ Low-grade Crystal Beta | 1 | **48,010,000** | 66,260,000 | 48,000,000 |
+| 20 | ☐ Rampancy Data Dump | 88 | **181,200** | 187,700 | 181,100 |
 
-### Block 3 · if there's time · about 3 min
+### Block 3 · if there's time · about 4 min
 
 #### Fix undercut sell orders
 _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours is already the lowest, skip._
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 20 | ☐ Antikythera Element | 996,000 | **987,700** | 884,200 | 987,800 |
+| 21 | ☐ Antikythera Element | 996,000 | **987,100** | 884,200 | 987,200 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 21 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,613,000** | 3,726,000 | 3,612,000 |
+| 22 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,535,000** | 3,535,000 | 3,615,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 22 | ☐ Compressed Mordunium II-Grade | 7 | **17.89** | 21.65 | 17.88 |
-| 23 | ☐ Compressed Polycrase X-Grade | 3 | **186.60** | 190.00 | 186.50 |
+| 23 | ☐ Compressed Mordunium II-Grade | 3 | **17.89** | 21.64 | 17.88 |
+| 24 | ☐ Compressed Polycrase X-Grade | 3 | **186.60** | 190.00 | 186.50 |
+| 25 | ☐ Coreli B-Type 1MN Afterburner | 2 | **29,260,000** | 36,500,000 | 29,250,000 |
 
 ---
 Wallet 1.62B · escrow 140.91M · stock 3.13B · in transit 0.00 · net worth 4.88B (liquidation 2.48B)
