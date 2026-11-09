@@ -525,6 +525,7 @@ type_id,name,volume,group_id
 16648,Hafnium,0.05,427
 16650,Dysprosium,0.05,
 16651,Neodymium,0.05,427
+16652,Promethium,0.05,427
 16653,Thulium,,
 16667,Neo Mercurite,0.2,428
 16668,Dysporite,0.2,428
@@ -843,7 +844,7 @@ type_id,name,volume,group_id
 23085,,1,86
 23097,Imperial Navy Standard M,1,86
 23105,Imperial Navy Multifrequency L,1,86
-23107,,1,
+23107,,1,86
 23111,,1,86
 23119,Imperial Navy Radio L,1,86
 23128,,0.1,
@@ -881,7 +882,7 @@ type_id,name,volume,group_id
 25538,,0.01,
 25544,Gas Cloud Harvesting,0.01,
 25563,,5,
-25590,Contaminated Nanite Compound,,
+25590,Contaminated Nanite Compound,0.01,754
 25591,Contaminated Lorentz Fluid,0.01,
 25594,Tangled Power Conduit,0.01,
 25601,Fried Interface Circuit,0.01,754
@@ -1148,7 +1149,7 @@ type_id,name,volume,group_id
 31866,Imperial Navy Infiltrator,10,100
 31868,,25,
 31870,Imperial Navy Praetor,25,100
-31872,Caldari Navy Hornet,5,
+31872,Caldari Navy Hornet,5,100
 31874,Caldari Navy Vespa,10,100
 31876,,25,
 31878,Caldari Navy Warden,25,
@@ -1167,7 +1168,7 @@ type_id,name,volume,group_id
 31928,Republic Fleet Medium Shield Extender,10,38
 31930,Caldari Navy Large Shield Extender,20,38
 31932,Republic Fleet Large Shield Extender,20,38
-31942,Federation Navy Omnidirectional Tracking Link,5,
+31942,Federation Navy Omnidirectional Tracking Link,5,646
 31944,Republic Fleet Target Painter,5,379
 31946,Imperial Navy Large Remote Capacitor Transmitter,25,
 31952,Caldari Navy Power Diagnostic System,5,766
@@ -1403,6 +1404,7 @@ type_id,name,volume,group_id
 43898,,20,
 44102,,5,512
 44993,Pacifier,2500,830
+45009,,8000,1887
 45586,Legion Defensive - Covert Reconfiguration,40,954
 45587,Legion Defensive - Augmented Plating,40,
 45588,Legion Defensive - Nanobot Injector,40,
@@ -1416,7 +1418,7 @@ type_id,name,volume,group_id
 45608,Loki Offensive - Launcher Efficiency Configuration,40,
 45611,Legion Propulsion - Intercalated Nanofibers,40,957
 45614,Tengu Propulsion - Chassis Optimization,40,957
-45615,,40,
+45615,Tengu Propulsion - Fuel Catalyst,40,957
 45617,,40,
 45618,Proteus Propulsion - Localized Injectors,40,
 45619,Loki Propulsion - Interdiction Nullifier,,
@@ -1644,7 +1646,7 @@ type_id,name,volume,group_id
 60476,Radical Drone Damage Amplifier Mutaplasmid,,
 60515,,0.01,
 60575,Quafe Zero Green Apple,1,
-60766,,20,
+60766,Aralez,20,100
 61199,Ubiquitous Moon Mining Crystal Type B II,10,
 62380,Compressed Celadon Mykoserocin,1,4168
 62383,Compressed Malachite Mykoserocin,1,4168

@@ -28,3 +28,4 @@ t,event,hub,type_id,qty,price,cash_delta,note
 1794172982,broker,amarr,10213,0,0.0,-1280400.0,bid o13
 1794172982,broker,amarr,92818,0,0.0,-100,bid o14
 1794182408,buy_fill,jita,2311,1,2.44,-2.44,o11
+1794186608,buy_fill,jita,83467,1,2226000.0,-2226000.0,o1

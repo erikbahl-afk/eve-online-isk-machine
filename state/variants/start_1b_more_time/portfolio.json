@@ -1,5 +1,5 @@
 {
- "cash": 71910258.69039994,
+ "cash": 73118906.99664995,
  "created": 1793854970.3735604,
  "import_hub": "amarr",
  "in_transit": [],
@@ -15,7 +15,7 @@
   "jita": {
    "1969": {
     "cost": 2003000.0,
-    "qty": 2,
+    "qty": 3,
     "since": 1794175207.0,
     "tag": "station"
    },
@@ -40,7 +40,7 @@
   }
  },
  "last_jump": 1794172982.5196922,
- "last_t": 1794182424.367624,
+ "last_t": 1794186857.2202218,
  "location": "amarr",
  "next_oid": 51,
  "orders": [
@@ -206,7 +206,7 @@
    "oid": 17,
    "price": 2003000.0,
    "qty": 11,
-   "remain": 7,
+   "remain": 6,
    "side": "buy",
    "tag": "station",
    "type_id": 1969,
@@ -480,7 +480,7 @@
    "oid": 47,
    "price": 1995.0,
    "qty": 4097,
-   "remain": 4097,
+   "remain": 3470,
    "side": "sell",
    "since": 1794031195.0,
    "tag": "station",
@@ -527,10 +527,10 @@
  ],
  "per_strategy": {
   "station": {
-   "buys": 238332435.84,
+   "buys": 240335435.84,
    "fees": 25011600.494600013,
-   "realized": 29305358.630399995,
-   "sales": 206010100.0
+   "realized": 29673199.936649993,
+   "sales": 207260965.0
   }
  },
  "per_type": {
@@ -655,8 +655,8 @@
    "sold_units": 0
   },
   "jita:1969": {
-   "bought_isk": 6668000.0,
-   "bought_units": 4,
+   "bought_isk": 8671000.0,
+   "bought_units": 5,
    "fees": 512703.0,
    "realized": 1514982.0,
    "sold_net": 3358685.0,
@@ -738,9 +738,9 @@
    "bought_isk": 5494077.0,
    "bought_units": 4097,
    "fees": 540907.8659999999,
-   "realized": -540907.8659999999,
-   "sold_net": 0.0,
-   "sold_units": 0
+   "realized": -173066.55975000001,
+   "sold_net": 1208648.30625,
+   "sold_units": 627
   },
   "jita:47136": {
    "bought_isk": 0.0,
@@ -841,12 +841,12 @@
  },
  "pnl": {
   "broker": 21239970.415400002,
-  "buys": 238332435.84,
+  "buys": 240335435.84,
   "courier": 0.0,
-  "realized": 29305358.630399995,
+  "realized": 29673199.936649993,
   "relist": 3771630.079199999,
-  "sales": 206010100.0,
-  "tax": 6952840.874999999
+  "sales": 207260965.0,
+  "tax": 6995057.568749999
  },
  "start_isk": 1000000000,
  "version": 2,

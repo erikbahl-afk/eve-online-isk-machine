@@ -104,10 +104,17 @@
     "tag": "export"
    }
   },
-  "jita": {}
+  "jita": {
+   "83467": {
+    "cost": 2226000.0,
+    "qty": 1,
+    "since": 1794186608.0,
+    "tag": "station"
+   }
+  }
  },
  "last_jump": 1794172982.5196922,
- "last_t": 1794182424.367624,
+ "last_t": 1794186857.2202218,
  "location": "amarr",
  "next_oid": 9,
  "orders": [
@@ -117,7 +124,7 @@
    "oid": 1,
    "price": 2226000.0,
    "qty": 58,
-   "remain": 58,
+   "remain": 57,
    "side": "buy",
    "tag": "station",
    "type_id": 83467,
@@ -222,7 +229,7 @@
    "sales": 0.0
   },
   "station": {
-   "buys": 0.0,
+   "buys": 2226000.0,
    "fees": 15178690.435,
    "realized": -15178690.435,
    "sales": 0.0
@@ -382,8 +389,8 @@
    "sold_units": 0
   },
   "jita:83467": {
-   "bought_isk": 0.0,
-   "bought_units": 0,
+   "bought_isk": 2226000.0,
+   "bought_units": 1,
    "fees": 1936620.0,
    "realized": -1936620.0,
    "sold_net": 0.0,
@@ -408,7 +415,7 @@
  },
  "pnl": {
   "broker": 15178690.435,
-  "buys": 3166599365.0,
+  "buys": 3168825365.0,
   "courier": 138000000.0,
   "realized": -15178690.435,
   "relist": 0.0,
