@@ -236,3 +236,21 @@
 - Alert, Tetryon XL idle bid (99M, 11 d): reach about 10%, under the new bar → avoid until 11-20 (bid cancelled). Liquidation 50% and
   Typhoon SKIN 8.6%: unchanged legacy imports (Sat entry), hold. Tests: 24 pass (2 new).
 - Next: Tue: does reach shrink station profit/day in the summary, and by how much? Thu: a probe of pick_min_reach 0.15 vs 0.4.
+
+## 2026-11-10 · competition and timing (Tuesday)
+- Rival activity (near-top order updates per observed hour, 9 full days): busiest 12–18 UTC (04–10 PT) and 18–24 UTC
+  (10–16 PT); quietest 00–06 UTC (16–22 PT). Jita 2,358 → 3,819/h, Amarr 578 → 859/h (~1.5x). Evening logins (18–22 PT)
+  reprice into the quiet block, then face the busy stretch; morning logins (06–07 PT) land at its start. Weekdays: Wed/Sat
+  busiest (Jita 8.5B/day inferred), Tue lowest (6.0B); one or two samples per weekday, so not yet a signal to act on.
+- Our 102 order lines: 7 see 19–40 near-top updates/day in all four blocks (Remote Sensor Dampener II, Antikythera Element,
+  Armor Plates, Chemal/Harvest/Tetrimon boosters, ElectroPunch); sells there were undercut 5 of 6 times. The model already gives
+  them ~0 survival, so no avoid entries. 1–2 h snapshots can't separate a minute-level bot from busy humans.
+- Time on top, live check (143 paper orders, ESI now vs `sim.hazard`): model predicts 12% still first in line, observed 41%.
+  Survival is flat ~30% across hazard 3–44, not exponential; best single scale ≈ 0.1x the hazard. Undercut gap median 1.3%.
+  One snapshot of correlated orders (most last repriced Sunday, ~50 h), so not adopted.
+- Changed: `sim.top_check` + every run appends (portfolio, hub, type, side, age, pred, top) to `state/time_on_top.csv`
+  (seeded with today's 143 rows). Test added; 25 pass. Thu/Sun: with ~1 week of rows, fit a hazard scale or a "floor" and
+  run a probe (judged on official volume match). Slots are 6/6, so no probe started today.
+- Alerts: liquidation 50%, Typhoon SKIN 8.6% (legacy imports, hold); Infomorph keys (listed at next login via list_after_days);
+  Tetryon XL bid (avoid since Mon, cancelled at the next sim login; none since Sun). All acceptable; thresholds unchanged.
+- Data gap: no collector runs 08 Nov 00:55–21:23 UTC (20 h > max_gap 12 h), so Sunday has 3.7 h of data. Watch for repeats.

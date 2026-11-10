@@ -17,7 +17,8 @@ from . import alerts, character, corners, logons, market, render, sso
 from .common import CACHE, DATA, HUBS, ROOT, STATE, load_config, load_json, save_json
 from .esi import ESI
 from .fees import Fees
-from .sim import Sim, new_portfolio
+from .sim import Sim, new_portfolio, top_check
+TOT_COLS = ["t", "portfolio", "hub", "type_id", "side", "age_h", "pred", "top"]
 from .strategy import Planner, add_density, apply_reach, candidates, choose_import_hub, import_candidates, seed_candidates
 
 LEDGER_COLS = ["t", "event", "hub", "type_id", "qty", "price", "cash_delta", "note"]
@@ -259,6 +260,11 @@ def run_portfolio(cfg, sdir, sh):
     ledger = []
     sim = Sim(cfg, pf, fees, np.random.default_rng(int(now)), ledger)
     sim.arrivals(now)
+    fresh = {h: tops[h] for h in sh["intervals"] if h in tops}
+    tot = [(int(now), sdir.name if sdir != STATE else "main", *r)
+           for r in top_check(pf["orders"], fresh, stats, now)]
+    if tot:
+        append_csv(STATE / "time_on_top.csv", TOT_COLS, tot)
     for h, (t0, t1) in sh["intervals"].items():
         sim.apply_fills(h, sh["prints"][h], stats[h], t0, t1, sh.get("levels"))
         sim.seed_fills(h, tops[h], t0, t1)

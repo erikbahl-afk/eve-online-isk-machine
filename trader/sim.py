@@ -54,6 +54,28 @@ def surv_avg(lam4, hours, start_w):
     return res / max(start_w.sum(), 1e-12)
 
 
+def top_check(orders, tops, stats, now):
+    """Observed vs predicted time on top: one row per open order in a hub with a fresh book.
+
+    Rows are (hub, type_id, side, age_h, pred, top): pred is the model's chance we are still
+    first in line since our last reprice, top whether no rival price beats ours right now.
+    """
+    rows = []
+    for o in orders:
+        top = tops.get(o["hub"])
+        if top is None or o["qty"] <= 0:
+            continue
+        sell = o["side"] == "sell"
+        col, lside = ("best_ask", "a") if sell else ("best_bid", "b")
+        rival = top[col].get(o["type_id"], np.nan) if len(top) and col in top else np.nan
+        on_top = bool(np.isnan(rival) or (o["price"] <= rival if sell else o["price"] >= rival))
+        pred = math.exp(-hazard(lam4_of(stats.get(o["hub"], ()), o["type_id"], lside),
+                                o["updated"], now))
+        rows.append((o["hub"], o["type_id"], o["side"], round((now - o["updated"]) / 3600, 2),
+                     round(pred, 4), int(on_top)))
+    return rows
+
+
 def lam4_of(stats, ty, side):
     cols = [f"lam_{side}{b}" for b in range(NB)]
     if len(stats) and ty in stats.index and cols[0] in stats:

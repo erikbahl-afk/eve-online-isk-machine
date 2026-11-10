@@ -282,3 +282,22 @@ def test_aged_stock_is_listed_even_if_low_value():
     assert pl.aged({"kind": "new_sell", "hub": "amarr", "type_id": 7})
     assert not pl.aged({"kind": "new_sell", "hub": "amarr", "type_id": 8})
     assert not pl.aged({"kind": "new_buy", "hub": "amarr", "type_id": 7})
+
+
+def test_top_check_flags_undercut_and_predicts_survival():
+    import pandas as pd
+    from trader.sim import top_check
+    tops = {"jita": pd.DataFrame({"best_ask": [100.0, 90.0], "best_bid": [80.0, 85.0]}, index=[1, 2])}
+    stats = {"jita": pd.DataFrame({f"lam_{s}{b}": [0.0, 1.0] for s in "ab" for b in range(4)}, index=[1, 2])}
+    now = 1_000_000.0
+    orders = [
+        {"hub": "jita", "type_id": 1, "side": "sell", "price": 100.0, "qty": 5, "updated": now - 7200},
+        {"hub": "jita", "type_id": 2, "side": "sell", "price": 95.0, "qty": 5, "updated": now - 7200},
+        {"hub": "jita", "type_id": 2, "side": "buy", "price": 85.0, "qty": 5, "updated": now - 3600},
+        {"hub": "amarr", "type_id": 1, "side": "buy", "price": 1.0, "qty": 5, "updated": now},  # no fresh book
+    ]
+    rows = top_check(orders, tops, stats, now)
+    assert len(rows) == 3
+    assert rows[0][4] == 1.0 and rows[0][5] == 1      # quiet item, still on top
+    assert rows[1][5] == 0 and abs(rows[1][4] - 0.1353) < 1e-3   # undercut; 2 rival updates expected
+    assert rows[2][5] == 1 and abs(rows[2][4] - 0.3679) < 1e-3   # tie with best bid counts as top
