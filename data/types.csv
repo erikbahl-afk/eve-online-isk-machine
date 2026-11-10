@@ -3,7 +3,7 @@ type_id,name,volume,group_id
 35,Pyerite,0.01,18
 36,Mexallon,0.01,18
 37,Isogen,0.01,18
-38,Nocxium,0.01,
+38,Nocxium,0.01,18
 39,Zydrine,0.01,18
 40,Megacyte,0.01,18
 44,Enriched Uranium,0.75,1034
@@ -1123,6 +1123,7 @@ type_id,name,volume,group_id
 29986,Legion,,
 29988,Proteus,5000,963
 29990,Loki,5000,963
+29992,Optimized Nano-Engines,,
 30018,,0.01,
 30024,,0.01,966
 30251,Neurovisual Input Matrix,,
