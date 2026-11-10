@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Mon 09 Nov 20:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Mon 09 Nov 20:07 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 28 · **Est. time:** 25 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -78,7 +78,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 | 13 | ☐ Domination 5MN Microwarpdrive | 1 | **26,740,000** | 39,730,000 | 26,730,000 |
 | 14 | ☐ Legion Defensive - Covert Reconfiguration | 2 | **30,020,000** | 33,560,000 | 30,010,000 |
 | 15 | ☐ Lorharyth’s Modified Inertial Stabilizer | 1 | **253,200,000** | 258,000,000 | 253,100,000 |
-| 16 | ☐ Mercury | 34,919 | **2,939** | 3,052 | 2,938 |
+| 16 | ☐ Mercury | 34,957 | **2,939** | 3,052 | 2,938 |
 | 17 | ☐ Proximity-5 'Extraction' Filament | 9 | **7,127,000** | 7,746,000 | 7,126,000 |
 | 18 | ☐ Republic Fleet Target Painter | 2 | **28,950,000** | 32,460,000 | 28,940,000 |
 
@@ -117,8 +117,8 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 27 | ☐ Compressed Crokite | 6 | **5,202** | 5,535 | 5,201 |
-| 28 | ☐ Compressed Malachite Mykoserocin | 8 | **75,780** | 77,510 | 75,770 |
+| 27 | ☐ Compressed Crokite | 13 | **5,202** | 5,535 | 5,201 |
+| 28 | ☐ Compressed Malachite Mykoserocin | 6 | **75,780** | 77,510 | 75,770 |
 
 ---
 Wallet 1.62B · escrow 140.91M · stock 3.13B · in transit 0.00 · net worth 4.88B (liquidation 2.46B)

@@ -1,4 +1,4 @@
-# Summary · Mon 09 Nov 20:00 PST
+# Summary · Mon 09 Nov 20:07 PST
 
 Updated every ~2 hours. **Your real character** is the first section; everything after it is the **practice trader** (pretend ISK, real market data). Each section starts with a line on how to read it.
 
@@ -86,11 +86,11 @@ _Market size = ISK spent per day buying from sell orders in that station. Items 
 
 | Hub | Market size/day | Station items | Station profit/day | Import items | Import profit/day |
 |---|---|---|---|---|---|
-| jita | 5.30T | 19 | 38.80M | - | - |
-| amarr | 496.99B | 2 | 1.48M | 27 | 77.31M |
-| dodixie | 155.02B | 1 | 1.53M | 30 | 89.62M |
-| rens | 40.57B | 0 | - | 10 | 21.55M |
-| hek | 61.43B | 0 | - | 13 | 35.72M |
+| jita | 5.30T | 19 | 38.81M | - | - |
+| amarr | 497.44B | 2 | 1.48M | 27 | 77.30M |
+| dodixie | 155.00B | 2 | 2.63M | 30 | 89.59M |
+| rens | 40.55B | 0 | - | 11 | 23.71M |
+| hek | 61.46B | 0 | - | 13 | 35.72M |
 
 ## 8. Best items to trade inside Jita
 _Buy at the highest buy price + 1 tick, sell at the lowest sell price − 1 tick. Margin is after all fees. On top = how much of the time between your logins our order would stay the best price before a rival undercuts it (sell side / buy side). Limited by = which resource it eats most: order slots, ISK, or your time._
@@ -104,10 +104,10 @@ _Buy at the highest buy price + 1 tick, sell at the lowest sell price − 1 tick
 | Legion Defensive - Covert Reconfiguration | 30.02M → 37.96M | 18.8% | 0.4 | 4% / 57% | 2.20M | time |
 | Entosis Link II | 132.90M → 152.80M | 7.9% | 0.2 | 13% / 68% | 2.01M | time |
 | Imperial Navy Modified 'Noble' Implant | 256.30M → 298.80M | 9.4% | 0.1 | 9% / 42% | 2.19M | time |
-| Mercury | 2.94k → 3.45k | 10.2% | 8729.7 | 2% / 2% | 2.38M | time |
+| Mercury | 2.94k → 3.45k | 10.2% | 8739.2 | 2% / 2% | 2.38M | time |
 | Corpus X-Type Explosive Armor Hardener | 192.40M → 219.30M | 6.9% | 0.2 | 4% / 13% | 2.24M | time |
 | Zirnitra Blueprint Data Vault | 214.70M → 269.80M | 18.0% | 0.1 | 3% / 29% | 2.11M | time |
-| Republic Fleet Target Painter | 28.95M → 36.72M | 19.2% | 0.4 | 1% / 2% | 2.25M | time |
+| Republic Fleet Target Painter | 28.95M → 36.72M | 19.2% | 0.4 | 1% / 2% | 2.26M | time |
 | Proximity-5 'Extraction' Filament | 7.13M → 8.76M | 15.4% | 2.1 | 3% / 5% | 2.20M | time |
 
 ## 9. Best items to import Jita → Amarr
@@ -118,10 +118,10 @@ _Buy from Jita sellers, ship by courier, sell just under the cheapest seller the
 | Caldari Navy Large Graviton Smartbomb | 122.10M → 155.20M | 50.0 | 16.3% | 0.4 | 100% | 8.80M | ISK |
 | ORE Mining Director Mindlink | 559.00M → 690.90M | 1.0 | 13.0% | 0.1 | 42% | 8.08M | ISK |
 | Mid-grade Virtue Delta | 235.00M → 287.70M | 1.0 | 11.9% | 0.2 | 57% | 6.68M | ISK |
-| Legion Mjolnir Auto-Targeting Light Missile | 998.00 → 2.32k | 0.0 | 116.2% | 3274.9 | 86% | 3.79M | time |
-| Caesium | 5.42k → 6.78k | 0.1 | 14.4% | 4490.5 | 86% | 3.49M | time |
-| Federation Navy 50MN Microwarpdrive | 89.52M → 116.20M | 10.0 | 18.9% | 0.2 | 77% | 3.48M | time |
-| Blood Raider NET Resonator | 3.99M → 4.99M | 1.0 | 14.4% | 6.6 | 7% | 3.71M | time |
+| Legion Mjolnir Auto-Targeting Light Missile | 998.00 → 2.32k | 0.0 | 116.2% | 3275.8 | 86% | 3.79M | time |
+| Caesium | 5.42k → 6.78k | 0.1 | 14.4% | 4488.0 | 86% | 3.49M | time |
+| Federation Navy 50MN Microwarpdrive | 89.52M → 116.20M | 10.0 | 18.9% | 0.2 | 77% | 3.47M | time |
+| Blood Raider NET Resonator | 3.99M → 4.99M | 1.0 | 14.4% | 6.6 | 7% | 3.72M | time |
 | Mobile Medium Warp Disruptor II | 9.88M → 14.27M | 195.0 | 32.8% | 1.0 | 55% | 3.18M | time |
 | Dread Guristas Multispectrum Shield Hardener | 219.30M → 264.50M | 5.0 | 10.1% | 0.2 | 20% | 4.00M | ISK |
 | Pithum A-Type Medium Remote Shield Booster | 69.27M → 84.73M | 10.0 | 11.8% | 0.4 | 32% | 2.90M | time |
@@ -142,17 +142,17 @@ _Items where buying out the cheapest few sell orders and relisting higher would 
 | jita | Zainou 'Deadeye' Medium Hybrid Turret MH-803 | 19.40M | 3 orders / 19 units | 372.10M | 28.35M | 140.29M | 38% | 3.5 | 3.0 |
 | rens | Crystalline Kangite | 1.42k | 2 orders / 225,333 units | 320.75M | 2.14k | 138.81M | 43% | 8.8 | 2.4 |
 | jita | Historic Capsuleer Day SKIN Crate | 4.20M | 6 orders / 43 units | 190.35M | 7.58M | 119.90M | 63% | 2.8 | 2.2 |
-| jita | Mining Laser Optimization Charge Blueprint | 17.48M | 3 orders / 14 units | 244.89M | 26.97M | 114.28M | 47% | 8.4 | 2.1 |
+| jita | Mining Laser Optimization Charge Blueprint | 17.48M | 3 orders / 14 units | 244.89M | 26.97M | 114.28M | 47% | 8.4 | 2.0 |
 
 ## 11. Data health
 _Is the market data flowing? Orders = orders seen in the station · Hours today = hours of data collected since 00:00 UTC · Trades seen = trades inferred since the last snapshot. Any note means something went wrong._
 
 | Hub | Orders | Hours today | Trades seen | Note |
 |---|---|---|---|---|
-| jita | 329,584 | 6.0 | 1,553 |  |
-| amarr | 125,948 | 6.0 | 398 |  |
-| dodixie | 66,590 | 6.0 | 167 |  |
-| rens | 31,809 | 6.0 | 94 |  |
-| hek | 40,468 | 6.0 | 81 |  |
+| jita | 329,580 | 6.1 | 665 |  |
+| amarr | 125,880 | 6.1 | 219 |  |
+| dodixie | 66,589 | 6.1 | 47 |  |
+| rens | 31,809 | 6.1 | 15 |  |
+| hek | 40,468 | 6.1 | 41 |  |
 
-_This run took 37 s (market data 22 s, stats and character 1 s, experiments 12 s, main portfolio 1 s, cornering scan 0 s, ESI back-off 0 s; 1,115 ESI calls). A slow run usually means ESI rate limits (back-off) or a first-time lookup of many item types._
+_This run took 32 s (market data 13 s, stats and character 1 s, experiments 15 s, main portfolio 2 s, cornering scan 0 s, ESI back-off 0 s; 1,113 ESI calls). A slow run usually means ESI rate limits (back-off) or a first-time lookup of many item types._
