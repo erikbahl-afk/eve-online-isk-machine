@@ -309,6 +309,7 @@ type_id,name,volume,group_id
 12237,,8000,
 12259,Medium Energy Nosferatu II,,
 12263,Heavy Energy Nosferatu II,5,
+12267,,5,71
 12271,,5,
 12356,350mm Railgun II,20,
 12484,Amarr Drone Specialization,0.01,
@@ -335,6 +336,7 @@ type_id,name,volume,group_id
 12816,Conflagration L,1,375
 12818,Scorch M,,
 12820,Scorch L,1,375
+12822,,1,374
 13209,Armored Command Mindlink,1,744
 13216,Zainou 'Gypsy' CPU Management EE-603,1,741
 13217,Inherent Implants 'Lancer' Large Energy Turret LE-1003,,
@@ -749,6 +751,7 @@ type_id,name,volume,group_id
 19719,Transport Ships,,
 19739,Cruise Missile Launcher II,20,506
 20060,Amarr Control Tower Small,2000,
+20062,Caldari Control Tower Small,2000,365
 20064,Gallente Control Tower Small,2000,365
 20065,Minmatar Control Tower Medium,4000,
 20066,,2000,365
@@ -875,6 +878,7 @@ type_id,name,volume,group_id
 23073,,1,
 23079,Imperial Navy Standard S,,
 23085,,1,86
+23089,,1,86
 23097,Imperial Navy Standard M,1,86
 23105,Imperial Navy Multifrequency L,1,86
 23107,,1,86
@@ -893,6 +897,7 @@ type_id,name,volume,group_id
 24438,Omnidirectional Tracking Link II,,
 24486,Inferno Rage Heavy Assault Missile,,
 24499,,0.015,
+24507,,0.03,655
 24509,,0.03,
 24511,Inferno Fury Heavy Missile,0.03,
 24515,,0.03,
@@ -937,6 +942,7 @@ type_id,name,volume,group_id
 25892,Large Thermal Armor Reinforcer I,20,
 25894,Large Trimark Armor Pump I,20,773
 25896,,20,
+25900,Large Remote Repair Augmentor I,,
 25956,,20,
 26020,Large Warhead Rigor Catalyst I,20,
 26068,Large Hyperspatial Velocity Optimizer I,20,
@@ -1318,6 +1324,7 @@ type_id,name,volume,group_id
 34575,Antikythera Element,0.1,1314
 34590,Victorieux Luxury Yacht,10000,5087
 34593,Entosis Link I,20,
+34595,Entosis Link II,20,1313
 34631,Rokh Wiyrkomi SKIN,,
 34828,Jackdaw,5000,1305
 35661,,10,46
@@ -1489,7 +1496,7 @@ type_id,name,volume,group_id
 46005,Agency 'Overclocker' SB5 Dose II,1,303
 46213,Ferrogel Reaction Formula,,
 46355,Ubiquitous Moon Mining Crystal Type A I,6,
-46356,Ubiquitous Moon Mining Crystal Type A II,10,
+46356,Ubiquitous Moon Mining Crystal Type A II,10,482
 46375,Daily Alpha Injector,0.01,1739
 46633,Standup M-Set Asteroid Ore Grading Processor I,10,
 47028,Neural Lace 'Blackglass' Net Intrusion 920-40,1,
@@ -1505,6 +1512,7 @@ type_id,name,volume,group_id
 47340,Standup Missile Guidance Enhancer II,,
 47342,Standup Ballistic Control System II,4000,
 47351,,4000,1441
+47352,Standup Cap Battery I,,
 47356,Standup Capacitor Power Relay I,4000,
 47448,C3-X 'Hivaa Saitsuo' Ballistic Control System,5,367
 47466,Praxis,50000,
