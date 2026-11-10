@@ -5,6 +5,12 @@
  "in_transit": [],
  "inventory": {
   "amarr": {
+   "14130": {
+    "cost": 6204000.0,
+    "qty": 1,
+    "since": 1794268806.0,
+    "tag": "station"
+   },
    "36": {
     "cost": 44.73,
     "qty": 2,
@@ -25,6 +31,12 @@
     "since": 1794182408.0,
     "tag": "station"
    },
+   "60032": {
+    "cost": 40020000.0,
+    "qty": 1,
+    "since": 1794268813.0,
+    "tag": "station"
+   },
    "62522": {
     "cost": 22.22,
     "qty": 1,
@@ -40,7 +52,7 @@
   }
  },
  "last_jump": 1794172982.5196922,
- "last_t": 1794261625.2773225,
+ "last_t": 1794268826.652179,
  "location": "amarr",
  "next_oid": 51,
  "orders": [
@@ -126,18 +138,6 @@
    "side": "buy",
    "tag": "station",
    "type_id": 22993,
-   "updated": 1794172982.5196922
-  },
-  {
-   "created": 1793894429.201751,
-   "hub": "jita",
-   "oid": 11,
-   "price": 40020000.0,
-   "qty": 1,
-   "remain": 1,
-   "side": "buy",
-   "tag": "station",
-   "type_id": 60032,
    "updated": 1794172982.5196922
   },
   {
@@ -497,23 +497,11 @@
    "tag": "station",
    "type_id": 12532,
    "updated": 1794172982.5196922
-  },
-  {
-   "created": 1794172982.5196922,
-   "hub": "amarr",
-   "oid": 50,
-   "price": 6204000.0,
-   "qty": 1,
-   "remain": 1,
-   "side": "buy",
-   "tag": "station",
-   "type_id": 14130,
-   "updated": 1794172982.5196922
   }
  ],
  "per_strategy": {
   "station": {
-   "buys": 240335435.84,
+   "buys": 286559435.84000003,
    "fees": 25011600.494600013,
    "realized": 31708940.499149993,
    "sales": 214183615.0
@@ -529,8 +517,8 @@
    "sold_units": 0
   },
   "amarr:14130": {
-   "bought_isk": 0.0,
-   "bought_units": 0,
+   "bought_isk": 6204000.0,
+   "bought_units": 1,
    "fees": 93060.0,
    "realized": -93060.0,
    "sold_net": 0.0,
@@ -753,8 +741,8 @@
    "sold_units": 0
   },
   "jita:60032": {
-   "bought_isk": 0.0,
-   "bought_units": 0,
+   "bought_isk": 40020000.0,
+   "bought_units": 1,
    "fees": 720360.0,
    "realized": -720360.0,
    "sold_net": 0.0,
@@ -827,7 +815,7 @@
  },
  "pnl": {
   "broker": 21239970.415400002,
-  "buys": 240335435.84,
+  "buys": 286559435.84000003,
   "courier": 0.0,
   "realized": 31708940.499149993,
   "relist": 3771630.079199999,

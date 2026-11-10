@@ -78,16 +78,18 @@ type_id,name,volume,group_id
 2361,Hermetic Membranes,3,
 2390,Electrolytes,0.19,1042
 2392,,0.19,1042
-2393,Bacteria,,
+2393,Bacteria,0.19,1042
 2396,,0.19,1042
 2399,Precious Metals,,
 2400,Toxic Metals,0.19,1042
 2401,Chiral Structures,,
+2404,,5,509
 2410,,10,510
 2420,Torpedo Launcher II,20,508
 2444,,25,
 2456,,5,
 2478,Berserker II,25,100
+2506,Mjolnir Torpedo,0.05,89
 2539,,5,
 2563,,5,
 2567,Multispectral ECM II,5,
@@ -152,6 +154,7 @@ type_id,name,volume,group_id
 3695,Polytextiles,0.75,1034
 3756,Gnosis,15000,419
 3775,Viral Agent,,
+3841,,20,38
 3893,Mining Connections,0.01,
 3894,Distribution Connections,0.01,278
 3895,Security Connections,,
@@ -184,7 +187,7 @@ type_id,name,volume,group_id
 5051,Heavy F-RX Compact Capacitor Booster,20,76
 5973,5MN Y-T8 Compact Microwarpdrive,10,46
 6719,,5,
-7447,425mm Prototype Gauss Gun,20,
+7447,425mm Prototype Gauss Gun,20,74
 7579,Modal Light Neutron Particle Accelerator I,5,
 8263,,5,
 8433,Medium Azeotropic Restrained Shield Extender,10,
@@ -261,7 +264,7 @@ type_id,name,volume,group_id
 11548,Nuclear Reactor Unit,1,
 11549,Antimatter Reactor Unit,1,334
 11552,,1,
-11554,Tesseract Capacitor Unit,1,
+11554,Tesseract Capacitor Unit,1,334
 11556,,1,
 11557,Linear Shield Emitter,1,334
 11563,,20,339
@@ -325,8 +328,9 @@ type_id,name,volume,group_id
 12753,Impel,20000,380
 12761,,0.025,376
 12765,,0.025,376
+12771,Tremor M,,
 12779,,0.025,
-12791,,0.025,
+12791,,0.025,377
 12807,,0.025,373
 12816,Conflagration L,1,375
 12818,Scorch M,,
@@ -605,8 +609,9 @@ type_id,name,volume,group_id
 17918,Rattlesnake,50000,27
 17922,,10000,26
 17924,Succubus,2500,25
+17926,Cruor,2500,25
 17928,Daredevil,2500,25
-17930,Worm,2500,
+17930,Worm,2500,25
 17932,Dramiel,2500,25
 18054,Mercoxit Asteroid Mining Crystal Type A I,6,
 18068,,5,
@@ -859,13 +864,14 @@ type_id,name,volume,group_id
 22953,'Cartel' Power Diagnostic System I,5,
 22993,Federation Navy Antimatter Charge L,0.025,85
 22995,,0.025,
+23005,Federation Navy Tungsten Charge L,,
 23007,Federation Navy Iron Charge L,,
 23009,Caldari Navy Antimatter Charge S,0.0025,85
 23025,Caldari Navy Antimatter Charge M,0.0125,85
 23047,Caldari Navy Lead Charge L,,
 23055,Templar I,1000,1652
 23061,Einherji I,1000,1652
-23071,,1,
+23071,,1,86
 23073,,1,
 23079,Imperial Navy Standard S,,
 23085,,1,86
@@ -901,6 +907,7 @@ type_id,name,volume,group_id
 24640,Zainou 'Deadeye' Guided Missile Precision GP-805,,
 24663,Zor's Custom Navigation Hyper-Link,,
 24692,,50000,
+24696,,15000,419
 24702,Hurricane,,
 25252,Pure Standard Frentix Booster,1,712
 25266,Gas Cloud Scoop I,5,737
@@ -953,7 +960,7 @@ type_id,name,volume,group_id
 26380,Large Energy Burst Aerator II,20,
 26382,,20,
 26402,Large Hybrid Locus Coordinator II,20,
-26412,,20,
+26412,,20,779
 26414,Large Warhead Rigor Catalyst II,20,
 26416,Large Hydraulic Bay Thrusters II,20,
 26424,Large Projectile Collision Accelerator II,20,
@@ -1018,6 +1025,7 @@ type_id,name,volume,group_id
 27489,Legion Scourge Auto-Targeting Heavy Missile,0.03,
 27507,Legion Mjolnir Auto-Targeting Light Missile,0.015,394
 27916,,75,
+27920,Electron Bomb,75,90
 27922,Lockbreaker Bomb,,
 27924,,75,
 28201,Light Armor Maintenance Bot II,5,
@@ -1335,7 +1343,7 @@ type_id,name,volume,group_id
 37146,Standup M-Set Basic Medium Ship Manufacturing Material Efficiency I,10,
 37154,Standup M-Set Basic Small Ship Manufacturing Material Efficiency I,10,
 37292,Rapid Torpedo Launcher II,1000,
-37296,Quad Mega Pulse Laser II,1000,
+37296,Quad Mega Pulse Laser II,1000,53
 37298,Dual Giga Pulse Laser II,1000,53
 37302,Ion Siege Blaster II,1000,
 37306,Hexa 2500mm Repeating Cannon II,1000,
@@ -1353,6 +1361,7 @@ type_id,name,volume,group_id
 37631,Corpus X-Type Heavy Energy Neutralizer,5,71
 37820,Caldari Navy Shield Power Relay,5,57
 37843,,0.5,
+37844,,0.5,1546
 37846,Standup Cruise Missile,0.5,1547
 37847,Standup Heavy Missile,0.5,
 37848,,0.5,
@@ -1442,11 +1451,12 @@ type_id,name,volume,group_id
 43898,,20,
 44102,,5,512
 44993,Pacifier,2500,830
-45009,,8000,1887
+45009,Standup Moon Drill I,8000,1887
 45586,Legion Defensive - Covert Reconfiguration,40,954
 45587,Legion Defensive - Augmented Plating,40,
 45588,Legion Defensive - Nanobot Injector,40,
 45589,Tengu Defensive - Covert Reconfiguration,40,
+45591,,40,954
 45592,,40,
 45595,Loki Defensive - Covert Reconfiguration,40,954
 45601,Tengu Offensive - Accelerated Ejection Bay,40,
@@ -1650,7 +1660,7 @@ type_id,name,volume,group_id
 57443,Meta-Molecular Combiner,1,526
 57444,,1,
 57446,,1,526
-57449,Nano Regulation Gate,,
+57449,Nano Regulation Gate,0.1,526
 57450,Electro-Neural Signaller,0.25,526
 57452,Isotropic Deposition Guide,5,526
 57454,Oxy-Organic Solvents,,
@@ -1794,6 +1804,7 @@ type_id,name,volume,group_id
 81951,Consortium Mobile Tractor Unit,80,1250
 82054,Stabber Capsuleer Day XXI SKIN,0.01,1950
 82184,Thrasher Fleet Issue Republic Police SKIN,,
+82300,,0.012,4755
 82301,Compressed Kylixium II-Grade,,
 82302,Compressed Kylixium III-Grade,,
 82303,,0.012,4755
@@ -1897,7 +1908,7 @@ type_id,name,volume,group_id
 94067,Caldari Navy Signal Distortion Amplifier,,
 95228,Manifest Homecoming Background,,
 95413,Harmonius Bridge - Unlimited,,
-95556,,5,
+95556,Lorharyth’s Modified Inertial Stabilizer,5,762
 95672,Liberated Matar Background,0.1,
 95673,Foundation Wisdom Background,0.1,
 95741,Akoman,15000,
