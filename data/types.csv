@@ -282,6 +282,7 @@ type_id,name,volume,group_id
 11963,Rapier,10000,
 11965,Pilgrim,10000,
 11969,Arazu,10000,833
+11978,,10000,832
 11985,Basilisk,,
 11987,Guardian,10000,832
 11989,,10000,
@@ -615,7 +616,7 @@ type_id,name,volume,group_id
 17895,High-Tech Manufacturing Tools,0.01,
 17912,Modulated Strip Miner II,,
 17918,Rattlesnake,50000,27
-17922,,10000,26
+17922,Ashimmu,10000,26
 17924,Succubus,2500,25
 17926,Cruor,2500,25
 17928,Daredevil,2500,25
@@ -708,7 +709,7 @@ type_id,name,volume,group_id
 19193,Gist C-Type Large Shield Booster,,
 19194,Gist B-Type Large Shield Booster,25,
 19197,Gist A-Type X-Large Shield Booster,50,
-19198,Gist X-Type X-Large Shield Booster,50,
+19198,Gist X-Type X-Large Shield Booster,50,40
 19200,Gist X-Type Large Shield Booster,25,
 19201,,25,
 19202,Pith C-Type X-Large Shield Booster,50,40
@@ -988,7 +989,7 @@ type_id,name,volume,group_id
 26442,,20,
 26444,,20,
 26448,Large Core Defense Field Extender II,20,
-26450,,20,
+26450,Large Core Defense Field Purger II,20,774
 26890,Mobile Medium Warp Disruptor II,195,361
 26892,Mobile Small Warp Disruptor II,65,361
 26912,Small Remote Armor Repairer II,5,
@@ -1025,7 +1026,7 @@ type_id,name,volume,group_id
 27341,Dread Guristas Mjolnir Torpedo,0.05,89
 27345,Caldari Navy Scourge Torpedo,0.05,89
 27347,,0.05,89
-27351,,0.05,
+27351,Caldari Navy Inferno Torpedo,0.05,89
 27355,Dread Guristas Inferno Torpedo,,
 27377,Caldari Navy Mjolnir Cruise Missile,0.05,386
 27381,Caldari Navy Nova Light Missile,,
@@ -1481,9 +1482,9 @@ type_id,name,volume,group_id
 45588,Legion Defensive - Nanobot Injector,40,
 45589,Tengu Defensive - Covert Reconfiguration,40,
 45591,,40,954
-45592,,40,
+45592,,40,954
 45595,Loki Defensive - Covert Reconfiguration,40,954
-45601,Tengu Offensive - Accelerated Ejection Bay,40,
+45601,Tengu Offensive - Accelerated Ejection Bay,40,956
 45605,Proteus Offensive - Drone Synthesis Projector,40,956
 45606,Proteus Offensive - Support Processor,40,
 45607,Loki Offensive - Projectile Scoping Array,40,
