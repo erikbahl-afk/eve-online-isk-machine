@@ -113,6 +113,7 @@ type_id,name,volume,group_id
 3041,Small Focused Pulse Laser II,5,
 3049,Mega Beam Laser II,20,
 3057,Mega Pulse Laser II,20,53
+3065,Tachyon Beam Laser II,20,53
 3080,,1,
 3082,,10,
 3090,425mm Railgun II,20,74
@@ -524,7 +525,7 @@ type_id,name,volume,group_id
 16057,Republic Fleet 800mm Repeating Cannon,,
 16062,Caldari Navy Cruise Missile Launcher,20,
 16064,Caldari Navy Heavy Missile Launcher,10,510
-16067,Caldari Navy Torpedo Launcher,20,
+16067,Caldari Navy Torpedo Launcher,20,508
 16068,Caldari Navy Light Missile Launcher,,
 16229,Brutix,15000,419
 16233,Prophecy,,
@@ -1545,7 +1546,7 @@ type_id,name,volume,group_id
 47887,,0.01,
 47890,Raging Exotic Filament,0.1,1979
 47891,Chaotic Exotic Filament,0.1,1979
-47895,Chaotic Dark Filament,,
+47895,Chaotic Dark Filament,0.1,1979
 47897,,0.1,
 47899,Chaotic Firestorm Filament,0.1,1979
 47901,,0.1,
@@ -1976,6 +1977,7 @@ type_id,name,volume,group_id
 97652,Gravid Large Remote Armor Repairer Mutaplasmid,,
 97654,Glorified Unstable Large Remote Armor Repairer Mutaplasmid,1,1964
 97662,Unstable Medium Remote Armor Repairer Mutaplasmid,,
+97669,Decayed Small Remote Armor Repairer Mutaplasmid,1,1964
 97670,Unstable Small Remote Armor Repairer Mutaplasmid,,
 97671,,1,
 97897,Bloody Sunset Background,,

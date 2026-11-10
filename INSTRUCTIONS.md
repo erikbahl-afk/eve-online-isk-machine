@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Tue 10 Nov 00:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Tue 10 Nov 02:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 28 · **Est. time:** 25 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -74,13 +74,13 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 12 | ☐ Fullerite-C540 | 1,927 | **45,080** | 47,220 | 45,070 |
-| 13 | ☐ Imperial Navy Modified 'Noble' Implant | 1 | **256,300,000** | 264,100,000 | 256,200,000 |
-| 14 | ☐ Medium Warhead Calefaction Catalyst II | 5 | **14,810,000** | 15,890,000 | 14,800,000 |
-| 15 | ☐ Navy Cap Booster 200 | 827 | **40,380** | 48,750 | 40,370 |
-| 16 | ☐ Pith A-Type Large Shield Booster | 1 | **163,700,000** | 181,600,000 | 163,600,000 |
-| 17 | ☐ Proximity-5 'Extraction' Filament | 4 | **7,132,000** | 7,768,000 | 7,131,000 |
-| 18 | ☐ Republic Fleet Warrior | 1 | **899,900** | 1,097,000 | 899,800 |
+| 12 | ☐ Caldari Control Tower Small | 2 | **104,200,000** | 104,600,000 | 104,100,000 |
+| 13 | ☐ Compressed Crokite | 15,151 | **5,202** | 5,508 | 5,201 |
+| 14 | ☐ Decayed Small Remote Armor Repairer Mutaplasmid | 196 | **62,780** | 101,500 | 62,770 |
+| 15 | ☐ Medium Warhead Calefaction Catalyst II | 5 | **14,810,000** | 15,890,000 | 14,800,000 |
+| 16 | ☐ Navy Cap Booster 200 | 796 | **40,380** | 48,740 | 40,370 |
+| 17 | ☐ Pith A-Type Large Shield Booster | 1 | **163,700,000** | 181,600,000 | 163,600,000 |
+| 18 | ☐ Tachyon Beam Laser II | 27 | **5,457,000** | 5,506,000 | 5,456,000 |
 
 ### Block 2 · should do · about 6 min
 
@@ -89,11 +89,11 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 19 | ☐ Caldari Control Tower Small | 2 | **104,200,000** | 104,600,000 | 104,100,000 |
-| 20 | ☐ Domination 5MN Microwarpdrive | 1 | **26,890,000** | 39,730,000 | 26,880,000 |
-| 21 | ☐ Domination EMP M | 629 | **99,860** | 107,000 | 99,850 |
-| 22 | ☐ Entosis Link II | 1 | **132,900,000** | 135,000,000 | 132,800,000 |
-| 23 | ☐ Republic Fleet Shield Boost Amplifier | 2 | **73,020,000** | 73,370,000 | 73,010,000 |
+| 19 | ☐ Breacher Pod Clone Efficacity | 1 | **62,150,000** | 72,480,000 | 62,140,000 |
+| 20 | ☐ Domination EMP M | 632 | **99,860** | 107,000 | 99,850 |
+| 21 | ☐ Entosis Link II | 1 | **132,900,000** | 135,000,000 | 132,800,000 |
+| 22 | ☐ Pithum B-Type Medium Remote Shield Booster | 1 | **39,010,000** | 42,060,000 | 39,000,000 |
+| 23 | ☐ Proximity-5 'Extraction' Filament | 2 | **7,146,000** | 7,770,000 | 7,145,000 |
 | 24 | ☐ Zirnitra Blueprint Data Vault | 1 | **214,700,000** | 238,400,000 | 214,600,000 |
 
 ### Block 3 · if there's time · about 3 min
@@ -117,7 +117,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 27 | ☐ Compressed Malachite Mykoserocin | 9 | **75,780** | 77,510 | 75,770 |
+| 27 | ☐ Corpus X-Type Explosive Armor Hardener | 1 | **192,400,000** | 193,400,000 | 192,300,000 |
 | 28 | ☐ Legion Defensive - Covert Reconfiguration | 2 | **30,020,000** | 33,550,000 | 30,010,000 |
 
 ---
