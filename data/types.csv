@@ -72,7 +72,7 @@ type_id,name,volume,group_id
 2327,,0.75,
 2328,Water-Cooled CPU,0.75,1034
 2344,,3,1040
-2345,Camera Drones,3,
+2345,Camera Drones,3,1040
 2348,Gel-Matrix Biopaste,,
 2352,Nuclear Reactors,3,
 2361,Hermetic Membranes,3,
@@ -211,6 +211,7 @@ type_id,name,volume,group_id
 10155,,1,
 10156,Strong Blue Pill Booster,1,
 10165,Improved Sooth Sayer Booster,1,
+10204,Zainou 'Deadeye' Sharpshooter ST-903,1,742
 10208,Memory Augmentation - Standard,,
 10209,,1,
 10212,Neural Boost - Standard,1,745
@@ -822,6 +823,7 @@ type_id,name,volume,group_id
 21802,Capital Shield Operation,,
 21815,Elite Drone AI,0.01,886
 21888,Shield Command Mindlink,1,744
+21889,Information Command Mindlink,1,744
 21890,Skirmish Command Mindlink,1,744
 21894,Republic Fleet EMP L,0.025,83
 21896,,0.0125,
@@ -1533,6 +1535,7 @@ type_id,name,volume,group_id
 47783,Unstable Medium Shield Booster Mutaplasmid,,
 47787,Unstable Large Shield Booster Mutaplasmid,1,
 47806,Unstable Large Shield Extender Mutaplasmid,1,
+47807,Gravid Large Shield Extender Mutaplasmid,1,1964
 47818,Unstable Large Armor Plate Mutaplasmid,1,1964
 47826,,1,1964
 47830,Unstable Heavy Energy Neutralizer Mutaplasmid,,

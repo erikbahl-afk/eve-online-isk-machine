@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Mon 09 Nov 22:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 25 · **Est. time:** 22 min. Work top to bottom; stop any time.  
+**Updated:** Tue 10 Nov 00:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 28 · **Est. time:** 25 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -67,31 +67,34 @@ _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Ne
 
 ## At Jita IV - Moon 4 - Caldari Navy Assembly Plant
 
-### Block 1 · must do · about 6 min
+### Block 1 · must do · about 7 min
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 12 | ☐ Domination 5MN Microwarpdrive | 1 | **26,740,000** | 39,730,000 | 26,730,000 |
-| 13 | ☐ Fullerite-C540 | 1,595 | **45,080** | 47,240 | 45,070 |
-| 14 | ☐ Lorharyth’s Modified Inertial Stabilizer | 1 | **253,200,000** | 258,000,000 | 253,100,000 |
-| 15 | ☐ Medium Warhead Calefaction Catalyst II | 5 | **14,810,000** | 15,890,000 | 14,800,000 |
-| 16 | ☐ Navy Cap Booster 200 | 853 | **40,380** | 48,740 | 40,370 |
-| 17 | ☐ Pith A-Type Large Shield Booster | 1 | **163,500,000** | 181,800,000 | 163,400,000 |
+| 12 | ☐ Fullerite-C540 | 1,927 | **45,080** | 47,220 | 45,070 |
+| 13 | ☐ Imperial Navy Modified 'Noble' Implant | 1 | **256,300,000** | 264,100,000 | 256,200,000 |
+| 14 | ☐ Medium Warhead Calefaction Catalyst II | 5 | **14,810,000** | 15,890,000 | 14,800,000 |
+| 15 | ☐ Navy Cap Booster 200 | 827 | **40,380** | 48,750 | 40,370 |
+| 16 | ☐ Pith A-Type Large Shield Booster | 1 | **163,700,000** | 181,600,000 | 163,600,000 |
+| 17 | ☐ Proximity-5 'Extraction' Filament | 4 | **7,132,000** | 7,768,000 | 7,131,000 |
+| 18 | ☐ Republic Fleet Warrior | 1 | **899,900** | 1,097,000 | 899,800 |
 
-### Block 2 · should do · about 4 min
+### Block 2 · should do · about 6 min
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 18 | ☐ Caldari Control Tower Small | 2 | **104,200,000** | 104,600,000 | 104,100,000 |
-| 19 | ☐ Imperial Navy Modified 'Noble' Implant | 1 | **256,300,000** | 264,100,000 | 256,200,000 |
-| 20 | ☐ Legion Defensive - Covert Reconfiguration | 2 | **30,020,000** | 33,550,000 | 30,010,000 |
-| 21 | ☐ Zirnitra Blueprint Data Vault | 1 | **214,700,000** | 238,500,000 | 214,600,000 |
+| 19 | ☐ Caldari Control Tower Small | 2 | **104,200,000** | 104,600,000 | 104,100,000 |
+| 20 | ☐ Domination 5MN Microwarpdrive | 1 | **26,890,000** | 39,730,000 | 26,880,000 |
+| 21 | ☐ Domination EMP M | 629 | **99,860** | 107,000 | 99,850 |
+| 22 | ☐ Entosis Link II | 1 | **132,900,000** | 135,000,000 | 132,800,000 |
+| 23 | ☐ Republic Fleet Shield Boost Amplifier | 2 | **73,020,000** | 73,370,000 | 73,010,000 |
+| 24 | ☐ Zirnitra Blueprint Data Vault | 1 | **214,700,000** | 238,400,000 | 214,600,000 |
 
 ### Block 3 · if there's time · about 3 min
 
@@ -100,22 +103,22 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 22 | ☐ Antikythera Element | 996,000 | **953,600** | 884,200 | 953,700 |
+| 25 | ☐ Antikythera Element | 996,000 | **953,000** | 884,200 | 953,100 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 23 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,624,000** | 3,724,000 | 3,623,000 |
+| 26 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,627,000** | 3,724,000 | 3,626,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 24 | ☐ Compressed Crokite | 7 | **5,202** | 5,535 | 5,201 |
-| 25 | ☐ Entosis Link II | 1 | **132,900,000** | 135,000,000 | 132,800,000 |
+| 27 | ☐ Compressed Malachite Mykoserocin | 9 | **75,780** | 77,510 | 75,770 |
+| 28 | ☐ Legion Defensive - Covert Reconfiguration | 2 | **30,020,000** | 33,550,000 | 30,010,000 |
 
 ---
 Wallet 1.62B · escrow 140.91M · stock 3.13B · in transit 0.00 · net worth 4.88B (liquidation 2.46B)
