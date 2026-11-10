@@ -661,6 +661,7 @@ type_id,name,volume,group_id
 18923,Centus A-Type Kinetic Armor Hardener,,
 18933,Corpus X-Type EM Armor Hardener,5,328
 18937,Corpus X-Type Explosive Armor Hardener,5,328
+18939,Centus X-Type Explosive Armor Hardener,5,328
 18945,Corpus X-Type Thermal Armor Hardener,5,
 18947,Centus X-Type Thermal Armor Hardener,,
 18949,,5,
@@ -753,6 +754,7 @@ type_id,name,volume,group_id
 19550,Inherent Implants 'Noble' Hull Upgrades HG-1005,1,
 19554,High-grade Snake Delta,1,300
 19556,High-grade Snake Omega,,
+19684,Inherent Implants 'Noble' Repair Proficiency RP-903,,
 19685,Inherent Implants 'Noble' Repair Proficiency RP-905,1,
 19686,Eifyr and Co. 'Gunslinger' Motion Prediction MR-705,1,
 19687,Eifyr and Co. 'Gunslinger' Surgical Strike SS-905,1,742
@@ -831,7 +833,7 @@ type_id,name,volume,group_id
 21894,Republic Fleet EMP L,0.025,83
 21896,,0.0125,
 21898,Republic Fleet EMP S,0.0025,
-21902,,0.025,83
+21902,Republic Fleet Fusion L,0.025,83
 21918,Republic Fleet Phased Plasma L,0.025,
 21922,Republic Fleet Phased Plasma M,0.0125,83
 21924,,0.0025,83
@@ -1533,7 +1535,7 @@ type_id,name,volume,group_id
 47352,Standup Cap Battery I,,
 47356,Standup Capacitor Power Relay I,4000,
 47448,C3-X 'Hivaa Saitsuo' Ballistic Control System,5,367
-47466,Praxis,50000,
+47466,Praxis,50000,27
 47532,,0.01,1950
 47700,Unstable Stasis Webifier Mutaplasmid,1,1964
 47752,Gravid 10MN Afterburner Mutaplasmid,1,
