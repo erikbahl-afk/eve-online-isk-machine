@@ -42,7 +42,7 @@ type_id,name,volume,group_id
 1230,Veldspar,0.1,462
 1231,Hemorphite,,
 1319,Expanded Cargohold II,5,765
-1355,Reactor Control Unit II,,
+1355,Reactor Control Unit II,5,769
 1436,Auto Targeting System II,,
 1565,Small EMP Smartbomb II,,
 1818,Scourge Auto-Targeting Heavy Missile I,0.03,
@@ -207,7 +207,7 @@ type_id,name,volume,group_id
 9941,Memory Augmentation - Basic,1,745
 9947,Standard Crash Booster,,
 9950,Standard Blue Pill Booster,1,303
-9957,Eifyr and Co. 'Gunslinger' Motion Prediction MR-703,,
+9957,Eifyr and Co. 'Gunslinger' Motion Prediction MR-703,1,742
 10151,,1,
 10155,,1,
 10156,Strong Blue Pill Booster,1,
@@ -430,6 +430,7 @@ type_id,name,volume,group_id
 14126,Domination Overdrive Injector,5,
 14128,,5,
 14130,True Sansha Reactor Control Unit,5,769
+14134,Dark Blood Power Diagnostic System,5,766
 14136,,5,
 14140,True Sansha Cap Recharger,5,43
 14144,Dark Blood Capacitor Power Relay,5,767
@@ -459,6 +460,7 @@ type_id,name,volume,group_id
 14248,,5,
 14252,Dark Blood Warp Scrambler,,
 14254,Domination Warp Scrambler,5,52
+14256,,5,52
 14260,,5,
 14262,,5,
 14264,Domination Stasis Webifier,5,65
@@ -640,7 +642,7 @@ type_id,name,volume,group_id
 18706,,5,98
 18708,Corpii A-Type Multispectrum Coating,5,98
 18766,,5,
-18768,Coreli C-Type Multispectrum Coating,5,
+18768,Coreli C-Type Multispectrum Coating,5,98
 18789,Coreli A-Type Multispectrum Coating,5,98
 18797,Coreli A-Type Thermal Coating,5,98
 18799,,5,
@@ -963,7 +965,7 @@ type_id,name,volume,group_id
 26068,Large Hyperspatial Velocity Optimizer I,20,
 26070,,20,
 26076,Large EM Shield Reinforcer I,,
-26084,,20,
+26084,Large Core Defense Field Purger I,20,
 26288,Large Explosive Armor Reinforcer II,20,773
 26290,,20,
 26292,,20,
@@ -1066,8 +1068,9 @@ type_id,name,volume,group_id
 28324,,0.025,
 28332,,0.025,83
 28334,,0.0125,
+28361,Drone Synaptic Relay Wiring,0.01,886
 28362,Drone Capillary Fluid,0.02,886
-28363,,0.03,886
+28363,Drone Cerebral Fragment,0.03,886
 28364,,0.07,886
 28375,,10,
 28377,Caldari Navy Heavy Assault Missile Launcher,10,
@@ -1487,25 +1490,28 @@ type_id,name,volume,group_id
 45592,,40,954
 45595,Loki Defensive - Covert Reconfiguration,40,954
 45601,Tengu Offensive - Accelerated Ejection Bay,40,956
+45604,Proteus Offensive - Hybrid Encoding Platform,40,956
 45605,Proteus Offensive - Drone Synthesis Projector,40,956
 45606,Proteus Offensive - Support Processor,40,
-45607,Loki Offensive - Projectile Scoping Array,40,
+45607,Loki Offensive - Projectile Scoping Array,40,956
 45608,Loki Offensive - Launcher Efficiency Configuration,40,
 45611,Legion Propulsion - Intercalated Nanofibers,40,957
+45612,Legion Propulsion - Wake Limiter,40,957
 45614,Tengu Propulsion - Chassis Optimization,40,957
 45615,Tengu Propulsion - Fuel Catalyst,40,957
-45617,,40,
+45617,Proteus Propulsion - Hyperspatial Optimization,40,957
 45618,Proteus Propulsion - Localized Injectors,40,957
 45619,Loki Propulsion - Interdiction Nullifier,,
 45620,Loki Propulsion - Intercalated Nanofibers,40,
 45621,Loki Propulsion - Wake Limiter,40,957
+45622,Legion Core - Dissolution Sequencer,40,958
 45626,Tengu Core - Augmented Graviton Reactor,40,958
 45627,,40,
 45628,,40,
 45629,Proteus Core - Augmented Fusion Reactor,40,
 45630,,40,
 45631,Loki Core - Dissolution Sequencer,40,
-45632,Loki Core - Augmented Nuclear Reactor,40,
+45632,Loki Core - Augmented Nuclear Reactor,40,958
 45633,Loki Core - Immobility Drivers,40,958
 45856,Golem Exoplanets Hunter SKIN,0.01,
 45866,Bustard Exoplanets Hunter SKIN,,
