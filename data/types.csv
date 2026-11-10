@@ -307,6 +307,7 @@ type_id,name,volume,group_id
 12108,Deep Core Mining Laser I,5,54
 12200,Mobile Large Warp Disruptor I,585,361
 12209,Large Autocannon Specialization,,
+12212,Large Blaster Specialization,,
 12221,Medium Remote Capacitor Transmitter II,10,
 12223,,1000,
 12237,,8000,
@@ -494,7 +495,7 @@ type_id,name,volume,group_id
 15751,,10,46
 15753,,5,
 15764,Federation Navy 50MN Microwarpdrive,10,46
-15766,,5,
+15766,Federation Navy 10MN Afterburner,5,46
 15790,Caldari Navy Cloaking Device,100,330
 15792,Federation Navy Tracking Computer,5,213
 15804,Imperial Navy Heavy Energy Neutralizer,,
@@ -1123,6 +1124,7 @@ type_id,name,volume,group_id
 29988,Proteus,5000,963
 29990,Loki,5000,963
 30018,,0.01,
+30024,,0.01,966
 30251,Neurovisual Input Matrix,,
 30254,Electromechanical Hull Sheeting,0.01,966
 30304,PPD Fullerene Fibers,0.5,974
@@ -1428,6 +1430,7 @@ type_id,name,volume,group_id
 41322,Void XL,0.125,
 41403,Capital Autocannon Specialization,,
 41405,Capital Blaster Specialization,,
+41407,Capital Pulse Laser Specialization,,
 41408,Capital Beam Laser Specialization,,
 41463,Capital I-ax Enduring Remote Armor Repairer,,
 41469,Capital Asymmetric Enduring Remote Shield Booster,,
@@ -1535,13 +1538,14 @@ type_id,name,volume,group_id
 47771,,1,
 47783,Unstable Medium Shield Booster Mutaplasmid,,
 47787,Unstable Large Shield Booster Mutaplasmid,1,
+47790,Decayed X-Large Shield Booster Mutaplasmid,1,1964
 47806,Unstable Large Shield Extender Mutaplasmid,1,
 47807,Gravid Large Shield Extender Mutaplasmid,1,1964
 47818,Unstable Large Armor Plate Mutaplasmid,1,1964
 47826,,1,1964
 47830,Unstable Heavy Energy Neutralizer Mutaplasmid,,
 47845,,1,
-47875,Large Disintegrator Specialization,0.01,
+47875,Large Disintegrator Specialization,0.01,255
 47886,Tetryon Exotic Plasma M,0.01,
 47887,,0.01,
 47890,Raging Exotic Filament,0.1,1979
