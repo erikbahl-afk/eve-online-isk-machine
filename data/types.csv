@@ -202,6 +202,7 @@ type_id,name,volume,group_id
 9497,1400mm Prototype Siege Cannon,,
 9632,,5,
 9734,,10,72
+9830,,0.75,1034
 9838,Superconductors,0.75,1034
 9840,,0.75,
 9842,,0.75,1034
@@ -211,7 +212,7 @@ type_id,name,volume,group_id
 9950,Standard Blue Pill Booster,1,303
 9957,Eifyr and Co. 'Gunslinger' Motion Prediction MR-703,1,742
 10151,,1,
-10155,,1,
+10155,Improved Blue Pill Booster,1,303
 10156,Strong Blue Pill Booster,1,
 10165,Improved Sooth Sayer Booster,1,
 10204,Zainou 'Deadeye' Sharpshooter ST-903,1,742
@@ -318,13 +319,14 @@ type_id,name,volume,group_id
 12237,,8000,
 12259,Medium Energy Nosferatu II,,
 12263,Heavy Energy Nosferatu II,5,
-12267,,5,71
+12267,Medium Energy Neutralizer II,5,71
 12271,,5,
 12356,350mm Railgun II,20,
 12484,Amarr Drone Specialization,0.01,
 12486,Gallente Drone Specialization,0.01,
 12487,Caldari Drone Specialization,0.01,
 12532,Blood Bronze Tag,0.1,370
+12533,,0.1,370
 12537,Serpentis Bronze Tag,0.1,370
 12608,Hail S,0.0025,
 12631,,0.0025,376
@@ -1761,7 +1763,7 @@ type_id,name,volume,group_id
 62402,Compressed Fullerite-C28,0.2,4168
 62403,Compressed Fullerite-C72,,
 62404,Compressed Fullerite-C32,0.5,4168
-62405,Compressed Fullerite-C540,,
+62405,Compressed Fullerite-C540,1,4168
 62406,,0.5,4168
 62450,Shipboard Compression Technology,,
 62454,Compressed Bitumens,0.1,1884
