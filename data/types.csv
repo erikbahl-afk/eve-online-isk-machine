@@ -98,9 +98,10 @@ type_id,name,volume,group_id
 2613,Mjolnir Fury Light Missile,,
 2801,Nova Javelin Torpedo,0.05,
 2867,Broadcast Node,50,1041
-2868,Integrity Response Drones,,
+2868,Integrity Response Drones,50,1041
 2870,Organic Mortar Applicators,,
 2875,Sterile Conduits,50,1041
+2876,,50,1041
 2897,220mm Vulcan AutoCannon II,10,55
 2929,800mm Repeating Cannon II,20,
 2953,,20,
@@ -715,6 +716,7 @@ type_id,name,volume,group_id
 19208,Pith X-Type X-Large Shield Booster,50,40
 19215,Pithum C-Type EM Shield Amplifier,5,295
 19219,,5,
+19223,Pithum B-Type EM Shield Amplifier,5,295
 19227,Pithum A-Type Thermal Shield Amplifier,5,295
 19229,,5,
 19247,Gistum B-Type EM Shield Amplifier,,
@@ -929,6 +931,7 @@ type_id,name,volume,group_id
 25563,,5,
 25590,Contaminated Nanite Compound,0.01,754
 25591,Contaminated Lorentz Fluid,0.01,754
+25592,,0.01,754
 25594,Tangled Power Conduit,0.01,754
 25601,Fried Interface Circuit,0.01,754
 25604,,0.01,
@@ -971,7 +974,7 @@ type_id,name,volume,group_id
 26380,Large Energy Burst Aerator II,20,
 26382,,20,
 26402,Large Hybrid Locus Coordinator II,20,
-26412,,20,779
+26412,Large Warhead Flare Catalyst II,20,779
 26414,Large Warhead Rigor Catalyst II,20,
 26416,Large Hydraulic Bay Thrusters II,20,
 26424,Large Projectile Collision Accelerator II,20,
@@ -1069,6 +1072,7 @@ type_id,name,volume,group_id
 28440,Compressed Krystallos,,
 28606,Orca,500000,941
 28609,Heavy Interdiction Cruisers,,
+28652,Covert Jump Portal Generator I,125,4127
 28656,Black Ops,,
 28659,Paladin,50000,900
 28661,Kronos,50000,900
@@ -1568,6 +1572,7 @@ type_id,name,volume,group_id
 48386,,0.1,1088
 48434,Unstable Medium Cap Battery Mutaplasmid,,
 48501,Bellicose Dawn of Liberation SKIN,,
+48582,Master-at-Arms Cerebral Accelerator,1,303
 48720,Osprey Combat Medic Section SKIN,,
 48744,'Subverted' JVN-UC49,20,
 49099,Zero-Point Mass Entangler,50,2008
@@ -1832,7 +1837,7 @@ type_id,name,volume,group_id
 84173,Imperial Gold Metallic - Limited,0.1,4726
 85087,Tholos,5000,420
 85089,,0.5,
-85178,Tetrimonic Warclone Blanks,,
+85178,Tetrimonic Warclone Blanks,0.1,314
 85179,Overseer Sabik Vial,,
 85390,Armor Mutaplasmid Residue,0.01,
 85392,Damage Control Mutaplasmid Residue,0.01,1996
@@ -1882,6 +1887,7 @@ type_id,name,volume,group_id
 91926,Federation Electronics Booster III,1,303
 91932,,1,
 91939,Imperial Defense Booster II,,
+91942,State Defense Booster III,,
 91944,Federation Defense Booster II,1,
 91950,Republic Mobility Booster I,,
 91954,State Mobility Booster III,,
