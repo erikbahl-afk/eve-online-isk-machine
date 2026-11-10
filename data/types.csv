@@ -421,6 +421,7 @@ type_id,name,volume,group_id
 14104,,5,
 14106,Domination 10MN Afterburner,5,46
 14108,,5,
+14122,Domination 5MN Microwarpdrive,10,46
 14126,Domination Overdrive Injector,5,
 14128,,5,
 14130,True Sansha Reactor Control Unit,5,769
@@ -654,6 +655,7 @@ type_id,name,volume,group_id
 18905,Corpus B-Type Explosive Armor Hardener,5,328
 18923,Centus A-Type Kinetic Armor Hardener,,
 18933,Corpus X-Type EM Armor Hardener,5,328
+18937,Corpus X-Type Explosive Armor Hardener,5,328
 18945,Corpus X-Type Thermal Armor Hardener,5,
 18947,Centus X-Type Thermal Armor Hardener,,
 18949,,5,
