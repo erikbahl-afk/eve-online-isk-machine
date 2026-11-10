@@ -516,7 +516,7 @@ type_id,name,volume,group_id
 15955,Federation Navy Large Plasma Smartbomb,50,72
 15963,Imperial Navy Large EMP Smartbomb,50,72
 15965,Republic Fleet Tracking Enhancer,5,211
-16004,Eifyr and Co. 'Rogue' Evasive Maneuvering EM-705,,
+16004,Eifyr and Co. 'Rogue' Evasive Maneuvering EM-705,1,747
 16050,Republic Fleet 200mm Autocannon,,
 16057,Republic Fleet 800mm Repeating Cannon,,
 16062,Caldari Navy Cruise Missile Launcher,20,
@@ -550,6 +550,7 @@ type_id,name,volume,group_id
 16651,Neodymium,0.05,427
 16652,Promethium,0.05,427
 16653,Thulium,,
+16661,,0.2,428
 16667,Neo Mercurite,0.2,428
 16668,Dysporite,0.2,428
 16669,Ferrofluid,0.2,428
@@ -865,6 +866,8 @@ type_id,name,volume,group_id
 22895,,5,
 22929,,5,
 22953,'Cartel' Power Diagnostic System I,5,
+22977,,0.0125,85
+22983,,0.0125,85
 22993,Federation Navy Antimatter Charge L,0.025,85
 22995,,0.025,
 23005,Federation Navy Tungsten Charge L,,
@@ -1253,6 +1256,7 @@ type_id,name,volume,group_id
 33362,Nonlinear Metamaterials,1,429
 33393,Genolution Core Augmentation CA-3,1,
 33400,,200,
+33405,,1,744
 33406,Caldari Navy Command Mindlink,,
 33446,Caldari Navy Rapid Heavy Missile Launcher,20,1245
 33450,Rapid Heavy Missile Launcher II,20,
@@ -1723,6 +1727,7 @@ type_id,name,volume,group_id
 62403,Compressed Fullerite-C72,,
 62404,Compressed Fullerite-C32,0.5,4168
 62405,Compressed Fullerite-C540,,
+62406,,0.5,4168
 62450,Shipboard Compression Technology,,
 62454,Compressed Bitumens,0.1,1884
 62455,Compressed Brimful Bitumens,0.1,1884
