@@ -1,6 +1,6 @@
 {
  "est_secs": 750,
- "generated": 1794333624.7145827,
+ "generated": 1794340825.4460895,
  "hub": "dodixie",
  "location": "dodixie",
  "min_isk_per_min": 993856,
@@ -8,7 +8,7 @@
  "skipped_low_value": 6,
  "steps": [
   {
-   "benefit": 2808139.403656264,
+   "benefit": 2806548.9772668527,
    "block": 2,
    "cap": 198800000.0,
    "group": 4,
@@ -34,9 +34,9 @@
    "value": 0.0
   },
   {
-   "benefit": 2425707.5568602015,
+   "benefit": 2421753.883348356,
    "block": 1,
-   "cap": 141100000.0,
+   "cap": 141000000.0,
    "group": 4,
    "hub": "jita",
    "kind": "modify_buy",
@@ -50,9 +50,9 @@
    "value": 114200000.0
   },
   {
-   "benefit": 9817764.894664655,
+   "benefit": 9792190.084409095,
    "block": 1,
-   "cap": 2342000.0,
+   "cap": 2409000.0,
    "group": 4,
    "hub": "jita",
    "kind": "modify_buy",
@@ -82,9 +82,9 @@
    "value": 384787392.0
   },
   {
-   "benefit": 2995470.804300439,
+   "benefit": 3036391.320987266,
    "block": 1,
-   "cap": 65710000.0,
+   "cap": 65700000.0,
    "group": 4,
    "hub": "jita",
    "kind": "modify_buy",
@@ -98,7 +98,7 @@
    "value": 386470000.0
   },
   {
-   "benefit": 25149855.91484413,
+   "benefit": 24851757.8714479,
    "block": 1,
    "cap": 212500000.0,
    "group": 4,
@@ -114,7 +114,7 @@
    "value": 153100000.0
   },
   {
-   "benefit": 2841977.062500002,
+   "benefit": 2834395.0125000007,
    "block": 1,
    "cap": 48770.0,
    "group": 4,
@@ -123,30 +123,30 @@
    "mine": 40290.0,
    "n": 8,
    "oid": 9,
-   "ref": 40450.0,
+   "ref": 40480.0,
    "secs": 25,
-   "target": 40460.0,
+   "target": 40490.0,
    "type_id": 31998,
    "value": 10032210.0
   },
   {
-   "benefit": 5158667.980479148,
+   "benefit": 4897812.236428194,
    "block": 1,
-   "cap": 24370000.0,
+   "cap": 5538000.0,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
    "n": 9,
-   "qty": 5,
-   "ref": 24000000.0,
+   "qty": 21,
+   "ref": 5455000.0,
    "secs": 60,
    "tag": "station",
-   "target": 24010000.0,
-   "type_id": 40570,
-   "value": 2579333.990239574
+   "target": 5456000.0,
+   "type_id": 3065,
+   "value": 2448906.118214097
   },
   {
-   "benefit": 1992355.1231015075,
+   "benefit": 1920361.1811402664,
    "block": 2,
    "cap": 118600000.0,
    "group": 4,
@@ -162,52 +162,52 @@
    "value": 178220000.0
   },
   {
-   "benefit": 4344150.074101185,
+   "benefit": 4329081.210537743,
    "block": 2,
-   "cap": 77350.0,
+   "cap": 16780000.0,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
    "n": 11,
-   "qty": 50,
-   "ref": 76100.0,
+   "qty": 1,
+   "ref": 9010000.0,
    "secs": 60,
    "tag": "station",
-   "target": 76110.0,
-   "type_id": 2345,
-   "value": 2172075.0370505927
+   "target": 9011000.0,
+   "type_id": 54162,
+   "value": 2164540.6052688714
   },
   {
-   "benefit": 4552786.701693492,
+   "benefit": 4278311.794998375,
    "block": 2,
    "cap": 3358.0,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
    "n": 12,
-   "qty": 5,
+   "qty": 1,
    "ref": 2175.0,
    "secs": 60,
    "tag": "station",
    "target": 2176.0,
    "type_id": 28361,
-   "value": 2276393.350846746
+   "value": 2139155.8974991874
   },
   {
-   "benefit": 4780849.599980883,
+   "benefit": 4688477.274014906,
    "block": 2,
-   "cap": 28780.0,
+   "cap": 28750.0,
    "group": 6,
    "hub": "jita",
    "kind": "new_buy",
    "n": 13,
-   "qty": 2,
+   "qty": 12,
    "ref": 27720.0,
    "secs": 60,
    "tag": "station",
    "target": 27730.0,
    "type_id": 11541,
-   "value": 2390424.7999904417
+   "value": 2344238.637007453
   },
   {
    "benefit": 2400141.937500001,
@@ -226,9 +226,9 @@
    "value": 13909425.0
   },
   {
-   "benefit": 968945.5661847795,
+   "benefit": 984695.4008389958,
    "block": 3,
-   "cap": 105000000.0,
+   "cap": 104400000.0,
    "group": 4,
    "hub": "jita",
    "kind": "modify_buy",

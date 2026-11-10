@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Tue 10 Nov 10:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 26 · **Est. time:** 23 min. Work top to bottom; stop any time.  
+**Updated:** Tue 10 Nov 12:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 27 · **Est. time:** 24 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -24,7 +24,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 |---|---|---|---|---|---|
 | 1 | ☐ 'Cartel' Power Diagnostic System I | 68,280,000 | **68,280,000** | 31,380,000 | 68,290,000 |
 | 2 | ☐ Black Market 'Valdimar' Drone Navigation DN-701 | 249,800,000 | **249,900,000** | 131,200,000 | 250,000,000 |
-| 3 | ☐ Low-grade Crystal Epsilon | 247,700,000 | **246,900,000** | 154,400,000 | 247,000,000 |
+| 3 | ☐ Low-grade Crystal Epsilon | 247,700,000 | **246,700,000** | 154,400,000 | 246,800,000 |
 | 4 | ☐ Men's 'Precision' Boots | 99,990,000 | **99,990,000** | 51,550,000 | 100,000,000 |
 | 5 | ☐ Standup M-Set Basic Small Ship Manufacturing Material Efficiency I | 699,600,000 | **699,600,000** | 347,300,000 | 699,700,000 |
 | 6 | ☐ Typhoon Fleet Issue Capsuleer Elite XX SKIN | 815,900,000 | **815,900,000** | 435,300,000 | - |
@@ -76,25 +76,26 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 13 | ☐ Glorified Unstable Large Remote Armor Repairer Mutaplasmid | 1 | **155,300,000** | 212,500,000 | 155,200,000 |
-| 14 | ☐ Monitor | 1 | **355,400,000** | 366,900,000 | 355,300,000 |
-| 15 | ☐ Orbweaver SW-300-I | 9 | **7,133,000** | 7,923,000 | 7,132,000 |
-| 16 | ☐ Photon Microprocessor | 1 | **27,730** | 28,780 | 27,720 |
-| 17 | ☐ Siren II | 6 | **24,010,000** | 24,370,000 | 24,000,000 |
-| 18 | ☐ Tachyon Beam Laser II | 27 | **5,456,000** | 5,540,000 | 5,455,000 |
+| 13 | ☐ Decayed Small Remote Armor Repairer Mutaplasmid | 201 | **62,800** | 101,400 | 62,790 |
+| 14 | ☐ Entosis Link II | 1 | **132,100,000** | 134,900,000 | 132,000,000 |
+| 15 | ☐ Gistum A-Type 50MN Microwarpdrive | 1 | **277,600,000** | 299,400,000 | 277,500,000 |
+| 16 | ☐ Glorified Unstable Large Remote Armor Repairer Mutaplasmid | 1 | **155,300,000** | 212,500,000 | 155,200,000 |
+| 17 | ☐ Photon Microprocessor | 3,692 | **27,730** | 28,750 | 27,720 |
+| 18 | ☐ Tachyon Beam Laser II | 27 | **5,456,000** | 5,538,000 | 5,455,000 |
 
-### Block 2 · should do · about 5 min
+### Block 2 · should do · about 6 min
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 19 | ☐ Camera Drones | 30 | **76,110** | 77,350 | 76,100 |
-| 20 | ☐ Drone Synaptic Relay Wiring | 6 | **2,176** | 3,358 | 2,175 |
-| 21 | ☐ Entosis Link II | 1 | **132,900,000** | 134,900,000 | 132,800,000 |
-| 22 | ☐ Imperial Navy Modified 'Noble' Implant | 1 | **256,300,000** | 262,500,000 | 256,200,000 |
-| 23 | ☐ Republic Fleet Fusion L | 1 | **982.10** | 1,095 | 982.00 |
+| 19 | ☐ Bouquet of Flowers | 1 | **9,011,000** | 16,780,000 | 9,010,000 |
+| 20 | ☐ Compressed Crokite | 6,503 | **5,201** | 5,478 | 5,200 |
+| 21 | ☐ Drone Synaptic Relay Wiring | 6,192 | **2,176** | 3,358 | 2,175 |
+| 22 | ☐ Imperial Navy Modified 'Noble' Implant | 1 | **256,300,000** | 262,400,000 | 256,200,000 |
+| 23 | ☐ Legion Defensive - Covert Reconfiguration | 2 | **30,020,000** | 33,510,000 | 30,010,000 |
+| 24 | ☐ Republic Fleet Fusion L | 3 | **982.10** | 1,093 | 982.00 |
 
 ### Block 3 · if there's time · about 2 min
 
@@ -103,15 +104,15 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 24 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,637,000** | 3,724,000 | 3,636,000 |
+| 25 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,634,000** | 3,725,000 | 3,633,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 25 | ☐ Caldari Control Tower Small | 2 | **104,200,000** | 104,700,000 | 104,100,000 |
-| 26 | ☐ Legion Defensive - Covert Reconfiguration | 1 | **30,020,000** | 33,510,000 | 30,010,000 |
+| 26 | ☐ Corelum A-Type Medium Armor Repairer | 1 | **222,100,000** | 224,200,000 | 222,000,000 |
+| 27 | ☐ Medium Warhead Calefaction Catalyst II | 5 | **14,830,000** | 15,890,000 | 14,820,000 |
 
 ---
 Wallet 1.62B · escrow 140.91M · stock 3.13B · in transit 0.00 · net worth 4.88B (liquidation 2.46B)

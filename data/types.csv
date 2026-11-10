@@ -99,6 +99,7 @@ type_id,name,volume,group_id
 2801,Nova Javelin Torpedo,0.05,
 2867,Broadcast Node,50,1041
 2868,Integrity Response Drones,50,1041
+2869,,50,1041
 2870,Organic Mortar Applicators,,
 2875,Sterile Conduits,50,1041
 2876,,50,1041
@@ -133,6 +134,7 @@ type_id,name,volume,group_id
 3180,Zainou 'Snapshot' Torpedoes TD-606,1,
 3185,Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-802,,
 3186,Neutron Blaster Cannon II,20,74
+3190,Eifyr and Co. 'Gunslinger' Motion Prediction MR-702,,
 3203,,1,
 3214,,1,
 3239,Inherent Implants 'Squire' Capacitor Management EM-806,1,741
@@ -280,6 +282,7 @@ type_id,name,volume,group_id
 11695,Plasma Pulse Generator,1,334
 11957,Falcon,10000,833
 11959,Rook,10000,
+11961,,10000,906
 11963,Rapier,10000,
 11965,Pilgrim,10000,
 11969,Arazu,10000,833
@@ -463,9 +466,9 @@ type_id,name,volume,group_id
 14254,Domination Warp Scrambler,5,52
 14256,,5,52
 14260,,5,
-14262,,5,
+14262,,5,65
 14264,Domination Stasis Webifier,5,65
-14266,,5,
+14266,Dread Guristas Stasis Webifier,5,65
 14268,,5,
 14278,,10,
 14295,,1,745
@@ -542,7 +545,7 @@ type_id,name,volume,group_id
 16275,Strontium Clathrates,3,423
 16278,,5,
 16457,Crosslink Compact Ballistic Control System,5,367
-16535,Copasetic Compact Shield Boost Amplifier,,
+16535,Copasetic Compact Shield Boost Amplifier,5,338
 16537,Vigor Compact Micro Auxiliary Power Core,5,339
 16631,Small Artillery Battery,500,426
 16633,Hydrocarbons,0.05,427
@@ -684,6 +687,7 @@ type_id,name,volume,group_id
 19027,,10,
 19029,Corelum C-Type Medium Armor Repairer,10,
 19031,Corelum B-Type Medium Armor Repairer,10,62
+19033,Corelum A-Type Medium Armor Repairer,10,62
 19036,Core B-Type Large Armor Repairer,50,62
 19037,Core A-Type Large Armor Repairer,50,
 19038,Core X-Type Large Armor Repairer,50,62
@@ -818,7 +822,7 @@ type_id,name,volume,group_id
 21368,Guristas Antimatter Charge XL,,
 21472,,5,
 21474,,5,
-21478,50MN Digital Booster Microwarpdrive,,
+21478,50MN Digital Booster Microwarpdrive,10,46
 21486,,5,
 21510,'Interruptive' Warp Disruptor,5,52
 21512,'Delineative' Warp Scrambler,5,52
@@ -930,6 +934,7 @@ type_id,name,volume,group_id
 24663,Zor's Custom Navigation Hyper-Link,,
 24692,,50000,
 24696,,15000,419
+24700,,15000,419
 24702,Hurricane,,
 25252,Pure Standard Frentix Booster,1,712
 25266,Gas Cloud Scoop I,5,737
@@ -1019,6 +1024,7 @@ type_id,name,volume,group_id
 27190,Poteque 'Prospector' Astrometric Pinpointing AP-610,,
 27192,Poteque 'Prospector' Astrometric Acquisition AQ-710,1,1230
 27196,,1,
+27238,Eifyr and Co. 'Alchemist' Gas Harvesting GH-803,1,1229
 27239,Eifyr and Co. 'Alchemist' Gas Harvesting GH-805,1,1229
 27245,Zainou 'Snapshot' Heavy Assault Missiles AM-705,,
 27252,Zainou 'Snapshot' Light Missiles LM-905,,
@@ -1309,7 +1315,7 @@ type_id,name,volume,group_id
 33852,,25,644
 33894,Medium Transverse Bulkhead I,10,
 33896,Medium Transverse Bulkhead II,10,773
-33898,,20,
+33898,Large Transverse Bulkhead I,20,
 33900,Large Transverse Bulkhead II,20,773
 33904,Capital Transverse Bulkhead II,40,
 33923,Low-grade Crystal Alpha,1,300
@@ -1355,7 +1361,7 @@ type_id,name,volume,group_id
 35683,Hecate,5000,1305
 35789,,5,1396
 35790,Missile Guidance Computer II,5,1396
-35795,Missile Precision Script,,
+35795,Missile Precision Script,1,1400
 35826,Azbel,,
 35832,Astrahus,8000,
 35833,Fortizar,,
@@ -1440,6 +1446,7 @@ type_id,name,volume,group_id
 41405,Capital Blaster Specialization,,
 41407,Capital Pulse Laser Specialization,,
 41408,Capital Beam Laser Specialization,,
+41415,,1000,407
 41463,Capital I-ax Enduring Remote Armor Repairer,,
 41469,Capital Asymmetric Enduring Remote Shield Booster,,
 41486,,1000,
@@ -1647,7 +1654,7 @@ type_id,name,volume,group_id
 53893,High-grade Savior Delta,,
 53894,High-grade Savior Epsilon,,
 53983,Signal-25 'Needlejack' Filament,0.1,4041
-54162,,1,1194
+54162,Bouquet of Flowers,1,1194
 54398,Mid-grade Hydra Alpha,,
 54399,Mid-grade Hydra Beta,,
 54400,Mid-grade Hydra Gamma,,
@@ -1741,7 +1748,7 @@ type_id,name,volume,group_id
 60473,Exigent Medium Drone Firepower Mutaplasmid,1,1964
 60476,Radical Drone Damage Amplifier Mutaplasmid,,
 60515,,0.01,
-60575,Quafe Zero Green Apple,1,
+60575,Quafe Zero Green Apple,1,303
 60766,Aralez,20,100
 61199,Ubiquitous Moon Mining Crystal Type B II,10,
 62380,Compressed Celadon Mykoserocin,1,4168
@@ -1786,6 +1793,7 @@ type_id,name,volume,group_id
 62555,Compressed Gneiss IV-Grade,0.05,467
 62559,Compressed Dark Ochre IV-Grade,0.08,453
 62560,Compressed Crokite,0.16,452
+62563,,0.16,452
 62564,Compressed Bistot,,
 62566,,0.16,
 62567,Compressed Bistot IV-Grade,0.16,
@@ -1839,7 +1847,7 @@ type_id,name,volume,group_id
 81047,Torrent,20000,380
 81050,Upwell Starship Engineering,0.01,270
 81083,Starsi Blast! Classic,1,303
-81143,Magmatic Gas,0.01,
+81143,Magmatic Gas,0.01,4729
 81350,Kerr Sequencer,0.001,
 81948,Consortium Small Tractor Beam,,
 81951,Consortium Mobile Tractor Unit,80,1250
