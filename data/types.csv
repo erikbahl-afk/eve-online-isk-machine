@@ -143,7 +143,7 @@ type_id,name,volume,group_id
 3265,Zainou 'Gypsy' CPU Management EE-602,1,
 3475,Inherent Implants 'Noble' Mechanic MC-806,1,738
 3488,,5,
-3520,,10,
+3520,,10,53
 3534,CONCORD Capital Armor Repairer,1000,62
 3536,,1000,325
 3542,CONCORD Capital Shield Booster,1000,
@@ -277,6 +277,7 @@ type_id,name,volume,group_id
 11688,,1,
 11690,,1,
 11694,,1,
+11695,Plasma Pulse Generator,1,334
 11957,Falcon,10000,833
 11959,Rook,10000,
 11963,Rapier,10000,
@@ -293,7 +294,7 @@ type_id,name,volume,group_id
 12005,Ishtar,10000,358
 12015,Muninn,10000,
 12019,Sacrilege,10000,358
-12023,Deimos,10000,
+12023,Deimos,10000,358
 12032,Manticore,2500,
 12034,,2500,
 12038,,2500,834
@@ -665,7 +666,7 @@ type_id,name,volume,group_id
 18937,Corpus X-Type Explosive Armor Hardener,5,328
 18939,Centus X-Type Explosive Armor Hardener,5,328
 18945,Corpus X-Type Thermal Armor Hardener,5,
-18947,Centus X-Type Thermal Armor Hardener,,
+18947,Centus X-Type Thermal Armor Hardener,5,328
 18949,,5,
 18963,Core B-Type Thermal Armor Hardener,,
 18973,Core X-Type EM Armor Hardener,5,
@@ -1420,7 +1421,7 @@ type_id,name,volume,group_id
 41193,Unit F-435454's Modified Sensor Booster,,
 41197,,5,
 41200,Shadow Serpentis Damage Control,5,
-41201,Syndicate Damage Control,5,
+41201,Syndicate Damage Control,5,60
 41202,Sentient Damage Control,5,
 41212,,5,
 41215,Republic Fleet Medium Cap Battery,10,61
@@ -1482,6 +1483,7 @@ type_id,name,volume,group_id
 44102,,5,512
 44993,Pacifier,2500,830
 45009,Standup Moon Drill I,8000,1887
+45534,Monitor,10000,1972
 45586,Legion Defensive - Covert Reconfiguration,40,954
 45587,Legion Defensive - Augmented Plating,40,
 45588,Legion Defensive - Nanobot Injector,40,
@@ -1600,6 +1602,7 @@ type_id,name,volume,group_id
 49713,Zarmazd,10000,832
 49732,,1,
 49733,Unstable Gyrostabilizer Mutaplasmid,1,
+49737,,1,1964
 49741,Unstable Ballistic Control System Mutaplasmid,,
 49774,,10,
 49790,ML-EKP 'Polybolos' Ballistic Control System,5,367
