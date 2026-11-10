@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Tue 10 Nov 13:26 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 26 · **Est. time:** 23 min. Work top to bottom; stop any time.  
+**Updated:** Tue 10 Nov 14:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 28 · **Est. time:** 25 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -69,19 +69,20 @@ _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Ne
 
 ## At Jita IV - Moon 4 - Caldari Navy Assembly Plant
 
-### Block 1 · must do · about 6 min
+### Block 1 · must do · about 7 min
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 13 | ☐ Elite Drone AI | 41 | **2,249,000** | 2,369,000 | 2,248,000 |
+| 13 | ☐ Chaotic Dark Filament | 5 | **9,877,000** | 11,450,000 | 9,876,000 |
 | 14 | ☐ Entosis Link II | 1 | **132,100,000** | 134,900,000 | 132,000,000 |
 | 15 | ☐ Gistum A-Type 50MN Microwarpdrive | 1 | **278,500,000** | 299,400,000 | 278,400,000 |
 | 16 | ☐ Glorified Unstable Large Remote Armor Repairer Mutaplasmid | 1 | **155,300,000** | 212,500,000 | 155,200,000 |
-| 17 | ☐ Medium Energy Neutralizer II | 20 | **2,056,000** | 2,428,000 | 2,055,000 |
-| 18 | ☐ Tachyon Beam Laser II | 26 | **5,456,000** | 5,537,000 | 5,455,000 |
+| 17 | ☐ Medium Energy Neutralizer II | 20 | **2,056,000** | 2,427,000 | 2,055,000 |
+| 18 | ☐ Photon Microprocessor | 3,675 | **27,730** | 28,740 | 27,720 |
+| 19 | ☐ Tachyon Beam Laser II | 26 | **5,456,000** | 5,536,000 | 5,455,000 |
 
 ### Block 2 · should do · about 5 min
 
@@ -90,28 +91,29 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 19 | ☐ Bouquet of Flowers | 1 | **9,011,000** | 16,780,000 | 9,010,000 |
-| 20 | ☐ Compressed Crokite | 15,033 | **5,201** | 5,476 | 5,200 |
-| 21 | ☐ Legion Defensive - Covert Reconfiguration | 2 | **30,020,000** | 33,500,000 | 30,010,000 |
-| 22 | ☐ Photon Microprocessor | 3,678 | **27,730** | 28,740 | 27,720 |
-| 23 | ☐ Republic Fleet Fusion L | 1 | **982.10** | 1,092 | 982.00 |
+| 20 | ☐ Bouquet of Flowers | 1 | **9,011,000** | 16,780,000 | 9,010,000 |
+| 21 | ☐ Compressed Crokite | 7,379 | **5,201** | 5,476 | 5,200 |
+| 22 | ☐ Drone Synaptic Relay Wiring | 6,081 | **2,176** | 3,365 | 2,175 |
+| 23 | ☐ Imperial Navy Small Focused Beam Laser | 1 | **26,550,000** | 35,350,000 | 26,540,000 |
+| 24 | ☐ Legion Defensive - Covert Reconfiguration | 2 | **30,020,000** | 33,500,000 | 30,010,000 |
 
-### Block 3 · if there's time · about 2 min
+### Block 3 · if there's time · about 3 min
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 24 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,638,000** | 3,725,000 | 3,637,000 |
+| 25 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,638,000** | 3,724,000 | 3,637,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 25 | ☐ Corelum A-Type Medium Armor Repairer | 1 | **222,100,000** | 224,200,000 | 222,000,000 |
-| 26 | ☐ Glorified Unstable Gyrostabilizer Mutaplasmid | 1 | **183,800,000** | 185,300,000 | 183,700,000 |
+| 26 | ☐ Compressed Kylixium IV-Grade | 142,670 | **300.90** | 338.90 | 300.80 |
+| 27 | ☐ Corelum A-Type Medium Armor Repairer | 1 | **222,100,000** | 224,200,000 | 222,000,000 |
+| 28 | ☐ Glorified Unstable Gyrostabilizer Mutaplasmid | 1 | **183,800,000** | 185,300,000 | 183,700,000 |
 
 ---
 Wallet 1.62B · escrow 140.91M · stock 3.13B · in transit 0.00 · net worth 4.88B (liquidation 2.46B)

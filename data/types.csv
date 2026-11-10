@@ -17,7 +17,7 @@ type_id,name,volume,group_id
 519,Gyrostabilizer II,5,
 527,,5,65
 620,,10000,26
-621,,10000,26
+621,Caracal,10000,26
 622,Stabber,,
 625,,10000,26
 626,,10000,26
@@ -153,7 +153,7 @@ type_id,name,volume,group_id
 3568,Small Capacitor Booster II,5,76
 3616,Capital Remote Shield Booster I,1000,41
 3645,Water,0.19,1042
-3683,Oxygen,,
+3683,Oxygen,0.19,1042
 3685,Hydrogen Batteries,1,280
 3693,,0.75,1034
 3695,Polytextiles,0.75,1034
@@ -518,6 +518,7 @@ type_id,name,volume,group_id
 15840,Federation Navy 250mm Railgun,10,
 15862,Imperial Navy Mega Pulse Laser,20,53
 15863,Imperial Navy Mega Beam Laser,,
+15865,Imperial Navy Small Focused Beam Laser,5,53
 15887,Caldari Navy Warp Scrambler,5,52
 15889,Caldari Navy Warp Disruptor,5,52
 15893,,5,
@@ -1667,6 +1668,7 @@ type_id,name,volume,group_id
 54407,Low-grade Hydra Delta,,
 54534,Black Market 'Valdimar' Drone Navigation DN-701,1,
 54543,Black Market 'Valdimar' Drone Durability DD-1001,,
+54715,Women's SOE Enhanced Biosecurity Mask,,
 54731,Skybreaker,2500,25
 54732,Stormbringer,10000,26
 54742,Small Vorton Projector II,5,4060
@@ -1860,7 +1862,7 @@ type_id,name,volume,group_id
 82300,,0.012,4755
 82301,Compressed Kylixium II-Grade,,
 82302,Compressed Kylixium III-Grade,,
-82303,,0.012,4755
+82303,Compressed Kylixium IV-Grade,0.012,4755
 83467,Angel NET Resonator,1,334
 83468,Blood Raider NET Resonator,1,334
 83469,Guristas NET Resonator,1,334
