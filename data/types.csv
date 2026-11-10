@@ -66,6 +66,7 @@ type_id,name,volume,group_id
 2297,Explosive Shield Hardener II,,
 2301,EM Shield Hardener II,,
 2303,Thermal Shield Hardener II,5,77
+2305,Autotrophs,,
 2309,Ionic Solutions,,
 2310,Noble Gas,0.005,1033
 2311,Reactive Gas,0.005,1033
@@ -216,7 +217,7 @@ type_id,name,volume,group_id
 10156,Strong Blue Pill Booster,1,
 10165,Improved Sooth Sayer Booster,1,
 10204,Zainou 'Deadeye' Sharpshooter ST-903,1,742
-10208,Memory Augmentation - Standard,,
+10208,Memory Augmentation - Standard,1,745
 10209,,1,
 10212,Neural Boost - Standard,1,745
 10213,Neural Boost - Improved,1,745
@@ -273,6 +274,7 @@ type_id,name,volume,group_id
 11554,Tesseract Capacitor Unit,1,334
 11556,,1,
 11557,Linear Shield Emitter,1,334
+11558,,1,334
 11563,,20,339
 11577,Improved Cloaking Device II,100,330
 11578,Covert Ops Cloaking Device II,100,330
@@ -638,7 +640,7 @@ type_id,name,volume,group_id
 18658,,5,
 18660,Gistum C-Type 10MN Afterburner,5,46
 18666,Gistum B-Type 10MN Afterburner,5,46
-18676,Gist X-Type 100MN Afterburner,,
+18676,Gist X-Type 100MN Afterburner,5,46
 18682,,5,
 18684,Core C-Type 100MN Afterburner,5,46
 18686,Coreli B-Type 1MN Afterburner,5,46
