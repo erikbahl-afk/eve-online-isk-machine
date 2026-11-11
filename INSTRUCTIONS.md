@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Wed 11 Nov 02:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Wed 11 Nov 04:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 29 · **Est. time:** 25 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -77,12 +77,12 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 15 | ☐ Bifrost | 3 | **35,830,000** | 38,440,000 | 35,820,000 |
-| 16 | ☐ Compressed Arkonor IV-Grade | 25,156 | **3,601** | 3,800 | 3,600 |
+| 15 | ☐ Bifrost | 3 | **35,830,000** | 38,410,000 | 35,820,000 |
+| 16 | ☐ Compressed Arkonor IV-Grade | 25,225 | **3,601** | 3,800 | 3,600 |
 | 17 | ☐ Guristas Brass Tag | 5 | **31,090,000** | 31,590,000 | 31,080,000 |
-| 18 | ☐ Large Moon Ore Compressor I | 2 | **67,290,000** | 70,630,000 | 67,280,000 |
-| 19 | ☐ Orbweaver SW-300-I | 9 | **7,154,000** | 7,888,000 | 7,153,000 |
-| 20 | ☐ Quad Mega Pulse Laser II | 1 | **175,600,000** | 179,600,000 | 175,500,000 |
+| 18 | ☐ Orbweaver SW-300-I | 9 | **7,155,000** | 7,886,000 | 7,154,000 |
+| 19 | ☐ Quad Mega Pulse Laser II | 1 | **175,600,000** | 179,500,000 | 175,500,000 |
+| 20 | ☐ Shadow Serpentis Tracking Computer | 2 | **103,100,000** | 105,600,000 | 103,000,000 |
 
 ### Block 2 · should do · about 6 min
 
@@ -91,12 +91,12 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 21 | ☐ Anathema | 4 | **15,820,000** | 17,220,000 | 15,810,000 |
-| 22 | ☐ Caldari Navy Hornet | 49 | **1,199,000** | 1,305,000 | 1,198,000 |
-| 23 | ☐ Inherent Implants 'Lancer' Large Energy Turret LE-1005 | 1 | **100,200,000** | 105,300,000 | 100,100,000 |
-| 24 | ☐ Mercury | 26,561 | **2,869** | 3,018 | 2,868 |
-| 25 | ☐ Republic Fleet Medium Shield Extender | 12 | **11,630,000** | 11,760,000 | 11,620,000 |
-| 26 | ☐ X-Large Mutaplasmid Residue | 568 | **67,090** | 77,450 | 67,080 |
+| 21 | ☐ Anathema | 4 | **15,820,000** | 17,250,000 | 15,810,000 |
+| 22 | ☐ Caldari Navy Hornet | 50 | **1,199,000** | 1,303,000 | 1,198,000 |
+| 23 | ☐ Gist X-Type 100MN Afterburner | 2 | **86,950,000** | 88,400,000 | 86,940,000 |
+| 24 | ☐ Inherent Implants 'Lancer' Large Energy Turret LE-1005 | 1 | **100,200,000** | 105,300,000 | 100,100,000 |
+| 25 | ☐ Memory Augmentation - Standard | 7 | **17,700,000** | 18,080,000 | 17,690,000 |
+| 26 | ☐ Republic Fleet Medium Shield Extender | 12 | **11,620,000** | 11,750,000 | 11,610,000 |
 
 ### Block 3 · if there's time · about 2 min
 
@@ -112,8 +112,8 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 28 | ☐ Fullerite-C32 | 3,851 | **18,250** | 19,300 | 18,240 |
-| 29 | ☐ Triplot Scan Acquisition Array | 1 | **209,600,000** | 220,900,000 | 209,500,000 |
+| 28 | ☐ Mercury | 5 | **2,871** | 3,016 | 2,870 |
+| 29 | ☐ X-Large Mutaplasmid Residue | 530 | **67,090** | 77,450 | 67,080 |
 
 ---
 Wallet 1.62B · escrow 140.91M · stock 3.13B · in transit 0.00 · net worth 4.88B (liquidation 2.46B)

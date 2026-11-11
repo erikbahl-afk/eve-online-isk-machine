@@ -28,7 +28,7 @@ type_id,name,volume,group_id
 633,,10000,26
 638,Raven,50000,27
 640,Scorpion,50000,27
-641,,50000,
+641,Megathron,50000,27
 642,Apocalypse,,
 644,Typhoon,50000,27
 645,Dominix,,
@@ -712,6 +712,7 @@ type_id,name,volume,group_id
 19045,Corpus X-Type Large Armor Repairer,50,62
 19046,Centus X-Type Large Armor Repairer,50,62
 19051,,5,325
+19053,Centum C-Type Medium Remote Armor Repairer,,
 19081,Corpum A-Type Medium Remote Capacitor Transmitter,10,
 19087,,10,
 19105,,5,
@@ -1751,7 +1752,7 @@ type_id,name,volume,group_id
 57476,,100,
 57478,Auto-Integrity Preservation Seal,16,334
 57479,Core Temperature Regulator,180,334
-57486,,45,
+57486,,45,334
 57487,Capital Core Temperature Regulator,28000,873
 57488,Neurolink Protection Cell,5500,873
 57733,,0.01,1950
