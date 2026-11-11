@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Tue 10 Nov 16:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 24 · **Est. time:** 21 min. Work top to bottom; stop any time.  
+**Updated:** Tue 10 Nov 17:29 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 26 · **Est. time:** 23 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -42,7 +42,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 9 | ☐ Pithum C-Type Medium Shield Booster | 1 | **71,700,000** | 78,050,000 | 71,690,000 |
+| 9 | ☐ Pithum C-Type Medium Shield Booster | 1 | **71,700,000** | 78,060,000 | 71,690,000 |
 
 ### Block 2 · should do · about 3 min
 _Short on time? Skip to the jump (step 15): the next hub's Block 1 is worth more per minute than the rest of this hub._
@@ -78,17 +78,18 @@ _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Ne
 
 ## At Jita IV - Moon 4 - Caldari Navy Assembly Plant
 
-### Block 1 · must do · about 4 min
+### Block 1 · must do · about 5 min
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 16 | ☐ Memory Augmentation - Standard | 8 | **17,560,000** | 17,780,000 | 17,550,000 |
-| 17 | ☐ Quad Mega Pulse Laser II | 1 | **175,500,000** | 178,800,000 | 175,400,000 |
-| 18 | ☐ Triplot Scan Acquisition Array | 1 | **209,200,000** | 219,000,000 | 209,100,000 |
-| 19 | ☐ Unstable Modulated Strip Miner Mutaplasmid | 2 | **59,810,000** | 63,070,000 | 59,800,000 |
+| 16 | ☐ Large Armor Repairer II | 17 | **1,846,000** | 2,225,000 | 1,845,000 |
+| 17 | ☐ Medium Energy Neutralizer II | 19 | **2,068,000** | 2,424,000 | 2,067,000 |
+| 18 | ☐ Memory Augmentation - Standard | 8 | **17,660,000** | 17,880,000 | 17,650,000 |
+| 19 | ☐ Quad Mega Pulse Laser II | 1 | **175,500,000** | 178,800,000 | 175,400,000 |
+| 20 | ☐ Zainou 'Beancounter' Science SC-805 | 1 | **112,600,000** | 140,400,000 | 112,500,000 |
 
 ### Block 2 · should do · about 3 min
 
@@ -97,25 +98,26 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 20 | ☐ Compressed Malachite Mykoserocin | 859 | **75,800** | 77,390 | 75,790 |
-| 21 | ☐ Drone Cerebral Fragment | 449 | **229,000** | 234,600 | 228,900 |
-| 22 | ☐ Large Armor Repairer II | 17 | **1,846,000** | 2,209,000 | 1,845,000 |
+| 21 | ☐ Mid-grade Crystal Beta | 5 | **25,670,000** | 26,250,000 | 25,660,000 |
+| 22 | ☐ Triplot Scan Acquisition Array | 1 | **209,500,000** | 219,000,000 | 209,400,000 |
+| 23 | ☐ Unstable Modulated Strip Miner Mutaplasmid | 2 | **59,810,000** | 63,070,000 | 59,800,000 |
 
-### Block 3 · if there's time · about 1 min
+### Block 3 · if there's time · about 2 min
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 23 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,638,000** | 3,712,000 | 3,637,000 |
+| 24 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,638,000** | 3,712,000 | 3,637,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 24 | ☐ Protective Equipment Patterns | 1 | **25,070,000** | 31,350,000 | 25,060,000 |
+| 25 | ☐ Compressed Malachite Mykoserocin | 862 | **75,800** | 77,390 | 75,790 |
+| 26 | ☐ Protective Equipment Patterns | 1 | **25,070,000** | 31,350,000 | 25,060,000 |
 
 ---
 Wallet 1.62B · escrow 140.91M · stock 3.13B · in transit 0.00 · net worth 4.88B (liquidation 2.46B)

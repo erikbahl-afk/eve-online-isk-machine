@@ -269,6 +269,7 @@ type_id,name,volume,group_id
 11539,Nanoelectrical Microprocessor,1,334
 11540,Quantum Microprocessor,1,334
 11541,Photon Microprocessor,1,334
+11542,,1,334
 11543,,1,
 11547,Fusion Reactor Unit,1,334
 11548,Nuclear Reactor Unit,1,
@@ -319,6 +320,7 @@ type_id,name,volume,group_id
 12200,Mobile Large Warp Disruptor I,585,361
 12209,Large Autocannon Specialization,,
 12212,Large Blaster Specialization,,
+12214,Medium Pulse Laser Specialization,,
 12221,Medium Remote Capacitor Transmitter II,10,
 12223,,1000,
 12237,,8000,
@@ -353,6 +355,7 @@ type_id,name,volume,group_id
 12818,Scorch M,,
 12820,Scorch L,1,375
 12822,,1,374
+13003,,5,71
 13209,Armored Command Mindlink,1,744
 13216,Zainou 'Gypsy' CPU Management EE-603,1,741
 13217,Inherent Implants 'Lancer' Large Energy Turret LE-1003,,
@@ -854,6 +857,7 @@ type_id,name,volume,group_id
 21922,Republic Fleet Phased Plasma M,0.0125,83
 21924,,0.0025,83
 21926,Republic Fleet Proton L,,
+22108,Mid-grade Crystal Beta,1,300
 22109,Mid-grade Crystal Delta,1,
 22110,Mid-grade Crystal Epsilon,1,300
 22111,Mid-grade Crystal Gamma,1,300
@@ -1124,6 +1128,7 @@ type_id,name,volume,group_id
 28756,Sisters Expanded Probe Launcher,5,
 28758,Sisters Core Probe Launcher,5,481
 28780,Syndicate 1600mm Steel Plates,20,329
+28784,Syndicate 400mm Steel Plates,,
 28788,Syndicate Gas Cloud Scoop,5,737
 28790,Mid-grade Centurion Alpha,,
 28791,Mid-grade Centurion Beta,,
@@ -1287,6 +1292,7 @@ type_id,name,volume,group_id
 33155,Harbinger Navy Issue,15000,419
 33157,,15000,
 33201,,5,
+33332,,1.5,87
 33359,Photonic Metamaterials,1,429
 33360,Terahertz Metamaterials,1,429
 33361,Plasmonic Metamaterials,1,
@@ -1402,7 +1408,7 @@ type_id,name,volume,group_id
 37458,,2500,1527
 37459,,2500,
 37460,Scalpel,,
-37480,,5000,
+37480,,5000,1534
 37482,,5000,
 37624,Corpii A-Type Small Energy Neutralizer,5,71
 37627,Corpum A-Type Medium Energy Neutralizer,,
@@ -1482,7 +1488,7 @@ type_id,name,volume,group_id
 42213,High-grade Asklepian Delta,1,300
 42215,High-grade Asklepian Omega,,
 42244,,50000,
-42685,,5000,
+42685,,5000,420
 42696,Shield Extension Charge,0.01,1769
 42787,,0.01,
 42789,,0.01,
@@ -1502,6 +1508,7 @@ type_id,name,volume,group_id
 44102,,5,512
 44993,Pacifier,2500,830
 45009,Standup Moon Drill I,8000,1887
+45482,Capsule YC119 Capsuleer Day SKIN,,
 45534,Monitor,10000,1972
 45586,Legion Defensive - Covert Reconfiguration,40,954
 45587,Legion Defensive - Augmented Plating,40,
@@ -1724,6 +1731,7 @@ type_id,name,volume,group_id
 57450,Electro-Neural Signaller,0.25,526
 57452,Isotropic Deposition Guide,5,526
 57454,Oxy-Organic Solvents,,
+57455,Thermosetting Polymer,0.2,428
 57456,Pressurized Oxidizers,0.1,429
 57457,Reinforced Carbon Fiber,0.1,429
 57459,Hypnagogic Neurolink Enhancer,4,
