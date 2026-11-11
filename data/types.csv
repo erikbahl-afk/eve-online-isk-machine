@@ -292,11 +292,12 @@ type_id,name,volume,group_id
 11646,Explosive Armor Hardener II,5,328
 11648,,5,328
 11688,,1,
+11689,,1,334
 11690,,1,
 11694,,1,
 11695,Plasma Pulse Generator,1,334
 11957,Falcon,10000,833
-11959,Rook,10000,
+11959,Rook,10000,906
 11961,,10000,906
 11963,Rapier,10000,
 11965,Pilgrim,10000,
@@ -1387,7 +1388,7 @@ type_id,name,volume,group_id
 34282,Polarized Neutron Blaster Cannon,20,
 34290,Polarized Rocket Launcher,5,
 34292,,10,
-34294,Polarized Torpedo Launcher,20,
+34294,Polarized Torpedo Launcher,20,508
 34306,,20,
 34317,Confessor,5000,
 34328,Bowhead,1300000,
@@ -1420,6 +1421,7 @@ type_id,name,volume,group_id
 35949,,4000,
 36909,Antipharmakon Kosybo,1,303
 36910,,1,
+36911,Antipharmakon Toxot,1,303
 36912,Antipharmakon Aeolis,1,303
 37146,Standup M-Set Basic Medium Ship Manufacturing Material Efficiency I,10,
 37154,Standup M-Set Basic Small Ship Manufacturing Material Efficiency I,10,
