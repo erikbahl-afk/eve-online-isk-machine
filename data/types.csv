@@ -747,6 +747,7 @@ type_id,name,volume,group_id
 19191,Pithum A-Type Medium Shield Booster,10,
 19193,Gist C-Type Large Shield Booster,,
 19194,Gist B-Type Large Shield Booster,25,
+19195,,50,40
 19197,Gist A-Type X-Large Shield Booster,50,
 19198,Gist X-Type X-Large Shield Booster,50,40
 19200,Gist X-Type Large Shield Booster,25,
@@ -1051,9 +1052,10 @@ type_id,name,volume,group_id
 27171,Zainou 'Beancounter' Industry BX-804,1,743
 27174,Zainou 'Beancounter' Reprocessing RX-804,1,1229
 27176,Zainou 'Beancounter' Metallurgy MY-703,,
+27179,Zainou 'Beancounter' Research RR-605,1,748
 27181,Zainou 'Beancounter' Metallurgy MY-705,1,748
 27184,Zainou 'Beancounter' Science SC-805,1,748
-27186,Poteque 'Prospector' Astrometric Pinpointing AP-606,1,
+27186,Poteque 'Prospector' Astrometric Pinpointing AP-606,1,1230
 27187,,1,
 27188,Poteque 'Prospector' Astrometric Rangefinding AR-806,1,1230
 27190,Poteque 'Prospector' Astrometric Pinpointing AP-610,,
@@ -1713,6 +1715,7 @@ type_id,name,volume,group_id
 54407,Low-grade Hydra Delta,,
 54534,Black Market 'Valdimar' Drone Navigation DN-701,1,
 54543,Black Market 'Valdimar' Drone Durability DD-1001,,
+54562,Korako's Modified Drone Control Unit,,
 54715,Women's SOE Enhanced Biosecurity Mask,,
 54731,Skybreaker,2500,25
 54732,Stormbringer,10000,26
