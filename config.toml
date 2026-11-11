@@ -192,6 +192,12 @@ plan = [["Trade", 4], ["Broker Relations", 4], ["Accounting", 4], ["Retail", 5],
         ["Wholesale", 4], ["Infomorph Psychology", 2], ["Infomorph Synchronizing", 3], ["Social", 1],
         ["Contracting", 2]]
 
+# Player structure compared with Jita 4-4 each run while SSO is connected (state/structure.json).
+[structure]
+enabled = true
+name = "Tranquility Trading Tower"   # the Perimeter trade Keepstar, 1 jump from Jita
+id = 1028858195912                   # fallback if the character's structure search finds nothing
+
 # EVE SSO app (developers.eveonline.com). The client ID is public; the secret key lives only in
 # GitHub Actions secrets (never in this repo). Not connected to a character yet.
 [sso]

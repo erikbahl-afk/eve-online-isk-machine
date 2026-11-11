@@ -13,7 +13,7 @@ import pandas as pd
 
 import os
 
-from . import alerts, character, corners, logons, market, render, sso
+from . import alerts, character, corners, logons, market, render, sso, structure
 from .common import CACHE, DATA, HUBS, ROOT, STATE, load_config, load_json, save_json
 from .esi import ESI
 from .fees import Fees
@@ -175,6 +175,12 @@ def main():
 
     types = Types()
     names, vols = types.names, types.vols
+    if char is not None and "jita" in tops and cfg.get("structure", {}).get("enabled", True):
+        try:  # open questions 3 and 9: the Perimeter Keepstar's market vs Jita 4-4
+            structure.report(cfg, esi, token, cid, tops["jita"], STATE / "structure.json",
+                             names if isinstance(names, dict) else None)
+        except Exception as e:
+            health["structure"] = {"note": f"structure market read failed: {type(e).__name__}"}
     levels = (market.PriceLevels(esi, {h: HUBS[h]["region"] for h in HUBS}, cfg["sim"].get("history_days", 14))
               if cfg["sim"].get("history_gate", True) else None)
     shared = {"levels": levels, "esi": esi, "now": now, "tops": tops, "books": books, "prints": prints, "intervals": intervals,

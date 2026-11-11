@@ -5,3 +5,4 @@ date,topic,tool_calls,notes
 2026-11-08,fills,18,phantom fills found (25/34 outside official range); history gate added
 2026-11-09,picks,21,pick reach filter (33/60 picks unreachable prices); aged stock always listed; Tetryon avoid
 2026-11-10,competition,21,activity by block/weekday; live time-on-top 41% obs vs 12% model; top-check logger added
+2026-11-11,open questions,20,standings closed (55-140M/yr not worth missions); Perimeter structure reader added

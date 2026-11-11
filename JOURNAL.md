@@ -254,3 +254,21 @@
 - Alerts: liquidation 50%, Typhoon SKIN 8.6% (legacy imports, hold); Infomorph keys (listed at next login via list_after_days);
   Tetryon XL bid (avoid since Mon, cancelled at the next sim login; none since Sun). All acceptable; thresholds unchanged.
 - Data gap: no collector runs 08 Nov 00:55–21:23 UTC (20 h > max_gap 12 h), so Sunday has 3.7 h of data. Watch for repeats.
+
+## 2026-11-11 · open questions: standings, Perimeter Keepstar (Wednesday)
+- Standings (Q2), closed. Character has 0.0 Caldari State / 0.0 Caldari Navy. Each faction point saves 0.03 pp of broker
+  (2% of the 1.5% fee), each corp point 0.02 pp (1.3%). Paper broker fees per year: main 3.9B (89% Amarr import listings,
+  which Caldari standings don't touch), no_imports 2.6B Jita, start_1b 1.0B Jita; roughly half after Sunday's fill gate.
+  Corp 5 / faction 2 (-0.16 pp, 11%) is worth ~55–140M/yr; max 10/10 (-0.5 pp to the 1% floor) ~150–430M/yr. Cost: tens of
+  hours of Navy missions on a 420k-SP trade-only character, delaying the 79-day skill plan. Not worth it; revisit when real
+  Jita broker fees pass ~1B/yr (around 15B net worth). STRATEGY.md updated.
+- Perimeter (Q3 + Q9), started. No ESI secret in this session, so the bot must read it: new `trader/structure.py` +
+  `[structure]` config. Each run with SSO finds the Tranquility Trading Tower via the character's structure search
+  (fallback id 1028858195912), pulls `/markets/structures/{id}/` and writes `state/structure.json`: median ask vs Jita,
+  share of items cheaper than Jita, bids with range >= 1 jump that outbid Jita's best (Q9). Errors go to health, never
+  break the run. Test added; 26 pass. Next Wednesday: judge from ~1 week of files (and check the scope was granted).
+- Alerts: liquidation 50% and Typhoon SKIN 8.6% are the known legacy imports (Sat entry), hold. Stale Amarr stock (Keys, Void
+  XL, 1 Legion missile) and the Tetryon XL bid (avoid since Mon): no sim login since Sun 08 Nov (next Thu 12 Nov 21:10 PT),
+  so list_after_days and the avoid cancel haven't had a chance to act; expected to clear Thursday. Gneiss III idle bid is
+  2.33k ISK: noise. Thresholds unchanged.
+- Next: Thu experiments (slots 6/6; reach probe 0.15 vs 0.4 is waiting); Thu night confirm the stale stock got listed.

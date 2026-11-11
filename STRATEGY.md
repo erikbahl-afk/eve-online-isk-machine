@@ -94,10 +94,17 @@ same sessions but different settings (at most 6: 1 bold slot, 1 flex, the rest r
 ## Open questions and experiments (update as results come in)
 1. **Which import hub?** The summary's hub comparison shows it. Move the second clone only if
    another hub beats the current one for two weeks running.
-2. **Standings** (investigate): yearly savings = broker-fee volume × the fee reduction. Compare
-   with the hours of missions needed. Use realized order volume from `state/ledger.csv` after a week.
-3. **Player structures** (investigate): the Perimeter Keepstar's fees and competition. Its market
-   needs an authenticated ESI token (the SSO app); then compare its scoring with Jita 4-4.
+2. ~~**Standings**~~: closed 2026-11-11, not worth it before ~15B. Each Caldari State point saves 0.03 pp of broker
+   (2% of the fee at 1.5%), each Caldari Navy point 0.02 pp (1.3%); a realistic corp 5 / faction 2 saves 0.16 pp = 11%
+   of Jita broker fees, max 10/10 saves 0.5 pp (floor 1%). Paper Jita broker fees run 1.0B/yr (start_1b) to 2.6B/yr
+   (no_imports, 5B), about half that after the fill gate: so ~55–140M/yr for corp 5 / faction 2. Getting there means
+   tens of hours of Caldari Navy missions on a 420k-SP character with no combat skills, delaying the trade plan.
+   Caldari standings also don't touch Amarr fees (90% of main's broker fees are Amarr import listings).
+   Revisit when real Jita broker fees pass ~1B/yr, or if the user wants to run missions anyway.
+3. **Player structures** (in progress since 2026-11-11): the Perimeter Keepstar (Tranquility Trading Tower). Each
+   bot run with SSO now writes `state/structure.json` (`trader/structure.py`): its book vs Jita 4-4 (median ask ratio,
+   share of items cheaper than Jita, structure bids that outbid Jita and reach it). Judge next Wednesday from ~1 week
+   of runs. The structure's broker fee itself is live-only (CHECKS.md).
 4. **Wholesale IV/V**: only if slots become the limit (orders near 113 while good candidates go unused).
 5. **Later, when capital allows**: manufacturing (long jobs suit infrequent logins) and a
    second trading character (a third hub, more slots). Revisit at about 15B net worth.
@@ -109,7 +116,7 @@ same sessions but different settings (at most 6: 1 bold slot, 1 flex, the rest r
 8. **Seeding**: experiment `seeding` running since 2026-11-05 (demand assumed: 50% of the recent sales rate).
    Items with steady demand at the import hub but no sellers there. The current import
    scoring needs an existing sell side, so it misses these; estimate demand from ESI history.
-9. **Structure orders** (needs SSO): buy orders placed in the Perimeter Keepstar with a 1-jump range
+9. **Structure orders** (data collected with question 3 since 2026-11-11): buy orders placed in the Perimeter Keepstar with a 1-jump range
    fill from Jita sellers at the structure's lower broker fee.
 10. **Two import hubs in rotation**: bold experiment `rotation` running since 2026-11-05 (Dodixie and Amarr). (needs Infomorph Psychology II, 1,415 SP): the cooldown allows one
     jump per session, so each import hub would be visited every other session. That could suit thin, slow
