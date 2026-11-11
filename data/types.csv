@@ -13,6 +13,7 @@ type_id,name,volume,group_id
 233,,0.025,
 421,,5,
 438,,5,
+440,5MN Microwarpdrive II,10,46
 448,Warp Scrambler II,5,52
 519,Gyrostabilizer II,5,
 527,,5,65
@@ -105,6 +106,7 @@ type_id,name,volume,group_id
 2875,Sterile Conduits,50,1041
 2876,,50,1041
 2897,220mm Vulcan AutoCannon II,10,55
+2905,250mm Light Artillery Cannon II,5,55
 2929,800mm Repeating Cannon II,20,
 2953,,20,
 2961,1400mm Howitzer Artillery II,,
@@ -149,6 +151,7 @@ type_id,name,volume,group_id
 3520,,10,53
 3534,CONCORD Capital Armor Repairer,1000,62
 3536,,1000,325
+3540,Large Armor Repairer II,50,62
 3542,CONCORD Capital Shield Booster,1000,
 3568,Small Capacitor Booster II,5,76
 3616,Capital Remote Shield Booster I,1000,41
@@ -246,7 +249,7 @@ type_id,name,volume,group_id
 11325,,20,329
 11343,100mm Crystalline Carbonide Restrained Plates,,
 11365,Vengeance,2500,
-11377,,2500,
+11377,Nemesis,2500,834
 11379,,2500,
 11381,,2500,
 11393,Retribution,2500,
@@ -298,7 +301,7 @@ type_id,name,volume,group_id
 11999,Vagabond,10000,
 12003,Zealot,10000,358
 12005,Ishtar,10000,358
-12015,Muninn,10000,
+12015,Muninn,10000,358
 12019,Sacrilege,10000,358
 12023,Deimos,10000,358
 12032,Manticore,2500,
@@ -677,7 +680,7 @@ type_id,name,volume,group_id
 18947,Centus X-Type Thermal Armor Hardener,5,328
 18949,,5,
 18963,Core B-Type Thermal Armor Hardener,,
-18973,Core X-Type EM Armor Hardener,5,
+18973,Core X-Type EM Armor Hardener,5,328
 18975,Core X-Type Explosive Armor Hardener,5,328
 18979,,5,328
 18985,Coreli A-Type Small Remote Armor Repairer,5,325
@@ -799,6 +802,7 @@ type_id,name,volume,group_id
 20419,Datacore - Graviton Physics,0.1,333
 20424,Datacore - Mechanical Engineering,0.1,333
 20443,Ogdin's Eye Coordination Enhancer,1,
+20445,Dual Giga Pulse Laser I Blueprint,,
 20499,,1,
 20501,High-grade Amulet Beta,,
 20503,High-grade Amulet Delta,1,300
@@ -867,6 +871,7 @@ type_id,name,volume,group_id
 22440,,50000,
 22442,Eos,15000,540
 22444,Sleipnir,15000,540
+22448,Absolution,15000,540
 22456,,5000,
 22464,,5000,
 22468,Claymore,15000,
@@ -1054,6 +1059,7 @@ type_id,name,volume,group_id
 27435,Caldari Navy Mjolnir Heavy Missile,0.03,385
 27441,,0.03,
 27447,Caldari Navy Inferno Heavy Missile,0.03,
+27453,,0.03,385
 27459,,0.05,
 27465,Legion Scourge Auto-Targeting Cruise Missile,,
 27483,Legion Mjolnir Auto-Targeting Heavy Missile,0.03,395
@@ -1065,6 +1071,7 @@ type_id,name,volume,group_id
 27924,,75,
 28201,Light Armor Maintenance Bot II,5,
 28209,,25,100
+28211,Garde II,25,100
 28213,Curator II,25,100
 28262,'Integrated' Acolyte,,
 28264,'Augmented' Acolyte,5,100
@@ -1205,7 +1212,7 @@ type_id,name,volume,group_id
 31594,,10,
 31598,,5,779
 31606,,10,779
-31614,Small Rocket Fuel Cache Partition II,5,
+31614,Small Rocket Fuel Cache Partition II,5,779
 31616,,10,
 31628,Medium Warhead Calefaction Catalyst II,10,779
 31650,,5,
@@ -1703,7 +1710,7 @@ type_id,name,volume,group_id
 56290,Unstable Capital Energy Nosferatu Mutaplasmid,,
 56701,Mobile Sanguine Harvester,100,1250
 56715,Cultural Semiosis Data,0.1,526
-56716,,0.1,
+56716,Protective Equipment Patterns,0.1,526
 57112,Low-grade Rapture Gamma,,
 57118,,1,
 57121,Mid-grade Rapture Epsilon,1,
@@ -1840,7 +1847,7 @@ type_id,name,volume,group_id
 77114,Metamorphosis,2500,25
 77169,Typhoon Fleet Issue Capsuleer Elite XX SKIN,0.01,
 78333,Mekubal,5000,420
-78366,Alligator,15000,
+78366,Alligator,15000,419
 78367,Mamba,5000,420
 78369,Khizriel,15000,
 78622,Gravid Vorton Tuning System Mutaplasmid,1,
@@ -1910,6 +1917,7 @@ type_id,name,volume,group_id
 90316,Sacrilege Sanguinary Savant SKIN,0.01,1950
 90318,Aeon Sanguinary Savant SKIN,0.01,1950
 90396,Blood Raider Crate,,
+90469,Unstable Modulated Strip Miner Mutaplasmid,1,1964
 90523,Unstable Ice Harvester Mutaplasmid,,
 90528,Unstable Gas Cloud Scoop Mutaplasmid,1,1964
 90647,Oxidative Stress - Unlimited,,
@@ -1952,7 +1960,7 @@ type_id,name,volume,group_id
 93350,Guerilla Republic - Unlimited,,
 93466,Imperial Benediction - Unlimited,,
 93745,Tempest Fleet Issue Capsuleer Day XXIII SKIN,0.01,
-93908,Caldari Navy Missile Guidance Enhancer,5,
+93908,Caldari Navy Missile Guidance Enhancer,5,1395
 93909,Republic Fleet Missile Guidance Enhancer,5,
 93912,Revelli’s Modified Integrated Analyzer,5,
 93998,Federation Navy 'Argyreos' Magnetic Field Stabilizer,,
