@@ -147,6 +147,7 @@ type_id,name,volume,group_id
 3257,Inherent Implants 'Squire' Power Grid Management EG-604,1,741
 3265,Zainou 'Gypsy' CPU Management EE-602,1,
 3475,Inherent Implants 'Noble' Mechanic MC-806,1,738
+3482,,1,738
 3488,,5,
 3520,,10,53
 3534,CONCORD Capital Armor Repairer,1000,62
@@ -420,7 +421,7 @@ type_id,name,volume,group_id
 13970,,5,328
 13974,True Sansha Explosive Armor Hardener,,
 13976,Dark Blood Explosive Armor Hardener,,
-13978,True Sansha Kinetic Armor Hardener,,
+13978,True Sansha Kinetic Armor Hardener,5,328
 13982,True Sansha Thermal Armor Hardener,5,328
 13984,Dark Blood Thermal Armor Hardener,,
 14001,True Sansha Multispectrum Coating,,
@@ -476,7 +477,7 @@ type_id,name,volume,group_id
 14254,Domination Warp Scrambler,5,52
 14256,,5,52
 14260,,5,
-14262,,5,65
+14262,Dark Blood Stasis Webifier,5,65
 14264,Domination Stasis Webifier,5,65
 14266,Dread Guristas Stasis Webifier,5,65
 14268,,5,
@@ -550,7 +551,7 @@ type_id,name,volume,group_id
 16233,Prophecy,,
 16246,Zainou 'Gnome' Shield Management SM-705,1,749
 16247,,1,
-16248,Zainou 'Gnome' Shield Operation SP-905,1,
+16248,Zainou 'Gnome' Shield Operation SP-905,1,749
 16272,Heavy Water,0.4,
 16273,,0.4,
 16275,Strontium Clathrates,3,423
@@ -1814,10 +1815,11 @@ type_id,name,volume,group_id
 62555,Compressed Gneiss IV-Grade,0.05,467
 62559,Compressed Dark Ochre IV-Grade,0.08,453
 62560,Compressed Crokite,0.16,452
+62562,,0.16,452
 62563,,0.16,452
 62564,Compressed Bistot,,
 62566,,0.16,
-62567,Compressed Bistot IV-Grade,0.16,
+62567,Compressed Bistot IV-Grade,0.16,451
 62571,Compressed Arkonor IV-Grade,0.16,450
 62572,,0.16,
 62573,Compressed Spodumain II-Grade,0.16,
