@@ -1,4 +1,4 @@
-# Summary · Wed 11 Nov 00:25 PST
+# Summary · Wed 11 Nov 01:26 PST
 
 Updated every ~2 hours. **Your real character** is the first section; everything after it is the **practice trader** (pretend ISK, real market data). Each section starts with a line on how to read it.
 
@@ -31,7 +31,7 @@ _The paper trader started with 5.00B on 28 Oct. Net worth counts stock at what w
 - **Where the ISK is:** cash 1.62B · locked in buy orders 140.91M · stock 3.13B · on a courier 0.00
 - **Profit so far (realized):** -117.51M. That's completed sales minus every fee paid. Fees: broker 114.45M, relist 6.36M, sales tax 855.36k, courier 138.00M
 - **Location:** amarr · import hub amarr · shipments on the way 0
-- **What's limiting profit** (near 100% = the bottleneck): order slots 16/113 · ISK in use 67% · your time last plan 25 of 25 min
+- **What's limiting profit** (near 100% = the bottleneck): order slots 16/113 · ISK in use 67% · your time last plan 24 of 25 min
 
 ## 3. Results by strategy
 _station = buy and sell in the same hub · import = buy in Jita, ship, sell elsewhere · spec = bets ahead of patches. Realized stays at 0 until items actually sell._
@@ -89,73 +89,73 @@ _Market size = ISK spent per day buying from sell orders in that station. Items 
 
 | Hub | Market size/day | Station items | Station profit/day | Import items | Import profit/day |
 |---|---|---|---|---|---|
-| jita | 5.51T | 21 | 41.38M | - | - |
-| amarr | 508.92B | 2 | 1.96M | 37 | 73.50M |
-| dodixie | 155.49B | 1 | 1.06M | 44 | 95.68M |
-| rens | 33.32B | 0 | - | 8 | 25.86M |
-| hek | 65.06B | 1 | 1.51M | 19 | 45.30M |
+| jita | 5.50T | 16 | 31.44M | - | - |
+| amarr | 509.74B | 2 | 1.93M | 31 | 69.01M |
+| dodixie | 155.89B | 1 | 1.06M | 43 | 95.63M |
+| rens | 33.28B | 0 | - | 6 | 19.60M |
+| hek | 65.12B | 1 | 1.51M | 19 | 45.42M |
 
 ## 8. Best items to trade inside Jita
 _Buy at the highest buy price + 1 tick, sell at the lowest sell price − 1 tick. Margin is after all fees. On top = how much of the time between your logins our order would stay the best price before a rival undercuts it (sell side / buy side). Limited by = which resource it eats most: order slots, ISK, or your time._
 
 | Item | Buy → sell price | Margin | Sold per day | On top (sell/buy) | Profit/day | Limited by |
 |---|---|---|---|---|---|---|
-| Compressed Arkonor IV-Grade | 3.60k → 4.30k | 12.0% | 6270.7 | 15% / 23% | 2.54M | time |
-| Inherent Implants 'Lancer' Large Energy Turret LE-1005 | 100.20M → 119.20M | 11.7% | 0.2 | 15% / 48% | 2.33M | time |
-| Anathema | 15.82M → 19.52M | 15.9% | 1.0 | 4% / 43% | 2.34M | time |
-| Orbweaver SW-300-I | 7.15M → 8.92M | 17.2% | 2.1 | 3% / 6% | 2.42M | time |
-| Republic Fleet Medium Shield Extender | 11.61M → 13.35M | 7.9% | 3.0 | 3% / 7% | 2.41M | time |
-| Shadow Serpentis Tracking Computer | 103.10M → 119.60M | 8.8% | 0.3 | 4% / 16% | 2.27M | time |
-| Retribution | 21.02M → 25.97M | 16.0% | 0.7 | 6% / 8% | 2.27M | time |
-| Augoror Navy Issue | 37.06M → 43.81M | 11.0% | 0.6 | 13% / 18% | 2.14M | time |
-| Ashimmu | 225.60M → 257.60M | 7.1% | 0.1 | 7% / 39% | 2.04M | time |
-| Low-grade Snake Delta | 46.42M → 65.32M | 32.4% | 0.1 | 9% / 30% | 2.06M | time |
-| Dark Blood Stasis Webifier | 104.10M → 124.00M | 11.8% | 0.2 | 3% / 4% | 2.19M | time |
-| Triplot Scan Acquisition Array | 209.60M → 249.90M | 11.9% | 0.1 | 5% / 14% | 2.05M | time |
+| Guristas Brass Tag | 31.09M → 35.74M | 7.9% | 1.1 | 7% / 52% | 2.55M | time |
+| Compressed Arkonor IV-Grade | 3.60k → 4.30k | 12.0% | 6282.6 | 15% / 24% | 2.54M | time |
+| Inherent Implants 'Lancer' Large Energy Turret LE-1005 | 100.20M → 119.20M | 11.7% | 0.2 | 15% / 48% | 2.31M | time |
+| Anathema | 15.82M → 19.52M | 15.9% | 1.0 | 4% / 43% | 2.35M | time |
+| Orbweaver SW-300-I | 7.15M → 8.92M | 17.2% | 2.1 | 3% / 6% | 2.43M | time |
+| Shadow Serpentis Tracking Computer | 103.10M → 119.60M | 8.8% | 0.3 | 4% / 16% | 2.26M | time |
+| Republic Fleet Medium Shield Extender | 11.63M → 13.31M | 7.4% | 2.8 | 3% / 7% | 2.10M | time |
+| Triplot Scan Acquisition Array | 209.60M → 249.90M | 11.9% | 0.1 | 6% / 14% | 2.04M | time |
+| X-Large Mutaplasmid Residue | 67.09k → 87.61k | 22.7% | 141.9 | 3% / 7% | 2.07M | time |
+| Mercury | 2.87k → 3.42k | 11.7% | 6654.4 | 2% / 3% | 2.06M | time |
+| Fullerite-C32 | 18.24k → 21.84k | 12.4% | 964.5 | 2% / 8% | 2.02M | time |
+| Gistum B-Type Multispectrum Shield Hardener | 454.30M → 522.80M | 8.0% | 0.1 | 4% / 4% | 2.01M | time |
 
 ## 9. Best items to import Jita → Amarr
 _Buy from Jita sellers, ship by courier, sell just under the cheapest seller there. Margin is after shipping and fees. m³ = cargo volume per unit._
 
 | Item | Jita price → sell price | m³ | Margin | Sold per day | On top | Profit/day | Limited by |
 |---|---|---|---|---|---|---|---|
-| ORE Mining Director Mindlink | 558.90M → 689.30M | 1.0 | 12.7% | 0.1 | 40% | 6.12M | ISK |
-| Dread Guristas Multispectrum Shield Hardener | 215.80M → 262.90M | 5.0 | 11.3% | 0.2 | 15% | 4.65M | time |
-| Federation Navy Drone Navigation Computer | 84.99M → 112.80M | 25.0 | 21.7% | 0.2 | 52% | 3.79M | time |
-| Caldari Navy Large Graviton Smartbomb | 124.80M → 152.90M | 50.0 | 11.9% | 0.3 | 54% | 3.69M | time |
+| ORE Mining Director Mindlink | 558.80M → 689.30M | 1.0 | 12.7% | 0.1 | 40% | 6.11M | ISK |
+| Dread Guristas Multispectrum Shield Hardener | 215.80M → 262.80M | 5.0 | 11.2% | 0.2 | 15% | 4.38M | time |
+| Federation Navy Drone Navigation Computer | 85.00M → 112.80M | 25.0 | 21.6% | 0.2 | 52% | 3.77M | time |
+| Caldari Navy Large Graviton Smartbomb | 124.80M → 152.90M | 50.0 | 11.9% | 0.2 | 54% | 3.66M | time |
 | Blood Raider NET Resonator | 4.00M → 4.99M | 1.0 | 14.2% | 7.0 | 7% | 3.88M | time |
-| Caesium | 5.40k → 6.64k | 0.1 | 12.4% | 4153.8 | 59% | 2.74M | time |
-| Mobile Large Warp Disruptor I | 16.15M → 24.85M | 585.0 | 41.8% | 0.4 | 39% | 2.73M | time |
-| Scalar Capacitor Unit | 44.43k → 54.99k | 1.0 | 13.1% | 396.5 | 47% | 2.28M | time |
-| Thermosetting Polymer | 1.05k → 1.59k | 0.2 | 22.5% | 8648.3 | 85% | 2.04M | time |
-| Large Warhead Flare Catalyst II | 69.68M → 84.86M | 20.0 | 11.2% | 0.3 | 48% | 2.24M | time |
-| Zero-Point Mass Entangler | 7.82M → 9.75M | 50.0 | 14.0% | 2.2 | 20% | 2.39M | time |
-| Absolution | 302.40M → 371.70M | 15,000.0 | 11.4% | 0.1 | 13% | 2.32M | time |
+| Caesium | 5.40k → 6.64k | 0.1 | 12.4% | 4127.7 | 59% | 2.72M | time |
+| Mobile Large Warp Disruptor I | 16.15M → 24.85M | 585.0 | 41.8% | 0.4 | 39% | 2.75M | time |
+| Antimatter Reactor Unit | 100.20k → 136.50k | 1.0 | 25.0% | 98.9 | 34% | 2.45M | time |
+| Mobile Medium Warp Disruptor II | 9.88M → 14.27M | 195.0 | 32.8% | 0.6 | 57% | 2.09M | time |
+| 'Yurt' Mobile Depot | 31.05M → 41.85M | 50.0 | 23.6% | 0.3 | 41% | 2.16M | time |
+| ORE Miner | 151.00M → 184.40M | 5.0 | 11.6% | 0.1 | 11% | 2.32M | time |
+| Zero-Point Mass Entangler | 7.82M → 9.75M | 50.0 | 14.0% | 2.1 | 18% | 2.22M | time |
 
 ## 10. Cornering watchlist (read-only, nothing is traded)
 _Items where buying out the cheapest few sell orders and relisting higher would pay on paper. We only watch them, to learn whether such prices hold or get undercut._
 
 | Hub | Item | Cheapest now | Buy out | Cost | Relist at | Paper profit | Return | Days to sell | Rival updates/day |
 |---|---|---|---|---|---|---|---|---|---|
-| jita | Entropic Rose Metallic - Unlimited | 35.00M | 2 orders / 8 units | 289.98M | 66.59M | 216.77M | 75% | 7.4 | 0.6 |
+| amarr | Large Thermal Armor Reinforcer I | 12.00M | 1 orders / 21 units | 252.00M | 27.38M | 294.95M | 117% | 5.2 | 0.5 |
+| jita | Entropic Rose Metallic - Unlimited | 35.00M | 2 orders / 8 units | 289.98M | 66.59M | 216.77M | 75% | 7.5 | 0.6 |
 | jita | Imperial Navy Mega Beam Laser | 18.97M | 8 orders / 15 units | 328.64M | 35.78M | 181.90M | 55% | 8.2 | 2.3 |
-| jita | Large Blaster Specialization | 7.00M | 5 orders / 25 units | 202.71M | 14.46M | 141.17M | 70% | 6.8 | 2.9 |
+| jita | Large Blaster Specialization | 7.00M | 5 orders / 25 units | 202.71M | 14.46M | 141.17M | 70% | 6.9 | 2.9 |
 | amarr | Babaroga Deathglow Remnant SKIN | 2.95M | 9 orders / 9 units | 61.50M | 21.79M | 125.05M | 203% | 8.9 | 0.6 |
 | jita | Vorton Arc Guidance | 34.00M | 4 orders / 9 units | 318.83M | 50.99M | 117.71M | 37% | 3.6 | 0.6 |
 | jita | Vorton Projector Operation | 22.18M | 2 orders / 10 units | 234.10M | 36.18M | 110.06M | 47% | 4.2 | 2.1 |
-| jita | Historic Capsuleer Day SKIN Crate | 4.19M | 7 orders / 38 units | 169.35M | 7.73M | 109.92M | 65% | 6.4 | 2.3 |
+| jita | Historic Capsuleer Day SKIN Crate | 4.19M | 7 orders / 38 units | 169.35M | 7.73M | 109.92M | 65% | 6.5 | 2.3 |
 | jita | Syndicate 400mm Steel Plates | 94.98M | 3 orders / 3 units | 284.97M | 133.60M | 96.29M | 34% | 1.0 | 2.0 |
 | jita | Eifyr and Co. 'Gunslinger' Motion Prediction MR-702 | 6.80M | 4 orders / 34 units | 242.78M | 10.41M | 93.90M | 39% | 8.5 | 1.4 |
-| jita | Capital Beam Laser Specialization | 34.90M | 2 orders / 7 units | 244.40M | 49.99M | 88.47M | 36% | 9.2 | 0.5 |
 
 ## 11. Data health
 _Is the market data flowing? Orders = orders seen in the station · Hours today = hours of data collected since 00:00 UTC · Trades seen = trades inferred since the last snapshot. Any note means something went wrong._
 
 | Hub | Orders | Hours today | Trades seen | Note |
 |---|---|---|---|---|
-| jita | 328,993 | 10.4 | 1,883 |  |
-| amarr | 125,541 | 10.4 | 801 |  |
-| dodixie | 66,536 | 10.4 | 188 |  |
-| rens | 31,714 | 10.4 | 113 |  |
-| hek | 40,474 | 10.4 | 117 |  |
+| jita | 329,566 | 11.4 | 3,688 |  |
+| amarr | 125,691 | 11.4 | 1,104 |  |
+| dodixie | 66,565 | 11.4 | 706 |  |
+| rens | 31,780 | 11.4 | 243 |  |
+| hek | 40,534 | 11.4 | 242 |  |
 
-_This run took 29 s (market data 16 s, stats and character 1 s, experiments 11 s, main portfolio 1 s, cornering scan 0 s, ESI back-off 0 s; 1,124 ESI calls). A slow run usually means ESI rate limits (back-off) or a first-time lookup of many item types._
+_This run took 39 s (market data 17 s, stats and character 1 s, experiments 18 s, main portfolio 2 s, cornering scan 0 s, ESI back-off 0 s; 1,121 ESI calls). A slow run usually means ESI rate limits (back-off) or a first-time lookup of many item types._

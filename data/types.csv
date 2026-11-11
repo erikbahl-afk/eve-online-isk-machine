@@ -600,6 +600,7 @@ type_id,name,volume,group_id
 17317,Fermionic Condensates,1.3,429
 17368,,100000,
 17478,Retriever,3750,
+17480,,3750,463
 17482,Strip Miner I,5,
 17487,Republic Fleet Heavy Missile Launcher,10,
 17491,Republic Fleet Light Missile Launcher,5,509
@@ -681,6 +682,7 @@ type_id,name,volume,group_id
 18905,Corpus B-Type Explosive Armor Hardener,5,328
 18923,Centus A-Type Kinetic Armor Hardener,,
 18933,Corpus X-Type EM Armor Hardener,5,328
+18935,,5,328
 18937,Corpus X-Type Explosive Armor Hardener,5,328
 18939,Centus X-Type Explosive Armor Hardener,5,328
 18945,Corpus X-Type Thermal Armor Hardener,5,
