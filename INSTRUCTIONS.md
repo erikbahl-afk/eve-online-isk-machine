@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Wed 11 Nov 01:26 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 28 · **Est. time:** 24 min. Work top to bottom; stop any time.  
+**Updated:** Wed 11 Nov 02:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 29 · **Est. time:** 25 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -77,25 +77,26 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 15 | ☐ Anathema | 4 | **15,820,000** | 17,250,000 | 15,810,000 |
-| 16 | ☐ Compressed Arkonor IV-Grade | 25,131 | **3,601** | 3,800 | 3,600 |
+| 15 | ☐ Bifrost | 3 | **35,830,000** | 38,440,000 | 35,820,000 |
+| 16 | ☐ Compressed Arkonor IV-Grade | 25,156 | **3,601** | 3,800 | 3,600 |
 | 17 | ☐ Guristas Brass Tag | 5 | **31,090,000** | 31,590,000 | 31,080,000 |
-| 18 | ☐ Inherent Implants 'Lancer' Large Energy Turret LE-1005 | 1 | **100,200,000** | 105,300,000 | 100,100,000 |
-| 19 | ☐ Orbweaver SW-300-I | 9 | **7,152,000** | 7,888,000 | 7,151,000 |
-| 20 | ☐ Shadow Serpentis Tracking Computer | 2 | **103,100,000** | 105,700,000 | 103,000,000 |
+| 18 | ☐ Large Moon Ore Compressor I | 2 | **67,290,000** | 70,630,000 | 67,280,000 |
+| 19 | ☐ Orbweaver SW-300-I | 9 | **7,154,000** | 7,888,000 | 7,153,000 |
+| 20 | ☐ Quad Mega Pulse Laser II | 1 | **175,600,000** | 179,600,000 | 175,500,000 |
 
-### Block 2 · should do · about 5 min
+### Block 2 · should do · about 6 min
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 21 | ☐ Fullerite-C32 | 3,858 | **18,240** | 19,300 | 18,230 |
-| 22 | ☐ Mercury | 26,618 | **2,869** | 3,019 | 2,868 |
-| 23 | ☐ Republic Fleet Medium Shield Extender | 12 | **11,630,000** | 11,760,000 | 11,620,000 |
-| 24 | ☐ Triplot Scan Acquisition Array | 1 | **209,600,000** | 220,900,000 | 209,500,000 |
-| 25 | ☐ X-Large Mutaplasmid Residue | 568 | **67,090** | 77,450 | 67,080 |
+| 21 | ☐ Anathema | 4 | **15,820,000** | 17,220,000 | 15,810,000 |
+| 22 | ☐ Caldari Navy Hornet | 49 | **1,199,000** | 1,305,000 | 1,198,000 |
+| 23 | ☐ Inherent Implants 'Lancer' Large Energy Turret LE-1005 | 1 | **100,200,000** | 105,300,000 | 100,100,000 |
+| 24 | ☐ Mercury | 26,561 | **2,869** | 3,018 | 2,868 |
+| 25 | ☐ Republic Fleet Medium Shield Extender | 12 | **11,630,000** | 11,760,000 | 11,620,000 |
+| 26 | ☐ X-Large Mutaplasmid Residue | 568 | **67,090** | 77,450 | 67,080 |
 
 ### Block 3 · if there's time · about 2 min
 
@@ -104,15 +105,15 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 26 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,639,000** | 3,711,000 | 3,638,000 |
+| 27 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,639,000** | 3,711,000 | 3,638,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 27 | ☐ Compressed Malachite Mykoserocin | 270 | **75,800** | 77,380 | 75,790 |
-| 28 | ☐ Lorharyth’s Modified Inertial Stabilizer | 1 | **261,700,000** | 263,800,000 | 261,600,000 |
+| 28 | ☐ Fullerite-C32 | 3,851 | **18,250** | 19,300 | 18,240 |
+| 29 | ☐ Triplot Scan Acquisition Array | 1 | **209,600,000** | 220,900,000 | 209,500,000 |
 
 ---
 Wallet 1.62B · escrow 140.91M · stock 3.13B · in transit 0.00 · net worth 4.88B (liquidation 2.46B)
