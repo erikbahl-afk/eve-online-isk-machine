@@ -60,6 +60,7 @@ type_id,name,volume,group_id
 2050,Gistum C-Type Multispectrum Shield Hardener,5,77
 2175,,10,
 2185,Hammerhead II,,
+2195,Praetor II,25,100
 2270,,0.005,
 2281,Multispectrum Shield Hardener II,5,77
 2286,,0.005,
@@ -71,6 +72,7 @@ type_id,name,volume,group_id
 2309,Ionic Solutions,,
 2310,Noble Gas,0.005,1033
 2311,Reactive Gas,0.005,1033
+2321,Polyaramids,0.75,1034
 2327,,0.75,
 2328,Water-Cooled CPU,0.75,1034
 2344,,3,1040
@@ -308,7 +310,7 @@ type_id,name,volume,group_id
 12015,Muninn,10000,358
 12019,Sacrilege,10000,358
 12023,Deimos,10000,358
-12032,Manticore,2500,
+12032,Manticore,2500,834
 12034,,2500,
 12038,,2500,834
 12042,,2500,
@@ -454,7 +456,7 @@ type_id,name,volume,group_id
 14140,True Sansha Cap Recharger,5,43
 14142,Dark Blood Cap Recharger,5,43
 14144,Dark Blood Capacitor Power Relay,5,767
-14146,True Sansha Capacitor Power Relay,,
+14146,True Sansha Capacitor Power Relay,5,767
 14148,Dark Blood Small Energy Nosferatu,5,68
 14152,,5,
 14156,Dark Blood Medium Energy Nosferatu,,
@@ -501,6 +503,7 @@ type_id,name,volume,group_id
 15602,,0.1,409
 15604,Caldari Navy Admiral Insignia I,0.1,409
 15605,Caldari Navy Vice Admiral Insignia I,0.1,409
+15613,,0.1,409
 15614,,0.1,409
 15615,Imperial Navy General Insignia I,0.1,409
 15632,Republic Fleet Commander Insignia I,0.1,409
@@ -1402,6 +1405,7 @@ type_id,name,volume,group_id
 35878,Standup Manufacturing Plant I,4000,
 35886,Standup Invention Lab I,,
 35894,Standup Cloning Center I,4000,
+35899,,4000,1322
 35923,Standup Guided Bomb Launcher I,8000,1328
 35940,Standup Variable Spectrum ECM I,4000,1332
 35941,,4000,1719
@@ -1441,7 +1445,7 @@ type_id,name,volume,group_id
 40361,,800,1652
 40519,Skill Extractor,0.01,1301
 40520,Large Skill Injector,0.01,1739
-40556,Templar II,1000,
+40556,Templar II,1000,1652
 40558,Firbolg II,1000,
 40559,Einherji II,,
 40560,Ametat II,2000,1653
@@ -1627,7 +1631,7 @@ type_id,name,volume,group_id
 47931,Mystic M,0.01,1989
 47932,,0.01,
 47934,,0.01,
-47975,,0.3,1996
+47975,Crystalline Isogen-10,0.3,1996
 48112,Zero-Point Condensate,0.2,1996
 48113,Agency 'Hardshell' TB9 Dose IV,,
 48115,Agency 'Pyrolancea' DB9 Dose IV,1,303
@@ -1728,6 +1732,7 @@ type_id,name,volume,group_id
 56139,Cataclysmic Electrical Filament,0.1,1979
 56140,Cataclysmic Dark Filament,,
 56141,Cataclysmic Exotic Filament,0.1,1979
+56143,,0.1,1979
 56201,Astrahus Upwell Quantum Core,500,4086
 56226,Men's Triglavian Survival Suit (Liminality),,
 56290,Unstable Capital Energy Nosferatu Mutaplasmid,,
@@ -1882,6 +1887,7 @@ type_id,name,volume,group_id
 79951,Machariel Luminae Polaris SKIN,,
 79954,Mamba Luminae Polaris SKIN,,
 81008,,20000,
+81040,,1300000,513
 81046,Deluge,20000,1202
 81047,Torrent,20000,380
 81050,Upwell Starship Engineering,0.01,270

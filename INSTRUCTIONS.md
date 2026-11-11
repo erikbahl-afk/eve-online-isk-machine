@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Wed 11 Nov 06:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Wed 11 Nov 08:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 29 · **Est. time:** 25 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -45,7 +45,7 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 10 | ☐ Infomorph Decryption Key | 3,642 | **4,082** | 3,491 | 4,083 |
+| 10 | ☐ Infomorph Decryption Key | 3,642 | **4,080** | 3,491 | 4,081 |
 
 #### Cancel buy orders
 _My Orders → Buying. Right-click → Cancel Order._
@@ -63,7 +63,7 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
 | 12 | ☐ Legion Scourge Auto-Targeting Cruise Missile | 1 | **3,214** | 2,393 | 3,215 |
-| 13 | ☐ Void XL | 2,434 | **4,686** | 3,289 | 4,687 |
+| 13 | ☐ Void XL | 2,434 | **4,685** | 3,289 | 4,686 |
 
 ## 14. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
 _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
@@ -77,12 +77,12 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 15 | ☐ Bifrost | 3 | **35,870,000** | 38,510,000 | 35,860,000 |
-| 16 | ☐ Compressed Arkonor IV-Grade | 24,092 | **3,601** | 3,800 | 3,600 |
-| 17 | ☐ Mercury | 35,447 | **2,872** | 3,012 | 2,871 |
-| 18 | ☐ Nano-Factory | 162 | **1,055,000** | 1,062,000 | 1,054,000 |
-| 19 | ☐ Quad Mega Pulse Laser II | 1 | **175,600,000** | 179,300,000 | 175,500,000 |
-| 20 | ☐ True Sansha Kinetic Armor Hardener | 2 | **11,880,000** | 16,830,000 | 11,870,000 |
+| 15 | ☐ Core B-Type Large Armor Repairer | 1 | **222,300,000** | 231,200,000 | 222,200,000 |
+| 16 | ☐ Explosive Armor Hardener II | 27 | **1,232,000** | 1,495,000 | 1,231,000 |
+| 17 | ☐ Orbweaver SW-300-I | 9 | **7,167,000** | 7,883,000 | 7,166,000 |
+| 18 | ☐ Polyaramids | 5,117 | **14,570** | 15,620 | 14,560 |
+| 19 | ☐ Triplot Scan Acquisition Array | 1 | **210,000,000** | 225,300,000 | 209,900,000 |
+| 20 | ☐ True Sansha Kinetic Armor Hardener | 2 | **12,140,000** | 16,840,000 | 12,130,000 |
 
 ### Block 2 · should do · about 6 min
 
@@ -91,12 +91,12 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 21 | ☐ Anathema | 4 | **15,820,000** | 17,220,000 | 15,810,000 |
-| 22 | ☐ Explosive Armor Hardener II | 26 | **1,232,000** | 1,494,000 | 1,231,000 |
-| 23 | ☐ Inherent Implants 'Lancer' Large Energy Turret LE-1005 | 1 | **100,200,000** | 105,300,000 | 100,100,000 |
-| 24 | ☐ Orbweaver SW-300-I | 9 | **7,159,000** | 7,883,000 | 7,158,000 |
-| 25 | ☐ Republic Fleet Medium Shield Extender | 12 | **11,630,000** | 11,760,000 | 11,620,000 |
-| 26 | ☐ Triplot Scan Acquisition Array | 1 | **209,800,000** | 225,200,000 | 209,700,000 |
+| 21 | ☐ Anathema | 4 | **15,830,000** | 17,200,000 | 15,820,000 |
+| 22 | ☐ Caldari Navy Hornet | 49 | **1,202,000** | 1,299,000 | 1,201,000 |
+| 23 | ☐ Crystalline Isogen-10 | 2,238 | **50,130** | 51,370 | 50,120 |
+| 24 | ☐ Inherent Implants 'Lancer' Large Energy Turret LE-1005 | 1 | **100,200,000** | 105,100,000 | 100,100,000 |
+| 25 | ☐ Siren II | 5 | **24,040,000** | 24,510,000 | 24,030,000 |
+| 26 | ☐ Templar II | 6 | **9,948,000** | 10,950,000 | 9,947,000 |
 
 ### Block 3 · if there's time · about 2 min
 
@@ -105,15 +105,15 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 27 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,639,000** | 3,711,000 | 3,638,000 |
+| 27 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,639,000** | 3,710,000 | 3,638,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 28 | ☐ Caldari Navy Hornet | 10 | **1,200,000** | 1,301,000 | 1,199,000 |
-| 29 | ☐ Shadow Serpentis Tracking Computer | 2 | **103,700,000** | 105,500,000 | 103,600,000 |
+| 28 | ☐ Capital Capacitor Booster II | 1 | **106,900,000** | 125,500,000 | 106,800,000 |
+| 29 | ☐ Guristas Brass Tag | 3 | **31,090,000** | 31,610,000 | 31,080,000 |
 
 ---
 Wallet 1.62B · escrow 140.91M · stock 3.13B · in transit 0.00 · net worth 4.88B (liquidation 2.46B)
