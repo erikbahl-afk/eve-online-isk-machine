@@ -162,7 +162,7 @@ type_id,name,volume,group_id
 3693,,0.75,1034
 3695,Polytextiles,0.75,1034
 3756,Gnosis,15000,419
-3775,Viral Agent,,
+3775,Viral Agent,0.75,1034
 3841,,20,38
 3893,Mining Connections,0.01,
 3894,Distribution Connections,0.01,278
@@ -230,7 +230,7 @@ type_id,name,volume,group_id
 10221,Cybernetic Subprocessor - Standard,,
 10222,Cybernetic Subprocessor - Improved,1,
 10225,Social Adaptation Chip - Standard,1,745
-10226,,1,
+10226,Social Adaptation Chip - Improved,1,745
 10228,Zainou 'Gnome' Shield Management SM-703,1,
 10244,,1,
 10842,,50,40
@@ -254,7 +254,7 @@ type_id,name,volume,group_id
 11377,Nemesis,2500,834
 11379,,2500,
 11381,,2500,
-11393,Retribution,2500,
+11393,Retribution,2500,324
 11399,Morphite,0.01,18
 11400,Jaguar,2500,324
 11433,High Energy Physics,0.01,
@@ -271,7 +271,7 @@ type_id,name,volume,group_id
 11539,Nanoelectrical Microprocessor,1,334
 11540,Quantum Microprocessor,1,334
 11541,Photon Microprocessor,1,334
-11542,,1,334
+11542,Fernite Carbide Composite Armor Plate,1,334
 11543,,1,
 11547,Fusion Reactor Unit,1,334
 11548,Nuclear Reactor Unit,1,
@@ -405,7 +405,7 @@ type_id,name,volume,group_id
 13926,Dread Guristas Light Missile Launcher,5,509
 13927,,20,506
 13933,Dread Guristas Rocket Launcher,5,
-13935,Domination Ballistic Control System,5,
+13935,Domination Ballistic Control System,5,367
 13937,Dread Guristas Ballistic Control System,5,367
 13939,Domination Gyrostabilizer,,
 13943,True Sansha Heat Sink,5,
@@ -780,6 +780,7 @@ type_id,name,volume,group_id
 19685,Inherent Implants 'Noble' Repair Proficiency RP-905,1,
 19686,Eifyr and Co. 'Gunslinger' Motion Prediction MR-705,1,
 19687,Eifyr and Co. 'Gunslinger' Surgical Strike SS-905,1,742
+19694,Inherent Implants 'Lancer' Large Energy Turret LE-1005,1,742
 19698,Zainou 'Deadeye' Large Hybrid Turret LH-1005,1,
 19719,Transport Ships,,
 19739,Cruise Missile Launcher II,20,506
@@ -1558,7 +1559,7 @@ type_id,name,volume,group_id
 46356,Ubiquitous Moon Mining Crystal Type A II,10,482
 46375,Daily Alpha Injector,0.01,1739
 46633,Standup M-Set Asteroid Ore Grading Processor I,10,
-47028,Neural Lace 'Blackglass' Net Intrusion 920-40,1,
+47028,Neural Lace 'Blackglass' Net Intrusion 920-40,1,1230
 47029,Rattlesnake King's Ransom Luecin SKIN,,
 47037,Standup Siren I,,
 47133,Standup Dromi I,,
@@ -1717,7 +1718,7 @@ type_id,name,volume,group_id
 56139,Cataclysmic Electrical Filament,0.1,1979
 56140,Cataclysmic Dark Filament,,
 56141,Cataclysmic Exotic Filament,0.1,1979
-56201,Astrahus Upwell Quantum Core,500,
+56201,Astrahus Upwell Quantum Core,500,4086
 56226,Men's Triglavian Survival Suit (Liminality),,
 56290,Unstable Capital Energy Nosferatu Mutaplasmid,,
 56701,Mobile Sanguine Harvester,100,1250
@@ -1897,6 +1898,7 @@ type_id,name,volume,group_id
 85179,Overseer Sabik Vial,,
 85390,Armor Mutaplasmid Residue,0.01,
 85392,Damage Control Mutaplasmid Residue,0.01,1996
+85393,,0.01,1996
 85400,X-Large Mutaplasmid Residue,,
 85662,Glorified Unstable Gyrostabilizer Mutaplasmid,1,1964
 85668,Glorified Unstable Magnetic Field Stabilizer Mutaplasmid,,

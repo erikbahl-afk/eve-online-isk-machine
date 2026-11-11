@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Tue 10 Nov 22:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 26 · **Est. time:** 22 min. Work top to bottom; stop any time.  
+**Updated:** Wed 11 Nov 00:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 29 · **Est. time:** 25 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -63,37 +63,40 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
 | 12 | ☐ Legion Scourge Auto-Targeting Cruise Missile | 1 | **3,214** | 2,393 | 3,215 |
-| 13 | ☐ Void XL | 2,434 | **4,689** | 3,289 | 4,690 |
+| 13 | ☐ Void XL | 2,434 | **4,688** | 3,289 | 4,689 |
 
 ## 14. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
 _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
 
 ## At Jita IV - Moon 4 - Caldari Navy Assembly Plant
 
-### Block 1 · must do · about 5 min
+### Block 1 · must do · about 6 min
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 15 | ☐ Anathema | 4 | **15,820,000** | 17,230,000 | 15,810,000 |
-| 16 | ☐ Dark Blood Stasis Webifier | 1 | **103,400,000** | 109,800,000 | 103,300,000 |
-| 17 | ☐ Orbweaver SW-300-I | 9 | **7,146,000** | 7,889,000 | 7,145,000 |
-| 18 | ☐ Shadow Serpentis Tracking Computer | 2 | **103,100,000** | 105,700,000 | 103,000,000 |
-| 19 | ☐ Unstable Stasis Webifier Mutaplasmid | 2 | **112,600,000** | 113,800,000 | 112,500,000 |
+| 15 | ☐ Compressed Arkonor IV-Grade | 25,061 | **3,601** | 3,800 | 3,600 |
+| 16 | ☐ Dark Blood Stasis Webifier | 1 | **103,400,000** | 109,600,000 | 103,300,000 |
+| 17 | ☐ Guristas Brass Tag | 5 | **31,090,000** | 31,600,000 | 31,080,000 |
+| 18 | ☐ Large Moon Ore Compressor I | 2 | **67,290,000** | 70,630,000 | 67,280,000 |
+| 19 | ☐ Orbweaver SW-300-I | 9 | **7,149,000** | 7,887,000 | 7,148,000 |
+| 20 | ☐ Republic Fleet Medium Shield Extender | 12 | **11,610,000** | 11,820,000 | 11,600,000 |
 
-### Block 2 · should do · about 4 min
+### Block 2 · should do · about 6 min
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 20 | ☐ Medium Energy Neutralizer II | 18 | **2,072,000** | 2,424,000 | 2,071,000 |
-| 21 | ☐ Mercury | 25,462 | **2,864** | 3,020 | 2,863 |
-| 22 | ☐ Quad Mega Pulse Laser II | 1 | **175,600,000** | 178,900,000 | 175,500,000 |
-| 23 | ☐ Triplot Scan Acquisition Array | 1 | **209,500,000** | 220,900,000 | 209,400,000 |
+| 21 | ☐ Anathema | 4 | **15,820,000** | 17,250,000 | 15,810,000 |
+| 22 | ☐ Inherent Implants 'Lancer' Large Energy Turret LE-1005 | 1 | **100,200,000** | 105,300,000 | 100,100,000 |
+| 23 | ☐ Quad Mega Pulse Laser II | 1 | **175,600,000** | 179,600,000 | 175,500,000 |
+| 24 | ☐ Retribution | 1 | **21,020,000** | 22,960,000 | 21,010,000 |
+| 25 | ☐ Shadow Serpentis Tracking Computer | 2 | **103,100,000** | 105,700,000 | 103,000,000 |
+| 26 | ☐ Unstable Stasis Webifier Mutaplasmid | 2 | **113,000,000** | 114,200,000 | 112,900,000 |
 
 ### Block 3 · if there's time · about 2 min
 
@@ -102,15 +105,15 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 24 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,634,000** | 3,703,000 | 3,633,000 |
+| 27 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,639,000** | 3,712,000 | 3,638,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 25 | ☐ Ashimmu | 1 | **225,600,000** | 227,700,000 | 225,500,000 |
-| 26 | ☐ Zainou 'Beancounter' Science SC-805 | 1 | **112,900,000** | 140,100,000 | 112,800,000 |
+| 28 | ☐ Medium Energy Neutralizer II | 7 | **2,073,000** | 2,422,000 | 2,072,000 |
+| 29 | ☐ Mercury | 721 | **2,868** | 3,019 | 2,867 |
 
 ---
 Wallet 1.62B · escrow 140.91M · stock 3.13B · in transit 0.00 · net worth 4.88B (liquidation 2.46B)

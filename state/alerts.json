@@ -12,6 +12,18 @@
   "text": "Typhoon Fleet Issue Capsuleer Elite XX SKIN is 8.6% of net worth (418.51M)."
  },
  {
+  "key": "stale_stock:amarr:27465",
+  "severity": "medium",
+  "since": 1794384023.2951431,
+  "text": "1 \u00d7 Legion Scourge Auto-Targeting Cruise Missile unsold in the amarr hangar for 7 days."
+ },
+ {
+  "key": "stale_stock:amarr:41322",
+  "severity": "medium",
+  "since": 1794384023.2951431,
+  "text": "2,434 \u00d7 Void XL unsold in the amarr hangar for 7 days."
+ },
+ {
   "key": "stale_stock:amarr:85746",
   "severity": "medium",
   "since": 1794182424.367624,
@@ -27,6 +39,6 @@
   "key": "idle_buy:6",
   "severity": "info",
   "since": 1793915372.8054109,
-  "text": "Buy order for Tetryon Exotic Plasma XL in amarr hasn't filled at all in 10 days (98.99M tied up)."
+  "text": "Buy order for Tetryon Exotic Plasma XL in amarr hasn't filled at all in 11 days (98.99M tied up)."
  }
 ]
