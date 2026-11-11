@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Wed 11 Nov 10:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Wed 11 Nov 12:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 29 · **Est. time:** 25 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -77,12 +77,12 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 15 | ☐ Bifrost | 3 | **35,970,000** | 38,490,000 | 35,960,000 |
-| 16 | ☐ Core B-Type Large Armor Repairer | 1 | **222,300,000** | 231,200,000 | 222,200,000 |
-| 17 | ☐ Guristas Brass Tag | 5 | **31,120,000** | 31,610,000 | 31,110,000 |
-| 18 | ☐ Hecate | 3 | **63,010,000** | 64,390,000 | 63,000,000 |
-| 19 | ☐ Low-grade Crystal Gamma | 2 | **57,080,000** | 61,960,000 | 57,070,000 |
-| 20 | ☐ True Sansha Kinetic Armor Hardener | 2 | **12,200,000** | 16,840,000 | 12,190,000 |
+| 15 | ☐ Capital Compact Pb-Acid Cap Battery | 2 | **9,475,000** | 14,670,000 | 9,474,000 |
+| 16 | ☐ Hecate | 2 | **62,070,000** | 64,390,000 | 62,060,000 |
+| 17 | ☐ Large Moon Ore Compressor I | 2 | **67,290,000** | 70,590,000 | 67,280,000 |
+| 18 | ☐ Monitor | 1 | **355,900,000** | 374,600,000 | 355,800,000 |
+| 19 | ☐ Poteque 'Prospector' Astrometric Rangefinding AR-810 | 1 | **161,100,000** | 175,600,000 | 161,000,000 |
+| 20 | ☐ Zainou 'Gnome' Shield Operation SP-905 | 1 | **90,150,000** | 106,800,000 | 90,140,000 |
 
 ### Block 2 · should do · about 6 min
 
@@ -91,12 +91,12 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 21 | ☐ Explosive Armor Hardener II | 27 | **1,234,000** | 1,495,000 | 1,233,000 |
-| 22 | ☐ Imperial Navy Small Focused Beam Laser | 1 | **26,550,000** | 35,340,000 | 26,540,000 |
-| 23 | ☐ Inherent Implants 'Lancer' Large Energy Turret LE-1005 | 1 | **100,200,000** | 105,100,000 | 100,100,000 |
-| 24 | ☐ Mercury | 33,403 | **2,874** | 3,006 | 2,873 |
-| 25 | ☐ Polyaramids | 5,090 | **14,570** | 15,620 | 14,560 |
-| 26 | ☐ Triplot Scan Acquisition Array | 1 | **210,500,000** | 226,700,000 | 210,400,000 |
+| 21 | ☐ CONCORD Capital Remote Shield Booster | 1 | **237,500,000** | 246,300,000 | 237,400,000 |
+| 22 | ☐ Guristas Brass Tag | 5 | **31,110,000** | 31,600,000 | 31,100,000 |
+| 23 | ☐ Low-grade Crystal Gamma | 2 | **57,080,000** | 61,960,000 | 57,070,000 |
+| 24 | ☐ Metamorphosis | 1 | **48,160,000** | 49,570,000 | 48,150,000 |
+| 25 | ☐ Polyaramids | 41 | **14,590** | 15,600 | 14,580 |
+| 26 | ☐ Republic Fleet Commander Insignia II | 30 | **962,300** | 1,059,000 | 962,200 |
 
 ### Block 3 · if there's time · about 2 min
 
@@ -105,15 +105,15 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 27 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,639,000** | 3,711,000 | 3,638,000 |
+| 27 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,534,000** | 3,534,000 | 3,640,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 28 | ☐ Mobile Sanguine Harvester | 4 | **4,125,000** | 6,188,000 | 4,124,000 |
-| 29 | ☐ Siren II | 5 | **24,040,000** | 24,510,000 | 24,030,000 |
+| 28 | ☐ Imperial Navy Small Focused Beam Laser | 1 | **26,550,000** | 35,340,000 | 26,540,000 |
+| 29 | ☐ Mercury | 2 | **2,877** | 2,999 | 2,876 |
 
 ---
 Wallet 1.62B · escrow 140.91M · stock 3.13B · in transit 0.00 · net worth 4.88B (liquidation 2.46B)

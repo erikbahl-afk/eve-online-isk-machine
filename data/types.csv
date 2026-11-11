@@ -150,13 +150,14 @@ type_id,name,volume,group_id
 3257,Inherent Implants 'Squire' Power Grid Management EG-604,1,741
 3265,Zainou 'Gypsy' CPU Management EE-602,1,
 3475,Inherent Implants 'Noble' Mechanic MC-806,1,738
-3482,,1,738
+3482,Inherent Implants 'Noble' Hull Upgrades HG-1006,1,738
 3488,,5,
 3520,,10,53
 3534,CONCORD Capital Armor Repairer,1000,62
 3536,,1000,325
 3540,Large Armor Repairer II,50,62
 3542,CONCORD Capital Shield Booster,1000,
+3544,CONCORD Capital Remote Shield Booster,1000,41
 3568,Small Capacitor Booster II,5,76
 3616,Capital Remote Shield Booster I,1000,41
 3645,Water,0.19,1042
@@ -543,6 +544,7 @@ type_id,name,volume,group_id
 15895,Federation Navy Magnetic Field Stabilizer,5,302
 15897,Caldari Navy X-Large Shield Booster,50,
 15898,Caldari Navy Small Shield Booster,5,
+15900,Caldari Navy Large Shield Booster,,
 15902,Republic Fleet Small Shield Booster,5,40
 15905,,5,
 15907,Republic Fleet Shield Boost Amplifier,5,338
@@ -1055,7 +1057,7 @@ type_id,name,volume,group_id
 27188,Poteque 'Prospector' Astrometric Rangefinding AR-806,1,1230
 27190,Poteque 'Prospector' Astrometric Pinpointing AP-610,,
 27192,Poteque 'Prospector' Astrometric Acquisition AQ-710,1,1230
-27194,,1,1230
+27194,Poteque 'Prospector' Astrometric Rangefinding AR-810,1,1230
 27196,,1,
 27238,Eifyr and Co. 'Alchemist' Gas Harvesting GH-803,1,1229
 27239,Eifyr and Co. 'Alchemist' Gas Harvesting GH-805,1,1229
@@ -1492,6 +1494,7 @@ type_id,name,volume,group_id
 41415,,1000,407
 41463,Capital I-ax Enduring Remote Armor Repairer,,
 41469,Capital Asymmetric Enduring Remote Shield Booster,,
+41485,Capital Compact Pb-Acid Cap Battery,1000,61
 41486,,1000,
 41489,,128,
 41490,Navy Cap Booster 3200,96,87
@@ -1540,7 +1543,7 @@ type_id,name,volume,group_id
 45587,Legion Defensive - Augmented Plating,40,
 45588,Legion Defensive - Nanobot Injector,40,
 45589,Tengu Defensive - Covert Reconfiguration,40,
-45591,,40,954
+45591,Tengu Defensive - Amplification Node,40,954
 45592,,40,954
 45595,Loki Defensive - Covert Reconfiguration,40,954
 45601,Tengu Offensive - Accelerated Ejection Bay,40,956
@@ -1636,7 +1639,7 @@ type_id,name,volume,group_id
 47928,,0.01,
 47931,Mystic M,0.01,1989
 47932,,0.01,
-47934,,0.01,
+47934,,0.01,1989
 47975,Crystalline Isogen-10,0.3,1996
 48112,Zero-Point Condensate,0.2,1996
 48113,Agency 'Hardshell' TB9 Dose IV,,
