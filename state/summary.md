@@ -1,4 +1,4 @@
-# Summary · Tue 10 Nov 17:56 PST
+# Summary · Tue 10 Nov 18:00 PST
 
 Updated every ~2 hours. **Your real character** is the first section; everything after it is the **practice trader** (pretend ISK, real market data). Each section starts with a line on how to read it.
 
@@ -28,7 +28,7 @@ _The paper trader started with 5.00B on 28 Oct. Net worth counts stock at what w
 - **Where the ISK is:** cash 1.62B · locked in buy orders 140.91M · stock 3.13B · on a courier 0.00
 - **Profit so far (realized):** -117.51M. That's completed sales minus every fee paid. Fees: broker 114.45M, relist 6.36M, sales tax 855.36k, courier 138.00M
 - **Location:** amarr · import hub amarr · shipments on the way 0
-- **What's limiting profit** (near 100% = the bottleneck): order slots 16/113 · ISK in use 67% · your time last plan 23 of 25 min
+- **What's limiting profit** (near 100% = the bottleneck): order slots 16/113 · ISK in use 67% · your time last plan 22 of 25 min
 
 ## 3. Results by strategy
 _station = buy and sell in the same hub · import = buy in Jita, ship, sell elsewhere · spec = bets ahead of patches. Realized stays at 0 until items actually sell._
@@ -86,25 +86,24 @@ _Market size = ISK spent per day buying from sell orders in that station. Items 
 
 | Hub | Market size/day | Station items | Station profit/day | Import items | Import profit/day |
 |---|---|---|---|---|---|
-| jita | 5.50T | 10 | 18.31M | - | - |
-| amarr | 508.68B | 3 | 2.70M | 34 | 73.67M |
-| dodixie | 153.67B | 0 | - | 36 | 86.78M |
-| rens | 33.31B | 0 | - | 6 | 19.24M |
-| hek | 63.97B | 1 | 1.48M | 19 | 49.36M |
+| jita | 5.50T | 9 | 17.29M | - | - |
+| amarr | 508.58B | 3 | 2.66M | 33 | 72.83M |
+| dodixie | 153.59B | 0 | - | 36 | 86.78M |
+| rens | 33.31B | 0 | - | 6 | 19.28M |
+| hek | 63.94B | 1 | 1.48M | 19 | 49.35M |
 
 ## 8. Best items to trade inside Jita
 _Buy at the highest buy price + 1 tick, sell at the lowest sell price − 1 tick. Margin is after all fees. On top = how much of the time between your logins our order would stay the best price before a rival undercuts it (sell side / buy side). Limited by = which resource it eats most: order slots, ISK, or your time._
 
 | Item | Buy → sell price | Margin | Sold per day | On top (sell/buy) | Profit/day | Limited by |
 |---|---|---|---|---|---|---|
+| Quad Mega Pulse Laser II | 175.50M → 202.30M | 8.2% | 0.2 | 20% / 15% | 2.21M | time |
 | Mid-grade Crystal Beta | 25.67M → 29.69M | 8.5% | 1.0 | 12% / 41% | 2.02M | time |
-| Large Armor Repairer II | 1.85M → 2.52M | 28.4% | 4.3 | 5% / 11% | 2.15M | time |
+| Large Armor Repairer II | 1.85M → 2.52M | 28.4% | 4.3 | 6% / 11% | 2.15M | time |
 | Zainou 'Beancounter' Science SC-805 | 112.60M → 158.60M | 32.5% | 0.1 | 5% / 13% | 2.13M | time |
-| Medium Energy Neutralizer II | 2.07M → 2.74M | 24.6% | 4.4 | 5% / 7% | 2.15M | time |
-| Triplot Scan Acquisition Array | 209.50M → 247.90M | 11.1% | 0.1 | 5% / 15% | 2.04M | time |
+| Medium Energy Neutralizer II | 2.07M → 2.74M | 24.5% | 4.4 | 4% / 7% | 2.15M | time |
 | Unstable Modulated Strip Miner Mutaplasmid | 59.81M → 71.34M | 12.0% | 0.3 | 1% / 3% | 2.11M | time |
 | Unstable Stasis Webifier Mutaplasmid | 112.10M → 128.20M | 7.3% | 0.3 | 1% / 3% | 2.10M | time |
-| Quad Mega Pulse Laser II | 175.50M → 202.30M | 8.2% | 0.1 | 20% / 15% | 1.19M | time |
 | Compressed Malachite Mykoserocin | 75.80k → 87.54k | 8.4% | 215.4 | 14% / 10% | 1.23M | time |
 | Protective Equipment Patterns | 25.07M → 35.46M | 33.0% | 0.1 | 5% / 9% | 1.19M | time |
 
@@ -114,15 +113,15 @@ _Buy from Jita sellers, ship by courier, sell just under the cheapest seller the
 | Item | Jita price → sell price | m³ | Margin | Sold per day | On top | Profit/day | Limited by |
 |---|---|---|---|---|---|---|---|
 | ORE Mining Director Mindlink | 558.90M → 689.40M | 1.0 | 12.7% | 0.1 | 42% | 6.84M | ISK |
-| Antikythera Element | 649.80k → 899.90k | 0.1 | 27.1% | 22.4 | 25% | 3.91M | time |
+| Antikythera Element | 649.50k → 899.90k | 0.1 | 27.2% | 22.4 | 25% | 3.92M | time |
 | Federation Navy Drone Navigation Computer | 90.19M → 112.90M | 25.0 | 14.5% | 0.2 | 58% | 3.11M | time |
 | Dread Guristas Multispectrum Shield Hardener | 219.30M → 264.20M | 5.0 | 10.0% | 0.2 | 18% | 3.42M | ISK |
-| Caesium | 5.40k → 6.64k | 0.1 | 12.4% | 4445.6 | 66% | 2.94M | time |
+| Caesium | 5.40k → 6.64k | 0.1 | 12.4% | 4443.2 | 66% | 2.94M | time |
 | Absolution | 302.50M → 371.90M | 15,000.0 | 11.5% | 0.1 | 16% | 3.06M | time |
 | ORE Miner | 151.40M → 185.90M | 5.0 | 12.2% | 0.2 | 14% | 3.07M | time |
 | Core X-Type Large Armor Repairer | 335.40M → 408.50M | 50.0 | 11.3% | 0.1 | 13% | 3.45M | ISK |
+| Proteus Offensive - Hybrid Encoding Platform | 34.27M → 42.53M | 40.0 | 13.5% | 0.5 | 45% | 2.27M | time |
 | Thermosetting Polymer | 1.05k → 1.59k | 0.2 | 22.3% | 8557.2 | 84% | 2.00M | time |
-| Quafe Zero Green Apple | 8.76M → 11.37M | 1.0 | 18.9% | 1.4 | 36% | 2.26M | time |
 | Zero-Point Mass Entangler | 7.83M → 9.75M | 50.0 | 14.0% | 2.2 | 19% | 2.31M | time |
 | Mobile Medium Warp Disruptor II | 9.88M → 14.27M | 195.0 | 32.8% | 0.6 | 56% | 2.04M | time |
 
@@ -147,10 +146,10 @@ _Is the market data flowing? Orders = orders seen in the station · Hours today 
 
 | Hub | Orders | Hours today | Trades seen | Note |
 |---|---|---|---|---|
-| jita | 328,535 | 3.9 | 2,603 |  |
-| amarr | 125,183 | 3.9 | 502 |  |
-| dodixie | 66,312 | 3.9 | 489 |  |
-| rens | 31,653 | 3.9 | 96 |  |
-| hek | 40,437 | 3.9 | 203 |  |
+| jita | 328,595 | 4.0 | 470 |  |
+| amarr | 125,270 | 4.0 | 182 |  |
+| dodixie | 66,306 | 4.0 | 85 |  |
+| rens | 31,657 | 4.0 | 17 |  |
+| hek | 40,438 | 4.0 | 4 |  |
 
-_This run took 29 s (market data 15 s, stats and character 1 s, experiments 11 s, main portfolio 1 s, cornering scan 0 s, ESI back-off 0 s; 1,122 ESI calls). A slow run usually means ESI rate limits (back-off) or a first-time lookup of many item types._
+_This run took 33 s (market data 19 s, stats and character 1 s, experiments 11 s, main portfolio 1 s, cornering scan 0 s, ESI back-off 0 s; 1,118 ESI calls). A slow run usually means ESI rate limits (back-off) or a first-time lookup of many item types._

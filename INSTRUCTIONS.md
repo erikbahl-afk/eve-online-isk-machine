@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Tue 10 Nov 17:56 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 26 · **Est. time:** 23 min. Work top to bottom; stop any time.  
+**Updated:** Tue 10 Nov 18:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 25 · **Est. time:** 22 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -78,7 +78,7 @@ _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Ne
 
 ## At Jita IV - Moon 4 - Caldari Navy Assembly Plant
 
-### Block 1 · must do · about 5 min
+### Block 1 · must do · about 4 min
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
@@ -86,23 +86,23 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 16 | ☐ Large Armor Repairer II | 18 | **1,846,000** | 2,228,000 | 1,845,000 |
-| 17 | ☐ Medium Energy Neutralizer II | 18 | **2,070,000** | 2,425,000 | 2,069,000 |
-| 18 | ☐ Unstable Modulated Strip Miner Mutaplasmid | 2 | **59,810,000** | 63,070,000 | 59,800,000 |
-| 19 | ☐ Unstable Stasis Webifier Mutaplasmid | 2 | **112,100,000** | 113,300,000 | 112,000,000 |
-| 20 | ☐ Zainou 'Beancounter' Science SC-805 | 1 | **112,600,000** | 140,200,000 | 112,500,000 |
+| 17 | ☐ Medium Energy Neutralizer II | 18 | **2,070,000** | 2,424,000 | 2,069,000 |
+| 18 | ☐ Quad Mega Pulse Laser II | 1 | **175,500,000** | 178,800,000 | 175,400,000 |
+| 19 | ☐ Zainou 'Beancounter' Science SC-805 | 1 | **112,600,000** | 140,200,000 | 112,500,000 |
 
-### Block 2 · should do · about 3 min
+### Block 2 · should do · about 4 min
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 21 | ☐ Compressed Malachite Mykoserocin | 862 | **75,800** | 77,390 | 75,790 |
-| 22 | ☐ Mid-grade Crystal Beta | 5 | **25,670,000** | 26,250,000 | 25,660,000 |
-| 23 | ☐ Triplot Scan Acquisition Array | 1 | **209,500,000** | 219,100,000 | 209,400,000 |
+| 20 | ☐ Compressed Malachite Mykoserocin | 862 | **75,800** | 77,390 | 75,790 |
+| 21 | ☐ Mid-grade Crystal Beta | 5 | **25,670,000** | 26,250,000 | 25,660,000 |
+| 22 | ☐ Unstable Modulated Strip Miner Mutaplasmid | 2 | **59,810,000** | 63,070,000 | 59,800,000 |
+| 23 | ☐ Unstable Stasis Webifier Mutaplasmid | 2 | **112,100,000** | 113,300,000 | 112,000,000 |
 
-### Block 3 · if there's time · about 2 min
+### Block 3 · if there's time · about 1 min
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
@@ -117,7 +117,6 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 25 | ☐ Protective Equipment Patterns | 1 | **25,070,000** | 31,350,000 | 25,060,000 |
-| 26 | ☐ Quad Mega Pulse Laser II | 1 | **175,500,000** | 178,800,000 | 175,400,000 |
 
 ---
 Wallet 1.62B · escrow 140.91M · stock 3.13B · in transit 0.00 · net worth 4.88B (liquidation 2.46B)
