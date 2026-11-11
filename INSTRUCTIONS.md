@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Tue 10 Nov 17:29 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Tue 10 Nov 17:56 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 26 · **Est. time:** 23 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -59,7 +59,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 11 | ☐ Proteus | 1 | **199,100,000** | 222,500,000 | 199,000,000 |
+| 11 | ☐ Proteus | 1 | **199,100,000** | 222,400,000 | 199,000,000 |
 | 12 | ☐ True Sansha Reactor Control Unit | 1 | **6,262,000** | 10,330,000 | 6,261,000 |
 
 ### Block 3 · if there's time · about 2 min
@@ -71,7 +71,7 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
 | 13 | ☐ Legion Scourge Auto-Targeting Cruise Missile | 1 | **3,214** | 2,393 | 3,215 |
-| 14 | ☐ Void XL | 2,434 | **4,693** | 3,289 | 4,694 |
+| 14 | ☐ Void XL | 2,434 | **4,692** | 3,289 | 4,693 |
 
 ## 15. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
 _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
@@ -85,11 +85,11 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 16 | ☐ Large Armor Repairer II | 17 | **1,846,000** | 2,225,000 | 1,845,000 |
-| 17 | ☐ Medium Energy Neutralizer II | 19 | **2,068,000** | 2,424,000 | 2,067,000 |
-| 18 | ☐ Memory Augmentation - Standard | 8 | **17,660,000** | 17,880,000 | 17,650,000 |
-| 19 | ☐ Quad Mega Pulse Laser II | 1 | **175,500,000** | 178,800,000 | 175,400,000 |
-| 20 | ☐ Zainou 'Beancounter' Science SC-805 | 1 | **112,600,000** | 140,400,000 | 112,500,000 |
+| 16 | ☐ Large Armor Repairer II | 18 | **1,846,000** | 2,228,000 | 1,845,000 |
+| 17 | ☐ Medium Energy Neutralizer II | 18 | **2,070,000** | 2,425,000 | 2,069,000 |
+| 18 | ☐ Unstable Modulated Strip Miner Mutaplasmid | 2 | **59,810,000** | 63,070,000 | 59,800,000 |
+| 19 | ☐ Unstable Stasis Webifier Mutaplasmid | 2 | **112,100,000** | 113,300,000 | 112,000,000 |
+| 20 | ☐ Zainou 'Beancounter' Science SC-805 | 1 | **112,600,000** | 140,200,000 | 112,500,000 |
 
 ### Block 2 · should do · about 3 min
 
@@ -98,9 +98,9 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 21 | ☐ Mid-grade Crystal Beta | 5 | **25,670,000** | 26,250,000 | 25,660,000 |
-| 22 | ☐ Triplot Scan Acquisition Array | 1 | **209,500,000** | 219,000,000 | 209,400,000 |
-| 23 | ☐ Unstable Modulated Strip Miner Mutaplasmid | 2 | **59,810,000** | 63,070,000 | 59,800,000 |
+| 21 | ☐ Compressed Malachite Mykoserocin | 862 | **75,800** | 77,390 | 75,790 |
+| 22 | ☐ Mid-grade Crystal Beta | 5 | **25,670,000** | 26,250,000 | 25,660,000 |
+| 23 | ☐ Triplot Scan Acquisition Array | 1 | **209,500,000** | 219,100,000 | 209,400,000 |
 
 ### Block 3 · if there's time · about 2 min
 
@@ -116,8 +116,8 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 25 | ☐ Compressed Malachite Mykoserocin | 862 | **75,800** | 77,390 | 75,790 |
-| 26 | ☐ Protective Equipment Patterns | 1 | **25,070,000** | 31,350,000 | 25,060,000 |
+| 25 | ☐ Protective Equipment Patterns | 1 | **25,070,000** | 31,350,000 | 25,060,000 |
+| 26 | ☐ Quad Mega Pulse Laser II | 1 | **175,500,000** | 178,800,000 | 175,400,000 |
 
 ---
 Wallet 1.62B · escrow 140.91M · stock 3.13B · in transit 0.00 · net worth 4.88B (liquidation 2.46B)
