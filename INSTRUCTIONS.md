@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Wed 11 Nov 08:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Wed 11 Nov 09:28 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 29 · **Est. time:** 25 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -62,8 +62,8 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 12 | ☐ Legion Scourge Auto-Targeting Cruise Missile | 1 | **3,214** | 2,393 | 3,215 |
-| 13 | ☐ Void XL | 2,434 | **4,685** | 3,289 | 4,686 |
+| 12 | ☐ Legion Scourge Auto-Targeting Cruise Missile | 1 | **3,213** | 2,393 | 3,214 |
+| 13 | ☐ Void XL | 2,434 | **4,683** | 3,289 | 4,684 |
 
 ## 14. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
 _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
@@ -77,12 +77,12 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 15 | ☐ Core B-Type Large Armor Repairer | 1 | **222,300,000** | 231,200,000 | 222,200,000 |
-| 16 | ☐ Explosive Armor Hardener II | 27 | **1,232,000** | 1,495,000 | 1,231,000 |
-| 17 | ☐ Orbweaver SW-300-I | 9 | **7,167,000** | 7,883,000 | 7,166,000 |
-| 18 | ☐ Polyaramids | 5,117 | **14,570** | 15,620 | 14,560 |
-| 19 | ☐ Triplot Scan Acquisition Array | 1 | **210,000,000** | 225,300,000 | 209,900,000 |
-| 20 | ☐ True Sansha Kinetic Armor Hardener | 2 | **12,140,000** | 16,840,000 | 12,130,000 |
+| 15 | ☐ Bifrost | 3 | **35,950,000** | 38,490,000 | 35,940,000 |
+| 16 | ☐ Core B-Type Large Armor Repairer | 1 | **222,300,000** | 231,200,000 | 222,200,000 |
+| 17 | ☐ Hecate | 3 | **63,010,000** | 64,330,000 | 63,000,000 |
+| 18 | ☐ Mercury | 33,970 | **2,874** | 3,006 | 2,873 |
+| 19 | ☐ Nano-Factory | 170 | **1,044,000** | 1,048,000 | 1,043,000 |
+| 20 | ☐ True Sansha Kinetic Armor Hardener | 2 | **12,190,000** | 16,840,000 | 12,180,000 |
 
 ### Block 2 · should do · about 6 min
 
@@ -91,12 +91,12 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 21 | ☐ Anathema | 4 | **15,830,000** | 17,200,000 | 15,820,000 |
-| 22 | ☐ Caldari Navy Hornet | 49 | **1,202,000** | 1,299,000 | 1,201,000 |
-| 23 | ☐ Crystalline Isogen-10 | 2,238 | **50,130** | 51,370 | 50,120 |
-| 24 | ☐ Inherent Implants 'Lancer' Large Energy Turret LE-1005 | 1 | **100,200,000** | 105,100,000 | 100,100,000 |
-| 25 | ☐ Siren II | 5 | **24,040,000** | 24,510,000 | 24,030,000 |
-| 26 | ☐ Templar II | 6 | **9,948,000** | 10,950,000 | 9,947,000 |
+| 21 | ☐ Explosive Armor Hardener II | 27 | **1,234,000** | 1,495,000 | 1,233,000 |
+| 22 | ☐ Imperial Navy Small Focused Beam Laser | 1 | **26,550,000** | 35,340,000 | 26,540,000 |
+| 23 | ☐ Inherent Implants 'Lancer' Large Energy Turret LE-1005 | 1 | **100,200,000** | 105,100,000 | 100,100,000 |
+| 24 | ☐ Polyaramids | 5,097 | **14,570** | 15,620 | 14,560 |
+| 25 | ☐ SCARAB Breacher Pod M | 649 | **100,100** | 108,600 | 100,000 |
+| 26 | ☐ Triplot Scan Acquisition Array | 1 | **210,200,000** | 226,700,000 | 210,100,000 |
 
 ### Block 3 · if there's time · about 2 min
 
@@ -112,8 +112,8 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 28 | ☐ Capital Capacitor Booster II | 1 | **106,900,000** | 125,500,000 | 106,800,000 |
-| 29 | ☐ Guristas Brass Tag | 3 | **31,090,000** | 31,610,000 | 31,080,000 |
+| 28 | ☐ Mobile Sanguine Harvester | 4 | **4,125,000** | 6,188,000 | 4,124,000 |
+| 29 | ☐ Siren II | 5 | **24,040,000** | 24,510,000 | 24,030,000 |
 
 ---
 Wallet 1.62B · escrow 140.91M · stock 3.13B · in transit 0.00 · net worth 4.88B (liquidation 2.46B)

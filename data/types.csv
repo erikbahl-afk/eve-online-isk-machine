@@ -416,7 +416,7 @@ type_id,name,volume,group_id
 13945,,5,
 13947,,25,
 13949,,10,
-13951,Dread Guristas Small Shield Booster,5,
+13951,Dread Guristas Small Shield Booster,5,40
 13953,Dread Guristas X-Large Shield Booster,50,
 13954,,50,
 13956,True Sansha Large Armor Repairer,50,62
@@ -1053,6 +1053,7 @@ type_id,name,volume,group_id
 27188,Poteque 'Prospector' Astrometric Rangefinding AR-806,1,1230
 27190,Poteque 'Prospector' Astrometric Pinpointing AP-610,,
 27192,Poteque 'Prospector' Astrometric Acquisition AQ-710,1,1230
+27194,,1,1230
 27196,,1,
 27238,Eifyr and Co. 'Alchemist' Gas Harvesting GH-803,1,1229
 27239,Eifyr and Co. 'Alchemist' Gas Harvesting GH-805,1,1229
@@ -1086,6 +1087,7 @@ type_id,name,volume,group_id
 27489,Legion Scourge Auto-Targeting Heavy Missile,0.03,
 27507,Legion Mjolnir Auto-Targeting Light Missile,0.015,394
 27916,,75,
+27918,Shrapnel Bomb,75,90
 27920,Electron Bomb,75,90
 27922,Lockbreaker Bomb,,
 27924,,75,
@@ -1113,7 +1115,7 @@ type_id,name,volume,group_id
 28363,Drone Cerebral Fragment,0.03,886
 28364,,0.07,886
 28375,,10,
-28377,Caldari Navy Heavy Assault Missile Launcher,10,
+28377,Caldari Navy Heavy Assault Missile Launcher,10,771
 28379,Domination Heavy Assault Missile Launcher,,
 28433,Compressed Blue Ice,,
 28435,Compressed Dark Glitter,100,465
@@ -1155,6 +1157,7 @@ type_id,name,volume,group_id
 28797,Mid-grade Nomad Beta,1,
 28798,Mid-grade Nomad Delta,1,
 28800,Mid-grade Nomad Gamma,,
+28802,Mid-grade Harvest Alpha,,
 28808,Mid-grade Virtue Alpha,1,300
 28809,Mid-grade Virtue Beta,1,
 28810,Mid-grade Virtue Delta,1,300
@@ -1431,7 +1434,7 @@ type_id,name,volume,group_id
 37480,Bifrost,5000,1534
 37482,,5000,
 37624,Corpii A-Type Small Energy Neutralizer,5,71
-37627,Corpum A-Type Medium Energy Neutralizer,,
+37627,Corpum A-Type Medium Energy Neutralizer,5,71
 37631,Corpus X-Type Heavy Energy Neutralizer,5,71
 37820,Caldari Navy Shield Power Relay,5,57
 37843,,0.5,
@@ -1499,6 +1502,7 @@ type_id,name,volume,group_id
 42145,Low-grade Asklepian Alpha,,
 42201,Low-grade Asklepian Epsilon,1,
 42203,Low-grade Asklepian Omega,1,300
+42204,,1,300
 42205,Mid-grade Asklepian Beta,1,
 42206,Mid-grade Asklepian Gamma,1,300
 42207,Mid-grade Asklepian Delta,1,300
@@ -1910,7 +1914,7 @@ type_id,name,volume,group_id
 84100,Paladin War for the Empire SKIN,0.01,
 84173,Imperial Gold Metallic - Limited,0.1,4726
 85087,Tholos,5000,420
-85089,,0.5,
+85089,SCARAB Breacher Pod M,0.5,4808
 85178,Tetrimonic Warclone Blanks,0.1,314
 85179,Overseer Sabik Vial,,
 85390,Armor Mutaplasmid Residue,0.01,
