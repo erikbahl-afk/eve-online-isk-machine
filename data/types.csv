@@ -193,6 +193,7 @@ type_id,name,volume,group_id
 4348,Pithum B-Type Multispectrum Shield Hardener,5,77
 4349,Pithum C-Type Multispectrum Shield Hardener,5,77
 4403,Reactive Armor Hardener,25,1150
+4405,Drone Damage Amplifier II,5,645
 5051,Heavy F-RX Compact Capacitor Booster,20,76
 5973,5MN Y-T8 Compact Microwarpdrive,10,46
 6719,,5,
@@ -225,7 +226,7 @@ type_id,name,volume,group_id
 10209,,1,
 10212,Neural Boost - Standard,1,745
 10213,Neural Boost - Improved,1,745
-10217,Ocular Filter - Improved,1,
+10217,Ocular Filter - Improved,1,745
 10221,Cybernetic Subprocessor - Standard,,
 10222,Cybernetic Subprocessor - Improved,1,
 10225,Social Adaptation Chip - Standard,1,745
@@ -275,7 +276,7 @@ type_id,name,volume,group_id
 11547,Fusion Reactor Unit,1,334
 11548,Nuclear Reactor Unit,1,
 11549,Antimatter Reactor Unit,1,334
-11552,,1,
+11552,Scalar Capacitor Unit,1,334
 11554,Tesseract Capacitor Unit,1,334
 11556,,1,
 11557,Linear Shield Emitter,1,334
@@ -402,6 +403,7 @@ type_id,name,volume,group_id
 13923,Domination Torpedo Launcher,20,
 13924,Dread Guristas Torpedo Launcher,20,508
 13926,Dread Guristas Light Missile Launcher,5,509
+13927,,20,506
 13933,Dread Guristas Rocket Launcher,5,
 13935,Domination Ballistic Control System,5,
 13937,Dread Guristas Ballistic Control System,5,367
@@ -528,6 +530,7 @@ type_id,name,volume,group_id
 15865,Imperial Navy Small Focused Beam Laser,5,53
 15887,Caldari Navy Warp Scrambler,5,52
 15889,Caldari Navy Warp Disruptor,5,52
+15891,,5,52
 15893,,5,
 15895,Federation Navy Magnetic Field Stabilizer,5,302
 15897,Caldari Navy X-Large Shield Booster,50,
@@ -1120,6 +1123,7 @@ type_id,name,volume,group_id
 28684,Synth Sooth Sayer Booster,1,
 28696,Celadon Mykoserocin,,
 28698,Lime Mykoserocin,10,711
+28700,,10,711
 28701,Viridian Mykoserocin,,
 28710,Golem,50000,900
 28746,Thukker Medium Shield Extender,,
