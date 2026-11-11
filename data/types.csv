@@ -101,7 +101,7 @@ type_id,name,volume,group_id
 2801,Nova Javelin Torpedo,0.05,
 2867,Broadcast Node,50,1041
 2868,Integrity Response Drones,50,1041
-2869,,50,1041
+2869,Nano-Factory,50,1041
 2870,Organic Mortar Applicators,,
 2875,Sterile Conduits,50,1041
 2876,,50,1041
@@ -284,6 +284,7 @@ type_id,name,volume,group_id
 11563,,20,339
 11577,Improved Cloaking Device II,100,330
 11578,Covert Ops Cloaking Device II,100,330
+11646,Explosive Armor Hardener II,5,328
 11648,,5,328
 11688,,1,
 11690,,1,
@@ -334,6 +335,7 @@ type_id,name,volume,group_id
 12484,Amarr Drone Specialization,0.01,
 12486,Gallente Drone Specialization,0.01,
 12487,Caldari Drone Specialization,0.01,
+12529,,0.1,370
 12532,Blood Bronze Tag,0.1,370
 12533,,0.1,370
 12537,Serpentis Bronze Tag,0.1,370
@@ -450,6 +452,7 @@ type_id,name,volume,group_id
 14134,Dark Blood Power Diagnostic System,5,766
 14136,,5,
 14140,True Sansha Cap Recharger,5,43
+14142,Dark Blood Cap Recharger,5,43
 14144,Dark Blood Capacitor Power Relay,5,767
 14146,True Sansha Capacitor Power Relay,,
 14148,Dark Blood Small Energy Nosferatu,5,68
@@ -644,6 +647,7 @@ type_id,name,volume,group_id
 17928,Daredevil,2500,25
 17930,Worm,2500,25
 17932,Dramiel,2500,25
+17960,,0.2,428
 18054,Mercoxit Asteroid Mining Crystal Type A I,6,
 18068,,5,
 18580,Tycoon,,
@@ -680,6 +684,7 @@ type_id,name,volume,group_id
 18885,Corpus C-Type EM Armor Hardener,5,328
 18897,Corpus C-Type Thermal Armor Hardener,5,
 18905,Corpus B-Type Explosive Armor Hardener,5,328
+18913,Corpus B-Type Thermal Armor Hardener,,
 18923,Centus A-Type Kinetic Armor Hardener,,
 18933,Corpus X-Type EM Armor Hardener,5,328
 18935,,5,328
@@ -1090,6 +1095,7 @@ type_id,name,volume,group_id
 28272,'Augmented' Hammerhead,10,100
 28276,,5,
 28280,'Augmented' Hornet,5,
+28284,'Augmented' Infiltrator,10,100
 28288,'Augmented' Ogre,25,100
 28292,'Augmented' Praetor,25,
 28296,'Augmented' Valkyrie,10,100
@@ -1376,7 +1382,7 @@ type_id,name,volume,group_id
 34317,Confessor,5000,
 34328,Bowhead,1300000,
 34481,Domination Inertial Stabilizers,5,
-34496,,500,
+34496,,500,31
 34562,Svipul,5000,1305
 34575,Antikythera Element,0.1,1314
 34590,Victorieux Luxury Yacht,10000,5087
@@ -1457,7 +1463,7 @@ type_id,name,volume,group_id
 41200,Shadow Serpentis Damage Control,5,
 41201,Syndicate Damage Control,5,60
 41202,Sentient Damage Control,5,
-41212,,5,
+41212,Republic Fleet Small Cap Battery,5,61
 41215,Republic Fleet Medium Cap Battery,10,61
 41217,Thukker Medium Cap Battery,10,61
 41218,Republic Fleet Large Cap Battery,15,61
@@ -1481,7 +1487,7 @@ type_id,name,volume,group_id
 41489,,128,
 41490,Navy Cap Booster 3200,96,87
 41492,Capital F-RX Compact Capacitor Booster,1000,76
-41493,,1000,
+41493,Capital Capacitor Booster II,1000,76
 41498,Capital I-a Enduring Armor Repairer,1000,
 41503,Capital Ancillary Armor Repairer,,
 41533,Ligature Integrated Analyzer,5,538
@@ -1556,7 +1562,7 @@ type_id,name,volume,group_id
 45999,Agency 'Pyrolancea' DB5 Dose II,1,303
 46000,Agency 'Pyrolancea' DB7 Dose III,1,303
 46002,Agency 'Hardshell' TB5 Dose II,1,
-46003,Agency 'Hardshell' TB7 Dose III,1,
+46003,Agency 'Hardshell' TB7 Dose III,1,303
 46005,Agency 'Overclocker' SB5 Dose II,1,303
 46213,Ferrogel Reaction Formula,,
 46355,Ubiquitous Moon Mining Crystal Type A I,6,
