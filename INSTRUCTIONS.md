@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Wed 11 Nov 09:54 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Wed 11 Nov 10:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 29 · **Est. time:** 25 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -77,7 +77,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 15 | ☐ Bifrost | 3 | **35,960,000** | 38,490,000 | 35,950,000 |
+| 15 | ☐ Bifrost | 3 | **35,970,000** | 38,490,000 | 35,960,000 |
 | 16 | ☐ Core B-Type Large Armor Repairer | 1 | **222,300,000** | 231,200,000 | 222,200,000 |
 | 17 | ☐ Guristas Brass Tag | 5 | **31,120,000** | 31,610,000 | 31,110,000 |
 | 18 | ☐ Hecate | 3 | **63,010,000** | 64,390,000 | 63,000,000 |
@@ -94,8 +94,8 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 | 21 | ☐ Explosive Armor Hardener II | 27 | **1,234,000** | 1,495,000 | 1,233,000 |
 | 22 | ☐ Imperial Navy Small Focused Beam Laser | 1 | **26,550,000** | 35,340,000 | 26,540,000 |
 | 23 | ☐ Inherent Implants 'Lancer' Large Energy Turret LE-1005 | 1 | **100,200,000** | 105,100,000 | 100,100,000 |
-| 24 | ☐ Mercury | 33,471 | **2,874** | 3,006 | 2,873 |
-| 25 | ☐ Polyaramids | 5,091 | **14,570** | 15,620 | 14,560 |
+| 24 | ☐ Mercury | 33,403 | **2,874** | 3,006 | 2,873 |
+| 25 | ☐ Polyaramids | 5,090 | **14,570** | 15,620 | 14,560 |
 | 26 | ☐ Triplot Scan Acquisition Array | 1 | **210,500,000** | 226,700,000 | 210,400,000 |
 
 ### Block 3 · if there's time · about 2 min
