@@ -36,6 +36,7 @@ type_id,name,volume,group_id
 686,,0.01,
 687,Caracal Blueprint,0.01,
 969,Maller Blueprint,,
+973,Arbitrator Blueprint,,
 974,Rupture Blueprint,,
 976,,0.01,
 990,Epithal Blueprint,0.01,108
@@ -187,6 +188,7 @@ type_id,name,volume,group_id
 4294,Triage Module II,,
 4302,Oracle,,
 4306,,15000,1201
+4308,,15000,1201
 4310,,15000,1201
 4313,Oxygen Fuel Block Blueprint,0.01,
 4315,,0.01,
@@ -1361,7 +1363,7 @@ type_id,name,volume,group_id
 33924,Low-grade Crystal Beta,1,300
 33925,Low-grade Crystal Delta,1,
 33926,Low-grade Crystal Epsilon,1,
-33927,,1,300
+33927,Low-grade Crystal Gamma,1,300
 33928,,1,300
 33941,,1,
 33942,Low-grade Harvest Beta,1,
@@ -1511,7 +1513,7 @@ type_id,name,volume,group_id
 42212,High-grade Asklepian Gamma,1,300
 42213,High-grade Asklepian Delta,1,300
 42215,High-grade Asklepian Omega,,
-42244,,50000,
+42244,Porpoise,50000,941
 42685,,5000,420
 42696,Shield Extension Charge,0.01,1769
 42787,,0.01,
@@ -1964,6 +1966,7 @@ type_id,name,volume,group_id
 91775,Dragoon Navy Issue,5000,420
 91849,Algos Navy Issue,5000,
 91857,Corax Navy Issue,5000,420
+91858,,5000,420
 91926,Federation Electronics Booster III,1,303
 91932,,1,
 91939,Imperial Defense Booster II,,
