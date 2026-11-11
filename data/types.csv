@@ -1131,7 +1131,7 @@ type_id,name,volume,group_id
 28750,ORE Miner,5,54
 28752,ORE Ice Harvester,5,
 28754,ORE Strip Miner,5,
-28756,Sisters Expanded Probe Launcher,5,
+28756,Sisters Expanded Probe Launcher,5,481
 28758,Sisters Core Probe Launcher,5,481
 28780,Syndicate 1600mm Steel Plates,20,329
 28784,Syndicate 400mm Steel Plates,,
@@ -1352,6 +1352,7 @@ type_id,name,volume,group_id
 33942,Low-grade Harvest Beta,1,
 33948,Low-grade Nomad Beta,,
 33960,,1,
+33961,Low-grade Snake Delta,1,300
 33973,Low-grade Virtue Delta,1,300
 33975,Low-grade Virtue Gamma,,
 33981,Limited Hyperspatial Accelerator,5,
@@ -1751,6 +1752,7 @@ type_id,name,volume,group_id
 57486,,45,
 57487,Capital Core Temperature Regulator,28000,873
 57488,Neurolink Protection Cell,5500,873
+57733,,0.01,1950
 58945,,3500,
 58950,Large Industrial Core II,3500,515
 58966,,5,
@@ -1899,7 +1901,7 @@ type_id,name,volume,group_id
 85390,Armor Mutaplasmid Residue,0.01,
 85392,Damage Control Mutaplasmid Residue,0.01,1996
 85393,,0.01,1996
-85400,X-Large Mutaplasmid Residue,,
+85400,X-Large Mutaplasmid Residue,0.01,1996
 85662,Glorified Unstable Gyrostabilizer Mutaplasmid,1,1964
 85668,Glorified Unstable Magnetic Field Stabilizer Mutaplasmid,,
 85746,Infomorph Decryption Key,,

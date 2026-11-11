@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Wed 11 Nov 00:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Wed 11 Nov 00:25 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 29 · **Est. time:** 25 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -77,12 +77,12 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 15 | ☐ Compressed Arkonor IV-Grade | 25,061 | **3,601** | 3,800 | 3,600 |
-| 16 | ☐ Dark Blood Stasis Webifier | 1 | **103,400,000** | 109,600,000 | 103,300,000 |
-| 17 | ☐ Guristas Brass Tag | 5 | **31,090,000** | 31,600,000 | 31,080,000 |
-| 18 | ☐ Large Moon Ore Compressor I | 2 | **67,290,000** | 70,630,000 | 67,280,000 |
-| 19 | ☐ Orbweaver SW-300-I | 9 | **7,149,000** | 7,887,000 | 7,148,000 |
-| 20 | ☐ Republic Fleet Medium Shield Extender | 12 | **11,610,000** | 11,820,000 | 11,600,000 |
+| 15 | ☐ Anathema | 4 | **15,820,000** | 17,250,000 | 15,810,000 |
+| 16 | ☐ Compressed Arkonor IV-Grade | 25,083 | **3,601** | 3,800 | 3,600 |
+| 17 | ☐ Inherent Implants 'Lancer' Large Energy Turret LE-1005 | 1 | **100,200,000** | 105,300,000 | 100,100,000 |
+| 18 | ☐ Orbweaver SW-300-I | 9 | **7,149,000** | 7,887,000 | 7,148,000 |
+| 19 | ☐ Republic Fleet Medium Shield Extender | 12 | **11,610,000** | 11,800,000 | 11,600,000 |
+| 20 | ☐ Retribution | 3 | **21,020,000** | 22,960,000 | 21,010,000 |
 
 ### Block 2 · should do · about 6 min
 
@@ -91,12 +91,12 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 21 | ☐ Anathema | 4 | **15,820,000** | 17,250,000 | 15,810,000 |
-| 22 | ☐ Inherent Implants 'Lancer' Large Energy Turret LE-1005 | 1 | **100,200,000** | 105,300,000 | 100,100,000 |
-| 23 | ☐ Quad Mega Pulse Laser II | 1 | **175,600,000** | 179,600,000 | 175,500,000 |
-| 24 | ☐ Retribution | 1 | **21,020,000** | 22,960,000 | 21,010,000 |
+| 21 | ☐ Augoror Navy Issue | 3 | **37,060,000** | 38,730,000 | 37,050,000 |
+| 22 | ☐ Dark Blood Stasis Webifier | 1 | **104,100,000** | 109,600,000 | 104,000,000 |
+| 23 | ☐ Low-grade Snake Delta | 1 | **46,420,000** | 57,750,000 | 46,410,000 |
+| 24 | ☐ Medium Energy Neutralizer II | 16 | **2,073,000** | 2,422,000 | 2,072,000 |
 | 25 | ☐ Shadow Serpentis Tracking Computer | 2 | **103,100,000** | 105,700,000 | 103,000,000 |
-| 26 | ☐ Unstable Stasis Webifier Mutaplasmid | 2 | **113,000,000** | 114,200,000 | 112,900,000 |
+| 26 | ☐ X-Large Mutaplasmid Residue | 573 | **67,090** | 77,450 | 67,080 |
 
 ### Block 3 · if there's time · about 2 min
 
@@ -105,15 +105,15 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 27 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,639,000** | 3,712,000 | 3,638,000 |
+| 27 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,639,000** | 3,711,000 | 3,638,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 28 | ☐ Medium Energy Neutralizer II | 7 | **2,073,000** | 2,422,000 | 2,072,000 |
-| 29 | ☐ Mercury | 721 | **2,868** | 3,019 | 2,867 |
+| 28 | ☐ Ashimmu | 1 | **225,600,000** | 227,700,000 | 225,500,000 |
+| 29 | ☐ Triplot Scan Acquisition Array | 1 | **209,600,000** | 220,900,000 | 209,500,000 |
 
 ---
 Wallet 1.62B · escrow 140.91M · stock 3.13B · in transit 0.00 · net worth 4.88B (liquidation 2.46B)
