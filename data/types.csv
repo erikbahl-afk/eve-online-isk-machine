@@ -89,7 +89,7 @@ type_id,name,volume,group_id
 2400,Toxic Metals,0.19,1042
 2401,Chiral Structures,,
 2404,,5,509
-2410,,10,510
+2410,Heavy Missile Launcher II,10,510
 2420,Torpedo Launcher II,20,508
 2444,,25,
 2456,,5,
@@ -116,6 +116,7 @@ type_id,name,volume,group_id
 2969,,10,
 2993,Dual Light Beam Laser II,5,53
 2998,Noctis,20000,28
+3017,Gatling Pulse Laser II,5,53
 3033,Small Focused Beam Laser II,5,
 3041,Small Focused Pulse Laser II,5,
 3049,Mega Beam Laser II,20,
@@ -1244,7 +1245,7 @@ type_id,name,volume,group_id
 31564,Medium Hybrid Locus Coordinator I,,
 31594,,10,
 31598,,5,779
-31606,,10,779
+31606,Medium Hydraulic Bay Thrusters II,10,779
 31614,Small Rocket Fuel Cache Partition II,5,779
 31616,,10,
 31628,Medium Warhead Calefaction Catalyst II,10,779
@@ -1538,6 +1539,7 @@ type_id,name,volume,group_id
 43775,ORE Mining Director Mindlink,1,744
 43880,Standup M-Set Invention Accelerator I,,
 43898,,20,
+43920,,10,1816
 44102,,5,512
 44993,Pacifier,2500,830
 45009,Standup Moon Drill I,8000,1887
@@ -1585,6 +1587,7 @@ type_id,name,volume,group_id
 46355,Ubiquitous Moon Mining Crystal Type A I,6,
 46356,Ubiquitous Moon Mining Crystal Type A II,10,482
 46375,Daily Alpha Injector,0.01,1739
+46490,,10,1936
 46633,Standup M-Set Asteroid Ore Grading Processor I,10,
 47028,Neural Lace 'Blackglass' Net Intrusion 920-40,1,1230
 47029,Rattlesnake King's Ransom Luecin SKIN,,
@@ -1651,6 +1654,7 @@ type_id,name,volume,group_id
 48386,,0.1,1088
 48434,Unstable Medium Cap Battery Mutaplasmid,,
 48501,Bellicose Dawn of Liberation SKIN,,
+48576,,0.01,1950
 48582,Master-at-Arms Cerebral Accelerator,1,303
 48720,Osprey Combat Medic Section SKIN,,
 48744,'Subverted' JVN-UC49,20,
@@ -1679,7 +1683,7 @@ type_id,name,volume,group_id
 52313,Trinary State Processor,1,334
 52562,,0.01,
 52568,HyperCore,0.01,526
-52694,Industrial Cynosural Field Generator,25,
+52694,Industrial Cynosural Field Generator,25,658
 52915,Ultratidal Entropic Disintegrator I,1600,1986
 52916,,0.01,1987
 52919,High-grade Mimesis Delta,1,
@@ -2036,7 +2040,7 @@ type_id,name,volume,group_id
 96566,Tetrimon Anti-Drain Booster IV,1,303
 96568,,1,
 96569,Tetrimon Capacitor Booster III,1,
-96570,,1,303
+96570,Expired Tetrimon Capacitor Booster IV,1,303
 96573,Tetrimon Resistance Booster III,,
 96574,Tetrimon Resistance Booster IV,1,303
 96583,Chemal Tech Turret Booster III,1,303
