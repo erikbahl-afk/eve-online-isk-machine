@@ -73,6 +73,7 @@ type_id,name,volume,group_id
 2309,Ionic Solutions,,
 2310,Noble Gas,0.005,1033
 2311,Reactive Gas,0.005,1033
+2319,,0.75,1034
 2321,Polyaramids,0.75,1034
 2327,,0.75,
 2328,Water-Cooled CPU,0.75,1034
@@ -751,7 +752,7 @@ type_id,name,volume,group_id
 19195,,50,40
 19197,Gist A-Type X-Large Shield Booster,50,
 19198,Gist X-Type X-Large Shield Booster,50,40
-19200,Gist X-Type Large Shield Booster,25,
+19200,Gist X-Type Large Shield Booster,25,40
 19201,,25,
 19202,Pith C-Type X-Large Shield Booster,50,40
 19203,Pith B-Type Large Shield Booster,25,
@@ -855,6 +856,7 @@ type_id,name,volume,group_id
 21238,Blood Multifrequency L,,
 21254,Blood Multifrequency XL,,
 21368,Guristas Antimatter Charge XL,,
+21370,Guristas Iridium Charge XL,,
 21472,,5,
 21474,,5,
 21478,50MN Digital Booster Microwarpdrive,10,46
