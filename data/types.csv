@@ -328,7 +328,7 @@ type_id,name,volume,group_id
 12066,100MN Afterburner I,,
 12076,50MN Microwarpdrive II,10,46
 12084,500MN Microwarpdrive II,10,46
-12102,Large Remote Capacitor Transmitter II,,
+12102,Large Remote Capacitor Transmitter II,25,67
 12108,Deep Core Mining Laser I,5,54
 12200,Mobile Large Warp Disruptor I,585,361
 12209,Large Autocannon Specialization,,
@@ -392,7 +392,7 @@ type_id,name,volume,group_id
 13256,Inherent Implants 'Noble' Hull Upgrades HG-1003,1,
 13258,Inherent Implants 'Noble' Repair Systems RS-603,,
 13259,Inherent Implants 'Squire' Capacitor Management EM-803,1,741
-13260,Inherent Implants 'Squire' Capacitor Systems Operation EO-603,1,
+13260,Inherent Implants 'Squire' Capacitor Systems Operation EO-603,1,741
 13261,Inherent Implants 'Squire' Power Grid Management EG-603,1,741
 13263,Zainou 'Gnome' Shield Operation SP-903,1,
 13265,Inherent Implants 'Squire' Capacitor Emission Systems ES-703,1,741
@@ -512,6 +512,7 @@ type_id,name,volume,group_id
 15602,,0.1,409
 15604,Caldari Navy Admiral Insignia I,0.1,409
 15605,Caldari Navy Vice Admiral Insignia I,0.1,409
+15610,Imperial Navy Sergeant Insignia I,0.1,409
 15613,,0.1,409
 15614,,0.1,409
 15615,Imperial Navy General Insignia I,0.1,409
@@ -807,6 +808,7 @@ type_id,name,volume,group_id
 19698,Zainou 'Deadeye' Large Hybrid Turret LH-1005,1,
 19719,Transport Ships,,
 19739,Cruise Missile Launcher II,20,506
+19744,,20000,28
 20060,Amarr Control Tower Small,2000,
 20062,Caldari Control Tower Small,2000,365
 20064,Gallente Control Tower Small,2000,365
@@ -1418,7 +1420,7 @@ type_id,name,volume,group_id
 35661,,10,46
 35662,,10,46
 35683,Hecate,5000,1305
-35789,,5,1396
+35789,Astro-Inertial Compact Missile Guidance Computer,5,1396
 35790,Missile Guidance Computer II,5,1396
 35795,Missile Precision Script,1,1400
 35826,Azbel,,
@@ -1444,7 +1446,7 @@ type_id,name,volume,group_id
 37296,Quad Mega Pulse Laser II,1000,53
 37298,Dual Giga Pulse Laser II,1000,53
 37302,Ion Siege Blaster II,1000,
-37306,Hexa 2500mm Repeating Cannon II,1000,
+37306,Hexa 2500mm Repeating Cannon II,1000,55
 37450,,5,54
 37452,ORE Ice Mining Laser,5,54
 37454,,2500,
@@ -1497,6 +1499,7 @@ type_id,name,volume,group_id
 41215,Republic Fleet Medium Cap Battery,10,61
 41217,Thukker Medium Cap Battery,10,61
 41218,Republic Fleet Large Cap Battery,15,61
+41219,Domination Large Cap Battery,15,61
 41220,Thukker Large Cap Battery,15,61
 41238,10000MN Monopropellant Enduring Afterburner,,
 41249,50000MN Microwarpdrive I,1000,

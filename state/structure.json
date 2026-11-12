@@ -1,21 +1,14 @@
 {
- "ask_ratio_median": 1.068,
- "buy_orders": 6262,
- "buy_orders_reaching_jita": 6187,
+ "ask_ratio_median": 1.0717,
+ "buy_orders": 6293,
+ "buy_orders_reaching_jita": 6217,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6598,
- "sell_orders": 336,
- "share_ask_below_jita": 0.2727,
+ "orders": 6628,
+ "sell_orders": 335,
+ "share_ask_below_jita": 0.2628,
  "structure_id": 1042508032148,
- "t": 1794484853.9452617,
+ "t": 1794492015.2668982,
  "top_ask_below_jita": [
-  {
-   "best_ask": 1237000.0,
-   "gap": 0.8909,
-   "name": "",
-   "s_ask": 135000.0,
-   "type_id": 3324
-  },
   {
    "best_ask": 169900.0,
    "gap": 0.8234,
@@ -80,11 +73,32 @@
    "type_id": 45919
   },
   {
+   "best_ask": 38950000.0,
+   "gap": 0.4865,
+   "name": "",
+   "s_ask": 20000000.0,
+   "type_id": 44932
+  },
+  {
    "best_ask": 113800000.0,
    "gap": 0.4728,
    "name": "",
    "s_ask": 60000000.0,
    "type_id": 48221
+  },
+  {
+   "best_ask": 254300.0,
+   "gap": 0.4691,
+   "name": "",
+   "s_ask": 135000.0,
+   "type_id": 3324
+  },
+  {
+   "best_ask": 2384000.0,
+   "gap": 0.4677,
+   "name": "Medium Core Defense Field Extender I",
+   "s_ask": 1269000.0,
+   "type_id": 31790
   },
   {
    "best_ask": 375700000.0,
@@ -99,20 +113,6 @@
    "name": "",
    "s_ask": 60000000.0,
    "type_id": 44921
-  },
-  {
-   "best_ask": 20000000.0,
-   "gap": 0.45,
-   "name": "",
-   "s_ask": 11000000.0,
-   "type_id": 44896
-  },
-  {
-   "best_ask": 65000.0,
-   "gap": 0.4308,
-   "name": "",
-   "s_ask": 37000.0,
-   "type_id": 3320
   }
  ],
  "top_bid_over_jita": [
@@ -222,7 +222,7 @@
    "type_id": 49825
   }
  ],
- "types": 3971,
- "types_also_in_jita": 3942,
- "types_bid_over_jita_reaching": 843
+ "types": 3980,
+ "types_also_in_jita": 3951,
+ "types_bid_over_jita_reaching": 861
 }
