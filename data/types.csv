@@ -379,6 +379,7 @@ type_id,name,volume,group_id
 13220,Inherent Implants 'Lancer' Medium Energy Turret ME-803,,
 13221,Zainou 'Deadeye' Medium Hybrid Turret MH-803,1,742
 13222,Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-803,,
+13223,,1,742
 13229,Zainou 'Snapshot' Heavy Missiles HM-703,1,746
 13237,Eifyr and Co. 'Rogue' Navigation NN-603,1,747
 13240,Eifyr and Co. 'Rogue' Evasive Maneuvering EM-703,1,
@@ -1216,6 +1217,7 @@ type_id,name,volume,group_id
 30752,Intact Hull Section,,
 30987,Small Trimark Armor Pump I,5,773
 31003,Small EM Armor Reinforcer II,5,
+31005,Medium EM Armor Reinforcer II,10,773
 31011,Medium Explosive Armor Reinforcer I,,
 31027,,5,
 31029,,10,
@@ -1805,7 +1807,7 @@ type_id,name,volume,group_id
 57476,,100,
 57478,Auto-Integrity Preservation Seal,16,334
 57479,Core Temperature Regulator,180,334
-57486,,45,334
+57486,Life Support Backup Unit,45,334
 57487,Capital Core Temperature Regulator,28000,873
 57488,Neurolink Protection Cell,5500,873
 57733,,0.01,1950
@@ -2056,7 +2058,7 @@ type_id,name,volume,group_id
 95556,Lorharyth’s Modified Inertial Stabilizer,5,762
 95672,Liberated Matar Background,0.1,
 95673,Foundation Wisdom Background,0.1,
-95741,Akoman,15000,
+95741,Akoman,15000,1201
 96317,,0.01,1950
 96318,,0.01,1950
 96320,Coercer Sanguinary Savant SKIN,0.01,1950
