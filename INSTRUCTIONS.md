@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Wed 11 Nov 20:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 28 · **Est. time:** 24 min. Work top to bottom; stop any time.  
+**Updated:** Wed 11 Nov 20:21 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 27 · **Est. time:** 23 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -76,25 +76,24 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 14 | ☐ Compressed Arkonor IV-Grade | 31,817 | **3,570** | 3,712 | 3,569 |
-| 15 | ☐ Fullerite-C32 | 4,940 | **18,730** | 19,870 | 18,720 |
+| 14 | ☐ CONCORD Capital Remote Shield Booster | 1 | **237,500,000** | 246,300,000 | 237,400,000 |
+| 15 | ☐ Fullerite-C32 | 4,950 | **18,730** | 19,870 | 18,720 |
 | 16 | ☐ Guristas Brass Tag | 5 | **31,130,000** | 31,580,000 | 31,120,000 |
-| 17 | ☐ Imperial Navy Large EMP Smartbomb | 2 | **167,800,000** | 169,400,000 | 167,700,000 |
-| 18 | ☐ Imperial Navy Mega Pulse Laser | 1 | **89,420,000** | 129,200,000 | 89,410,000 |
+| 17 | ☐ Imperial Navy Large EMP Smartbomb | 1 | **167,900,000** | 169,400,000 | 167,800,000 |
+| 18 | ☐ Metamorphosis | 3 | **48,170,000** | 49,500,000 | 48,160,000 |
 | 19 | ☐ Zainou 'Gnome' Shield Operation SP-905 | 1 | **90,330,000** | 106,800,000 | 90,320,000 |
 
-### Block 2 · should do · about 5 min
+### Block 2 · should do · about 4 min
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 20 | ☐ CONCORD Capital Remote Shield Booster | 1 | **237,500,000** | 246,300,000 | 237,400,000 |
+| 20 | ☐ Imperial Navy Mega Pulse Laser | 1 | **91,010,000** | 129,200,000 | 91,000,000 |
 | 21 | ☐ Low-grade Centurion Alpha | 2 | **10,570,000** | 15,020,000 | 10,560,000 |
-| 22 | ☐ Metamorphosis | 3 | **48,170,000** | 49,500,000 | 48,160,000 |
-| 23 | ☐ Mid-grade Crystal Epsilon | 1 | **116,500,000** | 117,400,000 | 116,400,000 |
-| 24 | ☐ Polyaramids | 4,750 | **14,600** | 15,580 | 14,590 |
+| 22 | ☐ Mercury | 13,828 | **2,897** | 2,984 | 2,896 |
+| 23 | ☐ Mid-grade Crystal Epsilon | 2 | **116,500,000** | 117,400,000 | 116,400,000 |
 
 ### Block 3 · if there's time · about 3 min
 
@@ -103,22 +102,22 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 25 | ☐ 50MN Microwarpdrive II | 1 | **4,189,000** | 3,751,000 | 4,190,000 |
-| 26 | ☐ Compressed Gneiss IV-Grade | 1 | **2,699** | 2,550 | 2,700 |
+| 24 | ☐ 50MN Microwarpdrive II | 1 | **4,189,000** | 3,751,000 | 4,190,000 |
+| 25 | ☐ Compressed Gneiss IV-Grade | 1 | **2,699** | 2,550 | 2,700 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 27 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,642,000** | 3,703,000 | 3,641,000 |
+| 26 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,642,000** | 3,703,000 | 3,641,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 28 | ☐ Mercury | 10,390 | **2,897** | 2,984 | 2,896 |
+| 27 | ☐ Core B-Type Large Armor Repairer | 1 | **222,400,000** | 231,200,000 | 222,300,000 |
 
 ---
 Wallet 1.62B · escrow 140.91M · stock 3.13B · in transit 0.00 · net worth 4.88B (liquidation 2.46B)
