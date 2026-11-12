@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Thu 12 Nov 02:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Thu 12 Nov 04:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 29 · **Est. time:** 25 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -44,7 +44,7 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 9 | ☐ Infomorph Decryption Key | 3,642 | **4,077** | 3,370 | 4,078 |
+| 9 | ☐ Infomorph Decryption Key | 3,642 | **4,076** | 3,370 | 4,077 |
 
 #### Cancel buy orders
 _My Orders → Buying. Right-click → Cancel Order._
@@ -76,13 +76,13 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 14 | ☐ Compressed Malachite Mykoserocin | 2,209 | **77,010** | 77,360 | 77,000 |
-| 15 | ☐ Dark Blood Stasis Webifier | 1 | **98,910,000** | 105,900,000 | 98,900,000 |
-| 16 | ☐ Fullerite-C32 | 4,634 | **18,830** | 19,830 | 18,820 |
-| 17 | ☐ Mercury | 42,276 | **2,903** | 2,994 | 2,902 |
-| 18 | ☐ Metamorphosis | 3 | **48,170,000** | 49,520,000 | 48,160,000 |
-| 19 | ☐ Poteque 'Prospector' Astrometric Rangefinding AR-810 | 1 | **161,200,000** | 175,500,000 | 161,100,000 |
-| 20 | ☐ Zainou 'Gnome' Shield Operation SP-905 | 1 | **90,350,000** | 106,900,000 | 90,340,000 |
+| 14 | ☐ Capital Compact Pb-Acid Cap Battery | 2 | **9,472,000** | 14,950,000 | 9,471,000 |
+| 15 | ☐ Compressed Arkonor IV-Grade | 33,559 | **3,577** | 3,712 | 3,576 |
+| 16 | ☐ Glorified Gravid Stasis Webifier Mutaplasmid | 1 | **53,030,000** | 79,330,000 | 53,020,000 |
+| 17 | ☐ Low-grade Crystal Gamma | 2 | **57,080,000** | 61,960,000 | 57,070,000 |
+| 18 | ☐ Mercury | 41,821 | **2,907** | 2,991 | 2,906 |
+| 19 | ☐ Poteque 'Prospector' Astrometric Rangefinding AR-810 | 1 | **161,200,000** | 175,900,000 | 161,100,000 |
+| 20 | ☐ Siren II | 7 | **24,080,000** | 24,520,000 | 24,070,000 |
 
 ### Block 2 · should do · about 5 min
 
@@ -91,11 +91,11 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 21 | ☐ Compressed Brimful Coesite | 76,889 | **685.10** | 758.50 | 685.00 |
-| 22 | ☐ Gravid Stasis Webifier Mutaplasmid | 15 | **2,822,000** | 3,289,000 | 2,821,000 |
-| 23 | ☐ Guristas Brass Tag | 5 | **31,120,000** | 31,540,000 | 31,110,000 |
-| 24 | ☐ Low-grade Centurion Alpha | 2 | **10,570,000** | 15,020,000 | 10,560,000 |
-| 25 | ☐ ORE Ice Mining Laser | 1 | **59,100,000** | 70,660,000 | 59,090,000 |
+| 21 | ☐ Cataclysmic Firestorm Filament | 8 | **21,170,000** | 21,360,000 | 21,160,000 |
+| 22 | ☐ Cataclysmic Gamma Filament | 2 | **20,290,000** | 20,660,000 | 20,280,000 |
+| 23 | ☐ Compressed Malachite Mykoserocin | 2,185 | **77,020** | 77,360 | 77,010 |
+| 24 | ☐ Guristas Brass Tag | 5 | **31,120,000** | 31,540,000 | 31,110,000 |
+| 25 | ☐ High-grade Asklepian Gamma | 1 | **178,200,000** | 188,300,000 | 178,100,000 |
 
 ### Block 3 · if there's time · about 3 min
 
@@ -104,22 +104,22 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 26 | ☐ 50MN Microwarpdrive II | 1 | **4,199,000** | 3,751,000 | 4,200,000 |
-| 27 | ☐ Compressed Gneiss IV-Grade | 1 | **2,635** | 2,550 | 2,636 |
+| 26 | ☐ 50MN Microwarpdrive II | 1 | **4,098,000** | 3,751,000 | 4,099,000 |
+| 27 | ☐ Compressed Gneiss IV-Grade | 1 | **2,629** | 2,550 | 2,630 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 28 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,648,000** | 3,712,000 | 3,647,000 |
+| 28 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,623,000** | 3,623,000 | 3,646,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 29 | ☐ Core B-Type Large Armor Repairer | 1 | **222,400,000** | 231,800,000 | 222,300,000 |
+| 29 | ☐ Low-grade Centurion Alpha | 2 | **10,570,000** | 15,020,000 | 10,560,000 |
 
 ---
 Wallet 1.62B · escrow 140.91M · stock 3.13B · in transit 0.00 · net worth 4.88B (liquidation 2.46B)

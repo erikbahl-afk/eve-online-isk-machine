@@ -113,7 +113,7 @@ type_id,name,volume,group_id
 2905,250mm Light Artillery Cannon II,5,55
 2929,800mm Repeating Cannon II,20,
 2953,,20,
-2961,1400mm Howitzer Artillery II,,
+2961,1400mm Howitzer Artillery II,20,55
 2969,,10,
 2993,Dual Light Beam Laser II,5,53
 2998,Noctis,20000,28
@@ -321,7 +321,7 @@ type_id,name,volume,group_id
 12032,Manticore,2500,834
 12034,,2500,
 12038,,2500,834
-12042,,2500,
+12042,Ishkur,2500,324
 12044,,2500,
 12054,,50,
 12058,,5,
@@ -897,6 +897,7 @@ type_id,name,volume,group_id
 22122,Mid-grade Amulet Epsilon,1,300
 22123,Mid-grade Amulet Gamma,1,300
 22124,Mid-grade Amulet Omega,1,300
+22128,,1,300
 22229,Ice Harvester II,,
 22428,,50000,
 22430,Sin,,
@@ -1533,7 +1534,7 @@ type_id,name,volume,group_id
 42209,Mid-grade Asklepian Omega,1,300
 42212,High-grade Asklepian Gamma,1,300
 42213,High-grade Asklepian Delta,1,300
-42215,High-grade Asklepian Omega,,
+42215,High-grade Asklepian Omega,1,300
 42244,Porpoise,50000,941
 42685,,5000,420
 42696,Shield Extension Charge,0.01,1769
@@ -1765,8 +1766,8 @@ type_id,name,volume,group_id
 56139,Cataclysmic Electrical Filament,0.1,1979
 56140,Cataclysmic Dark Filament,,
 56141,Cataclysmic Exotic Filament,0.1,1979
-56142,,0.1,1979
-56143,,0.1,1979
+56142,Cataclysmic Firestorm Filament,0.1,1979
+56143,Cataclysmic Gamma Filament,0.1,1979
 56201,Astrahus Upwell Quantum Core,500,4086
 56226,Men's Triglavian Survival Suit (Liminality),,
 56290,Unstable Capital Energy Nosferatu Mutaplasmid,,
@@ -1953,6 +1954,7 @@ type_id,name,volume,group_id
 85393,,0.01,1996
 85400,X-Large Mutaplasmid Residue,0.01,1996
 85521,,1,1964
+85559,Glorified Gravid Stasis Webifier Mutaplasmid,1,1964
 85662,Glorified Unstable Gyrostabilizer Mutaplasmid,1,1964
 85668,Glorified Unstable Magnetic Field Stabilizer Mutaplasmid,,
 85746,Infomorph Decryption Key,,
@@ -2005,7 +2007,7 @@ type_id,name,volume,group_id
 91950,Republic Mobility Booster I,,
 91954,State Mobility Booster III,,
 91958,,1,
-91960,,1,
+91960,Expired Republic Mobility Booster II,1,
 91961,Republic Mobility Booster III,,
 91962,,1,
 91963,,1,
