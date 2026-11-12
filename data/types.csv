@@ -520,7 +520,7 @@ type_id,name,volume,group_id
 15673,,0.1,409
 15675,Caldari Navy Co-Processor,5,
 15681,Caldari Navy Ballistic Control System,5,367
-15683,Republic Fleet Ballistic Control System,5,
+15683,Republic Fleet Ballistic Control System,5,367
 15703,Republic Fleet Multispectrum Coating,5,98
 15729,Imperial Navy Multispectrum Energized Membrane,5,326
 15739,Federation Navy Multispectrum Energized Membrane,5,326
@@ -1133,7 +1133,7 @@ type_id,name,volume,group_id
 28435,Compressed Dark Glitter,100,465
 28437,Compressed Gelidus,100,465
 28439,Compressed Glare Crust,,
-28440,Compressed Krystallos,,
+28440,Compressed Krystallos,100,465
 28606,Orca,500000,941
 28609,Heavy Interdiction Cruisers,,
 28652,Covert Jump Portal Generator I,125,4127
@@ -1223,6 +1223,7 @@ type_id,name,volume,group_id
 31077,,5,
 31079,,10,
 31083,,5,1232
+31085,Medium Salvage Tackle I,,
 31107,Medium Auxiliary Thrusters I,,
 31111,,5,
 31113,Medium Auxiliary Thrusters II,10,782
@@ -1487,6 +1488,7 @@ type_id,name,volume,group_id
 41201,Syndicate Damage Control,5,60
 41202,Sentient Damage Control,5,
 41212,Republic Fleet Small Cap Battery,5,61
+41214,,5,61
 41215,Republic Fleet Medium Cap Battery,10,61
 41217,Thukker Medium Cap Battery,10,61
 41218,Republic Fleet Large Cap Battery,15,61
