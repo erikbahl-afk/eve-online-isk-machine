@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Wed 11 Nov 16:44 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 29 · **Est. time:** 25 min. Work top to bottom; stop any time.  
+**Updated:** Wed 11 Nov 18:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 28 · **Est. time:** 24 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -69,7 +69,7 @@ _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Ne
 
 ## At Jita IV - Moon 4 - Caldari Navy Assembly Plant
 
-### Block 1 · must do · about 7 min
+### Block 1 · must do · about 6 min
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
@@ -77,12 +77,11 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 14 | ☐ 'Augmented' Infiltrator | 4 | **20,050,000** | 21,680,000 | 20,040,000 |
-| 15 | ☐ Chaotic Dark Filament | 6 | **11,080,000** | 12,030,000 | 11,070,000 |
-| 16 | ☐ Domination Ballistic Control System | 2 | **108,800,000** | 109,100,000 | 108,700,000 |
-| 17 | ☐ Imperial Navy Mega Pulse Laser | 1 | **89,420,000** | 129,200,000 | 89,410,000 |
-| 18 | ☐ Medium Hydraulic Bay Thrusters II | 12 | **13,660,000** | 13,710,000 | 13,650,000 |
-| 19 | ☐ Mercury | 35,453 | **2,891** | 2,988 | 2,890 |
-| 20 | ☐ Metamorphosis | 3 | **48,180,000** | 49,560,000 | 48,170,000 |
+| 15 | ☐ Domination Ballistic Control System | 2 | **108,800,000** | 109,100,000 | 108,700,000 |
+| 16 | ☐ Imperial Navy Large EMP Smartbomb | 2 | **167,700,000** | 167,800,000 | 167,600,000 |
+| 17 | ☐ Low-grade Centurion Alpha | 2 | **10,570,000** | 15,020,000 | 10,560,000 |
+| 18 | ☐ Medium Hydraulic Bay Thrusters II | 11 | **13,670,000** | 13,780,000 | 13,660,000 |
+| 19 | ☐ Mercury | 34,980 | **2,893** | 2,987 | 2,892 |
 
 ### Block 2 · should do · about 5 min
 
@@ -91,11 +90,11 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 21 | ☐ Capital Capacitor Booster II | 1 | **108,000,000** | 126,200,000 | 107,900,000 |
-| 22 | ☐ Core B-Type Large Armor Repairer | 1 | **222,400,000** | 231,200,000 | 222,300,000 |
-| 23 | ☐ Guristas Brass Tag | 3 | **31,130,000** | 31,580,000 | 31,120,000 |
-| 24 | ☐ Polyaramids | 4,419 | **14,600** | 15,580 | 14,590 |
-| 25 | ☐ Unstable Modulated Strip Miner Mutaplasmid | 1 | **60,570,000** | 65,660,000 | 60,560,000 |
+| 20 | ☐ Core B-Type Large Armor Repairer | 1 | **222,400,000** | 231,200,000 | 222,300,000 |
+| 21 | ☐ Elite Drone AI | 27 | **2,369,000** | 2,562,000 | 2,368,000 |
+| 22 | ☐ Federation Navy Drone Damage Amplifier | 1 | **97,290,000** | 100,800,000 | 97,280,000 |
+| 23 | ☐ Polyaramids | 4,466 | **14,600** | 15,580 | 14,590 |
+| 24 | ☐ Protective Equipment Patterns | 2 | **25,290,000** | 30,020,000 | 25,280,000 |
 
 ### Block 3 · if there's time · about 3 min
 
@@ -104,22 +103,22 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 26 | ☐ 50MN Microwarpdrive II | 1 | **3,997,000** | 3,751,000 | 3,998,000 |
+| 25 | ☐ 50MN Microwarpdrive II | 1 | **4,103,000** | 3,751,000 | 4,104,000 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 27 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,533,000** | 3,533,000 | 3,641,000 |
+| 26 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,627,000** | 3,627,000 | 3,641,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 28 | ☐ Drone Capillary Fluid | 1,186 | **17,060** | 19,420 | 17,050 |
-| 29 | ☐ Imperial Navy Small Focused Beam Laser | 1 | **26,550,000** | 35,340,000 | 26,540,000 |
+| 27 | ☐ Guristas Brass Tag | 2 | **31,130,000** | 31,580,000 | 31,120,000 |
+| 28 | ☐ Imperial Navy Small Focused Beam Laser | 1 | **26,550,000** | 35,340,000 | 26,540,000 |
 
 ---
 Wallet 1.62B · escrow 140.91M · stock 3.13B · in transit 0.00 · net worth 4.88B (liquidation 2.46B)

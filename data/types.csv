@@ -70,7 +70,7 @@ type_id,name,volume,group_id
 2301,EM Shield Hardener II,,
 2303,Thermal Shield Hardener II,5,77
 2305,Autotrophs,,
-2309,Ionic Solutions,,
+2309,Ionic Solutions,0.005,1033
 2310,Noble Gas,0.005,1033
 2311,Reactive Gas,0.005,1033
 2319,,0.75,1034
@@ -1367,6 +1367,7 @@ type_id,name,volume,group_id
 33898,Large Transverse Bulkhead I,20,
 33900,Large Transverse Bulkhead II,20,773
 33904,Capital Transverse Bulkhead II,40,
+33917,Low-grade Centurion Alpha,1,300
 33923,Low-grade Crystal Alpha,1,300
 33924,Low-grade Crystal Beta,1,300
 33925,Low-grade Crystal Delta,1,
@@ -1632,7 +1633,7 @@ type_id,name,volume,group_id
 47901,,0.1,
 47902,Raging Gamma Filament,0.1,1979
 47904,,0.1,
-47905,Fierce Electrical Filament,0.1,
+47905,Fierce Electrical Filament,0.1,1979
 47906,Raging Electrical Filament,0.1,
 47907,Chaotic Electrical Filament,0.1,1979
 47911,,5,
