@@ -1,4 +1,4 @@
-# Summary · Wed 11 Nov 22:00 PST
+# Summary · Thu 12 Nov 00:00 PST
 
 Updated every ~2 hours. **Your real character** is the first section; everything after it is the **practice trader** (pretend ISK, real market data). Each section starts with a line on how to read it.
 
@@ -8,11 +8,11 @@ _Automatic red flags from this run. The daily analysis must deal with each one: 
 
 - 🟠 Liquidation value is 50% of net worth (2.46B of 4.88B): much of the stock couldn't be sold quickly without a big loss. _(open 6 days)_
 - 🟠 Typhoon Fleet Issue Capsuleer Elite XX SKIN is 8.6% of net worth (418.51M). _(open 6 days)_
-- 🟠 1 × Legion Scourge Auto-Targeting Cruise Missile unsold in the amarr hangar for 8 days.
-- 🟠 2,434 × Void XL unsold in the amarr hangar for 8 days.
+- 🟠 1 × Legion Scourge Auto-Targeting Cruise Missile unsold in the amarr hangar for 8 days. _(open 1 days)_
+- 🟠 2,434 × Void XL unsold in the amarr hangar for 8 days. _(open 1 days)_
 - 🟠 3,642 × Infomorph Decryption Key unsold in the amarr hangar for 10 days. _(open 3 days)_
 - 🔵 Buy order for Compressed Gneiss III-Grade in jita hasn't filled at all in 6 days (2.33k tied up). _(open 1 days)_
-- 🔵 Buy order for Tetryon Exotic Plasma XL in amarr hasn't filled at all in 11 days (98.99M tied up). _(open 6 days)_
+- 🔵 Buy order for Tetryon Exotic Plasma XL in amarr hasn't filled at all in 12 days (98.99M tied up). _(open 6 days)_
 
 ## 1. Your trading character
 _Read from the game over SSO. Shows how far the skill plan is and what needs your attention._
@@ -27,11 +27,11 @@ _Read from the game over SSO. Shows how far the skill plan is and what needs you
 ## 2. Practice portfolio
 _The paper trader started with 5.00B on 28 Oct. Net worth counts stock at what we paid; liquidation is the worst case if we dumped everything into buy orders right now._
 
-- **Net worth:** 4.88B (-2.35% in 14.5 days) · liquidation 2.46B
+- **Net worth:** 4.88B (-2.35% in 14.6 days) · liquidation 2.46B
 - **Where the ISK is:** cash 1.62B · locked in buy orders 140.91M · stock 3.13B · on a courier 0.00
 - **Profit so far (realized):** -117.51M. That's completed sales minus every fee paid. Fees: broker 114.45M, relist 6.36M, sales tax 855.36k, courier 138.00M
 - **Location:** amarr · import hub amarr · shipments on the way 0
-- **What's limiting profit** (near 100% = the bottleneck): order slots 16/113 · ISK in use 67% · your time last plan 23 of 25 min
+- **What's limiting profit** (near 100% = the bottleneck): order slots 16/113 · ISK in use 67% · your time last plan 25 of 25 min
 
 ## 3. Results by strategy
 _station = buy and sell in the same hub · import = buy in Jita, ship, sell elsewhere · spec = bets ahead of patches. Realized stays at 0 until items actually sell._
@@ -89,11 +89,11 @@ _Market size = ISK spent per day buying from sell orders in that station. Items 
 
 | Hub | Market size/day | Station items | Station profit/day | Import items | Import profit/day |
 |---|---|---|---|---|---|
-| jita | 5.30T | 21 | 41.95M | - | - |
-| amarr | 495.82B | 5 | 7.35M | 30 | 65.08M |
-| dodixie | 155.45B | 2 | 1.50M | 40 | 92.45M |
-| rens | 29.68B | 0 | - | 9 | 34.38M |
-| hek | 66.09B | 1 | 636.09k | 16 | 41.75M |
+| jita | 5.28T | 22 | 43.79M | - | - |
+| amarr | 495.51B | 4 | 6.13M | 28 | 53.17M |
+| dodixie | 155.09B | 2 | 1.53M | 41 | 91.87M |
+| rens | 30.50B | 0 | - | 9 | 37.80M |
+| hek | 65.81B | 1 | 637.79k | 16 | 42.41M |
 
 ## 8. Best items to trade inside Jita
 _Buy at the highest buy price + 1 tick, sell at the lowest sell price − 1 tick. Margin is after all fees. On top = how much of the time between your logins our order would stay the best price before a rival undercuts it (sell side / buy side). Limited by = which resource it eats most: order slots, ISK, or your time._
@@ -101,61 +101,61 @@ _Buy at the highest buy price + 1 tick, sell at the lowest sell price − 1 tick
 | Item | Buy → sell price | Margin | Sold per day | On top (sell/buy) | Profit/day | Limited by |
 |---|---|---|---|---|---|---|
 | Low-grade Centurion Alpha | 10.57M → 16.99M | 51.4% | 0.4 | 100% / 86% | 2.24M | time |
-| Compressed Arkonor IV-Grade | 3.57k → 4.20k | 10.4% | 8063.6 | 13% / 25% | 2.76M | time |
-| Poteque 'Prospector' Astrometric Rangefinding AR-810 | 161.10M → 198.60M | 15.8% | 0.1 | 6% / 12% | 2.73M | time |
-| Zainou 'Gnome' Shield Operation SP-905 | 90.33M → 120.90M | 25.8% | 0.1 | 10% / 13% | 2.61M | time |
-| Guristas Brass Tag | 31.15M → 35.70M | 7.5% | 1.2 | 7% / 32% | 2.43M | time |
-| CONCORD Capital Remote Shield Booster | 237.50M → 278.60M | 10.1% | 0.1 | 17% / 28% | 2.28M | time |
-| Imperial Navy Large EMP Smartbomb | 167.80M → 191.00M | 6.8% | 0.3 | 2% / 3% | 2.51M | time |
-| Fullerite-C32 | 18.79k → 22.45k | 12.2% | 1180.3 | 2% / 6% | 2.49M | time |
-| Metamorphosis | 48.17M → 56.02M | 9.1% | 0.6 | 3% / 9% | 2.37M | time |
-| ORE Ice Mining Laser | 59.07M → 79.92M | 27.2% | 0.1 | 5% / 3% | 2.32M | time |
-| Mercury | 2.90k → 3.38k | 9.3% | 9064.9 | 2% / 2% | 2.20M | time |
-| Imperial Navy Mega Pulse Laser | 91.02M → 146.20M | 51.3% | 0.0 | 14% / 13% | 2.03M | time |
+| Capital Compact Pb-Acid Cap Battery | 9.47M → 16.91M | 68.3% | 0.4 | 14% / 72% | 2.79M | time |
+| Siren II | 24.08M → 27.74M | 8.1% | 1.6 | 10% / 48% | 2.77M | time |
+| Compressed Fullerite-C60 | 6.00k → 6.90k | 7.8% | 6680.9 | 3% / 7% | 2.74M | time |
+| Poteque 'Prospector' Astrometric Rangefinding AR-810 | 161.20M → 198.50M | 15.6% | 0.1 | 6% / 12% | 2.59M | time |
+| Guristas Brass Tag | 31.11M → 35.69M | 7.6% | 1.1 | 7% / 32% | 2.41M | time |
+| Zainou 'Gnome' Shield Operation SP-905 | 90.34M → 120.90M | 25.8% | 0.1 | 10% / 12% | 2.41M | time |
+| Mercury | 2.90k → 3.38k | 9.4% | 10270.3 | 2% / 2% | 2.53M | time |
+| Metamorphosis | 48.17M → 56.02M | 9.1% | 0.6 | 3% / 9% | 2.38M | time |
+| Fullerite-C32 | 18.84k → 22.45k | 11.9% | 1170.2 | 2% / 6% | 2.40M | time |
+| ORE Ice Mining Laser | 59.08M → 79.92M | 27.2% | 0.1 | 4% / 3% | 2.31M | time |
+| Imperial Navy Large EMP Smartbomb | 168.70M → 191.30M | 6.4% | 0.3 | 2% / 3% | 2.31M | time |
 
 ## 9. Best items to import Jita → Amarr
 _Buy from Jita sellers, ship by courier, sell just under the cheapest seller there. Margin is after shipping and fees. m³ = cargo volume per unit._
 
 | Item | Jita price → sell price | m³ | Margin | Sold per day | On top | Profit/day | Limited by |
 |---|---|---|---|---|---|---|---|
-| ORE Mining Director Mindlink | 558.90M → 689.30M | 1.0 | 12.7% | 0.1 | 39% | 5.75M | ISK |
-| Gistum C-Type 10MN Afterburner | 70.04M → 89.68M | 5.0 | 17.2% | 0.3 | 42% | 3.63M | time |
-| Improved 'Guise' Cloaking Device II | 27.49M → 49.96M | 100.0 | 68.3% | 0.2 | 48% | 3.23M | time |
-| Standup Moon Drill I | 115.30M → 144.80M | 8,000.0 | 11.8% | 0.2 | 87% | 2.87M | time |
-| Mid-grade Asklepian Omega | 314.70M → 387.90M | 1.0 | 12.7% | 0.1 | 19% | 3.23M | time |
-| Caesium | 5.41k → 6.64k | 0.1 | 12.1% | 4241.2 | 59% | 2.74M | time |
-| Loki Offensive - Projectile Scoping Array | 31.54M → 42.06M | 40.0 | 22.3% | 0.4 | 21% | 2.91M | time |
-| Zero-Point Mass Entangler | 7.80M → 9.75M | 50.0 | 14.3% | 2.5 | 23% | 2.72M | time |
-| Stormbringer | 319.90M → 392.70M | 10,000.0 | 12.2% | 0.1 | 6% | 2.57M | time |
-| Navy Micro Auxiliary Power Core | 11.64M → 15.16M | 20.0 | 19.3% | 1.0 | 45% | 2.22M | time |
-| Gatling Pulse Laser II | 497.70k → 789.90k | 5.0 | 46.4% | 9.1 | 41% | 2.09M | time |
-| 'Augmented' Vespa | 13.98M → 17.81M | 10.0 | 16.6% | 1.0 | 17% | 2.20M | time |
+| ORE Mining Director Mindlink | 558.90M → 689.30M | 1.0 | 12.7% | 0.1 | 39% | 5.71M | ISK |
+| Improved 'Guise' Cloaking Device II | 27.48M → 49.96M | 100.0 | 68.3% | 0.2 | 49% | 3.30M | time |
+| Standup Moon Drill I | 115.20M → 144.80M | 8,000.0 | 11.9% | 0.2 | 87% | 2.86M | time |
+| Gistum C-Type 10MN Afterburner | 70.04M → 89.65M | 5.0 | 17.2% | 0.3 | 38% | 3.20M | time |
+| Caesium | 5.41k → 6.64k | 0.1 | 12.1% | 4187.8 | 59% | 2.71M | time |
+| Zero-Point Mass Entangler | 7.81M → 9.75M | 50.0 | 14.2% | 2.5 | 23% | 2.72M | time |
+| Mid-grade Asklepian Omega | 314.70M → 384.90M | 1.0 | 11.7% | 0.1 | 16% | 2.60M | time |
+| Gatling Pulse Laser II | 497.70k → 789.90k | 5.0 | 46.4% | 9.2 | 41% | 2.11M | time |
+| Stormbringer | 324.40M → 392.70M | 10,000.0 | 10.6% | 0.1 | 6% | 2.25M | time |
+| Proximity-5 'Extraction' Filament | 9.36M → 11.31M | 0.1 | 10.3% | 2.3 | 16% | 2.13M | time |
+| Deacon | 17.00M → 27.53M | 2,500.0 | 37.8% | 0.3 | 10% | 2.04M | time |
+| Core X-Type EM Armor Hardener | 183.90M → 252.10M | 5.0 | 25.8% | 0.0 | 9% | 2.01M | time |
 
 ## 10. Cornering watchlist (read-only, nothing is traded)
 _Items where buying out the cheapest few sell orders and relisting higher would pay on paper. We only watch them, to learn whether such prices hold or get undercut._
 
 | Hub | Item | Cheapest now | Buy out | Cost | Relist at | Paper profit | Return | Days to sell | Rival updates/day |
 |---|---|---|---|---|---|---|---|---|---|
-| amarr | Large Thermal Armor Reinforcer I | 12.00M | 1 orders / 20 units | 240.00M | 26.59M | 265.87M | 111% | 4.9 | 0.5 |
+| amarr | Large Thermal Armor Reinforcer I | 12.00M | 1 orders / 16 units | 192.00M | 26.59M | 212.70M | 111% | 3.7 | 0.5 |
 | jita | Standup Cap Battery I | 39.89M | 5 orders / 9 units | 359.53M | 61.86M | 170.07M | 47% | 7.4 | 2.0 |
-| jita | Vorton Projector Operation | 22.18M | 3 orders / 16 units | 380.62M | 35.33M | 157.10M | 41% | 6.1 | 2.2 |
-| jita | Heavy Interdiction Cruisers | 36.99M | 3 orders / 10 units | 370.92M | 54.99M | 152.17M | 41% | 7.0 | 0.8 |
+| jita | Vorton Projector Operation | 22.18M | 3 orders / 16 units | 380.62M | 35.33M | 157.10M | 41% | 6.2 | 2.1 |
 | jita | Republic Fleet 50MN Microwarpdrive | 149.90M | 1 orders / 2 units | 299.80M | 233.50M | 144.43M | 48% | 1.3 | 1.5 |
 | jita | Mid-grade Harvest Alpha | 115.40M | 3 orders / 3 units | 352.40M | 172.60M | 140.16M | 40% | 3.3 | 0.2 |
 | jita | Medium Salvage Tackle I | 1.57M | 3 orders / 139 units | 256.82M | 2.98M | 137.47M | 54% | 4.7 | 1.5 |
-| jita | Inherent Implants 'Squire' Capacitor Systems Operation EO-602 | 6.86M | 5 orders / 41 units | 282.06M | 10.69M | 134.86M | 48% | 4.9 | 1.9 |
-| jita | Transport Ships | 39.00M | 1 orders / 10 units | 390.00M | 54.94M | 132.62M | 34% | 1.3 | 2.8 |
+| jita | Heavy Interdiction Cruisers | 36.99M | 3 orders / 9 units | 333.93M | 54.99M | 136.85M | 41% | 6.0 | 0.8 |
+| jita | Inherent Implants 'Squire' Capacitor Systems Operation EO-602 | 6.86M | 5 orders / 41 units | 282.06M | 10.69M | 134.86M | 48% | 5.0 | 1.8 |
 | jita | Medium Remote Repair Augmentor I | 2.06M | 1 orders / 188 units | 388.22M | 2.91M | 132.37M | 34% | 3.8 | 2.3 |
+| jita | Large Blaster Specialization | 7.00M | 6 orders / 26 units | 218.35M | 14.11M | 130.62M | 60% | 7.6 | 2.0 |
 
 ## 11. Data health
 _Is the market data flowing? Orders = orders seen in the station · Hours today = hours of data collected since 00:00 UTC · Trades seen = trades inferred since the last snapshot. Any note means something went wrong._
 
 | Hub | Orders | Hours today | Trades seen | Note |
 |---|---|---|---|---|
-| jita | 332,121 | 6.3 | 4,978 |  |
-| amarr | 126,339 | 6.3 | 1,930 |  |
-| dodixie | 66,460 | 6.3 | 1,010 |  |
-| rens | 31,796 | 6.3 | 342 |  |
-| hek | 40,267 | 6.3 | 425 |  |
+| jita | 331,873 | 8.3 | 6,088 |  |
+| amarr | 126,416 | 8.3 | 1,880 |  |
+| dodixie | 66,476 | 8.3 | 1,053 |  |
+| rens | 31,750 | 8.3 | 363 |  |
+| hek | 40,252 | 8.3 | 449 |  |
 
-_This run took 44 s (market data 17 s, stats and character 5 s, experiments 19 s, main portfolio 2 s, cornering scan 1 s, ESI back-off 0 s; 1,139 ESI calls). A slow run usually means ESI rate limits (back-off) or a first-time lookup of many item types._
+_This run took 33 s (market data 16 s, stats and character 5 s, experiments 11 s, main portfolio 1 s, cornering scan 0 s, ESI back-off 0 s; 1,135 ESI calls). A slow run usually means ESI rate limits (back-off) or a first-time lookup of many item types._

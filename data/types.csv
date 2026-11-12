@@ -403,6 +403,7 @@ type_id,name,volume,group_id
 13809,Dark Blood Small Focused Beam Laser,5,53
 13815,Dark Blood Mega Pulse Laser,20,53
 13824,,10,
+13828,True Sansha Heavy Pulse Laser,,
 13829,,5,53
 13832,True Sansha Mega Pulse Laser,20,
 13865,Dread Guristas 125mm Railgun,,
@@ -1522,7 +1523,7 @@ type_id,name,volume,group_id
 42201,Low-grade Asklepian Epsilon,1,
 42203,Low-grade Asklepian Omega,1,300
 42204,,1,300
-42205,Mid-grade Asklepian Beta,1,
+42205,Mid-grade Asklepian Beta,1,300
 42206,Mid-grade Asklepian Gamma,1,300
 42207,Mid-grade Asklepian Delta,1,300
 42208,Mid-grade Asklepian Epsilon,1,

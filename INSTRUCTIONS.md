@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Wed 11 Nov 22:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 27 · **Est. time:** 23 min. Work top to bottom; stop any time.  
+**Updated:** Thu 12 Nov 00:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 29 · **Est. time:** 25 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -24,7 +24,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 |---|---|---|---|---|---|
 | 1 | ☐ Black Market 'Valdimar' Drone Navigation DN-701 | 249,800,000 | **249,900,000** | 131,200,000 | 250,000,000 |
 | 2 | ☐ Capital I-a Enduring Armor Repairer | 199,700,000 | **199,700,000** | 91,990,000 | 199,800,000 |
-| 3 | ☐ Dread Guristas Rocket Launcher | 99,370,000 | **99,370,000** | 48,990,000 | 99,380,000 |
+| 3 | ☐ Dread Guristas Rocket Launcher | 99,370,000 | **99,360,000** | 48,990,000 | 99,370,000 |
 | 4 | ☐ Men's 'Precision' Boots | 99,990,000 | **99,990,000** | 51,550,000 | 100,000,000 |
 | 5 | ☐ Standup M-Set Basic Small Ship Manufacturing Material Efficiency I | 699,600,000 | **699,600,000** | 347,300,000 | 699,700,000 |
 | 6 | ☐ Typhoon Fleet Issue Capsuleer Elite XX SKIN | 815,900,000 | **815,900,000** | 435,300,000 | - |
@@ -69,31 +69,33 @@ _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Ne
 
 ## At Jita IV - Moon 4 - Caldari Navy Assembly Plant
 
-### Block 1 · must do · about 6 min
+### Block 1 · must do · about 7 min
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 14 | ☐ Compressed Arkonor IV-Grade | 32,255 | **3,570** | 3,712 | 3,569 |
-| 15 | ☐ Fullerite-C32 | 4,722 | **18,790** | 19,840 | 18,780 |
-| 16 | ☐ Guristas Brass Tag | 5 | **31,150,000** | 31,560,000 | 31,140,000 |
-| 17 | ☐ Imperial Navy Large EMP Smartbomb | 2 | **167,800,000** | 168,800,000 | 167,700,000 |
-| 18 | ☐ Poteque 'Prospector' Astrometric Rangefinding AR-810 | 1 | **161,100,000** | 175,500,000 | 161,000,000 |
-| 19 | ☐ Zainou 'Gnome' Shield Operation SP-905 | 1 | **90,330,000** | 106,800,000 | 90,320,000 |
+| 14 | ☐ Capital Compact Pb-Acid Cap Battery | 2 | **9,472,000** | 14,950,000 | 9,471,000 |
+| 15 | ☐ Compressed Fullerite-C60 | 26,724 | **6,004** | 6,097 | 6,003 |
+| 16 | ☐ Guristas Brass Tag | 5 | **31,110,000** | 31,550,000 | 31,100,000 |
+| 17 | ☐ Mercury | 41,082 | **2,901** | 2,991 | 2,900 |
+| 18 | ☐ Poteque 'Prospector' Astrometric Rangefinding AR-810 | 1 | **161,200,000** | 175,500,000 | 161,100,000 |
+| 19 | ☐ Siren II | 7 | **24,080,000** | 24,520,000 | 24,070,000 |
+| 20 | ☐ Zainou 'Gnome' Shield Operation SP-905 | 1 | **90,340,000** | 106,800,000 | 90,330,000 |
 
-### Block 2 · should do · about 4 min
+### Block 2 · should do · about 5 min
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 20 | ☐ CONCORD Capital Remote Shield Booster | 1 | **237,500,000** | 246,300,000 | 237,400,000 |
-| 21 | ☐ Low-grade Centurion Alpha | 2 | **10,570,000** | 15,020,000 | 10,560,000 |
-| 22 | ☐ Metamorphosis | 3 | **48,170,000** | 49,520,000 | 48,160,000 |
-| 23 | ☐ ORE Ice Mining Laser | 1 | **59,070,000** | 70,660,000 | 59,060,000 |
+| 21 | ☐ Fullerite-C32 | 4,681 | **18,840** | 19,840 | 18,830 |
+| 22 | ☐ Imperial Navy Large EMP Smartbomb | 1 | **168,700,000** | 169,100,000 | 168,600,000 |
+| 23 | ☐ Low-grade Centurion Alpha | 2 | **10,570,000** | 15,020,000 | 10,560,000 |
+| 24 | ☐ Metamorphosis | 3 | **48,170,000** | 49,520,000 | 48,160,000 |
+| 25 | ☐ ORE Ice Mining Laser | 1 | **59,080,000** | 70,660,000 | 59,070,000 |
 
 ### Block 3 · if there's time · about 3 min
 
@@ -102,22 +104,22 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 24 | ☐ 50MN Microwarpdrive II | 1 | **4,198,000** | 3,751,000 | 4,199,000 |
-| 25 | ☐ Compressed Gneiss IV-Grade | 1 | **2,635** | 2,550 | 2,636 |
+| 26 | ☐ 50MN Microwarpdrive II | 1 | **4,198,000** | 3,751,000 | 4,199,000 |
+| 27 | ☐ Compressed Gneiss IV-Grade | 1 | **2,635** | 2,550 | 2,636 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 26 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,642,000** | 3,711,000 | 3,641,000 |
+| 28 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,647,000** | 3,711,000 | 3,646,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 27 | ☐ Mercury | 30,116 | **2,900** | 2,986 | 2,899 |
+| 29 | ☐ Domination Ballistic Control System | 1 | **108,800,000** | 109,100,000 | 108,700,000 |
 
 ---
 Wallet 1.62B · escrow 140.91M · stock 3.13B · in transit 0.00 · net worth 4.88B (liquidation 2.46B)
