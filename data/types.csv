@@ -292,6 +292,7 @@ type_id,name,volume,group_id
 11563,,20,339
 11577,Improved Cloaking Device II,100,330
 11578,Covert Ops Cloaking Device II,100,330
+11644,Kinetic Armor Hardener II,5,328
 11646,Explosive Armor Hardener II,5,328
 11648,,5,328
 11688,,1,
@@ -551,7 +552,7 @@ type_id,name,volume,group_id
 15898,Caldari Navy Small Shield Booster,5,
 15900,Caldari Navy Large Shield Booster,,
 15902,Republic Fleet Small Shield Booster,5,40
-15905,,5,
+15905,Caldari Navy Shield Boost Amplifier,5,338
 15907,Republic Fleet Shield Boost Amplifier,5,338
 15909,Caldari Navy EM Shield Amplifier,5,
 15931,Caldari Navy Large Graviton Smartbomb,50,72
@@ -1123,6 +1124,7 @@ type_id,name,volume,group_id
 28324,,0.025,
 28332,,0.025,83
 28334,,0.0125,
+28336,Republic Fleet Depleted Uranium S,,
 28361,Drone Synaptic Relay Wiring,0.01,886
 28362,Drone Capillary Fluid,0.02,886
 28363,Drone Cerebral Fragment,0.03,886
@@ -1442,6 +1444,7 @@ type_id,name,volume,group_id
 37298,Dual Giga Pulse Laser II,1000,53
 37302,Ion Siege Blaster II,1000,
 37306,Hexa 2500mm Repeating Cannon II,1000,
+37450,,5,54
 37452,ORE Ice Mining Laser,5,54
 37454,,2500,
 37456,,2500,
@@ -1619,6 +1622,7 @@ type_id,name,volume,group_id
 47466,Praxis,50000,27
 47532,,0.01,1950
 47700,Unstable Stasis Webifier Mutaplasmid,1,1964
+47701,Gravid Stasis Webifier Mutaplasmid,1,1964
 47752,Gravid 10MN Afterburner Mutaplasmid,1,
 47771,,1,
 47783,Unstable Medium Shield Booster Mutaplasmid,,
@@ -1841,6 +1845,7 @@ type_id,name,volume,group_id
 62455,Compressed Brimful Bitumens,0.1,1884
 62456,Compressed Glistening Bitumens,,
 62457,,0.1,1884
+62458,Compressed Brimful Coesite,0.1,1884
 62459,,0.1,1884
 62460,Compressed Sylvite,0.1,1884
 62461,Compressed Brimful Sylvite,0.1,1884
