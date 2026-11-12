@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Thu 12 Nov 13:55 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Thu 12 Nov 14:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 30 · **Est. time:** 25 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -78,12 +78,12 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 15 | ☐ 800mm Repeating Cannon II | 27 | **3,095,000** | 3,285,000 | 3,094,000 |
-| 16 | ☐ Capital Compact Pb-Acid Cap Battery | 2 | **9,472,000** | 15,020,000 | 9,471,000 |
-| 17 | ☐ Compressed Arkonor IV-Grade | 32,691 | **3,582** | 3,702 | 3,581 |
-| 18 | ☐ Dysporite | 1,492 | **16,010** | 21,350 | 16,000 |
+| 16 | ☐ Caldari Navy Rapid Heavy Missile Launcher | 1 | **58,210,000** | 68,800,000 | 58,200,000 |
+| 17 | ☐ Capital Compact Pb-Acid Cap Battery | 2 | **9,472,000** | 15,020,000 | 9,471,000 |
+| 18 | ☐ Dysporite | 1,493 | **16,010** | 21,350 | 16,000 |
 | 19 | ☐ Jaguar | 4 | **14,220,000** | 16,360,000 | 14,210,000 |
-| 20 | ☐ Low-grade Crystal Gamma | 2 | **57,080,000** | 62,000,000 | 57,070,000 |
-| 21 | ☐ Mid-grade Snake Epsilon | 1 | **140,500,000** | 167,100,000 | 140,400,000 |
+| 20 | ☐ Mid-grade Snake Epsilon | 1 | **140,500,000** | 167,100,000 | 140,400,000 |
+| 21 | ☐ Republic Fleet Warp Disruptor | 1 | **95,030,000** | 99,810,000 | 95,020,000 |
 
 ### Block 2 · should do · about 5 min
 

@@ -1,4 +1,4 @@
-# Summary · Thu 12 Nov 13:55 PST
+# Summary · Thu 12 Nov 14:00 PST
 
 Updated every ~2 hours. **Your real character** is the first section; everything after it is the **practice trader** (pretend ISK, real market data). Each section starts with a line on how to read it.
 
@@ -89,11 +89,11 @@ _Market size = ISK spent per day buying from sell orders in that station. Items 
 
 | Hub | Market size/day | Station items | Station profit/day | Import items | Import profit/day |
 |---|---|---|---|---|---|
-| jita | 5.30T | 32 | 65.27M | - | - |
-| amarr | 508.94B | 6 | 7.60M | 33 | 71.75M |
-| dodixie | 158.29B | 1 | 958.94k | 53 | 100.81M |
-| rens | 31.74B | 0 | - | 10 | 33.25M |
-| hek | 68.69B | 0 | - | 22 | 65.55M |
+| jita | 5.30T | 32 | 63.20M | - | - |
+| amarr | 509.29B | 6 | 7.60M | 33 | 71.74M |
+| dodixie | 158.39B | 1 | 959.09k | 50 | 97.67M |
+| rens | 31.73B | 0 | - | 10 | 33.24M |
+| hek | 68.67B | 0 | - | 22 | 65.66M |
 
 ## 8. Best items to trade inside Jita
 _Buy at the highest buy price + 1 tick, sell at the lowest sell price − 1 tick. Margin is after all fees. On top = how much of the time between your logins our order would stay the best price before a rival undercuts it (sell side / buy side). Limited by = which resource it eats most: order slots, ISK, or your time._
@@ -101,17 +101,17 @@ _Buy at the highest buy price + 1 tick, sell at the lowest sell price − 1 tick
 | Item | Buy → sell price | Margin | Sold per day | On top (sell/buy) | Profit/day | Limited by |
 |---|---|---|---|---|---|---|
 | Low-grade Centurion Alpha | 10.57M → 16.99M | 51.4% | 0.4 | 100% / 88% | 2.16M | time |
-| Low-grade Crystal Gamma | 57.08M → 70.13M | 15.4% | 0.3 | 29% / 68% | 2.62M | time |
 | Capital Compact Pb-Acid Cap Battery | 9.47M → 16.99M | 69.1% | 0.4 | 14% / 74% | 2.60M | time |
-| Compressed Gelidus | 400.10k → 479.70k | 12.6% | 47.4 | 45% / 38% | 2.27M | time |
-| Compressed Arkonor IV-Grade | 3.58k → 4.19k | 9.7% | 8172.6 | 13% / 24% | 2.61M | time |
+| Compressed Gelidus | 400.10k → 479.70k | 12.6% | 47.3 | 45% / 38% | 2.27M | time |
 | Jaguar | 14.22M → 18.51M | 22.3% | 0.8 | 6% / 19% | 2.52M | time |
 | Imperial Navy Small Focused Beam Laser | 26.55M → 39.98M | 41.7% | 0.2 | 34% / 58% | 2.01M | time |
 | Coreli B-Type 1MN Afterburner | 29.29M → 38.97M | 25.1% | 0.3 | 21% / 61% | 2.06M | time |
 | Mid-grade Snake Epsilon | 140.50M → 189.00M | 26.5% | 0.1 | 8% / 6% | 2.50M | time |
-| Dysporite | 16.01k → 24.15k | 42.0% | 373.0 | 6% / 3% | 2.44M | time |
-| Compressed Malachite Mykoserocin | 77.05k → 87.34k | 6.3% | 552.5 | 13% / 11% | 2.33M | time |
+| Dysporite | 16.01k → 24.15k | 42.0% | 373.1 | 6% / 3% | 2.44M | time |
+| Compressed Malachite Mykoserocin | 77.05k → 87.34k | 6.3% | 552.7 | 13% / 11% | 2.33M | time |
 | 800mm Repeating Cannon II | 3.10M → 3.72M | 12.7% | 6.5 | 3% / 11% | 2.39M | time |
+| Republic Fleet Warp Disruptor | 95.03M → 112.90M | 11.5% | 0.2 | 5% / 6% | 2.40M | time |
+| Caldari Navy Rapid Heavy Missile Launcher | 58.21M → 77.82M | 25.7% | 0.2 | 1% / 5% | 2.41M | time |
 
 ## 9. Best items to import Jita → Amarr
 _Buy from Jita sellers, ship by courier, sell just under the cheapest seller there. Margin is after shipping and fees. m³ = cargo volume per unit._
@@ -120,14 +120,14 @@ _Buy from Jita sellers, ship by courier, sell just under the cheapest seller the
 |---|---|---|---|---|---|---|---|
 | Improved 'Guise' Cloaking Device II | 27.47M → 49.96M | 100.0 | 68.4% | 0.3 | 52% | 5.32M | time |
 | ORE Mining Director Mindlink | 559.00M → 689.30M | 1.0 | 12.7% | 0.1 | 41% | 5.46M | ISK |
-| Legion Mjolnir Auto-Targeting Light Missile | 998.00 → 2.31k | 0.0 | 116.1% | 3270.7 | 88% | 3.79M | time |
+| Legion Mjolnir Auto-Targeting Light Missile | 998.00 → 2.31k | 0.0 | 116.1% | 3269.1 | 88% | 3.78M | time |
 | High-grade Nirvana Alpha | 237.30M → 291.40M | 1.0 | 12.2% | 0.1 | 48% | 3.36M | time |
 | Zero-Point Mass Entangler | 7.80M → 9.75M | 50.0 | 14.3% | 2.8 | 23% | 3.09M | time |
-| Caesium | 5.41k → 6.78k | 0.1 | 14.6% | 3402.3 | 61% | 2.67M | time |
+| Caesium | 5.41k → 6.78k | 0.1 | 14.6% | 3401.3 | 61% | 2.67M | time |
 | Mid-grade Asklepian Omega | 309.90M → 384.50M | 1.0 | 13.4% | 0.1 | 16% | 2.95M | time |
-| Mobile Large Warp Disruptor I | 16.31M → 24.88M | 585.0 | 40.5% | 0.4 | 31% | 2.77M | time |
+| Mobile Large Warp Disruptor I | 16.31M → 24.88M | 585.0 | 40.5% | 0.4 | 31% | 2.78M | time |
 | Standup Moon Drill I | 115.00M → 144.80M | 8,000.0 | 12.1% | 0.2 | 87% | 2.33M | time |
-| Gravimetric Sensor Cluster | 19.43k → 30.95k | 1.0 | 45.8% | 261.7 | 54% | 2.32M | time |
+| Gravimetric Sensor Cluster | 19.43k → 30.95k | 1.0 | 45.8% | 261.6 | 54% | 2.32M | time |
 | Dread Guristas Multispectrum Shield Hardener | 214.00M → 258.30M | 5.0 | 10.2% | 0.1 | 9% | 2.55M | time |
 | Medium EM Armor Reinforcer II | 8.88M → 10.75M | 10.0 | 10.5% | 2.4 | 62% | 2.21M | time |
 
@@ -152,10 +152,10 @@ _Is the market data flowing? Orders = orders seen in the station · Hours today 
 
 | Hub | Orders | Hours today | Trades seen | Note |
 |---|---|---|---|---|
-| jita | 335,542 | 22.2 | 8,245 |  |
-| amarr | 126,905 | 22.2 | 2,342 |  |
-| dodixie | 66,381 | 22.2 | 1,411 |  |
-| rens | 31,744 | 22.2 | 464 |  |
-| hek | 40,346 | 22.2 | 607 |  |
+| jita | 335,578 | 22.2 | 790 |  |
+| amarr | 126,883 | 22.2 | 171 |  |
+| dodixie | 66,391 | 22.2 | 132 |  |
+| rens | 31,732 | 22.2 | 31 |  |
+| hek | 40,338 | 22.2 | 67 |  |
 
-_This run took 46 s (market data 19 s, stats and character 5 s, experiments 19 s, main portfolio 2 s, cornering scan 1 s, ESI back-off 0 s; 1,159 ESI calls). A slow run usually means ESI rate limits (back-off) or a first-time lookup of many item types._
+_This run took 40 s (market data 16 s, stats and character 4 s, experiments 17 s, main portfolio 2 s, cornering scan 1 s, ESI back-off 0 s; 1,149 ESI calls). A slow run usually means ESI rate limits (back-off) or a first-time lookup of many item types._
