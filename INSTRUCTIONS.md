@@ -3,13 +3,13 @@
 
 # Session checklist
 
-**Updated:** Thu 12 Nov 05:59 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 29 · **Est. time:** 24 min. Work top to bottom; stop any time.  
+**Updated:** Thu 12 Nov 08:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 30 · **Est. time:** 25 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
 
-_Left out 5 small steps worth less than 976.50k per minute of your time (0.02% of net worth per minute)._
+_Left out 4 small steps worth less than 976.50k per minute of your time (0.02% of net worth per minute)._
 
 Each hub's steps come in **priority blocks**: finish Block 1 before anything else, and stop wherever your time runs out. Within a block, steps follow the in-game windows for speed.
 
@@ -63,14 +63,14 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
 | 12 | ☐ Legion Scourge Auto-Targeting Cruise Missile | 1 | **3,213** | 2,393 | 3,214 |
-| 13 | ☐ Void XL | 2,434 | **4,682** | 3,289 | 4,683 |
+| 13 | ☐ Void XL | 2,434 | **4,680** | 3,289 | 4,681 |
 
 ## 14. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
 _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
 
 ## At Jita IV - Moon 4 - Caldari Navy Assembly Plant
 
-### Block 1 · must do · about 6 min
+### Block 1 · must do · about 7 min
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
@@ -78,11 +78,12 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 15 | ☐ Capital Compact Pb-Acid Cap Battery | 2 | **9,472,000** | 14,950,000 | 9,471,000 |
-| 16 | ☐ Compressed Arkonor IV-Grade | 32,907 | **3,582** | 3,708 | 3,581 |
-| 17 | ☐ Compressed Malachite Mykoserocin | 2,209 | **77,020** | 77,360 | 77,010 |
-| 18 | ☐ Glorified Gravid Stasis Webifier Mutaplasmid | 1 | **53,060,000** | 79,330,000 | 53,050,000 |
-| 19 | ☐ Mercury | 42,032 | **2,907** | 2,986 | 2,906 |
-| 20 | ☐ Poteque 'Prospector' Astrometric Rangefinding AR-810 | 1 | **161,200,000** | 176,100,000 | 161,100,000 |
+| 16 | ☐ Compressed Arkonor IV-Grade | 33,244 | **3,582** | 3,708 | 3,581 |
+| 17 | ☐ Compressed Gneiss II-Grade | 47,856 | **2,309** | 2,409 | 2,308 |
+| 18 | ☐ Low-grade Crystal Gamma | 2 | **57,080,000** | 61,960,000 | 57,070,000 |
+| 19 | ☐ Poteque 'Prospector' Astrometric Rangefinding AR-810 | 1 | **161,200,000** | 176,000,000 | 161,100,000 |
+| 20 | ☐ Siren II | 7 | **24,080,000** | 24,510,000 | 24,070,000 |
+| 21 | ☐ Thukker Small Cap Battery | 3 | **19,170,000** | 23,210,000 | 19,160,000 |
 
 ### Block 2 · should do · about 5 min
 
@@ -91,11 +92,11 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 21 | ☐ Compressed Brimful Coesite | 78,720 | **685.10** | 758.50 | 685.00 |
-| 22 | ☐ Cultural Semiosis Data | 2 | **60,150,000** | 64,410,000 | 60,140,000 |
-| 23 | ☐ Guristas Brass Tag | 5 | **31,130,000** | 31,540,000 | 31,120,000 |
-| 24 | ☐ High-grade Asklepian Gamma | 1 | **178,200,000** | 188,100,000 | 178,100,000 |
-| 25 | ☐ Large Disintegrator Specialization | 1 | **112,000,000** | 116,500,000 | 111,900,000 |
+| 22 | ☐ Compressed Malachite Mykoserocin | 2,232 | **77,020** | 77,340 | 77,010 |
+| 23 | ☐ Coreli B-Type 1MN Afterburner | 2 | **29,280,000** | 34,470,000 | 29,270,000 |
+| 24 | ☐ High-grade Asklepian Gamma | 1 | **178,200,000** | 188,000,000 | 178,100,000 |
+| 25 | ☐ Low-grade Centurion Alpha | 2 | **10,570,000** | 15,020,000 | 10,560,000 |
+| 26 | ☐ Warp Disruption Mutaplasmid Residue | 830 | **29,010** | 37,970 | 29,000 |
 
 ### Block 3 · if there's time · about 3 min
 
@@ -104,22 +105,16 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 26 | ☐ 50MN Microwarpdrive II | 1 | **4,098,000** | 3,751,000 | 4,099,000 |
-| 27 | ☐ Compressed Gneiss IV-Grade | 1 | **2,599** | 2,550 | 2,600 |
+| 27 | ☐ 50MN Microwarpdrive II | 1 | **4,099,000** | 3,751,000 | 4,100,000 |
+| 28 | ☐ Compressed Gneiss IV-Grade | 1 | **2,598** | 2,550 | 2,599 |
+| 29 | ☐ Compressed Mordunium IV-Grade | 5 | **27.39** | 20.97 | 27.40 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 28 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,623,000** | 3,623,000 | 3,646,000 |
-
-#### New buy orders
-_Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
-
-| # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
-|---|---|---|---|---|---|
-| 29 | ☐ Low-grade Centurion Alpha | 2 | **10,570,000** | 15,020,000 | 10,560,000 |
+| 30 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,624,000** | 3,624,000 | 3,647,000 |
 
 ---
 Wallet 1.62B · escrow 140.91M · stock 3.13B · in transit 0.00 · net worth 4.88B (liquidation 2.46B)

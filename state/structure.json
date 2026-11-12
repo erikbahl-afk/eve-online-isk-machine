@@ -1,20 +1,55 @@
 {
- "ask_ratio_median": 1.0717,
- "buy_orders": 6293,
- "buy_orders_reaching_jita": 6217,
+ "ask_ratio_median": 1.0503,
+ "buy_orders": 6266,
+ "buy_orders_reaching_jita": 6190,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6628,
- "sell_orders": 335,
- "share_ask_below_jita": 0.2628,
+ "orders": 6635,
+ "sell_orders": 369,
+ "share_ask_below_jita": 0.3235,
  "structure_id": 1042508032148,
- "t": 1794492015.2668982,
+ "t": 1794499247.3355727,
  "top_ask_below_jita": [
+  {
+   "best_ask": 900.0,
+   "gap": 0.9982,
+   "name": "",
+   "s_ask": 1.66,
+   "type_id": 90470
+  },
+  {
+   "best_ask": 70800.0,
+   "gap": 0.9526,
+   "name": "",
+   "s_ask": 3356.0,
+   "type_id": 84408
+  },
+  {
+   "best_ask": 33890.0,
+   "gap": 0.941,
+   "name": "",
+   "s_ask": 1999.0,
+   "type_id": 84399
+  },
+  {
+   "best_ask": 200000.0,
+   "gap": 0.8406,
+   "name": "",
+   "s_ask": 31880.0,
+   "type_id": 47809
+  },
   {
    "best_ask": 169900.0,
    "gap": 0.8234,
    "name": "",
    "s_ask": 30000.0,
    "type_id": 3301
+  },
+  {
+   "best_ask": 63370.0,
+   "gap": 0.8231,
+   "name": "",
+   "s_ask": 11210.0,
+   "type_id": 90458
   },
   {
    "best_ask": 15000000.0,
@@ -24,11 +59,39 @@
    "type_id": 63870
   },
   {
+   "best_ask": 12130.0,
+   "gap": 0.7387,
+   "name": "",
+   "s_ask": 3169.0,
+   "type_id": 90466
+  },
+  {
+   "best_ask": 4351.0,
+   "gap": 0.6957,
+   "name": "",
+   "s_ask": 1324.0,
+   "type_id": 90590
+  },
+  {
    "best_ask": 2747000.0,
    "gap": 0.636,
    "name": "",
    "s_ask": 1000000.0,
    "type_id": 46947
+  },
+  {
+   "best_ask": 11370.0,
+   "gap": 0.561,
+   "name": "",
+   "s_ask": 4991.0,
+   "type_id": 84409
+  },
+  {
+   "best_ask": 1842.0,
+   "gap": 0.5516,
+   "name": "",
+   "s_ask": 826.0,
+   "type_id": 90457
   },
   {
    "best_ask": 85000000.0,
@@ -50,69 +113,6 @@
    "name": "",
    "s_ask": 2500000.0,
    "type_id": 48222
-  },
-  {
-   "best_ask": 69440000.0,
-   "gap": 0.496,
-   "name": "",
-   "s_ask": 35000000.0,
-   "type_id": 48220
-  },
-  {
-   "best_ask": 21820000.0,
-   "gap": 0.4959,
-   "name": "",
-   "s_ask": 11000000.0,
-   "type_id": 44906
-  },
-  {
-   "best_ask": 198000000.0,
-   "gap": 0.4949,
-   "name": "",
-   "s_ask": 100000000.0,
-   "type_id": 45919
-  },
-  {
-   "best_ask": 38950000.0,
-   "gap": 0.4865,
-   "name": "",
-   "s_ask": 20000000.0,
-   "type_id": 44932
-  },
-  {
-   "best_ask": 113800000.0,
-   "gap": 0.4728,
-   "name": "",
-   "s_ask": 60000000.0,
-   "type_id": 48221
-  },
-  {
-   "best_ask": 254300.0,
-   "gap": 0.4691,
-   "name": "",
-   "s_ask": 135000.0,
-   "type_id": 3324
-  },
-  {
-   "best_ask": 2384000.0,
-   "gap": 0.4677,
-   "name": "Medium Core Defense Field Extender I",
-   "s_ask": 1269000.0,
-   "type_id": 31790
-  },
-  {
-   "best_ask": 375700000.0,
-   "gap": 0.4677,
-   "name": "",
-   "s_ask": 200000000.0,
-   "type_id": 34650
-  },
-  {
-   "best_ask": 110900000.0,
-   "gap": 0.459,
-   "name": "",
-   "s_ask": 60000000.0,
-   "type_id": 44921
   }
  ],
  "top_bid_over_jita": [
@@ -222,7 +222,7 @@
    "type_id": 49825
   }
  ],
- "types": 3980,
- "types_also_in_jita": 3951,
- "types_bid_over_jita_reaching": 861
+ "types": 3993,
+ "types_also_in_jita": 3964,
+ "types_bid_over_jita_reaching": 832
 }

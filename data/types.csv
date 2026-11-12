@@ -1198,6 +1198,7 @@ type_id,name,volume,group_id
 30251,Neurovisual Input Matrix,,
 30254,Electromechanical Hull Sheeting,0.01,966
 30304,PPD Fullerene Fibers,0.5,974
+30305,,0.8,974
 30306,Methanofullerene,0.75,974
 30310,Carbon-86 Epoxy Resin,,
 30370,Fullerite-C50,1,711
@@ -1372,6 +1373,7 @@ type_id,name,volume,group_id
 33846,Dread Guristas Drone Damage Amplifier,5,645
 33850,Federation Navy Drone Navigation Computer,25,644
 33852,,25,644
+33890,Small Transverse Bulkhead I,,
 33894,Medium Transverse Bulkhead I,10,
 33896,Medium Transverse Bulkhead II,10,773
 33898,Large Transverse Bulkhead I,20,
@@ -1495,7 +1497,7 @@ type_id,name,volume,group_id
 41201,Syndicate Damage Control,5,60
 41202,Sentient Damage Control,5,
 41212,Republic Fleet Small Cap Battery,5,61
-41214,,5,61
+41214,Thukker Small Cap Battery,5,61
 41215,Republic Fleet Medium Cap Battery,10,61
 41217,Thukker Medium Cap Battery,10,61
 41218,Republic Fleet Large Cap Battery,15,61
@@ -1557,7 +1559,7 @@ type_id,name,volume,group_id
 43880,Standup M-Set Invention Accelerator I,,
 43898,,20,
 43920,,10,1816
-44102,,5,512
+44102,Defender Launcher I,5,512
 44993,Pacifier,2500,830
 45009,Standup Moon Drill I,8000,1887
 45482,Capsule YC119 Capsuleer Day SKIN,,
@@ -1955,6 +1957,7 @@ type_id,name,volume,group_id
 85390,Armor Mutaplasmid Residue,0.01,
 85392,Damage Control Mutaplasmid Residue,0.01,1996
 85393,,0.01,1996
+85394,Warp Disruption Mutaplasmid Residue,0.01,1996
 85400,X-Large Mutaplasmid Residue,0.01,1996
 85521,,1,1964
 85559,Glorified Gravid Stasis Webifier Mutaplasmid,1,1964
