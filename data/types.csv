@@ -112,6 +112,7 @@ type_id,name,volume,group_id
 2897,220mm Vulcan AutoCannon II,10,55
 2905,250mm Light Artillery Cannon II,5,55
 2929,800mm Repeating Cannon II,20,
+2945,Dual 425mm AutoCannon II,20,55
 2953,,20,
 2961,1400mm Howitzer Artillery II,20,55
 2969,,10,
@@ -148,7 +149,7 @@ type_id,name,volume,group_id
 3239,Inherent Implants 'Squire' Capacitor Management EM-806,1,741
 3240,Inherent Implants 'Squire' Capacitor Systems Operation EO-602,1,
 3241,Inherent Implants 'Squire' Capacitor Systems Operation EO-604,1,
-3256,,1,
+3256,Inherent Implants 'Squire' Power Grid Management EG-602,1,741
 3257,Inherent Implants 'Squire' Power Grid Management EG-604,1,741
 3265,Zainou 'Gypsy' CPU Management EE-602,1,
 3475,Inherent Implants 'Noble' Mechanic MC-806,1,738
@@ -173,7 +174,7 @@ type_id,name,volume,group_id
 3841,,20,38
 3893,Mining Connections,0.01,
 3894,Distribution Connections,0.01,278
-3895,Security Connections,,
+3895,Security Connections,0.01,278
 3898,Quafe Zero Classic,1,
 3962,Customs Office Gantry,7600,
 3966,Men's 'Precision' Boots,0.1,
@@ -1207,7 +1208,7 @@ type_id,name,volume,group_id
 30374,,2,711
 30375,Fullerite-C28,2,711
 30376,Fullerite-C32,5,711
-30377,Fullerite-C320,,
+30377,Fullerite-C320,5,711
 30378,Fullerite-C540,10,711
 30486,Sisters Combat Scanner Probe,1,
 30488,Sisters Core Scanner Probe,,
@@ -1493,7 +1494,7 @@ type_id,name,volume,group_id
 41191,Sentient Sensor Booster,5,212
 41193,Unit F-435454's Modified Sensor Booster,,
 41197,,5,
-41200,Shadow Serpentis Damage Control,5,
+41200,Shadow Serpentis Damage Control,5,60
 41201,Syndicate Damage Control,5,60
 41202,Sentient Damage Control,5,
 41212,Republic Fleet Small Cap Battery,5,61
@@ -1661,7 +1662,7 @@ type_id,name,volume,group_id
 47917,,10,
 47918,Heavy Entropic Disintegrator II,10,1986
 47919,Veles Heavy Entropic Disintegrator,10,
-47923,,20,
+47923,,20,1986
 47924,Baryon Exotic Plasma S,,
 47927,Mystic S,0.01,
 47928,,0.01,
@@ -1985,6 +1986,7 @@ type_id,name,volume,group_id
 89647,Pioneer Consortium Issue,5000,420
 89648,Venture Consortium Issue,2500,25
 89649,,5000,
+89665,,0.01,1950
 89689,Advanced Armor Layering,,
 90022,Babaroga Deathglow Remnant SKIN,,
 90037,Mobile Phase Anchor,50,

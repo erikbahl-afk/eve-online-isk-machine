@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0503,
- "buy_orders": 6266,
- "buy_orders_reaching_jita": 6190,
+ "ask_ratio_median": 1.0552,
+ "buy_orders": 6226,
+ "buy_orders_reaching_jita": 6151,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6635,
- "sell_orders": 369,
- "share_ask_below_jita": 0.3235,
+ "orders": 6597,
+ "sell_orders": 371,
+ "share_ask_below_jita": 0.3139,
  "structure_id": 1042508032148,
- "t": 1794499247.3355727,
+ "t": 1794506451.7124772,
  "top_ask_below_jita": [
   {
    "best_ask": 900.0,
@@ -17,8 +17,8 @@
    "type_id": 90470
   },
   {
-   "best_ask": 70800.0,
-   "gap": 0.9526,
+   "best_ask": 70000.0,
+   "gap": 0.9521,
    "name": "",
    "s_ask": 3356.0,
    "type_id": 84408
@@ -38,18 +38,18 @@
    "type_id": 47809
   },
   {
+   "best_ask": 68600.0,
+   "gap": 0.8366,
+   "name": "",
+   "s_ask": 11210.0,
+   "type_id": 90458
+  },
+  {
    "best_ask": 169900.0,
    "gap": 0.8234,
    "name": "",
    "s_ask": 30000.0,
    "type_id": 3301
-  },
-  {
-   "best_ask": 63370.0,
-   "gap": 0.8231,
-   "name": "",
-   "s_ask": 11210.0,
-   "type_id": 90458
   },
   {
    "best_ask": 15000000.0,
@@ -195,6 +195,13 @@
   },
   {
    "best_bid": 0.01,
+   "gap": 116799.0,
+   "name": "Caldari Navy Mjolnir Cruise Missile",
+   "s_bid_reach": 1168.0,
+   "type_id": 27377
+  },
+  {
+   "best_bid": 0.01,
    "gap": 11309.0,
    "name": "",
    "s_bid_reach": 113.1,
@@ -213,16 +220,9 @@
    "name": "",
    "s_bid_reach": 111.0,
    "type_id": 27244
-  },
-  {
-   "best_bid": 20000.0,
-   "gap": 6109.0,
-   "name": "",
-   "s_bid_reach": 122200000.0,
-   "type_id": 49825
   }
  ],
- "types": 3993,
- "types_also_in_jita": 3964,
- "types_bid_over_jita_reaching": 832
+ "types": 3978,
+ "types_also_in_jita": 3951,
+ "types_bid_over_jita_reaching": 747
 }
