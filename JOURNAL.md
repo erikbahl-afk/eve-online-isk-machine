@@ -272,3 +272,21 @@
   so list_after_days and the avoid cancel haven't had a chance to act; expected to clear Thursday. Gneiss III idle bid is
   2.33k ISK: noise. Thresholds unchanged.
 - Next: Thu experiments (slots 6/6; reach probe 0.15 vs 0.4 is waiting); Thu night confirm the stale stock got listed.
+
+## 2026-11-12 · experiments (Thursday)
+- Scoreboard since 11-05 23:02 UTC (only 2 sim logins in the window: Thu 05, Sun 08): main -1.88% (legacy imports, liq 50%),
+  no_imports -0.15% (liq 100%), start_1b -1.40% (realized -14M), start_1b_more_time +4.48% (realized +30M, +20M without its best
+  and worst item, 48 trades vs 19), exports -0.30% (liq 77%), seeding -0.64%, rotation -0.61% (both liq 88%). No import sold
+  anywhere: the 11-05 variants' 12 Amarr imports (arrived 11-06) were never listed on Sunday (no Amarr sell broker fee).
+- Exports and seeding: their plans now list that stock first (list_after_days, added Mon), so tonight's login (21:10 PT) fixes it.
+- Bug, rotation: it ships to Amarr but the next login picked the least-visited hub, Dodixie, so ~2.9B of stock sits unlisted
+  in Amarr while the sim is in Dodixie. New `Planner.next_import_hub`: go where unlisted stock is waiting or arriving, else the
+  least-visited hub. Test added; 27 pass. Rotation still returns via Jita first, so its stock lists one session late.
+- Verdicts: all six **extend** (two logins, nothing imported has sold; no basis to adopt or kill). Rotation's clock restarts
+  today (fix); exports/seeding judged from tonight. start_1b pair: extra time leads by ~44M/week on 1B. Projection: at +3%/wk
+  (more_time) 1B → 4B takes ~45 weeks, start_1b is flat to negative; one week, fill-gated only since Sun, so not yet a forecast.
+- Caveat: main carries pre-11-05 legacy imports, so seeding/rotation (~-0.6%) are the best proxy for "fresh main".
+- Slots 6/6 (bold rotation, flex start_1b_more_time); reach probe (pick_min_reach 0.15 vs 0.4) still waiting for a slot.
+- Alerts: liquidation 50% and Typhoon SKIN 8.6% (legacy imports, hold, as Sat). Stale Amarr stock (Keys, Void XL, Legion missile)
+  and the Tetryon XL bid (avoid): no sim login since Sun; tonight's login lists/cancels them. Gneiss III bid (2.33k): noise.
+- Next: Fri review: confirm tonight listed main's and exports/seeding's Amarr stock; first import sales.

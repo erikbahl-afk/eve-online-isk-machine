@@ -301,3 +301,17 @@ def test_top_check_flags_undercut_and_predicts_survival():
     assert rows[0][4] == 1.0 and rows[0][5] == 1      # quiet item, still on top
     assert rows[1][5] == 0 and abs(rows[1][4] - 0.1353) < 1e-3   # undercut; 2 rival updates expected
     assert rows[2][5] == 1 and abs(rows[2][4] - 0.3679) < 1e-3   # tie with best bid counts as top
+
+
+def test_rotation_goes_where_stock_waits():
+    from trader.strategy import Planner
+    pl = Planner.__new__(Planner)
+    pl.import_hubs = ["dodixie", "amarr"]
+    pl.pf = {"visits": {}, "in_transit": [], "inventory": {"amarr": {"7": {"qty": 2, "cost": 100.0, "since": 0}}}}
+    assert pl.next_import_hub() == "amarr"  # stock waits in amarr, even though dodixie was never visited
+    pl.pf = {"visits": {"amarr": 5}, "inventory": {}, "in_transit": [{"to": "dodixie", "value": 9.0}]}
+    assert pl.next_import_hub() == "dodixie"
+    pl.pf = {"visits": {"amarr": 5, "dodixie": 3}, "inventory": {}, "in_transit": []}
+    assert pl.next_import_hub() == "dodixie"  # nothing waiting: least recently visited
+    pl.import_hubs = []
+    assert pl.next_import_hub() is None

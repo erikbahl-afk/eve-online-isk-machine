@@ -482,11 +482,23 @@ class Planner:
             done += secs
 
     # ---- assemble ---------------------------------------------------------------
+    def next_import_hub(self):
+        """With several import hubs: go where unlisted stock is waiting (or arriving), else the one seen least
+        recently. Stock shipped to a hub we then skip sat unlisted for days (rotation, Nov 2026)."""
+        if not self.import_hubs:
+            return None
+        waiting = {h: sum(it["cost"] * it["qty"] for it in self.pf["inventory"].get(h, {}).values())
+                   + sum(c.get("value", 0.0) for c in self.pf.get("in_transit", []) if c.get("to") == h)
+                   for h in self.import_hubs}
+        if max(waiting.values()) > 0:
+            return max(self.import_hubs, key=lambda h: waiting[h])
+        visits = self.pf.get("visits", {})
+        return min(self.import_hubs, key=lambda h: visits.get(h, 0))
+
     def plan(self):
         L = self.pf["location"]
-        if L == self.home:  # with several import hubs, visit the one seen least recently
-            visits = self.pf.get("visits", {})
-            O = min(self.import_hubs, key=lambda h: visits.get(h, 0)) if self.import_hubs else None
+        if L == self.home:
+            O = self.next_import_hub()
         else:
             O = self.home
         budget = self.s["plan_seconds"] - self.c["secs_overhead"]
