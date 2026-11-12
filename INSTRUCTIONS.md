@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Thu 12 Nov 10:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Thu 12 Nov 10:20 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 30 · **Est. time:** 25 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -78,11 +78,11 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 15 | ☐ Capital Compact Pb-Acid Cap Battery | 2 | **9,472,000** | 14,950,000 | 9,471,000 |
-| 16 | ☐ Cultural Semiosis Data | 2 | **60,140,000** | 63,680,000 | 60,130,000 |
+| 16 | ☐ Cultural Semiosis Data | 2 | **60,140,000** | 63,660,000 | 60,130,000 |
 | 17 | ☐ Low-grade Crystal Gamma | 2 | **57,080,000** | 62,000,000 | 57,070,000 |
 | 18 | ☐ Poteque 'Prospector' Astrometric Rangefinding AR-810 | 1 | **161,200,000** | 176,100,000 | 161,100,000 |
-| 19 | ☐ Thukker Large Cap Battery | 3 | **45,690,000** | 48,070,000 | 45,680,000 |
-| 20 | ☐ Thukker Small Cap Battery | 2 | **19,270,000** | 23,190,000 | 19,260,000 |
+| 19 | ☐ Thukker Large Cap Battery | 3 | **45,750,000** | 48,070,000 | 45,740,000 |
+| 20 | ☐ Thukker Small Cap Battery | 2 | **19,290,000** | 23,190,000 | 19,280,000 |
 | 21 | ☐ Zainou 'Beancounter' Reprocessing RX-804 | 1 | **123,200,000** | 131,900,000 | 123,100,000 |
 
 ### Block 2 · should do · about 5 min
@@ -92,11 +92,11 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 22 | ☐ Compressed Malachite Mykoserocin | 2,253 | **77,020** | 77,340 | 77,010 |
+| 22 | ☐ Compressed Malachite Mykoserocin | 2,256 | **77,020** | 77,340 | 77,010 |
 | 23 | ☐ Coreli B-Type 1MN Afterburner | 2 | **29,290,000** | 34,460,000 | 29,280,000 |
 | 24 | ☐ Imperial Navy Small Focused Beam Laser | 1 | **26,550,000** | 35,340,000 | 26,540,000 |
 | 25 | ☐ Low-grade Centurion Alpha | 2 | **10,570,000** | 15,020,000 | 10,560,000 |
-| 26 | ☐ Warp Disruption Mutaplasmid Residue | 837 | **29,010** | 37,970 | 29,000 |
+| 26 | ☐ Warp Disruption Mutaplasmid Residue | 829 | **29,010** | 37,970 | 29,000 |
 
 ### Block 3 · if there's time · about 3 min
 
@@ -105,7 +105,7 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 27 | ☐ 50MN Microwarpdrive II | 1 | **4,098,000** | 3,751,000 | 4,099,000 |
+| 27 | ☐ 50MN Microwarpdrive II | 1 | **4,099,000** | 3,751,000 | 4,100,000 |
 | 28 | ☐ Compressed Gneiss IV-Grade | 1 | **2,598** | 2,550 | 2,599 |
 | 29 | ☐ Compressed Mordunium IV-Grade | 5 | **27.39** | 20.97 | 27.40 |
 
@@ -114,7 +114,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 30 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,623,000** | 3,623,000 | 3,647,000 |
+| 30 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,624,000** | 3,624,000 | 3,647,000 |
 
 ---
 Wallet 1.62B · escrow 140.91M · stock 3.13B · in transit 0.00 · net worth 4.88B (liquidation 2.46B)
