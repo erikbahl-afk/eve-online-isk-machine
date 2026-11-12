@@ -1,4 +1,4 @@
-# Summary · Thu 12 Nov 01:50 PST
+# Summary · Thu 12 Nov 02:00 PST
 
 Updated every ~2 hours. **Your real character** is the first section; everything after it is the **practice trader** (pretend ISK, real market data). Each section starts with a line on how to read it.
 
@@ -89,11 +89,11 @@ _Market size = ISK spent per day buying from sell orders in that station. Items 
 
 | Hub | Market size/day | Station items | Station profit/day | Import items | Import profit/day |
 |---|---|---|---|---|---|
-| jita | 5.28T | 23 | 47.64M | - | - |
-| amarr | 496.67B | 3 | 4.75M | 29 | 58.69M |
-| dodixie | 155.39B | 2 | 1.55M | 42 | 90.90M |
-| rens | 30.41B | 0 | - | 8 | 32.76M |
-| hek | 66.16B | 1 | 638.70k | 17 | 44.98M |
+| jita | 5.28T | 23 | 45.34M | - | - |
+| amarr | 496.61B | 3 | 4.75M | 28 | 55.65M |
+| dodixie | 155.71B | 2 | 1.56M | 42 | 91.66M |
+| rens | 30.38B | 0 | - | 8 | 32.74M |
+| hek | 66.40B | 1 | 638.75k | 17 | 44.92M |
 
 ## 8. Best items to trade inside Jita
 _Buy at the highest buy price + 1 tick, sell at the lowest sell price − 1 tick. Margin is after all fees. On top = how much of the time between your logins our order would stay the best price before a rival undercuts it (sell side / buy side). Limited by = which resource it eats most: order slots, ISK, or your time._
@@ -101,17 +101,17 @@ _Buy at the highest buy price + 1 tick, sell at the lowest sell price − 1 tick
 | Item | Buy → sell price | Margin | Sold per day | On top (sell/buy) | Profit/day | Limited by |
 |---|---|---|---|---|---|---|
 | Low-grade Centurion Alpha | 10.57M → 16.99M | 51.4% | 0.4 | 100% / 86% | 2.24M | time |
-| Compressed Fullerite-C60 | 6.00k → 6.90k | 7.8% | 6675.9 | 3% / 7% | 2.74M | time |
-| Unstable Modulated Strip Miner Mutaplasmid | 60.81M → 72.62M | 12.1% | 0.4 | 1% / 2% | 2.73M | time |
 | Poteque 'Prospector' Astrometric Rangefinding AR-810 | 161.20M → 198.60M | 15.7% | 0.1 | 6% / 12% | 2.60M | time |
-| Dark Blood Stasis Webifier | 98.89M → 119.80M | 13.7% | 0.2 | 2% / 3% | 2.67M | time |
+| Dark Blood Stasis Webifier | 98.91M → 119.80M | 13.7% | 0.2 | 2% / 3% | 2.65M | time |
 | Corpus X-Type Large Armor Repairer | 438.10M → 496.60M | 6.3% | 0.1 | 5% / 7% | 2.57M | time |
-| Mercury | 2.90k → 3.39k | 9.5% | 10573.6 | 2% / 2% | 2.62M | time |
+| Mercury | 2.90k → 3.39k | 9.5% | 10568.9 | 2% / 2% | 2.62M | time |
+| Compressed Malachite Mykoserocin | 77.01k → 87.50k | 6.6% | 552.1 | 13% / 11% | 2.44M | time |
 | Guristas Brass Tag | 31.12M → 35.68M | 7.6% | 1.1 | 6% / 29% | 2.29M | time |
-| Gravid Stasis Webifier Mutaplasmid | 2.82M → 3.72M | 23.9% | 3.7 | 4% / 16% | 2.37M | time |
-| Zainou 'Gnome' Shield Operation SP-905 | 90.35M → 121.00M | 25.9% | 0.1 | 10% / 12% | 2.34M | time |
+| Zainou 'Gnome' Shield Operation SP-905 | 90.35M → 121.00M | 25.9% | 0.1 | 10% / 12% | 2.35M | time |
 | Metamorphosis | 48.17M → 56.01M | 9.1% | 0.6 | 3% / 10% | 2.37M | time |
-| Fullerite-C32 | 18.83k → 22.43k | 11.8% | 1159.1 | 2% / 6% | 2.37M | time |
+| Gravid Stasis Webifier Mutaplasmid | 2.82M → 3.72M | 23.9% | 3.6 | 4% / 16% | 2.30M | time |
+| Fullerite-C32 | 18.83k → 22.43k | 11.8% | 1158.4 | 2% / 6% | 2.37M | time |
+| Compressed Brimful Coesite | 685.10 → 857.90 | 17.6% | 19222.2 | 11% / 20% | 2.21M | time |
 
 ## 9. Best items to import Jita → Amarr
 _Buy from Jita sellers, ship by courier, sell just under the cheapest seller there. Margin is after shipping and fees. m³ = cargo volume per unit._
@@ -120,16 +120,16 @@ _Buy from Jita sellers, ship by courier, sell just under the cheapest seller the
 |---|---|---|---|---|---|---|---|
 | ORE Mining Director Mindlink | 558.90M → 689.30M | 1.0 | 12.7% | 0.1 | 40% | 5.68M | ISK |
 | Improved 'Guise' Cloaking Device II | 27.48M → 49.96M | 100.0 | 68.3% | 0.2 | 50% | 3.36M | time |
-| Standup Moon Drill I | 115.20M → 144.80M | 8,000.0 | 11.9% | 0.2 | 87% | 2.83M | time |
+| Standup Moon Drill I | 115.20M → 144.80M | 8,000.0 | 11.9% | 0.2 | 87% | 2.82M | time |
 | Zero-Point Mass Entangler | 7.81M → 9.75M | 50.0 | 14.2% | 2.7 | 23% | 2.94M | time |
-| Caesium | 5.41k → 6.64k | 0.1 | 12.1% | 4139.5 | 59% | 2.67M | time |
+| Caesium | 5.41k → 6.64k | 0.1 | 12.1% | 4135.2 | 59% | 2.67M | time |
 | Mobile Large Warp Disruptor I | 16.18M → 24.89M | 585.0 | 41.7% | 0.4 | 31% | 2.78M | time |
 | Gistum C-Type 10MN Afterburner | 72.97M → 89.68M | 5.0 | 12.3% | 0.3 | 38% | 2.62M | time |
 | Mid-grade Asklepian Omega | 314.60M → 384.90M | 1.0 | 11.8% | 0.1 | 16% | 2.63M | time |
 | Gatling Pulse Laser II | 497.70k → 789.90k | 5.0 | 46.4% | 9.3 | 42% | 2.13M | time |
-| Blood Bronze Tag | 8.49M → 10.27M | 0.1 | 10.4% | 2.5 | 14% | 2.18M | time |
-| Pioneer Consortium Issue | 70.97M → 89.40M | 5,000.0 | 12.0% | 0.3 | 7% | 2.20M | time |
-| Stormbringer | 324.40M → 392.60M | 10,000.0 | 10.5% | 0.1 | 6% | 2.20M | time |
+| Pioneer Consortium Issue | 70.97M → 89.39M | 5,000.0 | 12.0% | 0.3 | 7% | 2.16M | time |
+| Stormbringer | 324.40M → 392.50M | 10,000.0 | 10.5% | 0.1 | 6% | 2.16M | time |
+| Proximity-5 'Extraction' Filament | 9.36M → 11.31M | 0.1 | 10.3% | 2.2 | 15% | 2.05M | time |
 
 ## 10. Cornering watchlist (read-only, nothing is traded)
 _Items where buying out the cheapest few sell orders and relisting higher would pay on paper. We only watch them, to learn whether such prices hold or get undercut._
@@ -143,7 +143,7 @@ _Items where buying out the cheapest few sell orders and relisting higher would 
 | jita | Heavy Interdiction Cruisers | 36.99M | 3 orders / 9 units | 333.93M | 54.99M | 136.85M | 41% | 6.1 | 0.8 |
 | jita | Inherent Implants 'Squire' Capacitor Systems Operation EO-602 | 6.86M | 5 orders / 41 units | 282.06M | 10.69M | 134.86M | 48% | 5.0 | 1.8 |
 | jita | Large Blaster Specialization | 7.00M | 6 orders / 26 units | 218.35M | 14.11M | 130.62M | 60% | 7.7 | 2.0 |
-| jita | Medium Remote Repair Augmentor I | 2.06M | 1 orders / 178 units | 367.57M | 2.91M | 125.84M | 34% | 3.6 | 2.3 |
+| jita | Medium Remote Repair Augmentor I | 2.06M | 1 orders / 170 units | 351.05M | 2.92M | 120.67M | 34% | 3.4 | 2.3 |
 | jita | Advanced Armor Layering | 17.99M | 2 orders / 17 units | 305.99M | 26.38M | 120.61M | 39% | 5.4 | 1.1 |
 | jita | Transport Ships | 39.00M | 1 orders / 9 units | 351.00M | 54.94M | 119.36M | 34% | 1.2 | 2.7 |
 
@@ -152,10 +152,10 @@ _Is the market data flowing? Orders = orders seen in the station · Hours today 
 
 | Hub | Orders | Hours today | Trades seen | Note |
 |---|---|---|---|---|
-| jita | 331,634 | 10.1 | 6,534 |  |
-| amarr | 126,444 | 10.1 | 1,865 |  |
-| dodixie | 66,452 | 10.1 | 1,036 |  |
-| rens | 31,689 | 10.1 | 303 |  |
-| hek | 40,202 | 10.1 | 474 |  |
+| jita | 331,701 | 10.3 | 1,219 |  |
+| amarr | 126,476 | 10.3 | 511 |  |
+| dodixie | 66,447 | 10.3 | 114 |  |
+| rens | 31,693 | 10.3 | 37 |  |
+| hek | 40,191 | 10.3 | 71 |  |
 
-_This run took 30 s (market data 13 s, stats and character 4 s, experiments 12 s, main portfolio 1 s, cornering scan 0 s, ESI back-off 0 s; 1,144 ESI calls). A slow run usually means ESI rate limits (back-off) or a first-time lookup of many item types._
+_This run took 46 s (market data 21 s, stats and character 5 s, experiments 18 s, main portfolio 2 s, cornering scan 0 s, ESI back-off 0 s; 1,135 ESI calls). A slow run usually means ESI rate limits (back-off) or a first-time lookup of many item types._
