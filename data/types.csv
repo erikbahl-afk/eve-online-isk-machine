@@ -98,7 +98,7 @@ type_id,name,volume,group_id
 2506,Mjolnir Torpedo,0.05,89
 2539,,5,
 2563,,5,
-2567,Multispectral ECM II,5,
+2567,Multispectral ECM II,5,201
 2571,Gravimetric ECM II,,
 2605,Nanofiber Internal Structure II,5,
 2613,Mjolnir Fury Light Missile,,
@@ -165,6 +165,7 @@ type_id,name,volume,group_id
 3645,Water,0.19,1042
 3683,Oxygen,0.19,1042
 3685,Hydrogen Batteries,1,280
+3691,,0.75,1034
 3693,,0.75,1034
 3695,Polytextiles,0.75,1034
 3756,Gnosis,15000,419
@@ -524,7 +525,7 @@ type_id,name,volume,group_id
 15729,Imperial Navy Multispectrum Energized Membrane,5,326
 15739,Federation Navy Multispectrum Energized Membrane,5,326
 15749,,5,
-15751,,10,46
+15751,Republic Fleet 50MN Microwarpdrive,10,46
 15753,,5,
 15764,Federation Navy 50MN Microwarpdrive,10,46
 15766,Federation Navy 10MN Afterburner,5,46
@@ -542,7 +543,7 @@ type_id,name,volume,group_id
 15865,Imperial Navy Small Focused Beam Laser,5,53
 15887,Caldari Navy Warp Scrambler,5,52
 15889,Caldari Navy Warp Disruptor,5,52
-15891,,5,52
+15891,Republic Fleet Warp Disruptor,5,52
 15893,,5,
 15895,Federation Navy Magnetic Field Stabilizer,5,302
 15897,Caldari Navy X-Large Shield Booster,50,
@@ -794,6 +795,7 @@ type_id,name,volume,group_id
 19549,Inherent Implants 'Noble' Mechanic MC-805,1,
 19550,Inherent Implants 'Noble' Hull Upgrades HG-1005,1,
 19554,High-grade Snake Delta,1,300
+19555,,1,300
 19556,High-grade Snake Omega,,
 19684,Inherent Implants 'Noble' Repair Proficiency RP-903,,
 19685,Inherent Implants 'Noble' Repair Proficiency RP-905,1,
@@ -1192,7 +1194,7 @@ type_id,name,volume,group_id
 30304,PPD Fullerene Fibers,0.5,974
 30306,Methanofullerene,0.75,974
 30310,Carbon-86 Epoxy Resin,,
-30370,Fullerite-C50,1,
+30370,Fullerite-C50,1,711
 30371,Fullerite-C60,1,711
 30372,Fullerite-C70,1,711
 30374,,2,711
@@ -1217,6 +1219,7 @@ type_id,name,volume,group_id
 31053,Medium Auxiliary Nano Pump II,10,
 31059,Medium Trimark Armor Pump II,10,
 31067,Capital Nanobot Accelerator I,,
+31073,Medium Remote Repair Augmentor I,,
 31077,,5,
 31079,,10,
 31083,,5,1232
@@ -1421,6 +1424,7 @@ type_id,name,volume,group_id
 35894,Standup Cloning Center I,4000,
 35899,,4000,1322
 35923,Standup Guided Bomb Launcher I,8000,1328
+35924,,8000,1329
 35940,Standup Variable Spectrum ECM I,4000,1332
 35941,,4000,1719
 35947,Standup Target Painter I,4000,
@@ -1586,6 +1590,7 @@ type_id,name,volume,group_id
 46002,Agency 'Hardshell' TB5 Dose II,1,
 46003,Agency 'Hardshell' TB7 Dose III,1,303
 46005,Agency 'Overclocker' SB5 Dose II,1,303
+46006,,1,303
 46213,Ferrogel Reaction Formula,,
 46355,Ubiquitous Moon Mining Crystal Type A I,6,
 46356,Ubiquitous Moon Mining Crystal Type A II,10,482
@@ -1753,6 +1758,7 @@ type_id,name,volume,group_id
 56139,Cataclysmic Electrical Filament,0.1,1979
 56140,Cataclysmic Dark Filament,,
 56141,Cataclysmic Exotic Filament,0.1,1979
+56142,,0.1,1979
 56143,,0.1,1979
 56201,Astrahus Upwell Quantum Core,500,4086
 56226,Men's Triglavian Survival Suit (Liminality),,
@@ -1938,6 +1944,7 @@ type_id,name,volume,group_id
 85392,Damage Control Mutaplasmid Residue,0.01,1996
 85393,,0.01,1996
 85400,X-Large Mutaplasmid Residue,0.01,1996
+85521,,1,1964
 85662,Glorified Unstable Gyrostabilizer Mutaplasmid,1,1964
 85668,Glorified Unstable Magnetic Field Stabilizer Mutaplasmid,,
 85746,Infomorph Decryption Key,,
@@ -1999,7 +2006,7 @@ type_id,name,volume,group_id
 91975,Federation Hardpoint Booster III,,
 92033,Orbweaver SW-300-I,5,5239
 92034,Huntsman SW-600-I,10,
-92035,,25,
+92035,,25,5239
 92036,Tick EV-300-I,5,
 92040,Nertic EC-600-I,10,
 92456,Presidential Mining Foreman Burst,60,
