@@ -111,7 +111,7 @@ type_id,name,volume,group_id
 2876,,50,1041
 2897,220mm Vulcan AutoCannon II,10,55
 2905,250mm Light Artillery Cannon II,5,55
-2929,800mm Repeating Cannon II,20,
+2929,800mm Repeating Cannon II,20,55
 2945,Dual 425mm AutoCannon II,20,55
 2953,,20,
 2961,1400mm Howitzer Artillery II,20,55
@@ -639,7 +639,7 @@ type_id,name,volume,group_id
 17634,Caracal Navy Issue,10000,26
 17636,Raven Navy Issue,,
 17709,,10000,
-17713,,10000,
+17713,Stabber Fleet Issue,10000,
 17715,Gila,10000,26
 17718,Phantasm,10000,
 17720,Cynabal,10000,26
@@ -722,7 +722,7 @@ type_id,name,volume,group_id
 19015,Coreli A-Type Small Armor Repairer,5,
 19017,Corpum C-Type Medium Armor Repairer,10,
 19025,,10,
-19027,,10,
+19027,Centum A-Type Medium Armor Repairer,10,62
 19029,Corelum C-Type Medium Armor Repairer,10,
 19031,Corelum B-Type Medium Armor Repairer,10,62
 19033,Corelum A-Type Medium Armor Repairer,10,62
@@ -762,7 +762,7 @@ type_id,name,volume,group_id
 19201,,25,
 19202,Pith C-Type X-Large Shield Booster,50,40
 19203,Pith B-Type Large Shield Booster,25,
-19204,Pith B-Type X-Large Shield Booster,50,
+19204,Pith B-Type X-Large Shield Booster,50,40
 19205,Pith A-Type Large Shield Booster,25,40
 19207,Pith X-Type Large Shield Booster,25,40
 19208,Pith X-Type X-Large Shield Booster,50,40
@@ -901,7 +901,7 @@ type_id,name,volume,group_id
 22122,Mid-grade Amulet Epsilon,1,300
 22123,Mid-grade Amulet Gamma,1,300
 22124,Mid-grade Amulet Omega,1,300
-22128,,1,300
+22128,Mid-grade Snake Epsilon,1,300
 22229,Ice Harvester II,,
 22428,,50000,
 22430,Sin,,
@@ -1013,7 +1013,7 @@ type_id,name,volume,group_id
 25892,Large Thermal Armor Reinforcer I,20,
 25894,Large Trimark Armor Pump I,20,773
 25896,,20,
-25900,Large Remote Repair Augmentor I,,
+25900,Large Remote Repair Augmentor I,20,773
 25956,,20,
 26020,Large Warhead Rigor Catalyst I,20,
 26068,Large Hyperspatial Velocity Optimizer I,20,
@@ -1572,7 +1572,7 @@ type_id,name,volume,group_id
 45588,Legion Defensive - Nanobot Injector,40,
 45589,Tengu Defensive - Covert Reconfiguration,40,
 45591,Tengu Defensive - Amplification Node,40,954
-45592,,40,954
+45592,Proteus Defensive - Covert Reconfiguration,40,954
 45595,Loki Defensive - Covert Reconfiguration,40,954
 45601,Tengu Offensive - Accelerated Ejection Bay,40,956
 45604,Proteus Offensive - Hybrid Encoding Platform,40,956
@@ -1876,6 +1876,7 @@ type_id,name,volume,group_id
 62533,Compressed Omber II-Grade,,
 62536,Compressed Kernite,0.012,457
 62538,Compressed Kernite III-Grade,,
+62540,,0.02,456
 62553,Compressed Gneiss II-Grade,0.05,467
 62554,Compressed Gneiss III-Grade,0.05,467
 62555,Compressed Gneiss IV-Grade,0.05,467

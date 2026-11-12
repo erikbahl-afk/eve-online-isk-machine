@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0621,
- "buy_orders": 6207,
- "buy_orders_reaching_jita": 6132,
+ "ask_ratio_median": 1.0633,
+ "buy_orders": 6198,
+ "buy_orders_reaching_jita": 6124,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6575,
- "sell_orders": 368,
- "share_ask_below_jita": 0.2984,
+ "orders": 6569,
+ "sell_orders": 371,
+ "share_ask_below_jita": 0.2922,
  "structure_id": 1042508032148,
- "t": 1794513663.854018,
+ "t": 1794520567.3334131,
  "top_ask_below_jita": [
   {
    "best_ask": 700.0,
@@ -17,18 +17,32 @@
    "type_id": 90470
   },
   {
-   "best_ask": 70000.0,
-   "gap": 0.9521,
+   "best_ask": 69000.0,
+   "gap": 0.9514,
    "name": "",
    "s_ask": 3356.0,
    "type_id": 84408
   },
   {
-   "best_ask": 33890.0,
-   "gap": 0.941,
+   "best_ask": 4486.0,
+   "gap": 0.9443,
+   "name": "",
+   "s_ask": 250.0,
+   "type_id": 90480
+  },
+  {
+   "best_ask": 23990.0,
+   "gap": 0.9167,
    "name": "",
    "s_ask": 1999.0,
    "type_id": 84399
+  },
+  {
+   "best_ask": 72590.0,
+   "gap": 0.8456,
+   "name": "",
+   "s_ask": 11210.0,
+   "type_id": 90458
   },
   {
    "best_ask": 200000.0,
@@ -36,13 +50,6 @@
    "name": "",
    "s_ask": 31880.0,
    "type_id": 47809
-  },
-  {
-   "best_ask": 68000.0,
-   "gap": 0.8351,
-   "name": "",
-   "s_ask": 11210.0,
-   "type_id": 90458
   },
   {
    "best_ask": 15000000.0,
@@ -59,18 +66,11 @@
    "type_id": 90466
   },
   {
-   "best_ask": 4351.0,
-   "gap": 0.6957,
+   "best_ask": 4349.0,
+   "gap": 0.6956,
    "name": "",
    "s_ask": 1324.0,
    "type_id": 90590
-  },
-  {
-   "best_ask": 2747000.0,
-   "gap": 0.636,
-   "name": "",
-   "s_ask": 1000000.0,
-   "type_id": 46947
   },
   {
    "best_ask": 11370.0,
@@ -195,13 +195,6 @@
   },
   {
    "best_bid": 0.01,
-   "gap": 116799.0,
-   "name": "Caldari Navy Mjolnir Cruise Missile",
-   "s_bid_reach": 1168.0,
-   "type_id": 27377
-  },
-  {
-   "best_bid": 0.01,
    "gap": 11309.0,
    "name": "",
    "s_bid_reach": 113.1,
@@ -220,9 +213,16 @@
    "name": "",
    "s_bid_reach": 111.0,
    "type_id": 27244
+  },
+  {
+   "best_bid": 20000.0,
+   "gap": 6109.0,
+   "name": "",
+   "s_bid_reach": 122200000.0,
+   "type_id": 49825
   }
  ],
- "types": 3968,
- "types_also_in_jita": 3941,
- "types_bid_over_jita_reaching": 701
+ "types": 3970,
+ "types_also_in_jita": 3943,
+ "types_bid_over_jita_reaching": 702
 }

@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Thu 12 Nov 12:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 32 · **Est. time:** 25 min. Work top to bottom; stop any time.  
+**Updated:** Thu 12 Nov 13:55 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 30 · **Est. time:** 25 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -70,56 +70,33 @@ _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Ne
 
 ## At Jita IV - Moon 4 - Caldari Navy Assembly Plant
 
-### Block 1 · must do · about 11 min
-
-#### Buy for import
-_Market → search item → Buy. Only take sell orders in this station, never above the max._
-
-**Fast way:** Market → **Multibuy** → import from clipboard, paste the list below, check that no line costs more than its max price, then buy all at once.
-
-```
-Caesium	20552
-Gatling Pulse Laser II	57
-High-grade Nirvana Alpha	1
-Improved 'Guise' Cloaking Device II	2
-Legion Mjolnir Auto-Targeting Light Missile	19847
-Medium EM Armor Reinforcer II	15
-Mid-grade Asklepian Omega	1
-Mobile Large Warp Disruptor I	3
-Photonic Metamaterials	50
-Standup Moon Drill I	2
-Zainou 'Deadeye' Guided Missile Precision GP-803	5
-Zero-Point Mass Entangler	17
-```
-
-| # | Item | Qty | Max price per unit | Lowest when written |
-|---|---|---|---|---|
-| 15 | ☐ Caesium | 20,552 | **5,630** | 5,411 |
-| 16 | ☐ Gatling Pulse Laser II | 57 | **655,600** | 497,700 |
-| 17 | ☐ High-grade Nirvana Alpha | 1 | **241,800,000** | 237,500,000 |
-| 18 | ☐ Improved 'Guise' Cloaking Device II | 2 | **41,460,000** | 27,470,000 |
-| 19 | ☐ Legion Mjolnir Auto-Targeting Light Missile | 19,847 | **1,921** | 998.00 |
-| 20 | ☐ Medium EM Armor Reinforcer II | 15 | **8,906,000** | 8,887,000 |
-| 21 | ☐ Mid-grade Asklepian Omega | 1 | **319,100,000** | 310,000,000 |
-| 22 | ☐ Mobile Large Warp Disruptor I | 3 | **20,650,000** | 16,310,000 |
-| 23 | ☐ Photonic Metamaterials | 50 | **7,510** | 7,412 |
-| 24 | ☐ Standup Moon Drill I | 2 | **117,100,000** | 115,000,000 |
-| 25 | ☐ Zainou 'Deadeye' Guided Missile Precision GP-803 | 5 | **18,090,000** | 16,970,000 |
-| 26 | ☐ Zero-Point Mass Entangler | 17 | **8,094,000** | 7,800,000 |
-
-#### Ship to the other hub
-
-
-27. ☐ **1 courier contract via PushX** → Amarr VIII (Oris) - Emperor Family Academy. Items: everything bought above plus any import stock already in the hangar (Legion Mjolnir Auto-Targeting Light Missile, Improved 'Guise' Cloaking Device II, High-grade Nirvana Alpha, Zero-Point Mass Entangler, Photonic Metamaterials, Caesium, Mid-grade Asklepian Omega, Standup Moon Drill I, Mobile Large Warp Disruptor I, Medium EM Armor Reinforcer II, Gatling Pulse Laser II, Zainou 'Deadeye' Guided Missile Precision GP-803); total about 1.39B, 20,622 m³. Split it so each contract's collateral is at most 1.5B. Get the reward from the PushX quote page (about 69.00M each), then Contracts → Create Contract → Courier, assign to PushX's corporation, expiration 7 days, 7 days to complete.
-
-### Block 2 · should do · about 1 min
+### Block 1 · must do · about 7 min
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 28 | ☐ Low-grade Centurion Alpha | 2 | **10,570,000** | 15,020,000 | 10,560,000 |
+| 15 | ☐ 800mm Repeating Cannon II | 27 | **3,095,000** | 3,285,000 | 3,094,000 |
+| 16 | ☐ Capital Compact Pb-Acid Cap Battery | 2 | **9,472,000** | 15,020,000 | 9,471,000 |
+| 17 | ☐ Compressed Arkonor IV-Grade | 32,691 | **3,582** | 3,702 | 3,581 |
+| 18 | ☐ Dysporite | 1,492 | **16,010** | 21,350 | 16,000 |
+| 19 | ☐ Jaguar | 4 | **14,220,000** | 16,360,000 | 14,210,000 |
+| 20 | ☐ Low-grade Crystal Gamma | 2 | **57,080,000** | 62,000,000 | 57,070,000 |
+| 21 | ☐ Mid-grade Snake Epsilon | 1 | **140,500,000** | 167,100,000 | 140,400,000 |
+
+### Block 2 · should do · about 5 min
+
+#### New buy orders
+_Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
+
+| # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
+|---|---|---|---|---|---|
+| 22 | ☐ Compressed Gelidus | 190 | **400,100** | 424,100 | 400,000 |
+| 23 | ☐ Compressed Malachite Mykoserocin | 2,211 | **77,050** | 77,220 | 77,040 |
+| 24 | ☐ Coreli B-Type 1MN Afterburner | 2 | **29,290,000** | 34,450,000 | 29,280,000 |
+| 25 | ☐ Imperial Navy Small Focused Beam Laser | 1 | **26,550,000** | 35,340,000 | 26,540,000 |
+| 26 | ☐ Low-grade Centurion Alpha | 2 | **10,570,000** | 15,020,000 | 10,560,000 |
 
 ### Block 3 · if there's time · about 3 min
 
@@ -128,16 +105,16 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 29 | ☐ 50MN Microwarpdrive II | 1 | **4,098,000** | 3,751,000 | 4,099,000 |
-| 30 | ☐ Compressed Gneiss IV-Grade | 1 | **2,599** | 2,550 | 2,600 |
-| 31 | ☐ Compressed Mordunium IV-Grade | 5 | **27.39** | 20.97 | 27.40 |
+| 27 | ☐ 50MN Microwarpdrive II | 1 | **4,095,000** | 3,751,000 | 4,096,000 |
+| 28 | ☐ Compressed Gneiss IV-Grade | 1 | **2,598** | 2,550 | 2,599 |
+| 29 | ☐ Compressed Mordunium IV-Grade | 5 | **25.99** | 20.97 | 26.00 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 32 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,623,000** | 3,623,000 | 3,647,000 |
+| 30 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,620,000** | 3,620,000 | 3,649,000 |
 
 ---
 Wallet 1.62B · escrow 140.91M · stock 3.13B · in transit 0.00 · net worth 4.88B (liquidation 2.46B)
