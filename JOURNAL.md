@@ -303,4 +303,6 @@
 - Alerts: liquidation 50% / Typhoon SKIN 8.6%: see above (decision Thu). Stale Amarr stock, Tetryon XL avoid and the Gneiss bid
   were all waiting on Thursday's login, which the outage blocked; they should clear on the next run. Thresholds unchanged.
 - Perimeter structure.json looks off (6,168 of 6,241 buys "reach Jita"; 370 sells; asks 99% under Jita): check the parser Wed.
-- Memo: reports/2026-11-13-memo.md. Next: confirm the 00:00 UTC run succeeds and the missed login executes.
+- Verified: a manually triggered run at 23:44 UTC succeeded (no variant failures); exports ran its session (−15M → −67M realized).
+  The 5 'gap 19.7h' data alerts come from the outage and clear themselves. Main's summary still lists no Thu 12 login: Sat checks
+  whether the missed login was skipped for main. Memo: reports/2026-11-13-memo.md.
