@@ -80,9 +80,11 @@ type_id,name,volume,group_id
 2328,Water-Cooled CPU,0.75,1034
 2344,,3,1040
 2345,Camera Drones,3,1040
+2346,,3,1040
 2348,Gel-Matrix Biopaste,,
 2352,Nuclear Reactors,3,
-2361,Hermetic Membranes,3,
+2361,Hermetic Membranes,3,1040
+2389,,0.19,1042
 2390,Electrolytes,0.19,1042
 2392,,0.19,1042
 2393,Bacteria,0.19,1042
@@ -308,6 +310,7 @@ type_id,name,volume,group_id
 11963,Rapier,10000,
 11965,Pilgrim,10000,
 11969,Arazu,10000,833
+11971,,10000,906
 11978,,10000,832
 11985,Basilisk,,
 11987,Guardian,10000,832
@@ -353,7 +356,7 @@ type_id,name,volume,group_id
 12537,Serpentis Bronze Tag,0.1,370
 12608,Hail S,0.0025,
 12631,,0.0025,376
-12729,Crane,20000,
+12729,Crane,20000,1202
 12731,Bustard,20000,
 12733,Prorator,20000,1202
 12735,Prowler,20000,1202
@@ -990,7 +993,8 @@ type_id,name,volume,group_id
 24663,Zor's Custom Navigation Hyper-Link,,
 24692,,50000,
 24696,,15000,419
-24700,,15000,419
+24698,,15000,419
+24700,Myrmidon,15000,419
 24702,Hurricane,,
 25252,Pure Standard Frentix Booster,1,712
 25266,Gas Cloud Scoop I,5,737
@@ -1022,6 +1026,7 @@ type_id,name,volume,group_id
 25894,Large Trimark Armor Pump I,20,773
 25896,,20,
 25900,Large Remote Repair Augmentor I,20,773
+25948,Large Capacitor Control Circuit I,,
 25956,,20,
 26020,Large Warhead Rigor Catalyst I,20,
 26068,Large Hyperspatial Velocity Optimizer I,20,
@@ -1210,6 +1215,7 @@ type_id,name,volume,group_id
 30304,PPD Fullerene Fibers,0.5,974
 30305,,0.8,974
 30306,Methanofullerene,0.75,974
+30309,,1.5,974
 30310,Carbon-86 Epoxy Resin,,
 30370,Fullerite-C50,1,711
 30371,Fullerite-C60,1,711
@@ -1224,6 +1230,7 @@ type_id,name,volume,group_id
 30586,Malfunctioning Power Cores,,
 30752,Intact Hull Section,,
 30987,Small Trimark Armor Pump I,5,773
+31001,Capital EM Armor Reinforcer I,,
 31003,Small EM Armor Reinforcer II,5,
 31005,Medium EM Armor Reinforcer II,10,773
 31011,Medium Explosive Armor Reinforcer I,,
@@ -1235,6 +1242,7 @@ type_id,name,volume,group_id
 31045,Small Auxiliary Nano Pump I,5,773
 31047,Medium Auxiliary Nano Pump I,,
 31053,Medium Auxiliary Nano Pump II,10,
+31055,,10,773
 31059,Medium Trimark Armor Pump II,10,
 31067,Capital Nanobot Accelerator I,,
 31073,Medium Remote Repair Augmentor I,,
@@ -1251,7 +1259,7 @@ type_id,name,volume,group_id
 31167,Medium Hyperspatial Velocity Optimizer II,10,782
 31171,Small Low Friction Nozzle Joints II,5,782
 31173,Medium Low Friction Nozzle Joints II,10,782
-31220,,5,
+31220,Small Gravity Capacitor Upgrade II,5,1233
 31244,Small Memetic Algorithm Bank II,5,
 31298,Small Particle Dispersion Projector I,,
 31330,Medium Targeting System Subcontroller II,10,
@@ -1267,7 +1275,7 @@ type_id,name,volume,group_id
 31498,Medium Energy Metastasis Adjuster II,10,
 31544,,5,
 31564,Medium Hybrid Locus Coordinator I,,
-31594,,10,
+31594,,10,779
 31598,,5,779
 31606,Medium Hydraulic Bay Thrusters II,10,779
 31614,Small Rocket Fuel Cache Partition II,5,779
@@ -1456,10 +1464,12 @@ type_id,name,volume,group_id
 36912,Antipharmakon Aeolis,1,303
 37146,Standup M-Set Basic Medium Ship Manufacturing Material Efficiency I,10,
 37154,Standup M-Set Basic Small Ship Manufacturing Material Efficiency I,10,
+37222,Standup M-Set Energy Neutralizer Economy I,,
+37234,Standup M-Set Enhanced Targeting System I,,
 37292,Rapid Torpedo Launcher II,1000,
 37296,Quad Mega Pulse Laser II,1000,53
 37298,Dual Giga Pulse Laser II,1000,53
-37300,,1000,74
+37300,Triple Neutron Blaster Cannon II,1000,74
 37302,Ion Siege Blaster II,1000,
 37306,Hexa 2500mm Repeating Cannon II,1000,55
 37450,,5,54
@@ -1571,7 +1581,7 @@ type_id,name,volume,group_id
 43775,ORE Mining Director Mindlink,1,744
 43880,Standup M-Set Invention Accelerator I,,
 43898,,20,
-43920,,10,1816
+43920,Standup M-Set Equipment Manufacturing Material Efficiency I,10,1816
 44102,Defender Launcher I,5,512
 44993,Pacifier,2500,830
 45009,Standup Moon Drill I,8000,1887
@@ -1594,6 +1604,7 @@ type_id,name,volume,group_id
 45612,Legion Propulsion - Wake Limiter,40,957
 45614,Tengu Propulsion - Chassis Optimization,40,957
 45615,Tengu Propulsion - Fuel Catalyst,40,957
+45616,Proteus Propulsion - Interdiction Nullifier,,
 45617,Proteus Propulsion - Hyperspatial Optimization,40,957
 45618,Proteus Propulsion - Localized Injectors,40,957
 45619,Loki Propulsion - Interdiction Nullifier,,
@@ -1984,6 +1995,7 @@ type_id,name,volume,group_id
 85747,Satori-Horigu Combat Scanner Probe,,
 85930,Archon Arkombine Arisen SKIN,,
 85931,Chimera Arkombine Arisen SKIN,,
+86260,,0.01,256
 86261,Breacher Pod Clone Efficacity,0.01,256
 86262,,0.01,
 86264,Breacher Pod Rapid Firing,0.01,256
@@ -2012,7 +2024,7 @@ type_id,name,volume,group_id
 90316,Sacrilege Sanguinary Savant SKIN,0.01,1950
 90318,Aeon Sanguinary Savant SKIN,0.01,1950
 90396,Blood Raider Crate,,
-90416,,0.01,1950
+90416,Squall Shattered Paradigm SKIN,0.01,1950
 90469,Unstable Modulated Strip Miner Mutaplasmid,1,1964
 90523,Unstable Ice Harvester Mutaplasmid,,
 90528,Unstable Gas Cloud Scoop Mutaplasmid,1,1964

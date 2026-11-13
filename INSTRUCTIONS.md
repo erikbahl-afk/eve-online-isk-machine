@@ -3,32 +3,78 @@
 
 # Session checklist
 
-**Updated:** Thu 12 Nov 20:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 32 · **Est. time:** 25 min. Work top to bottom; stop any time.  
+**Updated:** Fri 13 Nov 15:43 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
+**Steps:** 21 · **Est. time:** 19 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
 
-_Left out 4 small steps worth less than 976.50k per minute of your time (0.02% of net worth per minute)._
+_Left out 4 small steps worth less than 975.47k per minute of your time (0.02% of net worth per minute)._
 
 Each hub's steps come in **priority blocks**: finish Block 1 before anything else, and stop wherever your time runs out. Within a block, steps follow the in-game windows for speed.
 
+## At Jita IV - Moon 4 - Caldari Navy Assembly Plant
+
+### Block 1 · must do · about 4 min
+
+#### New buy orders
+_Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
+
+| # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
+|---|---|---|---|---|---|
+| 1 | ☐ Compressed Gelidus | 166 | **400,100** | 428,300 | 400,000 |
+| 2 | ☐ High-grade Ascendancy Gamma | 1 | **197,100,000** | 203,700,000 | 197,000,000 |
+| 3 | ☐ Inherent Implants 'Highwall' Mining MX-1005 | 1 | **110,500,000** | 132,100,000 | 110,400,000 |
+| 4 | ☐ Tetrimon Anti-Drain Booster IV | 2 | **5,140,000** | 10,330,000 | 5,139,000 |
+
+### Block 2 · should do · about 4 min
+_Short on time? Skip to the jump (step 11): the next hub's Block 1 is worth more per minute than the rest of this hub._
+
+#### New buy orders
+_Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
+
+| # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
+|---|---|---|---|---|---|
+| 5 | ☐ Bouquet of Flowers | 1 | **11,010,000** | 21,910,000 | 11,000,000 |
+| 6 | ☐ Low-grade Centurion Alpha | 2 | **11,010,000** | 15,020,000 | 11,000,000 |
+| 7 | ☐ Standard Drop Booster | 18 | **2,208,000** | 2,549,000 | 2,207,000 |
+| 8 | ☐ Tachyon Beam Laser II | 16 | **5,220,000** | 5,448,000 | 5,219,000 |
+
+### Block 3 · if there's time · about 1 min
+_Short on time? Skip to the jump (step 11): the next hub's Block 1 is worth more per minute than the rest of this hub._
+
+#### Fix outbid buy orders
+_My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
+
+| # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
+|---|---|---|---|---|---|
+| 9 | ☐ 50MN Microwarpdrive II | 3,622,000 | **3,619,000** | 3,619,000 | 3,647,000 |
+
+#### New buy orders
+_Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
+
+| # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
+|---|---|---|---|---|---|
+| 10 | ☐ Compressed Arkonor IV-Grade | 2,534 | **3,587** | 3,668 | 3,586 |
+
+## 11. ☐ Jump clone to Amarr VIII (Oris) - Emperor Family Academy
+_Clone Bay → Jump Clone → Amarr VIII (Oris) - Emperor Family Academy. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
+
 ## At Amarr VIII (Oris) - Emperor Family Academy
 
-### Block 1 · must do · about 3 min
+### Block 1 · must do · about 2 min
 
 #### Fix undercut sell orders
 _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours is already the lowest, skip._
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 1 | ☐ 'Cartel' Power Diagnostic System I | 68,280,000 | **68,270,000** | 31,380,000 | 68,280,000 |
-| 2 | ☐ Black Market 'Valdimar' Drone Navigation DN-701 | 249,800,000 | **249,900,000** | 131,200,000 | 250,000,000 |
-| 3 | ☐ Dread Guristas Rocket Launcher | 99,370,000 | **99,340,000** | 48,990,000 | 99,350,000 |
-| 4 | ☐ Golem Exoplanets Hunter SKIN | 175,370,000 | **175,370,000** | 134,900,000 | - |
-| 5 | ☐ Men's 'Precision' Boots | 99,990,000 | **99,990,000** | 51,550,000 | 100,000,000 |
-| 6 | ☐ Standup M-Set Basic Small Ship Manufacturing Material Efficiency I | 699,600,000 | **699,600,000** | 347,300,000 | 699,700,000 |
-| 7 | ☐ Typhoon Fleet Issue Capsuleer Elite XX SKIN | 815,900,000 | **815,900,000** | 435,300,000 | - |
+| 12 | ☐ Black Market 'Valdimar' Drone Navigation DN-701 | 249,800,000 | **249,900,000** | 131,200,000 | 250,000,000 |
+| 13 | ☐ Capital I-a Enduring Armor Repairer | 199,700,000 | **199,700,000** | 91,990,000 | 199,800,000 |
+| 14 | ☐ Golem Exoplanets Hunter SKIN | 175,370,000 | **175,370,000** | 134,900,000 | - |
+| 15 | ☐ Men's 'Precision' Boots | 99,990,000 | **99,990,000** | 51,550,000 | 100,000,000 |
+| 16 | ☐ Standup M-Set Basic Small Ship Manufacturing Material Efficiency I | 699,600,000 | **699,600,000** | 347,300,000 | 699,700,000 |
+| 17 | ☐ Typhoon Fleet Issue Capsuleer Elite XX SKIN | 815,900,000 | **815,900,000** | 435,300,000 | - |
 
 ### Block 2 · should do · about 2 min
 
@@ -37,107 +83,24 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 8 | ☐ Gravid Vorton Tuning System Mutaplasmid | 79,990,000 | **79,990,000** | 56,510,000 | 80,000,000 |
-| 9 | ☐ Low-grade Crystal Epsilon | 247,700,000 | **154,400,000** | 154,400,000 | 137,000,000 |
-
-#### List new stock
-_Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Duration 3 months._
-
-| # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
-|---|---|---|---|---|---|
-| 10 | ☐ Infomorph Decryption Key | 3,642 | **4,076** | 3,370 | 4,077 |
-
-#### Cancel buy orders
-_My Orders → Buying. Right-click → Cancel Order._
-
-| # | Item | Your price |
-|---|---|---|
-| 11 | ☐ Tetryon Exotic Plasma XL | 6,602 |
-
-### Block 3 · if there's time · about 2 min
-_Short on time? Skip to the jump (step 14): the next hub's Block 1 is worth more per minute than the rest of this hub._
-
-#### List new stock
-_Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Duration 3 months._
-
-| # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
-|---|---|---|---|---|---|
-| 12 | ☐ Legion Scourge Auto-Targeting Cruise Missile | 1 | **3,213** | 2,393 | 3,214 |
-| 13 | ☐ Void XL | 2,434 | **4,678** | 3,289 | 4,679 |
-
-## 14. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
-_Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
-
-## At Jita IV - Moon 4 - Caldari Navy Assembly Plant
-
-### Block 1 · must do · about 11 min
-
-#### Buy for import
-_Market → search item → Buy. Only take sell orders in this station, never above the max._
-
-**Fast way:** Market → **Multibuy** → import from clipboard, paste the list below, check that no line costs more than its max price, then buy all at once.
-
-```
-Blood Raider NET Resonator	76
-Caesium	19055
-Caldari Drone Specialization	12
-Improved 'Guise' Cloaking Device II	2
-Legion Mjolnir Auto-Targeting Light Missile	14251
-Limited Expanded 'Archiver' Cargo	3
-Mobile Large Warp Disruptor I	3
-Nitrogen Isotopes	285605
-Polarized Light Neutron Blaster	8
-Shrapnel Bomb	33
-Standup Moon Drill I	2
-Zero-Point Mass Entangler	16
-```
-
-| # | Item | Qty | Max price per unit | Lowest when written |
-|---|---|---|---|---|
-| 15 | ☐ Blood Raider NET Resonator | 76 | **4,142,000** | 4,000,000 |
-| 16 | ☐ Caesium | 19,055 | **5,630** | 5,408 |
-| 17 | ☐ Caldari Drone Specialization | 12 | **1,821,000** | 1,006,000 |
-| 18 | ☐ Improved 'Guise' Cloaking Device II | 2 | **41,460,000** | 27,470,000 |
-| 19 | ☐ Legion Mjolnir Auto-Targeting Light Missile | 14,251 | **1,921** | 998.00 |
-| 20 | ☐ Limited Expanded 'Archiver' Cargo | 3 | **41,370,000** | 22,780,000 |
-| 21 | ☐ Mobile Large Warp Disruptor I | 3 | **20,650,000** | 16,310,000 |
-| 22 | ☐ Nitrogen Isotopes | 285,605 | **598.80** | 595.00 |
-| 23 | ☐ Polarized Light Neutron Blaster | 8 | **4,618,000** | 3,355,000 |
-| 24 | ☐ Shrapnel Bomb | 33 | **1,438,000** | 1,161,000 |
-| 25 | ☐ Standup Moon Drill I | 2 | **117,200,000** | 114,900,000 |
-| 26 | ☐ Zero-Point Mass Entangler | 16 | **8,093,000** | 7,793,000 |
-
-#### Ship to the other hub
-
-
-27. ☐ **1 courier contract via PushX** → Amarr VIII (Oris) - Emperor Family Academy. Items: everything bought above plus any import stock already in the hangar (Limited Expanded 'Archiver' Cargo, Blood Raider NET Resonator, Improved 'Guise' Cloaking Device II, Legion Mjolnir Auto-Targeting Light Missile, Standup Moon Drill I, Zero-Point Mass Entangler, Caesium, Shrapnel Bomb, Mobile Large Warp Disruptor I, Polarized Light Neutron Blaster, Nitrogen Isotopes, Caldari Drone Specialization); total about 1.20B, 31,096 m³. Split it so each contract's collateral is at most 1.5B. Get the reward from the PushX quote page (about 69.00M each), then Contracts → Create Contract → Courier, assign to PushX's corporation, expiration 7 days, 7 days to complete.
-
-### Block 2 · should do · about 1 min
+| 18 | ☐ Gravid Vorton Tuning System Mutaplasmid | 79,990,000 | **79,990,000** | 56,510,000 | 80,000,000 |
+| 19 | ☐ Low-grade Crystal Epsilon | 154,400,000 | **136,900,000** | 0.01 | 137,000,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 28 | ☐ Imperial Navy Small Focused Beam Laser | 1 | **26,550,000** | 35,260,000 | 26,540,000 |
+| 20 | ☐ Shadow Serpentis Damage Control | 1 | **193,500,000** | 226,300,000 | 193,400,000 |
 
-### Block 3 · if there's time · about 3 min
+### Block 3 · if there's time · about 1 min
 
-#### List new stock
-_Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Duration 3 months._
+#### New buy orders
+_Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
-| # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
+| # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 29 | ☐ 50MN Microwarpdrive II | 1 | **4,097,000** | 3,751,000 | 4,098,000 |
-| 30 | ☐ Compressed Gneiss IV-Grade | 1 | **2,599** | 2,550 | 2,600 |
-| 31 | ☐ Compressed Mordunium IV-Grade | 5 | **25.89** | 20.97 | 25.90 |
-
-#### Fix outbid buy orders
-_My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
-
-| # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
-|---|---|---|---|---|---|
-| 32 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,622,000** | 3,622,000 | 3,649,000 |
+| 21 | ☐ Chaotic Electrical Filament | 2 | **20,150,000** | 25,480,000 | 20,140,000 |
 
 ---
-Wallet 1.62B · escrow 140.91M · stock 3.13B · in transit 0.00 · net worth 4.88B (liquidation 2.46B)
+Wallet 892.78M · escrow 68.65M · stock 3.13B · in transit 790.67M · net worth 4.88B (liquidation 2.46B)

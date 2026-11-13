@@ -1,5 +1,35 @@
 [
  {
+  "key": "data:amarr",
+  "severity": "medium",
+  "since": 1794613405.4287903,
+  "text": "Data problem in amarr: gap 19.7h too long; restarted"
+ },
+ {
+  "key": "data:dodixie",
+  "severity": "medium",
+  "since": 1794613405.4287903,
+  "text": "Data problem in dodixie: gap 19.7h too long; restarted"
+ },
+ {
+  "key": "data:hek",
+  "severity": "medium",
+  "since": 1794613405.4287903,
+  "text": "Data problem in hek: gap 19.7h too long; restarted"
+ },
+ {
+  "key": "data:jita",
+  "severity": "medium",
+  "since": 1794613405.4287903,
+  "text": "Data problem in jita: gap 19.7h too long; restarted"
+ },
+ {
+  "key": "data:rens",
+  "severity": "medium",
+  "since": 1794613405.4287903,
+  "text": "Data problem in rens: gap 19.7h too long; restarted"
+ },
+ {
   "key": "liquidation",
   "severity": "medium",
   "since": 1793915372.8054109,
@@ -12,33 +42,81 @@
   "text": "Typhoon Fleet Issue Capsuleer Elite XX SKIN is 8.6% of net worth (418.51M)."
  },
  {
-  "key": "stale_stock:amarr:27465",
+  "key": "stale_sell:10",
   "severity": "medium",
-  "since": 1794384023.2951431,
-  "text": "1 \u00d7 Legion Scourge Auto-Targeting Cruise Missile unsold in the amarr hangar for 9 days."
+  "since": 1794613405.4287903,
+  "text": "Sell order for Capital I-a Enduring Armor Repairer in amarr still has 3 left after 8 days."
  },
  {
-  "key": "stale_stock:amarr:41322",
+  "key": "stale_sell:11",
   "severity": "medium",
-  "since": 1794384023.2951431,
-  "text": "2,434 \u00d7 Void XL unsold in the amarr hangar for 9 days."
+  "since": 1794613405.4287903,
+  "text": "Sell order for Dread Guristas Rocket Launcher in amarr still has 6 left after 8 days."
  },
  {
-  "key": "stale_stock:amarr:85746",
+  "key": "stale_sell:12",
   "severity": "medium",
-  "since": 1794182424.367624,
-  "text": "3,642 \u00d7 Infomorph Decryption Key unsold in the amarr hangar for 11 days."
+  "since": 1794613405.4287903,
+  "text": "Sell order for Standup M-Set Basic Small Ship Manufacturing Material Efficiency I in amarr still has 1 left after 8 days."
+ },
+ {
+  "key": "stale_sell:13",
+  "severity": "medium",
+  "since": 1794613405.4287903,
+  "text": "Sell order for Typhoon Fleet Issue Capsuleer Elite XX SKIN in amarr still has 1 left after 8 days."
+ },
+ {
+  "key": "stale_sell:14",
+  "severity": "medium",
+  "since": 1794613405.4287903,
+  "text": "Sell order for Golem Exoplanets Hunter SKIN in amarr still has 3 left after 8 days."
+ },
+ {
+  "key": "stale_sell:15",
+  "severity": "medium",
+  "since": 1794613405.4287903,
+  "text": "Sell order for Low-grade Crystal Epsilon in amarr still has 2 left after 8 days."
+ },
+ {
+  "key": "stale_sell:16",
+  "severity": "medium",
+  "since": 1794613405.4287903,
+  "text": "Sell order for Men's 'Precision' Boots in amarr still has 5 left after 8 days."
+ },
+ {
+  "key": "stale_sell:17",
+  "severity": "medium",
+  "since": 1794613405.4287903,
+  "text": "Sell order for 'Cartel' Power Diagnostic System I in amarr still has 7 left after 8 days."
+ },
+ {
+  "key": "stale_sell:18",
+  "severity": "medium",
+  "since": 1794613405.4287903,
+  "text": "Sell order for Gravid Vorton Tuning System Mutaplasmid in amarr still has 5 left after 8 days."
+ },
+ {
+  "key": "stale_sell:9",
+  "severity": "medium",
+  "since": 1794613405.4287903,
+  "text": "Sell order for Black Market 'Valdimar' Drone Navigation DN-701 in amarr still has 3 left after 8 days."
  },
  {
   "key": "idle_buy:21",
   "severity": "info",
   "since": 1794376824.645961,
-  "text": "Buy order for Compressed Gneiss III-Grade in jita hasn't filled at all in 7 days (2.33k tied up)."
+  "text": "Buy order for Compressed Gneiss III-Grade in jita hasn't filled at all in 8 days (2.33k tied up)."
  },
  {
-  "key": "idle_buy:6",
+  "key": "idle_buy:22",
   "severity": "info",
-  "since": 1793915372.8054109,
-  "text": "Buy order for Tetryon Exotic Plasma XL in amarr hasn't filled at all in 12 days (98.99M tied up)."
+  "since": 1794613405.4287903,
+  "text": "Buy order for Compressed Dark Glitter in jita hasn't filled at all in 5 days (2.25M tied up)."
+ },
+ {
+  "key": "idle_buy:27",
+  "severity": "info",
+  "since": 1794613405.4287903,
+  "text": "Buy order for Compressed Raspite X-Grade in amarr hasn't filled at all in 5 days (200.20 tied up)."
  }
 ]
