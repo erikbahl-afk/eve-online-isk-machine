@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Thu 12 Nov 19:37 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Thu 12 Nov 20:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 32 · **Est. time:** 25 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -79,13 +79,13 @@ _Market → search item → Buy. Only take sell orders in this station, never ab
 
 ```
 Blood Raider NET Resonator	76
-Caesium	19077
-Heavy Electron Blaster II	50
+Caesium	19055
+Caldari Drone Specialization	12
 Improved 'Guise' Cloaking Device II	2
 Legion Mjolnir Auto-Targeting Light Missile	14251
 Limited Expanded 'Archiver' Cargo	3
 Mobile Large Warp Disruptor I	3
-Muninn	1
+Nitrogen Isotopes	285605
 Polarized Light Neutron Blaster	8
 Shrapnel Bomb	33
 Standup Moon Drill I	2
@@ -95,13 +95,13 @@ Zero-Point Mass Entangler	16
 | # | Item | Qty | Max price per unit | Lowest when written |
 |---|---|---|---|---|
 | 15 | ☐ Blood Raider NET Resonator | 76 | **4,142,000** | 4,000,000 |
-| 16 | ☐ Caesium | 19,077 | **5,630** | 5,408 |
-| 17 | ☐ Heavy Electron Blaster II | 50 | **1,326,000** | 1,200,000 |
+| 16 | ☐ Caesium | 19,055 | **5,630** | 5,408 |
+| 17 | ☐ Caldari Drone Specialization | 12 | **1,821,000** | 1,006,000 |
 | 18 | ☐ Improved 'Guise' Cloaking Device II | 2 | **41,460,000** | 27,470,000 |
 | 19 | ☐ Legion Mjolnir Auto-Targeting Light Missile | 14,251 | **1,921** | 998.00 |
 | 20 | ☐ Limited Expanded 'Archiver' Cargo | 3 | **41,370,000** | 22,780,000 |
 | 21 | ☐ Mobile Large Warp Disruptor I | 3 | **20,650,000** | 16,310,000 |
-| 22 | ☐ Muninn | 1 | **136,300,000** | 135,600,000 |
+| 22 | ☐ Nitrogen Isotopes | 285,605 | **598.80** | 595.00 |
 | 23 | ☐ Polarized Light Neutron Blaster | 8 | **4,618,000** | 3,355,000 |
 | 24 | ☐ Shrapnel Bomb | 33 | **1,438,000** | 1,161,000 |
 | 25 | ☐ Standup Moon Drill I | 2 | **117,200,000** | 114,900,000 |
@@ -110,7 +110,7 @@ Zero-Point Mass Entangler	16
 #### Ship to the other hub
 
 
-27. ☐ **1 courier contract via PushX** → Amarr VIII (Oris) - Emperor Family Academy. Items: everything bought above plus any import stock already in the hangar (Limited Expanded 'Archiver' Cargo, Blood Raider NET Resonator, Improved 'Guise' Cloaking Device II, Legion Mjolnir Auto-Targeting Light Missile, Standup Moon Drill I, Zero-Point Mass Entangler, Caesium, Shrapnel Bomb, Mobile Large Warp Disruptor I, Heavy Electron Blaster II, Polarized Light Neutron Blaster, Muninn); total about 1.21B, 33,029 m³. Split it so each contract's collateral is at most 1.5B. Get the reward from the PushX quote page (about 69.00M each), then Contracts → Create Contract → Courier, assign to PushX's corporation, expiration 7 days, 7 days to complete.
+27. ☐ **1 courier contract via PushX** → Amarr VIII (Oris) - Emperor Family Academy. Items: everything bought above plus any import stock already in the hangar (Limited Expanded 'Archiver' Cargo, Blood Raider NET Resonator, Improved 'Guise' Cloaking Device II, Legion Mjolnir Auto-Targeting Light Missile, Standup Moon Drill I, Zero-Point Mass Entangler, Caesium, Shrapnel Bomb, Mobile Large Warp Disruptor I, Polarized Light Neutron Blaster, Nitrogen Isotopes, Caldari Drone Specialization); total about 1.20B, 31,096 m³. Split it so each contract's collateral is at most 1.5B. Get the reward from the PushX quote page (about 69.00M each), then Contracts → Create Contract → Courier, assign to PushX's corporation, expiration 7 days, 7 days to complete.
 
 ### Block 2 · should do · about 1 min
 
