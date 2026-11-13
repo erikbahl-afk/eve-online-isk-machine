@@ -260,7 +260,7 @@ type_id,name,volume,group_id
 11202,,2500,831
 11325,,20,329
 11343,100mm Crystalline Carbonide Restrained Plates,,
-11365,Vengeance,2500,
+11365,Vengeance,2500,324
 11377,Nemesis,2500,834
 11379,,2500,
 11381,,2500,
@@ -346,7 +346,7 @@ type_id,name,volume,group_id
 12356,350mm Railgun II,20,
 12484,Amarr Drone Specialization,0.01,
 12486,Gallente Drone Specialization,0.01,
-12487,Caldari Drone Specialization,0.01,
+12487,Caldari Drone Specialization,0.01,273
 12529,,0.1,370
 12532,Blood Bronze Tag,0.1,370
 12533,,0.1,370
@@ -1439,6 +1439,7 @@ type_id,name,volume,group_id
 35826,Azbel,,
 35832,Astrahus,8000,
 35833,Fortizar,,
+35835,Athanor,8000,1406
 35878,Standup Manufacturing Plant I,4000,
 35886,Standup Invention Lab I,,
 35894,Standup Cloning Center I,4000,
@@ -1627,7 +1628,7 @@ type_id,name,volume,group_id
 47133,Standup Dromi I,,
 47136,Standup Siren II,6000,4778
 47139,,2000,
-47270,,10000,
+47270,,10000,26
 47298,Standup Multirole Missile Launcher II,4000,
 47323,Standup Anticapital Missile Launcher II,,
 47334,,4000,
@@ -1938,7 +1939,7 @@ type_id,name,volume,group_id
 78366,Alligator,15000,419
 78367,Mamba,5000,420
 78369,Khizriel,15000,
-78622,Gravid Vorton Tuning System Mutaplasmid,1,
+78622,Gravid Vorton Tuning System Mutaplasmid,1,1964
 79186,Mysterious GalNet Crate II,,
 79744,Barghest Aurora Universalis SKIN,,
 79951,Machariel Luminae Polaris SKIN,,
@@ -2071,6 +2072,7 @@ type_id,name,volume,group_id
 95228,Manifest Homecoming Background,,
 95413,Harmonius Bridge - Unlimited,,
 95556,Lorharyth’s Modified Inertial Stabilizer,5,762
+95629,,15000,1201
 95672,Liberated Matar Background,0.1,
 95673,Foundation Wisdom Background,0.1,
 95741,Akoman,15000,1201

@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Thu 12 Nov 18:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Thu 12 Nov 19:37 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 32 · **Est. time:** 25 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -63,7 +63,7 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
 | 12 | ☐ Legion Scourge Auto-Targeting Cruise Missile | 1 | **3,213** | 2,393 | 3,214 |
-| 13 | ☐ Void XL | 2,434 | **4,679** | 3,289 | 4,680 |
+| 13 | ☐ Void XL | 2,434 | **4,678** | 3,289 | 4,679 |
 
 ## 14. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
 _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
@@ -78,39 +78,39 @@ _Market → search item → Buy. Only take sell orders in this station, never ab
 **Fast way:** Market → **Multibuy** → import from clipboard, paste the list below, check that no line costs more than its max price, then buy all at once.
 
 ```
-Blood Raider NET Resonator	79
-Caesium	17650
+Blood Raider NET Resonator	76
+Caesium	19077
 Heavy Electron Blaster II	50
 Improved 'Guise' Cloaking Device II	2
 Legion Mjolnir Auto-Targeting Light Missile	14251
-Limited Expanded 'Archiver' Cargo	2
-Medium EM Armor Reinforcer II	15
+Limited Expanded 'Archiver' Cargo	3
 Mobile Large Warp Disruptor I	3
-Nitrogen Isotopes	279651
+Muninn	1
+Polarized Light Neutron Blaster	8
 Shrapnel Bomb	33
-Standup Moon Drill I	1
-Zero-Point Mass Entangler	18
+Standup Moon Drill I	2
+Zero-Point Mass Entangler	16
 ```
 
 | # | Item | Qty | Max price per unit | Lowest when written |
 |---|---|---|---|---|
-| 15 | ☐ Blood Raider NET Resonator | 79 | **4,143,000** | 4,000,000 |
-| 16 | ☐ Caesium | 17,650 | **5,630** | 5,410 |
-| 17 | ☐ Heavy Electron Blaster II | 50 | **1,326,000** | 1,199,000 |
+| 15 | ☐ Blood Raider NET Resonator | 76 | **4,142,000** | 4,000,000 |
+| 16 | ☐ Caesium | 19,077 | **5,630** | 5,408 |
+| 17 | ☐ Heavy Electron Blaster II | 50 | **1,326,000** | 1,200,000 |
 | 18 | ☐ Improved 'Guise' Cloaking Device II | 2 | **41,460,000** | 27,470,000 |
 | 19 | ☐ Legion Mjolnir Auto-Targeting Light Missile | 14,251 | **1,921** | 998.00 |
-| 20 | ☐ Limited Expanded 'Archiver' Cargo | 2 | **41,370,000** | 22,780,000 |
-| 21 | ☐ Medium EM Armor Reinforcer II | 15 | **8,964,000** | 8,882,000 |
-| 22 | ☐ Mobile Large Warp Disruptor I | 3 | **20,650,000** | 16,310,000 |
-| 23 | ☐ Nitrogen Isotopes | 279,651 | **598.80** | 595.00 |
-| 24 | ☐ Shrapnel Bomb | 33 | **1,438,000** | 1,163,000 |
-| 25 | ☐ Standup Moon Drill I | 1 | **117,100,000** | 114,900,000 |
-| 26 | ☐ Zero-Point Mass Entangler | 18 | **8,094,000** | 7,795,000 |
+| 20 | ☐ Limited Expanded 'Archiver' Cargo | 3 | **41,370,000** | 22,780,000 |
+| 21 | ☐ Mobile Large Warp Disruptor I | 3 | **20,650,000** | 16,310,000 |
+| 22 | ☐ Muninn | 1 | **136,300,000** | 135,600,000 |
+| 23 | ☐ Polarized Light Neutron Blaster | 8 | **4,618,000** | 3,355,000 |
+| 24 | ☐ Shrapnel Bomb | 33 | **1,438,000** | 1,161,000 |
+| 25 | ☐ Standup Moon Drill I | 2 | **117,200,000** | 114,900,000 |
+| 26 | ☐ Zero-Point Mass Entangler | 16 | **8,093,000** | 7,793,000 |
 
 #### Ship to the other hub
 
 
-27. ☐ **1 courier contract via PushX** → Amarr VIII (Oris) - Emperor Family Academy. Items: everything bought above plus any import stock already in the hangar (Limited Expanded 'Archiver' Cargo, Blood Raider NET Resonator, Improved 'Guise' Cloaking Device II, Legion Mjolnir Auto-Targeting Light Missile, Zero-Point Mass Entangler, Standup Moon Drill I, Caesium, Medium EM Armor Reinforcer II, Shrapnel Bomb, Mobile Large Warp Disruptor I, Heavy Electron Blaster II, Nitrogen Isotopes); total about 1.23B, 23,555 m³. Split it so each contract's collateral is at most 1.5B. Get the reward from the PushX quote page (about 69.00M each), then Contracts → Create Contract → Courier, assign to PushX's corporation, expiration 7 days, 7 days to complete.
+27. ☐ **1 courier contract via PushX** → Amarr VIII (Oris) - Emperor Family Academy. Items: everything bought above plus any import stock already in the hangar (Limited Expanded 'Archiver' Cargo, Blood Raider NET Resonator, Improved 'Guise' Cloaking Device II, Legion Mjolnir Auto-Targeting Light Missile, Standup Moon Drill I, Zero-Point Mass Entangler, Caesium, Shrapnel Bomb, Mobile Large Warp Disruptor I, Heavy Electron Blaster II, Polarized Light Neutron Blaster, Muninn); total about 1.21B, 33,029 m³. Split it so each contract's collateral is at most 1.5B. Get the reward from the PushX quote page (about 69.00M each), then Contracts → Create Contract → Courier, assign to PushX's corporation, expiration 7 days, 7 days to complete.
 
 ### Block 2 · should do · about 1 min
 
@@ -119,7 +119,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 28 | ☐ Low-grade Centurion Alpha | 2 | **10,570,000** | 15,020,000 | 10,560,000 |
+| 28 | ☐ Imperial Navy Small Focused Beam Laser | 1 | **26,550,000** | 35,260,000 | 26,540,000 |
 
 ### Block 3 · if there's time · about 3 min
 
@@ -128,8 +128,8 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 29 | ☐ 50MN Microwarpdrive II | 1 | **4,096,000** | 3,751,000 | 4,097,000 |
-| 30 | ☐ Compressed Gneiss IV-Grade | 1 | **2,718** | 2,550 | 2,719 |
+| 29 | ☐ 50MN Microwarpdrive II | 1 | **4,097,000** | 3,751,000 | 4,098,000 |
+| 30 | ☐ Compressed Gneiss IV-Grade | 1 | **2,599** | 2,550 | 2,600 |
 | 31 | ☐ Compressed Mordunium IV-Grade | 5 | **25.89** | 20.97 | 25.90 |
 
 #### Fix outbid buy orders
@@ -137,7 +137,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 32 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,621,000** | 3,621,000 | 3,649,000 |
+| 32 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,622,000** | 3,622,000 | 3,649,000 |
 
 ---
 Wallet 1.62B · escrow 140.91M · stock 3.13B · in transit 0.00 · net worth 4.88B (liquidation 2.46B)
