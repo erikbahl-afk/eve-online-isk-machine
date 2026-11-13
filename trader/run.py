@@ -189,7 +189,13 @@ def main():
     variants = {}
     for v in cfg.get("variants", []):
         vcfg = merge(cfg, {k: val for k, val in v.items() if k not in ("name", "note")})
-        r = run_portfolio(vcfg, STATE / "variants" / v["name"], shared)
+        try:
+            r = run_portfolio(vcfg, STATE / "variants" / v["name"], shared)
+        except Exception as e:  # one broken experiment must not stop the main portfolio (11-13: 20 h outage)
+            import traceback
+            traceback.print_exc()
+            health[f"variant:{v['name']}"] = {"note": f"experiment failed: {type(e).__name__}: {e}"[:120]}
+            continue
         variants[v["name"]] = {"nw": r["val"]["nw_book"], "realized": r["pf"]["pnl"]["realized"], "note": v["note"],
                                "start": r["pf"]["start_isk"], "kind": v.get("kind", "regular"),
                                "liquid": r["val"]["nw_liquid"]}

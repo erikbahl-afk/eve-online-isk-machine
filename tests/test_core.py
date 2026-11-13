@@ -232,6 +232,17 @@ def test_courier_respects_destination():
     assert pf["inventory"]["dodixie"]["8"]["tag"] == "seed"
 
 
+def test_courier_return_trip_uses_source_route():
+    pf = new_portfolio(CFG, 0)
+    sim = Sim(CFG, pf, Fees(CFG), np.random.default_rng(1), [])
+    book = pd.DataFrame({"type_id": [7], "is_buy": [False], "price": [1e6], "vol": [5]})
+    sim.instant_buy("amarr", 7, 5, 1e6, book, 0, "export", dest="jita")
+    c = sim.courier("amarr", "jita", [7], {7: 1.0}, 0)
+    assert c["fee"] == CFG["routes"]["amarr"]["contract_fee"] and c["to"] == "jita"
+    sim.arrivals(c["arrive"] + 1)
+    assert pf["inventory"]["jita"]["7"]["qty"] == 5
+
+
 def test_scoreboard(tmp_path):
     import json
 

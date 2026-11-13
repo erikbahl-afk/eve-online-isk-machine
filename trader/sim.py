@@ -305,7 +305,8 @@ class Sim:
 
     def courier(self, src, dst, type_ids, vols, t):
         """Ship hangar stock of type_ids from src to dst; shipping is added to unit cost."""
-        r = self.cfg["routes"][dst]
+        routes = self.cfg["routes"]  # keyed by the far hub; a return trip (e.g. amarr -> jita) uses the source's route
+        r = routes[dst] if dst in routes else routes[src]
         n_max = self.cfg["strategy"]["max_contracts"]
         items, value, m3 = [], 0.0, 0.0
         for ty in type_ids:
