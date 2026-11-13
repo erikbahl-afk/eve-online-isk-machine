@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Thu 12 Nov 14:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 30 · **Est. time:** 25 min. Work top to bottom; stop any time.  
+**Updated:** Thu 12 Nov 16:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 32 · **Est. time:** 25 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -24,8 +24,8 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 |---|---|---|---|---|---|
 | 1 | ☐ 'Cartel' Power Diagnostic System I | 68,280,000 | **68,270,000** | 31,380,000 | 68,280,000 |
 | 2 | ☐ Black Market 'Valdimar' Drone Navigation DN-701 | 249,800,000 | **249,900,000** | 131,200,000 | 250,000,000 |
-| 3 | ☐ Capital I-a Enduring Armor Repairer | 199,700,000 | **199,700,000** | 91,990,000 | 199,800,000 |
-| 4 | ☐ Dread Guristas Rocket Launcher | 99,370,000 | **99,340,000** | 48,990,000 | 99,350,000 |
+| 3 | ☐ Dread Guristas Rocket Launcher | 99,370,000 | **99,340,000** | 48,990,000 | 99,350,000 |
+| 4 | ☐ Golem Exoplanets Hunter SKIN | 175,370,000 | **175,370,000** | 134,900,000 | - |
 | 5 | ☐ Men's 'Precision' Boots | 99,990,000 | **99,990,000** | 51,550,000 | 100,000,000 |
 | 6 | ☐ Standup M-Set Basic Small Ship Manufacturing Material Efficiency I | 699,600,000 | **699,600,000** | 347,300,000 | 699,700,000 |
 | 7 | ☐ Typhoon Fleet Issue Capsuleer Elite XX SKIN | 815,900,000 | **815,900,000** | 435,300,000 | - |
@@ -70,33 +70,56 @@ _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Ne
 
 ## At Jita IV - Moon 4 - Caldari Navy Assembly Plant
 
-### Block 1 · must do · about 7 min
+### Block 1 · must do · about 11 min
+
+#### Buy for import
+_Market → search item → Buy. Only take sell orders in this station, never above the max._
+
+**Fast way:** Market → **Multibuy** → import from clipboard, paste the list below, check that no line costs more than its max price, then buy all at once.
+
+```
+Caesium	17765
+Improved 'Guise' Cloaking Device II	2
+Legion Mjolnir Auto-Targeting Light Missile	14251
+Medium EM Armor Reinforcer II	15
+Mobile Large Warp Disruptor I	3
+Nitrogen Isotopes	277621
+ORE Miner	1
+Pith X-Type Kinetic Shield Hardener	3
+Radar Sensor Cluster	2148
+Shrapnel Bomb	33
+Standup Moon Drill I	1
+Zero-Point Mass Entangler	17
+```
+
+| # | Item | Qty | Max price per unit | Lowest when written |
+|---|---|---|---|---|
+| 15 | ☐ Caesium | 17,765 | **5,630** | 5,411 |
+| 16 | ☐ Improved 'Guise' Cloaking Device II | 2 | **41,460,000** | 27,480,000 |
+| 17 | ☐ Legion Mjolnir Auto-Targeting Light Missile | 14,251 | **1,921** | 998.00 |
+| 18 | ☐ Medium EM Armor Reinforcer II | 15 | **8,964,000** | 8,883,000 |
+| 19 | ☐ Mobile Large Warp Disruptor I | 3 | **20,650,000** | 16,310,000 |
+| 20 | ☐ Nitrogen Isotopes | 277,621 | **598.80** | 594.90 |
+| 21 | ☐ ORE Miner | 1 | **150,300,000** | 150,000,000 |
+| 22 | ☐ Pith X-Type Kinetic Shield Hardener | 3 | **14,920,000** | 10,490,000 |
+| 23 | ☐ Radar Sensor Cluster | 2,148 | **22,300** | 18,400 |
+| 24 | ☐ Shrapnel Bomb | 33 | **1,438,000** | 1,163,000 |
+| 25 | ☐ Standup Moon Drill I | 1 | **117,100,000** | 115,000,000 |
+| 26 | ☐ Zero-Point Mass Entangler | 17 | **8,094,000** | 7,797,000 |
+
+#### Ship to the other hub
+
+
+27. ☐ **1 courier contract via PushX** → Amarr VIII (Oris) - Emperor Family Academy. Items: everything bought above plus any import stock already in the hangar (Improved 'Guise' Cloaking Device II, Legion Mjolnir Auto-Targeting Light Missile, Zero-Point Mass Entangler, Standup Moon Drill I, Caesium, Medium EM Armor Reinforcer II, Shrapnel Bomb, Mobile Large Warp Disruptor I, Nitrogen Isotopes, Radar Sensor Cluster, Pith X-Type Kinetic Shield Hardener, ORE Miner); total about 1.02B, 25,029 m³. Split it so each contract's collateral is at most 1.5B. Get the reward from the PushX quote page (about 69.00M each), then Contracts → Create Contract → Courier, assign to PushX's corporation, expiration 7 days, 7 days to complete.
+
+### Block 2 · should do · about 1 min
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 15 | ☐ 800mm Repeating Cannon II | 27 | **3,095,000** | 3,285,000 | 3,094,000 |
-| 16 | ☐ Caldari Navy Rapid Heavy Missile Launcher | 1 | **58,210,000** | 68,800,000 | 58,200,000 |
-| 17 | ☐ Capital Compact Pb-Acid Cap Battery | 2 | **9,472,000** | 15,020,000 | 9,471,000 |
-| 18 | ☐ Dysporite | 1,493 | **16,010** | 21,350 | 16,000 |
-| 19 | ☐ Jaguar | 4 | **14,220,000** | 16,360,000 | 14,210,000 |
-| 20 | ☐ Mid-grade Snake Epsilon | 1 | **140,500,000** | 167,100,000 | 140,400,000 |
-| 21 | ☐ Republic Fleet Warp Disruptor | 1 | **95,030,000** | 99,810,000 | 95,020,000 |
-
-### Block 2 · should do · about 5 min
-
-#### New buy orders
-_Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
-
-| # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
-|---|---|---|---|---|---|
-| 22 | ☐ Compressed Gelidus | 190 | **400,100** | 424,100 | 400,000 |
-| 23 | ☐ Compressed Malachite Mykoserocin | 2,211 | **77,050** | 77,220 | 77,040 |
-| 24 | ☐ Coreli B-Type 1MN Afterburner | 2 | **29,290,000** | 34,450,000 | 29,280,000 |
-| 25 | ☐ Imperial Navy Small Focused Beam Laser | 1 | **26,550,000** | 35,340,000 | 26,540,000 |
-| 26 | ☐ Low-grade Centurion Alpha | 2 | **10,570,000** | 15,020,000 | 10,560,000 |
+| 28 | ☐ Low-grade Centurion Alpha | 2 | **10,570,000** | 15,020,000 | 10,560,000 |
 
 ### Block 3 · if there's time · about 3 min
 
@@ -105,16 +128,16 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 27 | ☐ 50MN Microwarpdrive II | 1 | **4,095,000** | 3,751,000 | 4,096,000 |
-| 28 | ☐ Compressed Gneiss IV-Grade | 1 | **2,598** | 2,550 | 2,599 |
-| 29 | ☐ Compressed Mordunium IV-Grade | 5 | **25.99** | 20.97 | 26.00 |
+| 29 | ☐ 50MN Microwarpdrive II | 1 | **4,097,000** | 3,751,000 | 4,098,000 |
+| 30 | ☐ Compressed Gneiss IV-Grade | 1 | **2,599** | 2,550 | 2,600 |
+| 31 | ☐ Compressed Mordunium IV-Grade | 5 | **25.89** | 20.97 | 25.90 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 30 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,620,000** | 3,620,000 | 3,649,000 |
+| 32 | ☐ 50MN Microwarpdrive II | 3,606,000 | **3,622,000** | 3,622,000 | 3,649,000 |
 
 ---
 Wallet 1.62B · escrow 140.91M · stock 3.13B · in transit 0.00 · net worth 4.88B (liquidation 2.46B)

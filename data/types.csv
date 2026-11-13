@@ -27,6 +27,7 @@ type_id,name,volume,group_id
 632,,10000,26
 633,,10000,26
 638,Raven,50000,27
+639,,50000,27
 640,Scorpion,50000,27
 641,Megathron,50000,27
 642,Apocalypse,,
@@ -131,7 +132,7 @@ type_id,name,volume,group_id
 3095,Eifyr and Co. 'Rogue' Evasive Maneuvering EM-706,1,747
 3106,,10,
 3119,Eifyr and Co. 'Rogue' Warp Drive Speed WS-618,1,747
-3130,Heavy Electron Blaster II,10,
+3130,Heavy Electron Blaster II,10,74
 3134,Zainou 'Deadeye' Missile Projection MP-704,,
 3135,Zainou 'Deadeye' Missile Projection MP-706,1,
 3141,Zainou 'Deadeye' Target Navigation Prediction TN-902,,
@@ -312,7 +313,7 @@ type_id,name,volume,group_id
 11987,Guardian,10000,832
 11989,,10000,
 11993,Cerberus,10000,358
-11995,Onyx,10000,
+11995,Onyx,10000,894
 11999,Vagabond,10000,
 12003,Zealot,10000,358
 12005,Ishtar,10000,358
@@ -508,6 +509,7 @@ type_id,name,volume,group_id
 15466,Standard Drop Booster,1,303
 15477,Improved Drop Booster,1,
 15478,Strong Drop Booster,,
+15479,,1,303
 15592,Federation Navy Fleet Captain Insignia I,0.1,409
 15593,,0.1,409
 15594,Federation Navy Fleet Colonel Insignia I,0.1,409
@@ -527,6 +529,7 @@ type_id,name,volume,group_id
 15681,Caldari Navy Ballistic Control System,5,367
 15683,Republic Fleet Ballistic Control System,5,367
 15703,Republic Fleet Multispectrum Coating,5,98
+15707,Imperial Navy Kinetic Armor Hardener,5,328
 15729,Imperial Navy Multispectrum Energized Membrane,5,326
 15739,Federation Navy Multispectrum Energized Membrane,5,326
 15749,,5,
@@ -721,6 +724,7 @@ type_id,name,volume,group_id
 19003,,5,
 19015,Coreli A-Type Small Armor Repairer,5,
 19017,Corpum C-Type Medium Armor Repairer,10,
+19019,Corpum B-Type Medium Armor Repairer,10,62
 19025,,10,
 19027,Centum A-Type Medium Armor Repairer,10,62
 19029,Corelum C-Type Medium Armor Repairer,10,
@@ -775,7 +779,7 @@ type_id,name,volume,group_id
 19253,,5,
 19263,Gist C-Type EM Shield Hardener,,
 19268,,5,
-19281,Gist X-Type EM Shield Hardener,,
+19281,Gist X-Type EM Shield Hardener,5,77
 19282,Pith X-Type EM Shield Hardener,5,77
 19284,Pith X-Type Thermal Shield Hardener,5,77
 19285,,5,
@@ -845,6 +849,7 @@ type_id,name,volume,group_id
 20507,High-grade Amulet Gamma,1,
 20508,High-grade Halo Omega,1,
 20509,High-grade Amulet Omega,1,300
+20527,Gallente Freighter,,
 20528,Minmatar Freighter,,
 20565,Improved 'Guise' Cloaking Device II,100,330
 20567,'Dyad' Co-Processor I,5,
@@ -1191,7 +1196,7 @@ type_id,name,volume,group_id
 29340,,10000,
 29344,,10000,
 29984,Tengu,5000,963
-29986,Legion,,
+29986,Legion,5000,963
 29988,Proteus,5000,963
 29990,Loki,5000,963
 29992,Optimized Nano-Engines,,
@@ -1450,6 +1455,7 @@ type_id,name,volume,group_id
 37292,Rapid Torpedo Launcher II,1000,
 37296,Quad Mega Pulse Laser II,1000,53
 37298,Dual Giga Pulse Laser II,1000,53
+37300,,1000,74
 37302,Ion Siege Blaster II,1000,
 37306,Hexa 2500mm Repeating Cannon II,1000,55
 37450,,5,54
@@ -1637,7 +1643,7 @@ type_id,name,volume,group_id
 47783,Unstable Medium Shield Booster Mutaplasmid,,
 47787,Unstable Large Shield Booster Mutaplasmid,1,
 47790,Decayed X-Large Shield Booster Mutaplasmid,1,1964
-47806,Unstable Large Shield Extender Mutaplasmid,1,
+47806,Unstable Large Shield Extender Mutaplasmid,1,1964
 47807,Gravid Large Shield Extender Mutaplasmid,1,1964
 47818,Unstable Large Armor Plate Mutaplasmid,1,1964
 47826,,1,1964
@@ -1863,7 +1869,7 @@ type_id,name,volume,group_id
 62464,Compressed Brimful Zeolites,0.1,1884
 62467,Compressed Glistening Zeolites,0.1,1884
 62516,Compressed Veldspar,0.001,462
-62517,Compressed Veldspar II-Grade,,
+62517,Compressed Veldspar II-Grade,0.001,462
 62518,Compressed Veldspar III-Grade,0.001,462
 62519,Compressed Veldspar IV-Grade,0.001,462
 62520,Compressed Scordite,0.0015,460
@@ -1877,6 +1883,7 @@ type_id,name,volume,group_id
 62536,Compressed Kernite,0.012,457
 62538,Compressed Kernite III-Grade,,
 62540,,0.02,456
+62552,,0.05,467
 62553,Compressed Gneiss II-Grade,0.05,467
 62554,Compressed Gneiss III-Grade,0.05,467
 62555,Compressed Gneiss IV-Grade,0.05,467
@@ -2006,6 +2013,7 @@ type_id,name,volume,group_id
 90647,Oxidative Stress - Unlimited,,
 90734,,0.01,
 91174,Perseverance,5000,420
+91619,,0.01,1950
 91636,,0.01,1950
 91773,Rampancy Data Dump,0.01,5067
 91775,Dragoon Navy Issue,5000,420
@@ -2053,6 +2061,7 @@ type_id,name,volume,group_id
 94009,Federation Navy Bastion Module,200,515
 94010,Caldari Navy Bastion Module,,
 94034,Harpy State Regulator SKIN,0.01,
+94035,,0.01,1950
 94065,,5,
 94067,Caldari Navy Signal Distortion Amplifier,,
 95228,Manifest Homecoming Background,,
