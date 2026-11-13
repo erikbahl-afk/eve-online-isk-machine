@@ -19,7 +19,7 @@ type_id,name,volume,group_id
 527,,5,65
 620,,10000,26
 621,Caracal,10000,26
-622,Stabber,,
+622,Stabber,10000,26
 625,,10000,26
 626,,10000,26
 627,,10000,
@@ -685,6 +685,7 @@ type_id,name,volume,group_id
 18698,Core X-Type 100MN Afterburner,,
 18706,,5,98
 18708,Corpii A-Type Multispectrum Coating,5,98
+18710,,5,98
 18766,,5,
 18768,Coreli C-Type Multispectrum Coating,5,98
 18789,Coreli A-Type Multispectrum Coating,5,98
@@ -875,6 +876,7 @@ type_id,name,volume,group_id
 21474,,5,
 21478,50MN Digital Booster Microwarpdrive,10,46
 21486,,5,
+21493,Limited Expanded 'Archiver' Cargo,5,765
 21510,'Interruptive' Warp Disruptor,5,52
 21512,'Delineative' Warp Scrambler,5,52
 21540,'Inception' Target Painter,5,
@@ -1109,7 +1111,7 @@ type_id,name,volume,group_id
 27459,,0.05,
 27465,Legion Scourge Auto-Targeting Cruise Missile,,
 27483,Legion Mjolnir Auto-Targeting Heavy Missile,0.03,395
-27489,Legion Scourge Auto-Targeting Heavy Missile,0.03,
+27489,Legion Scourge Auto-Targeting Heavy Missile,0.03,395
 27507,Legion Mjolnir Auto-Targeting Light Missile,0.015,394
 27916,,75,
 27918,Shrapnel Bomb,75,90
