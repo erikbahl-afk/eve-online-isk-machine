@@ -30,7 +30,7 @@ type_id,name,volume,group_id
 639,,50000,27
 640,Scorpion,50000,27
 641,Megathron,50000,27
-642,Apocalypse,,
+642,Apocalypse,50000,27
 644,Typhoon,50000,27
 645,Dominix,,
 655,,20000,28
@@ -382,6 +382,7 @@ type_id,name,volume,group_id
 13222,Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-803,,
 13223,,1,742
 13229,Zainou 'Snapshot' Heavy Missiles HM-703,1,746
+13231,,1,746
 13237,Eifyr and Co. 'Rogue' Navigation NN-603,1,747
 13240,Eifyr and Co. 'Rogue' Evasive Maneuvering EM-703,1,
 13242,Eifyr and Co. 'Rogue' Warp Drive Speed WS-610,1,
@@ -1362,7 +1363,7 @@ type_id,name,volume,group_id
 33522,'Yurt' Mobile Depot,50,1246
 33526,,1,
 33527,High-grade Ascendancy Epsilon,1,
-33528,High-grade Ascendancy Gamma,,
+33528,High-grade Ascendancy Gamma,1,300
 33539,Shattered Villard Wheel,0.1,526
 33557,Mid-grade Ascendancy Beta,1,
 33619,Rogue Drone 43-X Nexus Chip,0.1,314
@@ -1821,6 +1822,7 @@ type_id,name,volume,group_id
 58950,Large Industrial Core II,3500,515
 58966,,5,
 58972,,5,
+59633,,1,303
 60032,Golem State Police SKIN,0.01,
 60281,Simple Asteroid Mining Crystal Type A II,10,482
 60283,Simple Asteroid Mining Crystal Type B II,10,482
