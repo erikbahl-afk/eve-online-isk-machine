@@ -290,3 +290,17 @@
 - Alerts: liquidation 50% and Typhoon SKIN 8.6% (legacy imports, hold, as Sat). Stale Amarr stock (Keys, Void XL, Legion missile)
   and the Tetryon XL bid (avoid): no sim login since Sun; tonight's login lists/cancels them. Gneiss III bid (2.33k): noise.
 - Next: Fri review: confirm tonight listed main's and exports/seeding's Amarr stock; first import sales.
+
+## 2026-11-13 · weekly review (Friday)
+- **Outage:** every bot run since 13 Nov 04:00 UTC failed (≈10 runs, ~20 h): exports' first return courier Amarr → Jita hit
+  `cfg["routes"]["jita"]` → KeyError, aborting main too; Thursday's 21:10 PT sim login never ran. Fixed: `Sim.courier` uses the
+  source hub's route for return trips; `run.py` catches a variant failure, logs it to health (→ alert) and carries on. 28 pass (1 new).
+- Week: main 4.88B (flat vs 4.89B on 11-06), realized −117.5M, liq 50%; scoreboard since 11-06 in the memo (more_time +4.48%,
+  the rest −1.4% to −0.15%). 2 sim logins only (Thu 05, Sun 08). No import sold anywhere in 16 days.
+- Live check of main's 10 Amarr sells (3.09B at cost): asks ~2x cost, mostly at or near the 30 d high; 30 d region trades 1–49.
+  Low-grade Crystal Epsilon: best ask 137M vs ours 247.7M, cost 148.4M, 30 d high 394.7M → exit (fast). SKINs (Typhoon 419M,
+  Golem 389M): 1 and 2 trades in 30 d, no bids: hold to Thu 19 Nov, then write off or reprice.
+- Alerts: liquidation 50% / Typhoon SKIN 8.6%: see above (decision Thu). Stale Amarr stock, Tetryon XL avoid and the Gneiss bid
+  were all waiting on Thursday's login, which the outage blocked; they should clear on the next run. Thresholds unchanged.
+- Perimeter structure.json looks off (6,168 of 6,241 buys "reach Jita"; 370 sells; asks 99% under Jita): check the parser Wed.
+- Memo: reports/2026-11-13-memo.md. Next: confirm the 00:00 UTC run succeeds and the missed login executes.

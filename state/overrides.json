@@ -36,5 +36,11 @@
    "until": "2026-11-20"
   }
  ],
- "exit": []
+ "exit": [
+  {
+   "type_id": 33926,
+   "reason": "Amarr import (2 units, cost 148.4M): live best ask 137M, our ask 247.7M; 30 d high 394.7M and falling. Can't sell above cost; take the ~25M loss and free 275M",
+   "mode": "fast"
+  }
+ ]
 }
