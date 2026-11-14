@@ -158,6 +158,7 @@ type_id,name,volume,group_id
 3256,Inherent Implants 'Squire' Power Grid Management EG-602,1,741
 3257,Inherent Implants 'Squire' Power Grid Management EG-604,1,741
 3265,Zainou 'Gypsy' CPU Management EE-602,1,
+3430,Advanced Target Management,,
 3475,Inherent Implants 'Noble' Mechanic MC-806,1,738
 3482,Inherent Implants 'Noble' Hull Upgrades HG-1006,1,738
 3488,,5,
@@ -1172,6 +1173,7 @@ type_id,name,volume,group_id
 28433,Compressed Blue Ice,,
 28435,Compressed Dark Glitter,100,465
 28437,Compressed Gelidus,100,465
+28438,,100,465
 28439,Compressed Glare Crust,,
 28440,Compressed Krystallos,100,465
 28606,Orca,500000,941
@@ -2090,7 +2092,7 @@ type_id,name,volume,group_id
 91975,Federation Hardpoint Booster III,,
 92033,Orbweaver SW-300-I,5,5239
 92034,Huntsman SW-600-I,10,5239
-92035,,25,5239
+92035,Arabellata SW-900-I,25,5239
 92036,Tick EV-300-I,5,
 92040,Nertic EC-600-I,10,
 92041,Humboldt EC-900-I,25,5239
