@@ -316,7 +316,7 @@ type_id,name,volume,group_id
 11963,Rapier,10000,
 11965,Pilgrim,10000,
 11969,Arazu,10000,833
-11971,,10000,906
+11971,Lachesis,10000,906
 11978,,10000,832
 11985,Basilisk,,
 11987,Guardian,10000,832
@@ -381,6 +381,7 @@ type_id,name,volume,group_id
 12818,Scorch M,,
 12820,Scorch L,1,375
 12822,,1,374
+12836,,3,1040
 13003,,5,71
 13209,Armored Command Mindlink,1,744
 13216,Zainou 'Gypsy' CPU Management EE-603,1,741
@@ -837,9 +838,11 @@ type_id,name,volume,group_id
 20064,Gallente Control Tower Small,2000,365
 20065,Minmatar Control Tower Medium,4000,
 20066,,2000,365
+20121,,1,300
 20125,Curse,10000,906
 20157,High-grade Crystal Beta,1,
-20159,High-grade Crystal Delta,1,
+20159,High-grade Crystal Delta,1,300
+20160,,1,300
 20161,High-grade Crystal Omega,,
 20172,,0.1,
 20183,,1300000,
@@ -917,7 +920,7 @@ type_id,name,volume,group_id
 22109,Mid-grade Crystal Delta,1,
 22110,Mid-grade Crystal Epsilon,1,300
 22111,Mid-grade Crystal Gamma,1,300
-22112,Mid-grade Crystal Omega,1,
+22112,Mid-grade Crystal Omega,1,300
 22119,Mid-grade Amulet Alpha,1,300
 22120,Mid-grade Amulet Beta,1,300
 22121,Mid-grade Amulet Delta,1,300
@@ -1230,7 +1233,7 @@ type_id,name,volume,group_id
 30251,Neurovisual Input Matrix,,
 30254,Electromechanical Hull Sheeting,0.01,966
 30304,PPD Fullerene Fibers,0.5,974
-30305,,0.8,974
+30305,Fullerene Intercalated Graphite,0.8,974
 30306,Methanofullerene,0.75,974
 30309,,1.5,974
 30310,Carbon-86 Epoxy Resin,,
@@ -1473,7 +1476,7 @@ type_id,name,volume,group_id
 35899,,4000,1322
 35923,Standup Guided Bomb Launcher I,8000,1328
 35924,,8000,1329
-35925,,8000,1329
+35925,Standup Heavy Energy Neutralizer I,8000,1329
 35940,Standup Variable Spectrum ECM I,4000,1332
 35941,,4000,1719
 35947,Standup Target Painter I,4000,
@@ -2004,7 +2007,7 @@ type_id,name,volume,group_id
 83468,Blood Raider NET Resonator,1,334
 83469,Guristas NET Resonator,1,334
 83470,Mordu NET Resonator,1,
-83471,Sansha NET Resonator,,
+83471,Sansha NET Resonator,1,334
 83472,Serpentis NET Resonator,1,334
 84100,Paladin War for the Empire SKIN,0.01,
 84173,Imperial Gold Metallic - Limited,0.1,4726
@@ -2026,7 +2029,7 @@ type_id,name,volume,group_id
 85747,Satori-Horigu Combat Scanner Probe,,
 85930,Archon Arkombine Arisen SKIN,,
 85931,Chimera Arkombine Arisen SKIN,,
-86260,,0.01,256
+86260,Breacher Pod Launcher Operation,0.01,256
 86261,Breacher Pod Clone Efficacity,0.01,256
 86262,,0.01,
 86264,Breacher Pod Rapid Firing,0.01,256
