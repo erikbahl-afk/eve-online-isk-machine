@@ -94,7 +94,7 @@ type_id,name,volume,group_id
 2396,,0.19,1042
 2399,Precious Metals,,
 2400,Toxic Metals,0.19,1042
-2401,Chiral Structures,,
+2401,Chiral Structures,0.19,1042
 2404,,5,509
 2410,Heavy Missile Launcher II,10,510
 2420,Torpedo Launcher II,20,508
@@ -1344,6 +1344,7 @@ type_id,name,volume,group_id
 31902,Federation Navy 1600mm Steel Plates,20,329
 31904,,10,
 31910,Federation Navy 400mm Steel Plates,10,329
+31916,Imperial Navy 800mm Steel Plates,20,329
 31918,Federation Navy 800mm Steel Plates,20,329
 31922,Caldari Navy Small Shield Extender,5,
 31926,Caldari Navy Medium Shield Extender,10,38
@@ -1676,6 +1677,7 @@ type_id,name,volume,group_id
 47136,Standup Siren II,6000,4778
 47139,,2000,
 47270,,10000,26
+47271,,50000,27
 47298,Standup Multirole Missile Launcher II,4000,
 47323,Standup Anticapital Missile Launcher II,,
 47334,,4000,
