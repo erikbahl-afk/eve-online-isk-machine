@@ -23,6 +23,7 @@ type_id,name,volume,group_id
 625,,10000,26
 626,,10000,26
 627,,10000,
+629,Rupture,,
 630,Bellicose,,
 632,,10000,26
 633,,10000,26
@@ -446,6 +447,7 @@ type_id,name,volume,group_id
 13978,True Sansha Kinetic Armor Hardener,5,328
 13982,True Sansha Thermal Armor Hardener,5,328
 13984,Dark Blood Thermal Armor Hardener,,
+13998,,5,77
 14001,True Sansha Multispectrum Coating,,
 14041,,5,
 14045,Domination Shield Boost Amplifier,5,338
@@ -485,6 +487,7 @@ type_id,name,volume,group_id
 14176,Dark Blood Medium Capacitor Booster,,
 14184,Dark Blood Small Capacitor Booster,,
 14190,True Sansha Large EMP Smartbomb,50,72
+14202,,5,72
 14204,Dread Guristas Large Graviton Smartbomb,50,72
 14206,Shadow Serpentis Large Plasma Smartbomb,50,72
 14208,Domination Large Proton Smartbomb,50,
@@ -513,7 +516,7 @@ type_id,name,volume,group_id
 15466,Standard Drop Booster,1,303
 15477,Improved Drop Booster,1,
 15478,Strong Drop Booster,,
-15479,,1,303
+15479,Standard Exile Booster,1,303
 15592,Federation Navy Fleet Captain Insignia I,0.1,409
 15593,,0.1,409
 15594,Federation Navy Fleet Colonel Insignia I,0.1,409
@@ -566,6 +569,7 @@ type_id,name,volume,group_id
 15907,Republic Fleet Shield Boost Amplifier,5,338
 15909,Caldari Navy EM Shield Amplifier,5,
 15931,Caldari Navy Large Graviton Smartbomb,50,72
+15949,Federation Navy Small Plasma Smartbomb,,
 15955,Federation Navy Large Plasma Smartbomb,50,72
 15963,Imperial Navy Large EMP Smartbomb,50,72
 15965,Republic Fleet Tracking Enhancer,5,211
@@ -973,6 +977,7 @@ type_id,name,volume,group_id
 23797,,10,
 23803,'Censer' Medium Cap Battery,10,
 23805,'Thurifer' Large Cap Battery,15,61
+23896,,5,767
 24242,Infomorph Psychology,,
 24438,Omnidirectional Tracking Link II,,
 24486,Inferno Rage Heavy Assault Missile,,
@@ -1392,7 +1397,7 @@ type_id,name,volume,group_id
 33846,Dread Guristas Drone Damage Amplifier,5,645
 33850,Federation Navy Drone Navigation Computer,25,644
 33852,,25,644
-33890,Small Transverse Bulkhead I,,
+33890,Small Transverse Bulkhead I,5,773
 33894,Medium Transverse Bulkhead I,10,
 33896,Medium Transverse Bulkhead II,10,773
 33898,Large Transverse Bulkhead I,20,
@@ -1412,7 +1417,7 @@ type_id,name,volume,group_id
 33961,Low-grade Snake Delta,1,300
 33973,Low-grade Virtue Delta,1,300
 33975,Low-grade Virtue Gamma,,
-33981,Limited Hyperspatial Accelerator,5,
+33981,Limited Hyperspatial Accelerator,5,1289
 33983,Experimental Hyperspatial Accelerator,5,
 34049,Women's 'Hover' Tights (opaque black),,
 34057,Men's 'Tectonic' Headwear (matte black),,
@@ -1788,6 +1793,7 @@ type_id,name,volume,group_id
 55025,Upwell Encryption Methods,0.01,
 55031,EDENCOM Frigate,,
 55033,Vorton Projector Operation,,
+55652,Loki Biosecurity Responders SKIN,,
 55761,,5,
 55831,Triglavian Transconduit Datacaster,1,1995
 56068,Proximity-5 'Extraction' Filament,0.1,4087
@@ -1917,7 +1923,7 @@ type_id,name,volume,group_id
 62590,Medium Industrial Core I,3500,515
 62591,Medium Industrial Core II,3500,515
 62622,,500,
-62624,Medium Gas Compressor I,500,
+62624,Medium Gas Compressor I,500,4174
 62625,Large Asteroid Ore Compressor I,1000,4174
 62628,Large Ice Compressor I,1000,4174
 62630,Large Mercoxit Compressor I,1000,
@@ -1927,6 +1933,7 @@ type_id,name,volume,group_id
 64380,Men's Amarr Courtly Robe,,
 72812,Ferox Navy Issue,15000,419
 72869,Myrmidon Navy Issue,,
+72903,,2500,25
 72904,Heron Navy Issue,2500,25
 72913,Imicus Navy Issue,,
 73455,Prophecy Sanguinary Savant SKIN,,
@@ -2133,5 +2140,6 @@ type_id,name,volume,group_id
 97670,Unstable Small Remote Armor Repairer Mutaplasmid,,
 97671,,1,
 97897,Bloody Sunset Background,,
+97955,Imperial Navy Stasis Webifier,5,65
 98145,Blood Raider Blueprint Crate,1,1194
 98147,Crimson Totality Background,0.1,5082
