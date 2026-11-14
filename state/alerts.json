@@ -81,12 +81,12 @@
   "key": "idle_buy:22",
   "severity": "info",
   "since": 1794613405.4287903,
-  "text": "Buy order for Compressed Dark Glitter in jita hasn't filled at all in 5 days (2.25M tied up)."
+  "text": "Buy order for Compressed Dark Glitter in jita hasn't filled at all in 6 days (2.25M tied up)."
  },
  {
   "key": "idle_buy:27",
   "severity": "info",
   "since": 1794613405.4287903,
-  "text": "Buy order for Compressed Raspite X-Grade in amarr hasn't filled at all in 5 days (200.20 tied up)."
+  "text": "Buy order for Compressed Raspite X-Grade in amarr hasn't filled at all in 6 days (200.20 tied up)."
  }
 ]

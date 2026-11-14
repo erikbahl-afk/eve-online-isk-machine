@@ -143,6 +143,7 @@ type_id,name,volume,group_id
 3146,Heavy Neutron Blaster II,10,74
 3167,Zainou 'Snapshot' Heavy Missiles HM-706,1,
 3168,Zainou 'Snapshot' Light Missiles LM-902,,
+3169,Zainou 'Snapshot' Light Missiles LM-904,,
 3178,Light Neutron Blaster II,5,74
 3180,Zainou 'Snapshot' Torpedoes TD-606,1,
 3185,Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-802,,
@@ -1202,6 +1203,7 @@ type_id,name,volume,group_id
 28796,Mid-grade Nomad Alpha,1,300
 28797,Mid-grade Nomad Beta,1,
 28798,Mid-grade Nomad Delta,1,
+28799,,1,300
 28800,Mid-grade Nomad Gamma,,
 28802,Mid-grade Harvest Alpha,,
 28808,Mid-grade Virtue Alpha,1,300
@@ -1444,6 +1446,7 @@ type_id,name,volume,group_id
 34317,Confessor,5000,
 34328,Bowhead,1300000,
 34481,Domination Inertial Stabilizers,5,
+34489,,5,765
 34496,,500,31
 34562,Svipul,5000,1305
 34575,Antikythera Element,0.1,1314
@@ -1834,6 +1837,7 @@ type_id,name,volume,group_id
 57446,,1,526
 57449,Nano Regulation Gate,0.1,526
 57450,Electro-Neural Signaller,0.25,526
+57451,,2.5,526
 57452,Isotropic Deposition Guide,5,526
 57454,Oxy-Organic Solvents,,
 57455,Thermosetting Polymer,0.2,428
@@ -1935,7 +1939,7 @@ type_id,name,volume,group_id
 62587,Compressed Mercoxit II-Grade,,
 62590,Medium Industrial Core I,3500,515
 62591,Medium Industrial Core II,3500,515
-62622,,500,
+62622,Medium Asteroid Ore Compressor I,500,4174
 62624,Medium Gas Compressor I,500,4174
 62625,Large Asteroid Ore Compressor I,1000,4174
 62628,Large Ice Compressor I,1000,4174
@@ -2141,7 +2145,7 @@ type_id,name,volume,group_id
 96842,Clotted Bronze Metallic - Unlimited,,
 96844,Entropic Rose Metallic - Unlimited,,
 96845,Star of Pochven Background,0.1,5082
-97265,Criterion Cipher,,
+97265,Criterion Cipher,0.1,474
 97422,Vedmak Blood Raiders Crimson Mark SKIN,,
 97424,,0.01,
 97431,Leshak Blood Raiders Crimson Mark SKIN,0.01,1950
