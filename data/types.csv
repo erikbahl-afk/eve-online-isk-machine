@@ -196,6 +196,7 @@ type_id,name,volume,group_id
 4246,Hydrogen Fuel Block,5,1136
 4248,,50,899
 4250,Small Tractor Beam II,,
+4256,Bomb Launcher II,50,862
 4260,Expanded Probe Launcher II,5,
 4292,Siege Module II,1000,
 4294,Triage Module II,,
@@ -211,6 +212,7 @@ type_id,name,volume,group_id
 4349,Pithum C-Type Multispectrum Shield Hardener,5,77
 4403,Reactive Armor Hardener,25,1150
 4405,Drone Damage Amplifier II,5,645
+4959,'Seed' Micro Capacitor Booster I,,
 5051,Heavy F-RX Compact Capacitor Booster,20,76
 5973,5MN Y-T8 Compact Microwarpdrive,10,46
 6719,,5,
@@ -497,7 +499,7 @@ type_id,name,volume,group_id
 14176,Dark Blood Medium Capacitor Booster,,
 14184,Dark Blood Small Capacitor Booster,,
 14190,True Sansha Large EMP Smartbomb,50,72
-14202,,5,72
+14202,True Sansha Small EMP Smartbomb,5,72
 14204,Dread Guristas Large Graviton Smartbomb,50,72
 14206,Shadow Serpentis Large Plasma Smartbomb,50,72
 14208,Domination Large Proton Smartbomb,50,
@@ -980,6 +982,7 @@ type_id,name,volume,group_id
 23105,Imperial Navy Multifrequency L,1,86
 23107,,1,86
 23111,,1,86
+23113,,1,86
 23115,,1,86
 23119,Imperial Navy Radio L,1,86
 23128,,0.1,
@@ -1267,7 +1270,7 @@ type_id,name,volume,group_id
 31047,Medium Auxiliary Nano Pump I,,
 31053,Medium Auxiliary Nano Pump II,10,
 31055,,10,773
-31059,Medium Trimark Armor Pump II,10,
+31059,Medium Trimark Armor Pump II,10,773
 31067,Capital Nanobot Accelerator I,,
 31073,Medium Remote Repair Augmentor I,,
 31077,,5,
@@ -1717,6 +1720,7 @@ type_id,name,volume,group_id
 47919,Veles Heavy Entropic Disintegrator,10,1986
 47923,,20,1986
 47924,Baryon Exotic Plasma S,,
+47926,,0.01,1989
 47927,Mystic S,0.01,
 47928,,0.01,
 47931,Mystic M,0.01,1989
@@ -2026,6 +2030,7 @@ type_id,name,volume,group_id
 85394,Warp Disruption Mutaplasmid Residue,0.01,1996
 85400,X-Large Mutaplasmid Residue,0.01,1996
 85521,,1,1964
+85543,Glorified Gravid Large Shield Booster Mutaplasmid,,
 85559,Glorified Gravid Stasis Webifier Mutaplasmid,1,1964
 85662,Glorified Unstable Gyrostabilizer Mutaplasmid,1,1964
 85668,Glorified Unstable Magnetic Field Stabilizer Mutaplasmid,,
