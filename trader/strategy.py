@@ -267,6 +267,13 @@ class Planner:
                                                        "courier": "secs_courier"}[kind]],
                 "value": float(value), "group": GROUP_ORDER[kind], **kw}
 
+    def stale_sell(self, o):
+        """Sell order listed > stale_days, never filled, not repriced for a day: a candidate for a price step-down."""
+        s = self.cfg["strategy"]
+        since = o.get("since")
+        return (s.get("stale_step", 0.0) > 0 and since is not None and self.t - since > s["stale_days"] * 86400
+                and o["remain"] >= o["qty"] and self.t - o["updated"] > 86400)
+
     # ---- per-hub maintenance -------------------------------------------------
     def maintenance(self, hub):
         t, tier1, tier2 = self.t, [], []
@@ -280,6 +287,14 @@ class Planner:
                 tier1.append(self.step("modify_sell", hub, o["remain"] * o["price"], oid=o["oid"],
                                        type_id=o["type_id"], floor=fl, ref=ba, mine=o["price"],
                                        target=max(fl, tick_down(ba)) if not np.isnan(ba) else o["price"]))
+            elif self.stale_sell(o):
+                # on top (or the only seller) for stale_days and nothing sold: the price is the problem, step down
+                sp = self.specs.get((hub, o["type_id"]), {})
+                fl = floor_price(self.fees, self.cfg, o["unit_cost"], o.get("since"), t, sp.get("min_sell", 0.0))
+                new = valid_down(o["price"] * (1 - self.cfg["strategy"].get("stale_step", 0.0)))
+                if new > fl and new < o["price"]:
+                    tier1.append(self.step("modify_sell", hub, o["remain"] * o["price"], oid=o["oid"],
+                                           type_id=o["type_id"], floor=fl, ref=ba, mine=o["price"], target=new, step=True))
         for key, it in self.pf["inventory"].get(hub, {}).items():
             ty = int(key)
             sp = self.specs.get((hub, ty))

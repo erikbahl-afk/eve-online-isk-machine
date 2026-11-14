@@ -326,3 +326,22 @@ def test_rotation_goes_where_stock_waits():
     assert pl.next_import_hub() == "dodixie"  # nothing waiting: least recently visited
     pl.import_hubs = []
     assert pl.next_import_hub() is None
+
+
+def test_stale_sell_steps_down_and_transit_valued_at_bids():
+    from trader.strategy import Planner
+    pl = Planner.__new__(Planner)
+    pl.cfg, pl.t = {"strategy": {"stale_step": 0.1, "stale_days": 10}}, 12 * 86400
+    o = {"since": 0, "qty": 3, "remain": 3, "updated": 0}
+    assert pl.stale_sell(o)
+    assert not pl.stale_sell({**o, "remain": 2})                   # something sold: price works
+    assert not pl.stale_sell({**o, "since": 5 * 86400})            # not stale yet
+    assert not pl.stale_sell({**o, "updated": 11.5 * 86400})       # repriced within a day
+    pl.cfg["strategy"]["stale_step"] = 0.0
+    assert not pl.stale_sell(o)                                    # off by default when unset/0
+    pf = new_portfolio(CFG, 0.0)
+    pf["in_transit"] = [{"from": "jita", "to": "amarr", "items": [{"type_id": 1, "qty": 2, "cost": 100.0}]}]
+    sim = Sim(CFG, pf, Fees(CFG), np.random.default_rng(1), [])
+    top = pd.DataFrame({"best_bid": [60.0], "best_ask": [120.0]}, index=[1])
+    v = sim.valuation({"amarr": top})
+    assert v["transit"] == 200.0 and abs(v["nw_liquid"] - v["cash"] - 120.0 * (1 - sim.fees.tax)) < 1e-6

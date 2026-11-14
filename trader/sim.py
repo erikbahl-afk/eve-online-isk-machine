@@ -394,7 +394,11 @@ class Sim:
             bb = top.best_bid.get(ty, np.nan) if ty is not None else np.nan
             if k == "modify_sell":
                 o = self.order(st["oid"])
-                if o and not np.isnan(ba) and ba <= o["price"]:
+                if o and st.get("step"):  # stale step-down (strategy.stale_sell), never below the floor
+                    new = max(st["floor"], st["target"])
+                    if new < o["price"]:
+                        self.reprice(o, new, t)
+                elif o and not np.isnan(ba) and ba <= o["price"]:
                     new = max(st["floor"], tick_down(ba))
                     if new < o["price"]:
                         self.reprice(o, new, t)
@@ -435,7 +439,9 @@ class Sim:
         on_sale = sum(o["unit_cost"] * o["remain"] for o in pf["orders"] if o["side"] == "sell")
         inv = sum(it["qty"] * it["cost"] for h in pf["inventory"].values() for it in h.values())
         transit = sum(i["qty"] * i["cost"] for c in pf["in_transit"] for i in c["items"])
-        liq = transit
+        # in-transit stock can only be dumped once it lands: value it at the destination's bids, like hangar stock
+        liq = sum(self._liq(tops, c.get("to", pf.get("import_hub")), i["type_id"], i["cost"]) * i["qty"]
+                  for c in pf["in_transit"] for i in c["items"])
         for o in pf["orders"]:
             if o["side"] == "sell":
                 liq += self._liq(tops, o["hub"], o["type_id"], o["unit_cost"]) * o["remain"]

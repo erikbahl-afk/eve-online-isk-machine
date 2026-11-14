@@ -306,3 +306,19 @@
 - Verified: a manually triggered run at 23:44 UTC succeeded (no variant failures); exports ran its session (−15M → −67M realized).
   The 5 'gap 19.7h' data alerts come from the outage and clear themselves. Main's summary still lists no Thu 12 login: Sat checks
   whether the missed login was skipped for main. Memo: reports/2026-11-13-memo.md.
+
+## 2026-11-14 · risk and concentration (Saturday)
+- Live Amarr/Jita books vs main's holdings (3.91B at cost incl. 791M courier landing Tue 17): bid value 1.40B (36%). Bottom
+  exits (bid/cost): both SKINs 0.00 (no bids, no other asks), Boots 0.01, M-Set ME 0.07, Cap I-a rep 0.20, Valdimar 0.26,
+  Void XL 0.32, Crystal Epsilon 0.34, Dread Guristas RL 0.44. All 10 are pre-guard legacy imports (min_exit_frac 0.6 would block
+  them today); the new courier's 10 items all pass (0.60–1.10). Top 5 = 37% of NW, 8 positions over 5%, Typhoon SKIN 8.6% (cost
+  basis, can't trim). ~80% of NW sits in one hub/strategy (Amarr import). Stress: top 3 −30% = −356M = 7.3% of NW.
+- Guard gap 1: `valuation` counted in-transit stock at full cost. Now valued at the destination's bids → liquidation drops from
+  50.4% to ~48%: below the 50% push line (pushed). Guard gap 2: a sell order on top (or the only seller) was never repriced, so
+  9 legacy asks sat at ~2x cost with 0 fills for 10.7 d. New `stale_step = 0.10`: past stale_days, unfilled, not repriced for a
+  day → cut 10% per session, never below the stale floor (break-even −3%). Tests added; 29 pass. Crystal Epsilon exit still
+  pending (our 154M vs best 137M): main hasn't been in Amarr since Fri's override; next Amarr visit fires it.
+- Main's Thu 12 login did run (caught up Fri 13 15:43 PT after the outage, 32/32 steps, amarr→jita).
+- Alerts: stale sells → step-down above; liquidation / Typhoon → legacy, the step-down is the remedy; idle bids (2.3k, 2.25M) noise.
+  Thresholds unchanged. No risk probe: slots 6/6.
+- Next: Sun/Thu check the step-down fired at the next Amarr visit and whether any legacy item sells; Thu 19 SKIN decision stands.
