@@ -11,6 +11,7 @@ type_id,name,volume,group_id
 203,,0.05,386
 204,Inferno Cruise Missile,0.05,386
 233,,0.025,
+238,,0.025,85
 421,,5,
 438,,5,
 440,5MN Microwarpdrive II,10,46
@@ -716,7 +717,7 @@ type_id,name,volume,group_id
 18859,Centum B-Type Explosive Energized Membrane,5,
 18863,,5,326
 18867,Centum A-Type Thermal Energized Membrane,5,326
-18877,Corpum A-Type Kinetic Energized Membrane,5,
+18877,Corpum A-Type Kinetic Energized Membrane,5,326
 18881,Corpum A-Type Multispectrum Energized Membrane,5,
 18883,Centum A-Type Multispectrum Energized Membrane,5,326
 18885,Corpus C-Type EM Armor Hardener,5,328
@@ -1429,7 +1430,7 @@ type_id,name,volume,group_id
 33927,Low-grade Crystal Gamma,1,300
 33928,,1,300
 33941,,1,
-33942,Low-grade Harvest Beta,1,
+33942,Low-grade Harvest Beta,1,300
 33948,Low-grade Nomad Beta,,
 33960,,1,
 33961,Low-grade Snake Delta,1,300
@@ -1529,7 +1530,7 @@ type_id,name,volume,group_id
 40569,,3000,1537
 40570,Siren II,3000,1537
 40661,Capital Infectious Scoped Energy Neutralizer,,
-40690,,5,
+40690,Sentient Burst Jammer,5,80
 40730,Heavy Warp Disruptor I,100,52
 40734,,100,
 41038,,5,
@@ -1620,6 +1621,7 @@ type_id,name,volume,group_id
 45591,Tengu Defensive - Amplification Node,40,954
 45592,Proteus Defensive - Covert Reconfiguration,40,954
 45595,Loki Defensive - Covert Reconfiguration,40,954
+45599,,40,956
 45601,Tengu Offensive - Accelerated Ejection Bay,40,956
 45604,Proteus Offensive - Hybrid Encoding Platform,40,956
 45605,Proteus Offensive - Drone Synthesis Projector,40,956
