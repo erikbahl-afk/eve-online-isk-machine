@@ -1,14 +1,21 @@
 {
- "ask_ratio_median": 1.0699,
- "buy_orders": 6292,
- "buy_orders_reaching_jita": 6220,
+ "ask_ratio_median": 1.0499,
+ "buy_orders": 6303,
+ "buy_orders_reaching_jita": 6231,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6666,
- "sell_orders": 374,
- "share_ask_below_jita": 0.2958,
+ "orders": 6708,
+ "sell_orders": 405,
+ "share_ask_below_jita": 0.3294,
  "structure_id": 1042508032148,
- "t": 1794628839.2198803,
+ "t": 1794636050.6245413,
  "top_ask_below_jita": [
+  {
+   "best_ask": 7900.0,
+   "gap": 0.9879,
+   "name": "",
+   "s_ask": 95.59,
+   "type_id": 3673
+  },
   {
    "best_ask": 21970.0,
    "gap": 0.909,
@@ -17,11 +24,11 @@
    "type_id": 84399
   },
   {
-   "best_ask": 199800.0,
-   "gap": 0.8404,
+   "best_ask": 120.0,
+   "gap": 0.8242,
    "name": "",
-   "s_ask": 31880.0,
-   "type_id": 47809
+   "s_ask": 21.1,
+   "type_id": 21587
   },
   {
    "best_ask": 169900.0,
@@ -31,11 +38,39 @@
    "type_id": 3301
   },
   {
+   "best_ask": 2587.0,
+   "gap": 0.8145,
+   "name": "",
+   "s_ask": 479.9,
+   "type_id": 5867
+  },
+  {
    "best_ask": 15000000.0,
    "gap": 0.7629,
    "name": "",
    "s_ask": 3556000.0,
    "type_id": 63870
+  },
+  {
+   "best_ask": 100.0,
+   "gap": 0.7,
+   "name": "",
+   "s_ask": 30.0,
+   "type_id": 17459
+  },
+  {
+   "best_ask": 2740.0,
+   "gap": 0.6876,
+   "name": "",
+   "s_ask": 856.0,
+   "type_id": 21857
+  },
+  {
+   "best_ask": 99000.0,
+   "gap": 0.678,
+   "name": "",
+   "s_ask": 31880.0,
+   "type_id": 47809
   },
   {
    "best_ask": 2747000.0,
@@ -78,41 +113,6 @@
    "name": "",
    "s_ask": 20000000.0,
    "type_id": 44932
-  },
-  {
-   "best_ask": 9898.0,
-   "gap": 0.4819,
-   "name": "",
-   "s_ask": 5128.0,
-   "type_id": 47896
-  },
-  {
-   "best_ask": 113500000.0,
-   "gap": 0.4714,
-   "name": "",
-   "s_ask": 60000000.0,
-   "type_id": 48221
-  },
-  {
-   "best_ask": 254300.0,
-   "gap": 0.4691,
-   "name": "",
-   "s_ask": 135000.0,
-   "type_id": 3324
-  },
-  {
-   "best_ask": 375700000.0,
-   "gap": 0.4677,
-   "name": "",
-   "s_ask": 200000000.0,
-   "type_id": 34650
-  },
-  {
-   "best_ask": 19870000.0,
-   "gap": 0.4464,
-   "name": "",
-   "s_ask": 11000000.0,
-   "type_id": 44896
   }
  ],
  "top_bid_over_jita": [
@@ -222,7 +222,7 @@
    "type_id": 57493
   }
  ],
- "types": 3956,
- "types_also_in_jita": 3929,
- "types_bid_over_jita_reaching": 780
+ "types": 3963,
+ "types_also_in_jita": 3937,
+ "types_bid_over_jita_reaching": 793
 }

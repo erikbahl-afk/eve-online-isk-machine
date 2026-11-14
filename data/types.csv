@@ -538,7 +538,7 @@ type_id,name,volume,group_id
 15675,Caldari Navy Co-Processor,5,
 15681,Caldari Navy Ballistic Control System,5,367
 15683,Republic Fleet Ballistic Control System,5,367
-15693,,5,98
+15693,Imperial Navy Multispectrum Coating,5,98
 15703,Republic Fleet Multispectrum Coating,5,98
 15707,Imperial Navy Kinetic Armor Hardener,5,328
 15729,Imperial Navy Multispectrum Energized Membrane,5,326
@@ -985,6 +985,7 @@ type_id,name,volume,group_id
 24242,Infomorph Psychology,,
 24438,Omnidirectional Tracking Link II,,
 24486,Inferno Rage Heavy Assault Missile,,
+24490,,0.015,654
 24499,,0.015,
 24507,,0.03,655
 24509,,0.03,
@@ -1697,7 +1698,7 @@ type_id,name,volume,group_id
 47916,Heavy Compact Entropic Disintegrator,10,1986
 47917,,10,
 47918,Heavy Entropic Disintegrator II,10,1986
-47919,Veles Heavy Entropic Disintegrator,10,
+47919,Veles Heavy Entropic Disintegrator,10,1986
 47923,,20,1986
 47924,Baryon Exotic Plasma S,,
 47927,Mystic S,0.01,
@@ -2075,6 +2076,7 @@ type_id,name,volume,group_id
 92035,,25,5239
 92036,Tick EV-300-I,5,
 92040,Nertic EC-600-I,10,
+92041,Humboldt EC-900-I,25,5239
 92456,Presidential Mining Foreman Burst,60,
 92462,Darter TP-600-I,10,
 92463,,25,
