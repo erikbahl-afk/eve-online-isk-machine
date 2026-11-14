@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Sat 14 Nov 13:41 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
+**Updated:** Sat 14 Nov 14:00 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
 **Steps:** 21 · **Est. time:** 18 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -22,10 +22,10 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 1 | ☐ Compressed Hezorime III-Grade | 61,282 | **777.20** | 883.10 | 777.10 |
+| 1 | ☐ Compressed Hezorime III-Grade | 61,352 | **777.20** | 883.10 | 777.10 |
 | 2 | ☐ Criterion Cipher | 2 | **10,570,000** | 15,390,000 | 10,560,000 |
 | 3 | ☐ Entosis Link II | 1 | **133,400,000** | 144,900,000 | 133,300,000 |
-| 4 | ☐ Fullerene Intercalated Graphite | 3,270 | **24,830** | 26,510 | 24,820 |
+| 4 | ☐ Gistum B-Type Medium Shield Booster | 2 | **103,500,000** | 108,600,000 | 103,400,000 |
 | 5 | ☐ Jaguar | 4 | **14,550,000** | 16,290,000 | 14,540,000 |
 
 ### Block 2 · should do · about 4 min
@@ -38,7 +38,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 |---|---|---|---|---|---|
 | 6 | ☐ Bomb Launcher II | 18 | **2,246,000** | 2,599,000 | 2,245,000 |
 | 7 | ☐ Quad Mega Pulse Laser II | 1 | **175,100,000** | 179,100,000 | 175,000,000 |
-| 8 | ☐ Sansha NET Resonator | 63 | **2,507,000** | 2,518,000 | 2,506,000 |
+| 8 | ☐ Sansha NET Resonator | 12 | **2,508,000** | 2,518,000 | 2,507,000 |
 | 9 | ☐ Siren II | 3 | **24,060,000** | 26,040,000 | 24,050,000 |
 
 ### Block 3 · if there's time · about 2 min
@@ -63,7 +63,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 12 | ☐ Compressed Brimful Bitumens | 139 | **1,164** | 1,251 | 1,163 |
+| 12 | ☐ Compressed Brimful Bitumens | 1,843 | **1,165** | 1,250 | 1,164 |
 
 ## 13. ☐ Jump clone to Amarr VIII (Oris) - Emperor Family Academy
 _Clone Bay → Jump Clone → Amarr VIII (Oris) - Emperor Family Academy. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
