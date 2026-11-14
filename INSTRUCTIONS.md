@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Fri 13 Nov 16:00 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
+**Updated:** Fri 13 Nov 16:29 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
 **Steps:** 17 · **Est. time:** 15 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -23,9 +23,20 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 1 | ☐ Bouquet of Flowers | 1 | **11,010,000** | 21,910,000 | 11,000,000 |
-| 2 | ☐ Imperial Navy Stasis Webifier | 4 | **50,010,000** | 51,800,000 | 50,000,000 |
+| 2 | ☐ Imperial Navy Stasis Webifier | 3 | **50,070,000** | 51,170,000 | 50,060,000 |
 
-### Block 2 · should do · about 1 min
+### Block 2 · should do · about 2 min
+_Short on time? Skip to the jump (step 6): the next hub's Block 1 is worth more per minute than the rest of this hub._
+
+#### New buy orders
+_Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
+
+| # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
+|---|---|---|---|---|---|
+| 3 | ☐ Domination Rapid Heavy Missile Launcher | 1 | **11,130,000** | 14,820,000 | 11,120,000 |
+| 4 | ☐ Quad Mega Pulse Laser II | 1 | **174,800,000** | 179,200,000 | 174,700,000 |
+
+### Block 3 · if there's time · about 1 min
 _Short on time? Skip to the jump (step 6): the next hub's Block 1 is worth more per minute than the rest of this hub._
 
 #### Fix outbid buy orders
@@ -33,24 +44,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 3 | ☐ 50MN Microwarpdrive II | 3,622,000 | **3,619,000** | 3,619,000 | 3,647,000 |
-
-#### New buy orders
-_Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
-
-| # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
-|---|---|---|---|---|---|
-| 4 | ☐ Quad Mega Pulse Laser II | 1 | **174,800,000** | 179,200,000 | 174,700,000 |
-
-### Block 3 · if there's time · about 1 min
-_Short on time? Skip to the jump (step 6): the next hub's Block 1 is worth more per minute than the rest of this hub._
-
-#### New buy orders
-_Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
-
-| # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
-|---|---|---|---|---|---|
-| 5 | ☐ Capital Compact Pb-Acid Cap Battery | 1 | **9,472,000** | 15,060,000 | 9,471,000 |
+| 5 | ☐ 50MN Microwarpdrive II | 3,622,000 | **3,618,000** | 3,618,000 | 3,647,000 |
 
 ## 6. ☐ Jump clone to Amarr VIII (Oris) - Emperor Family Academy
 _Clone Bay → Jump Clone → Amarr VIII (Oris) - Emperor Family Academy. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
@@ -96,7 +90,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 17 | ☐ Myrmidon | 1 | **34,570,000** | 41,530,000 | 34,560,000 |
+| 17 | ☐ Gist X-Type Large Shield Booster | 1 | **194,000,000** | 216,400,000 | 193,900,000 |
 
 ---
 Wallet 896.74M · escrow 68.65M · stock 3.12B · in transit 790.67M · net worth 4.88B (liquidation 2.46B)

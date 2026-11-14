@@ -535,6 +535,7 @@ type_id,name,volume,group_id
 15675,Caldari Navy Co-Processor,5,
 15681,Caldari Navy Ballistic Control System,5,367
 15683,Republic Fleet Ballistic Control System,5,367
+15693,,5,98
 15703,Republic Fleet Multispectrum Coating,5,98
 15707,Imperial Navy Kinetic Armor Hardener,5,328
 15729,Imperial Navy Multispectrum Energized Membrane,5,326
@@ -1369,7 +1370,7 @@ type_id,name,volume,group_id
 33406,Caldari Navy Command Mindlink,,
 33446,Caldari Navy Rapid Heavy Missile Launcher,20,1245
 33450,Rapid Heavy Missile Launcher II,20,
-33452,Domination Rapid Heavy Missile Launcher,20,
+33452,Domination Rapid Heavy Missile Launcher,20,1245
 33453,,20,1245
 33468,Astero,2500,25
 33470,Stratios,10000,26
@@ -2143,3 +2144,4 @@ type_id,name,volume,group_id
 97955,Imperial Navy Stasis Webifier,5,65
 98145,Blood Raider Blueprint Crate,1,1194
 98147,Crimson Totality Background,0.1,5082
+98417,Imperial Hardpoint Booster I,,
