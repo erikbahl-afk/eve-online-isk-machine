@@ -286,6 +286,7 @@ type_id,name,volume,group_id
 11541,Photon Microprocessor,1,334
 11542,Fernite Carbide Composite Armor Plate,1,334
 11543,,1,
+11545,,1,334
 11547,Fusion Reactor Unit,1,334
 11548,Nuclear Reactor Unit,1,
 11549,Antimatter Reactor Unit,1,334
@@ -434,6 +435,7 @@ type_id,name,volume,group_id
 13947,,25,
 13949,,10,
 13951,Dread Guristas Small Shield Booster,5,40
+13952,Domination Small Shield Booster,,
 13953,Dread Guristas X-Large Shield Booster,50,
 13954,,50,
 13956,True Sansha Large Armor Repairer,50,62
@@ -1986,6 +1988,7 @@ type_id,name,volume,group_id
 83471,Sansha NET Resonator,,
 84100,Paladin War for the Empire SKIN,0.01,
 84173,Imperial Gold Metallic - Limited,0.1,4726
+85084,Small Breacher Pod Launcher,,
 85087,Tholos,5000,420
 85089,SCARAB Breacher Pod M,0.5,4808
 85178,Tetrimonic Warclone Blanks,0.1,314
@@ -2090,6 +2093,7 @@ type_id,name,volume,group_id
 94035,,0.01,1950
 94065,,5,
 94067,Caldari Navy Signal Distortion Amplifier,,
+94154,Confessor Mandate of Faith SKIN,,
 95228,Manifest Homecoming Background,,
 95413,Harmonius Bridge - Unlimited,,
 95556,Lorharyth’s Modified Inertial Stabilizer,5,762
@@ -2142,6 +2146,7 @@ type_id,name,volume,group_id
 97671,,1,
 97897,Bloody Sunset Background,,
 97955,Imperial Navy Stasis Webifier,5,65
+98135,,1,303
 98145,Blood Raider Blueprint Crate,1,1194
 98147,Crimson Totality Background,0.1,5082
 98417,Imperial Hardpoint Booster I,,
