@@ -370,6 +370,7 @@ type_id,name,volume,group_id
 12765,,0.025,376
 12771,Tremor M,,
 12779,,0.025,
+12787,,0.025,377
 12791,,0.025,377
 12807,,0.025,373
 12816,Conflagration L,1,375
@@ -651,7 +652,7 @@ type_id,name,volume,group_id
 17619,,2500,
 17621,,4000,
 17634,Caracal Navy Issue,10000,26
-17636,Raven Navy Issue,,
+17636,Raven Navy Issue,50000,27
 17709,,10000,
 17713,Stabber Fleet Issue,10000,
 17715,Gila,10000,26
@@ -1242,6 +1243,7 @@ type_id,name,volume,group_id
 31003,Small EM Armor Reinforcer II,5,
 31005,Medium EM Armor Reinforcer II,10,773
 31011,Medium Explosive Armor Reinforcer I,,
+31017,Medium Explosive Armor Reinforcer II,10,773
 31027,,5,
 31029,,10,
 31037,Capital Thermal Armor Reinforcer I,,
@@ -1462,6 +1464,7 @@ type_id,name,volume,group_id
 35899,,4000,1322
 35923,Standup Guided Bomb Launcher I,8000,1328
 35924,,8000,1329
+35925,,8000,1329
 35940,Standup Variable Spectrum ECM I,4000,1332
 35941,,4000,1719
 35947,Standup Target Painter I,4000,
@@ -1580,6 +1583,7 @@ type_id,name,volume,group_id
 42881,Mining Laser Field Enhancement Charge Blueprint,0.01,
 42882,Mining Laser Optimization Charge Blueprint,0.01,
 42890,Capital Industrial Core II,,
+43551,Mining Foreman Burst II,60,1770
 43556,Skirmish Command Burst II,,
 43662,Gallente Phenomena Generator,,
 43688,Astral Mining Inc. Strong Box,,
@@ -1726,6 +1730,7 @@ type_id,name,volume,group_id
 49924,Vedmak Blackfire Steel SKIN,0.01,1950
 50149,Kronos Caille Neon SKIN,0.01,
 50153,Nemesis Caille Neon SKIN,,
+52224,,1,1964
 52225,Gravid Damage Control Mutaplasmid,1,
 52226,Unstable Damage Control Mutaplasmid,1,1964
 52236,Zorya's Light Entropic Disintegrator,,
@@ -1986,6 +1991,7 @@ type_id,name,volume,group_id
 83469,Guristas NET Resonator,1,334
 83470,Mordu NET Resonator,1,
 83471,Sansha NET Resonator,,
+83472,Serpentis NET Resonator,1,334
 84100,Paladin War for the Empire SKIN,0.01,
 84173,Imperial Gold Metallic - Limited,0.1,4726
 85084,Small Breacher Pod Launcher,,
