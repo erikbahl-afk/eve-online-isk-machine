@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Fri 13 Nov 22:24 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
+**Updated:** Sat 14 Nov 00:00 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
 **Steps:** 19 · **Est. time:** 16 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -23,7 +23,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 1 | ☐ Bouquet of Flowers | 1 | **11,010,000** | 21,820,000 | 11,000,000 |
-| 2 | ☐ Imperial Navy Kinetic Armor Hardener | 1 | **8,100,000** | 16,550,000 | 8,099,000 |
+| 2 | ☐ Imperial Navy Kinetic Armor Hardener | 1 | **8,100,000** | 16,560,000 | 8,099,000 |
 | 3 | ☐ Quad Mega Pulse Laser II | 1 | **174,900,000** | 179,200,000 | 174,800,000 |
 
 ### Block 2 · should do · about 2 min
@@ -34,7 +34,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 4 | ☐ 50MN Microwarpdrive II | 3,622,000 | **3,621,000** | 3,621,000 | 3,647,000 |
+| 4 | ☐ 50MN Microwarpdrive II | 3,622,000 | **3,621,000** | 3,621,000 | 3,633,000 |
 
 #### Cancel buy orders
 _My Orders → Buying. Right-click → Cancel Order._
@@ -48,7 +48,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 6 | ☐ Distribution Connections | 1 | **29,600,000** | 37,090,000 | 29,590,000 |
+| 6 | ☐ Imperial Navy Stasis Webifier | 1 | **44,470,000** | 47,480,000 | 44,460,000 |
 
 ### Block 3 · if there's time · about 1 min
 _Short on time? Skip to the jump (step 8): the next hub's Block 1 is worth more per minute than the rest of this hub._
@@ -72,13 +72,13 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 9 | ☐ 'Cartel' Power Diagnostic System I | 68,220,000 | **68,200,000** | 31,380,000 | 68,210,000 |
-| 10 | ☐ Dread Guristas Rocket Launcher | 99,270,000 | **99,250,000** | 48,990,000 | 99,260,000 |
-| 11 | ☐ Golem Exoplanets Hunter SKIN | 175,370,000 | **175,370,000** | 134,900,000 | - |
-| 12 | ☐ Gravid Vorton Tuning System Mutaplasmid | 79,990,000 | **79,990,000** | 56,510,000 | 80,000,000 |
-| 13 | ☐ Men's 'Precision' Boots | 99,990,000 | **99,990,000** | 51,550,000 | 100,000,000 |
-| 14 | ☐ Standup M-Set Basic Small Ship Manufacturing Material Efficiency I | 699,600,000 | **699,600,000** | 347,300,000 | 699,700,000 |
-| 15 | ☐ Typhoon Fleet Issue Capsuleer Elite XX SKIN | 815,900,000 | **815,900,000** | 435,300,000 | - |
+| 9 | ☐ 'Cartel' Power Diagnostic System I | 68,220,000 | **68,190,000** | 30,280,000 | 68,200,000 |
+| 10 | ☐ Dread Guristas Rocket Launcher | 99,270,000 | **99,250,000** | 47,280,000 | 99,260,000 |
+| 11 | ☐ Golem Exoplanets Hunter SKIN | 175,370,000 | **175,370,000** | 130,200,000 | - |
+| 12 | ☐ Gravid Vorton Tuning System Mutaplasmid | 79,990,000 | **79,990,000** | 54,540,000 | 80,000,000 |
+| 13 | ☐ Men's 'Precision' Boots | 99,990,000 | **99,990,000** | 49,760,000 | 100,000,000 |
+| 14 | ☐ Standup M-Set Basic Small Ship Manufacturing Material Efficiency I | 699,600,000 | **699,600,000** | 335,200,000 | 699,700,000 |
+| 15 | ☐ Typhoon Fleet Issue Capsuleer Elite XX SKIN | 815,900,000 | **815,900,000** | 420,200,000 | - |
 
 ### Block 2 · should do · about 2 min
 
@@ -94,7 +94,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 17 | ☐ Chaotic Electrical Filament | 2 | **20,170,000** | 25,480,000 | 20,160,000 |
+| 17 | ☐ Chaotic Electrical Filament | 2 | **20,170,000** | 25,470,000 | 20,160,000 |
 | 18 | ☐ Proteus | 1 | **199,100,000** | 220,500,000 | 199,000,000 |
 
 ### Block 3 · if there's time · about 1 min
@@ -104,7 +104,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 19 | ☐ Corpii A-Type Multispectrum Coating | 1 | **202,300,000** | 218,000,000 | 202,200,000 |
+| 19 | ☐ Corpii A-Type Multispectrum Coating | 1 | **202,400,000** | 218,000,000 | 202,300,000 |
 
 ---
 Wallet 896.74M · escrow 68.65M · stock 3.12B · in transit 790.67M · net worth 4.88B (liquidation 2.46B)
