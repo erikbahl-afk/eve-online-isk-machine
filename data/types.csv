@@ -396,6 +396,7 @@ type_id,name,volume,group_id
 13221,Zainou 'Deadeye' Medium Hybrid Turret MH-803,1,742
 13222,Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-803,,
 13223,,1,742
+13226,,1,746
 13229,Zainou 'Snapshot' Heavy Missiles HM-703,1,746
 13231,,1,746
 13237,Eifyr and Co. 'Rogue' Navigation NN-603,1,747
@@ -582,6 +583,7 @@ type_id,name,volume,group_id
 15907,Republic Fleet Shield Boost Amplifier,5,338
 15909,Caldari Navy EM Shield Amplifier,5,
 15931,Caldari Navy Large Graviton Smartbomb,50,72
+15935,,5,72
 15949,Federation Navy Small Plasma Smartbomb,,
 15955,Federation Navy Large Plasma Smartbomb,50,72
 15963,Imperial Navy Large EMP Smartbomb,50,72
@@ -716,6 +718,7 @@ type_id,name,volume,group_id
 18829,Corpum C-Type Multispectrum Energized Membrane,5,326
 18835,Centum C-Type Kinetic Energized Membrane,,
 18849,Corpum B-Type Multispectrum Energized Membrane,5,326
+18851,,5,326
 18859,Centum B-Type Explosive Energized Membrane,5,
 18863,,5,326
 18867,Centum A-Type Thermal Energized Membrane,5,326
@@ -749,7 +752,7 @@ type_id,name,volume,group_id
 19019,Corpum B-Type Medium Armor Repairer,10,62
 19025,,10,
 19027,Centum A-Type Medium Armor Repairer,10,62
-19029,Corelum C-Type Medium Armor Repairer,10,
+19029,Corelum C-Type Medium Armor Repairer,10,62
 19031,Corelum B-Type Medium Armor Repairer,10,62
 19033,Corelum A-Type Medium Armor Repairer,10,62
 19036,Core B-Type Large Armor Repairer,50,62
@@ -837,7 +840,7 @@ type_id,name,volume,group_id
 19719,Transport Ships,,
 19739,Cruise Missile Launcher II,20,506
 19744,,20000,28
-20060,Amarr Control Tower Small,2000,
+20060,Amarr Control Tower Small,2000,365
 20062,Caldari Control Tower Small,2000,365
 20064,Gallente Control Tower Small,2000,365
 20065,Minmatar Control Tower Medium,4000,
@@ -1441,6 +1444,7 @@ type_id,name,volume,group_id
 33975,Low-grade Virtue Gamma,,
 33981,Limited Hyperspatial Accelerator,5,1289
 33983,Experimental Hyperspatial Accelerator,5,
+33985,Prototype Hyperspatial Accelerator,5,1289
 34049,Women's 'Hover' Tights (opaque black),,
 34057,Men's 'Tectonic' Headwear (matte black),,
 34132,Pilot's Body Resculpt Certificate,,
@@ -1449,7 +1453,7 @@ type_id,name,volume,group_id
 34276,Polarized Mega Pulse Laser,20,
 34278,Polarized Light Neutron Blaster,5,74
 34280,Polarized Heavy Neutron Blaster,10,
-34282,Polarized Neutron Blaster Cannon,20,
+34282,Polarized Neutron Blaster Cannon,20,74
 34290,Polarized Rocket Launcher,5,
 34292,,10,
 34294,Polarized Torpedo Launcher,20,508
@@ -1829,7 +1833,7 @@ type_id,name,volume,group_id
 56069,Proximity-15 'Extraction' Filament,,
 56133,,0.1,
 56139,Cataclysmic Electrical Filament,0.1,1979
-56140,Cataclysmic Dark Filament,,
+56140,Cataclysmic Dark Filament,0.1,1979
 56141,Cataclysmic Exotic Filament,0.1,1979
 56142,Cataclysmic Firestorm Filament,0.1,1979
 56143,Cataclysmic Gamma Filament,0.1,1979
@@ -1888,6 +1892,7 @@ type_id,name,volume,group_id
 60311,Mercoxit Asteroid Mining Crystal Type B II,10,663
 60313,Gas Cloud Harvester I,5,
 60314,Gas Cloud Harvester II,5,4138
+60381,Abyssal Ore Processing,,
 60464,Exigent Heavy Drone Firepower Mutaplasmid,1,1964
 60470,Exigent Sentry Drone Projection Mutaplasmid,1,
 60472,,1,1964
@@ -2132,6 +2137,7 @@ type_id,name,volume,group_id
 95413,Harmonius Bridge - Unlimited,,
 95556,Lorharyth’s Modified Inertial Stabilizer,5,762
 95629,Oracle Navy Issue,15000,1201
+95631,,15000,1201
 95672,Liberated Matar Background,0.1,
 95673,Foundation Wisdom Background,0.1,
 95741,Akoman,15000,1201
@@ -2183,4 +2189,5 @@ type_id,name,volume,group_id
 98135,,1,303
 98145,Blood Raider Blueprint Crate,1,1194
 98147,Crimson Totality Background,0.1,5082
+98319,Deep-Space Crimson Metallic - Unlimited,,
 98417,Imperial Hardpoint Booster I,,
