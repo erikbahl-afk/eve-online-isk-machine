@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Sat 14 Nov 00:00 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
+**Updated:** Sat 14 Nov 00:03 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
 **Steps:** 19 · **Est. time:** 16 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -104,7 +104,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 19 | ☐ Corpii A-Type Multispectrum Coating | 1 | **202,400,000** | 218,000,000 | 202,300,000 |
+| 19 | ☐ Corpii A-Type Multispectrum Coating | 1 | **202,400,000** | 217,900,000 | 202,300,000 |
 
 ---
 Wallet 896.74M · escrow 68.65M · stock 3.12B · in transit 790.67M · net worth 4.88B (liquidation 2.46B)

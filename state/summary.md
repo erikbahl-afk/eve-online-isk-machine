@@ -1,4 +1,4 @@
-# Summary · Sat 14 Nov 00:00 PST
+# Summary · Sat 14 Nov 00:03 PST
 
 Updated every ~2 hours. **Your real character** is the first section; everything after it is the **practice trader** (pretend ISK, real market data). Each section starts with a line on how to read it.
 
@@ -98,11 +98,11 @@ _Market size = ISK spent per day buying from sell orders in that station. Items 
 
 | Hub | Market size/day | Station items | Station profit/day | Import items | Import profit/day |
 |---|---|---|---|---|---|
-| jita | 5.11T | 6 | 7.66M | - | - |
-| amarr | 480.31B | 5 | 8.46M | 31 | 70.89M |
-| dodixie | 157.50B | 1 | 775.95k | 45 | 98.93M |
-| rens | 29.94B | 0 | - | 6 | 21.25M |
-| hek | 64.78B | 0 | - | 19 | 86.01M |
+| jita | 5.11T | 6 | 7.65M | - | - |
+| amarr | 480.90B | 5 | 8.46M | 31 | 73.09M |
+| dodixie | 157.47B | 1 | 776.45k | 45 | 101.27M |
+| rens | 29.93B | 0 | - | 6 | 21.25M |
+| hek | 64.74B | 0 | - | 19 | 86.00M |
 
 ## 8. Best items to trade inside Jita
 _Buy at the highest buy price + 1 tick, sell at the lowest sell price − 1 tick. Margin is after all fees. On top = how much of the time between your logins our order would stay the best price before a rival undercuts it (sell side / buy side). Limited by = which resource it eats most: order slots, ISK, or your time._
@@ -112,9 +112,9 @@ _Buy at the highest buy price + 1 tick, sell at the lowest sell price − 1 tick
 | Bouquet of Flowers | 11.01M → 24.69M | 111.8% | 0.1 | 55% / 71% | 1.55M | time |
 | Quad Mega Pulse Laser II | 174.90M → 202.70M | 8.7% | 0.1 | 18% / 16% | 1.75M | time |
 | Imperial Navy Kinetic Armor Hardener | 8.10M → 18.73M | 118.5% | 0.2 | 12% / 12% | 1.74M | time |
-| Victorieux Luxury Yacht | 250.40M → 289.00M | 8.3% | 0.1 | 6% / 53% | 1.10M | time |
-| Imperial Navy Stasis Webifier | 44.47M → 53.71M | 13.4% | 0.2 | 0% / 3% | 1.01M | time |
-| Capital Compact Pb-Acid Cap Battery | 9.47M → 17.04M | 69.6% | 0.1 | 9% / 68% | 513.56k | time |
+| Victorieux Luxury Yacht | 250.40M → 289.00M | 8.3% | 0.1 | 6% / 53% | 1.09M | time |
+| Imperial Navy Stasis Webifier | 44.47M → 53.71M | 13.4% | 0.2 | 0% / 3% | 1.00M | time |
+| Capital Compact Pb-Acid Cap Battery | 9.47M → 17.04M | 69.6% | 0.1 | 9% / 68% | 513.42k | time |
 
 ## 9. Best items to import Jita → Amarr
 _Buy from Jita sellers, ship by courier, sell just under the cheapest seller there. Margin is after shipping and fees. m³ = cargo volume per unit._
@@ -130,8 +130,8 @@ _Buy from Jita sellers, ship by courier, sell just under the cheapest seller the
 | Caldari Drone Specialization | 1.00M → 2.18M | 0.0 | 103.2% | 2.4 | 86% | 2.44M | time |
 | Shrapnel Bomb | 1.15M → 1.75M | 75.0 | 37.6% | 5.3 | 53% | 2.29M | time |
 | Zero-Point Mass Entangler | 7.79M → 9.75M | 50.0 | 14.5% | 2.1 | 21% | 2.36M | time |
-| Imperial Navy Multispectrum Coating | 13.00M → 16.06M | 5.0 | 12.9% | 1.3 | 69% | 2.08M | time |
-| Medium Explosive Armor Reinforcer II | 9.99M → 12.18M | 10.0 | 11.4% | 2.0 | 27% | 2.28M | time |
+| Imperial Navy Multispectrum Coating | 13.00M → 16.06M | 5.0 | 12.9% | 1.2 | 69% | 2.08M | time |
+| Medium Explosive Armor Reinforcer II | 9.99M → 12.18M | 10.0 | 11.4% | 2.1 | 27% | 2.28M | time |
 | Medium EM Armor Reinforcer II | 8.63M → 10.85M | 10.0 | 15.0% | 1.7 | 40% | 2.17M | time |
 
 ## 10. Cornering watchlist (read-only, nothing is traded)
@@ -155,10 +155,10 @@ _Is the market data flowing? Orders = orders seen in the station · Hours today 
 
 | Hub | Orders | Hours today | Trades seen | Note |
 |---|---|---|---|---|
-| jita | 337,156 | 8.3 | 5,422 |  |
-| amarr | 127,584 | 8.3 | 2,172 |  |
-| dodixie | 65,829 | 8.3 | 894 |  |
-| rens | 31,588 | 8.3 | 336 |  |
-| hek | 40,548 | 8.3 | 628 |  |
+| jita | 337,242 | 8.3 | 765 |  |
+| amarr | 127,560 | 8.3 | 190 |  |
+| dodixie | 65,850 | 8.3 | 216 |  |
+| rens | 31,588 | 8.3 | 24 |  |
+| hek | 40,551 | 8.3 | 40 |  |
 
-_This run took 39 s (market data 19 s, stats and character 5 s, experiments 13 s, main portfolio 1 s, cornering scan 0 s, ESI back-off 0 s; 1,138 ESI calls). A slow run usually means ESI rate limits (back-off) or a first-time lookup of many item types._
+_This run took 33 s (market data 16 s, stats and character 4 s, experiments 11 s, main portfolio 1 s, cornering scan 0 s, ESI back-off 0 s; 1,121 ESI calls). A slow run usually means ESI rate limits (back-off) or a first-time lookup of many item types._
