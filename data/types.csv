@@ -89,6 +89,7 @@ type_id,name,volume,group_id
 2390,Electrolytes,0.19,1042
 2392,,0.19,1042
 2393,Bacteria,0.19,1042
+2395,,0.19,1042
 2396,,0.19,1042
 2399,Precious Metals,,
 2400,Toxic Metals,0.19,1042
@@ -454,7 +455,7 @@ type_id,name,volume,group_id
 13982,True Sansha Thermal Armor Hardener,5,328
 13984,Dark Blood Thermal Armor Hardener,,
 13998,,5,77
-14001,True Sansha Multispectrum Coating,,
+14001,True Sansha Multispectrum Coating,5,98
 14041,,5,
 14045,Domination Shield Boost Amplifier,5,338
 14047,,5,
@@ -526,7 +527,7 @@ type_id,name,volume,group_id
 15592,Federation Navy Fleet Captain Insignia I,0.1,409
 15593,,0.1,409
 15594,Federation Navy Fleet Colonel Insignia I,0.1,409
-15602,,0.1,409
+15602,Caldari Navy Commodore Insignia I,0.1,409
 15604,Caldari Navy Admiral Insignia I,0.1,409
 15605,Caldari Navy Vice Admiral Insignia I,0.1,409
 15610,Imperial Navy Sergeant Insignia I,0.1,409
@@ -583,7 +584,7 @@ type_id,name,volume,group_id
 16004,Eifyr and Co. 'Rogue' Evasive Maneuvering EM-705,1,747
 16050,Republic Fleet 200mm Autocannon,,
 16057,Republic Fleet 800mm Repeating Cannon,,
-16062,Caldari Navy Cruise Missile Launcher,20,
+16062,Caldari Navy Cruise Missile Launcher,20,506
 16064,Caldari Navy Heavy Missile Launcher,10,510
 16067,Caldari Navy Torpedo Launcher,20,508
 16068,Caldari Navy Light Missile Launcher,,
@@ -768,7 +769,7 @@ type_id,name,volume,group_id
 19177,Pithi B-Type Small Shield Booster,5,
 19179,Pithi A-Type Small Shield Booster,5,40
 19181,Gistum C-Type Medium Shield Booster,10,40
-19183,Gistum B-Type Medium Shield Booster,10,
+19183,Gistum B-Type Medium Shield Booster,10,40
 19185,Gistum A-Type Medium Shield Booster,10,40
 19187,Pithum C-Type Medium Shield Booster,10,40
 19189,Pithum B-Type Medium Shield Booster,10,40
@@ -1122,7 +1123,7 @@ type_id,name,volume,group_id
 27419,Caldari Navy Mjolnir Heavy Assault Missile,0.015,
 27421,,0.015,
 27423,Caldari Navy Inferno Cruise Missile,0.05,386
-27429,,0.05,386
+27429,Caldari Navy Nova Cruise Missile,0.05,386
 27435,Caldari Navy Mjolnir Heavy Missile,0.03,385
 27441,,0.03,
 27447,Caldari Navy Inferno Heavy Missile,0.03,
@@ -1150,8 +1151,9 @@ type_id,name,volume,group_id
 28288,'Augmented' Ogre,25,100
 28292,'Augmented' Praetor,25,
 28296,'Augmented' Valkyrie,10,100
+28298,'Integrated' Vespa,,
 28300,'Augmented' Vespa,10,100
-28304,,5,
+28304,'Augmented' Warrior,5,100
 28308,,25,
 28324,,0.025,
 28332,,0.025,83
@@ -1827,6 +1829,7 @@ type_id,name,volume,group_id
 56715,Cultural Semiosis Data,0.1,526
 56716,Protective Equipment Patterns,0.1,526
 57112,Low-grade Rapture Gamma,,
+57117,Mid-grade Rapture Alpha,,
 57118,,1,
 57121,Mid-grade Rapture Epsilon,1,
 57207,Mining Barge Operations,1,
@@ -1914,6 +1917,7 @@ type_id,name,volume,group_id
 62520,Compressed Scordite,0.0015,460
 62521,Compressed Scordite II-Grade,0.0015,460
 62522,Compressed Scordite III-Grade,0.0015,460
+62525,,0.003,459
 62526,,0.003,
 62528,,0.0035,458
 62529,Compressed Plagioclase II-Grade,0.0035,458
@@ -2035,6 +2039,7 @@ type_id,name,volume,group_id
 88147,Triplot Scan Acquisition Array,5,1238
 88716,Xarasier Medium Ancillary Shield Booster,,
 89156,Vigilance Resonance Key,0.1,474
+89219,Stability Telemetry,,
 89485,,0.01,
 89607,Odysseus,50000,4902
 89615,Expedition Command Burst II,60,
@@ -2114,7 +2119,7 @@ type_id,name,volume,group_id
 95228,Manifest Homecoming Background,,
 95413,Harmonius Bridge - Unlimited,,
 95556,Lorharyth’s Modified Inertial Stabilizer,5,762
-95629,,15000,1201
+95629,Oracle Navy Issue,15000,1201
 95672,Liberated Matar Background,0.1,
 95673,Foundation Wisdom Background,0.1,
 95741,Akoman,15000,1201
