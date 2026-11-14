@@ -1010,7 +1010,7 @@ type_id,name,volume,group_id
 24519,Nova Rage Torpedo,0.05,657
 24521,,0.05,
 24523,Mjolnir Rage Torpedo,0.05,657
-24531,Nova Fury Cruise Missile,,
+24531,Nova Fury Cruise Missile,0.05,656
 24535,,0.05,
 24539,,0.05,
 24632,Zainou 'Deadeye' Guided Missile Precision GP-803,1,746
@@ -2007,7 +2007,7 @@ type_id,name,volume,group_id
 81083,Starsi Blast! Classic,1,303
 81143,Magmatic Gas,0.01,4729
 81350,Kerr Sequencer,0.001,
-81948,Consortium Small Tractor Beam,,
+81948,Consortium Small Tractor Beam,50,650
 81951,Consortium Mobile Tractor Unit,80,1250
 82054,Stabber Capsuleer Day XXI SKIN,0.01,1950
 82184,Thrasher Fleet Issue Republic Police SKIN,,
@@ -2015,7 +2015,7 @@ type_id,name,volume,group_id
 82301,Compressed Kylixium II-Grade,,
 82302,Compressed Kylixium III-Grade,,
 82303,Compressed Kylixium IV-Grade,0.012,4755
-82314,,0.05,4758
+82314,Compressed Hezorime III-Grade,0.05,4758
 83467,Angel NET Resonator,1,334
 83468,Blood Raider NET Resonator,1,334
 83469,Guristas NET Resonator,1,334
