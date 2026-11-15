@@ -1,4 +1,4 @@
-# Summary · Sat 14 Nov 17:56 PST
+# Summary · Sat 14 Nov 18:00 PST
 
 Updated every ~2 hours. **Your real character** is the first section; everything after it is the **practice trader** (pretend ISK, real market data). Each section starts with a line on how to read it.
 
@@ -98,11 +98,11 @@ _Market size = ISK spent per day buying from sell orders in that station. Items 
 
 | Hub | Market size/day | Station items | Station profit/day | Import items | Import profit/day |
 |---|---|---|---|---|---|
-| jita | 4.95T | 16 | 28.94M | - | - |
-| amarr | 486.96B | 4 | 5.39M | 32 | 76.23M |
-| dodixie | 161.56B | 2 | 1.89M | 38 | 96.71M |
-| rens | 28.30B | 0 | - | 7 | 15.02M |
-| hek | 60.58B | 1 | 1.29M | 13 | 42.48M |
+| jita | 4.95T | 16 | 28.95M | - | - |
+| amarr | 487.18B | 4 | 5.39M | 33 | 77.57M |
+| dodixie | 161.82B | 2 | 1.89M | 38 | 96.79M |
+| rens | 28.29B | 0 | - | 6 | 13.47M |
+| hek | 60.57B | 1 | 1.29M | 13 | 42.55M |
 
 ## 8. Best items to trade inside Jita
 _Buy at the highest buy price + 1 tick, sell at the lowest sell price − 1 tick. Margin is after all fees. On top = how much of the time between your logins our order would stay the best price before a rival undercuts it (sell side / buy side). Limited by = which resource it eats most: order slots, ISK, or your time._
@@ -113,9 +113,9 @@ _Buy at the highest buy price + 1 tick, sell at the lowest sell price − 1 tick
 | Quad Mega Pulse Laser II | 175.20M → 202.60M | 8.5% | 0.2 | 18% / 17% | 2.60M | time |
 | Widow | 792.30M → 918.00M | 8.7% | 0.1 | 3% / 11% | 3.56M | ISK |
 | Entosis Link II | 133.80M → 164.20M | 15.2% | 0.1 | 22% / 26% | 2.26M | time |
-| Unstable Large Remote Armor Repairer Mutaplasmid | 112.40M → 167.00M | 39.8% | 0.0 | 10% / 31% | 2.15M | time |
+| Unstable Large Remote Armor Repairer Mutaplasmid | 112.40M → 167.00M | 39.8% | 0.0 | 10% / 31% | 2.16M | time |
 | Apocalypse | 127.40M → 145.80M | 7.4% | 0.3 | 3% / 9% | 2.26M | time |
-| Compressed Veldspar II-Grade | 11.05 → 12.50 | 6.1% | 3698275.2 | 2% / 16% | 2.14M | time |
+| Compressed Veldspar II-Grade | 11.05 → 12.50 | 6.1% | 3700366.9 | 2% / 16% | 2.14M | time |
 | Caldari Navy Rocket Launcher | 26.73M → 35.66M | 25.4% | 0.3 | 8% / 14% | 2.04M | time |
 | Unstable Modulated Strip Miner Mutaplasmid | 62.58M → 74.62M | 11.9% | 0.3 | 1% / 2% | 2.10M | time |
 | Low-grade Harvest Beta | 41.77M → 64.69M | 45.8% | 0.1 | 45% / 63% | 1.51M | time |
@@ -127,18 +127,18 @@ _Buy from Jita sellers, ship by courier, sell just under the cheapest seller the
 
 | Item | Jita price → sell price | m³ | Margin | Sold per day | On top | Profit/day | Limited by |
 |---|---|---|---|---|---|---|---|
-| Legion Mjolnir Auto-Targeting Light Missile | 998.00 → 2.31k | 0.0 | 116.1% | 4105.5 | 83% | 4.75M | time |
-| Athanor | 749.90M → 928.90M | 8,000.0 | 13.2% | 0.1 | 10% | 7.70M | ISK |
+| Legion Mjolnir Auto-Targeting Light Missile | 998.00 → 2.31k | 0.0 | 116.1% | 4102.9 | 83% | 4.75M | time |
+| Athanor | 749.90M → 928.90M | 8,000.0 | 13.2% | 0.1 | 10% | 7.71M | ISK |
 | Standup Moon Drill I | 114.20M → 144.80M | 8,000.0 | 12.9% | 0.3 | 54% | 3.65M | time |
 | Naga Navy Issue | 169.90M → 218.80M | 15,000.0 | 12.8% | 0.2 | 34% | 3.49M | time |
 | Caldari Drone Specialization | 1.03M → 2.19M | 0.0 | 97.8% | 2.7 | 85% | 2.70M | time |
-| Scalar Capacitor Unit | 42.80k → 55.43k | 1.0 | 18.6% | 327.2 | 72% | 2.59M | time |
-| Gatling Pulse Laser II | 499.00k → 789.80k | 5.0 | 46.0% | 11.8 | 47% | 2.69M | time |
+| Scalar Capacitor Unit | 42.80k → 55.43k | 1.0 | 18.6% | 327.3 | 72% | 2.59M | time |
+| Gatling Pulse Laser II | 499.00k → 789.80k | 5.0 | 46.0% | 12.0 | 47% | 2.73M | time |
 | Darter TP-600-I | 1.83M → 2.50M | 10.0 | 25.2% | 4.9 | 85% | 2.26M | time |
+| Zainou 'Gypsy' CPU Management EE-603 | 17.82M → 23.34M | 1.0 | 20.0% | 0.8 | 10% | 2.71M | time |
 | Gist X-Type EM Shield Hardener | 79.81M → 100.00M | 5.0 | 14.6% | 0.2 | 18% | 2.61M | time |
 | Dread Guristas Small Shield Booster | 13.79M → 22.91M | 5.0 | 53.4% | 0.3 | 48% | 2.38M | time |
 | Hyperspherical Housing | 169.40k → 312.70k | 0.1 | 71.0% | 20.5 | 25% | 2.45M | time |
-| Light Entropic Disintegrator II | 20.88M → 25.35M | 5.0 | 10.9% | 1.1 | 10% | 2.51M | time |
 
 ## 10. Cornering watchlist (read-only, nothing is traded)
 _Items where buying out the cheapest few sell orders and relisting higher would pay on paper. We only watch them, to learn whether such prices hold or get undercut._
@@ -147,9 +147,9 @@ _Items where buying out the cheapest few sell orders and relisting higher would 
 |---|---|---|---|---|---|---|---|---|---|
 | amarr | Pyroxeres | 169.70 | 2 orders / 135,954 units | 23.07M | 35.05k | 4.51B | 19547% | 1.0 | 2.0 |
 | jita | Deep-Space Crimson Metallic - Unlimited | 100.00M | 1 orders / 3 units | 300.00M | 199.40M | 269.04M | 90% | 2.3 | 1.6 |
-| jita | Glorified Gravid Large Shield Booster Mutaplasmid | 19.79M | 3 orders / 11 units | 236.22M | 37.99M | 161.30M | 68% | 8.2 | 1.1 |
+| jita | Glorified Gravid Large Shield Booster Mutaplasmid | 19.79M | 3 orders / 11 units | 236.22M | 37.99M | 161.30M | 68% | 8.3 | 1.1 |
 | amarr | Large Remote Repair Augmentor I | 18.00M | 1 orders / 19 units | 342.00M | 27.81M | 160.63M | 47% | 2.9 | 0.7 |
-| jita | Standup M-Set Energy Neutralizer Economy I | 114.20M | 2 orders / 3 units | 360.60M | 176.60M | 143.37M | 40% | 3.0 | 2.6 |
+| jita | Standup M-Set Energy Neutralizer Economy I | 114.20M | 2 orders / 3 units | 360.60M | 176.60M | 143.37M | 40% | 3.0 | 2.5 |
 | jita | Eifyr and Co. 'Gunslinger' Motion Prediction MR-702 | 6.50M | 4 orders / 43 units | 291.30M | 10.38M | 133.28M | 46% | 4.8 | 1.6 |
 | jita | Advanced Armor Layering | 19.00M | 1 orders / 20 units | 380.00M | 26.95M | 132.72M | 35% | 5.0 | 1.5 |
 | jita | Ultra-Indigo Matte - Unlimited | 199.00M | 1 orders / 1 units | 199.00M | 348.50M | 132.51M | 67% | 2.3 | 1.5 |
@@ -161,10 +161,10 @@ _Is the market data flowing? Orders = orders seen in the station · Hours today 
 
 | Hub | Orders | Hours today | Trades seen | Note |
 |---|---|---|---|---|
-| jita | 337,036 | 3.9 | 2,893 |  |
-| amarr | 127,342 | 3.9 | 872 |  |
-| dodixie | 66,116 | 3.9 | 499 |  |
-| rens | 32,050 | 3.9 | 216 |  |
-| hek | 41,102 | 3.9 | 233 |  |
+| jita | 336,944 | 4.0 | 821 |  |
+| amarr | 127,352 | 4.0 | 122 |  |
+| dodixie | 66,106 | 4.0 | 79 |  |
+| rens | 32,055 | 4.0 | 13 |  |
+| hek | 41,112 | 4.0 | 22 |  |
 
-_This run took 45 s (market data 21 s, stats and character 5 s, experiments 17 s, main portfolio 2 s, cornering scan 0 s, ESI back-off 0 s; 1,123 ESI calls). A slow run usually means ESI rate limits (back-off) or a first-time lookup of many item types._
+_This run took 48 s (market data 25 s, stats and character 5 s, experiments 16 s, main portfolio 2 s, cornering scan 0 s, ESI back-off 0 s; 1,121 ESI calls). A slow run usually means ESI rate limits (back-off) or a first-time lookup of many item types._

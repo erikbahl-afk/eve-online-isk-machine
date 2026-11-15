@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Sat 14 Nov 17:56 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 12 · **Est. time:** 10 min. Work top to bottom; stop any time.  
+**Updated:** Sat 14 Nov 18:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 13 · **Est. time:** 10 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -68,12 +68,19 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 ### Block 2 · should do · about 1 min
 
+#### Fix outbid buy orders
+_My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
+
+| # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
+|---|---|---|---|---|---|
+| 10 | ☐ Sansha NET Resonator | 2,508,000 | **2,508,000** | 2,518,000 | 2,507,000 |
+
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 10 | ☐ Compressed Veldspar II-Grade | 10,143,577 | **11.05** | 11.05 | 11.04 |
+| 11 | ☐ Compressed Veldspar II-Grade | 10,143,577 | **11.05** | 11.05 | 11.04 |
 
 ### Block 3 · if there's time · about 1 min
 
@@ -82,8 +89,8 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 11 | ☐ 50MN Microwarpdrive II | 3,637,000 | **3,642,000** | 3,712,000 | 3,641,000 |
-| 12 | ☐ Jaguar | 14,530,000 | **14,610,000** | 16,290,000 | 14,600,000 |
+| 12 | ☐ 50MN Microwarpdrive II | 3,637,000 | **3,642,000** | 3,703,000 | 3,641,000 |
+| 13 | ☐ Jaguar | 14,530,000 | **14,610,000** | 16,290,000 | 14,600,000 |
 
 ---
 Wallet 327.18M · escrow 813.99M · stock 3.03B · in transit 790.67M · net worth 4.97B (liquidation 2.47B)
