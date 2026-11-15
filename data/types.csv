@@ -194,7 +194,7 @@ type_id,name,volume,group_id
 4033,Women's 'Impress' Skirt (black leather),,
 4051,,5,
 4144,Women's 'Structure' Dress (black/white),0.1,
-4147,Dual Heavy Pulse Laser II,20,
+4147,Dual Heavy Pulse Laser II,20,53
 4246,Hydrogen Fuel Block,5,1136
 4248,,50,899
 4250,Small Tractor Beam II,,
@@ -296,7 +296,7 @@ type_id,name,volume,group_id
 11540,Quantum Microprocessor,1,334
 11541,Photon Microprocessor,1,334
 11542,Fernite Carbide Composite Armor Plate,1,334
-11543,,1,
+11543,,1,334
 11545,,1,334
 11547,Fusion Reactor Unit,1,334
 11548,Nuclear Reactor Unit,1,
@@ -453,7 +453,7 @@ type_id,name,volume,group_id
 13949,,10,
 13951,Dread Guristas Small Shield Booster,5,40
 13952,Domination Small Shield Booster,,
-13953,Dread Guristas X-Large Shield Booster,50,
+13953,Dread Guristas X-Large Shield Booster,50,40
 13954,,50,
 13956,True Sansha Large Armor Repairer,50,62
 13957,Dark Blood Large Armor Repairer,50,
@@ -731,7 +731,7 @@ type_id,name,volume,group_id
 18837,,5,326
 18845,Corpum C-Type Thermal Energized Membrane,5,326
 18849,Corpum B-Type Multispectrum Energized Membrane,5,326
-18851,,5,326
+18851,Centum B-Type Multispectrum Energized Membrane,5,326
 18859,Centum B-Type Explosive Energized Membrane,5,
 18863,,5,326
 18867,Centum A-Type Thermal Energized Membrane,5,326
@@ -893,6 +893,7 @@ type_id,name,volume,group_id
 20509,High-grade Amulet Omega,1,300
 20527,Gallente Freighter,,
 20528,Minmatar Freighter,,
+20532,Minmatar Dreadnought,,
 20565,Improved 'Guise' Cloaking Device II,100,330
 20567,'Dyad' Co-Processor I,5,
 20595,'Gallows' Light Missile Launcher,5,
@@ -1099,6 +1100,7 @@ type_id,name,volume,group_id
 26428,Large Projectile Ambit Extension II,20,
 26434,Large Projectile Metastasis Adjuster II,20,
 26436,Large EM Shield Reinforcer II,20,
+26440,Large Kinetic Shield Reinforcer II,,
 26442,,20,
 26444,,20,
 26448,Large Core Defense Field Extender II,20,
