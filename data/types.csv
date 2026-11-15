@@ -21,6 +21,7 @@ type_id,name,volume,group_id
 620,,10000,26
 621,Caracal,10000,26
 622,Stabber,10000,26
+623,,10000,26
 625,,10000,26
 626,,10000,26
 627,,10000,
@@ -186,7 +187,7 @@ type_id,name,volume,group_id
 3894,Distribution Connections,0.01,278
 3895,Security Connections,0.01,278
 3898,Quafe Zero Classic,1,
-3962,Customs Office Gantry,7600,
+3962,Customs Office Gantry,7600,1106
 3966,Men's 'Precision' Boots,0.1,
 3989,Large Plasma Smartbomb II,,
 3993,Large EMP Smartbomb I,50,72
@@ -224,7 +225,7 @@ type_id,name,volume,group_id
 8433,Medium Azeotropic Restrained Shield Extender,10,
 8517,Medium F-S9 Regolith Compact Shield Extender,10,38
 8529,,20,38
-8635,Large Murky Compact Remote Shield Booster,,
+8635,Large Murky Compact Remote Shield Booster,25,41
 8863,,5,
 9411,,5,
 9491,1400mm 'Scout' Artillery I,20,55
@@ -485,6 +486,7 @@ type_id,name,volume,group_id
 14104,,5,
 14106,Domination 10MN Afterburner,5,46
 14108,,5,
+14118,,10,46
 14122,Domination 5MN Microwarpdrive,10,46
 14126,Domination Overdrive Injector,5,
 14128,,5,
@@ -499,7 +501,7 @@ type_id,name,volume,group_id
 14152,,5,
 14156,Dark Blood Medium Energy Nosferatu,,
 14158,,5,
-14164,Dark Blood Medium Energy Neutralizer,5,
+14164,Dark Blood Medium Energy Neutralizer,5,71
 14166,,5,71
 14168,Dark Blood Heavy Energy Neutralizer,5,
 14170,True Sansha Heavy Energy Neutralizer,5,71
@@ -528,6 +530,7 @@ type_id,name,volume,group_id
 14264,Domination Stasis Webifier,5,65
 14266,Dread Guristas Stasis Webifier,5,65
 14268,,5,
+14270,Shadow Serpentis Stasis Webifier,5,65
 14278,,10,
 14295,,1,745
 14297,Limited Memory Augmentation - Beta,1,745
@@ -1782,6 +1785,7 @@ type_id,name,volume,group_id
 49732,,1,
 49733,Unstable Gyrostabilizer Mutaplasmid,1,
 49737,,1,1964
+49740,,1,1964
 49741,Unstable Ballistic Control System Mutaplasmid,,
 49774,,10,
 49790,ML-EKP 'Polybolos' Ballistic Control System,5,367
@@ -1912,6 +1916,7 @@ type_id,name,volume,group_id
 58972,,5,
 59633,,1,303
 60032,Golem State Police SKIN,0.01,
+60244,,100,4137
 60281,Simple Asteroid Mining Crystal Type A II,10,482
 60283,Simple Asteroid Mining Crystal Type B II,10,482
 60288,,10,
