@@ -525,6 +525,7 @@ type_id,name,volume,group_id
 14278,,10,
 14295,,1,745
 14297,Limited Memory Augmentation - Beta,1,745
+15317,,0.75,1034
 15457,,1,
 15463,Standard Mindflood Booster,1,303
 15464,Improved Mindflood Booster,1,303
@@ -649,7 +650,7 @@ type_id,name,volume,group_id
 17368,,100000,
 17478,Retriever,3750,
 17480,,3750,463
-17482,Strip Miner I,5,
+17482,Strip Miner I,5,464
 17487,Republic Fleet Heavy Missile Launcher,10,
 17491,Republic Fleet Light Missile Launcher,5,509
 17494,,5,
