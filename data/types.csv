@@ -478,7 +478,7 @@ type_id,name,volume,group_id
 14069,,5,
 14070,Dark Blood Multispectrum Energized Membrane,5,326
 14072,True Sansha Multispectrum Energized Membrane,,
-14074,,5,
+14074,Shadow Serpentis Multispectrum Energized Membrane,5,326
 14094,Dark Blood Thermal Energized Membrane,,
 14100,Domination Tracking Enhancer,5,
 14104,,5,
@@ -1116,6 +1116,7 @@ type_id,name,volume,group_id
 27126,Inherent Implants 'Squire' Power Grid Management EG-605,1,
 27142,Zainou 'Gypsy' CPU Management EE-605,1,
 27167,Zainou 'Beancounter' Industry BX-802,1,743
+27169,,1,1229
 27171,Zainou 'Beancounter' Industry BX-804,1,743
 27174,Zainou 'Beancounter' Reprocessing RX-804,1,1229
 27176,Zainou 'Beancounter' Metallurgy MY-703,,
@@ -1389,6 +1390,7 @@ type_id,name,volume,group_id
 32104,,1,
 32105,Low-grade Grail Gamma,1,
 32109,Low-grade Spur Delta,,
+32246,,0.1,479
 32254,Imperial Navy Modified 'Noble' Implant,1,738
 32305,Armageddon Navy Issue,50000,
 32309,Scorpion Navy Issue,50000,27
@@ -2221,7 +2223,7 @@ type_id,name,volume,group_id
 97671,,1,
 97897,Bloody Sunset Background,,
 97955,Imperial Navy Stasis Webifier,5,65
-98135,,1,303
+98135,SARO Pursuit Booster,1,303
 98145,Blood Raider Blueprint Crate,1,1194
 98147,Crimson Totality Background,0.1,5082
 98319,Deep-Space Crimson Metallic - Unlimited,,
