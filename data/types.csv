@@ -222,6 +222,7 @@ type_id,name,volume,group_id
 8263,,5,
 8433,Medium Azeotropic Restrained Shield Extender,10,
 8517,Medium F-S9 Regolith Compact Shield Extender,10,38
+8529,,20,38
 8863,,5,
 9411,,5,
 9491,1400mm 'Scout' Artillery I,20,55
@@ -432,6 +433,7 @@ type_id,name,volume,group_id
 13868,Shadow Serpentis 200mm Railgun,,
 13872,Shadow Serpentis 250mm Railgun,,
 13879,Dread Guristas 425mm Railgun,,
+13891,,20,74
 13919,Domination Rapid Light Missile Launcher,10,511
 13920,Dread Guristas Rapid Light Missile Launcher,10,511
 13923,Domination Torpedo Launcher,20,
@@ -443,7 +445,7 @@ type_id,name,volume,group_id
 13935,Domination Ballistic Control System,5,367
 13937,Dread Guristas Ballistic Control System,5,367
 13939,Domination Gyrostabilizer,,
-13943,True Sansha Heat Sink,5,
+13943,True Sansha Heat Sink,5,205
 13945,,5,
 13947,,25,
 13949,,10,
@@ -511,6 +513,7 @@ type_id,name,volume,group_id
 14234,Dread Guristas Cloaking Device,100,
 14236,Shadow Serpentis Sensor Booster,5,
 14238,Shadow Serpentis Tracking Computer,5,213
+14242,Dark Blood Warp Disruptor,5,52
 14244,Domination Warp Disruptor,5,52
 14246,Dread Guristas Warp Disruptor,5,52
 14248,,5,
@@ -630,6 +633,7 @@ type_id,name,volume,group_id
 16667,Neo Mercurite,0.2,428
 16668,Dysporite,0.2,428
 16669,Ferrofluid,0.2,428
+16670,,0.01,429
 16671,,0.01,
 16672,Tungsten Carbide,0.01,429
 16673,Fernite Carbide,0.01,429
@@ -721,6 +725,7 @@ type_id,name,volume,group_id
 18827,Corelum A-Type Thermal Energized Membrane,5,
 18829,Corpum C-Type Multispectrum Energized Membrane,5,326
 18835,Centum C-Type Kinetic Energized Membrane,,
+18837,,5,326
 18845,Corpum C-Type Thermal Energized Membrane,5,326
 18849,Corpum B-Type Multispectrum Energized Membrane,5,326
 18851,,5,326
@@ -891,6 +896,7 @@ type_id,name,volume,group_id
 20629,,10,
 20779,,0.0125,83
 20783,Domination EMP M,0.0125,83
+20847,,1,86
 20855,True Sanshas Standard S,,
 21009,Capital Propulsion Engine,2000,
 21013,Capital Sensor Cluster,2000,
@@ -1277,7 +1283,7 @@ type_id,name,volume,group_id
 31045,Small Auxiliary Nano Pump I,5,773
 31047,Medium Auxiliary Nano Pump I,,
 31053,Medium Auxiliary Nano Pump II,10,
-31055,,10,773
+31055,Medium Trimark Armor Pump I,10,773
 31059,Medium Trimark Armor Pump II,10,773
 31067,Capital Nanobot Accelerator I,,
 31073,Medium Remote Repair Augmentor I,,
@@ -1292,7 +1298,7 @@ type_id,name,volume,group_id
 31123,Small Cargohold Optimization II,5,782
 31125,Medium Cargohold Optimization II,10,782
 31161,Medium Hyperspatial Velocity Optimizer I,10,782
-31165,,5,782
+31165,Small Hyperspatial Velocity Optimizer II,5,782
 31167,Medium Hyperspatial Velocity Optimizer II,10,782
 31171,Small Low Friction Nozzle Joints II,5,782
 31173,Medium Low Friction Nozzle Joints II,10,782
@@ -1330,7 +1336,7 @@ type_id,name,volume,group_id
 31774,Capital Core Defense Capacitor Safeguard II,40,
 31790,Medium Core Defense Field Extender I,10,774
 31792,,40,
-31796,Medium Core Defense Field Extender II,10,
+31796,Medium Core Defense Field Extender II,10,774
 31802,Medium Core Defense Field Purger I,10,
 31810,Small Core Defense Field Purger II,5,
 31812,Medium Core Defense Field Purger II,10,774
@@ -1457,6 +1463,7 @@ type_id,name,volume,group_id
 34057,Men's 'Tectonic' Headwear (matte black),,
 34132,Pilot's Body Resculpt Certificate,,
 34264,Focused Void Bomb,75,864
+34268,Medium Higgs Anchor I,,
 34272,,5,53
 34276,Polarized Mega Pulse Laser,20,
 34278,Polarized Light Neutron Blaster,5,74
@@ -1746,6 +1753,7 @@ type_id,name,volume,group_id
 48115,Agency 'Pyrolancea' DB9 Dose IV,1,303
 48386,,0.1,1088
 48434,Unstable Medium Cap Battery Mutaplasmid,,
+48438,Unstable Large Cap Battery Mutaplasmid,1,1964
 48501,Bellicose Dawn of Liberation SKIN,,
 48576,,0.01,1950
 48582,Master-at-Arms Cerebral Accelerator,1,303
@@ -2115,7 +2123,7 @@ type_id,name,volume,group_id
 92033,Orbweaver SW-300-I,5,5239
 92034,Huntsman SW-600-I,10,5239
 92035,Arabellata SW-900-I,25,5239
-92036,Tick EV-300-I,5,
+92036,Tick EV-300-I,5,5239
 92040,Nertic EC-600-I,10,5239
 92041,Humboldt EC-900-I,25,5239
 92456,Presidential Mining Foreman Burst,60,

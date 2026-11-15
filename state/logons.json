@@ -56,7 +56,7 @@
   "week": "2026-11-09"
  },
  {
-  "done": false,
+  "done": true,
   "frac": 1.0,
   "local": "Sat 14 Nov 18:05",
   "t": 1794708300.0,
