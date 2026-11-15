@@ -583,7 +583,7 @@ type_id,name,volume,group_id
 15895,Federation Navy Magnetic Field Stabilizer,5,302
 15897,Caldari Navy X-Large Shield Booster,50,
 15898,Caldari Navy Small Shield Booster,5,
-15900,Caldari Navy Large Shield Booster,,
+15900,Caldari Navy Large Shield Booster,25,40
 15902,Republic Fleet Small Shield Booster,5,40
 15905,Caldari Navy Shield Boost Amplifier,5,338
 15907,Republic Fleet Shield Boost Amplifier,5,338
@@ -677,7 +677,7 @@ type_id,name,volume,group_id
 17715,Gila,10000,26
 17718,Phantasm,10000,
 17720,Cynabal,10000,26
-17726,,50000,
+17726,Apocalypse Navy Issue,50000,27
 17736,Nightmare,50000,27
 17738,Machariel,50000,27
 17769,Fluxed Condensates,0.2,428
@@ -750,6 +750,7 @@ type_id,name,volume,group_id
 18963,Core B-Type Thermal Armor Hardener,,
 18973,Core X-Type EM Armor Hardener,5,328
 18975,Core X-Type Explosive Armor Hardener,5,328
+18977,Core X-Type Kinetic Armor Hardener,5,328
 18979,,5,328
 18985,Coreli A-Type Small Remote Armor Repairer,5,325
 18987,Corelum C-Type Medium Remote Armor Repairer,10,325
@@ -859,7 +860,7 @@ type_id,name,volume,group_id
 20125,Curse,10000,906
 20157,High-grade Crystal Beta,1,
 20159,High-grade Crystal Delta,1,300
-20160,,1,300
+20160,High-grade Crystal Epsilon,1,300
 20161,High-grade Crystal Omega,,
 20172,,0.1,
 20183,,1300000,
@@ -1464,7 +1465,7 @@ type_id,name,volume,group_id
 34132,Pilot's Body Resculpt Certificate,,
 34264,Focused Void Bomb,75,864
 34268,Medium Higgs Anchor I,,
-34272,,5,53
+34272,Polarized Small Focused Pulse Laser,5,53
 34276,Polarized Mega Pulse Laser,20,
 34278,Polarized Light Neutron Blaster,5,74
 34280,Polarized Heavy Neutron Blaster,10,
@@ -1549,6 +1550,7 @@ type_id,name,volume,group_id
 40558,Firbolg II,1000,
 40559,Einherji II,,
 40560,Ametat II,2000,1653
+40561,Malleus II,1800,1653
 40569,,3000,1537
 40570,Siren II,3000,1537
 40661,Capital Infectious Scoped Energy Neutralizer,,
@@ -2148,7 +2150,7 @@ type_id,name,volume,group_id
 94010,Caldari Navy Bastion Module,,
 94034,Harpy State Regulator SKIN,0.01,
 94035,,0.01,1950
-94065,,5,49
+94065,Republic Fleet Mining Survey Chipset,5,49
 94067,Caldari Navy Signal Distortion Amplifier,,
 94154,Confessor Mandate of Faith SKIN,,
 95228,Manifest Homecoming Background,,
