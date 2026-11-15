@@ -1,9 +1,15 @@
 [
  {
   "key": "liquidation",
-  "severity": "medium",
+  "severity": "high",
   "since": 1793915372.8054109,
-  "text": "Liquidation value is 50% of net worth (2.46B of 4.88B): much of the stock couldn't be sold quickly without a big loss."
+  "text": "Liquidation value is 47% of net worth (2.30B of 4.86B): much of the stock couldn't be sold quickly without a big loss."
+ },
+ {
+  "key": "position:45856",
+  "severity": "medium",
+  "since": 1794700824.6604915,
+  "text": "Golem Exoplanets Hunter SKIN is 8.0% of net worth (389.00M)."
  },
  {
   "key": "position:77169",

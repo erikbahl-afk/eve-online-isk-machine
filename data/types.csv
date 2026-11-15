@@ -593,6 +593,7 @@ type_id,name,volume,group_id
 16057,Republic Fleet 800mm Repeating Cannon,,
 16062,Caldari Navy Cruise Missile Launcher,20,506
 16064,Caldari Navy Heavy Missile Launcher,10,510
+16065,,5,507
 16067,Caldari Navy Torpedo Launcher,20,508
 16068,Caldari Navy Light Missile Launcher,,
 16229,Brutix,15000,419
@@ -717,6 +718,7 @@ type_id,name,volume,group_id
 18827,Corelum A-Type Thermal Energized Membrane,5,
 18829,Corpum C-Type Multispectrum Energized Membrane,5,326
 18835,Centum C-Type Kinetic Energized Membrane,,
+18845,Corpum C-Type Thermal Energized Membrane,5,326
 18849,Corpum B-Type Multispectrum Energized Membrane,5,326
 18851,,5,326
 18859,Centum B-Type Explosive Energized Membrane,5,
@@ -947,7 +949,7 @@ type_id,name,volume,group_id
 22464,,5000,
 22468,Claymore,15000,
 22470,Nighthawk,15000,540
-22534,Inherent Implants 'Highwall' Mining MX-1003,1,
+22534,Inherent Implants 'Highwall' Mining MX-1003,1,1229
 22535,Inherent Implants 'Highwall' Mining MX-1005,1,1229
 22544,Hulk,3750,543
 22546,Skiff,3750,543
@@ -1131,7 +1133,7 @@ type_id,name,volume,group_id
 27381,Caldari Navy Nova Light Missile,,
 27395,Caldari Navy Scourge Cruise Missile,0.05,386
 27401,,0.015,
-27419,Caldari Navy Mjolnir Heavy Assault Missile,0.015,
+27419,Caldari Navy Mjolnir Heavy Assault Missile,0.015,772
 27421,,0.015,
 27423,Caldari Navy Inferno Cruise Missile,0.05,386
 27429,Caldari Navy Nova Cruise Missile,0.05,386
@@ -1285,7 +1287,9 @@ type_id,name,volume,group_id
 31113,Medium Auxiliary Thrusters II,10,782
 31119,Medium Cargohold Optimization I,10,782
 31123,Small Cargohold Optimization II,5,782
+31125,Medium Cargohold Optimization II,10,782
 31161,Medium Hyperspatial Velocity Optimizer I,10,782
+31165,,5,782
 31167,Medium Hyperspatial Velocity Optimizer II,10,782
 31171,Small Low Friction Nozzle Joints II,5,782
 31173,Medium Low Friction Nozzle Joints II,10,782
@@ -1326,7 +1330,7 @@ type_id,name,volume,group_id
 31796,Medium Core Defense Field Extender II,10,
 31802,Medium Core Defense Field Purger I,10,
 31810,Small Core Defense Field Purger II,5,
-31812,Medium Core Defense Field Purger II,10,
+31812,Medium Core Defense Field Purger II,10,774
 31824,,10,
 31866,Imperial Navy Infiltrator,10,100
 31868,,25,
@@ -1373,7 +1377,7 @@ type_id,name,volume,group_id
 32305,Armageddon Navy Issue,50000,
 32309,Scorpion Navy Issue,50000,27
 32414,Domination Target Painter,5,379
-32881,Venture Blueprint,0.01,
+32881,Venture Blueprint,0.01,105
 32947,Unit P-343554's Modified Drone Navigation Computer,,
 33101,Medium Ancillary Armor Repairer,10,1199
 33139,Clone Soldier Recruiter Tag,0.1,1206
@@ -1449,8 +1453,8 @@ type_id,name,volume,group_id
 34049,Women's 'Hover' Tights (opaque black),,
 34057,Men's 'Tectonic' Headwear (matte black),,
 34132,Pilot's Body Resculpt Certificate,,
-34264,Focused Void Bomb,75,
-34272,,5,
+34264,Focused Void Bomb,75,864
+34272,,5,53
 34276,Polarized Mega Pulse Laser,20,
 34278,Polarized Light Neutron Blaster,5,74
 34280,Polarized Heavy Neutron Blaster,10,
@@ -2111,7 +2115,7 @@ type_id,name,volume,group_id
 92040,Nertic EC-600-I,10,
 92041,Humboldt EC-900-I,25,5239
 92456,Presidential Mining Foreman Burst,60,
-92462,Darter TP-600-I,10,
+92462,Darter TP-600-I,10,5239
 92463,,25,
 92466,Atlas SD-900-I,,
 92468,Immaculate TD-600-I,10,5239
@@ -2132,7 +2136,7 @@ type_id,name,volume,group_id
 94010,Caldari Navy Bastion Module,,
 94034,Harpy State Regulator SKIN,0.01,
 94035,,0.01,1950
-94065,,5,
+94065,,5,49
 94067,Caldari Navy Signal Distortion Amplifier,,
 94154,Confessor Mandate of Faith SKIN,,
 95228,Manifest Homecoming Background,,
@@ -2174,12 +2178,14 @@ type_id,name,volume,group_id
 97422,Vedmak Blood Raiders Crimson Mark SKIN,,
 97424,,0.01,
 97431,Leshak Blood Raiders Crimson Mark SKIN,0.01,1950
+97435,,0.01,1950
 97436,Kikimora Tetrimon Crimson Mark SKIN,,
 97437,Ikitursa Tetrimon Crimson Mark SKIN,,
 97516,Akoman Blueprint Crate,1,1194
 97621,Pioneer Medical Enforcement Taskforce SKIN,,
 97639,Unstable Capital Remote Armor Repairer Mutaplasmid,,
 97650,Decayed Large Remote Armor Repairer Mutaplasmid,,
+97651,Unstable Large Remote Armor Repairer Mutaplasmid,1,1964
 97652,Gravid Large Remote Armor Repairer Mutaplasmid,,
 97654,Glorified Unstable Large Remote Armor Repairer Mutaplasmid,1,1964
 97662,Unstable Medium Remote Armor Repairer Mutaplasmid,,

@@ -1,5 +1,5 @@
 {
- "cash": 307918124.7583249,
+ "cash": 119054187.02532493,
  "created": 1793919749.2409422,
  "import_hub": "amarr",
  "in_transit": [],
@@ -13,12 +13,6 @@
    }
   },
   "jita": {
-   "56715": {
-    "cost": 60140000.0,
-    "qty": 2,
-    "since": 1794693616.0,
-    "tag": "station"
-   },
    "62455": {
     "cost": 1153.0,
     "qty": 1,
@@ -33,22 +27,22 @@
    }
   }
  },
- "last_jump": 1794613405.4287903,
- "last_t": 1794693629.8067107,
- "location": "jita",
- "next_oid": 36,
+ "last_jump": 1794700824.6604915,
+ "last_t": 1794700824.6604915,
+ "location": "amarr",
+ "next_oid": 42,
  "orders": [
   {
    "created": 1794172982.5196922,
    "hub": "jita",
    "oid": 1,
-   "price": 2355000.0,
+   "price": 2365000.0,
    "qty": 181,
    "remain": 180,
    "side": "buy",
    "tag": "station",
    "type_id": 83467,
-   "updated": 1794613405.4287903
+   "updated": 1794700824.6604915
   },
   {
    "created": 1794172982.5196922,
@@ -66,13 +60,13 @@
    "created": 1794172982.5196922,
    "hub": "jita",
    "oid": 4,
-   "price": 60140000.0,
+   "price": 58810000.0,
    "qty": 7,
    "remain": 5,
    "side": "buy",
    "tag": "station",
    "type_id": 56715,
-   "updated": 1794613405.4287903
+   "updated": 1794700824.6604915
   },
   {
    "created": 1794172982.5196922,
@@ -90,13 +84,13 @@
    "created": 1794172982.5196922,
    "hub": "jita",
    "oid": 6,
-   "price": 150100000.0,
+   "price": 150200000.0,
    "qty": 1,
    "remain": 1,
    "side": "buy",
    "tag": "station",
    "type_id": 97516,
-   "updated": 1794613405.4287903
+   "updated": 1794700824.6604915
   },
   {
    "created": 1794172982.5196922,
@@ -162,7 +156,7 @@
    "created": 1794613405.4287903,
    "hub": "amarr",
    "oid": 15,
-   "price": 336100000.0,
+   "price": 334500000.0,
    "qty": 2,
    "remain": 2,
    "side": "sell",
@@ -170,7 +164,7 @@
    "tag": "import",
    "type_id": 17720,
    "unit_cost": 192819861.7151533,
-   "updated": 1794613405.4287903
+   "updated": 1794700824.6604915
   },
   {
    "created": 1794613405.4287903,
@@ -190,7 +184,7 @@
    "created": 1794613405.4287903,
    "hub": "amarr",
    "oid": 17,
-   "price": 54880.0,
+   "price": 53300.0,
    "qty": 3917,
    "remain": 3917,
    "side": "sell",
@@ -198,7 +192,7 @@
    "tag": "import",
    "type_id": 11538,
    "unit_cost": 43538.608840956455,
-   "updated": 1794613405.4287903
+   "updated": 1794700824.6604915
   },
   {
    "created": 1794613405.4287903,
@@ -218,7 +212,7 @@
    "created": 1794613405.4287903,
    "hub": "amarr",
    "oid": 19,
-   "price": 184900000.0,
+   "price": 184600000.0,
    "qty": 2,
    "remain": 2,
    "side": "sell",
@@ -226,7 +220,7 @@
    "tag": "import",
    "type_id": 27181,
    "unit_cost": 158566538.37138462,
-   "updated": 1794613405.4287903
+   "updated": 1794700824.6604915
   },
   {
    "created": 1794613405.4287903,
@@ -260,7 +254,7 @@
    "created": 1794613405.4287903,
    "hub": "amarr",
    "oid": 22,
-   "price": 273600000.0,
+   "price": 272200000.0,
    "qty": 1,
    "remain": 1,
    "side": "sell",
@@ -268,7 +262,7 @@
    "tag": "import",
    "type_id": 28810,
    "unit_cost": 252526039.1743686,
-   "updated": 1794613405.4287903
+   "updated": 1794700824.6604915
   },
   {
    "created": 1794613405.4287903,
@@ -288,7 +282,7 @@
    "created": 1794613405.4287903,
    "hub": "amarr",
    "oid": 24,
-   "price": 258100000.0,
+   "price": 257700000.0,
    "qty": 1,
    "remain": 1,
    "side": "sell",
@@ -296,13 +290,13 @@
    "tag": "import",
    "type_id": 87562,
    "unit_cost": 240616422.13484287,
-   "updated": 1794613405.4287903
+   "updated": 1794700824.6604915
   },
   {
    "created": 1794613405.4287903,
    "hub": "amarr",
    "oid": 25,
-   "price": 1990.0,
+   "price": 1983.0,
    "qty": 2629,
    "remain": 2316,
    "side": "sell",
@@ -310,13 +304,13 @@
    "tag": "import",
    "type_id": 27423,
    "unit_cost": 1638.8897784480098,
-   "updated": 1794613405.4287903
+   "updated": 1794700824.6604915
   },
   {
    "created": 1794613405.4287903,
    "hub": "amarr",
    "oid": 26,
-   "price": 84430000.0,
+   "price": 84240000.0,
    "qty": 1,
    "remain": 1,
    "side": "sell",
@@ -324,7 +318,7 @@
    "tag": "import",
    "type_id": 28808,
    "unit_cost": 78550775.04034095,
-   "updated": 1794613405.4287903
+   "updated": 1794700824.6604915
   },
   {
    "created": 1794613405.4287903,
@@ -336,18 +330,6 @@
    "side": "buy",
    "tag": "station",
    "type_id": 41485,
-   "updated": 1794613405.4287903
-  },
-  {
-   "created": 1794613405.4287903,
-   "hub": "jita",
-   "oid": 29,
-   "price": 26550000.0,
-   "qty": 1,
-   "remain": 1,
-   "side": "buy",
-   "tag": "station",
-   "type_id": 15865,
    "updated": 1794613405.4287903
   },
   {
@@ -366,7 +348,7 @@
    "created": 1794613405.4287903,
    "hub": "jita",
    "oid": 31,
-   "price": 2693.0,
+   "price": 2666.0,
    "qty": 5675,
    "remain": 4735,
    "side": "sell",
@@ -374,7 +356,7 @@
    "tag": "station",
    "type_id": 62555,
    "unit_cost": 2451.0,
-   "updated": 1794613405.4287903
+   "updated": 1794700824.6604915
   },
   {
    "created": 1794613405.4287903,
@@ -389,19 +371,93 @@
    "type_id": 75278,
    "unit_cost": 20.16,
    "updated": 1794613405.4287903
+  },
+  {
+   "created": 1794700824.6604915,
+   "hub": "jita",
+   "oid": 36,
+   "price": 66520000.0,
+   "qty": 2,
+   "remain": 2,
+   "side": "sell",
+   "since": 1794693616.0,
+   "tag": "station",
+   "type_id": 56715,
+   "unit_cost": 60140000.0,
+   "updated": 1794700824.6604915
+  },
+  {
+   "created": 1794700824.6604915,
+   "hub": "jita",
+   "oid": 37,
+   "price": 10580000.0,
+   "qty": 1,
+   "remain": 1,
+   "side": "buy",
+   "tag": "station",
+   "type_id": 97265,
+   "updated": 1794700824.6604915
+  },
+  {
+   "created": 1794700824.6604915,
+   "hub": "jita",
+   "oid": 38,
+   "price": 108400000.0,
+   "qty": 1,
+   "remain": 1,
+   "side": "buy",
+   "tag": "station",
+   "type_id": 19183,
+   "updated": 1794700824.6604915
+  },
+  {
+   "created": 1794700824.6604915,
+   "hub": "jita",
+   "oid": 39,
+   "price": 2246000.0,
+   "qty": 18,
+   "remain": 18,
+   "side": "buy",
+   "tag": "station",
+   "type_id": 4256,
+   "updated": 1794700824.6604915
+  },
+  {
+   "created": 1794700824.6604915,
+   "hub": "jita",
+   "oid": 40,
+   "price": 777.3,
+   "qty": 58602,
+   "remain": 58602,
+   "side": "buy",
+   "tag": "station",
+   "type_id": 82314,
+   "updated": 1794700824.6604915
+  },
+  {
+   "created": 1794700824.6604915,
+   "hub": "jita",
+   "oid": 41,
+   "price": 1168.0,
+   "qty": 1570,
+   "remain": 1570,
+   "side": "buy",
+   "tag": "station",
+   "type_id": 62455,
+   "updated": 1794700824.6604915
   }
  ],
  "per_strategy": {
   "import": {
    "buys": 2557999365.0,
-   "fees": 186286900.05,
-   "realized": -48198024.41315422,
+   "fees": 191884026.23400003,
+   "realized": -53795150.59715422,
    "sales": 622870.0
   },
   "station": {
    "buys": 136583537.7,
-   "fees": 37241340.625,
-   "realized": -36698060.469174996,
+   "fees": 45015057.574,
+   "realized": -44471777.418175,
    "sales": 5250424.42
   }
  },
@@ -417,8 +473,8 @@
   "amarr:11538": {
    "bought_isk": 0.0,
    "bought_units": 0,
-   "fees": 3224474.4,
-   "realized": -3224474.4,
+   "fees": 3850802.6999999997,
+   "realized": -3850802.6999999997,
    "sold_net": 0.0,
    "sold_units": 0
   },
@@ -433,8 +489,8 @@
   "amarr:17720": {
    "bought_isk": 0.0,
    "bought_units": 0,
-   "fees": 10083000.0,
-   "realized": -10083000.0,
+   "fees": 12090000.0,
+   "realized": -12090000.0,
    "sold_net": 0.0,
    "sold_units": 0
   },
@@ -473,32 +529,32 @@
   "amarr:27181": {
    "bought_isk": 0.0,
    "bought_units": 0,
-   "fees": 5547000.0,
-   "realized": -5547000.0,
+   "fees": 6654600.0,
+   "realized": -6654600.0,
    "sold_net": 0.0,
    "sold_units": 0
   },
   "amarr:27423": {
    "bought_isk": 0.0,
    "bought_units": 0,
-   "fees": 78475.65,
-   "realized": 10399.986845772917,
+   "fees": 92253.53399999999,
+   "realized": -3377.897154227079,
    "sold_net": 601848.1375,
    "sold_units": 313
   },
   "amarr:28808": {
    "bought_isk": 0.0,
    "bought_units": 0,
-   "fees": 1266450.0,
-   "realized": -1266450.0,
+   "fees": 1519170.0,
+   "realized": -1519170.0,
    "sold_net": 0.0,
    "sold_units": 0
   },
   "amarr:28810": {
    "bought_isk": 0.0,
    "bought_units": 0,
-   "fees": 4104000.0,
-   "realized": -4104000.0,
+   "fees": 4920600.0,
+   "realized": -4920600.0,
    "sold_net": 0.0,
    "sold_units": 0
   },
@@ -513,8 +569,8 @@
   "amarr:87562": {
    "bought_isk": 0.0,
    "bought_units": 0,
-   "fees": 3871500.0,
-   "realized": -3871500.0,
+   "fees": 4644600.0,
+   "realized": -4644600.0,
    "sold_net": 0.0,
    "sold_units": 0
   },
@@ -579,6 +635,14 @@
    "bought_units": 4,
    "fees": 0.0,
    "realized": 0.0,
+   "sold_net": 0.0,
+   "sold_units": 0
+  },
+  "jita:19183": {
+   "bought_isk": 0.0,
+   "bought_units": 0,
+   "fees": 1626000.0,
+   "realized": -1626000.0,
    "sold_net": 0.0,
    "sold_units": 0
   },
@@ -678,19 +742,27 @@
    "sold_net": 0.0,
    "sold_units": 0
   },
+  "jita:4256": {
+   "bought_isk": 0.0,
+   "bought_units": 0,
+   "fees": 606420.0,
+   "realized": -606420.0,
+   "sold_net": 0.0,
+   "sold_units": 0
+  },
   "jita:56715": {
    "bought_isk": 120280000.0,
    "bought_units": 2,
-   "fees": 7577640.0,
-   "realized": -7577640.0,
+   "fees": 10455390.0,
+   "realized": -10455390.0,
    "sold_net": 0.0,
    "sold_units": 0
   },
   "jita:62455": {
    "bought_isk": 1153.0,
    "bought_units": 1,
-   "fees": 100.0,
-   "realized": -100.0,
+   "fees": 27606.399999999998,
+   "realized": -27606.399999999998,
    "sold_net": 0.0,
    "sold_units": 0
   },
@@ -705,8 +777,8 @@
   "jita:62555": {
    "bought_isk": 13909425.0,
    "bought_units": 5675,
-   "fees": 5680167.585,
-   "realized": -5538123.01,
+   "fees": 5718038.115,
+   "realized": -5575993.54,
    "sold_net": 2445984.575,
    "sold_units": 940
   },
@@ -718,11 +790,19 @@
    "sold_net": 0.0,
    "sold_units": 0
   },
+  "jita:82314": {
+   "bought_isk": 0.0,
+   "bought_units": 0,
+   "fees": 683270.019,
+   "realized": -683270.019,
+   "sold_net": 0.0,
+   "sold_units": 0
+  },
   "jita:83467": {
    "bought_isk": 2226000.0,
    "bought_units": 1,
-   "fees": 7704375.0,
-   "realized": -7303141.25,
+   "fees": 9008475.0,
+   "realized": -8607241.25,
    "sold_net": 2627233.75,
    "sold_units": 1
   },
@@ -734,11 +814,19 @@
    "sold_net": 0.0,
    "sold_units": 0
   },
+  "jita:97265": {
+   "bought_isk": 0.0,
+   "bought_units": 0,
+   "fees": 158700.0,
+   "realized": -158700.0,
+   "sold_net": 0.0,
+   "sold_units": 0
+  },
   "jita:97516": {
    "bought_isk": 0.0,
    "bought_units": 0,
-   "fees": 2701800.0,
-   "realized": -2701800.0,
+   "fees": 3153900.0,
+   "realized": -3153900.0,
    "sold_net": 0.0,
    "sold_units": 0
   },
@@ -752,18 +840,18 @@
   }
  },
  "pnl": {
-  "broker": 81138850.67500001,
+  "broker": 86236347.09400001,
   "buys": 2694582902.7000003,
   "courier": 138000000.0,
-  "realized": -84896084.88232926,
-  "relist": 4389389.999999999,
+  "realized": -98266928.01532926,
+  "relist": 12662736.713999998,
   "sales": 5873294.42,
   "tax": 198223.68667499998
  },
  "start_isk": 5000000000,
  "version": 2,
  "visits": {
-  "amarr": 1794613405.4287903,
-  "jita": 1794613405.4287903
+  "amarr": 1794700824.6604915,
+  "jita": 1794700824.6604915
  }
 }
