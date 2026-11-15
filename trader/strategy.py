@@ -280,13 +280,15 @@ class Planner:
         for o in [o for o in self.pf["orders"] if o["hub"] == hub and o["side"] == "sell"]:
             ba = self.best(hub, o["type_id"], "best_ask")
             stale = self.lam(hub, o["type_id"], "a") * (t - o["updated"]) / 3600 > 0.7
-            if (not np.isnan(ba) and ba <= o["price"]) or stale:
-                sp = self.specs.get((hub, o["type_id"]), {})
-                fl = 0.01 if o["type_id"] in self.exits else floor_price(
-                    self.fees, self.cfg, o["unit_cost"], o.get("since"), t, sp.get("min_sell", 0.0))
+            sp = self.specs.get((hub, o["type_id"]), {})
+            fl = 0.01 if o["type_id"] in self.exits else floor_price(
+                self.fees, self.cfg, o["unit_cost"], o.get("since"), t, sp.get("min_sell", 0.0))
+            target = max(fl, tick_down(ba)) if not np.isnan(ba) else o["price"]
+            # an undercut/refresh that would leave the price unchanged (e.g. we're the only seller) is not a
+            # step: let a stale order fall through to the step-down instead
+            if ((not np.isnan(ba) and ba <= o["price"]) or stale) and not (target >= o["price"] and self.stale_sell(o)):
                 tier1.append(self.step("modify_sell", hub, o["remain"] * o["price"], oid=o["oid"],
-                                       type_id=o["type_id"], floor=fl, ref=ba, mine=o["price"],
-                                       target=max(fl, tick_down(ba)) if not np.isnan(ba) else o["price"]))
+                                       type_id=o["type_id"], floor=fl, ref=ba, mine=o["price"], target=target))
             elif self.stale_sell(o):
                 # on top (or the only seller) for stale_days and nothing sold: the price is the problem, step down
                 sp = self.specs.get((hub, o["type_id"]), {})

@@ -232,6 +232,8 @@ class PriceLevels:
 
     def _esi_fetch(self, hub, type_id):
         r = self.esi.request("GET", f"/markets/{self.regions[hub]}/history/", params={"type_id": int(type_id)})
+        if r.status_code == 404:  # "Type not found": no trade history at all, so nothing ever traded at our price
+            return pd.DataFrame(columns=["date", "lowest", "highest", "volume"])
         if r.status_code != 200:
             return None
         return pd.DataFrame(r.json(), columns=["date", "lowest", "highest", "volume"])

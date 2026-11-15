@@ -345,3 +345,35 @@ def test_stale_sell_steps_down_and_transit_valued_at_bids():
     top = pd.DataFrame({"best_bid": [60.0], "best_ask": [120.0]}, index=[1])
     v = sim.valuation({"amarr": top})
     assert v["transit"] == 200.0 and abs(v["nw_liquid"] - v["cash"] - 120.0 * (1 - sim.fees.tax)) < 1e-6
+
+
+def test_history_404_means_never_traded_and_calibrate_skips_partial_days():
+    from types import SimpleNamespace
+    from trader.market import PriceLevels
+    from trader.calibrate import full_days
+    esi = SimpleNamespace(request=lambda *a, **k: SimpleNamespace(status_code=404))
+    lv = PriceLevels(esi, {"jita": 10000002}, days=14)
+    assert lv.reach("jita", 96583, "sell", 3.0e6, 8 * 86400) == 0.0  # 404 "Type not found": block, not pass
+    esi5 = SimpleNamespace(request=lambda *a, **k: SimpleNamespace(status_code=503))
+    assert PriceLevels(esi5, {"jita": 10000002}).reach("jita", 1, "buy", 1.0, 8 * 86400) == 1.0  # outage: no change
+    def day(k, isk):
+        return pd.DataFrame({"day": [k], "hub": ["jita"], "ask_isk": [isk], "bid_isk": [0.0]})
+    frames = [day(0, 100.0), day(1, 95.0), day(2, 20.0), day(3, 105.0)]
+    assert [f.day.iloc[0] for f in full_days(frames, "jita")] == [0, 1, 3]
+
+
+def test_only_seller_stale_order_gets_step_down_not_a_noop_refresh():
+    from trader.strategy import Planner
+    pl = Planner.__new__(Planner)
+    pl.cfg = {**CFG, "strategy": {**CFG["strategy"], "stale_step": 0.1, "stale_days": 10}}
+    pl.t, pl.specs, pl.exits, pl.fees, pl.home, pl.s = 12 * 86400, {}, {}, Fees(CFG), "jita", pl.cfg["strategy"]
+    pl.station = {}
+    pl.pf = {"orders": [{"oid": 1, "hub": "amarr", "side": "sell", "type_id": 7, "price": 800.0, "qty": 1, "remain": 1,
+                         "since": 0, "updated": 0, "unit_cost": 400.0}], "inventory": {}, "in_transit": []}
+    pl.best = lambda hub, ty, col: float("nan")   # nobody else selling, no bids
+    pl.lam = lambda hub, ty, side: 1.0            # expected-fill clock says "stale"
+    pl.step = lambda kind, hub, value, **kw: {"kind": kind, **kw}
+    out = pl.maintenance("amarr")
+    steps = [s for tier in (out if isinstance(out, tuple) else (out,)) for s in tier if isinstance(s, dict)]
+    mod = [s for s in steps if s.get("oid") == 1]
+    assert mod and mod[0]["target"] == 720.0 and mod[0].get("step")

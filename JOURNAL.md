@@ -322,3 +322,22 @@
 - Alerts: stale sells → step-down above; liquidation / Typhoon → legacy, the step-down is the remedy; idle bids (2.3k, 2.25M) noise.
   Thresholds unchanged. No risk probe: slots 6/6.
 - Next: Sun/Thu check the step-down fired at the next Amarr visit and whether any legacy item sells; Thu 19 SKIN decision stands.
+
+## 2026-11-15 · is the fill model realistic? (Sunday)
+- Own fills since the history gate went live (09 Nov 04:00 UTC, all 7 portfolios) vs official region history: ISK-weighted
+  97% at a price an official trade reached that day (last week 25 of 34 fills were outside). No fill took >30% of a day's
+  official volume (median 0.05%). Main's one big sale, Cap I-a rep at 199.7M, matches 1-unit official trades at 199.8–199.9M.
+  ~416M of today's fills can't be checked until CCP publishes 15 Nov history; recheck the Hezorime buys (5 portfolios, 23.8M each).
+- Gate hole: history 404 ("Type not found", never traded) was treated as an ESI error (reach 1.0), so Chemal Tech Turret
+  Booster III sold for 3.39M in start_1b_more_time with no trade ever recorded. 404 now = empty history = blocked.
+- Calibration fell to 0.47 Jita / 0.54 Amarr, but 11-08 and 11-13 (outages) only had 17% / 25% coverage and counted as full
+  days. `calibrate.full_days` now drops days under 60% of the window's median ISK: 0.665 Jita / 0.745 Amarr (5 days), in
+  line with last week's 0.64 / 0.65. One Jita item at 2.05 (over-count), not chased. alpha / gone_weight left unchanged.
+- Bug, Saturday's stale step-down: when we're the only seller (best ask NaN), the expected-fill "stale" check caught the order
+  first and planned a same-price modify, so the 10% cut never ran (only Valdimar was cut, 249.8M → 224.8M). Now a modify that
+  wouldn't change the price falls through to the step-down. Typhoon SKIN (815.9M ask, cost 418.5M) and the other only-seller
+  asks now drop 10% per Amarr session down to their floor. Tests added (2); 31 pass.
+- Alerts: liquidation 50% / Typhoon 8.4%: legacy imports, the step-down (now working) is the remedy, Thu 19 SKIN decision
+  stands. Stale Amarr sells: same fix. Antikythera (Jita, 7 d) under stale_days. Idle bids 2.3k / 2.25M: noise. Thresholds kept.
+- Not done (budget): time on top vs snapshots, 1 h vs 2 h spacing, gone_weight probe (slots 6/6 anyway).
+- Next: Mon check the next Amarr session cut the SKIN/M-Set/Boots asks; Sun 22 recheck 15 Nov fills vs official history.

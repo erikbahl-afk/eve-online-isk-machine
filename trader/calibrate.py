@@ -18,12 +18,24 @@ from .common import HUBS, load_config
 from .esi import ESI
 
 
+def full_days(frames, hub, min_frac=0.6):
+    """Drop days with partial snapshot coverage (collector outages): a day whose traded ISK at the hub is
+    under min_frac of the window median would count as a full day and bias the ratio low."""
+    tot = {f.day.iloc[0]: float((f[f.hub == hub].ask_isk + f[f.hub == hub].bid_isk).sum()) for f in frames}
+    med = float(np.median(list(tot.values()))) if tot else 0.0
+    return [f for f in frames if tot[f.day.iloc[0]] >= min_frac * med]
+
+
 def main():
     hub = sys.argv[1] if len(sys.argv) > 1 else "jita"
     n = int(sys.argv[2]) if len(sys.argv) > 2 else 60
     cfg = load_config()
     today = dt.datetime.now(dt.timezone.utc).date().isoformat()
     frames = market.load_window(today, cfg["strategy"]["window_days"])
+    n_all = len(frames)
+    frames = full_days(frames, hub)
+    if len(frames) < n_all:
+        print(f"skipped {n_all - len(frames)} partial-coverage day(s)")
     days = sorted({f.day.iloc[0] for f in frames})
     if not frames:
         print("no daily files yet")
