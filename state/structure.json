@@ -1,21 +1,14 @@
 {
- "ask_ratio_median": 1.0504,
- "buy_orders": 6278,
- "buy_orders_reaching_jita": 6201,
+ "ask_ratio_median": 1.0506,
+ "buy_orders": 6260,
+ "buy_orders_reaching_jita": 6180,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6671,
- "sell_orders": 393,
- "share_ask_below_jita": 0.3065,
+ "orders": 6650,
+ "sell_orders": 390,
+ "share_ask_below_jita": 0.3063,
  "structure_id": 1042508032148,
- "t": 1794736853.7023957,
+ "t": 1794744056.1274533,
  "top_ask_below_jita": [
-  {
-   "best_ask": 200.0,
-   "gap": 0.9917,
-   "name": "",
-   "s_ask": 1.66,
-   "type_id": 90470
-  },
   {
    "best_ask": 7900.0,
    "gap": 0.9879,
@@ -52,6 +45,13 @@
    "type_id": 90484
   },
   {
+   "best_ask": 35500000.0,
+   "gap": 0.7959,
+   "name": "Unstable Large Shield Booster Mutaplasmid",
+   "s_ask": 7247000.0,
+   "type_id": 47787
+  },
+  {
    "best_ask": 14980000.0,
    "gap": 0.7626,
    "name": "",
@@ -73,18 +73,11 @@
    "type_id": 46947
   },
   {
-   "best_ask": 2207.0,
-   "gap": 0.6121,
+   "best_ask": 2206.0,
+   "gap": 0.612,
    "name": "",
    "s_ask": 856.0,
    "type_id": 21857
-  },
-  {
-   "best_ask": 1842.0,
-   "gap": 0.5516,
-   "name": "",
-   "s_ask": 826.0,
-   "type_id": 90457
   },
   {
    "best_ask": 69440000.0,
@@ -113,6 +106,13 @@
    "name": "",
    "s_ask": 60000000.0,
    "type_id": 48221
+  },
+  {
+   "best_ask": 254300.0,
+   "gap": 0.4691,
+   "name": "",
+   "s_ask": 135000.0,
+   "type_id": 3324
   }
  ],
  "top_bid_over_jita": [
@@ -222,7 +222,7 @@
    "type_id": 57493
   }
  ],
- "types": 3927,
- "types_also_in_jita": 3902,
- "types_bid_over_jita_reaching": 730
+ "types": 3918,
+ "types_also_in_jita": 3893,
+ "types_bid_over_jita_reaching": 723
 }

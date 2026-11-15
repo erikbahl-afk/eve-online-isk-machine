@@ -680,7 +680,7 @@ type_id,name,volume,group_id
 17718,Phantasm,10000,
 17720,Cynabal,10000,26
 17726,Apocalypse Navy Issue,50000,27
-17732,,50000,27
+17732,Tempest Fleet Issue,50000,27
 17736,Nightmare,50000,27
 17738,Machariel,50000,27
 17769,Fluxed Condensates,0.2,428
@@ -820,6 +820,7 @@ type_id,name,volume,group_id
 19268,,5,
 19281,Gist X-Type EM Shield Hardener,5,77
 19282,Pith X-Type EM Shield Hardener,5,77
+19283,,5,77
 19284,Pith X-Type Thermal Shield Hardener,5,77
 19285,,5,
 19288,Pith X-Type Kinetic Shield Hardener,5,77
@@ -906,6 +907,7 @@ type_id,name,volume,group_id
 21013,Capital Sensor Cluster,2000,
 21017,,2000,873
 21018,Capital Armor Plates Blueprint,0.01,
+21019,Capital Capacitor Battery,,
 21023,Capital Shield Emitter,2000,
 21208,,1,
 21238,Blood Multifrequency L,,
@@ -1360,7 +1362,7 @@ type_id,name,volume,group_id
 31890,Republic Fleet Valkyrie,10,100
 31900,Imperial Navy 1600mm Steel Plates,20,329
 31902,Federation Navy 1600mm Steel Plates,20,329
-31904,,10,
+31904,Imperial Navy 200mm Steel Plates,10,329
 31910,Federation Navy 400mm Steel Plates,10,329
 31916,Imperial Navy 800mm Steel Plates,20,329
 31918,Federation Navy 800mm Steel Plates,20,329
@@ -1593,6 +1595,7 @@ type_id,name,volume,group_id
 41407,Capital Pulse Laser Specialization,,
 41408,Capital Beam Laser Specialization,,
 41415,,1000,407
+41459,,1000,38
 41463,Capital I-ax Enduring Remote Armor Repairer,,
 41469,Capital Asymmetric Enduring Remote Shield Booster,,
 41485,Capital Compact Pb-Acid Cap Battery,1000,61
@@ -1682,7 +1685,7 @@ type_id,name,volume,group_id
 46002,Agency 'Hardshell' TB5 Dose II,1,
 46003,Agency 'Hardshell' TB7 Dose III,1,303
 46005,Agency 'Overclocker' SB5 Dose II,1,303
-46006,,1,303
+46006,Agency 'Overclocker' SB7 Dose III,1,303
 46213,Ferrogel Reaction Formula,,
 46251,Improved Blue Pill Booster Reaction Formula,,
 46355,Ubiquitous Moon Mining Crystal Type A I,6,
@@ -2205,6 +2208,7 @@ type_id,name,volume,group_id
 97437,Ikitursa Tetrimon Crimson Mark SKIN,,
 97516,Akoman Blueprint Crate,1,1194
 97552,Hyperspherical Housing,0.1,1194
+97560,Polycrase X-Grade,,
 97621,Pioneer Medical Enforcement Taskforce SKIN,,
 97639,Unstable Capital Remote Armor Repairer Mutaplasmid,,
 97650,Decayed Large Remote Armor Repairer Mutaplasmid,,
