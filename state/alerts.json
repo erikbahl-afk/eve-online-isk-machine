@@ -66,6 +66,12 @@
   "text": "Sell order for Gravid Vorton Tuning System Mutaplasmid in amarr still has 5 left after 10 days."
  },
  {
+  "key": "stale_sell:26",
+  "severity": "medium",
+  "since": 1794780029.8794281,
+  "text": "Sell order for Antikythera Element in jita still has 8 left after 7 days."
+ },
+ {
   "key": "stale_sell:9",
   "severity": "medium",
   "since": 1794613405.4287903,

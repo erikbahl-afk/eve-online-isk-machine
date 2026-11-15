@@ -156,6 +156,7 @@ type_id,name,volume,group_id
 3190,Eifyr and Co. 'Gunslinger' Motion Prediction MR-702,,
 3203,,1,
 3214,,1,
+3237,Inherent Implants 'Squire' Capacitor Management EM-802,,
 3239,Inherent Implants 'Squire' Capacitor Management EM-806,1,741
 3240,Inherent Implants 'Squire' Capacitor Systems Operation EO-602,1,
 3241,Inherent Implants 'Squire' Capacitor Systems Operation EO-604,1,
@@ -256,7 +257,7 @@ type_id,name,volume,group_id
 10225,Social Adaptation Chip - Standard,1,745
 10226,Social Adaptation Chip - Improved,1,745
 10228,Zainou 'Gnome' Shield Management SM-703,1,
-10244,,1,
+10244,Zainou 'Gypsy' Signature Analysis SA-703,1,
 10631,Rocket Launcher II,5,507
 10842,,50,40
 10858,Large Shield Booster II,,
@@ -517,7 +518,7 @@ type_id,name,volume,group_id
 14210,,10,72
 14230,Dread Guristas Co-Processor,5,285
 14234,Dread Guristas Cloaking Device,100,
-14236,Shadow Serpentis Sensor Booster,5,
+14236,Shadow Serpentis Sensor Booster,5,212
 14238,Shadow Serpentis Tracking Computer,5,213
 14242,Dark Blood Warp Disruptor,5,52
 14244,Domination Warp Disruptor,5,52
@@ -1284,6 +1285,7 @@ type_id,name,volume,group_id
 30486,Sisters Combat Scanner Probe,1,
 30488,Sisters Core Scanner Probe,,
 30586,Malfunctioning Power Cores,,
+30628,,10,991
 30752,Intact Hull Section,,
 30987,Small Trimark Armor Pump I,5,773
 31001,Capital EM Armor Reinforcer I,,
@@ -1491,7 +1493,7 @@ type_id,name,volume,group_id
 34290,Polarized Rocket Launcher,5,
 34292,,10,
 34294,Polarized Torpedo Launcher,20,508
-34306,,20,1308
+34306,Large Higgs Anchor I,20,1308
 34317,Confessor,5000,
 34328,Bowhead,1300000,
 34481,Domination Inertial Stabilizers,5,
@@ -1603,6 +1605,7 @@ type_id,name,volume,group_id
 41314,Hail XL,0.125,
 41322,Void XL,0.125,
 41403,Capital Autocannon Specialization,,
+41404,Capital Artillery Specialization,,
 41405,Capital Blaster Specialization,,
 41407,Capital Pulse Laser Specialization,,
 41408,Capital Beam Laser Specialization,,
