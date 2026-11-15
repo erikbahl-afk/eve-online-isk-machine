@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Sun 15 Nov 01:27 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Sun 15 Nov 02:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 22 · **Est. time:** 16 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -59,7 +59,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 9 | ☐ Criterion Cipher | 10,580,000 | **10,620,000** | 15,550,000 | 10,610,000 |
-| 10 | ☐ Gistum B-Type Medium Shield Booster | 108,400,000 | **109,800,000** | 110,400,000 | 109,700,000 |
+| 10 | ☐ Gistum B-Type Medium Shield Booster | 108,400,000 | **109,800,000** | 112,600,000 | 109,700,000 |
 | 11 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **175,200,000** | 178,900,000 | 175,100,000 |
 
 #### New buy orders
@@ -67,8 +67,8 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 12 | ☐ Corpum C-Type Thermal Energized Membrane | 6 | **6,067,000** | 7,199,000 | 6,066,000 |
-| 13 | ☐ Malleus II | 2 | **16,960,000** | 19,250,000 | 16,950,000 |
+| 12 | ☐ Corpum C-Type Thermal Energized Membrane | 1 | **6,067,000** | 7,199,000 | 6,066,000 |
+| 13 | ☐ Inshore EC-300-I | 10 | **6,650,000** | 7,242,000 | 6,649,000 |
 | 14 | ☐ Unstable Large Remote Armor Repairer Mutaplasmid | 1 | **112,500,000** | 147,600,000 | 112,400,000 |
 
 ### Block 2 · should do · about 3 min
@@ -79,15 +79,15 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 15 | ☐ Entosis Link II | 133,400,000 | **133,800,000** | 149,400,000 | 133,700,000 |
-| 16 | ☐ Siren II | 24,050,000 | **24,080,000** | 26,530,000 | 24,070,000 |
+| 16 | ☐ Siren II | 24,050,000 | **24,090,000** | 26,530,000 | 24,080,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 17 | ☐ Compressed Arkonor IV-Grade | 1,486 | **3,587** | 3,747 | 3,586 |
-| 18 | ☐ Meson Exotic Plasma M | 52,431 | **655.70** | 772.70 | 655.60 |
+| 17 | ☐ Compressed Arkonor IV-Grade | 1,301 | **3,587** | 3,747 | 3,586 |
+| 18 | ☐ Meson Exotic Plasma M | 50,017 | **655.70** | 772.50 | 655.60 |
 
 ### Block 3 · if there's time · about 2 min
 
@@ -98,7 +98,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 |---|---|---|---|---|---|
 | 19 | ☐ 50MN Microwarpdrive II | 3,637,000 | **3,637,000** | 3,692,000 | 3,636,000 |
 | 20 | ☐ Compressed Hezorime III-Grade | 777.30 | **777.70** | 883.10 | 777.60 |
-| 21 | ☐ Jaguar | 14,530,000 | **14,650,000** | 16,370,000 | 14,640,000 |
+| 21 | ☐ Jaguar | 14,530,000 | **14,680,000** | 16,370,000 | 14,670,000 |
 | 22 | ☐ Sansha NET Resonator | 2,508,000 | **2,510,000** | 2,518,000 | 2,509,000 |
 
 ---

@@ -1281,6 +1281,7 @@ type_id,name,volume,group_id
 31017,Medium Explosive Armor Reinforcer II,10,773
 31027,,5,
 31029,,10,
+31035,Medium Thermal Armor Reinforcer I,,
 31037,Capital Thermal Armor Reinforcer I,,
 31039,Small Thermal Armor Reinforcer II,5,
 31041,,10,
@@ -2130,7 +2131,7 @@ type_id,name,volume,group_id
 92034,Huntsman SW-600-I,10,5239
 92035,Arabellata SW-900-I,25,5239
 92036,Tick EV-300-I,5,5239
-92039,,5,5239
+92039,Inshore EC-300-I,5,5239
 92040,Nertic EC-600-I,10,5239
 92041,Humboldt EC-900-I,25,5239
 92456,Presidential Mining Foreman Burst,60,
