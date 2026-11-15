@@ -125,6 +125,7 @@ type_id,name,volume,group_id
 2969,,10,
 2993,Dual Light Beam Laser II,5,53
 2998,Noctis,20000,28
+3001,Dual Light Pulse Laser II,5,53
 3017,Gatling Pulse Laser II,5,53
 3033,Small Focused Beam Laser II,5,
 3041,Small Focused Pulse Laser II,5,
@@ -329,7 +330,7 @@ type_id,name,volume,group_id
 11989,,10000,
 11993,Cerberus,10000,358
 11995,Onyx,10000,894
-11999,Vagabond,10000,
+11999,Vagabond,10000,358
 12003,Zealot,10000,358
 12005,Ishtar,10000,358
 12015,Muninn,10000,358
@@ -423,6 +424,7 @@ type_id,name,volume,group_id
 13784,Domination 720mm Howitzer Artillery,,
 13785,Domination 800mm Repeating Cannon,20,
 13791,Dark Blood Dual Heavy Pulse Laser,20,
+13801,Dark Blood Focused Medium Pulse Laser,,
 13809,Dark Blood Small Focused Beam Laser,5,53
 13815,Dark Blood Mega Pulse Laser,20,53
 13824,,10,
@@ -678,6 +680,7 @@ type_id,name,volume,group_id
 17718,Phantasm,10000,
 17720,Cynabal,10000,26
 17726,Apocalypse Navy Issue,50000,27
+17732,,50000,27
 17736,Nightmare,50000,27
 17738,Machariel,50000,27
 17769,Fluxed Condensates,0.2,428
@@ -1645,7 +1648,7 @@ type_id,name,volume,group_id
 45591,Tengu Defensive - Amplification Node,40,954
 45592,Proteus Defensive - Covert Reconfiguration,40,954
 45595,Loki Defensive - Covert Reconfiguration,40,954
-45599,,40,956
+45599,Legion Offensive - Assault Optimization,40,956
 45601,Tengu Offensive - Accelerated Ejection Bay,40,956
 45604,Proteus Offensive - Hybrid Encoding Platform,40,956
 45605,Proteus Offensive - Drone Synthesis Projector,40,956
