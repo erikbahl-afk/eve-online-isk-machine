@@ -58,5 +58,17 @@
   "secs": 1085,
   "t": 1794543060.0,
   "to": "amarr"
+ },
+ {
+  "done": 27,
+  "frac": 0.8,
+  "from": "amarr",
+  "local": "Sun 15 Nov 11:32",
+  "merged": 1,
+  "planned": 27,
+  "run_t": 1794772832.2129505,
+  "secs": 1045,
+  "t": 1794771120.0,
+  "to": "jita"
  }
 ]

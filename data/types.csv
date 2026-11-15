@@ -269,7 +269,7 @@ type_id,name,volume,group_id
 11188,Anathema,2500,830
 11190,,2500,893
 11192,Buzzard,2500,830
-11194,,2500,
+11194,,2500,893
 11196,Claw,2500,831
 11198,Stiletto,2500,831
 11200,,2500,
@@ -336,6 +336,7 @@ type_id,name,volume,group_id
 12003,Zealot,10000,358
 12005,Ishtar,10000,358
 12015,Muninn,10000,358
+12017,,10000,894
 12019,Sacrilege,10000,358
 12023,Deimos,10000,358
 12032,Manticore,2500,834
@@ -658,6 +659,7 @@ type_id,name,volume,group_id
 17217,Serpentis Brass Tag,0.1,370
 17317,Fermionic Condensates,1.3,429
 17368,,100000,
+17392,Data Chips,3,1040
 17478,Retriever,3750,
 17480,,3750,463
 17482,Strip Miner I,5,464
@@ -1478,6 +1480,7 @@ type_id,name,volume,group_id
 34049,Women's 'Hover' Tights (opaque black),,
 34057,Men's 'Tectonic' Headwear (matte black),,
 34132,Pilot's Body Resculpt Certificate,,
+34207,,0.1,1304
 34264,Focused Void Bomb,75,864
 34268,Medium Higgs Anchor I,,
 34272,Polarized Small Focused Pulse Laser,5,53
@@ -1723,6 +1726,7 @@ type_id,name,volume,group_id
 47532,,0.01,1950
 47700,Unstable Stasis Webifier Mutaplasmid,1,1964
 47701,Gravid Stasis Webifier Mutaplasmid,1,1964
+47734,Unstable Warp Disruptor Mutaplasmid,1,1964
 47752,Gravid 10MN Afterburner Mutaplasmid,1,
 47771,,1,
 47783,Unstable Medium Shield Booster Mutaplasmid,,
@@ -1786,7 +1790,7 @@ type_id,name,volume,group_id
 49732,,1,
 49733,Unstable Gyrostabilizer Mutaplasmid,1,
 49737,,1,1964
-49740,,1,1964
+49740,Gravid Ballistic Control System Mutaplasmid,1,1964
 49741,Unstable Ballistic Control System Mutaplasmid,,
 49774,,10,
 49790,ML-EKP 'Polybolos' Ballistic Control System,5,367
