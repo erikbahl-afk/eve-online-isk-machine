@@ -3,13 +3,13 @@
 
 # Session checklist
 
-**Updated:** Sat 14 Nov 16:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 9 · **Est. time:** 8 min. Work top to bottom; stop any time.  
+**Updated:** Sat 14 Nov 17:20 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 14 · **Est. time:** 11 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
 
-_Left out 8 small steps worth less than 972.39k per minute of your time (0.02% of net worth per minute)._
+_Left out 8 small steps worth less than 993.30k per minute of your time (0.02% of net worth per minute)._
 
 Each hub's steps come in **priority blocks**: finish Block 1 before anything else, and stop wherever your time runs out. Within a block, steps follow the in-game windows for speed.
 
@@ -33,9 +33,8 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 4 | ☐ Capital I-a Enduring Armor Repairer | 199,700,000 | **199,700,000** | 88,790,000 | 199,800,000 |
-| 5 | ☐ Golem Exoplanets Hunter SKIN | 175,370,000 | **175,370,000** | 130,200,000 | - |
-| 6 | ☐ Men's 'Precision' Boots | 99,990,000 | **99,990,000** | 49,760,000 | 100,000,000 |
+| 4 | ☐ Golem Exoplanets Hunter SKIN | 175,370,000 | **175,370,000** | 130,200,000 | - |
+| 5 | ☐ Men's 'Precision' Boots | 99,990,000 | **99,990,000** | 49,760,000 | 100,000,000 |
 
 ### Block 3 · if there's time · about 1 min
 
@@ -44,21 +43,55 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 7 | ☐ Gravid Vorton Tuning System Mutaplasmid | 79,990,000 | **79,990,000** | 54,540,000 | 80,000,000 |
+| 6 | ☐ Gravid Vorton Tuning System Mutaplasmid | 79,990,000 | **79,990,000** | 54,540,000 | 80,000,000 |
 
-## 8. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
+## 7. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
 _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
 
 ## At Jita IV - Moon 4 - Caldari Navy Assembly Plant
 
-### Block 2 · should do · about 1 min
+### Block 1 · must do · about 2 min
+
+#### Fix outbid buy orders
+_My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
+
+| # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
+|---|---|---|---|---|---|
+| 8 | ☐ Gistum B-Type Medium Shield Booster | 108,400,000 | **107,700,000** | 107,700,000 | 108,200,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 9 | ☐ Compressed Veldspar II-Grade | 3,297,238 | **11.05** | 11.06 | 11.04 |
+| 9 | ☐ Caldari Navy Rocket Launcher | 2 | **26,720,000** | 31,520,000 | 26,710,000 |
+| 10 | ☐ Unstable Large Remote Armor Repairer Mutaplasmid | 1 | **112,400,000** | 147,600,000 | 112,300,000 |
+
+### Block 2 · should do · about 1 min
+
+#### Fix outbid buy orders
+_My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
+
+| # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
+|---|---|---|---|---|---|
+| 11 | ☐ Entosis Link II | 133,400,000 | **133,600,000** | 145,100,000 | 133,500,000 |
+
+#### New buy orders
+_Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
+
+| # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
+|---|---|---|---|---|---|
+| 12 | ☐ Compressed Veldspar II-Grade | 5,307,377 | **11.05** | 11.05 | 11.04 |
+
+### Block 3 · if there's time · about 1 min
+
+#### Fix outbid buy orders
+_My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
+
+| # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
+|---|---|---|---|---|---|
+| 13 | ☐ 50MN Microwarpdrive II | 3,637,000 | **3,642,000** | 3,712,000 | 3,641,000 |
+| 14 | ☐ Jaguar | 14,530,000 | **14,610,000** | 16,280,000 | 14,600,000 |
 
 ---
-Wallet 134.22M · escrow 815.41M · stock 3.12B · in transit 790.67M · net worth 4.86B (liquidation 2.30B)
+Wallet 327.18M · escrow 813.99M · stock 3.03B · in transit 790.67M · net worth 4.97B (liquidation 2.47B)

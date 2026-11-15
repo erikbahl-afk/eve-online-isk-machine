@@ -44,6 +44,7 @@ type_id,name,volume,group_id
 976,,0.01,
 990,Epithal Blueprint,0.01,108
 1183,,5,
+1224,Pyroxeres,,
 1230,Veldspar,0.1,462
 1231,Hemorphite,,
 1319,Expanded Cargohold II,5,765
@@ -437,6 +438,7 @@ type_id,name,volume,group_id
 13924,Dread Guristas Torpedo Launcher,20,508
 13926,Dread Guristas Light Missile Launcher,5,509
 13927,,20,506
+13929,,20,506
 13933,Dread Guristas Rocket Launcher,5,
 13935,Domination Ballistic Control System,5,367
 13937,Dread Guristas Ballistic Control System,5,367
@@ -593,7 +595,7 @@ type_id,name,volume,group_id
 16057,Republic Fleet 800mm Repeating Cannon,,
 16062,Caldari Navy Cruise Missile Launcher,20,506
 16064,Caldari Navy Heavy Missile Launcher,10,510
-16065,,5,507
+16065,Caldari Navy Rocket Launcher,5,507
 16067,Caldari Navy Torpedo Launcher,20,508
 16068,Caldari Navy Light Missile Launcher,,
 16229,Brutix,15000,419
@@ -1462,7 +1464,7 @@ type_id,name,volume,group_id
 34290,Polarized Rocket Launcher,5,
 34292,,10,
 34294,Polarized Torpedo Launcher,20,508
-34306,,20,
+34306,,20,1308
 34317,Confessor,5000,
 34328,Bowhead,1300000,
 34481,Domination Inertial Stabilizers,5,
@@ -1739,6 +1741,7 @@ type_id,name,volume,group_id
 47975,Crystalline Isogen-10,0.3,1996
 48112,Zero-Point Condensate,0.2,1996
 48113,Agency 'Hardshell' TB9 Dose IV,,
+48114,,1,303
 48115,Agency 'Pyrolancea' DB9 Dose IV,1,303
 48386,,0.1,1088
 48434,Unstable Medium Cap Battery Mutaplasmid,,
@@ -1983,7 +1986,7 @@ type_id,name,volume,group_id
 73466,Paladin Order of Tetrimon SKIN,0.01,
 73789,Coercer Navy Issue,5000,420
 73794,,5000,
-73795,Cormorant Navy Issue,5000,
+73795,Cormorant Navy Issue,5000,420
 73796,,5000,
 74160,,0.01,
 75275,,0.001,4513
@@ -2112,7 +2115,7 @@ type_id,name,volume,group_id
 92034,Huntsman SW-600-I,10,5239
 92035,Arabellata SW-900-I,25,5239
 92036,Tick EV-300-I,5,
-92040,Nertic EC-600-I,10,
+92040,Nertic EC-600-I,10,5239
 92041,Humboldt EC-900-I,25,5239
 92456,Presidential Mining Foreman Burst,60,
 92462,Darter TP-600-I,10,5239
@@ -2143,6 +2146,7 @@ type_id,name,volume,group_id
 95413,Harmonius Bridge - Unlimited,,
 95556,Lorharyth’s Modified Inertial Stabilizer,5,762
 95629,Oracle Navy Issue,15000,1201
+95630,Naga Navy Issue,15000,1201
 95631,,15000,1201
 95672,Liberated Matar Background,0.1,
 95673,Foundation Wisdom Background,0.1,
@@ -2182,6 +2186,7 @@ type_id,name,volume,group_id
 97436,Kikimora Tetrimon Crimson Mark SKIN,,
 97437,Ikitursa Tetrimon Crimson Mark SKIN,,
 97516,Akoman Blueprint Crate,1,1194
+97552,Hyperspherical Housing,0.1,1194
 97621,Pioneer Medical Enforcement Taskforce SKIN,,
 97639,Unstable Capital Remote Armor Repairer Mutaplasmid,,
 97650,Decayed Large Remote Armor Repairer Mutaplasmid,,
@@ -2198,4 +2203,5 @@ type_id,name,volume,group_id
 98145,Blood Raider Blueprint Crate,1,1194
 98147,Crimson Totality Background,0.1,5082
 98319,Deep-Space Crimson Metallic - Unlimited,,
+98338,Ultra-Indigo Matte - Unlimited,,
 98417,Imperial Hardpoint Booster I,,

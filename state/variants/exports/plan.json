@@ -1,14 +1,14 @@
 {
- "est_secs": 415,
- "generated": 1794700824.6604915,
+ "est_secs": 440,
+ "generated": 1794705624.816547,
  "hub": "amarr",
  "location": "amarr",
- "min_isk_per_min": 984806,
+ "min_isk_per_min": 984830,
  "other": "jita",
  "skipped_low_value": 7,
  "steps": [
   {
-   "benefit": 6100000.000056709,
+   "benefit": 6100000.000055823,
    "block": 1,
    "floor": 152500000.0,
    "group": 1,
@@ -17,14 +17,14 @@
    "mine": 152500000.0,
    "n": 1,
    "oid": 12,
-   "ref": 141800000.0,
+   "ref": 141500000.0,
    "secs": 25,
    "target": 152500000.0,
    "type_id": 28812,
    "value": 305000000.0
   },
   {
-   "benefit": 6637179.158723671,
+   "benefit": 6694638.509047482,
    "block": 1,
    "floor": 317500000.0,
    "group": 1,
@@ -33,14 +33,14 @@
    "mine": 317500000.0,
    "n": 2,
    "oid": 14,
-   "ref": 300400000.0,
+   "ref": 300500000.0,
    "secs": 25,
    "target": 317500000.0,
    "type_id": 22470,
    "value": 317500000.0
   },
   {
-   "benefit": 4647602.526292594,
+   "benefit": 4648948.689736057,
    "block": 2,
    "floor": 56950000.0,
    "group": 1,
@@ -56,7 +56,7 @@
    "value": 227800000.0
   },
   {
-   "benefit": 5262000.000157844,
+   "benefit": 5262000.000159365,
    "block": 2,
    "floor": 263100000.0,
    "group": 1,
@@ -72,7 +72,7 @@
    "value": 263100000.0
   },
   {
-   "benefit": 4548000.007628783,
+   "benefit": 4548000.007685651,
    "block": 3,
    "floor": 91750000.0,
    "group": 1,
@@ -98,25 +98,25 @@
    "value": 0.0
   },
   {
-   "benefit": 1985452.6977139153,
+   "benefit": 7366901.195072694,
    "block": 1,
-   "cap": 2406000.0,
-   "group": 4,
+   "floor": 62560000.0,
+   "group": 1,
    "hub": "jita",
-   "kind": "modify_buy",
-   "mine": 2365000.0,
+   "kind": "modify_sell",
+   "mine": 66520000.0,
    "n": 7,
-   "oid": 1,
-   "ref": 2502000.0,
+   "oid": 26,
+   "ref": 66010000.0,
    "secs": 25,
-   "target": 2406000.0,
-   "type_id": 83467,
-   "value": 134805000.0
+   "target": 66000000.0,
+   "type_id": 56715,
+   "value": 133040000.0
   },
   {
-   "benefit": 1839991.441579534,
+   "benefit": 4731673.822005454,
    "block": 2,
-   "cap": 58810000.0,
+   "cap": 58350000.0,
    "group": 4,
    "hub": "jita",
    "kind": "modify_buy",
@@ -125,9 +125,25 @@
    "oid": 3,
    "ref": 60130000.0,
    "secs": 25,
-   "target": 58810000.0,
+   "target": 58350000.0,
    "type_id": 56715,
    "value": 294050000.0
+  },
+  {
+   "benefit": 1996156.3961223543,
+   "block": 3,
+   "cap": 2406000.0,
+   "group": 4,
+   "hub": "jita",
+   "kind": "modify_buy",
+   "mine": 2365000.0,
+   "n": 9,
+   "oid": 1,
+   "ref": 2502000.0,
+   "secs": 25,
+   "target": 2406000.0,
+   "type_id": 83467,
+   "value": 134805000.0
   }
  ]
 }

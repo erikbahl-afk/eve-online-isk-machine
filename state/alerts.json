@@ -3,25 +3,19 @@
   "key": "liquidation",
   "severity": "high",
   "since": 1793915372.8054109,
-  "text": "Liquidation value is 47% of net worth (2.30B of 4.86B): much of the stock couldn't be sold quickly without a big loss."
- },
- {
-  "key": "position:45856",
-  "severity": "medium",
-  "since": 1794700824.6604915,
-  "text": "Golem Exoplanets Hunter SKIN is 8.0% of net worth (389.00M)."
+  "text": "Liquidation value is 50% of net worth (2.47B of 4.97B): much of the stock couldn't be sold quickly without a big loss."
  },
  {
   "key": "position:77169",
   "severity": "medium",
   "since": 1793915372.8054109,
-  "text": "Typhoon Fleet Issue Capsuleer Elite XX SKIN is 8.6% of net worth (418.51M)."
+  "text": "Typhoon Fleet Issue Capsuleer Elite XX SKIN is 8.4% of net worth (418.51M)."
  },
  {
   "key": "stale_sell:10",
   "severity": "medium",
   "since": 1794613405.4287903,
-  "text": "Sell order for Capital I-a Enduring Armor Repairer in amarr still has 3 left after 9 days."
+  "text": "Sell order for Capital I-a Enduring Armor Repairer in amarr still has 2 left after 9 days."
  },
  {
   "key": "stale_sell:11",
