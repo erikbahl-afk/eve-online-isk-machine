@@ -1060,7 +1060,7 @@ type_id,name,volume,group_id
 25736,Large EM Armor Reinforcer I,,
 25812,Gas Cloud Scoop II,5,737
 25887,,0.1,
-25888,,20,
+25888,Large Explosive Armor Reinforcer I,20,
 25890,Large Kinetic Armor Reinforcer I,20,
 25892,Large Thermal Armor Reinforcer I,20,
 25894,Large Trimark Armor Pump I,20,773
@@ -1611,7 +1611,7 @@ type_id,name,volume,group_id
 42205,Mid-grade Asklepian Beta,1,300
 42206,Mid-grade Asklepian Gamma,1,300
 42207,Mid-grade Asklepian Delta,1,300
-42208,Mid-grade Asklepian Epsilon,1,
+42208,Mid-grade Asklepian Epsilon,1,300
 42209,Mid-grade Asklepian Omega,1,300
 42212,High-grade Asklepian Gamma,1,300
 42213,High-grade Asklepian Delta,1,300
@@ -1748,6 +1748,7 @@ type_id,name,volume,group_id
 47926,,0.01,1989
 47927,Mystic S,0.01,
 47928,,0.01,
+47929,Meson Exotic Plasma M,0.01,1987
 47931,Mystic M,0.01,1989
 47932,,0.01,
 47934,,0.01,1989
@@ -2163,6 +2164,7 @@ type_id,name,volume,group_id
 95629,Oracle Navy Issue,15000,1201
 95630,Naga Navy Issue,15000,1201
 95631,,15000,1201
+95632,Tornado Fleet Issue,15000,1201
 95672,Liberated Matar Background,0.1,
 95673,Foundation Wisdom Background,0.1,
 95741,Akoman,15000,1201
