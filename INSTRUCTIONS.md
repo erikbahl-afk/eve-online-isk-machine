@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Sun 15 Nov 14:06 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 23 · **Est. time:** 15 min. Work top to bottom; stop any time.  
+**Updated:** Sun 15 Nov 14:49 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 24 · **Est. time:** 16 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -68,7 +68,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 12 | ☐ Criterion Cipher | 10,580,000 | **10,570,000** | 15,550,000 | 10,560,000 |
-| 13 | ☐ Gistum B-Type Medium Shield Booster | 108,400,000 | **111,800,000** | 112,100,000 | 111,700,000 |
+| 13 | ☐ Gistum B-Type Medium Shield Booster | 108,400,000 | **111,800,000** | 112,000,000 | 111,700,000 |
 | 14 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **175,200,000** | 178,700,000 | 175,100,000 |
 | 15 | ☐ Siren II | 24,050,000 | **24,050,000** | 26,690,000 | 24,040,000 |
 
@@ -77,9 +77,9 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 16 | ☐ Customs Office Gantry | 2 | **82,590,000** | 83,100,000 | 82,580,000 |
+| 16 | ☐ Synth X-Instinct Booster | 52 | **1,569,000** | 1,663,000 | 1,568,000 |
 
-### Block 2 · should do · about 2 min
+### Block 2 · should do · about 3 min
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
@@ -93,8 +93,9 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 18 | ☐ Compressed Omber | 7,129 | **121.90** | 129.70 | 121.80 |
-| 19 | ☐ Synth X-Instinct Booster | 36 | **1,569,000** | 1,663,000 | 1,568,000 |
+| 18 | ☐ Compressed Mordunium II-Grade | 4 | **18.32** | 22.87 | 18.31 |
+| 19 | ☐ Compressed Omber | 533,183 | **121.90** | 129.70 | 121.80 |
+| 20 | ☐ Unstable Warp Disruptor Mutaplasmid | 5 | **15,190,000** | 16,630,000 | 15,180,000 |
 
 ### Block 3 · if there's time · about 2 min
 
@@ -103,10 +104,10 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 20 | ☐ 50MN Microwarpdrive II | 3,637,000 | **3,649,000** | 3,710,000 | 3,648,000 |
-| 21 | ☐ Compressed Hezorime III-Grade | 777.30 | **777.10** | 883.00 | 777.00 |
-| 22 | ☐ Entosis Link II | 133,400,000 | **134,000,000** | 150,900,000 | 133,900,000 |
-| 23 | ☐ Jaguar | 14,530,000 | **14,900,000** | 16,390,000 | 14,890,000 |
+| 21 | ☐ 50MN Microwarpdrive II | 3,637,000 | **3,651,000** | 3,709,000 | 3,650,000 |
+| 22 | ☐ Compressed Hezorime III-Grade | 777.30 | **777.10** | 883.00 | 777.00 |
+| 23 | ☐ Entosis Link II | 133,400,000 | **134,000,000** | 150,900,000 | 133,900,000 |
+| 24 | ☐ Jaguar | 14,530,000 | **14,920,000** | 16,390,000 | 14,910,000 |
 
 ---
 Wallet 325.16M · escrow 790.19M · stock 3.06B · in transit 790.67M · net worth 4.96B (liquidation 2.47B)
