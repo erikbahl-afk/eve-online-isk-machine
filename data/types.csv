@@ -651,7 +651,7 @@ type_id,name,volume,group_id
 16681,Nanotransistors,0.25,429
 16682,Hypersynaptic Fibers,0.6,429
 16683,Ferrogel,1,429
-17136,Ukomi Superconductors,,
+17136,Ukomi Superconductors,3,1040
 17177,,4000,439
 17180,Sensor Dampening Battery,,
 17182,Warp Scrambling Battery,,
@@ -1724,6 +1724,7 @@ type_id,name,volume,group_id
 47351,,4000,1441
 47352,Standup Cap Battery I,,
 47356,Standup Capacitor Power Relay I,4000,
+47358,Standup Capacitor Power Relay II,,
 47448,C3-X 'Hivaa Saitsuo' Ballistic Control System,5,367
 47466,Praxis,50000,27
 47532,,0.01,1950
