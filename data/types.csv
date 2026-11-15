@@ -419,7 +419,7 @@ type_id,name,volume,group_id
 13259,Inherent Implants 'Squire' Capacitor Management EM-803,1,741
 13260,Inherent Implants 'Squire' Capacitor Systems Operation EO-603,1,741
 13261,Inherent Implants 'Squire' Power Grid Management EG-603,1,741
-13263,Zainou 'Gnome' Shield Operation SP-903,1,
+13263,Zainou 'Gnome' Shield Operation SP-903,1,749
 13265,Inherent Implants 'Squire' Capacitor Emission Systems ES-703,1,741
 13782,Domination 425mm Autocannon,10,55
 13783,,10,
@@ -514,7 +514,7 @@ type_id,name,volume,group_id
 14206,Shadow Serpentis Large Plasma Smartbomb,50,72
 14208,Domination Large Proton Smartbomb,50,
 14210,,10,72
-14230,,5,
+14230,Dread Guristas Co-Processor,5,285
 14234,Dread Guristas Cloaking Device,100,
 14236,Shadow Serpentis Sensor Booster,5,
 14238,Shadow Serpentis Tracking Computer,5,213
@@ -838,7 +838,7 @@ type_id,name,volume,group_id
 19323,Core B-Type 500MN Microwarpdrive,10,
 19327,Corelum A-Type 50MN Microwarpdrive,,
 19329,Core A-Type 500MN Microwarpdrive,,
-19335,,10,
+19335,,10,46
 19345,Gistum B-Type 50MN Microwarpdrive,10,46
 19351,Gistum A-Type 50MN Microwarpdrive,10,46
 19359,Gist X-Type 500MN Microwarpdrive,10,
@@ -1220,6 +1220,7 @@ type_id,name,volume,group_id
 28676,Synth Exile Booster,1,
 28678,,1,303
 28680,,1,
+28682,Synth X-Instinct Booster,1,303
 28684,Synth Sooth Sayer Booster,1,
 28696,Celadon Mykoserocin,,
 28698,Lime Mykoserocin,10,711
@@ -2231,6 +2232,7 @@ type_id,name,volume,group_id
 97671,,1,
 97897,Bloody Sunset Background,,
 97955,Imperial Navy Stasis Webifier,5,65
+97957,,5,52
 98135,SARO Pursuit Booster,1,303
 98145,Blood Raider Blueprint Crate,1,1194
 98147,Crimson Totality Background,0.1,5082
