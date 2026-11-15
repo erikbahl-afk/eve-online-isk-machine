@@ -259,7 +259,7 @@ type_id,name,volume,group_id
 10842,,50,40
 10858,Large Shield Booster II,,
 11172,Helios,2500,830
-11176,Crow,2500,
+11176,Crow,2500,831
 11178,,2500,831
 11182,Cheetah,2500,830
 11184,Crusader,2500,831
@@ -859,7 +859,7 @@ type_id,name,volume,group_id
 20064,Gallente Control Tower Small,2000,365
 20065,Minmatar Control Tower Medium,4000,
 20066,,2000,365
-20121,,1,300
+20121,High-grade Crystal Alpha,1,300
 20125,Curse,10000,906
 20157,High-grade Crystal Beta,1,
 20159,High-grade Crystal Delta,1,300
@@ -2129,6 +2129,7 @@ type_id,name,volume,group_id
 92034,Huntsman SW-600-I,10,5239
 92035,Arabellata SW-900-I,25,5239
 92036,Tick EV-300-I,5,5239
+92039,,5,5239
 92040,Nertic EC-600-I,10,5239
 92041,Humboldt EC-900-I,25,5239
 92456,Presidential Mining Foreman Burst,60,
