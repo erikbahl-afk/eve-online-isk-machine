@@ -85,7 +85,7 @@ type_id,name,volume,group_id
 2344,,3,1040
 2345,Camera Drones,3,1040
 2346,,3,1040
-2348,Gel-Matrix Biopaste,,
+2348,Gel-Matrix Biopaste,3,1040
 2352,Nuclear Reactors,3,
 2361,Hermetic Membranes,3,1040
 2389,,0.19,1042
@@ -654,7 +654,7 @@ type_id,name,volume,group_id
 16668,Dysporite,0.2,428
 16669,Ferrofluid,0.2,428
 16670,Crystalline Carbonide,0.01,429
-16671,,0.01,
+16671,,0.01,429
 16672,Tungsten Carbide,0.01,429
 16673,Fernite Carbide,0.01,429
 16678,Sylramic Fibers,0.05,429
@@ -784,6 +784,7 @@ type_id,name,volume,group_id
 18991,Corelum A-Type Medium Remote Armor Repairer,10,325
 18999,,5,
 19003,,5,
+19009,Centii A-Type Small Armor Repairer,5,62
 19015,Coreli A-Type Small Armor Repairer,5,
 19017,Corpum C-Type Medium Armor Repairer,10,
 19019,Corpum B-Type Medium Armor Repairer,10,62
@@ -1057,6 +1058,7 @@ type_id,name,volume,group_id
 24521,,0.05,
 24523,Mjolnir Rage Torpedo,0.05,657
 24531,Nova Fury Cruise Missile,0.05,656
+24533,,0.05,656
 24535,,0.05,
 24539,,0.05,
 24560,,2000,873
@@ -1629,6 +1631,7 @@ type_id,name,volume,group_id
 41238,10000MN Monopropellant Enduring Afterburner,,
 41249,50000MN Microwarpdrive I,1000,
 41251,50000MN Quad LiF Restrained Microwarpdrive,1000,
+41274,Mjolnir Javelin XL Torpedo,0.3,1677
 41276,Inferno Javelin XL Torpedo,,
 41308,Restrained Compounds,,
 41312,Scoped Conductors,,
@@ -2140,6 +2143,7 @@ type_id,name,volume,group_id
 87562,ORE Deep Core Strip Miner,5,464
 87573,,0.1,1088
 88001,Babaroga,50000,900
+88119,Low-grade Wedge Alpha,,
 88133,Historic Capsuleer Day SKIN Crate,0,
 88147,Triplot Scan Acquisition Array,5,1238
 88716,Xarasier Medium Ancillary Shield Booster,,

@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Mon 16 Nov 14:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 25 · **Est. time:** 18 min. Work top to bottom; stop any time.  
+**Updated:** Mon 16 Nov 15:02 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 27 · **Est. time:** 20 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -34,7 +34,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 5 | ☐ 'Cartel' Power Diagnostic System I | 68,160,000 | **68,140,000** | 30,280,000 | 68,150,000 |
+| 5 | ☐ 'Cartel' Power Diagnostic System I | 68,160,000 | **68,120,000** | 30,280,000 | 68,130,000 |
 | 6 | ☐ Golem Exoplanets Hunter SKIN | 175,370,000 | **157,800,000** | 130,200,000 | - |
 | 7 | ☐ Men's 'Precision' Boots | 99,990,000 | **89,990,000** | 49,760,000 | 100,000,000 |
 
@@ -53,7 +53,7 @@ _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Ne
 
 ## At Jita IV - Moon 4 - Caldari Navy Assembly Plant
 
-### Block 1 · must do · about 5 min
+### Block 1 · must do · about 6 min
 
 #### List new stock
 _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Duration 3 months._
@@ -75,27 +75,29 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 14 | ☐ Low-grade Harvest Alpha | 1 | **21,050,000** | 38,040,000 | 21,040,000 |
-| 15 | ☐ Perun Heavy Mutadaptive Remote Armor Repairer | 4 | **25,670,000** | 27,350,000 | 25,660,000 |
-| 16 | ☐ Tachyon Beam Laser II | 10 | **5,236,000** | 5,563,000 | 5,235,000 |
+| 14 | ☐ Guristas Brass Tag | 1 | **29,730,000** | 31,280,000 | 29,720,000 |
+| 15 | ☐ Low-grade Harvest Alpha | 1 | **21,050,000** | 38,040,000 | 21,040,000 |
+| 16 | ☐ Perun Heavy Mutadaptive Remote Armor Repairer | 4 | **25,670,000** | 27,350,000 | 25,660,000 |
+| 17 | ☐ Tachyon Beam Laser II | 3 | **5,237,000** | 5,563,000 | 5,236,000 |
 
-### Block 2 · should do · about 3 min
+### Block 2 · should do · about 4 min
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 17 | ☐ Bomb Launcher II | 2,246,000 | **2,248,000** | 2,597,000 | 2,247,000 |
+| 18 | ☐ Bomb Launcher II | 2,246,000 | **2,248,000** | 2,597,000 | 2,247,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 18 | ☐ Lime Mykoserocin | 61 | **77,370** | 80,440 | 77,360 |
-| 19 | ☐ Low-grade Harvest Beta | 1 | **41,700,000** | 56,520,000 | 41,690,000 |
-| 20 | ☐ Superionic Ice | 9 | **2,565** | 3,677 | 2,564 |
+| 19 | ☐ Lime Mykoserocin | 56 | **77,370** | 80,440 | 77,360 |
+| 20 | ☐ Low-grade Harvest Beta | 1 | **41,700,000** | 56,520,000 | 41,690,000 |
+| 21 | ☐ Mjolnir Javelin XL Torpedo | 1,892 | **3,851** | 8,360 | 3,850 |
+| 22 | ☐ Superionic Ice | 16 | **2,565** | 3,677 | 2,564 |
 
 ### Block 3 · if there's time · about 2 min
 
@@ -104,11 +106,11 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 21 | ☐ 50MN Microwarpdrive II | 3,637,000 | **3,670,000** | 3,732,000 | 3,669,000 |
-| 22 | ☐ Criterion Cipher | 10,580,000 | **16,560,000** | 16,560,000 | 20,060,000 |
-| 23 | ☐ Gistum B-Type Medium Shield Booster | 108,400,000 | **110,000,000** | 110,000,000 | 113,100,000 |
-| 24 | ☐ Sansha NET Resonator | 2,508,000 | **2,516,000** | 2,516,000 | 2,547,000 |
-| 25 | ☐ Siren II | 24,050,000 | **24,460,000** | 26,950,000 | 24,450,000 |
+| 23 | ☐ 50MN Microwarpdrive II | 3,637,000 | **3,670,000** | 3,733,000 | 3,669,000 |
+| 24 | ☐ Criterion Cipher | 10,580,000 | **16,560,000** | 16,560,000 | 20,060,000 |
+| 25 | ☐ Gistum B-Type Medium Shield Booster | 108,400,000 | **109,900,000** | 109,900,000 | 113,100,000 |
+| 26 | ☐ Sansha NET Resonator | 2,508,000 | **2,515,000** | 2,515,000 | 2,550,000 |
+| 27 | ☐ Siren II | 24,050,000 | **24,460,000** | 26,950,000 | 24,450,000 |
 
 ---
 Wallet 325.16M · escrow 790.19M · stock 3.06B · in transit 790.67M · net worth 4.96B (liquidation 2.47B)
