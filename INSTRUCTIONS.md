@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Mon 16 Nov 10:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 24 · **Est. time:** 17 min. Work top to bottom; stop any time.  
+**Updated:** Mon 16 Nov 10:33 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 25 · **Est. time:** 18 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -75,9 +75,9 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 14 | ☐ Clone Soldier Transporter Tag | 4 | **28,910,000** | 30,040,000 | 28,900,000 |
+| 14 | ☐ Clone Soldier Transporter Tag | 4 | **28,910,000** | 30,030,000 | 28,900,000 |
 | 15 | ☐ Low-grade Harvest Alpha | 1 | **21,050,000** | 38,040,000 | 21,040,000 |
-| 16 | ☐ Tachyon Beam Laser II | 1 | **5,228,000** | 5,525,000 | 5,227,000 |
+| 16 | ☐ Malleus II | 1 | **16,510,000** | 19,230,000 | 16,500,000 |
 
 ### Block 2 · should do · about 3 min
 
@@ -87,15 +87,15 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 17 | ☐ Bomb Launcher II | 2,246,000 | **2,248,000** | 2,597,000 | 2,247,000 |
-| 18 | ☐ Gistum B-Type Medium Shield Booster | 108,400,000 | **112,600,000** | 112,600,000 | 112,900,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 19 | ☐ Perun Heavy Mutadaptive Remote Armor Repairer | 3 | **25,670,000** | 27,160,000 | 25,660,000 |
-| 20 | ☐ Superionic Ice | 1,409 | **2,558** | 3,677 | 2,557 |
+| 18 | ☐ Low-grade Harvest Beta | 1 | **41,700,000** | 55,950,000 | 41,690,000 |
+| 19 | ☐ Perun Heavy Mutadaptive Remote Armor Repairer | 1 | **25,670,000** | 27,160,000 | 25,660,000 |
+| 20 | ☐ Superionic Ice | 767 | **2,558** | 3,677 | 2,557 |
 
 ### Block 3 · if there's time · about 2 min
 
@@ -106,8 +106,9 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 |---|---|---|---|---|---|
 | 21 | ☐ 50MN Microwarpdrive II | 3,637,000 | **3,663,000** | 3,733,000 | 3,662,000 |
 | 22 | ☐ Criterion Cipher | 10,580,000 | **16,560,000** | 16,560,000 | 20,020,000 |
-| 23 | ☐ Jaguar | 14,530,000 | **15,080,000** | 16,390,000 | 15,070,000 |
-| 24 | ☐ Sansha NET Resonator | 2,508,000 | **2,516,000** | 2,516,000 | 2,543,000 |
+| 23 | ☐ Gistum B-Type Medium Shield Booster | 108,400,000 | **110,400,000** | 110,400,000 | 113,100,000 |
+| 24 | ☐ Jaguar | 14,530,000 | **15,080,000** | 16,390,000 | 15,070,000 |
+| 25 | ☐ Sansha NET Resonator | 2,508,000 | **2,516,000** | 2,516,000 | 2,543,000 |
 
 ---
 Wallet 325.16M · escrow 790.19M · stock 3.06B · in transit 790.67M · net worth 4.96B (liquidation 2.47B)

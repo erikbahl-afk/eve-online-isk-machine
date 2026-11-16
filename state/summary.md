@@ -1,4 +1,4 @@
-# Summary · Mon 16 Nov 10:00 PST
+# Summary · Mon 16 Nov 10:33 PST
 
 Updated every ~2 hours. **Your real character** is the first section; everything after it is the **practice trader** (pretend ISK, real market data). Each section starts with a line on how to read it.
 
@@ -39,7 +39,7 @@ _The paper trader started with 5.00B on 28 Oct. Net worth counts stock at what w
 - **Where the ISK is:** cash 325.16M · locked in buy orders 790.19M · stock 3.06B · on a courier 790.67M
 - **Profit so far (realized):** -35.54M. That's completed sales minus every fee paid. Fees: broker 126.90M, relist 16.82M, sales tax 7.73M, courier 207.00M
 - **Location:** amarr · import hub amarr · shipments on the way 1
-- **What's limiting profit** (near 100% = the bottleneck): order slots 27/113 · ISK in use 93% · your time last plan 17 of 25 min
+- **What's limiting profit** (near 100% = the bottleneck): order slots 27/113 · ISK in use 93% · your time last plan 18 of 25 min
 
 ## 3. Results by strategy
 _station = buy and sell in the same hub · import = buy in Jita, ship, sell elsewhere · spec = bets ahead of patches. Realized stays at 0 until items actually sell._
@@ -100,73 +100,73 @@ _Market size = ISK spent per day buying from sell orders in that station. Items 
 
 | Hub | Market size/day | Station items | Station profit/day | Import items | Import profit/day |
 |---|---|---|---|---|---|
-| jita | 5.16T | 33 | 65.06M | - | - |
-| amarr | 520.62B | 7 | 11.07M | 55 | 103.42M |
-| dodixie | 169.95B | 1 | 576.80k | 45 | 86.45M |
-| rens | 32.48B | 0 | - | 14 | 42.06M |
-| hek | 72.22B | 3 | 2.19M | 20 | 62.52M |
+| jita | 5.17T | 35 | 68.22M | - | - |
+| amarr | 520.82B | 6 | 9.53M | 57 | 112.71M |
+| dodixie | 170.04B | 1 | 592.82k | 46 | 87.12M |
+| rens | 32.62B | 0 | - | 13 | 38.99M |
+| hek | 72.46B | 3 | 2.21M | 20 | 62.83M |
 
 ## 8. Best items to trade inside Jita
 _Buy at the highest buy price + 1 tick, sell at the lowest sell price − 1 tick. Margin is after all fees. On top = how much of the time between your logins our order would stay the best price before a rival undercuts it (sell side / buy side). Limited by = which resource it eats most: order slots, ISK, or your time._
 
 | Item | Buy → sell price | Margin | Sold per day | On top (sell/buy) | Profit/day | Limited by |
 |---|---|---|---|---|---|---|
+| Low-grade Harvest Beta | 41.70M → 63.29M | 42.9% | 0.1 | 30% / 68% | 2.52M | time |
 | Low-grade Harvest Alpha | 21.05M → 43.03M | 93.0% | 0.1 | 30% / 30% | 2.58M | time |
-| Quad Mega Pulse Laser II | 175.30M → 201.80M | 8.0% | 0.2 | 16% / 20% | 2.77M | time |
-| Clone Soldier Transporter Tag | 28.91M → 33.98M | 10.3% | 1.0 | 10% / 19% | 2.65M | time |
+| Quad Mega Pulse Laser II | 175.30M → 201.80M | 8.0% | 0.2 | 15% / 20% | 2.77M | time |
+| Low-grade Nirvana Omega | 171.90M → 209.20M | 14.3% | 0.1 | 15% / 24% | 2.69M | time |
+| Clone Soldier Transporter Tag | 28.91M → 33.97M | 10.3% | 1.0 | 10% / 19% | 2.65M | time |
+| Inherent Implants 'Lancer' Large Energy Turret LE-1005 | 113.10M → 128.30M | 6.4% | 0.3 | 14% / 68% | 2.16M | time |
 | Perun Heavy Mutadaptive Remote Armor Repairer | 25.67M → 30.72M | 12.3% | 0.8 | 7% / 60% | 2.27M | time |
-| Malleus II | 16.51M → 21.75M | 23.8% | 0.7 | 12% / 14% | 2.55M | time |
-| Unstable Large Remote Armor Repairer Mutaplasmid | 117.60M → 159.90M | 27.8% | 0.1 | 10% / 25% | 2.46M | time |
-| Inherent Implants 'Lancer' Large Energy Turret LE-1005 | 113.10M → 128.20M | 6.3% | 0.3 | 14% / 68% | 2.12M | time |
-| Gistum B-Type Medium Remote Shield Booster | 27.60M → 36.82M | 25.4% | 0.4 | 4% / 4% | 2.57M | time |
-| Tachyon Beam Laser II | 5.23M → 6.25M | 12.2% | 4.3 | 3% / 8% | 2.53M | time |
+| Malleus II | 16.51M → 21.75M | 23.8% | 0.7 | 12% / 15% | 2.54M | time |
+| Unstable Large Remote Armor Repairer Mutaplasmid | 117.70M → 159.90M | 27.7% | 0.1 | 10% / 24% | 2.45M | time |
+| Centum B-Type Multispectrum Energized Membrane | 428.90M → 498.80M | 9.1% | 0.1 | 6% / 4% | 2.57M | time |
+| Shadow Serpentis Damage Control | 199.10M → 229.90M | 8.3% | 0.2 | 3% / 6% | 2.54M | time |
 | Leopard | 501.00M → 618.80M | 16.0% | 0.0 | 3% / 16% | 2.46M | time |
-| Shadow Serpentis Damage Control | 199.20M → 229.90M | 8.3% | 0.2 | 2% / 6% | 2.53M | time |
-| Einherji I | 4.99M → 6.22M | 16.9% | 3.1 | 4% / 5% | 2.51M | time |
 
 ## 9. Best items to import Jita → Amarr
 _Buy from Jita sellers, ship by courier, sell just under the cheapest seller there. Margin is after shipping and fees. m³ = cargo volume per unit._
 
 | Item | Jita price → sell price | m³ | Margin | Sold per day | On top | Profit/day | Limited by |
 |---|---|---|---|---|---|---|---|
-| Republic Fleet Mining Survey Chipset | 106.70M → 203.90M | 5.0 | 77.2% | 0.2 | 39% | 13.61M | time |
-| Legion Mjolnir Auto-Targeting Light Missile | 999.00 → 2.31k | 0.0 | 115.8% | 4623.2 | 78% | 5.34M | time |
-| Athanor | 748.70M → 928.70M | 8,000.0 | 13.4% | 0.1 | 9% | 7.71M | ISK |
-| Improved 'Guise' Cloaking Device II | 30.77M → 49.93M | 100.0 | 49.8% | 0.2 | 59% | 3.47M | time |
+| Republic Fleet Mining Survey Chipset | 106.70M → 203.90M | 5.0 | 77.2% | 0.2 | 39% | 13.58M | time |
+| Imperial Navy 200mm Steel Plates | 11.00M → 16.78M | 10.0 | 40.5% | 1.8 | 75% | 7.90M | time |
+| Legion Mjolnir Auto-Targeting Light Missile | 999.00 → 2.31k | 0.0 | 115.8% | 4607.9 | 78% | 5.33M | time |
+| Athanor | 748.70M → 928.70M | 8,000.0 | 13.4% | 0.1 | 9% | 7.70M | ISK |
+| Federation Navy Drone Navigation Computer | 88.57M → 112.80M | 25.0 | 16.5% | 0.3 | 77% | 3.72M | time |
+| Improved 'Guise' Cloaking Device II | 30.77M → 49.93M | 100.0 | 49.8% | 0.2 | 59% | 3.46M | time |
 | Standup Moon Drill I | 113.00M → 144.80M | 8,000.0 | 14.1% | 0.2 | 39% | 3.40M | time |
-| Federation Navy Stasis Webifier | 52.78M → 67.65M | 5.0 | 17.3% | 0.4 | 6% | 3.66M | time |
-| True Sansha Heavy Energy Neutralizer | 77.90M → 96.54M | 5.0 | 13.3% | 0.3 | 43% | 3.32M | time |
+| Federation Navy Stasis Webifier | 52.69M → 67.63M | 5.0 | 17.5% | 0.4 | 6% | 3.65M | time |
 | Gatling Pulse Laser II | 499.00k → 789.90k | 5.0 | 46.0% | 14.1 | 54% | 3.23M | time |
-| Mobile Large Warp Disruptor I | 16.55M → 24.86M | 585.0 | 38.3% | 0.5 | 17% | 3.43M | time |
-| 'Augmented' Ogre | 19.99M → 25.57M | 25.0 | 17.1% | 0.9 | 50% | 2.98M | time |
-| Coreli A-Type 1MN Afterburner | 45.26M → 65.40M | 5.0 | 32.9% | 0.2 | 6% | 3.27M | time |
-| Proteus Offensive - Drone Synthesis Projector | 37.00M → 44.78M | 40.0 | 10.5% | 0.8 | 33% | 3.05M | time |
+| Mobile Large Warp Disruptor I | 16.55M → 24.84M | 585.0 | 38.2% | 0.5 | 16% | 3.31M | time |
+| Focused Medium Pulse Laser II | 917.00k → 1.66M | 10.0 | 67.2% | 5.2 | 23% | 3.21M | time |
+| Federation Navy Tracking Computer | 115.30M → 142.00M | 5.0 | 12.6% | 0.2 | 12% | 3.26M | time |
 
 ## 10. Cornering watchlist (read-only, nothing is traded)
 _Items where buying out the cheapest few sell orders and relisting higher would pay on paper. We only watch them, to learn whether such prices hold or get undercut._
 
 | Hub | Item | Cheapest now | Buy out | Cost | Relist at | Paper profit | Return | Days to sell | Rival updates/day |
 |---|---|---|---|---|---|---|---|---|---|
-| amarr | Pyroxeres | 22.58 | 3 orders / 373,614 units | 61.09M | 35.05k | 12.40B | 20290% | 2.9 | 2.3 |
+| amarr | Pyroxeres | 22.58 | 3 orders / 373,614 units | 61.09M | 35.05k | 12.40B | 20290% | 3.0 | 2.3 |
 | jita | Eifyr and Co. 'Gunslinger' Motion Prediction MR-702 | 6.49M | 4 orders / 55 units | 369.13M | 10.27M | 168.19M | 46% | 5.4 | 1.6 |
 | jita | Deep-Space Crimson Metallic - Unlimited | 100.00M | 1 orders / 2 units | 200.00M | 192.90M | 166.99M | 83% | 1.7 | 1.4 |
 | jita | Advanced Target Management | 3.75M | 2 orders / 11 units | 41.24M | 16.27M | 129.00M | 313% | 9.2 | 0.7 |
 | jita | Glorified Gravid Large Shield Booster Mutaplasmid | 19.78M | 4 orders / 9 units | 196.63M | 37.99M | 128.61M | 65% | 6.9 | 1.0 |
-| jita | Capital Artillery Specialization | 31.00M | 2 orders / 8 units | 254.16M | 49.98M | 126.19M | 50% | 9.7 | 1.7 |
+| jita | Capital Artillery Specialization | 31.00M | 2 orders / 8 units | 254.16M | 49.98M | 126.19M | 50% | 9.8 | 1.7 |
 | jita | Vorton Arc Guidance | 36.00M | 3 orders / 10 units | 362.89M | 50.99M | 122.15M | 34% | 2.4 | 1.0 |
 | jita | Imperial Mobility Booster II | 21.87M | 3 orders / 17 units | 372.21M | 29.99M | 112.77M | 30% | 8.5 | 2.1 |
 | jita | Glorified Gravid X-Large Shield Booster Mutaplasmid | 33.00M | 5 orders / 7 units | 281.91M | 58.99M | 110.89M | 39% | 4.3 | 0.7 |
-| jita | Advanced Spaceship Command | 53.80M | 4 orders / 6 units | 325.09M | 74.99M | 102.92M | 32% | 0.9 | 2.1 |
+| amarr | Small Transverse Bulkhead I | 668.90k | 4 orders / 589 units | 394.53M | 877.20k | 96.95M | 25% | 3.5 | 2.4 |
 
 ## 11. Data health
 _Is the market data flowing? Orders = orders seen in the station · Hours today = hours of data collected since 00:00 UTC · Trades seen = trades inferred since the last snapshot. Any note means something went wrong._
 
 | Hub | Orders | Hours today | Trades seen | Note |
 |---|---|---|---|---|
-| jita | 337,429 | 19.3 | 8,420 |  |
-| amarr | 129,814 | 19.2 | 2,823 |  |
-| dodixie | 67,185 | 19.2 | 1,514 |  |
-| rens | 32,762 | 19.2 | 520 |  |
-| hek | 41,560 | 19.2 | 726 |  |
+| jita | 337,325 | 19.8 | 4,082 |  |
+| amarr | 129,879 | 19.7 | 923 |  |
+| dodixie | 67,158 | 19.7 | 553 |  |
+| rens | 32,739 | 19.7 | 183 |  |
+| hek | 41,593 | 19.7 | 287 |  |
 
-_This run took 65 s (market data 36 s, stats and character 7 s, experiments 20 s, main portfolio 1 s, cornering scan 1 s, ESI back-off 0 s; 1,167 ESI calls). A slow run usually means ESI rate limits (back-off) or a first-time lookup of many item types._
+_This run took 41 s (market data 21 s, stats and character 5 s, experiments 14 s, main portfolio 1 s, cornering scan 0 s, ESI back-off 0 s; 1,158 ESI calls). A slow run usually means ESI rate limits (back-off) or a first-time lookup of many item types._

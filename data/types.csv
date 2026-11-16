@@ -168,6 +168,7 @@ type_id,name,volume,group_id
 3475,Inherent Implants 'Noble' Mechanic MC-806,1,738
 3482,Inherent Implants 'Noble' Hull Upgrades HG-1006,1,738
 3488,,5,
+3512,Focused Medium Pulse Laser II,10,53
 3520,,10,53
 3534,CONCORD Capital Armor Repairer,1000,62
 3536,,1000,325
@@ -642,6 +643,7 @@ type_id,name,volume,group_id
 16646,Mercury,0.05,427
 16647,Caesium,0.05,427
 16648,Hafnium,0.05,427
+16649,,0.05,427
 16650,Dysprosium,0.05,427
 16651,Neodymium,0.05,427
 16652,Promethium,0.05,427
@@ -2283,6 +2285,7 @@ type_id,name,volume,group_id
 97957,,5,52
 98134,SARO Monitoring Booster,1,303
 98135,SARO Pursuit Booster,1,303
+98137,,1,303
 98145,Blood Raider Blueprint Crate,1,1194
 98147,Crimson Totality Background,0.1,5082
 98306,Minmatar Republic Emblem - Unlimited,,
