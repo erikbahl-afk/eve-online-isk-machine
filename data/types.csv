@@ -156,7 +156,7 @@ type_id,name,volume,group_id
 3190,Eifyr and Co. 'Gunslinger' Motion Prediction MR-702,,
 3203,,1,
 3214,,1,
-3218,,10,101
+3218,Harvester Mining Drone,10,101
 3237,Inherent Implants 'Squire' Capacitor Management EM-802,,
 3239,Inherent Implants 'Squire' Capacitor Management EM-806,1,741
 3240,Inherent Implants 'Squire' Capacitor Systems Operation EO-602,1,
@@ -700,6 +700,7 @@ type_id,name,volume,group_id
 17769,Fluxed Condensates,0.2,428
 17772,Small AutoCannon Battery,,
 17843,Vexor Navy Issue,10000,26
+17859,,0.3,476
 17871,,1,738
 17887,Oxygen Isotopes,0.03,423
 17888,Nitrogen Isotopes,0.03,423
@@ -1022,6 +1023,7 @@ type_id,name,volume,group_id
 23119,Imperial Navy Radio L,1,86
 23128,,0.1,
 23134,Takmahl Dynamic Gauge,,
+23152,,0.1,528
 23172,Yan Jung Singularity Fact Sheet,1,733
 23473,Wasp EC-900,,
 23707,,5,639
@@ -1809,7 +1811,7 @@ type_id,name,volume,group_id
 49737,,1,1964
 49740,Gravid Ballistic Control System Mutaplasmid,1,1964
 49741,Unstable Ballistic Control System Mutaplasmid,,
-49774,,10,
+49774,Perun Heavy Mutadaptive Remote Armor Repairer,10,2018
 49790,ML-EKP 'Polybolos' Ballistic Control System,5,367
 49924,Vedmak Blackfire Steel SKIN,0.01,1950
 50149,Kronos Caille Neon SKIN,0.01,
@@ -2055,7 +2057,7 @@ type_id,name,volume,group_id
 78333,Mekubal,5000,420
 78366,Alligator,15000,419
 78367,Mamba,5000,420
-78369,Khizriel,15000,
+78369,Khizriel,15000,419
 78622,Gravid Vorton Tuning System Mutaplasmid,1,1964
 79186,Mysterious GalNet Crate II,,
 79744,Barghest Aurora Universalis SKIN,,

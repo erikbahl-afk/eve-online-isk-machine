@@ -3,13 +3,13 @@
 
 # Session checklist
 
-**Updated:** Sun 15 Nov 22:30 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 25 · **Est. time:** 17 min. Work top to bottom; stop any time.  
+**Updated:** Mon 16 Nov 00:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 23 · **Est. time:** 16 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
 
-_Left out 10 small steps worth less than 992.89k per minute of your time (0.02% of net worth per minute)._
+_Left out 11 small steps worth less than 992.89k per minute of your time (0.02% of net worth per minute)._
 
 Each hub's steps come in **priority blocks**: finish Block 1 before anything else, and stop wherever your time runs out. Within a block, steps follow the in-game windows for speed.
 
@@ -68,28 +68,33 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 12 | ☐ Compressed Hezorime III-Grade | 777.30 | **777.10** | 883.00 | 777.00 |
-| 13 | ☐ Criterion Cipher | 10,580,000 | **10,610,000** | 15,870,000 | 10,600,000 |
-| 14 | ☐ Gistum B-Type Medium Shield Booster | 108,400,000 | **112,000,000** | 112,100,000 | 111,900,000 |
-| 15 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **175,300,000** | 178,700,000 | 175,200,000 |
+| 13 | ☐ Criterion Cipher | 10,580,000 | **10,580,000** | 15,870,000 | 10,570,000 |
+| 14 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **175,300,000** | 178,700,000 | 175,200,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 16 | ☐ Medium Trimark Armor Pump I | 2 | **2,053,000** | 2,345,000 | 2,052,000 |
-| 17 | ☐ SARO Monitoring Booster | 2 | **6,255,000** | 11,680,000 | 6,254,000 |
+| 15 | ☐ Contaminated Lorentz Fluid | 1,865 | **57,130** | 59,190 | 57,120 |
+| 16 | ☐ Perun Heavy Mutadaptive Remote Armor Repairer | 4 | **25,670,000** | 27,150,000 | 25,660,000 |
 
-### Block 2 · should do · about 3 min
+### Block 2 · should do · about 2 min
+
+#### Fix outbid buy orders
+_My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
+
+| # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
+|---|---|---|---|---|---|
+| 17 | ☐ Gistum B-Type Medium Shield Booster | 108,400,000 | **112,200,000** | 112,600,000 | 112,100,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 18 | ☐ Compressed Arkonor IV-Grade | 36,606 | **3,587** | 3,623 | 3,586 |
-| 19 | ☐ Eagle | 1 | **74,330,000** | 87,500,000 | 74,320,000 |
-| 20 | ☐ Lime Mykoserocin | 3 | **77,380** | 80,800 | 77,370 |
+| 18 | ☐ Einherji I | 2 | **4,971,000** | 5,294,000 | 4,970,000 |
+| 19 | ☐ Lime Mykoserocin | 43 | **77,380** | 80,790 | 77,370 |
 
 ### Block 3 · if there's time · about 2 min
 
@@ -98,11 +103,10 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 21 | ☐ 50MN Microwarpdrive II | 3,637,000 | **3,656,000** | 3,735,000 | 3,655,000 |
-| 22 | ☐ Bomb Launcher II | 2,246,000 | **2,247,000** | 2,597,000 | 2,246,000 |
-| 23 | ☐ Jaguar | 14,530,000 | **14,960,000** | 16,380,000 | 14,950,000 |
-| 24 | ☐ Sansha NET Resonator | 2,508,000 | **2,516,000** | 2,516,000 | 2,534,000 |
-| 25 | ☐ Siren II | 24,050,000 | **24,240,000** | 26,950,000 | 24,230,000 |
+| 20 | ☐ 50MN Microwarpdrive II | 3,637,000 | **3,656,000** | 3,735,000 | 3,655,000 |
+| 21 | ☐ Bomb Launcher II | 2,246,000 | **2,247,000** | 2,597,000 | 2,246,000 |
+| 22 | ☐ Sansha NET Resonator | 2,508,000 | **2,517,000** | 2,517,000 | 2,534,000 |
+| 23 | ☐ Siren II | 24,050,000 | **24,260,000** | 26,950,000 | 24,250,000 |
 
 ---
-Wallet 325.16M · escrow 790.19M · stock 3.06B · in transit 790.67M · net worth 4.96B (liquidation 2.47B)
+Wallet 325.16M · escrow 790.19M · stock 3.06B · in transit 790.67M · net worth 4.96B (liquidation 2.49B)
