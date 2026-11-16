@@ -1,41 +1,20 @@
 {
- "ask_ratio_median": 1.0581,
- "buy_orders": 6257,
- "buy_orders_reaching_jita": 6174,
+ "ask_ratio_median": 1.068,
+ "buy_orders": 6250,
+ "buy_orders_reaching_jita": 6167,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6646,
- "sell_orders": 389,
- "share_ask_below_jita": 0.2915,
+ "orders": 6637,
+ "sell_orders": 387,
+ "share_ask_below_jita": 0.2704,
  "structure_id": 1042508032148,
- "t": 1794787256.0317698,
+ "t": 1794794454.5430431,
  "top_ask_below_jita": [
-  {
-   "best_ask": 74890.0,
-   "gap": 0.998,
-   "name": "",
-   "s_ask": 152.6,
-   "type_id": 90499
-  },
-  {
-   "best_ask": 200.0,
-   "gap": 0.9917,
-   "name": "",
-   "s_ask": 1.66,
-   "type_id": 90470
-  },
   {
    "best_ask": 67900.0,
    "gap": 0.9506,
    "name": "",
    "s_ask": 3356.0,
    "type_id": 84408
-  },
-  {
-   "best_ask": 3095.0,
-   "gap": 0.9192,
-   "name": "",
-   "s_ask": 250.0,
-   "type_id": 90480
   },
   {
    "best_ask": 21950.0,
@@ -80,20 +59,6 @@
    "type_id": 46947
   },
   {
-   "best_ask": 2202.0,
-   "gap": 0.6113,
-   "name": "",
-   "s_ask": 856.0,
-   "type_id": 21857
-  },
-  {
-   "best_ask": 9999.0,
-   "gap": 0.5009,
-   "name": "",
-   "s_ask": 4991.0,
-   "type_id": 84409
-  },
-  {
    "best_ask": 69440000.0,
    "gap": 0.496,
    "name": "",
@@ -113,6 +78,41 @@
    "name": "",
    "s_ask": 60000000.0,
    "type_id": 48221
+  },
+  {
+   "best_ask": 254300.0,
+   "gap": 0.4691,
+   "name": "",
+   "s_ask": 135000.0,
+   "type_id": 3324
+  },
+  {
+   "best_ask": 375700000.0,
+   "gap": 0.4677,
+   "name": "",
+   "s_ask": 200000000.0,
+   "type_id": 34650
+  },
+  {
+   "best_ask": 19790000.0,
+   "gap": 0.4442,
+   "name": "",
+   "s_ask": 11000000.0,
+   "type_id": 44896
+  },
+  {
+   "best_ask": 65000.0,
+   "gap": 0.4308,
+   "name": "",
+   "s_ask": 37000.0,
+   "type_id": 3320
+  },
+  {
+   "best_ask": 699900000.0,
+   "gap": 0.4285,
+   "name": "",
+   "s_ask": 400000000.0,
+   "type_id": 45665
   }
  ],
  "top_bid_over_jita": [
@@ -222,7 +222,7 @@
    "type_id": 27244
   }
  ],
- "types": 3913,
- "types_also_in_jita": 3888,
- "types_bid_over_jita_reaching": 822
+ "types": 3908,
+ "types_also_in_jita": 3883,
+ "types_bid_over_jita_reaching": 776
 }

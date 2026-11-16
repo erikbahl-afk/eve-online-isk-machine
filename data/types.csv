@@ -198,6 +198,7 @@ type_id,name,volume,group_id
 4144,Women's 'Structure' Dress (black/white),0.1,
 4147,Dual Heavy Pulse Laser II,20,53
 4246,Hydrogen Fuel Block,5,1136
+4247,,5,1136
 4248,,50,899
 4250,Small Tractor Beam II,,
 4256,Bomb Launcher II,50,862
@@ -536,7 +537,7 @@ type_id,name,volume,group_id
 14278,,10,
 14295,,1,745
 14297,Limited Memory Augmentation - Beta,1,745
-15317,,0.75,1034
+15317,Genetically Enhanced Livestock,0.75,1034
 15457,,1,
 15463,Standard Mindflood Booster,1,303
 15464,Improved Mindflood Booster,1,303
@@ -641,7 +642,7 @@ type_id,name,volume,group_id
 16667,Neo Mercurite,0.2,428
 16668,Dysporite,0.2,428
 16669,Ferrofluid,0.2,428
-16670,,0.01,429
+16670,Crystalline Carbonide,0.01,429
 16671,,0.01,
 16672,Tungsten Carbide,0.01,429
 16673,Fernite Carbide,0.01,429
@@ -1040,6 +1041,7 @@ type_id,name,volume,group_id
 24531,Nova Fury Cruise Missile,0.05,656
 24535,,0.05,
 24539,,0.05,
+24560,,2000,873
 24632,Zainou 'Deadeye' Guided Missile Precision GP-803,1,746
 24640,Zainou 'Deadeye' Guided Missile Precision GP-805,,
 24663,Zor's Custom Navigation Hyper-Link,,
@@ -2248,6 +2250,7 @@ type_id,name,volume,group_id
 97897,Bloody Sunset Background,,
 97955,Imperial Navy Stasis Webifier,5,65
 97957,,5,52
+98134,SARO Monitoring Booster,1,303
 98135,SARO Pursuit Booster,1,303
 98145,Blood Raider Blueprint Crate,1,1194
 98147,Crimson Totality Background,0.1,5082
