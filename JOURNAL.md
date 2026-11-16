@@ -341,3 +341,20 @@
   stands. Stale Amarr sells: same fix. Antikythera (Jita, 7 d) under stale_days. Idle bids 2.3k / 2.25M: noise. Thresholds kept.
 - Not done (budget): time on top vs snapshots, 1 h vs 2 h spacing, gone_weight probe (slots 6/6 anyway).
 - Next: Mon check the next Amarr session cut the SKIN/M-Set/Boots asks; Sun 22 recheck 15 Nov fills vs official history.
+
+## 2026-11-16 · audit the picks (Monday)
+- Checked 46 lines against live books and 30 d official history: the 10 items on the courier landing Tue 17 (722M), main's
+  14 sell orders, today's 12 Jita station and 12 Jita→Amarr import picks.
+- Courier is clean: every item traded 30 of 30 days, Amarr bid ÷ cost 0.66–0.95, reach 0.43–1.0. No spikes, no SKINs.
+- Import picks look sound (reach 0.27–0.90, 30/30 trading days). #1 Republic Fleet Mining Survey Chipset is drifting down
+  (90 d avg 281M → 30 d 247M → 7 d 216M; our ask 204M), but the margin is 77% and the Amarr bid is 0.7 of cost. Not a trap.
+- **Gap found:** `apply_reach` only checked the top 40 picks. In Jita only 2 of those 40 passed, so rows 3–12 of the station
+  table were never checked: Tachyon Beam Laser II (reach 0.00 over 14 d), Zealot (bid side 0.14) and others were being
+  planned. Fix: check in chunks of 40 until 40 picks pass, up to 120 rows per list (`max_check`). Worst case is about
+  +700 history calls per run, cached. Test added; 32 pass.
+- Legacy holdings: Dread Guristas RL asks 99.2M vs a 7 d avg of 66.1M (reach 0.07). Antikythera (Jita) asks 996k vs 559k
+  best, price down 37% in 90 d (6.8M total). The stale step-down covers both. Golem SKIN at 175M (2 trades ~295M) should sell.
+- Alerts: liquidation 50% and Typhoon SKIN 8.4% are still the legacy imports; the SKIN decision stays Thu 19. The stale Amarr
+  sells have had no Amarr session since Sat, so the step-down hasn't fired yet. Idle bids (2.3k, 2.25M) are noise.
+  Thresholds kept.
+- Next: Tue, check the Jita station count and profit/day after the fix, plus run time and ESI calls. Thu, the SKIN decision.

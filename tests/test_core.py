@@ -284,6 +284,20 @@ def test_apply_reach_drops_and_scales_picks():
     assert apply_reach(df, None, "jita", 0, 0.25) is df  # no history source: unchanged
 
 
+def test_apply_reach_keeps_checking_when_the_top_is_unreachable():
+    from trader.market import PriceLevels
+    from trader.strategy import apply_reach
+    hist = pd.DataFrame({"date": ["1970-01-07", "1970-01-08"], "lowest": [100.0] * 2, "highest": [150.0] * 2,
+                         "volume": [5] * 2})
+    lv = PriceLevels(None, {}, days=14, fetch=lambda hub, ty: hist)
+    asks = [200.0, 200.0, 140.0, 140.0, 200.0, 140.0, 140.0]  # 1, 2, 5 never traded that high
+    df = pd.DataFrame({"sell": asks, "q": [1.0] * 7, "profit_day": [9.0, 8, 7, 6, 5, 4, 3]}, index=range(1, 8))
+    out = apply_reach(df, lv, "amarr", 8 * 86400, 0.25, top_n=2, sell_col="sell")
+    assert list(out.index) == [3, 4, 5, 6, 7]    # [1,2] fail, [3,4] pass -> 2 survivors, stop; 5-7 unchecked tail
+    out = apply_reach(df, lv, "amarr", 8 * 86400, 0.25, top_n=2, sell_col="sell", max_check=2)
+    assert list(out.index) == [3, 4, 5, 6, 7]    # capped at the first chunk: nothing survives, the rest is tail
+
+
 def test_aged_stock_is_listed_even_if_low_value():
     from trader.strategy import Planner
     pl = Planner.__new__(Planner)

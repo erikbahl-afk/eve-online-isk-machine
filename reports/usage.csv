@@ -10,3 +10,4 @@ date,topic,tool_calls,notes
 2026-11-13,weekly review,31,outage fix (return-courier KeyError stopped all runs 20h); variant isolation; Crystal Epsilon exit; memo
 2026-11-14,risk and concentration,24,transit valued at bids; stale_step 0.10 step-down for on-top unfilled sells; push (liq<50%)
 2026-11-15,fills,27,history 404 gate hole; calibrate skips partial days; stale step-down fix for only-seller orders
+2026-11-16,audit the picks,22,reach check now continues past an unreachable top 40 (Jita: 2 of 40 passed); courier clean
