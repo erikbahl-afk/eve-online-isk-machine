@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Sun 15 Nov 20:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 24 · **Est. time:** 17 min. Work top to bottom; stop any time.  
+**Updated:** Sun 15 Nov 22:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 25 · **Est. time:** 18 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -24,7 +24,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 |---|---|---|---|---|---|
 | 1 | ☐ Black Market 'Valdimar' Drone Navigation DN-701 | 224,800,000 | **166,500,000** | 126,600,000 | 166,600,000 |
 | 2 | ☐ Dread Guristas Rocket Launcher | 99,220,000 | **99,190,000** | 47,280,000 | 99,200,000 |
-| 3 | ☐ Standup M-Set Basic Small Ship Manufacturing Material Efficiency I | 699,600,000 | **629,600,000** | 335,200,000 | 724,900,000 |
+| 3 | ☐ Standup M-Set Basic Small Ship Manufacturing Material Efficiency I | 699,600,000 | **629,600,000** | 335,200,000 | 715,000,000 |
 | 4 | ☐ Typhoon Fleet Issue Capsuleer Elite XX SKIN | 815,900,000 | **734,300,000** | 420,200,000 | - |
 
 ### Block 2 · should do · about 1 min
@@ -69,7 +69,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 |---|---|---|---|---|---|
 | 12 | ☐ Compressed Hezorime III-Grade | 777.30 | **777.10** | 883.00 | 777.00 |
 | 13 | ☐ Criterion Cipher | 10,580,000 | **10,610,000** | 15,870,000 | 10,600,000 |
-| 14 | ☐ Gistum B-Type Medium Shield Booster | 108,400,000 | **111,800,000** | 112,000,000 | 111,700,000 |
+| 14 | ☐ Gistum B-Type Medium Shield Booster | 108,400,000 | **112,000,000** | 112,100,000 | 111,900,000 |
 | 15 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **175,300,000** | 178,700,000 | 175,200,000 |
 
 #### New buy orders
@@ -77,19 +77,20 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 16 | ☐ Cataclysmic Firestorm Filament | 5 | **20,010,000** | 20,410,000 | 20,000,000 |
-| 17 | ☐ SARO Monitoring Booster | 2 | **6,254,000** | 13,220,000 | 6,253,000 |
+| 16 | ☐ Medium Trimark Armor Pump I | 1 | **2,053,000** | 2,342,000 | 2,052,000 |
+| 17 | ☐ SARO Monitoring Booster | 1 | **6,255,000** | 11,690,000 | 6,254,000 |
 
-### Block 2 · should do · about 3 min
+### Block 2 · should do · about 4 min
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 18 | ☐ Aberrant Polycrase | 5,587 | **2,221** | 2,594 | 2,220 |
-| 19 | ☐ Admiral Noir's - Spiced Rum | 5 | **1,489,000** | 2,991,000 | 1,488,000 |
-| 20 | ☐ Yan Jung Singularity Fact Sheet | 2 | **45,060,000** | 48,430,000 | 45,050,000 |
+| 18 | ☐ Admiral Noir's - Spiced Rum | 5 | **1,489,000** | 2,991,000 | 1,488,000 |
+| 19 | ☐ Compressed Arkonor IV-Grade | 36,587 | **3,587** | 3,623 | 3,586 |
+| 20 | ☐ Eagle | 1 | **74,330,000** | 87,500,000 | 74,320,000 |
+| 21 | ☐ Lime Mykoserocin | 15 | **77,380** | 80,800 | 77,370 |
 
 ### Block 3 · if there's time · about 2 min
 
@@ -98,10 +99,10 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 21 | ☐ 50MN Microwarpdrive II | 3,637,000 | **3,655,000** | 3,736,000 | 3,654,000 |
-| 22 | ☐ Jaguar | 14,530,000 | **14,960,000** | 16,390,000 | 14,950,000 |
-| 23 | ☐ Sansha NET Resonator | 2,508,000 | **2,516,000** | 2,516,000 | 2,533,000 |
-| 24 | ☐ Siren II | 24,050,000 | **24,210,000** | 26,720,000 | 24,200,000 |
+| 22 | ☐ 50MN Microwarpdrive II | 3,637,000 | **3,656,000** | 3,735,000 | 3,655,000 |
+| 23 | ☐ Jaguar | 14,530,000 | **14,960,000** | 16,380,000 | 14,950,000 |
+| 24 | ☐ Sansha NET Resonator | 2,508,000 | **2,516,000** | 2,516,000 | 2,533,000 |
+| 25 | ☐ Siren II | 24,050,000 | **24,240,000** | 26,810,000 | 24,230,000 |
 
 ---
 Wallet 325.16M · escrow 790.19M · stock 3.06B · in transit 790.67M · net worth 4.96B (liquidation 2.47B)

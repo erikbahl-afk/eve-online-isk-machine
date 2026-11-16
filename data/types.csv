@@ -337,6 +337,7 @@ type_id,name,volume,group_id
 11999,Vagabond,10000,358
 12003,Zealot,10000,358
 12005,Ishtar,10000,358
+12011,Eagle,10000,358
 12015,Muninn,10000,358
 12017,,10000,894
 12019,Sacrilege,10000,358
@@ -690,6 +691,7 @@ type_id,name,volume,group_id
 17715,Gila,10000,26
 17718,Phantasm,10000,
 17720,Cynabal,10000,26
+17722,,10000,26
 17726,Apocalypse Navy Issue,50000,27
 17732,Tempest Fleet Issue,50000,27
 17736,Nightmare,50000,27
@@ -1161,6 +1163,7 @@ type_id,name,volume,group_id
 27347,,0.05,89
 27351,Caldari Navy Inferno Torpedo,0.05,89
 27355,Dread Guristas Inferno Torpedo,,
+27369,,0.015,384
 27377,Caldari Navy Mjolnir Cruise Missile,0.05,386
 27381,Caldari Navy Nova Light Missile,,
 27395,Caldari Navy Scourge Cruise Missile,0.05,386
@@ -1480,7 +1483,7 @@ type_id,name,volume,group_id
 33928,,1,300
 33941,,1,
 33942,Low-grade Harvest Beta,1,300
-33948,Low-grade Nomad Beta,,
+33948,Low-grade Nomad Beta,1,300
 33960,,1,
 33961,Low-grade Snake Delta,1,300
 33973,Low-grade Virtue Delta,1,300
@@ -1706,7 +1709,7 @@ type_id,name,volume,group_id
 45866,Bustard Exoplanets Hunter SKIN,,
 45999,Agency 'Pyrolancea' DB5 Dose II,1,303
 46000,Agency 'Pyrolancea' DB7 Dose III,1,303
-46002,Agency 'Hardshell' TB5 Dose II,1,
+46002,Agency 'Hardshell' TB5 Dose II,1,303
 46003,Agency 'Hardshell' TB7 Dose III,1,303
 46005,Agency 'Overclocker' SB5 Dose II,1,303
 46006,Agency 'Overclocker' SB7 Dose III,1,303
