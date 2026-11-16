@@ -329,7 +329,7 @@ type_id,name,volume,group_id
 11965,Pilgrim,10000,
 11969,Arazu,10000,833
 11971,Lachesis,10000,906
-11978,,10000,832
+11978,Scimitar,10000,832
 11985,Basilisk,,
 11987,Guardian,10000,832
 11989,,10000,
@@ -345,7 +345,7 @@ type_id,name,volume,group_id
 12023,Deimos,10000,358
 12032,Manticore,2500,834
 12034,,2500,
-12038,,2500,834
+12038,Purifier,2500,834
 12042,Ishkur,2500,324
 12044,,2500,
 12054,,50,
@@ -574,7 +574,7 @@ type_id,name,volume,group_id
 15739,Federation Navy Multispectrum Energized Membrane,5,326
 15749,,5,
 15751,Republic Fleet 50MN Microwarpdrive,10,46
-15753,,5,
+15753,Republic Fleet 10MN Afterburner,5,46
 15764,Federation Navy 50MN Microwarpdrive,10,46
 15766,Federation Navy 10MN Afterburner,5,46
 15790,Caldari Navy Cloaking Device,100,330
@@ -1091,7 +1091,7 @@ type_id,name,volume,group_id
 25948,Large Capacitor Control Circuit I,,
 25956,,20,
 26020,Large Warhead Rigor Catalyst I,20,
-26068,Large Hyperspatial Velocity Optimizer I,20,
+26068,Large Hyperspatial Velocity Optimizer I,20,782
 26070,,20,
 26076,Large EM Shield Reinforcer I,,
 26084,Large Core Defense Field Purger I,20,
@@ -1549,6 +1549,7 @@ type_id,name,volume,group_id
 37146,Standup M-Set Basic Medium Ship Manufacturing Material Efficiency I,10,
 37154,Standup M-Set Basic Small Ship Manufacturing Material Efficiency I,10,
 37222,Standup M-Set Energy Neutralizer Economy I,,
+37230,Standup M-Set Electronic Warfare Economy I,,
 37234,Standup M-Set Enhanced Targeting System I,,
 37292,Rapid Torpedo Launcher II,1000,
 37296,Quad Mega Pulse Laser II,1000,53
@@ -2245,6 +2246,7 @@ type_id,name,volume,group_id
 97435,,0.01,1950
 97436,Kikimora Tetrimon Crimson Mark SKIN,,
 97437,Ikitursa Tetrimon Crimson Mark SKIN,,
+97512,Aberrant Raspite,0.01,18
 97513,Aberrant Polycrase,0.01,18
 97516,Akoman Blueprint Crate,1,1194
 97552,Hyperspherical Housing,0.1,1194
@@ -2269,4 +2271,5 @@ type_id,name,volume,group_id
 98306,Minmatar Republic Emblem - Unlimited,,
 98319,Deep-Space Crimson Metallic - Unlimited,,
 98338,Ultra-Indigo Matte - Unlimited,,
+98415,Imperial Mobility Booster II,,
 98417,Imperial Hardpoint Booster I,,

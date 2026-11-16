@@ -69,7 +69,7 @@
   "key": "stale_sell:26",
   "severity": "medium",
   "since": 1794780029.8794281,
-  "text": "Sell order for Antikythera Element in jita still has 8 left after 7 days."
+  "text": "Sell order for Antikythera Element in jita still has 8 left after 8 days."
  },
  {
   "key": "stale_sell:9",
@@ -87,6 +87,6 @@
   "key": "idle_buy:22",
   "severity": "info",
   "since": 1794613405.4287903,
-  "text": "Buy order for Compressed Dark Glitter in jita hasn't filled at all in 7 days (2.25M tied up)."
+  "text": "Buy order for Compressed Dark Glitter in jita hasn't filled at all in 8 days (2.25M tied up)."
  }
 ]
