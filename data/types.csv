@@ -491,6 +491,7 @@ type_id,name,volume,group_id
 14108,,5,
 14118,,10,46
 14122,Domination 5MN Microwarpdrive,10,46
+14124,Shadow Serpentis 5MN Microwarpdrive,10,46
 14126,Domination Overdrive Injector,5,
 14128,,5,
 14130,True Sansha Reactor Control Unit,5,769
@@ -532,7 +533,7 @@ type_id,name,volume,group_id
 14262,Dark Blood Stasis Webifier,5,65
 14264,Domination Stasis Webifier,5,65
 14266,Dread Guristas Stasis Webifier,5,65
-14268,,5,
+14268,True Sansha Stasis Webifier,5,65
 14270,Shadow Serpentis Stasis Webifier,5,65
 14278,,10,
 14295,,1,745
@@ -545,6 +546,7 @@ type_id,name,volume,group_id
 15477,Improved Drop Booster,1,
 15478,Strong Drop Booster,,
 15479,Standard Exile Booster,1,303
+15480,Improved Exile Booster,1,303
 15592,Federation Navy Fleet Captain Insignia I,0.1,409
 15593,,0.1,409
 15594,Federation Navy Fleet Colonel Insignia I,0.1,409
@@ -1898,6 +1900,7 @@ type_id,name,volume,group_id
 57112,Low-grade Rapture Gamma,,
 57117,Mid-grade Rapture Alpha,,
 57118,,1,
+57119,Mid-grade Rapture Gamma,,
 57121,Mid-grade Rapture Epsilon,1,
 57207,Mining Barge Operations,1,
 57319,Mobile Cynosural Beacon,400,4093
