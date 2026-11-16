@@ -589,7 +589,7 @@ type_id,name,volume,group_id
 15837,Federation Navy 425mm Railgun,20,
 15840,Federation Navy 250mm Railgun,10,
 15862,Imperial Navy Mega Pulse Laser,20,53
-15863,Imperial Navy Mega Beam Laser,,
+15863,Imperial Navy Mega Beam Laser,20,53
 15865,Imperial Navy Small Focused Beam Laser,5,53
 15887,Caldari Navy Warp Scrambler,5,52
 15889,Caldari Navy Warp Disruptor,5,52
@@ -801,7 +801,7 @@ type_id,name,volume,group_id
 19113,Corpus C-Type Heavy Energy Nosferatu,5,68
 19119,Corpus X-Type Heavy Energy Nosferatu,5,
 19141,Gistum C-Type Medium Remote Shield Booster,,
-19143,Gistum B-Type Medium Remote Shield Booster,,
+19143,Gistum B-Type Medium Remote Shield Booster,10,41
 19149,Pithum B-Type Medium Remote Shield Booster,10,41
 19151,Pithum A-Type Medium Remote Shield Booster,10,41
 19171,,5,
@@ -855,6 +855,7 @@ type_id,name,volume,group_id
 19335,,10,46
 19345,Gistum B-Type 50MN Microwarpdrive,10,46
 19351,Gistum A-Type 50MN Microwarpdrive,10,46
+19353,,10,46
 19359,Gist X-Type 500MN Microwarpdrive,10,
 19363,Centum B-Type EM Energized Membrane,5,
 19547,Inherent Implants 'Noble' Repair Systems RS-605,,
@@ -1078,7 +1079,7 @@ type_id,name,volume,group_id
 25605,Armor Plates,0.01,754
 25608,Intact Shield Emitter,0.01,754
 25609,Nanite Compound,,
-25619,Logic Circuit,0.01,
+25619,Logic Circuit,0.01,754
 25624,Intact Armor Plates,0.01,754
 25715,Heavy Assault Missile Launcher II,10,771
 25718,,0.01,
@@ -1141,7 +1142,7 @@ type_id,name,volume,group_id
 27126,Inherent Implants 'Squire' Power Grid Management EG-605,1,
 27142,Zainou 'Gypsy' CPU Management EE-605,1,
 27167,Zainou 'Beancounter' Industry BX-802,1,743
-27169,,1,1229
+27169,Zainou 'Beancounter' Reprocessing RX-802,1,1229
 27171,Zainou 'Beancounter' Industry BX-804,1,743
 27174,Zainou 'Beancounter' Reprocessing RX-804,1,1229
 27176,Zainou 'Beancounter' Metallurgy MY-703,,
@@ -1173,6 +1174,7 @@ type_id,name,volume,group_id
 27369,Dread Guristas Inferno Light Missile,0.015,384
 27377,Caldari Navy Mjolnir Cruise Missile,0.05,386
 27381,Caldari Navy Nova Light Missile,,
+27389,,0.05,386
 27395,Caldari Navy Scourge Cruise Missile,0.05,386
 27401,,0.015,
 27419,Caldari Navy Mjolnir Heavy Assault Missile,0.015,772
@@ -2077,7 +2079,7 @@ type_id,name,volume,group_id
 81050,Upwell Starship Engineering,0.01,270
 81083,Starsi Blast! Classic,1,303
 81143,Magmatic Gas,0.01,4729
-81144,,1.5,4729
+81144,Superionic Ice,1.5,4729
 81350,Kerr Sequencer,0.001,
 81948,Consortium Small Tractor Beam,50,650
 81951,Consortium Mobile Tractor Unit,80,1250
@@ -2111,6 +2113,7 @@ type_id,name,volume,group_id
 85400,X-Large Mutaplasmid Residue,0.01,1996
 85521,,1,1964
 85543,Glorified Gravid Large Shield Booster Mutaplasmid,,
+85551,Glorified Gravid X-Large Shield Booster Mutaplasmid,,
 85559,Glorified Gravid Stasis Webifier Mutaplasmid,1,1964
 85662,Glorified Unstable Gyrostabilizer Mutaplasmid,1,1964
 85668,Glorified Unstable Magnetic Field Stabilizer Mutaplasmid,,
@@ -2207,7 +2210,7 @@ type_id,name,volume,group_id
 94010,Caldari Navy Bastion Module,,
 94034,Harpy State Regulator SKIN,0.01,
 94035,,0.01,1950
-94064,,5,1396
+94064,Republic Fleet Missile Guidance Computer,5,1396
 94065,Republic Fleet Mining Survey Chipset,5,49
 94067,Caldari Navy Signal Distortion Amplifier,,
 94154,Confessor Mandate of Faith SKIN,,
@@ -2281,5 +2284,6 @@ type_id,name,volume,group_id
 98306,Minmatar Republic Emblem - Unlimited,,
 98319,Deep-Space Crimson Metallic - Unlimited,,
 98338,Ultra-Indigo Matte - Unlimited,,
+98409,,1,303
 98415,Imperial Mobility Booster II,,
 98417,Imperial Hardpoint Booster I,,
