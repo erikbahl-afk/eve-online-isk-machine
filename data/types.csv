@@ -302,7 +302,7 @@ type_id,name,volume,group_id
 11541,Photon Microprocessor,1,334
 11542,Fernite Carbide Composite Armor Plate,1,334
 11543,,1,334
-11545,,1,334
+11545,Crystalline Carbonide Armor Plate,1,334
 11547,Fusion Reactor Unit,1,334
 11548,Nuclear Reactor Unit,1,
 11549,Antimatter Reactor Unit,1,334
@@ -405,7 +405,7 @@ type_id,name,volume,group_id
 13220,Inherent Implants 'Lancer' Medium Energy Turret ME-803,,
 13221,Zainou 'Deadeye' Medium Hybrid Turret MH-803,1,742
 13222,Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-803,,
-13223,,1,742
+13223,Inherent Implants 'Lancer' Small Energy Turret SE-603,1,742
 13226,,1,746
 13229,Zainou 'Snapshot' Heavy Missiles HM-703,1,746
 13231,,1,746
@@ -666,6 +666,7 @@ type_id,name,volume,group_id
 17207,Guristas Brass Tag,0.1,370
 17217,Serpentis Brass Tag,0.1,370
 17317,Fermionic Condensates,1.3,429
+17338,,0.01,447
 17368,,100000,
 17392,Data Chips,3,1040
 17476,,3750,463
@@ -1089,6 +1090,7 @@ type_id,name,volume,group_id
 25892,Large Thermal Armor Reinforcer I,20,
 25894,Large Trimark Armor Pump I,20,773
 25896,,20,
+25898,Large Nanobot Accelerator I,20,773
 25900,Large Remote Repair Augmentor I,20,773
 25948,Large Capacitor Control Circuit I,,
 25956,,20,
@@ -1260,7 +1262,7 @@ type_id,name,volume,group_id
 28796,Mid-grade Nomad Alpha,1,300
 28797,Mid-grade Nomad Beta,1,
 28798,Mid-grade Nomad Delta,1,
-28799,,1,300
+28799,Mid-grade Nomad Epsilon,1,300
 28800,Mid-grade Nomad Gamma,,
 28802,Mid-grade Harvest Alpha,,
 28808,Mid-grade Virtue Alpha,1,300
@@ -1486,7 +1488,7 @@ type_id,name,volume,group_id
 33926,Low-grade Crystal Epsilon,1,
 33927,Low-grade Crystal Gamma,1,300
 33928,,1,300
-33941,,1,
+33941,Low-grade Harvest Alpha,1,300
 33942,Low-grade Harvest Beta,1,300
 33948,Low-grade Nomad Beta,1,300
 33960,,1,
@@ -1627,7 +1629,7 @@ type_id,name,volume,group_id
 41405,Capital Blaster Specialization,,
 41407,Capital Pulse Laser Specialization,,
 41408,Capital Beam Laser Specialization,,
-41415,,1000,407
+41415,Fighter Support Unit II,1000,407
 41459,,1000,38
 41463,Capital I-ax Enduring Remote Armor Repairer,,
 41469,Capital Asymmetric Enduring Remote Shield Booster,,
@@ -1691,7 +1693,7 @@ type_id,name,volume,group_id
 45605,Proteus Offensive - Drone Synthesis Projector,40,956
 45606,Proteus Offensive - Support Processor,40,
 45607,Loki Offensive - Projectile Scoping Array,40,956
-45608,Loki Offensive - Launcher Efficiency Configuration,40,
+45608,Loki Offensive - Launcher Efficiency Configuration,40,956
 45611,Legion Propulsion - Intercalated Nanofibers,40,957
 45612,Legion Propulsion - Wake Limiter,40,957
 45614,Tengu Propulsion - Chassis Optimization,40,957
@@ -1854,6 +1856,7 @@ type_id,name,volume,group_id
 53713,High-grade Nirvana Epsilon,1,
 53714,High-grade Nirvana Omega,1,300
 53715,High-grade Nirvana Gamma,1,
+53839,Low-grade Nirvana Omega,1,300
 53854,Low-grade Nirvana Beta,1,300
 53856,Low-grade Nirvana Delta,,
 53893,High-grade Savior Delta,,
@@ -2096,6 +2099,7 @@ type_id,name,volume,group_id
 84100,Paladin War for the Empire SKIN,0.01,
 84173,Imperial Gold Metallic - Limited,0.1,4726
 85084,Small Breacher Pod Launcher,,
+85085,Medium Breacher Pod Launcher,10,4807
 85087,Tholos,5000,420
 85089,SCARAB Breacher Pod M,0.5,4808
 85178,Tetrimonic Warclone Blanks,0.1,314
@@ -2222,6 +2226,7 @@ type_id,name,volume,group_id
 96320,Coercer Sanguinary Savant SKIN,0.01,1950
 96321,Salvation Sanguinary Savant SKIN,,
 96326,Captured Bioadaptive Cache,1,1194
+96333,,0.01,1950
 96543,Potent 'Radiance' Cerebral Accelerator,1,303
 96544,Extended 'Radiance' Cerebral Accelerator,1,303
 96556,,1,

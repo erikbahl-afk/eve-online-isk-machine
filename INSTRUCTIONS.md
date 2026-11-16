@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Mon 16 Nov 04:04 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 22 · **Est. time:** 15 min. Work top to bottom; stop any time.  
+**Updated:** Mon 16 Nov 06:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 23 · **Est. time:** 16 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -53,7 +53,7 @@ _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Ne
 
 ## At Jita IV - Moon 4 - Caldari Navy Assembly Plant
 
-### Block 1 · must do · about 3 min
+### Block 1 · must do · about 4 min
 
 #### List new stock
 _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Duration 3 months._
@@ -68,15 +68,15 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 12 | ☐ Compressed Hezorime III-Grade | 777.30 | **777.10** | 883.00 | 777.00 |
-| 13 | ☐ Criterion Cipher | 10,580,000 | **10,600,000** | 15,870,000 | 10,590,000 |
-| 14 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **175,300,000** | 178,600,000 | 175,200,000 |
+| 13 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **175,300,000** | 178,500,000 | 175,200,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 15 | ☐ Tachyon Beam Laser II | 18 | **5,222,000** | 5,528,000 | 5,221,000 |
+| 14 | ☐ Cataclysmic Firestorm Filament | 7 | **20,040,000** | 20,400,000 | 20,030,000 |
+| 15 | ☐ Perun Heavy Mutadaptive Remote Armor Repairer | 3 | **25,670,000** | 27,140,000 | 25,660,000 |
 
 ### Block 2 · should do · about 3 min
 
@@ -85,17 +85,18 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 16 | ☐ 50MN Microwarpdrive II | 3,637,000 | **3,662,000** | 3,731,000 | 3,661,000 |
+| 16 | ☐ 50MN Microwarpdrive II | 3,637,000 | **3,663,000** | 3,731,000 | 3,662,000 |
 | 17 | ☐ Bomb Launcher II | 2,246,000 | **2,247,000** | 2,597,000 | 2,246,000 |
-| 18 | ☐ Gistum B-Type Medium Shield Booster | 108,400,000 | **112,600,000** | 112,600,000 | 112,500,000 |
-| 19 | ☐ Sansha NET Resonator | 2,508,000 | **2,517,000** | 2,517,000 | 2,539,000 |
+| 18 | ☐ Criterion Cipher | 10,580,000 | **16,560,000** | 16,560,000 | 20,000,000 |
+| 19 | ☐ Gistum B-Type Medium Shield Booster | 108,400,000 | **112,600,000** | 112,600,000 | 112,600,000 |
+| 20 | ☐ Sansha NET Resonator | 2,508,000 | **2,516,000** | 2,516,000 | 2,541,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 20 | ☐ Compressed Fullerite-C70 | 13,234 | **9,712** | 9,725 | 9,711 |
+| 21 | ☐ Crystalline Carbonide Armor Plate | 917 | **5,714** | 6,265 | 5,713 |
 
 ### Block 3 · if there's time · about 1 min
 
@@ -104,14 +105,14 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 21 | ☐ Siren II | 24,050,000 | **24,300,000** | 26,950,000 | 24,290,000 |
+| 22 | ☐ Jaguar | 14,530,000 | **15,060,000** | 16,380,000 | 15,050,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 22 | ☐ Compressed Glistening Zeolites | 3 | **2,445** | 2,463 | 2,444 |
+| 23 | ☐ Compressed Glistening Zeolites | 1 | **2,445** | 2,463 | 2,444 |
 
 ---
 Wallet 325.16M · escrow 790.19M · stock 3.06B · in transit 790.67M · net worth 4.96B (liquidation 2.47B)
