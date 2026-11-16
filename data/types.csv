@@ -861,7 +861,7 @@ type_id,name,volume,group_id
 19345,Gistum B-Type 50MN Microwarpdrive,10,46
 19351,Gistum A-Type 50MN Microwarpdrive,10,46
 19353,,10,46
-19359,Gist X-Type 500MN Microwarpdrive,10,
+19359,Gist X-Type 500MN Microwarpdrive,10,46
 19363,Centum B-Type EM Energized Membrane,5,
 19547,Inherent Implants 'Noble' Repair Systems RS-605,,
 19548,Inherent Implants 'Noble' Remote Armor Repair Systems RA-705,1,
@@ -2210,6 +2210,7 @@ type_id,name,volume,group_id
 93908,Caldari Navy Missile Guidance Enhancer,5,1395
 93909,Republic Fleet Missile Guidance Enhancer,5,
 93912,Revelli’s Modified Integrated Analyzer,5,
+93913,,5,211
 93998,Federation Navy 'Argyreos' Magnetic Field Stabilizer,,
 94008,Republic Fleet Bastion Module,200,
 94009,Federation Navy Bastion Module,200,515
