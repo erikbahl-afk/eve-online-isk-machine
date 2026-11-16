@@ -272,7 +272,7 @@ type_id,name,volume,group_id
 11188,Anathema,2500,830
 11190,,2500,893
 11192,Buzzard,2500,830
-11194,,2500,893
+11194,Kitsune,2500,893
 11196,Claw,2500,831
 11198,Stiletto,2500,831
 11200,,2500,
@@ -366,6 +366,7 @@ type_id,name,volume,group_id
 12263,Heavy Energy Nosferatu II,5,
 12267,Medium Energy Neutralizer II,5,71
 12271,,5,
+12304,Angel Copper Tag,0.1,370
 12356,350mm Railgun II,20,
 12484,Amarr Drone Specialization,0.01,
 12486,Gallente Drone Specialization,0.01,
@@ -612,6 +613,7 @@ type_id,name,volume,group_id
 16004,Eifyr and Co. 'Rogue' Evasive Maneuvering EM-705,1,747
 16050,Republic Fleet 200mm Autocannon,,
 16057,Republic Fleet 800mm Repeating Cannon,,
+16061,Caldari Navy Rapid Light Missile Launcher,10,511
 16062,Caldari Navy Cruise Missile Launcher,20,506
 16064,Caldari Navy Heavy Missile Launcher,10,510
 16065,Caldari Navy Rocket Launcher,5,507
@@ -853,6 +855,7 @@ type_id,name,volume,group_id
 19327,Corelum A-Type 50MN Microwarpdrive,,
 19329,Core A-Type 500MN Microwarpdrive,,
 19335,,10,46
+19339,Gistum C-Type 50MN Microwarpdrive,10,46
 19345,Gistum B-Type 50MN Microwarpdrive,10,46
 19351,Gistum A-Type 50MN Microwarpdrive,10,46
 19353,,10,46
@@ -2119,6 +2122,7 @@ type_id,name,volume,group_id
 85668,Glorified Unstable Magnetic Field Stabilizer Mutaplasmid,,
 85746,Infomorph Decryption Key,,
 85747,Satori-Horigu Combat Scanner Probe,,
+85750,,5,538
 85930,Archon Arkombine Arisen SKIN,,
 85931,Chimera Arkombine Arisen SKIN,,
 86260,Breacher Pod Launcher Operation,0.01,256
@@ -2283,6 +2287,7 @@ type_id,name,volume,group_id
 98147,Crimson Totality Background,0.1,5082
 98306,Minmatar Republic Emblem - Unlimited,,
 98319,Deep-Space Crimson Metallic - Unlimited,,
+98321,Amber Comet Metallic - Unlimited,,
 98338,Ultra-Indigo Matte - Unlimited,,
 98409,,1,303
 98415,Imperial Mobility Booster II,,

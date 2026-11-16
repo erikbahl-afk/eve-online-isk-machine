@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Mon 16 Nov 08:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 22 · **Est. time:** 15 min. Work top to bottom; stop any time.  
+**Updated:** Mon 16 Nov 10:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 24 · **Est. time:** 17 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -53,7 +53,7 @@ _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Ne
 
 ## At Jita IV - Moon 4 - Caldari Navy Assembly Plant
 
-### Block 1 · must do · about 4 min
+### Block 1 · must do · about 5 min
 
 #### List new stock
 _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Duration 3 months._
@@ -67,7 +67,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 12 | ☐ Compressed Hezorime III-Grade | 777.30 | **777.10** | 883.00 | 777.00 |
+| 12 | ☐ Compressed Hezorime III-Grade | 777.30 | **778.10** | 883.00 | 778.00 |
 | 13 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **175,300,000** | 178,400,000 | 175,200,000 |
 
 #### New buy orders
@@ -75,37 +75,39 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 14 | ☐ Compressed Fullerite-C70 | 14,982 | **9,713** | 9,716 | 9,712 |
-| 15 | ☐ Superionic Ice | 1 | **2,554** | 3,677 | 2,553 |
+| 14 | ☐ Clone Soldier Transporter Tag | 4 | **28,910,000** | 30,040,000 | 28,900,000 |
+| 15 | ☐ Low-grade Harvest Alpha | 1 | **21,050,000** | 38,040,000 | 21,040,000 |
+| 16 | ☐ Tachyon Beam Laser II | 1 | **5,228,000** | 5,525,000 | 5,227,000 |
 
-### Block 2 · should do · about 2 min
+### Block 2 · should do · about 3 min
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 16 | ☐ Criterion Cipher | 10,580,000 | **16,560,000** | 16,560,000 | 20,020,000 |
-| 17 | ☐ Gistum B-Type Medium Shield Booster | 108,400,000 | **112,100,000** | 112,100,000 | 112,900,000 |
-| 18 | ☐ Sansha NET Resonator | 2,508,000 | **2,516,000** | 2,516,000 | 2,541,000 |
+| 17 | ☐ Bomb Launcher II | 2,246,000 | **2,248,000** | 2,597,000 | 2,247,000 |
+| 18 | ☐ Gistum B-Type Medium Shield Booster | 108,400,000 | **112,600,000** | 112,600,000 | 112,900,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 19 | ☐ Perun Heavy Mutadaptive Remote Armor Repairer | 3 | **25,670,000** | 27,130,000 | 25,660,000 |
+| 19 | ☐ Perun Heavy Mutadaptive Remote Armor Repairer | 3 | **25,670,000** | 27,160,000 | 25,660,000 |
+| 20 | ☐ Superionic Ice | 1,409 | **2,558** | 3,677 | 2,557 |
 
-### Block 3 · if there's time · about 1 min
+### Block 3 · if there's time · about 2 min
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 20 | ☐ 50MN Microwarpdrive II | 3,637,000 | **3,664,000** | 3,731,000 | 3,663,000 |
-| 21 | ☐ Bomb Launcher II | 2,246,000 | **2,247,000** | 2,597,000 | 2,246,000 |
-| 22 | ☐ Jaguar | 14,530,000 | **15,080,000** | 16,250,000 | 15,070,000 |
+| 21 | ☐ 50MN Microwarpdrive II | 3,637,000 | **3,663,000** | 3,733,000 | 3,662,000 |
+| 22 | ☐ Criterion Cipher | 10,580,000 | **16,560,000** | 16,560,000 | 20,020,000 |
+| 23 | ☐ Jaguar | 14,530,000 | **15,080,000** | 16,390,000 | 15,070,000 |
+| 24 | ☐ Sansha NET Resonator | 2,508,000 | **2,516,000** | 2,516,000 | 2,543,000 |
 
 ---
 Wallet 325.16M · escrow 790.19M · stock 3.06B · in transit 790.67M · net worth 4.96B (liquidation 2.47B)
