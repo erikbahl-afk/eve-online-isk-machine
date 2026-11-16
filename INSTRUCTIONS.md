@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Sun 15 Nov 19:11 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 23 · **Est. time:** 16 min. Work top to bottom; stop any time.  
+**Updated:** Sun 15 Nov 20:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 24 · **Est. time:** 17 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -53,7 +53,7 @@ _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Ne
 
 ## At Jita IV - Moon 4 - Caldari Navy Assembly Plant
 
-### Block 1 · must do · about 3 min
+### Block 1 · must do · about 4 min
 
 #### List new stock
 _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Duration 3 months._
@@ -68,7 +68,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 12 | ☐ Compressed Hezorime III-Grade | 777.30 | **777.10** | 883.00 | 777.00 |
-| 13 | ☐ Criterion Cipher | 10,580,000 | **10,570,000** | 15,870,000 | 10,560,000 |
+| 13 | ☐ Criterion Cipher | 10,580,000 | **10,610,000** | 15,870,000 | 10,600,000 |
 | 14 | ☐ Gistum B-Type Medium Shield Booster | 108,400,000 | **111,800,000** | 112,000,000 | 111,700,000 |
 | 15 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **175,300,000** | 178,700,000 | 175,200,000 |
 
@@ -77,7 +77,8 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 16 | ☐ SARO Monitoring Booster | 2 | **6,252,000** | 13,230,000 | 6,251,000 |
+| 16 | ☐ Cataclysmic Firestorm Filament | 5 | **20,010,000** | 20,410,000 | 20,000,000 |
+| 17 | ☐ SARO Monitoring Booster | 2 | **6,254,000** | 13,220,000 | 6,253,000 |
 
 ### Block 2 · should do · about 3 min
 
@@ -86,9 +87,9 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 17 | ☐ Admiral Noir's - Spiced Rum | 5 | **1,489,000** | 2,991,000 | 1,488,000 |
-| 18 | ☐ Compressed Arkonor IV-Grade | 31,353 | **3,587** | 3,622 | 3,586 |
-| 19 | ☐ Yan Jung Singularity Fact Sheet | 2 | **45,060,000** | 48,430,000 | 45,050,000 |
+| 18 | ☐ Aberrant Polycrase | 5,587 | **2,221** | 2,594 | 2,220 |
+| 19 | ☐ Admiral Noir's - Spiced Rum | 5 | **1,489,000** | 2,991,000 | 1,488,000 |
+| 20 | ☐ Yan Jung Singularity Fact Sheet | 2 | **45,060,000** | 48,430,000 | 45,050,000 |
 
 ### Block 3 · if there's time · about 2 min
 
@@ -97,10 +98,10 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 20 | ☐ 50MN Microwarpdrive II | 3,637,000 | **3,654,000** | 3,735,000 | 3,653,000 |
-| 21 | ☐ Jaguar | 14,530,000 | **14,940,000** | 16,380,000 | 14,930,000 |
-| 22 | ☐ Sansha NET Resonator | 2,508,000 | **2,516,000** | 2,516,000 | 2,533,000 |
-| 23 | ☐ Siren II | 24,050,000 | **24,210,000** | 26,720,000 | 24,200,000 |
+| 21 | ☐ 50MN Microwarpdrive II | 3,637,000 | **3,655,000** | 3,736,000 | 3,654,000 |
+| 22 | ☐ Jaguar | 14,530,000 | **14,960,000** | 16,390,000 | 14,950,000 |
+| 23 | ☐ Sansha NET Resonator | 2,508,000 | **2,516,000** | 2,516,000 | 2,533,000 |
+| 24 | ☐ Siren II | 24,050,000 | **24,210,000** | 26,720,000 | 24,200,000 |
 
 ---
 Wallet 325.16M · escrow 790.19M · stock 3.06B · in transit 790.67M · net worth 4.96B (liquidation 2.47B)

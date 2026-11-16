@@ -1055,6 +1055,7 @@ type_id,name,volume,group_id
 25252,Pure Standard Frentix Booster,1,712
 25266,Gas Cloud Scoop I,5,737
 25267,,0.01,
+25278,,10,711
 25349,Strong Exile Booster,1,303
 25530,,0.01,
 25538,,0.01,
@@ -2177,6 +2178,7 @@ type_id,name,volume,group_id
 92572,Crystalline Kangite,,
 92818,Compressed Raspite X-Grade,0.01,5083
 92819,Compressed Polycrase X-Grade,0.01,5084
+93145,,1100,101
 93350,Guerilla Republic - Unlimited,,
 93466,Imperial Benediction - Unlimited,,
 93745,Tempest Fleet Issue Capsuleer Day XXIII SKIN,0.01,
@@ -2237,6 +2239,7 @@ type_id,name,volume,group_id
 97435,,0.01,1950
 97436,Kikimora Tetrimon Crimson Mark SKIN,,
 97437,Ikitursa Tetrimon Crimson Mark SKIN,,
+97513,Aberrant Polycrase,0.01,18
 97516,Akoman Blueprint Crate,1,1194
 97552,Hyperspherical Housing,0.1,1194
 97560,Polycrase X-Grade,,
