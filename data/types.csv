@@ -547,6 +547,7 @@ type_id,name,volume,group_id
 15457,,1,
 15463,Standard Mindflood Booster,1,303
 15464,Improved Mindflood Booster,1,303
+15465,Strong Mindflood Booster,1,303
 15466,Standard Drop Booster,1,303
 15477,Improved Drop Booster,1,
 15478,Strong Drop Booster,,
@@ -836,6 +837,7 @@ type_id,name,volume,group_id
 19223,Pithum B-Type EM Shield Amplifier,5,295
 19227,Pithum A-Type Thermal Shield Amplifier,5,295
 19229,,5,
+19231,Pithum A-Type EM Shield Amplifier,5,295
 19247,Gistum B-Type EM Shield Amplifier,,
 19253,,5,
 19263,Gist C-Type EM Shield Hardener,,
@@ -872,7 +874,7 @@ type_id,name,volume,group_id
 19556,High-grade Snake Omega,,
 19684,Inherent Implants 'Noble' Repair Proficiency RP-903,1,738
 19685,Inherent Implants 'Noble' Repair Proficiency RP-905,1,
-19686,Eifyr and Co. 'Gunslinger' Motion Prediction MR-705,1,
+19686,Eifyr and Co. 'Gunslinger' Motion Prediction MR-705,1,742
 19687,Eifyr and Co. 'Gunslinger' Surgical Strike SS-905,1,742
 19694,Inherent Implants 'Lancer' Large Energy Turret LE-1005,1,742
 19698,Zainou 'Deadeye' Large Hybrid Turret LH-1005,1,
@@ -1249,6 +1251,7 @@ type_id,name,volume,group_id
 28680,,1,
 28682,Synth X-Instinct Booster,1,303
 28684,Synth Sooth Sayer Booster,1,
+28694,Amber Mykoserocin,10,711
 28696,Celadon Mykoserocin,,
 28698,Lime Mykoserocin,10,711
 28700,,10,711
@@ -1803,7 +1806,7 @@ type_id,name,volume,group_id
 47934,,0.01,1989
 47975,Crystalline Isogen-10,0.3,1996
 48112,Zero-Point Condensate,0.2,1996
-48113,Agency 'Hardshell' TB9 Dose IV,,
+48113,Agency 'Hardshell' TB9 Dose IV,1,303
 48114,,1,303
 48115,Agency 'Pyrolancea' DB9 Dose IV,1,303
 48386,,0.1,1088
@@ -1870,6 +1873,7 @@ type_id,name,volume,group_id
 53894,High-grade Savior Epsilon,,
 53983,Signal-25 'Needlejack' Filament,0.1,4041
 54162,Bouquet of Flowers,1,1194
+54394,,1,300
 54398,Mid-grade Hydra Alpha,,
 54399,Mid-grade Hydra Beta,,
 54400,Mid-grade Hydra Gamma,,
