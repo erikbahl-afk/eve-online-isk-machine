@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Sun 15 Nov 22:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 25 · **Est. time:** 18 min. Work top to bottom; stop any time.  
+**Updated:** Sun 15 Nov 22:30 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 25 · **Est. time:** 17 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -77,20 +77,19 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 16 | ☐ Medium Trimark Armor Pump I | 1 | **2,053,000** | 2,342,000 | 2,052,000 |
-| 17 | ☐ SARO Monitoring Booster | 1 | **6,255,000** | 11,690,000 | 6,254,000 |
+| 16 | ☐ Medium Trimark Armor Pump I | 2 | **2,053,000** | 2,345,000 | 2,052,000 |
+| 17 | ☐ SARO Monitoring Booster | 2 | **6,255,000** | 11,680,000 | 6,254,000 |
 
-### Block 2 · should do · about 4 min
+### Block 2 · should do · about 3 min
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 18 | ☐ Admiral Noir's - Spiced Rum | 5 | **1,489,000** | 2,991,000 | 1,488,000 |
-| 19 | ☐ Compressed Arkonor IV-Grade | 36,587 | **3,587** | 3,623 | 3,586 |
-| 20 | ☐ Eagle | 1 | **74,330,000** | 87,500,000 | 74,320,000 |
-| 21 | ☐ Lime Mykoserocin | 15 | **77,380** | 80,800 | 77,370 |
+| 18 | ☐ Compressed Arkonor IV-Grade | 36,606 | **3,587** | 3,623 | 3,586 |
+| 19 | ☐ Eagle | 1 | **74,330,000** | 87,500,000 | 74,320,000 |
+| 20 | ☐ Lime Mykoserocin | 3 | **77,380** | 80,800 | 77,370 |
 
 ### Block 3 · if there's time · about 2 min
 
@@ -99,10 +98,11 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 22 | ☐ 50MN Microwarpdrive II | 3,637,000 | **3,656,000** | 3,735,000 | 3,655,000 |
+| 21 | ☐ 50MN Microwarpdrive II | 3,637,000 | **3,656,000** | 3,735,000 | 3,655,000 |
+| 22 | ☐ Bomb Launcher II | 2,246,000 | **2,247,000** | 2,597,000 | 2,246,000 |
 | 23 | ☐ Jaguar | 14,530,000 | **14,960,000** | 16,380,000 | 14,950,000 |
-| 24 | ☐ Sansha NET Resonator | 2,508,000 | **2,516,000** | 2,516,000 | 2,533,000 |
-| 25 | ☐ Siren II | 24,050,000 | **24,240,000** | 26,810,000 | 24,230,000 |
+| 24 | ☐ Sansha NET Resonator | 2,508,000 | **2,516,000** | 2,516,000 | 2,534,000 |
+| 25 | ☐ Siren II | 24,050,000 | **24,240,000** | 26,950,000 | 24,230,000 |
 
 ---
 Wallet 325.16M · escrow 790.19M · stock 3.06B · in transit 790.67M · net worth 4.96B (liquidation 2.47B)

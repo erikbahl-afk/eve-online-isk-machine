@@ -156,6 +156,7 @@ type_id,name,volume,group_id
 3190,Eifyr and Co. 'Gunslinger' Motion Prediction MR-702,,
 3203,,1,
 3214,,1,
+3218,,10,101
 3237,Inherent Implants 'Squire' Capacitor Management EM-802,,
 3239,Inherent Implants 'Squire' Capacitor Management EM-806,1,741
 3240,Inherent Implants 'Squire' Capacitor Systems Operation EO-602,1,
@@ -1494,7 +1495,7 @@ type_id,name,volume,group_id
 34049,Women's 'Hover' Tights (opaque black),,
 34057,Men's 'Tectonic' Headwear (matte black),,
 34132,Pilot's Body Resculpt Certificate,,
-34207,,0.1,1304
+34207,Optimized Attainment Decryptor,0.1,1304
 34264,Focused Void Bomb,75,864
 34268,Medium Higgs Anchor I,,
 34272,Polarized Small Focused Pulse Laser,5,53
