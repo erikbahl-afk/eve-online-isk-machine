@@ -293,7 +293,7 @@ type_id,name,volume,group_id
 11529,Molecular Engineering,0.01,270
 11531,,1,
 11534,Gravimetric Sensor Cluster,1,334
-11535,Magnetometric Sensor Cluster,1,
+11535,Magnetometric Sensor Cluster,1,334
 11536,,1,
 11537,Radar Sensor Cluster,1,334
 11538,Nanomechanical Microprocessor,1,334
@@ -457,6 +457,7 @@ type_id,name,volume,group_id
 13943,True Sansha Heat Sink,5,205
 13945,,5,
 13947,,25,
+13948,Domination Large Shield Booster,25,40
 13949,,10,
 13951,Dread Guristas Small Shield Booster,5,40
 13952,Domination Small Shield Booster,,
@@ -484,7 +485,7 @@ type_id,name,volume,group_id
 14068,,10,
 14069,,5,
 14070,Dark Blood Multispectrum Energized Membrane,5,326
-14072,True Sansha Multispectrum Energized Membrane,,
+14072,True Sansha Multispectrum Energized Membrane,5,326
 14074,Shadow Serpentis Multispectrum Energized Membrane,5,326
 14094,Dark Blood Thermal Energized Membrane,,
 14100,Domination Tracking Enhancer,5,
@@ -581,6 +582,7 @@ type_id,name,volume,group_id
 15792,Federation Navy Tracking Computer,5,213
 15804,Imperial Navy Heavy Energy Neutralizer,,
 15806,Republic Fleet Gyrostabilizer,5,59
+15810,,5,205
 15812,Republic Fleet Overdrive Injector,5,764
 15813,Republic Fleet Nanofiber Structure,,
 15830,Federation Navy Heavy Neutron Blaster,10,
@@ -692,7 +694,7 @@ type_id,name,volume,group_id
 17715,Gila,10000,26
 17718,Phantasm,10000,
 17720,Cynabal,10000,26
-17722,,10000,26
+17722,Vigilant,10000,26
 17726,Apocalypse Navy Issue,50000,27
 17732,Tempest Fleet Issue,50000,27
 17736,Nightmare,50000,27
@@ -1166,7 +1168,7 @@ type_id,name,volume,group_id
 27347,,0.05,89
 27351,Caldari Navy Inferno Torpedo,0.05,89
 27355,Dread Guristas Inferno Torpedo,,
-27369,,0.015,384
+27369,Dread Guristas Inferno Light Missile,0.015,384
 27377,Caldari Navy Mjolnir Cruise Missile,0.05,386
 27381,Caldari Navy Nova Light Missile,,
 27395,Caldari Navy Scourge Cruise Missile,0.05,386
@@ -1678,7 +1680,7 @@ type_id,name,volume,group_id
 45534,Monitor,10000,1972
 45586,Legion Defensive - Covert Reconfiguration,40,954
 45587,Legion Defensive - Augmented Plating,40,
-45588,Legion Defensive - Nanobot Injector,40,
+45588,Legion Defensive - Nanobot Injector,40,954
 45589,Tengu Defensive - Covert Reconfiguration,40,
 45591,Tengu Defensive - Amplification Node,40,954
 45592,Proteus Defensive - Covert Reconfiguration,40,954
@@ -1757,6 +1759,7 @@ type_id,name,volume,group_id
 47818,Unstable Large Armor Plate Mutaplasmid,1,1964
 47826,,1,1964
 47830,Unstable Heavy Energy Neutralizer Mutaplasmid,,
+47841,,1,1964
 47845,,1,
 47875,Large Disintegrator Specialization,0.01,255
 47886,Tetryon Exotic Plasma M,0.01,
@@ -2071,6 +2074,7 @@ type_id,name,volume,group_id
 81050,Upwell Starship Engineering,0.01,270
 81083,Starsi Blast! Classic,1,303
 81143,Magmatic Gas,0.01,4729
+81144,,1.5,4729
 81350,Kerr Sequencer,0.001,
 81948,Consortium Small Tractor Beam,50,650
 81951,Consortium Mobile Tractor Unit,80,1250
@@ -2080,6 +2084,7 @@ type_id,name,volume,group_id
 82301,Compressed Kylixium II-Grade,,
 82302,Compressed Kylixium III-Grade,,
 82303,Compressed Kylixium IV-Grade,0.012,4755
+82304,,0.04,4756
 82314,Compressed Hezorime III-Grade,0.05,4758
 82432,Admiral Noir's - Spiced Rum,0.1,1194
 83467,Angel NET Resonator,1,334
