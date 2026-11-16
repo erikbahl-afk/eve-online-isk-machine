@@ -661,6 +661,7 @@ type_id,name,volume,group_id
 17317,Fermionic Condensates,1.3,429
 17368,,100000,
 17392,Data Chips,3,1040
+17476,,3750,463
 17478,Retriever,3750,
 17480,,3750,463
 17482,Strip Miner I,5,464
@@ -1015,6 +1016,7 @@ type_id,name,volume,group_id
 23119,Imperial Navy Radio L,1,86
 23128,,0.1,
 23134,Takmahl Dynamic Gauge,,
+23172,Yan Jung Singularity Fact Sheet,1,733
 23473,Wasp EC-900,,
 23707,,5,639
 23785,'Bailey' 1600mm Steel Plates,20,329
@@ -1045,7 +1047,7 @@ type_id,name,volume,group_id
 24696,,15000,419
 24698,,15000,419
 24700,Myrmidon,15000,419
-24702,Hurricane,,
+24702,Hurricane,15000,419
 25252,Pure Standard Frentix Booster,1,712
 25266,Gas Cloud Scoop I,5,737
 25267,,0.01,
@@ -1325,6 +1327,7 @@ type_id,name,volume,group_id
 31244,Small Memetic Algorithm Bank II,5,
 31298,Small Particle Dispersion Projector I,,
 31330,Medium Targeting System Subcontroller II,10,
+31340,Small Targeting Systems Stabilizer II,5,786
 31342,Medium Targeting Systems Stabilizer II,10,
 31364,Small Ancillary Current Router II,5,
 31366,Medium Ancillary Current Router II,,
@@ -1981,6 +1984,7 @@ type_id,name,volume,group_id
 62520,Compressed Scordite,0.0015,460
 62521,Compressed Scordite II-Grade,0.0015,460
 62522,Compressed Scordite III-Grade,0.0015,460
+62524,,0.003,459
 62525,,0.003,459
 62526,,0.003,
 62528,,0.0035,458
@@ -2064,6 +2068,7 @@ type_id,name,volume,group_id
 82302,Compressed Kylixium III-Grade,,
 82303,Compressed Kylixium IV-Grade,0.012,4755
 82314,Compressed Hezorime III-Grade,0.05,4758
+82432,Admiral Noir's - Spiced Rum,0.1,1194
 83467,Angel NET Resonator,1,334
 83468,Blood Raider NET Resonator,1,334
 83469,Guristas NET Resonator,1,334
@@ -2179,6 +2184,7 @@ type_id,name,volume,group_id
 94010,Caldari Navy Bastion Module,,
 94034,Harpy State Regulator SKIN,0.01,
 94035,,0.01,1950
+94064,,5,1396
 94065,Republic Fleet Mining Survey Chipset,5,49
 94067,Caldari Navy Signal Distortion Amplifier,,
 94154,Confessor Mandate of Faith SKIN,,
@@ -2245,6 +2251,7 @@ type_id,name,volume,group_id
 98135,SARO Pursuit Booster,1,303
 98145,Blood Raider Blueprint Crate,1,1194
 98147,Crimson Totality Background,0.1,5082
+98306,Minmatar Republic Emblem - Unlimited,,
 98319,Deep-Space Crimson Metallic - Unlimited,,
 98338,Ultra-Indigo Matte - Unlimited,,
 98417,Imperial Hardpoint Booster I,,
