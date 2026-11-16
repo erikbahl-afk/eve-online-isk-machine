@@ -1,4 +1,4 @@
-# Summary · Mon 16 Nov 04:00 PST
+# Summary · Mon 16 Nov 04:04 PST
 
 Updated every ~2 hours. **Your real character** is the first section; everything after it is the **practice trader** (pretend ISK, real market data). Each section starts with a line on how to read it.
 
@@ -101,10 +101,10 @@ _Market size = ISK spent per day buying from sell orders in that station. Items 
 | Hub | Market size/day | Station items | Station profit/day | Import items | Import profit/day |
 |---|---|---|---|---|---|
 | jita | 5.12T | 31 | 59.50M | - | - |
-| amarr | 514.26B | 8 | 12.44M | 59 | 109.13M |
-| dodixie | 169.29B | 0 | - | 51 | 98.48M |
-| rens | 31.36B | 0 | - | 14 | 42.41M |
-| hek | 68.50B | 2 | 2.23M | 18 | 50.46M |
+| amarr | 514.18B | 8 | 12.44M | 59 | 109.11M |
+| dodixie | 169.21B | 0 | - | 50 | 98.15M |
+| rens | 31.35B | 0 | - | 14 | 42.40M |
+| hek | 68.66B | 2 | 2.23M | 18 | 50.61M |
 
 ## 8. Best items to trade inside Jita
 _Buy at the highest buy price + 1 tick, sell at the lowest sell price − 1 tick. Margin is after all fees. On top = how much of the time between your logins our order would stay the best price before a rival undercuts it (sell side / buy side). Limited by = which resource it eats most: order slots, ISK, or your time._
@@ -129,9 +129,9 @@ _Buy from Jita sellers, ship by courier, sell just under the cheapest seller the
 
 | Item | Jita price → sell price | m³ | Margin | Sold per day | On top | Profit/day | Limited by |
 |---|---|---|---|---|---|---|---|
-| Republic Fleet Mining Survey Chipset | 107.20M → 205.40M | 5.0 | 77.7% | 0.2 | 42% | 13.12M | time |
+| Republic Fleet Mining Survey Chipset | 107.20M → 205.40M | 5.0 | 77.7% | 0.2 | 42% | 13.11M | time |
 | Blood Raider NET Resonator | 4.00M → 4.98M | 1.0 | 14.0% | 15.1 | 10% | 8.24M | ISK |
-| Legion Mjolnir Auto-Targeting Light Missile | 999.00 → 2.31k | 0.0 | 115.8% | 4587.0 | 75% | 5.30M | time |
+| Legion Mjolnir Auto-Targeting Light Missile | 999.00 → 2.31k | 0.0 | 115.8% | 4575.6 | 75% | 5.29M | time |
 | Athanor | 749.80M → 928.70M | 8,000.0 | 13.2% | 0.1 | 9% | 7.73M | ISK |
 | Improved 'Guise' Cloaking Device II | 28.80M → 49.92M | 100.0 | 60.3% | 0.2 | 58% | 3.48M | time |
 | Standup Moon Drill I | 113.00M → 144.80M | 8,000.0 | 14.1% | 0.2 | 39% | 3.47M | time |
@@ -139,7 +139,7 @@ _Buy from Jita sellers, ship by courier, sell just under the cheapest seller the
 | Federation Navy Stasis Webifier | 52.80M → 67.66M | 5.0 | 17.3% | 0.4 | 6% | 3.62M | time |
 | Gatling Pulse Laser II | 498.90k → 789.90k | 5.0 | 46.0% | 14.1 | 52% | 3.22M | time |
 | Legion Offensive - Assault Optimization | 35.10M → 43.99M | 40.0 | 14.6% | 0.6 | 42% | 3.20M | time |
-| Dread Guristas Small Shield Booster | 13.99M → 24.16M | 5.0 | 59.7% | 0.4 | 47% | 3.01M | time |
+| Dread Guristas Small Shield Booster | 13.99M → 24.16M | 5.0 | 59.7% | 0.4 | 47% | 3.00M | time |
 | Shadow Serpentis 5MN Microwarpdrive | 28.79M → 36.43M | 10.0 | 15.8% | 0.6 | 100% | 2.58M | time |
 
 ## 10. Cornering watchlist (read-only, nothing is traded)
@@ -163,10 +163,10 @@ _Is the market data flowing? Orders = orders seen in the station · Hours today 
 
 | Hub | Orders | Hours today | Trades seen | Note |
 |---|---|---|---|---|
-| jita | 337,771 | 13.3 | 5,319 |  |
-| amarr | 129,490 | 13.2 | 1,464 |  |
-| dodixie | 66,711 | 13.2 | 705 |  |
-| rens | 32,446 | 13.2 | 322 |  |
-| hek | 41,328 | 13.2 | 439 |  |
+| jita | 337,771 | 13.3 | 0 | no new data since last run |
+| amarr | 129,491 | 13.3 | 57 |  |
+| dodixie | 66,714 | 13.3 | 27 |  |
+| rens | 32,442 | 13.3 | 13 |  |
+| hek | 41,326 | 13.3 | 37 |  |
 
-_This run took 62 s (market data 37 s, stats and character 9 s, experiments 14 s, main portfolio 1 s, cornering scan 0 s, ESI back-off 0 s; 1,156 ESI calls). A slow run usually means ESI rate limits (back-off) or a first-time lookup of many item types._
+_This run took 63 s (market data 34 s, stats and character 3 s, experiments 23 s, main portfolio 1 s, cornering scan 0 s, ESI back-off 0 s; 1,141 ESI calls). A slow run usually means ESI rate limits (back-off) or a first-time lookup of many item types._

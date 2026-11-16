@@ -1,6 +1,6 @@
 {
  "est_secs": 890,
- "generated": 1794830432.56923,
+ "generated": 1794830683.6397674,
  "hub": "amarr",
  "location": "amarr",
  "min_isk_per_min": 992891,
@@ -74,7 +74,7 @@
    "value": 815900000.0
   },
   {
-   "benefit": 8587600.016320573,
+   "benefit": 8587600.016324922,
    "block": 2,
    "floor": 30280000.0,
    "group": 1,
@@ -125,7 +125,7 @@
    "value": 499950000.0
   },
   {
-   "benefit": 7988000.107681486,
+   "benefit": 7988000.107716406,
    "block": 3,
    "floor": 88790000.0,
    "group": 1,
