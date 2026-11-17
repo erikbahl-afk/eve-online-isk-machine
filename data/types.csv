@@ -376,6 +376,7 @@ type_id,name,volume,group_id
 12532,Blood Bronze Tag,0.1,370
 12533,,0.1,370
 12537,Serpentis Bronze Tag,0.1,370
+12542,,0.1,370
 12608,Hail S,0.0025,
 12631,,0.0025,376
 12729,Crane,20000,1202
@@ -676,7 +677,7 @@ type_id,name,volume,group_id
 17338,,0.01,447
 17368,,100000,
 17392,Data Chips,3,1040
-17476,,3750,463
+17476,Covetor,3750,463
 17478,Retriever,3750,
 17480,,3750,463
 17482,Strip Miner I,5,464
@@ -1707,6 +1708,7 @@ type_id,name,volume,group_id
 45591,Tengu Defensive - Amplification Node,40,954
 45592,Proteus Defensive - Covert Reconfiguration,40,954
 45595,Loki Defensive - Covert Reconfiguration,40,954
+45598,Legion Offensive - Liquid Crystal Magnifiers,40,956
 45599,Legion Offensive - Assault Optimization,40,956
 45601,Tengu Offensive - Accelerated Ejection Bay,40,956
 45604,Proteus Offensive - Hybrid Encoding Platform,40,956
@@ -2233,6 +2235,7 @@ type_id,name,volume,group_id
 94010,Caldari Navy Bastion Module,,
 94034,Harpy State Regulator SKIN,0.01,
 94035,,0.01,1950
+94063,,5,1396
 94064,Republic Fleet Missile Guidance Computer,5,1396
 94065,Republic Fleet Mining Survey Chipset,5,49
 94067,Caldari Navy Signal Distortion Amplifier,,
@@ -2313,3 +2316,4 @@ type_id,name,volume,group_id
 98409,,1,303
 98415,Imperial Mobility Booster II,,
 98417,Imperial Hardpoint Booster I,,
+98436,Federation Defense Booster II,,

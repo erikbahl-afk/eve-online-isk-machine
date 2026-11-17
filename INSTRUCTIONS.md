@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Mon 16 Nov 18:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Mon 16 Nov 18:56 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 24 · **Est. time:** 17 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -78,7 +78,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 |---|---|---|---|---|---|
 | 14 | ☐ Bomb Launcher II | 2,246,000 | **2,248,000** | 2,597,000 | 2,247,000 |
 | 15 | ☐ Compressed Hezorime III-Grade | 777.30 | **810.10** | 883.00 | 810.00 |
-| 16 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **175,300,000** | 178,400,000 | 175,200,000 |
+| 16 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **175,300,000** | 178,600,000 | 175,200,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
@@ -96,7 +96,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 |---|---|---|---|---|---|
 | 18 | ☐ Criterion Cipher | 10,580,000 | **18,430,000** | 18,430,000 | 20,060,000 |
 | 19 | ☐ Gistum B-Type Medium Shield Booster | 108,400,000 | **109,900,000** | 109,900,000 | 113,100,000 |
-| 20 | ☐ Sansha NET Resonator | 2,508,000 | **2,515,000** | 2,515,000 | 2,550,000 |
+| 20 | ☐ Sansha NET Resonator | 2,508,000 | **2,552,000** | 2,578,000 | 2,551,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
@@ -113,7 +113,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 22 | ☐ 50MN Microwarpdrive II | 3,637,000 | **3,671,000** | 3,738,000 | 3,670,000 |
-| 23 | ☐ Siren II | 24,050,000 | **24,470,000** | 27,230,000 | 24,460,000 |
+| 23 | ☐ Siren II | 24,050,000 | **24,470,000** | 27,370,000 | 24,460,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
