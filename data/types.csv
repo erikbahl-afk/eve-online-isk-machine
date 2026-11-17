@@ -198,7 +198,7 @@ type_id,name,volume,group_id
 3993,Large EMP Smartbomb I,50,72
 3995,Large EMP Smartbomb II,50,72
 4033,Women's 'Impress' Skirt (black leather),,
-4051,,5,
+4051,,5,1136
 4144,Women's 'Structure' Dress (black/white),0.1,
 4147,Dual Heavy Pulse Laser II,20,53
 4246,Hydrogen Fuel Block,5,1136
@@ -859,7 +859,7 @@ type_id,name,volume,group_id
 19268,,5,
 19281,Gist X-Type EM Shield Hardener,5,77
 19282,Pith X-Type EM Shield Hardener,5,77
-19283,,5,77
+19283,Gist X-Type Thermal Shield Hardener,5,77
 19284,Pith X-Type Thermal Shield Hardener,5,77
 19285,,5,
 19288,Pith X-Type Kinetic Shield Hardener,5,77
@@ -1981,6 +1981,7 @@ type_id,name,volume,group_id
 57456,Pressurized Oxidizers,0.1,429
 57457,Reinforced Carbon Fiber,0.1,429
 57459,Hypnagogic Neurolink Enhancer,4,
+57465,,8,4096
 57466,,10,
 57470,U-C Trigger Neurolink Conduit,16,334
 57472,,16,
