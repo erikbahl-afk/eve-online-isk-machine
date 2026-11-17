@@ -141,6 +141,7 @@ type_id,name,volume,group_id
 3095,Eifyr and Co. 'Rogue' Evasive Maneuvering EM-706,1,747
 3106,,10,
 3119,Eifyr and Co. 'Rogue' Warp Drive Speed WS-618,1,747
+3122,Electron Blaster Cannon II,,
 3130,Heavy Electron Blaster II,10,74
 3134,Zainou 'Deadeye' Missile Projection MP-704,,
 3135,Zainou 'Deadeye' Missile Projection MP-706,1,
@@ -468,7 +469,7 @@ type_id,name,volume,group_id
 13953,Dread Guristas X-Large Shield Booster,50,40
 13954,,50,
 13956,True Sansha Large Armor Repairer,50,62
-13957,Dark Blood Large Armor Repairer,50,
+13957,Dark Blood Large Armor Repairer,50,62
 13960,Dark Blood Medium Armor Repairer,10,62
 13965,,5,77
 13969,Dread Guristas Multispectrum Shield Hardener,5,77
@@ -1195,6 +1196,7 @@ type_id,name,volume,group_id
 27381,Caldari Navy Nova Light Missile,,
 27389,,0.05,386
 27395,Caldari Navy Scourge Cruise Missile,0.05,386
+27399,Dread Guristas Scourge Cruise Missile,0.05,386
 27401,Caldari Navy Nova Heavy Assault Missile,0.015,772
 27409,Guristas Inferno Cruise Missile,,
 27419,Caldari Navy Mjolnir Heavy Assault Missile,0.015,772
@@ -1485,6 +1487,7 @@ type_id,name,volume,group_id
 33528,High-grade Ascendancy Gamma,1,300
 33539,Shattered Villard Wheel,0.1,526
 33557,Mid-grade Ascendancy Beta,1,
+33561,,1,300
 33619,Rogue Drone 43-X Nexus Chip,0.1,314
 33681,Gecko,50,100
 33697,Prospect,2500,1283
@@ -1576,6 +1579,7 @@ type_id,name,volume,group_id
 36910,,1,
 36911,Antipharmakon Toxot,1,303
 36912,Antipharmakon Aeolis,1,303
+37135,,2500,1283
 37146,Standup M-Set Basic Medium Ship Manufacturing Material Efficiency I,10,
 37154,Standup M-Set Basic Small Ship Manufacturing Material Efficiency I,10,
 37222,Standup M-Set Energy Neutralizer Economy I,,
@@ -1701,6 +1705,7 @@ type_id,name,volume,group_id
 43701,'Augmented' Ice Harvesting Drone,50,
 43775,ORE Mining Director Mindlink,1,744
 43880,Standup M-Set Invention Accelerator I,,
+43896,Medium Command Processor I,,
 43898,,20,
 43920,Standup M-Set Equipment Manufacturing Material Efficiency I,10,1816
 44102,Defender Launcher I,5,512
