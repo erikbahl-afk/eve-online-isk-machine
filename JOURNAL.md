@@ -358,3 +358,21 @@
   sells have had no Amarr session since Sat, so the step-down hasn't fired yet. Idle bids (2.3k, 2.25M) are noise.
   Thresholds kept.
 - Next: Tue, check the Jita station count and profit/day after the fix, plus run time and ESI calls. Thu, the SKIN decision.
+
+## 2026-11-17 · competition and timing (Tuesday)
+- Time on top, 1 week of `state/time_on_top.csv` (22,463 rows, 13,942 unique by time/hub/item/side): model predicts 15% of
+  our orders still first in line, observed 40%. Up to ~12 h the model is calibrated (age 6–12 h: pred 0.39/0.34, obs 0.40/0.38
+  buy/sell). Past 24 h it predicts ~0.03–0.10 while observed stays 0.25–0.36: a floor, not a rate error.
+- Fit P(top) = f + (1−f)·exp(−k·H): f 0.33, k 1.4 (log-loss 10.5k vs 53.7k as-is, 13.4k for a scale alone). By book: Jita buy
+  f 0.30 k 0.9, Jita sell 0.25/0.5, Amarr sell 0.52/3.0, Amarr buy 0.08/0.5. Per item it's bimodal: of 146 items seen 10+
+  times past 24 h, 66 never on top, 30 always. Rival rate barely separates them (median 0.18 vs 0.09 updates/h); the "busy"
+  boosters from last week (Tetrimon, Chemal, Harvest, Antikythera) are always-on-top bids, so near-top updates overcount rivals.
+- Timing: share on top past 24 h is flat by UTC block (0.40–0.41) and weekday (0.35 Mon to 0.51 Fri, n=354). No timing signal.
+- Changed: `[sim] top_floor` / `hazard_scale` (defaults 0 / 1, so nothing changes) used by sim fills and planning survival, to
+  allow a probe. Not adopted in main: it raises paper fills, and only 1 week of rows so far (11-10's snapshot agreed).
+- Alert fix: the stale step-down skipped partly-filled orders forever (Cap I-a rep, 1 of 3 sold, untouched since 11-08). Now
+  a partial fill blocks it only if the order was touched within stale_days. The Tue 06:56 Amarr session did step the others
+  (Typhoon SKIN 815.9M → 734.3M, M-Set, Boots, Golem, Valdimar...). 34 tests pass.
+- Alerts: liquidation 50% / Typhoon 8.5%: legacy, being stepped down, SKIN decision Thu 19. Antikythera (Jita, 9 d) under
+  stale_days. Idle bids 2.3k / 2.25M: noise. Thresholds kept. Mon follow-up: run 43 s, 1,255 ESI calls: fine after the fix.
+- Next, Thu: consider swapping a slot for a fill probe (top_floor 0.3, hazard_scale 1.0), judged by match to official volume.

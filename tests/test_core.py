@@ -348,7 +348,7 @@ def test_stale_sell_steps_down_and_transit_valued_at_bids():
     pl.cfg, pl.t = {"strategy": {"stale_step": 0.1, "stale_days": 10}}, 12 * 86400
     o = {"since": 0, "qty": 3, "remain": 3, "updated": 0}
     assert pl.stale_sell(o)
-    assert not pl.stale_sell({**o, "remain": 2})                   # something sold: price works
+    assert not pl.stale_sell({**o, "remain": 2, "updated": 5 * 86400})  # sold since the last reprice: price works
     assert not pl.stale_sell({**o, "since": 5 * 86400})            # not stale yet
     assert not pl.stale_sell({**o, "updated": 11.5 * 86400})       # repriced within a day
     pl.cfg["strategy"]["stale_step"] = 0.0
@@ -391,3 +391,26 @@ def test_only_seller_stale_order_gets_step_down_not_a_noop_refresh():
     steps = [s for tier in (out if isinstance(out, tuple) else (out,)) for s in tier if isinstance(s, dict)]
     mod = [s for s in steps if s.get("oid") == 1]
     assert mod and mod[0]["target"] == 720.0 and mod[0].get("step")
+
+
+def test_surv_floor_and_scale():
+    import numpy as np
+    from trader.sim import surv, surv_avg
+    assert abs(float(surv(2.0)) - np.exp(-2.0)) < 1e-12  # default: plain model unchanged
+    sc = {"top_floor": 0.3, "hazard_scale": 2.0}
+    assert abs(float(surv(1.0, sc)) - (0.3 + 0.7 * np.exp(-2.0))) < 1e-12
+    assert abs(float(surv(1e6, sc)) - 0.3) < 1e-9  # heavily contested orders still keep the floor
+    w = np.ones(24)
+    lam = [[1.0, 1.0, 1.0, 1.0]]
+    assert surv_avg(lam, 24, w, sc)[0] > surv_avg(lam, 24, w)[0] >= 0
+
+
+def test_stale_sell_partial_fill_long_ago_still_steps_down():
+    from trader.strategy import Planner
+    pl = Planner.__new__(Planner)
+    pl.cfg = {**CFG, "strategy": {**CFG["strategy"], "stale_step": 0.1, "stale_days": 10}}
+    pl.t = 12 * 86400
+    o = {"since": 0, "updated": 0, "qty": 3, "remain": 2}
+    assert pl.stale_sell(o)                       # 1 of 3 sold, untouched for 12 days
+    assert not pl.stale_sell({**o, "updated": 5 * 86400})  # repriced 7 days ago: not yet
+    assert pl.stale_sell({**o, "remain": 3, "updated": 5 * 86400})  # never filled: the 1-day rule applies

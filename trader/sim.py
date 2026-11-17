@@ -38,7 +38,18 @@ def hazard(lam4, t_from, t_to):
     return total
 
 
-def surv_avg(lam4, hours, start_w):
+def surv(h, sc=None):
+    """Chance we're still first in line after `h` expected rival updates.
+
+    Plain model: exp(-h). With [sim] top_floor f / hazard_scale k: f + (1-f) exp(-k h), i.e. a share f of
+    orders that rivals never contest (fitted on state/time_on_top.csv, 2026-11-17: f 0.33, k 1.4).
+    """
+    sc = sc or {}
+    f, k = sc.get("top_floor", 0.0), sc.get("hazard_scale", 1.0)
+    return f + (1 - f) * np.exp(-k * np.asarray(h, dtype=float))
+
+
+def surv_avg(lam4, hours, start_w, sc=None):
     """Mean chance we're still top of book over `hours` after repricing at a session.
 
     lam4: (n, 4) rival update rates per UTC block; start_w: weights over the 24 UTC hours
@@ -50,7 +61,7 @@ def surv_avg(lam4, hours, start_w):
     for s in np.nonzero(start_w)[0]:
         seq = H[:, (s + np.arange(T)) % 24]
         cum = np.cumsum(seq, axis=1) - seq / 2
-        res += start_w[s] * np.exp(-cum).mean(axis=1)
+        res += start_w[s] * surv(cum, sc).mean(axis=1)
     return res / max(start_w.sum(), 1e-12)
 
 
@@ -163,11 +174,11 @@ class Sim:
                 elig -= used.get(o["type_id"], 0.0)
                 if elig <= 0:
                     continue
-                surv = math.exp(-hazard(lam4_of(stats, o["type_id"], lside), o["updated"], tmid))
+                sv = float(surv(hazard(lam4_of(stats, o["type_id"], lside), o["updated"], tmid), self.cfg["sim"]))
                 reach = levels.reach(hub, o["type_id"], side, o["price"], t1) if levels is not None else 1.0
                 if reach <= 0:
                     continue
-                q = min(o["remain"], self._round(alpha * elig * surv * reach))
+                q = min(o["remain"], self._round(alpha * elig * sv * reach))
                 if q <= 0:
                     continue
                 used[o["type_id"]] = used.get(o["type_id"], 0.0) + q / alpha

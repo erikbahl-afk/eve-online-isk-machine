@@ -47,8 +47,8 @@ def candidates(cfg, fees, stats, top, start_w, exclude=()):
     alpha = cfg["sim"]["alpha"]
     df = df.assign(ask_ref=ask_ref(df.best_ask, df.vwap_a))
     df = df.assign(ask_t=df.ask_ref.map(tick_down), bid_t=df.best_bid.map(tick_up))
-    df["sa"] = surv_avg(_lam4(df, "a"), T, start_w)
-    df["sb"] = surv_avg(_lam4(df, "b"), T, start_w)
+    df["sa"] = surv_avg(_lam4(df, "a"), T, start_w, cfg["sim"])
+    df["sb"] = surv_avg(_lam4(df, "b"), T, start_w, cfg["sim"])
     df["q"] = alpha * np.minimum(df.A * df.sa, df.B * df.sb)  # units/day we can flip
     df["unit_margin"] = df.ask_t * (1 - fees.tax - fees.broker) - df.bid_t * (1 + fees.broker)
     df["margin"] = df.unit_margin / df.bid_t
@@ -97,7 +97,7 @@ def import_candidates(cfg, fees, src_top, dst_stats, dst_top, vols, route, start
     m = s["min_import_margin"]
     cap = np.minimum(net / (1 + m + fee / C), (net - fee * v / M) / (1 + m))
     df["max_price"] = cap.map(lambda p: valid_down(p) if p > 0 else 0.0)
-    df["sa"] = surv_avg(_lam4(df, "a"), T, start_w)
+    df["sa"] = surv_avg(_lam4(df, "a"), T, start_w, cfg["sim"])
     df["q"] = cfg["sim"]["alpha"] * df.A * df.sa
     relist = 24 / T * (1 - fees.relist_discount) * fees.broker * df.sell * df.q * T / 24 * (1 - df.sa)
     df["profit_day"] = df.unit_margin * df.q - relist
@@ -275,11 +275,12 @@ class Planner:
                 "value": float(value), "group": GROUP_ORDER[kind], **kw}
 
     def stale_sell(self, o):
-        """Sell order listed > stale_days, never filled, not repriced for a day: a candidate for a price step-down."""
+        """Sell order listed > stale_days, not repriced for a day, and either never filled or untouched for
+        stale_days (a partial fill long ago, e.g. Cap I-a rep 1 of 3 on 11-08): a candidate for a price step-down."""
         s = self.cfg["strategy"]
-        since = o.get("since")
+        since, idle = o.get("since"), self.t - o["updated"]
         return (s.get("stale_step", 0.0) > 0 and since is not None and self.t - since > s["stale_days"] * 86400
-                and o["remain"] >= o["qty"] and self.t - o["updated"] > 86400)
+                and idle > 86400 and (o["remain"] >= o["qty"] or idle > s["stale_days"] * 86400))
 
     # ---- per-hub maintenance -------------------------------------------------
     def maintenance(self, hub):
@@ -449,7 +450,7 @@ class Planner:
             return 0.0
         lam = st.loc[ty, [f"lam_{side}{b}" for b in range(4)]].to_numpy(dtype=float)
         return self.c["alpha"] * float(st.loc[ty, col]) * float(surv_avg(lam, self.c["logon_gap_hours"],
-                                                                          self.start_w)[0])
+                                                                          self.start_w, self.c)[0])
 
     def aged(self, st):
         """Stock sitting unlisted in a hangar this long gets listed even if the step looks low-value."""
