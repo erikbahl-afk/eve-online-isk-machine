@@ -293,6 +293,7 @@ type_id,name,volume,group_id
 11433,High Energy Physics,0.01,
 11448,Electromagnetic Physics,0.01,270
 11449,Rocket Science,0.01,
+11452,Mechanical Engineering,0.01,270
 11453,Electronic Engineering,0.01,270
 11529,Molecular Engineering,0.01,270
 11531,,1,
@@ -328,7 +329,7 @@ type_id,name,volume,group_id
 11695,Plasma Pulse Generator,1,334
 11957,Falcon,10000,833
 11959,Rook,10000,906
-11961,,10000,906
+11961,Huginn,10000,906
 11963,Rapier,10000,
 11965,Pilgrim,10000,
 11969,Arazu,10000,833
@@ -576,7 +577,7 @@ type_id,name,volume,group_id
 15661,Republic Fleet Commander Insignia II,0.1,409
 15669,Imperial Navy General Insignia II,0.1,409
 15673,,0.1,409
-15675,Caldari Navy Co-Processor,5,
+15675,Caldari Navy Co-Processor,5,285
 15681,Caldari Navy Ballistic Control System,5,367
 15683,Republic Fleet Ballistic Control System,5,367
 15693,Imperial Navy Multispectrum Coating,5,98
@@ -1591,7 +1592,7 @@ type_id,name,volume,group_id
 37146,Standup M-Set Basic Medium Ship Manufacturing Material Efficiency I,10,
 37154,Standup M-Set Basic Small Ship Manufacturing Material Efficiency I,10,
 37222,Standup M-Set Energy Neutralizer Economy I,,
-37230,Standup M-Set Electronic Warfare Economy I,,
+37230,Standup M-Set Electronic Warfare Economy I,10,1620
 37234,Standup M-Set Enhanced Targeting System I,,
 37292,Rapid Torpedo Launcher II,1000,
 37296,Quad Mega Pulse Laser II,1000,53

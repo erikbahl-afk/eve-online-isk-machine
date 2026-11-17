@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Tue 17 Nov 06:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Tue 17 Nov 06:55 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 34 · **Est. time:** 24 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -27,7 +27,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 | 3 | ☐ Capital I-a Enduring Armor Repairer | 199,700,000 | **199,700,000** | 88,790,000 | 199,800,000 |
 | 4 | ☐ Dread Guristas Rocket Launcher | 99,220,000 | **99,160,000** | 47,280,000 | 99,170,000 |
 | 5 | ☐ Golem Exoplanets Hunter SKIN | 175,370,000 | **157,800,000** | 130,200,000 | - |
-| 6 | ☐ Gravid Vorton Tuning System Mutaplasmid | 79,990,000 | **74,990,000** | 54,540,000 | 75,000,000 |
+| 6 | ☐ Gravid Vorton Tuning System Mutaplasmid | 79,990,000 | **71,990,000** | 54,540,000 | 80,000,000 |
 | 7 | ☐ Men's 'Precision' Boots | 99,990,000 | **89,990,000** | 49,760,000 | 100,000,000 |
 | 8 | ☐ Standup M-Set Basic Small Ship Manufacturing Material Efficiency I | 699,600,000 | **629,600,000** | 335,200,000 | 715,000,000 |
 | 9 | ☐ Typhoon Fleet Issue Capsuleer Elite XX SKIN | 815,900,000 | **734,300,000** | 420,200,000 | - |
@@ -37,7 +37,7 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 10 | ☐ Improved 'Guise' Cloaking Device II | 2 | **49,940,000** | 31,940,000 | 49,950,000 |
+| 10 | ☐ Improved 'Guise' Cloaking Device II | 2 | **49,960,000** | 31,940,000 | 49,970,000 |
 | 11 | ☐ Limited Expanded 'Archiver' Cargo | 3 | **49,730,000** | 25,980,000 | 49,740,000 |
 | 12 | ☐ Standup Moon Drill I | 2 | **148,800,000** | 130,900,000 | 148,900,000 |
 
@@ -72,7 +72,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 21 | ☐ Large Disintegrator Specialization | 1 | **92,510,000** | 137,800,000 | 92,500,000 |
+| 21 | ☐ Large Disintegrator Specialization | 1 | **92,550,000** | 137,800,000 | 92,540,000 |
 
 ## 22. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
 _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
@@ -94,7 +94,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 24 | ☐ Compressed Hezorime III-Grade | 777.30 | **810.10** | 883.00 | 810.00 |
-| 25 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **174,600,000** | 178,300,000 | 174,500,000 |
+| 25 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **174,700,000** | 178,300,000 | 174,600,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
@@ -120,7 +120,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 31 | ☐ Compressed Fullerite-C540 | 260 | **43,010** | 43,830 | 43,000 |
+| 31 | ☐ Compressed Fullerite-C540 | 262 | **42,490** | 43,710 | 42,480 |
 
 ### Block 3 · if there's time · about 1 min
 
@@ -129,8 +129,8 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 32 | ☐ 50MN Microwarpdrive II | 3,637,000 | **3,673,000** | 3,738,000 | 3,672,000 |
-| 33 | ☐ Sansha NET Resonator | 2,508,000 | **2,474,000** | 2,474,000 | 2,578,000 |
+| 32 | ☐ 50MN Microwarpdrive II | 3,637,000 | **3,674,000** | 3,736,000 | 3,673,000 |
+| 33 | ☐ Sansha NET Resonator | 2,508,000 | **2,474,000** | 2,474,000 | 2,580,000 |
 | 34 | ☐ Siren II | 24,050,000 | **24,490,000** | 27,370,000 | 24,480,000 |
 
 ---
