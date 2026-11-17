@@ -110,6 +110,7 @@ type_id,name,volume,group_id
 2571,Gravimetric ECM II,,
 2605,Nanofiber Internal Structure II,5,
 2613,Mjolnir Fury Light Missile,,
+2655,,0.03,655
 2801,Nova Javelin Torpedo,0.05,
 2867,Broadcast Node,50,1041
 2868,Integrity Response Drones,50,1041
@@ -753,6 +754,7 @@ type_id,name,volume,group_id
 18813,,5,
 18827,Corelum A-Type Thermal Energized Membrane,5,
 18829,Corpum C-Type Multispectrum Energized Membrane,5,326
+18831,,5,326
 18835,Centum C-Type Kinetic Energized Membrane,,
 18837,,5,326
 18845,Corpum C-Type Thermal Energized Membrane,5,326
@@ -829,7 +831,7 @@ type_id,name,volume,group_id
 19197,Gist A-Type X-Large Shield Booster,50,
 19198,Gist X-Type X-Large Shield Booster,50,40
 19200,Gist X-Type Large Shield Booster,25,40
-19201,,25,
+19201,,25,40
 19202,Pith C-Type X-Large Shield Booster,50,40
 19203,Pith B-Type Large Shield Booster,25,
 19204,Pith B-Type X-Large Shield Booster,50,40
@@ -860,6 +862,7 @@ type_id,name,volume,group_id
 19315,Corelum C-Type 50MN Microwarpdrive,10,46
 19321,Corelum B-Type 50MN Microwarpdrive,10,46
 19323,Core B-Type 500MN Microwarpdrive,10,
+19325,,10,46
 19327,Corelum A-Type 50MN Microwarpdrive,,
 19329,Core A-Type 500MN Microwarpdrive,,
 19335,,10,46
@@ -907,7 +910,7 @@ type_id,name,volume,group_id
 20353,1600mm Steel Plates II,20,329
 20358,Numon Family Heirloom,1,
 20410,Datacore - Gallentean Starship Engineering,0.1,333
-20411,,0.1,
+20411,,0.1,333
 20415,Datacore - Molecular Engineering,0.1,
 20418,Datacore - Electronic Engineering,0.1,333
 20419,Datacore - Graviton Physics,0.1,333
@@ -940,7 +943,7 @@ type_id,name,volume,group_id
 21017,,2000,873
 21018,Capital Armor Plates Blueprint,0.01,
 21019,Capital Capacitor Battery,,
-21023,Capital Shield Emitter,2000,
+21023,Capital Shield Emitter,2000,873
 21208,,1,
 21238,Blood Multifrequency L,,
 21254,Blood Multifrequency XL,,
@@ -1056,6 +1059,7 @@ type_id,name,volume,group_id
 24507,,0.03,655
 24509,,0.03,
 24511,Inferno Fury Heavy Missile,0.03,
+24513,,0.03,655
 24515,,0.03,
 24517,Mjolnir Precision Heavy Missile,0.03,
 24519,Nova Rage Torpedo,0.05,657
@@ -2301,6 +2305,7 @@ type_id,name,volume,group_id
 97669,Decayed Small Remote Armor Repairer Mutaplasmid,1,1964
 97670,Unstable Small Remote Armor Repairer Mutaplasmid,,
 97671,,1,
+97748,Potent Conquest Glamourex Booster,1,303
 97897,Bloody Sunset Background,,
 97955,Imperial Navy Stasis Webifier,5,65
 97957,,5,52
