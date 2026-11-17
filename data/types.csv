@@ -102,6 +102,7 @@ type_id,name,volume,group_id
 2420,Torpedo Launcher II,20,508
 2444,,25,
 2456,,5,
+2463,,0.75,1034
 2478,Berserker II,25,100
 2506,Mjolnir Torpedo,0.05,89
 2539,,5,
@@ -368,7 +369,7 @@ type_id,name,volume,group_id
 12221,Medium Remote Capacitor Transmitter II,10,
 12223,,1000,
 12237,,8000,
-12259,Medium Energy Nosferatu II,,
+12259,Medium Energy Nosferatu II,5,68
 12263,Heavy Energy Nosferatu II,5,
 12267,Medium Energy Neutralizer II,5,71
 12271,,5,
@@ -1653,7 +1654,7 @@ type_id,name,volume,group_id
 41197,,5,
 41200,Shadow Serpentis Damage Control,5,60
 41201,Syndicate Damage Control,5,60
-41202,Sentient Damage Control,5,
+41202,Sentient Damage Control,5,60
 41212,Republic Fleet Small Cap Battery,5,61
 41214,Thukker Small Cap Battery,5,61
 41215,Republic Fleet Medium Cap Battery,10,61

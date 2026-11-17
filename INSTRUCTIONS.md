@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Tue 17 Nov 14:00 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
+**Updated:** Tue 17 Nov 14:25 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
 **Steps:** 18 · **Est. time:** 13 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -22,7 +22,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 1 | ☐ Compressed Fullerite-C540 | 42,580 | **42,970** | 43,650 | 42,960 |
+| 1 | ☐ Compressed Fullerite-C540 | 42,580 | **43,110** | 43,650 | 43,100 |
 | 2 | ☐ Compressed Hezorime III-Grade | 778.10 | **778.30** | 883.00 | 778.20 |
 | 3 | ☐ Criterion Cipher | 10,590,000 | **10,590,000** | 19,580,000 | 10,580,000 |
 | 4 | ☐ Sansha NET Resonator | 2,474,000 | **2,473,000** | 2,473,000 | 2,586,000 |
