@@ -6,16 +6,28 @@
  "inventory": {
   "amarr": {},
   "jita": {
+   "31055": {
+    "cost": 2236000.0,
+    "qty": 2,
+    "since": 1794902425.0,
+    "tag": "station"
+   },
    "62454": {
     "cost": 1123.0,
     "qty": 608,
     "since": 1794780001.0,
     "tag": "station"
+   },
+   "8635": {
+    "cost": 518800.0,
+    "qty": 20,
+    "since": 1794902425.0,
+    "tag": "station"
    }
   }
  },
  "last_jump": 1794895229.7704642,
- "last_t": 1794895229.7704642,
+ "last_t": 1794902428.8889894,
  "location": "amarr",
  "next_oid": 82,
  "orders": [
@@ -466,30 +478,6 @@
    "updated": 1794895229.7704642
   },
   {
-   "created": 1794772832.2129505,
-   "hub": "jita",
-   "oid": 70,
-   "price": 518800.0,
-   "qty": 31,
-   "remain": 20,
-   "side": "buy",
-   "tag": "station",
-   "type_id": 8635,
-   "updated": 1794895229.7704642
-  },
-  {
-   "created": 1794772832.2129505,
-   "hub": "jita",
-   "oid": 71,
-   "price": 2236000.0,
-   "qty": 2,
-   "remain": 2,
-   "side": "buy",
-   "tag": "station",
-   "type_id": 31055,
-   "updated": 1794895229.7704642
-  },
-  {
    "created": 1794895229.7704642,
    "hub": "jita",
    "oid": 73,
@@ -608,7 +596,7 @@
  ],
  "per_strategy": {
   "station": {
-   "buys": 327672984.84000003,
+   "buys": 342520984.84000003,
    "fees": 35549142.06080003,
    "realized": 32795620.88681248,
    "sales": 259953675.32999998
@@ -816,8 +804,8 @@
    "sold_units": 13
   },
   "jita:31055": {
-   "bought_isk": 0.0,
-   "bought_units": 0,
+   "bought_isk": 4472000.0,
+   "bought_units": 2,
    "fees": 80496.0,
    "realized": -80496.0,
    "sold_net": 0.0,
@@ -1008,8 +996,8 @@
    "sold_units": 0
   },
   "jita:8635": {
-   "bought_isk": 4664000.0,
-   "bought_units": 11,
+   "bought_isk": 15040000.0,
+   "bought_units": 31,
    "fees": 739188.0,
    "realized": -739188.0,
    "sold_net": 0.0,
@@ -1066,7 +1054,7 @@
  },
  "pnl": {
   "broker": 27415012.166600008,
-  "buys": 327672984.84000003,
+  "buys": 342520984.84000003,
   "courier": 0.0,
   "realized": 32795620.88681248,
   "relist": 8134129.894199998,

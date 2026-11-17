@@ -1274,7 +1274,7 @@ type_id,name,volume,group_id
 28746,Thukker Medium Shield Extender,,
 28750,ORE Miner,5,54
 28752,ORE Ice Harvester,5,
-28754,ORE Strip Miner,5,
+28754,ORE Strip Miner,5,464
 28756,Sisters Expanded Probe Launcher,5,481
 28758,Sisters Core Probe Launcher,5,481
 28780,Syndicate 1600mm Steel Plates,20,329
@@ -1623,6 +1623,7 @@ type_id,name,volume,group_id
 40690,Sentient Burst Jammer,5,80
 40730,Heavy Warp Disruptor I,100,52
 40734,,100,
+40758,,100,52
 41038,,5,
 41057,Heavy Stasis Grappler II,50,
 41058,,50,
@@ -1743,6 +1744,7 @@ type_id,name,volume,group_id
 45633,Loki Core - Immobility Drivers,40,958
 45856,Golem Exoplanets Hunter SKIN,0.01,
 45866,Bustard Exoplanets Hunter SKIN,,
+45998,,1,303
 45999,Agency 'Pyrolancea' DB5 Dose II,1,303
 46000,Agency 'Pyrolancea' DB7 Dose III,1,303
 46002,Agency 'Hardshell' TB5 Dose II,1,303
@@ -1756,6 +1758,7 @@ type_id,name,volume,group_id
 46375,Daily Alpha Injector,0.01,1739
 46490,,10,1936
 46633,Standup M-Set Asteroid Ore Grading Processor I,10,
+46637,,10,1943
 47028,Neural Lace 'Blackglass' Net Intrusion 920-40,1,1230
 47029,Rattlesnake King's Ransom Luecin SKIN,,
 47037,Standup Siren I,,
@@ -2248,6 +2251,7 @@ type_id,name,volume,group_id
 94154,Confessor Mandate of Faith SKIN,,
 95228,Manifest Homecoming Background,,
 95413,Harmonius Bridge - Unlimited,,
+95458,,0.1,5082
 95556,Lorharyth’s Modified Inertial Stabilizer,5,762
 95629,Oracle Navy Issue,15000,1201
 95630,Naga Navy Issue,15000,1201

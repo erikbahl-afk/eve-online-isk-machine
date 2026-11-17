@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Mon 16 Nov 22:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 23 · **Est. time:** 16 min. Work top to bottom; stop any time.  
+**Updated:** Tue 17 Nov 00:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 24 · **Est. time:** 17 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -55,7 +55,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 11 | ☐ Imperial Navy Stasis Webifier | 2 | **44,140,000** | 48,870,000 | 44,130,000 |
+| 11 | ☐ Imperial Navy Stasis Webifier | 2 | **44,150,000** | 48,870,000 | 44,140,000 |
 
 ## 12. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
 _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
@@ -76,9 +76,9 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 14 | ☐ Bomb Launcher II | 2,246,000 | **2,248,000** | 2,595,000 | 2,247,000 |
-| 15 | ☐ Compressed Hezorime III-Grade | 777.30 | **810.10** | 883.00 | 810.00 |
-| 16 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **175,300,000** | 178,500,000 | 175,200,000 |
+| 14 | ☐ Compressed Hezorime III-Grade | 777.30 | **810.10** | 883.00 | 810.00 |
+| 15 | ☐ Criterion Cipher | 10,580,000 | **19,130,000** | 19,130,000 | 20,000,000 |
+| 16 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **174,600,000** | 178,500,000 | 174,500,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
@@ -87,22 +87,24 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 |---|---|---|---|---|---|
 | 17 | ☐ Low-grade Harvest Beta | 1 | **41,700,000** | 57,100,000 | 41,690,000 |
 
-### Block 2 · should do · about 2 min
+### Block 2 · should do · about 3 min
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 18 | ☐ Criterion Cipher | 10,580,000 | **18,430,000** | 18,430,000 | 20,060,000 |
-| 19 | ☐ Gistum B-Type Medium Shield Booster | 108,400,000 | **107,600,000** | 107,600,000 | 113,400,000 |
+| 18 | ☐ 50MN Microwarpdrive II | 3,637,000 | **3,672,000** | 3,737,000 | 3,671,000 |
+| 19 | ☐ Bomb Launcher II | 2,246,000 | **2,250,000** | 2,594,000 | 2,249,000 |
+| 20 | ☐ Gistum B-Type Medium Shield Booster | 108,400,000 | **107,600,000** | 107,600,000 | 113,400,000 |
+| 21 | ☐ Sansha NET Resonator | 2,508,000 | **2,554,000** | 2,576,000 | 2,553,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 20 | ☐ Compressed Fullerite-C540 | 1 | **42,320** | 44,010 | 42,310 |
+| 22 | ☐ Compressed Fullerite-C32 | 1 | **18,580** | 18,750 | 18,570 |
 
 ### Block 3 · if there's time · about 1 min
 
@@ -111,9 +113,14 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 21 | ☐ 50MN Microwarpdrive II | 3,637,000 | **3,671,000** | 3,738,000 | 3,670,000 |
-| 22 | ☐ Sansha NET Resonator | 2,508,000 | **2,552,000** | 2,578,000 | 2,551,000 |
-| 23 | ☐ Siren II | 24,050,000 | **24,470,000** | 27,370,000 | 24,460,000 |
+| 23 | ☐ Siren II | 24,050,000 | **24,480,000** | 27,370,000 | 24,470,000 |
+
+#### New buy orders
+_Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
+
+| # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
+|---|---|---|---|---|---|
+| 24 | ☐ Mjolnir Javelin XL Torpedo | 1 | **3,851** | 8,360 | 3,850 |
 
 ---
 Wallet 325.16M · escrow 790.19M · stock 3.06B · in transit 790.67M · net worth 4.96B (liquidation 2.48B)
