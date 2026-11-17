@@ -590,6 +590,7 @@ type_id,name,volume,group_id
 15753,Republic Fleet 10MN Afterburner,5,46
 15764,Federation Navy 50MN Microwarpdrive,10,46
 15766,Federation Navy 10MN Afterburner,5,46
+15768,,10,46
 15790,Caldari Navy Cloaking Device,100,330
 15792,Federation Navy Tracking Computer,5,213
 15804,Imperial Navy Heavy Energy Neutralizer,,
@@ -1522,7 +1523,7 @@ type_id,name,volume,group_id
 33917,Low-grade Centurion Alpha,1,300
 33923,Low-grade Crystal Alpha,1,300
 33924,Low-grade Crystal Beta,1,300
-33925,Low-grade Crystal Delta,1,
+33925,Low-grade Crystal Delta,1,300
 33926,Low-grade Crystal Epsilon,1,
 33927,Low-grade Crystal Gamma,1,300
 33928,,1,300
@@ -1634,7 +1635,7 @@ type_id,name,volume,group_id
 40561,Malleus II,1800,1653
 40569,,3000,1537
 40570,Siren II,3000,1537
-40661,Capital Infectious Scoped Energy Neutralizer,,
+40661,Capital Infectious Scoped Energy Neutralizer,1000,71
 40690,Sentient Burst Jammer,5,80
 40730,Heavy Warp Disruptor I,100,52
 40734,,100,
@@ -1754,7 +1755,7 @@ type_id,name,volume,group_id
 45627,,40,
 45628,,40,
 45629,Proteus Core - Augmented Fusion Reactor,40,
-45630,,40,
+45630,Proteus Core - Friction Extension Processor,40,958
 45631,Loki Core - Dissolution Sequencer,40,
 45632,Loki Core - Augmented Nuclear Reactor,40,958
 45633,Loki Core - Immobility Drivers,40,958
@@ -1949,6 +1950,7 @@ type_id,name,volume,group_id
 56068,Proximity-5 'Extraction' Filament,0.1,4087
 56069,Proximity-15 'Extraction' Filament,,
 56133,,0.1,
+56136,Tranquil Gamma Filament,,
 56139,Cataclysmic Electrical Filament,0.1,1979
 56140,Cataclysmic Dark Filament,0.1,1979
 56141,Cataclysmic Exotic Filament,0.1,1979
@@ -1965,6 +1967,7 @@ type_id,name,volume,group_id
 57117,Mid-grade Rapture Alpha,,
 57118,,1,
 57119,Mid-grade Rapture Gamma,,
+57120,,1,300
 57121,Mid-grade Rapture Epsilon,1,
 57207,Mining Barge Operations,1,
 57319,Mobile Cynosural Beacon,400,4093

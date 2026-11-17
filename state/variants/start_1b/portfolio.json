@@ -1,13 +1,26 @@
 {
- "cash": 101066414.86415008,
+ "cash": 157441591.84040007,
  "created": 1793854970.3735604,
  "import_hub": "amarr",
  "in_transit": [],
  "inventory": {
-  "jita": {}
+  "jita": {
+   "18845": {
+    "cost": 6091000.0,
+    "qty": 2,
+    "since": 1794938259.0,
+    "tag": "station"
+   },
+   "2993": {
+    "cost": 480200.0,
+    "qty": 1,
+    "since": 1794938259.0,
+    "tag": "station"
+   }
+  }
  },
  "last_jump": 1794931228.2503583,
- "last_t": 1794931228.2503583,
+ "last_t": 1794938429.4187365,
  "location": "amarr",
  "next_oid": 52,
  "orders": [
@@ -17,7 +30,7 @@
    "oid": 3,
    "price": 480200.0,
    "qty": 63,
-   "remain": 59,
+   "remain": 58,
    "side": "buy",
    "tag": "station",
    "type_id": 2993,
@@ -107,20 +120,6 @@
    "tag": "station",
    "type_id": 84173,
    "unit_cost": 2233000.0,
-   "updated": 1794931228.2503583
-  },
-  {
-   "created": 1794172982.5196922,
-   "hub": "jita",
-   "oid": 16,
-   "price": 57490000.0,
-   "qty": 1,
-   "remain": 1,
-   "side": "sell",
-   "since": 1794002392.0,
-   "tag": "station",
-   "type_id": 17491,
-   "unit_cost": 37300000.0,
    "updated": 1794931228.2503583
   },
   {
@@ -255,7 +254,7 @@
    "oid": 32,
    "price": 3791.0,
    "qty": 2893,
-   "remain": 2893,
+   "remain": 2706,
    "side": "sell",
    "since": 1794175207.0,
    "tag": "station",
@@ -324,18 +323,6 @@
    "tag": "station",
    "type_id": 62517,
    "updated": 1794715232.5265682
-  },
-  {
-   "created": 1794715232.5265682,
-   "hub": "jita",
-   "oid": 40,
-   "price": 6091000.0,
-   "qty": 4,
-   "remain": 2,
-   "side": "buy",
-   "tag": "station",
-   "type_id": 18845,
-   "updated": 1794931228.2503583
   },
   {
    "created": 1794715232.5265682,
@@ -441,20 +428,6 @@
   },
   {
    "created": 1794931228.2503583,
-   "hub": "jita",
-   "oid": 49,
-   "price": 48460.0,
-   "qty": 3,
-   "remain": 3,
-   "side": "sell",
-   "since": 1794628632.0,
-   "tag": "station",
-   "type_id": 31998,
-   "unit_cost": 40780.0,
-   "updated": 1794931228.2503583
-  },
-  {
-   "created": 1794931228.2503583,
    "hub": "amarr",
    "oid": 50,
    "price": 6516000.0,
@@ -480,10 +453,10 @@
  ],
  "per_strategy": {
   "station": {
-   "buys": 239759153.1,
+   "buys": 252421353.1,
    "fees": 27592453.835849993,
-   "realized": -18227630.98584999,
-   "sales": 18484360.0
+   "realized": 187767.99040000886,
+   "sales": 76828657.0
   }
  },
  "per_type": {
@@ -555,13 +528,13 @@
    "bought_isk": 37300000.0,
    "bought_units": 1,
    "fees": 2556630.0,
-   "realized": -2556630.0,
-   "sold_net": 0.0,
-   "sold_units": 0
+   "realized": 15693082.5,
+   "sold_net": 55549712.5,
+   "sold_units": 1
   },
   "jita:18845": {
-   "bought_isk": 12134000.0,
-   "bought_units": 2,
+   "bought_isk": 24316000.0,
+   "bought_units": 4,
    "fees": 671196.0,
    "realized": -671196.0,
    "sold_net": 0.0,
@@ -579,9 +552,9 @@
    "bought_isk": 8314482.0,
    "bought_units": 2893,
    "fees": 458902.12499999994,
-   "realized": -458902.12499999994,
-   "sold_net": 0.0,
-   "sold_units": 0
+   "realized": -311349.0737499999,
+   "sold_net": 684991.05125,
+   "sold_units": 187
   },
   "jita:27369": {
    "bought_isk": 0.0,
@@ -608,8 +581,8 @@
    "sold_units": 0
   },
   "jita:2993": {
-   "bought_isk": 1528400.0,
-   "bought_units": 4,
+   "bought_isk": 2008600.0,
+   "bought_units": 5,
    "fees": 643657.8,
    "realized": 314296.7,
    "sold_net": 2486354.5,
@@ -619,9 +592,9 @@
    "bought_isk": 162630.0,
    "bought_units": 4,
    "fees": 1000438.7699999999,
-   "realized": -987430.4199999999,
-   "sold_net": 53298.35,
-   "sold_units": 1
+   "realized": -969296.9949999999,
+   "sold_net": 193771.775,
+   "sold_units": 4
   },
   "jita:33923": {
    "bought_isk": 0.0,
@@ -794,12 +767,12 @@
  },
  "pnl": {
   "broker": 21987770.924249995,
-  "buys": 239759153.1,
+  "buys": 252421353.1,
   "courier": 0.0,
-  "realized": -18227630.98584999,
+  "realized": 187767.99040000886,
   "relist": 5604682.911599999,
-  "sales": 18484360.0,
-  "tax": 623847.1499999999
+  "sales": 76828657.0,
+  "tax": 2592967.1737499996
  },
  "start_isk": 1000000000,
  "version": 2,
