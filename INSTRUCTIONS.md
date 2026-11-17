@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Mon 16 Nov 21:15 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 24 · **Est. time:** 17 min. Work top to bottom; stop any time.  
+**Updated:** Mon 16 Nov 22:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 23 · **Est. time:** 16 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -24,7 +24,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 |---|---|---|---|---|---|
 | 1 | ☐ 'Cartel' Power Diagnostic System I | 68,160,000 | **68,120,000** | 30,280,000 | 68,130,000 |
 | 2 | ☐ Black Market 'Valdimar' Drone Navigation DN-701 | 224,800,000 | **166,500,000** | 126,600,000 | 166,600,000 |
-| 3 | ☐ Dread Guristas Rocket Launcher | 99,220,000 | **99,180,000** | 47,280,000 | 99,190,000 |
+| 3 | ☐ Dread Guristas Rocket Launcher | 99,220,000 | **99,160,000** | 47,280,000 | 99,170,000 |
 | 4 | ☐ Golem Exoplanets Hunter SKIN | 175,370,000 | **157,800,000** | 130,200,000 | - |
 | 5 | ☐ Standup M-Set Basic Small Ship Manufacturing Material Efficiency I | 699,600,000 | **629,600,000** | 335,200,000 | 715,000,000 |
 | 6 | ☐ Typhoon Fleet Issue Capsuleer Elite XX SKIN | 815,900,000 | **734,300,000** | 420,200,000 | - |
@@ -45,7 +45,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 10 | ☐ Large Disintegrator Specialization | 1 | **92,430,000** | 137,800,000 | 92,420,000 |
+| 10 | ☐ Large Disintegrator Specialization | 1 | **92,510,000** | 137,800,000 | 92,500,000 |
 
 ### Block 3 · if there's time · about 1 min
 _Short on time? Skip to the jump (step 12): the next hub's Block 1 is worth more per minute than the rest of this hub._
@@ -95,32 +95,25 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 18 | ☐ Criterion Cipher | 10,580,000 | **18,430,000** | 18,430,000 | 20,060,000 |
-| 19 | ☐ Gistum B-Type Medium Shield Booster | 108,400,000 | **107,700,000** | 107,700,000 | 113,400,000 |
-| 20 | ☐ Sansha NET Resonator | 2,508,000 | **2,552,000** | 2,578,000 | 2,551,000 |
+| 19 | ☐ Gistum B-Type Medium Shield Booster | 108,400,000 | **107,600,000** | 107,600,000 | 113,400,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 21 | ☐ Compressed Fullerite-C540 | 2 | **42,290** | 44,010 | 42,280 |
+| 20 | ☐ Compressed Fullerite-C540 | 1 | **42,320** | 44,010 | 42,310 |
 
-### Block 3 · if there's time · about 2 min
+### Block 3 · if there's time · about 1 min
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 22 | ☐ 50MN Microwarpdrive II | 3,637,000 | **3,671,000** | 3,737,000 | 3,670,000 |
+| 21 | ☐ 50MN Microwarpdrive II | 3,637,000 | **3,671,000** | 3,738,000 | 3,670,000 |
+| 22 | ☐ Sansha NET Resonator | 2,508,000 | **2,552,000** | 2,578,000 | 2,551,000 |
 | 23 | ☐ Siren II | 24,050,000 | **24,470,000** | 27,370,000 | 24,460,000 |
-
-#### New buy orders
-_Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
-
-| # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
-|---|---|---|---|---|---|
-| 24 | ☐ Compressed Fullerite-C32 | 2 | **18,540** | 18,760 | 18,530 |
 
 ---
 Wallet 325.16M · escrow 790.19M · stock 3.06B · in transit 790.67M · net worth 4.96B (liquidation 2.48B)
