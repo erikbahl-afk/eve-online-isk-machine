@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Tue 17 Nov 05:27 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Tue 17 Nov 06:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 34 · **Est. time:** 24 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -113,14 +113,14 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 |---|---|---|---|---|---|
 | 28 | ☐ Bomb Launcher II | 2,246,000 | **2,250,000** | 2,594,000 | 2,249,000 |
 | 29 | ☐ Criterion Cipher | 10,580,000 | **19,580,000** | 19,580,000 | 20,000,000 |
-| 30 | ☐ Gistum B-Type Medium Shield Booster | 108,400,000 | **105,800,000** | 105,800,000 | 112,800,000 |
+| 30 | ☐ Gistum B-Type Medium Shield Booster | 108,400,000 | **105,700,000** | 105,700,000 | 112,800,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 31 | ☐ Compressed Fullerite-C540 | 260 | **43,010** | 44,000 | 43,000 |
+| 31 | ☐ Compressed Fullerite-C540 | 260 | **43,010** | 43,830 | 43,000 |
 
 ### Block 3 · if there's time · about 1 min
 
@@ -130,7 +130,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 32 | ☐ 50MN Microwarpdrive II | 3,637,000 | **3,673,000** | 3,738,000 | 3,672,000 |
-| 33 | ☐ Sansha NET Resonator | 2,508,000 | **2,474,000** | 2,474,000 | 2,576,000 |
+| 33 | ☐ Sansha NET Resonator | 2,508,000 | **2,474,000** | 2,474,000 | 2,578,000 |
 | 34 | ☐ Siren II | 24,050,000 | **24,490,000** | 27,370,000 | 24,480,000 |
 
 ---

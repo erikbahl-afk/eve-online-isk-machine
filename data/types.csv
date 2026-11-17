@@ -223,6 +223,7 @@ type_id,name,volume,group_id
 4405,Drone Damage Amplifier II,5,645
 4959,'Seed' Micro Capacitor Booster I,,
 5051,Heavy F-RX Compact Capacitor Booster,20,76
+5839,IFFA Compact Damage Control,5,60
 5973,5MN Y-T8 Compact Microwarpdrive,10,46
 6719,,5,
 7447,425mm Prototype Gauss Gun,20,74
@@ -392,8 +393,9 @@ type_id,name,volume,group_id
 12761,,0.025,376
 12765,,0.025,376
 12771,Tremor M,,
+12775,,0.025,372
 12779,,0.025,
-12787,,0.025,377
+12787,Null L,0.025,377
 12791,,0.025,377
 12807,,0.025,373
 12816,Conflagration L,1,375
@@ -500,6 +502,7 @@ type_id,name,volume,group_id
 14106,Domination 10MN Afterburner,5,46
 14108,,5,
 14118,,10,46
+14120,,10,46
 14122,Domination 5MN Microwarpdrive,10,46
 14124,Shadow Serpentis 5MN Microwarpdrive,10,46
 14126,Domination Overdrive Injector,5,
@@ -1616,6 +1619,7 @@ type_id,name,volume,group_id
 37847,Standup Heavy Missile,0.5,
 37848,,0.5,
 40347,,3000,
+40349,25000mm Crystalline Carbonide Restrained Plates,,
 40351,25000mm Steel Plates II,1000,329
 40356,Capital F-S9 Regolith Compact Shield Extender,1000,38
 40357,,1000,38
@@ -2311,6 +2315,7 @@ type_id,name,volume,group_id
 97437,Ikitursa Tetrimon Crimson Mark SKIN,,
 97512,Aberrant Raspite,0.01,18
 97513,Aberrant Polycrase,0.01,18
+97514,Aberrant Moissanite,0.001,18
 97516,Akoman Blueprint Crate,1,1194
 97552,Hyperspherical Housing,0.1,1194
 97560,Polycrase X-Grade,,
