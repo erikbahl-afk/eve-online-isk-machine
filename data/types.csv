@@ -440,6 +440,7 @@ type_id,name,volume,group_id
 13809,Dark Blood Small Focused Beam Laser,5,53
 13815,Dark Blood Mega Pulse Laser,20,53
 13824,,10,
+13827,,10,53
 13828,True Sansha Heavy Pulse Laser,,
 13829,,5,53
 13832,True Sansha Mega Pulse Laser,20,
@@ -685,6 +686,7 @@ type_id,name,volume,group_id
 17480,,3750,463
 17482,Strip Miner I,5,464
 17487,Republic Fleet Heavy Missile Launcher,10,
+17488,,5,507
 17491,Republic Fleet Light Missile Launcher,5,509
 17494,,5,
 17495,Caldari Navy Kinetic Shield Hardener,,
@@ -1616,6 +1618,7 @@ type_id,name,volume,group_id
 40347,,3000,
 40351,25000mm Steel Plates II,1000,329
 40356,Capital F-S9 Regolith Compact Shield Extender,1000,38
+40357,,1000,38
 40361,,800,1652
 40519,Skill Extractor,0.01,1301
 40520,Large Skill Injector,0.01,1739
@@ -2089,7 +2092,7 @@ type_id,name,volume,group_id
 73455,Prophecy Sanguinary Savant SKIN,,
 73466,Paladin Order of Tetrimon SKIN,0.01,
 73789,Coercer Navy Issue,5000,420
-73794,,5000,
+73794,,5000,420
 73795,Cormorant Navy Issue,5000,420
 73796,,5000,
 74160,,0.01,
@@ -2276,6 +2279,7 @@ type_id,name,volume,group_id
 96321,Salvation Sanguinary Savant SKIN,,
 96326,Captured Bioadaptive Cache,1,1194
 96333,,0.01,1950
+96516,Federal Equilibrium Token,,
 96543,Potent 'Radiance' Cerebral Accelerator,1,303
 96544,Extended 'Radiance' Cerebral Accelerator,1,303
 96556,,1,
@@ -2310,6 +2314,7 @@ type_id,name,volume,group_id
 97516,Akoman Blueprint Crate,1,1194
 97552,Hyperspherical Housing,0.1,1194
 97560,Polycrase X-Grade,,
+97570,,0.01,5086
 97621,Pioneer Medical Enforcement Taskforce SKIN,,
 97639,Unstable Capital Remote Armor Repairer Mutaplasmid,,
 97650,Decayed Large Remote Armor Repairer Mutaplasmid,,

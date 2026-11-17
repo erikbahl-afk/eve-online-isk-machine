@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Tue 17 Nov 04:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Tue 17 Nov 05:27 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 34 · **Est. time:** 24 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -22,7 +22,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 1 | ☐ 'Cartel' Power Diagnostic System I | 68,160,000 | **68,120,000** | 30,280,000 | 68,130,000 |
+| 1 | ☐ 'Cartel' Power Diagnostic System I | 68,160,000 | **68,110,000** | 30,280,000 | 68,120,000 |
 | 2 | ☐ Black Market 'Valdimar' Drone Navigation DN-701 | 224,800,000 | **166,500,000** | 126,600,000 | 166,600,000 |
 | 3 | ☐ Capital I-a Enduring Armor Repairer | 199,700,000 | **199,700,000** | 88,790,000 | 199,800,000 |
 | 4 | ☐ Dread Guristas Rocket Launcher | 99,220,000 | **99,160,000** | 47,280,000 | 99,170,000 |
@@ -38,7 +38,7 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
 | 10 | ☐ Improved 'Guise' Cloaking Device II | 2 | **49,940,000** | 31,940,000 | 49,950,000 |
-| 11 | ☐ Limited Expanded 'Archiver' Cargo | 3 | **49,740,000** | 25,980,000 | 49,750,000 |
+| 11 | ☐ Limited Expanded 'Archiver' Cargo | 3 | **49,730,000** | 25,980,000 | 49,740,000 |
 | 12 | ☐ Standup Moon Drill I | 2 | **148,800,000** | 130,900,000 | 148,900,000 |
 
 ### Block 2 · should do · about 4 min
@@ -65,7 +65,7 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
 | 19 | ☐ Compressed Raspite X-Grade | 2 | **178.00** | 104.20 | 178.10 |
-| 20 | ☐ Polarized Light Neutron Blaster | 8 | **5,523,000** | 3,818,000 | 5,524,000 |
+| 20 | ☐ Polarized Light Neutron Blaster | 8 | **5,929,000** | 3,818,000 | 5,930,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
@@ -94,7 +94,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 24 | ☐ Compressed Hezorime III-Grade | 777.30 | **810.10** | 883.00 | 810.00 |
-| 25 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **174,600,000** | 178,500,000 | 174,500,000 |
+| 25 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **174,600,000** | 178,300,000 | 174,500,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
@@ -112,15 +112,15 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 28 | ☐ Bomb Launcher II | 2,246,000 | **2,250,000** | 2,594,000 | 2,249,000 |
-| 29 | ☐ Criterion Cipher | 10,580,000 | **19,210,000** | 19,210,000 | 20,000,000 |
-| 30 | ☐ Gistum B-Type Medium Shield Booster | 108,400,000 | **106,000,000** | 106,000,000 | 112,800,000 |
+| 29 | ☐ Criterion Cipher | 10,580,000 | **19,580,000** | 19,580,000 | 20,000,000 |
+| 30 | ☐ Gistum B-Type Medium Shield Booster | 108,400,000 | **105,800,000** | 105,800,000 | 112,800,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 31 | ☐ Compressed Fullerite-C540 | 263 | **42,420** | 44,000 | 42,410 |
+| 31 | ☐ Compressed Fullerite-C540 | 260 | **43,010** | 44,000 | 43,000 |
 
 ### Block 3 · if there's time · about 1 min
 
@@ -130,7 +130,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 32 | ☐ 50MN Microwarpdrive II | 3,637,000 | **3,673,000** | 3,738,000 | 3,672,000 |
-| 33 | ☐ Sansha NET Resonator | 2,508,000 | **2,474,000** | 2,474,000 | 2,575,000 |
+| 33 | ☐ Sansha NET Resonator | 2,508,000 | **2,474,000** | 2,474,000 | 2,576,000 |
 | 34 | ☐ Siren II | 24,050,000 | **24,490,000** | 27,370,000 | 24,480,000 |
 
 ---
