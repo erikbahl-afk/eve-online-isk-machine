@@ -160,6 +160,7 @@ type_id,name,volume,group_id
 3214,,1,
 3218,Harvester Mining Drone,10,101
 3237,Inherent Implants 'Squire' Capacitor Management EM-802,,
+3238,Inherent Implants 'Squire' Capacitor Management EM-804,,
 3239,Inherent Implants 'Squire' Capacitor Management EM-806,1,741
 3240,Inherent Implants 'Squire' Capacitor Systems Operation EO-602,1,
 3241,Inherent Implants 'Squire' Capacitor Systems Operation EO-604,1,
@@ -527,6 +528,7 @@ type_id,name,volume,group_id
 14176,Dark Blood Medium Capacitor Booster,,
 14184,Dark Blood Small Capacitor Booster,5,76
 14190,True Sansha Large EMP Smartbomb,50,72
+14200,,5,72
 14202,True Sansha Small EMP Smartbomb,5,72
 14204,Dread Guristas Large Graviton Smartbomb,50,72
 14206,Shadow Serpentis Large Plasma Smartbomb,50,72
@@ -887,7 +889,7 @@ type_id,name,volume,group_id
 19549,Inherent Implants 'Noble' Mechanic MC-805,1,738
 19550,Inherent Implants 'Noble' Hull Upgrades HG-1005,1,
 19554,High-grade Snake Delta,1,300
-19555,,1,300
+19555,High-grade Snake Epsilon,1,300
 19556,High-grade Snake Omega,,
 19684,Inherent Implants 'Noble' Repair Proficiency RP-903,1,738
 19685,Inherent Implants 'Noble' Repair Proficiency RP-905,1,
@@ -2324,6 +2326,7 @@ type_id,name,volume,group_id
 97516,Akoman Blueprint Crate,1,1194
 97552,Hyperspherical Housing,0.1,1194
 97560,Polycrase X-Grade,,
+97569,,0.01,5085
 97570,,0.01,5086
 97621,Pioneer Medical Enforcement Taskforce SKIN,,
 97639,Unstable Capital Remote Armor Repairer Mutaplasmid,,
