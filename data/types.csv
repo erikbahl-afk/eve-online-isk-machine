@@ -769,6 +769,7 @@ type_id,name,volume,group_id
 18881,Corpum A-Type Multispectrum Energized Membrane,5,
 18883,Centum A-Type Multispectrum Energized Membrane,5,326
 18885,Corpus C-Type EM Armor Hardener,5,328
+18891,Centus C-Type Explosive Armor Hardener,,
 18897,Corpus C-Type Thermal Armor Hardener,5,
 18905,Corpus B-Type Explosive Armor Hardener,5,328
 18913,Corpus B-Type Thermal Armor Hardener,,
@@ -1052,6 +1053,7 @@ type_id,name,volume,group_id
 23797,,10,
 23803,'Censer' Medium Cap Battery,10,
 23805,'Thurifer' Large Cap Battery,15,61
+23894,,5,768
 23896,,5,767
 24242,Infomorph Psychology,,
 24438,Omnidirectional Tracking Link II,,
@@ -1160,6 +1162,7 @@ type_id,name,volume,group_id
 27118,Inherent Implants 'Squire' Capacitor Systems Operation EO-605,1,741
 27126,Inherent Implants 'Squire' Power Grid Management EG-605,1,
 27142,Zainou 'Gypsy' CPU Management EE-605,1,
+27148,Eifyr and Co. 'Alchemist' Biology BY-810,1,1231
 27167,Zainou 'Beancounter' Industry BX-802,1,743
 27169,Zainou 'Beancounter' Reprocessing RX-802,1,1229
 27171,Zainou 'Beancounter' Industry BX-804,1,743
@@ -1769,7 +1772,7 @@ type_id,name,volume,group_id
 47037,Standup Siren I,,
 47133,Standup Dromi I,,
 47136,Standup Siren II,6000,4778
-47139,,2000,
+47139,,2000,4777
 47270,,10000,26
 47271,,50000,27
 47298,Standup Multirole Missile Launcher II,4000,
@@ -1865,6 +1868,7 @@ type_id,name,volume,group_id
 52238,Zorya's Heavy Entropic Disintegrator,10,
 52242,Zorya's Entropic Radiation Sink,5,1988
 52244,Veles Entropic Radiation Sink,5,1988
+52250,Nergal,2500,324
 52278,Praxis Capsuleer Day XVI SKIN,0.01,
 52312,Zero-Point Field Manipulator,1,334
 52313,Trinary State Processor,1,334
@@ -2313,6 +2317,7 @@ type_id,name,volume,group_id
 97652,Gravid Large Remote Armor Repairer Mutaplasmid,,
 97654,Glorified Unstable Large Remote Armor Repairer Mutaplasmid,1,1964
 97662,Unstable Medium Remote Armor Repairer Mutaplasmid,,
+97666,Glorified Unstable Medium Remote Armor Repairer Mutaplasmid,1,1964
 97669,Decayed Small Remote Armor Repairer Mutaplasmid,1,1964
 97670,Unstable Small Remote Armor Repairer Mutaplasmid,,
 97671,,1,
