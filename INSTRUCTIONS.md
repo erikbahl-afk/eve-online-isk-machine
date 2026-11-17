@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Tue 17 Nov 14:25 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
-**Steps:** 18 · **Est. time:** 13 min. Work top to bottom; stop any time.  
+**Updated:** Tue 17 Nov 15:10 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
+**Steps:** 21 · **Est. time:** 14 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -24,7 +24,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 |---|---|---|---|---|---|
 | 1 | ☐ Compressed Fullerite-C540 | 42,580 | **43,110** | 43,650 | 43,100 |
 | 2 | ☐ Compressed Hezorime III-Grade | 778.10 | **778.30** | 883.00 | 778.20 |
-| 3 | ☐ Criterion Cipher | 10,590,000 | **10,590,000** | 19,580,000 | 10,580,000 |
+| 3 | ☐ Criterion Cipher | 10,590,000 | **12,010,000** | 19,580,000 | 12,000,000 |
 | 4 | ☐ Sansha NET Resonator | 2,474,000 | **2,473,000** | 2,473,000 | 2,586,000 |
 
 #### Cancel buy orders
@@ -82,31 +82,34 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
 | 12 | ☐ Capital I-a Enduring Armor Repairer | 199,700,000 | **199,700,000** | 88,790,000 | 199,800,000 |
-| 13 | ☐ Mobile Large Warp Disruptor I | 24,840,000 | **24,800,000** | 18,570,000 | 24,810,000 |
-| 14 | ☐ Zero-Point Mass Entangler | 8,875,000 | **8,875,000** | 8,875,000 | 8,865,000 |
+| 13 | ☐ Golem Exoplanets Hunter SKIN | 157,800,000 | **157,800,000** | 130,200,000 | - |
+| 14 | ☐ Men's 'Precision' Boots | 89,990,000 | **99,990,000** | 49,760,000 | 100,000,000 |
+| 15 | ☐ Mobile Large Warp Disruptor I | 24,840,000 | **24,800,000** | 18,570,000 | 24,810,000 |
+| 16 | ☐ Typhoon Fleet Issue Capsuleer Elite XX SKIN | 734,300,000 | **734,300,000** | 420,200,000 | - |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 15 | ☐ Large Disintegrator Specialization | 92,550,000 | **92,610,000** | 137,800,000 | 92,600,000 |
+| 17 | ☐ Large Disintegrator Specialization | 92,550,000 | **92,610,000** | 137,800,000 | 92,600,000 |
 
-### Block 2 · should do · about 1 min
+### Block 2 · should do · about 2 min
 
 #### Fix undercut sell orders
 _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours is already the lowest, skip._
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 16 | ☐ Polarized Light Neutron Blaster | 5,929,000 | **5,928,000** | 3,818,000 | 5,929,000 |
+| 18 | ☐ Polarized Light Neutron Blaster | 5,929,000 | **5,928,000** | 3,818,000 | 5,929,000 |
+| 19 | ☐ Zero-Point Mass Entangler | 8,875,000 | **8,875,000** | 8,875,000 | 8,865,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 17 | ☐ Medium Industrial Core I | 2 | **7,775,000** | 10,450,000 | 7,774,000 |
+| 20 | ☐ Medium Industrial Core I | 2 | **7,775,000** | 10,450,000 | 7,774,000 |
 
 ### Block 3 · if there's time · about 1 min
 
@@ -115,7 +118,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 18 | ☐ Mechanical Engineering | 1 | **6,516,000** | 12,560,000 | 6,515,000 |
+| 21 | ☐ Mechanical Engineering | 1 | **6,516,000** | 12,560,000 | 6,515,000 |
 
 ---
 Wallet 125.77M · escrow 966.64M · stock 3.84B · in transit 0.00 · net worth 4.93B (liquidation 2.45B)
