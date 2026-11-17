@@ -80,7 +80,7 @@ type_id,name,volume,group_id
 2311,Reactive Gas,0.005,1033
 2319,,0.75,1034
 2321,Polyaramids,0.75,1034
-2327,,0.75,
+2327,,0.75,1034
 2328,Water-Cooled CPU,0.75,1034
 2344,,3,1040
 2345,Camera Drones,3,1040
@@ -479,6 +479,7 @@ type_id,name,volume,group_id
 13998,,5,77
 14001,True Sansha Multispectrum Coating,5,98
 14041,,5,
+14043,Dread Guristas EM Shield Amplifier,5,295
 14045,Domination Shield Boost Amplifier,5,338
 14047,,5,
 14049,Shadow Serpentis Multispectrum Coating,5,98
@@ -516,7 +517,7 @@ type_id,name,volume,group_id
 14170,True Sansha Heavy Energy Neutralizer,5,71
 14172,Dark Blood Heavy Capacitor Booster,20,76
 14176,Dark Blood Medium Capacitor Booster,,
-14184,Dark Blood Small Capacitor Booster,,
+14184,Dark Blood Small Capacitor Booster,5,76
 14190,True Sansha Large EMP Smartbomb,50,72
 14202,True Sansha Small EMP Smartbomb,5,72
 14204,Dread Guristas Large Graviton Smartbomb,50,72
@@ -648,7 +649,7 @@ type_id,name,volume,group_id
 16650,Dysprosium,0.05,427
 16651,Neodymium,0.05,427
 16652,Promethium,0.05,427
-16653,Thulium,,
+16653,Thulium,0.05,427
 16661,,0.2,428
 16667,Neo Mercurite,0.2,428
 16668,Dysporite,0.2,428
@@ -1180,12 +1181,14 @@ type_id,name,volume,group_id
 27347,,0.05,89
 27351,Caldari Navy Inferno Torpedo,0.05,89
 27355,Dread Guristas Inferno Torpedo,,
+27365,,0.015,384
 27369,Dread Guristas Inferno Light Missile,0.015,384
 27377,Caldari Navy Mjolnir Cruise Missile,0.05,386
 27381,Caldari Navy Nova Light Missile,,
 27389,,0.05,386
 27395,Caldari Navy Scourge Cruise Missile,0.05,386
-27401,,0.015,
+27401,Caldari Navy Nova Heavy Assault Missile,0.015,772
+27409,Guristas Inferno Cruise Missile,,
 27419,Caldari Navy Mjolnir Heavy Assault Missile,0.015,772
 27421,,0.015,
 27423,Caldari Navy Inferno Cruise Missile,0.05,386
@@ -1210,6 +1213,7 @@ type_id,name,volume,group_id
 28213,Curator II,25,100
 28262,'Integrated' Acolyte,,
 28264,'Augmented' Acolyte,5,100
+28270,,10,100
 28272,'Augmented' Hammerhead,10,100
 28276,,5,
 28280,'Augmented' Hornet,5,
@@ -1434,6 +1438,7 @@ type_id,name,volume,group_id
 32109,Low-grade Spur Delta,,
 32246,,0.1,479
 32254,Imperial Navy Modified 'Noble' Implant,1,738
+32262,,25,647
 32305,Armageddon Navy Issue,50000,
 32309,Scorpion Navy Issue,50000,27
 32414,Domination Target Painter,5,379
@@ -1925,6 +1930,7 @@ type_id,name,volume,group_id
 56701,Mobile Sanguine Harvester,100,1250
 56715,Cultural Semiosis Data,0.1,526
 56716,Protective Equipment Patterns,0.1,526
+57064,Rifter Zakura Shumyu SKIN,,
 57112,Low-grade Rapture Gamma,,
 57117,Mid-grade Rapture Alpha,,
 57118,,1,
@@ -2154,7 +2160,7 @@ type_id,name,volume,group_id
 89615,Expedition Command Burst II,60,
 89647,Pioneer Consortium Issue,5000,420
 89648,Venture Consortium Issue,2500,25
-89649,,5000,
+89649,,5000,1534
 89665,,0.01,1950
 89689,Advanced Armor Layering,,
 90022,Babaroga Deathglow Remnant SKIN,,
@@ -2239,6 +2245,7 @@ type_id,name,volume,group_id
 95672,Liberated Matar Background,0.1,
 95673,Foundation Wisdom Background,0.1,
 95741,Akoman,15000,1201
+96145,,5,5140
 96317,,0.01,1950
 96318,,0.01,1950
 96320,Coercer Sanguinary Savant SKIN,0.01,1950
