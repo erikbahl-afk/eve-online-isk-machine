@@ -297,7 +297,7 @@ type_id,name,volume,group_id
 11452,Mechanical Engineering,0.01,270
 11453,Electronic Engineering,0.01,270
 11529,Molecular Engineering,0.01,270
-11531,,1,
+11531,,1,334
 11534,Gravimetric Sensor Cluster,1,334
 11535,Magnetometric Sensor Cluster,1,334
 11536,,1,
@@ -1186,7 +1186,7 @@ type_id,name,volume,group_id
 27190,Poteque 'Prospector' Astrometric Pinpointing AP-610,,
 27192,Poteque 'Prospector' Astrometric Acquisition AQ-710,1,1230
 27194,Poteque 'Prospector' Astrometric Rangefinding AR-810,1,1230
-27196,,1,
+27196,Poteque 'Prospector' Archaeology AC-905,1,1230
 27238,Eifyr and Co. 'Alchemist' Gas Harvesting GH-803,1,1229
 27239,Eifyr and Co. 'Alchemist' Gas Harvesting GH-805,1,1229
 27245,Zainou 'Snapshot' Heavy Assault Missiles AM-705,,
