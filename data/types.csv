@@ -624,6 +624,7 @@ type_id,name,volume,group_id
 16068,Caldari Navy Light Missile Launcher,,
 16229,Brutix,15000,419
 16233,Prophecy,,
+16243,Thrasher Blueprint,,
 16246,Zainou 'Gnome' Shield Management SM-705,1,749
 16247,,1,
 16248,Zainou 'Gnome' Shield Operation SP-905,1,749
@@ -909,6 +910,7 @@ type_id,name,volume,group_id
 20415,Datacore - Molecular Engineering,0.1,
 20418,Datacore - Electronic Engineering,0.1,333
 20419,Datacore - Graviton Physics,0.1,333
+20421,,0.1,333
 20424,Datacore - Mechanical Engineering,0.1,333
 20443,Ogdin's Eye Coordination Enhancer,1,
 20445,Dual Giga Pulse Laser I Blueprint,,
