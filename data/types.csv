@@ -485,7 +485,7 @@ type_id,name,volume,group_id
 13978,True Sansha Kinetic Armor Hardener,5,328
 13982,True Sansha Thermal Armor Hardener,5,328
 13984,Dark Blood Thermal Armor Hardener,,
-13998,,5,77
+13998,Domination Multispectrum Shield Hardener,5,77
 14001,True Sansha Multispectrum Coating,5,98
 14041,,5,
 14043,Dread Guristas EM Shield Amplifier,5,295
@@ -749,7 +749,7 @@ type_id,name,volume,group_id
 18660,Gistum C-Type 10MN Afterburner,5,46
 18666,Gistum B-Type 10MN Afterburner,5,46
 18676,Gist X-Type 100MN Afterburner,5,46
-18682,,5,
+18682,,5,46
 18684,Core C-Type 100MN Afterburner,5,46
 18686,Coreli B-Type 1MN Afterburner,5,46
 18688,Corelum B-Type 10MN Afterburner,5,46
@@ -1880,7 +1880,7 @@ type_id,name,volume,group_id
 52224,,1,1964
 52225,Gravid Damage Control Mutaplasmid,1,
 52226,Unstable Damage Control Mutaplasmid,1,1964
-52236,Zorya's Light Entropic Disintegrator,,
+52236,Zorya's Light Entropic Disintegrator,5,1986
 52238,Zorya's Heavy Entropic Disintegrator,10,
 52242,Zorya's Entropic Radiation Sink,5,1988
 52244,Veles Entropic Radiation Sink,5,1988
@@ -2151,6 +2151,7 @@ type_id,name,volume,group_id
 82304,,0.04,4756
 82314,Compressed Hezorime III-Grade,0.05,4758
 82432,Admiral Noir's - Spiced Rum,0.1,1194
+83465,,1000,4769
 83467,Angel NET Resonator,1,334
 83468,Blood Raider NET Resonator,1,334
 83469,Guristas NET Resonator,1,334
@@ -2348,6 +2349,7 @@ type_id,name,volume,group_id
 97897,Bloody Sunset Background,,
 97955,Imperial Navy Stasis Webifier,5,65
 97957,,5,52
+97976,,25,644
 98134,SARO Monitoring Booster,1,303
 98135,SARO Pursuit Booster,1,303
 98137,,1,303

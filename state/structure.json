@@ -1,14 +1,28 @@
 {
- "ask_ratio_median": 1.0714,
- "buy_orders": 6122,
- "buy_orders_reaching_jita": 6041,
+ "ask_ratio_median": 1.0567,
+ "buy_orders": 6145,
+ "buy_orders_reaching_jita": 6064,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6494,
+ "orders": 6517,
  "sell_orders": 372,
- "share_ask_below_jita": 0.264,
+ "share_ask_below_jita": 0.2673,
  "structure_id": 1042508032148,
- "t": 1794960045.4995277,
+ "t": 1794967251.0814073,
  "top_ask_below_jita": [
+  {
+   "best_ask": 69970.0,
+   "gap": 0.9978,
+   "name": "",
+   "s_ask": 152.6,
+   "type_id": 90499
+  },
+  {
+   "best_ask": 50000.0,
+   "gap": 0.9329,
+   "name": "",
+   "s_ask": 3356.0,
+   "type_id": 84408
+  },
   {
    "best_ask": 21950.0,
    "gap": 0.9089,
@@ -17,8 +31,8 @@
    "type_id": 84399
   },
   {
-   "best_ask": 2358.0,
-   "gap": 0.894,
+   "best_ask": 2250.0,
+   "gap": 0.8889,
    "name": "",
    "s_ask": 250.0,
    "type_id": 90480
@@ -73,13 +87,6 @@
    "type_id": 48221
   },
   {
-   "best_ask": 2488.0,
-   "gap": 0.4678,
-   "name": "",
-   "s_ask": 1324.0,
-   "type_id": 90590
-  },
-  {
    "best_ask": 375700000.0,
    "gap": 0.4677,
    "name": "",
@@ -87,8 +94,15 @@
    "type_id": 34650
   },
   {
-   "best_ask": 3179.0,
-   "gap": 0.4608,
+   "best_ask": 2450.0,
+   "gap": 0.4596,
+   "name": "",
+   "s_ask": 1324.0,
+   "type_id": 90590
+  },
+  {
+   "best_ask": 3150.0,
+   "gap": 0.4559,
    "name": "",
    "s_ask": 1714.0,
    "type_id": 90526
@@ -99,20 +113,6 @@
    "name": "",
    "s_ask": 11000000.0,
    "type_id": 44896
-  },
-  {
-   "best_ask": 699900000.0,
-   "gap": 0.4285,
-   "name": "",
-   "s_ask": 400000000.0,
-   "type_id": 45665
-  },
-  {
-   "best_ask": 32780000.0,
-   "gap": 0.3899,
-   "name": "",
-   "s_ask": 20000000.0,
-   "type_id": 34601
   }
  ],
  "top_bid_over_jita": [
@@ -222,7 +222,7 @@
    "type_id": 47617
   }
  ],
- "types": 3855,
- "types_also_in_jita": 3830,
- "types_bid_over_jita_reaching": 767
+ "types": 3881,
+ "types_also_in_jita": 3856,
+ "types_bid_over_jita_reaching": 839
 }
