@@ -252,7 +252,7 @@ type_id,name,volume,group_id
 9957,Eifyr and Co. 'Gunslinger' Motion Prediction MR-703,1,742
 10151,,1,
 10155,Improved Blue Pill Booster,1,303
-10156,Strong Blue Pill Booster,1,
+10156,Strong Blue Pill Booster,1,303
 10165,Improved Sooth Sayer Booster,1,
 10204,Zainou 'Deadeye' Sharpshooter ST-903,1,742
 10208,Memory Augmentation - Standard,1,745
@@ -1551,7 +1551,7 @@ type_id,name,volume,group_id
 34278,Polarized Light Neutron Blaster,5,74
 34280,Polarized Heavy Neutron Blaster,10,
 34282,Polarized Neutron Blaster Cannon,20,74
-34290,Polarized Rocket Launcher,5,
+34290,Polarized Rocket Launcher,5,507
 34292,,10,
 34294,Polarized Torpedo Launcher,20,508
 34306,Large Higgs Anchor I,20,1308
@@ -1614,7 +1614,9 @@ type_id,name,volume,group_id
 37460,Scalpel,,
 37480,Bifrost,5000,1534
 37482,,5000,
+37599,,3000,1537
 37624,Corpii A-Type Small Energy Neutralizer,5,71
+37626,,5,71
 37627,Corpum A-Type Medium Energy Neutralizer,5,71
 37631,Corpus X-Type Heavy Energy Neutralizer,5,71
 37820,Caldari Navy Shield Power Relay,5,57
@@ -1652,6 +1654,7 @@ type_id,name,volume,group_id
 41191,Sentient Sensor Booster,5,212
 41193,Unit F-435454's Modified Sensor Booster,,
 41197,,5,
+41198,Sentient Remote Sensor Booster,,
 41200,Shadow Serpentis Damage Control,5,60
 41201,Syndicate Damage Control,5,60
 41202,Sentient Damage Control,5,60
@@ -1863,6 +1866,7 @@ type_id,name,volume,group_id
 49711,Drekavac,15000,419
 49712,,10000,
 49713,Zarmazd,10000,832
+49728,Gravid Heat Sink Mutaplasmid,1,1964
 49732,,1,
 49733,Unstable Gyrostabilizer Mutaplasmid,1,
 49737,,1,1964
