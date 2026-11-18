@@ -614,6 +614,7 @@ type_id,name,volume,group_id
 15830,Federation Navy Heavy Neutron Blaster,10,
 15837,Federation Navy 425mm Railgun,20,
 15840,Federation Navy 250mm Railgun,10,
+15860,Imperial Navy Tachyon Beam Laser,,
 15862,Imperial Navy Mega Pulse Laser,20,53
 15863,Imperial Navy Mega Beam Laser,20,53
 15865,Imperial Navy Small Focused Beam Laser,5,53
@@ -659,7 +660,7 @@ type_id,name,volume,group_id
 16537,Vigor Compact Micro Auxiliary Power Core,5,339
 16631,Small Artillery Battery,500,426
 16633,Hydrocarbons,0.05,427
-16636,Silicates,,
+16636,Silicates,0.05,427
 16637,Tungsten,0.05,427
 16641,Chromium,0.05,
 16642,Vanadium,0.05,427
@@ -795,6 +796,7 @@ type_id,name,volume,group_id
 18891,Centus C-Type Explosive Armor Hardener,,
 18897,Corpus C-Type Thermal Armor Hardener,5,
 18905,Corpus B-Type Explosive Armor Hardener,5,328
+18909,Corpus B-Type Kinetic Armor Hardener,,
 18913,Corpus B-Type Thermal Armor Hardener,,
 18923,Centus A-Type Kinetic Armor Hardener,,
 18933,Corpus X-Type EM Armor Hardener,5,328
@@ -1425,6 +1427,7 @@ type_id,name,volume,group_id
 31662,,5,
 31674,Small Projectile Burst Aerator II,,
 31676,,10,
+31720,Capital EM Shield Reinforcer I,,
 31748,,10,
 31760,Medium Thermal Shield Reinforcer II,10,774
 31770,,5,
@@ -1637,6 +1640,7 @@ type_id,name,volume,group_id
 37480,Bifrost,5000,1534
 37482,,5000,
 37599,,3000,1537
+37623,,5,71
 37624,Corpii A-Type Small Energy Neutralizer,5,71
 37626,,5,71
 37627,Corpum A-Type Medium Energy Neutralizer,5,71
