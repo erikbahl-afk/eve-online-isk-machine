@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Wed 18 Nov 09:16 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
+**Updated:** Wed 18 Nov 10:00 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
 **Steps:** 32 · **Est. time:** 19 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -54,10 +54,10 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 6 | ☐ 50MN Microwarpdrive II | 3,674,000 | **3,701,000** | 3,888,000 | 3,700,000 |
+| 6 | ☐ 50MN Microwarpdrive II | 3,674,000 | **3,703,000** | 3,889,000 | 3,702,000 |
 | 7 | ☐ Bomb Launcher II | 2,250,000 | **2,250,000** | 2,594,000 | 2,249,000 |
-| 8 | ☐ Criterion Cipher | 10,590,000 | **12,090,000** | 19,470,000 | 12,080,000 |
-| 9 | ☐ Sansha NET Resonator | 2,474,000 | **2,468,000** | 2,468,000 | 2,637,000 |
+| 8 | ☐ Criterion Cipher | 10,590,000 | **12,160,000** | 19,470,000 | 12,150,000 |
+| 9 | ☐ Sansha NET Resonator | 2,474,000 | **2,468,000** | 2,468,000 | 2,586,000 |
 
 ### Block 3 · if there's time · about 1 min
 _Short on time? Skip to the jump (step 12): the next hub's Block 1 is worth more per minute than the rest of this hub._
@@ -67,14 +67,14 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 10 | ☐ Compressed Brimful Bitumens | 1,214 | **1,337** | 1,215 | 1,338 |
+| 10 | ☐ Compressed Brimful Bitumens | 1,214 | **1,336** | 1,215 | 1,337 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 11 | ☐ Compressed Fullerite-C540 | 42,580 | **43,450** | 43,450 | 44,050 |
+| 11 | ☐ Compressed Fullerite-C540 | 42,580 | **43,430** | 43,430 | 44,110 |
 
 ## 12. ☐ Jump clone to Amarr VIII (Oris) - Emperor Family Academy
 _Clone Bay → Jump Clone → Amarr VIII (Oris) - Emperor Family Academy. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._

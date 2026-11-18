@@ -1907,6 +1907,7 @@ type_id,name,volume,group_id
 52242,Zorya's Entropic Radiation Sink,5,1988
 52244,Veles Entropic Radiation Sink,5,1988
 52250,Nergal,2500,324
+52252,,10000,358
 52278,Praxis Capsuleer Day XVI SKIN,0.01,
 52312,Zero-Point Field Manipulator,1,334
 52313,Trinary State Processor,1,334
@@ -2274,7 +2275,7 @@ type_id,name,volume,group_id
 92039,Inshore EC-300-I,5,5239
 92040,Nertic EC-600-I,10,5239
 92041,Humboldt EC-900-I,25,5239
-92456,Presidential Mining Foreman Burst,60,
+92456,Presidential Mining Foreman Burst,60,1770
 92462,Darter TP-600-I,10,5239
 92463,,25,
 92466,Atlas SD-900-I,,
@@ -2387,5 +2388,6 @@ type_id,name,volume,group_id
 98409,,1,303
 98415,Imperial Mobility Booster II,,
 98417,Imperial Hardpoint Booster I,,
+98418,,1,303
 98436,Federation Defense Booster II,,
 98454,Republic Hardpoint Booster II,,
