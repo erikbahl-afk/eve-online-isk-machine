@@ -891,7 +891,7 @@ type_id,name,volume,group_id
 19315,Corelum C-Type 50MN Microwarpdrive,10,46
 19321,Corelum B-Type 50MN Microwarpdrive,10,46
 19323,Core B-Type 500MN Microwarpdrive,10,
-19325,,10,46
+19325,Coreli A-Type 5MN Microwarpdrive,10,46
 19327,Corelum A-Type 50MN Microwarpdrive,,
 19329,Core A-Type 500MN Microwarpdrive,,
 19335,Core X-Type 500MN Microwarpdrive,10,46
@@ -1664,6 +1664,7 @@ type_id,name,volume,group_id
 40559,Einherji II,,
 40560,Ametat II,2000,1653
 40561,Malleus II,1800,1653
+40568,,3000,1537
 40569,,3000,1537
 40570,Siren II,3000,1537
 40661,Capital Infectious Scoped Energy Neutralizer,1000,71
@@ -2315,6 +2316,7 @@ type_id,name,volume,group_id
 94067,Caldari Navy Signal Distortion Amplifier,,
 94154,Confessor Mandate of Faith SKIN,,
 95228,Manifest Homecoming Background,,
+95275,,0.1,5082
 95413,Harmonius Bridge - Unlimited,,
 95458,,0.1,5082
 95556,Lorharyth’s Modified Inertial Stabilizer,5,762
