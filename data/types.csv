@@ -283,6 +283,7 @@ type_id,name,volume,group_id
 11198,Stiletto,2500,831
 11200,,2500,
 11202,,2500,831
+11229,Explosive Energized Membrane II,,
 11325,,20,329
 11343,100mm Crystalline Carbonide Restrained Plates,,
 11365,Vengeance,2500,324
@@ -469,7 +470,7 @@ type_id,name,volume,group_id
 13945,,5,
 13947,,25,
 13948,Domination Large Shield Booster,25,40
-13949,,10,
+13949,Dread Guristas Medium Shield Booster,10,40
 13951,Dread Guristas Small Shield Booster,5,40
 13952,Domination Small Shield Booster,,
 13953,Dread Guristas X-Large Shield Booster,50,40
@@ -705,12 +706,13 @@ type_id,name,volume,group_id
 17526,Imperial Navy Cap Recharger,5,
 17528,Imperial Navy Capacitor Power Relay,5,767
 17546,Imperial Navy Large Armor Repairer,,
-17549,Federation Navy Multispectrum Coating,,
+17549,Federation Navy Multispectrum Coating,5,98
 17559,Federation Navy Stasis Webifier,5,65
 17619,,2500,
 17621,,4000,
 17634,Caracal Navy Issue,10000,26
 17636,Raven Navy Issue,50000,27
+17648,,0.125,85
 17709,,10000,
 17713,Stabber Fleet Issue,10000,
 17715,Gila,10000,26
@@ -1581,6 +1583,7 @@ type_id,name,volume,group_id
 35886,Standup Invention Lab I,,
 35894,Standup Cloning Center I,4000,
 35899,,4000,1322
+35922,,4000,1562
 35923,Standup Guided Bomb Launcher I,8000,1328
 35924,,8000,1329
 35925,Standup Heavy Energy Neutralizer I,8000,1329
@@ -1612,6 +1615,7 @@ type_id,name,volume,group_id
 37458,,2500,1527
 37459,,2500,
 37460,Scalpel,,
+37479,Micro Jump Field Generator,10,1533
 37480,Bifrost,5000,1534
 37482,,5000,
 37599,,3000,1537
@@ -1894,7 +1898,7 @@ type_id,name,volume,group_id
 52915,Ultratidal Entropic Disintegrator I,1600,1986
 52916,,0.01,1987
 52919,High-grade Mimesis Delta,1,
-52997,Precursor Dreadnought,,
+52997,Precursor Dreadnought,0.01,257
 53290,Capital Trinary State Processor,,
 53291,Dreadnought Systems Diagram,0.1,526
 53299,Zirnitra Blueprint Data Vault,0.1,526
