@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Tue 17 Nov 20:00 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
+**Updated:** Tue 17 Nov 20:43 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
 **Steps:** 23 · **Est. time:** 15 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -23,8 +23,8 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 1 | ☐ Compressed Hezorime III-Grade | 778.10 | **778.30** | 883.00 | 778.20 |
-| 2 | ☐ Criterion Cipher | 10,590,000 | **12,010,000** | 19,470,000 | 12,000,000 |
-| 3 | ☐ Sansha NET Resonator | 2,474,000 | **2,473,000** | 2,473,000 | 2,637,000 |
+| 2 | ☐ Criterion Cipher | 10,590,000 | **12,020,000** | 19,470,000 | 12,010,000 |
+| 3 | ☐ Sansha NET Resonator | 2,474,000 | **2,473,000** | 2,473,000 | 2,639,000 |
 
 #### Cancel buy orders
 _My Orders → Buying. Right-click → Cancel Order._
@@ -43,7 +43,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 6 | ☐ 50MN Microwarpdrive II | 3,674,000 | **3,681,000** | 3,891,000 | 3,680,000 |
-| 7 | ☐ Compressed Fullerite-C540 | 42,580 | **43,390** | 43,490 | 43,380 |
+| 7 | ☐ Compressed Fullerite-C540 | 42,580 | **43,400** | 43,490 | 43,390 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
@@ -60,7 +60,7 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 9 | ☐ Compressed Brimful Bitumens | 1,214 | **1,215** | 1,215 | 1,196 |
+| 9 | ☐ Compressed Brimful Bitumens | 1,214 | **1,349** | 1,215 | 1,350 |
 
 ## 10. ☐ Jump clone to Amarr VIII (Oris) - Emperor Family Academy
 _Clone Bay → Jump Clone → Amarr VIII (Oris) - Emperor Family Academy. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
@@ -77,7 +77,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 | 11 | ☐ Dread Guristas Rocket Launcher | 99,160,000 | **99,150,000** | 47,280,000 | 99,160,000 |
 | 12 | ☐ Golem Exoplanets Hunter SKIN | 157,800,000 | **157,800,000** | 130,200,000 | - |
 | 13 | ☐ Men's 'Precision' Boots | 89,990,000 | **99,990,000** | 49,760,000 | 100,000,000 |
-| 14 | ☐ Mobile Large Warp Disruptor I | 24,840,000 | **24,820,000** | 18,570,000 | 24,830,000 |
+| 14 | ☐ Mobile Large Warp Disruptor I | 24,840,000 | **24,810,000** | 18,570,000 | 24,820,000 |
 | 15 | ☐ Standup Moon Drill I | 148,800,000 | **144,900,000** | 130,900,000 | 145,000,000 |
 | 16 | ☐ Typhoon Fleet Issue Capsuleer Elite XX SKIN | 734,300,000 | **734,300,000** | 420,200,000 | - |
 
@@ -98,7 +98,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 | 18 | ☐ Caldari Drone Specialization | 2,193,000 | **2,110,000** | 1,139,000 | 2,111,000 |
 | 19 | ☐ Capital I-a Enduring Armor Repairer | 199,700,000 | **199,700,000** | 88,790,000 | 199,800,000 |
 | 20 | ☐ Polarized Light Neutron Blaster | 5,929,000 | **5,928,000** | 3,818,000 | 5,929,000 |
-| 21 | ☐ Zero-Point Mass Entangler | 8,875,000 | **8,875,000** | 8,875,000 | 8,866,000 |
+| 21 | ☐ Zero-Point Mass Entangler | 8,875,000 | **8,875,000** | 8,875,000 | 8,863,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._

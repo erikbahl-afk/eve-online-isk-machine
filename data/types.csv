@@ -1684,6 +1684,7 @@ type_id,name,volume,group_id
 41407,Capital Pulse Laser Specialization,,
 41408,Capital Beam Laser Specialization,,
 41415,Fighter Support Unit II,1000,407
+41456,,1000,329
 41459,,1000,38
 41463,Capital I-ax Enduring Remote Armor Repairer,,
 41469,Capital Asymmetric Enduring Remote Shield Booster,,
@@ -1834,7 +1835,7 @@ type_id,name,volume,group_id
 47903,Chaotic Gamma Filament,0.1,1979
 47904,,0.1,
 47905,Fierce Electrical Filament,0.1,1979
-47906,Raging Electrical Filament,0.1,
+47906,Raging Electrical Filament,0.1,1979
 47907,Chaotic Electrical Filament,0.1,1979
 47911,,5,
 47914,Light Entropic Disintegrator II,5,1986
