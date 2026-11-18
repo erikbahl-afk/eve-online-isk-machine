@@ -263,6 +263,7 @@ type_id,name,volume,group_id
 10209,,1,
 10212,Neural Boost - Standard,1,745
 10213,Neural Boost - Improved,1,745
+10216,,1,745
 10217,Ocular Filter - Improved,1,745
 10221,Cybernetic Subprocessor - Standard,,
 10222,Cybernetic Subprocessor - Improved,1,
@@ -657,7 +658,7 @@ type_id,name,volume,group_id
 16631,Small Artillery Battery,500,426
 16633,Hydrocarbons,0.05,427
 16636,Silicates,,
-16637,Tungsten,0.05,
+16637,Tungsten,0.05,427
 16641,Chromium,0.05,
 16642,Vanadium,0.05,427
 16643,Cadmium,0.05,
@@ -686,6 +687,7 @@ type_id,name,volume,group_id
 16683,Ferrogel,1,429
 17136,Ukomi Superconductors,3,1040
 17177,,4000,439
+17178,Stasis Webification Battery,,
 17180,Sensor Dampening Battery,,
 17182,Warp Scrambling Battery,,
 17187,,4000,
@@ -765,7 +767,7 @@ type_id,name,volume,group_id
 18698,Core X-Type 100MN Afterburner,,
 18706,,5,98
 18708,Corpii A-Type Multispectrum Coating,5,98
-18710,,5,98
+18710,Centii A-Type Multispectrum Coating,5,98
 18766,,5,
 18768,Coreli C-Type Multispectrum Coating,5,98
 18789,Coreli A-Type Multispectrum Coating,5,98
@@ -815,7 +817,7 @@ type_id,name,volume,group_id
 19015,Coreli A-Type Small Armor Repairer,5,
 19017,Corpum C-Type Medium Armor Repairer,10,
 19019,Corpum B-Type Medium Armor Repairer,10,62
-19025,,10,
+19025,Centum B-Type Medium Armor Repairer,10,62
 19027,Centum A-Type Medium Armor Repairer,10,62
 19029,Corelum C-Type Medium Armor Repairer,10,62
 19031,Corelum B-Type Medium Armor Repairer,10,62
@@ -1326,7 +1328,7 @@ type_id,name,volume,group_id
 29015,Targeting Range Dampening Script,,
 29336,,10000,26
 29337,Augoror Navy Issue,10000,26
-29340,,10000,
+29340,,10000,26
 29344,,10000,
 29984,Tengu,5000,963
 29986,Legion,5000,963
@@ -1609,6 +1611,7 @@ type_id,name,volume,group_id
 37135,,2500,1283
 37146,Standup M-Set Basic Medium Ship Manufacturing Material Efficiency I,10,
 37154,Standup M-Set Basic Small Ship Manufacturing Material Efficiency I,10,
+37216,Standup M-Set Missile Precision I,,
 37222,Standup M-Set Energy Neutralizer Economy I,,
 37230,Standup M-Set Electronic Warfare Economy I,10,1620
 37234,Standup M-Set Enhanced Targeting System I,,
