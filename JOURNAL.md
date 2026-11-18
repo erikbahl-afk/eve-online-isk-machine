@@ -376,3 +376,21 @@
 - Alerts: liquidation 50% / Typhoon 8.5%: legacy, being stepped down, SKIN decision Thu 19. Antikythera (Jita, 9 d) under
   stale_days. Idle bids 2.3k / 2.25M: noise. Thresholds kept. Mon follow-up: run 43 s, 1,255 ESI calls: fine after the fix.
 - Next, Thu: consider swapping a slot for a fill probe (top_floor 0.3, hazard_scale 1.0), judged by match to official volume.
+
+## 2026-11-18 · open questions: Perimeter Keepstar (Q3), structure bids (Q9), Wholesale (Q4) (Wednesday)
+- Perimeter reader ran 16 times since Mon 16 06:00 UTC (the scope got granted then). Stable: ~6,500 orders, only ~373 sells,
+  median ask 1.05–1.07x Jita 4-4, 25–28% of shared types cheaper. Not a better place to buy or sell: Q3 closed.
+- Buy side is the story: ~6,100 bids on ~3,850 types, 99% with range 1+ jumps, ~780 types bid above Jita 4-4's best. The
+  public region feed (`/markets/10000002/orders/`) already carries these structure orders, but `station_book` kept only 4-4.
+  Live check on main's 15 Jita bids: 11 (541M) have Perimeter bids (range 1-5, all system 30000144) above our price that the
+  model didn't see, and on 2 (34595, 83471) a Perimeter bid is the real top. So the paper bids were being put "first in line"
+  when they weren't: one more reason for optimistic paper fills.
+- Changed: ESI order frames keep `system_id` / `range`; new `[reach] jita = {30000142 = 0, 30000144 = 1}` adds bids whose range
+  covers 4-4 to the Jita book (queue, best bid, inferred volume). Test added; 36 pass. structure.py's top list now skips junk
+  0.01 ISK Jita bids (the gap was 1e9x). Q9 answered (rivals do it); placing our own Perimeter bids waits for go-live (fee).
+- Q4 Wholesale: 41/113 slots, ISK 97% in use: capital is the limit. Parked.
+- Expect: Jita inferred volume up a little (Perimeter fills now count), so Sunday's calibration (0.665 Jita) should rise; paper
+  Jita bid fills a little lower. Check Sun that calibration didn't overshoot 1.0 and the run time is unchanged.
+- Alerts: same as Tue. Liquidation 50% / Typhoon SKIN 8.5%: legacy imports being stepped down, SKIN decision Thu 19. Stale
+  Amarr sells: step-down fired Tue 06:56, next Amarr session continues it. Antikythera (Jita, 10 d): now at stale_days, step-down
+  applies from here. Idle bids 2.3k / 2.25M: noise. Thresholds kept.

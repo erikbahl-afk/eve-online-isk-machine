@@ -45,7 +45,7 @@ def collect(cfg, esi, now, day):
         except Exception as e:  # one bad hub shouldn't kill the run
             health[hub] = {"note": f"fetch failed: {e}"[:120]}
             continue
-        cur = market.station_book(df, info["station"])
+        cur = market.station_book(df, info["station"], cfg.get("reach", {}).get(hub))
         del df
         t1 = lm or now
         top = market.tops(cur)

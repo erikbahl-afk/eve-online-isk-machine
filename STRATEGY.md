@@ -101,11 +101,13 @@ same sessions but different settings (at most 6: 1 bold slot, 1 flex, the rest r
    tens of hours of Caldari Navy missions on a 420k-SP character with no combat skills, delaying the trade plan.
    Caldari standings also don't touch Amarr fees (90% of main's broker fees are Amarr import listings).
    Revisit when real Jita broker fees pass ~1B/yr, or if the user wants to run missions anyway.
-3. **Player structures** (in progress since 2026-11-11): the Perimeter Keepstar (Tranquility Trading Tower). Each
-   bot run with SSO now writes `state/structure.json` (`trader/structure.py`): its book vs Jita 4-4 (median ask ratio,
-   share of items cheaper than Jita, structure bids that outbid Jita and reach it). Judge next Wednesday from ~1 week
-   of runs. The structure's broker fee itself is live-only (CHECKS.md).
-4. **Wholesale IV/V**: only if slots become the limit (orders near 113 while good candidates go unused).
+3. ~~**Player structures**~~: closed 2026-11-18 (3 days of `state/structure.json`, 16 reads). The Perimeter
+   Tranquility Trading Tower's sell side is thin (~373 sell orders), its median ask is 1.06x Jita 4-4 and only 26%
+   of shared types are cheaper: not a better place to buy or sell. Its buy side is the real thing: ~6,100 bids on
+   ~3,850 types, 99% with a range of 1+ jumps, so they fill from Jita 4-4 sellers. ESI's public region feed already
+   carries them, so the bot now adds them to the Jita book (`[reach]`; see 9). Structure broker fee: live-only (CHECKS.md).
+4. **Wholesale IV/V**: only if slots become the limit (orders near 113 while good candidates go unused). Checked
+   2026-11-18: main uses 41/113 slots, ISK in use 97%: capital is the limit, not slots. Parked.
 5. **Later, when capital allows**: manufacturing (long jobs suit infrequent logins) and a
    second trading character (a third hub, more slots). Revisit at about 15B net worth.
 6. **Calibration**: when live, compare real fills against what the simulation predicted and
@@ -116,8 +118,11 @@ same sessions but different settings (at most 6: 1 bold slot, 1 flex, the rest r
 8. **Seeding**: experiment `seeding` running since 2026-11-05 (demand assumed: 50% of the recent sales rate).
    Items with steady demand at the import hub but no sellers there. The current import
    scoring needs an existing sell side, so it misses these; estimate demand from ESI history.
-9. **Structure orders** (data collected with question 3 since 2026-11-11): buy orders placed in the Perimeter Keepstar with a 1-jump range
-   fill from Jita sellers at the structure's lower broker fee.
+9. **Structure orders**, answered 2026-11-18: yes, rivals already do this at scale. On 18 Nov 11 of main's 15 Jita
+   bids (541M) had Perimeter bids with range 1-5 above our price, and on 2 types a Perimeter bid beat Jita 4-4's best,
+   all invisible to the fill model, which only read Jita 4-4. Fixed: `[reach] jita` adds region bids whose range
+   covers 4-4 to the Jita book. Still open for go-live: placing our own bids in Perimeter (lower fee?) needs the
+   structure's real broker fee and a jump each time we reprice.
 10. **Two import hubs in rotation**: bold experiment `rotation` running since 2026-11-05 (Dodixie and Amarr). (needs Infomorph Psychology II, 1,415 SP): the cooldown allows one
     jump per session, so each import hub would be visited every other session. That could suit thin, slow
     hubs (Rens, Hek). Infomorph Synchronizing III is enough: over 200 simulated weeks only 1.5% of

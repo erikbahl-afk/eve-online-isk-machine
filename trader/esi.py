@@ -9,7 +9,7 @@ import requests
 BASE = "https://esi.evetech.net/latest"
 UA = "eve-online-isk-machine/0.1 (private market research; github actions)"
 ORDER_COLS = ["order_id", "type_id", "is_buy_order", "price", "volume_remain",
-              "issued", "duration", "location_id"]
+              "issued", "duration", "location_id", "system_id", "range"]
 
 
 def _lm(r):

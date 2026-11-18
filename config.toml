@@ -196,6 +196,12 @@ plan = [["Trade", 4], ["Broker Relations", 4], ["Accounting", 4], ["Retail", 5],
         ["Contracting", 2]]
 
 # Player structure compared with Jita 4-4 each run while SSO is connected (state/structure.json).
+# Systems whose ranged buy orders reach a hub station: {system_id = jumps to the hub's system}. Their bids join the
+# hub's book (queue, best bid, inferred volume). Jita: its own system (structures, range >= solarsystem) and Perimeter
+# (the Tranquility Trading Tower, range >= 1). 2026-11-18: 11 of main's 15 Jita bids had Perimeter bids ahead of them.
+[reach]
+jita = { 30000142 = 0, 30000144 = 1 }
+
 [structure]
 enabled = true
 name = "Tranquility Trading Tower"   # the Perimeter trade Keepstar, 1 jump from Jita

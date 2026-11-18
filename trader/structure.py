@@ -53,7 +53,9 @@ def compare(df, jita_top, names=None, n=15):
     # Perimeter is 1 jump from Jita: a bid with range >= 1 jump can be filled by sellers in Jita 4-4.
     reaching = buys[reach >= 1].groupby("type_id").price.max().rename("s_bid_reach")
     t = t.join(reaching, how="left")
-    over = t[t.s_bid_reach > t.best_bid].copy()  # structure bids that outbid Jita's best and reach Jita sellers
+    # structure bids that outbid Jita's best and reach Jita sellers; a Jita "best bid" under 5% of the ask is a junk
+    # 0.01 ISK order, which made the gap ratio meaningless (1e9x), so those rows are left out
+    over = t[(t.s_bid_reach > t.best_bid) & (t.best_bid >= 0.05 * t.best_ask)].copy()
     over["gap"] = over.s_bid_reach / over.best_bid - 1
     nm = names or {}
 

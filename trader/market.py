@@ -36,8 +36,25 @@ def block_hours(t0, t1):
     return out
 
 
-def station_book(region_df, station_id):
-    b = region_df.loc[region_df.location_id == station_id,
+RANGE_JUMPS = {"station": -1, "solarsystem": 0, "region": 99}
+
+
+def _range_jumps(r):
+    return RANGE_JUMPS.get(r, int(r) if str(r).isdigit() else -1)
+
+
+def station_book(region_df, station_id, reach=None):
+    """The hub station's orders, plus buy orders elsewhere whose range covers the station.
+
+    reach: {system_id: jumps to the hub station's system}. A seller in the hub fills the best bid in range,
+    so e.g. Perimeter Keepstar bids with range >= 1 jump are in Jita 4-4's queue (open question 9, 2026-11-18).
+    """
+    mask = region_df.location_id == station_id
+    if reach and "range" in region_df and "system_id" in region_df:
+        dist = region_df.system_id.map({int(k): v for k, v in reach.items()})
+        rj = region_df["range"].map(_range_jumps)
+        mask = mask | (region_df.is_buy_order.astype(bool) & dist.notna() & (rj >= dist))
+    b = region_df.loc[mask,
                       ["order_id", "type_id", "is_buy_order", "price", "volume_remain", "issued", "duration"]].copy()
     b["issued"] = (pd.to_datetime(b["issued"], utc=True) - EPOCH) // pd.Timedelta("1s")
     b = b.rename(columns={"is_buy_order": "is_buy", "volume_remain": "vol"})

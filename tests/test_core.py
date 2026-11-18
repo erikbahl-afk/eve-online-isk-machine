@@ -414,3 +414,21 @@ def test_stale_sell_partial_fill_long_ago_still_steps_down():
     assert pl.stale_sell(o)                       # 1 of 3 sold, untouched for 12 days
     assert not pl.stale_sell({**o, "updated": 5 * 86400})  # repriced 7 days ago: not yet
     assert pl.stale_sell({**o, "remain": 3, "updated": 5 * 86400})  # never filled: the 1-day rule applies
+
+
+def test_station_book_includes_reaching_bids():
+    J, PER = 60003760, 1042508032148
+    df = pd.DataFrame([
+        # order_id, type, buy, price, vol, issued, duration, location, system, range
+        [1, 7, True, 100.0, 5, "2026-11-18T00:00:00Z", 90, J, 30000142, "station"],
+        [2, 7, True, 101.0, 5, "2026-11-18T00:00:00Z", 90, PER, 30000144, "1"],        # reaches Jita
+        [3, 7, True, 102.0, 5, "2026-11-18T00:00:00Z", 90, PER, 30000144, "station"],  # Perimeter only
+        [4, 7, True, 103.0, 5, "2026-11-18T00:00:00Z", 90, 1, 30000145, "region"],     # system not listed
+        [5, 7, False, 99.0, 5, "2026-11-18T00:00:00Z", 90, PER, 30000144, "region"],   # sells never reach
+        [6, 7, True, 100.5, 5, "2026-11-18T00:00:00Z", 90, 2, 30000142, "solarsystem"],  # same system
+    ], columns=["order_id", "type_id", "is_buy_order", "price", "volume_remain", "issued", "duration",
+                "location_id", "system_id", "range"])
+    assert set(market.station_book(df, J).order_id) == {1}
+    b = market.station_book(df, J, {"30000142": 0, "30000144": 1})
+    assert set(b.order_id) == {1, 2, 6}
+    assert market.tops(b).at[7, "best_bid"] == 101.0
