@@ -54,6 +54,7 @@ type_id,name,volume,group_id
 1565,Small EMP Smartbomb II,,
 1818,Scourge Auto-Targeting Heavy Missile I,0.03,
 1826,Scourge Auto-Targeting Cruise Missile I,0.05,396
+1828,,0.05,396
 1830,,0.05,
 1855,,5,
 1952,Sensor Booster II,5,212
@@ -131,6 +132,7 @@ type_id,name,volume,group_id
 2998,Noctis,20000,28
 3001,Dual Light Pulse Laser II,5,53
 3017,Gatling Pulse Laser II,5,53
+3025,,10,53
 3033,Small Focused Beam Laser II,5,
 3041,Small Focused Pulse Laser II,5,
 3049,Mega Beam Laser II,20,
@@ -539,6 +541,7 @@ type_id,name,volume,group_id
 14206,Shadow Serpentis Large Plasma Smartbomb,50,72
 14208,Domination Large Proton Smartbomb,50,
 14210,,10,72
+14220,Shadow Serpentis Medium Plasma Smartbomb,10,72
 14230,Dread Guristas Co-Processor,5,285
 14234,Dread Guristas Cloaking Device,100,
 14236,Shadow Serpentis Sensor Booster,5,212
@@ -1092,6 +1095,7 @@ type_id,name,volume,group_id
 24560,,2000,873
 24632,Zainou 'Deadeye' Guided Missile Precision GP-803,1,746
 24640,Zainou 'Deadeye' Guided Missile Precision GP-805,,
+24644,Capital Tractor Beam I,,
 24663,Zor's Custom Navigation Hyper-Link,,
 24690,,50000,27
 24692,,50000,
@@ -1318,6 +1322,7 @@ type_id,name,volume,group_id
 28812,Mid-grade Virtue Gamma,1,300
 28813,Mid-grade Virtue Omega,1,300
 28844,Rhea,,
+28974,Vaccines,3,1040
 29015,Targeting Range Dampening Script,,
 29336,,10000,26
 29337,Augoror Navy Issue,10000,26
@@ -2230,6 +2235,7 @@ type_id,name,volume,group_id
 90523,Unstable Ice Harvester Mutaplasmid,,
 90528,Unstable Gas Cloud Scoop Mutaplasmid,1,1964
 90647,Oxidative Stress - Unlimited,,
+90733,,0.01,1771
 90734,,0.01,
 91174,Perseverance,5000,420
 91619,,0.01,1950
