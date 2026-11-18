@@ -1716,7 +1716,7 @@ type_id,name,volume,group_id
 42145,Low-grade Asklepian Alpha,,
 42201,Low-grade Asklepian Epsilon,1,
 42203,Low-grade Asklepian Omega,1,300
-42204,,1,300
+42204,Mid-grade Asklepian Alpha,1,300
 42205,Mid-grade Asklepian Beta,1,300
 42206,Mid-grade Asklepian Gamma,1,300
 42207,Mid-grade Asklepian Delta,1,300
@@ -2051,7 +2051,7 @@ type_id,name,volume,group_id
 60470,Exigent Sentry Drone Projection Mutaplasmid,1,
 60472,,1,1964
 60473,Exigent Medium Drone Firepower Mutaplasmid,1,1964
-60476,Radical Drone Damage Amplifier Mutaplasmid,,
+60476,Radical Drone Damage Amplifier Mutaplasmid,1,1964
 60515,,0.01,
 60575,Quafe Zero Green Apple,1,303
 60766,Aralez,20,100
@@ -2388,3 +2388,4 @@ type_id,name,volume,group_id
 98415,Imperial Mobility Booster II,,
 98417,Imperial Hardpoint Booster I,,
 98436,Federation Defense Booster II,,
+98454,Republic Hardpoint Booster II,,
