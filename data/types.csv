@@ -1013,7 +1013,7 @@ type_id,name,volume,group_id
 22124,Mid-grade Amulet Omega,1,300
 22128,Mid-grade Snake Epsilon,1,300
 22229,Ice Harvester II,,
-22428,,50000,
+22428,,50000,898
 22430,Sin,,
 22436,Widow,50000,898
 22440,,50000,
@@ -1135,7 +1135,7 @@ type_id,name,volume,group_id
 25890,Large Kinetic Armor Reinforcer I,20,
 25892,Large Thermal Armor Reinforcer I,20,
 25894,Large Trimark Armor Pump I,20,773
-25896,,20,
+25896,Large Auxiliary Nano Pump I,20,773
 25898,Large Nanobot Accelerator I,20,773
 25900,Large Remote Repair Augmentor I,20,773
 25948,Large Capacitor Control Circuit I,,
@@ -1766,6 +1766,7 @@ type_id,name,volume,group_id
 45606,Proteus Offensive - Support Processor,40,
 45607,Loki Offensive - Projectile Scoping Array,40,956
 45608,Loki Offensive - Launcher Efficiency Configuration,40,956
+45609,Loki Offensive - Support Processor,40,956
 45611,Legion Propulsion - Intercalated Nanofibers,40,957
 45612,Legion Propulsion - Wake Limiter,40,957
 45614,Tengu Propulsion - Chassis Optimization,40,957
@@ -1780,7 +1781,7 @@ type_id,name,volume,group_id
 45626,Tengu Core - Augmented Graviton Reactor,40,958
 45627,,40,
 45628,,40,
-45629,Proteus Core - Augmented Fusion Reactor,40,
+45629,Proteus Core - Augmented Fusion Reactor,40,958
 45630,Proteus Core - Friction Extension Processor,40,958
 45631,Loki Core - Dissolution Sequencer,40,
 45632,Loki Core - Augmented Nuclear Reactor,40,958
@@ -1976,7 +1977,7 @@ type_id,name,volume,group_id
 55761,,5,
 55831,Triglavian Transconduit Datacaster,1,1995
 56068,Proximity-5 'Extraction' Filament,0.1,4087
-56069,Proximity-15 'Extraction' Filament,,
+56069,Proximity-15 'Extraction' Filament,0.1,4087
 56133,,0.1,
 56136,Tranquil Gamma Filament,,
 56139,Cataclysmic Electrical Filament,0.1,1979
@@ -2031,6 +2032,7 @@ type_id,name,volume,group_id
 59633,,1,303
 60032,Golem State Police SKIN,0.01,
 60244,,100,4137
+60279,,6,482
 60281,Simple Asteroid Mining Crystal Type A II,10,482
 60283,Simple Asteroid Mining Crystal Type B II,10,482
 60288,,10,
@@ -2176,7 +2178,7 @@ type_id,name,volume,group_id
 83467,Angel NET Resonator,1,334
 83468,Blood Raider NET Resonator,1,334
 83469,Guristas NET Resonator,1,334
-83470,Mordu NET Resonator,1,
+83470,Mordu NET Resonator,1,334
 83471,Sansha NET Resonator,1,334
 83472,Serpentis NET Resonator,1,334
 84100,Paladin War for the Empire SKIN,0.01,
@@ -2196,6 +2198,7 @@ type_id,name,volume,group_id
 85543,Glorified Gravid Large Shield Booster Mutaplasmid,,
 85551,Glorified Gravid X-Large Shield Booster Mutaplasmid,,
 85559,Glorified Gravid Stasis Webifier Mutaplasmid,1,1964
+85642,,1,1964
 85662,Glorified Unstable Gyrostabilizer Mutaplasmid,1,1964
 85668,Glorified Unstable Magnetic Field Stabilizer Mutaplasmid,,
 85746,Infomorph Decryption Key,,
