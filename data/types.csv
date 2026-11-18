@@ -78,6 +78,7 @@ type_id,name,volume,group_id
 2309,Ionic Solutions,0.005,1033
 2310,Noble Gas,0.005,1033
 2311,Reactive Gas,0.005,1033
+2312,,0.75,1034
 2319,,0.75,1034
 2321,Polyaramids,0.75,1034
 2327,,0.75,1034
@@ -623,7 +624,7 @@ type_id,name,volume,group_id
 15907,Republic Fleet Shield Boost Amplifier,5,338
 15909,Caldari Navy EM Shield Amplifier,5,
 15931,Caldari Navy Large Graviton Smartbomb,50,72
-15935,,5,72
+15935,Republic Fleet Small Proton Smartbomb,5,72
 15949,Federation Navy Small Plasma Smartbomb,,
 15955,Federation Navy Large Plasma Smartbomb,50,72
 15963,Imperial Navy Large EMP Smartbomb,50,72
@@ -638,7 +639,7 @@ type_id,name,volume,group_id
 16067,Caldari Navy Torpedo Launcher,20,508
 16068,Caldari Navy Light Missile Launcher,,
 16229,Brutix,15000,419
-16233,Prophecy,,
+16233,Prophecy,15000,419
 16243,Thrasher Blueprint,,
 16246,Zainou 'Gnome' Shield Management SM-705,1,749
 16247,,1,
@@ -883,7 +884,7 @@ type_id,name,volume,group_id
 19325,,10,46
 19327,Corelum A-Type 50MN Microwarpdrive,,
 19329,Core A-Type 500MN Microwarpdrive,,
-19335,,10,46
+19335,Core X-Type 500MN Microwarpdrive,10,46
 19339,Gistum C-Type 50MN Microwarpdrive,10,46
 19345,Gistum B-Type 50MN Microwarpdrive,10,46
 19351,Gistum A-Type 50MN Microwarpdrive,10,46
@@ -1362,7 +1363,7 @@ type_id,name,volume,group_id
 31041,,10,
 31045,Small Auxiliary Nano Pump I,5,773
 31047,Medium Auxiliary Nano Pump I,,
-31053,Medium Auxiliary Nano Pump II,10,
+31053,Medium Auxiliary Nano Pump II,10,773
 31055,Medium Trimark Armor Pump I,10,773
 31059,Medium Trimark Armor Pump II,10,773
 31067,Capital Nanobot Accelerator I,,
@@ -1783,6 +1784,7 @@ type_id,name,volume,group_id
 46003,Agency 'Hardshell' TB7 Dose III,1,303
 46005,Agency 'Overclocker' SB5 Dose II,1,303
 46006,Agency 'Overclocker' SB7 Dose III,1,303
+46182,,0.01,1888
 46213,Ferrogel Reaction Formula,,
 46251,Improved Blue Pill Booster Reaction Formula,,
 46355,Ubiquitous Moon Mining Crystal Type A I,6,
@@ -2342,7 +2344,7 @@ type_id,name,volume,group_id
 97552,Hyperspherical Housing,0.1,1194
 97560,Polycrase X-Grade,,
 97569,,0.01,5085
-97570,,0.01,5086
+97570,Compressed Kangite X-Grade,0.01,5086
 97621,Pioneer Medical Enforcement Taskforce SKIN,,
 97639,Unstable Capital Remote Armor Repairer Mutaplasmid,,
 97650,Decayed Large Remote Armor Repairer Mutaplasmid,,
