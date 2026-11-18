@@ -320,6 +320,7 @@ type_id,name,volume,group_id
 11548,Nuclear Reactor Unit,1,
 11549,Antimatter Reactor Unit,1,334
 11552,Scalar Capacitor Unit,1,334
+11553,Oscillator Capacitor Unit,1,334
 11554,Tesseract Capacitor Unit,1,334
 11556,,1,
 11557,Linear Shield Emitter,1,334
@@ -602,6 +603,7 @@ type_id,name,volume,group_id
 15764,Federation Navy 50MN Microwarpdrive,10,46
 15766,Federation Navy 10MN Afterburner,5,46
 15768,,10,46
+15780,,5,76
 15790,Caldari Navy Cloaking Device,100,330
 15792,Federation Navy Tracking Computer,5,213
 15804,Imperial Navy Heavy Energy Neutralizer,,
@@ -1415,6 +1417,7 @@ type_id,name,volume,group_id
 31606,Medium Hydraulic Bay Thrusters II,10,779
 31614,Small Rocket Fuel Cache Partition II,5,779
 31616,,10,
+31622,Medium Warhead Calefaction Catalyst I,,
 31628,Medium Warhead Calefaction Catalyst II,10,779
 31650,,5,
 31652,,10,
@@ -1615,7 +1618,7 @@ type_id,name,volume,group_id
 37216,Standup M-Set Missile Precision I,,
 37222,Standup M-Set Energy Neutralizer Economy I,,
 37230,Standup M-Set Electronic Warfare Economy I,10,1620
-37234,Standup M-Set Enhanced Targeting System I,,
+37234,Standup M-Set Enhanced Targeting System I,10,1622
 37292,Rapid Torpedo Launcher II,1000,
 37296,Quad Mega Pulse Laser II,1000,53
 37298,Dual Giga Pulse Laser II,1000,53
@@ -1722,6 +1725,7 @@ type_id,name,volume,group_id
 42207,Mid-grade Asklepian Delta,1,300
 42208,Mid-grade Asklepian Epsilon,1,300
 42209,Mid-grade Asklepian Omega,1,300
+42210,,1,300
 42212,High-grade Asklepian Gamma,1,300
 42213,High-grade Asklepian Delta,1,300
 42215,High-grade Asklepian Omega,1,300
@@ -2097,6 +2101,7 @@ type_id,name,volume,group_id
 62533,Compressed Omber II-Grade,,
 62536,Compressed Kernite,0.012,457
 62538,Compressed Kernite III-Grade,,
+62539,,0.012,457
 62540,,0.02,456
 62552,,0.05,467
 62553,Compressed Gneiss II-Grade,0.05,467
@@ -2109,6 +2114,7 @@ type_id,name,volume,group_id
 62564,Compressed Bistot,,
 62566,,0.16,
 62567,Compressed Bistot IV-Grade,0.16,451
+62568,,0.16,450
 62571,Compressed Arkonor IV-Grade,0.16,450
 62572,,0.16,
 62573,Compressed Spodumain II-Grade,0.16,
