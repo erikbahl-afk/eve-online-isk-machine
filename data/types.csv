@@ -221,6 +221,7 @@ type_id,name,volume,group_id
 4347,Pithum A-Type Multispectrum Shield Hardener,5,77
 4348,Pithum B-Type Multispectrum Shield Hardener,5,77
 4349,Pithum C-Type Multispectrum Shield Hardener,5,77
+4399,,5,781
 4403,Reactive Armor Hardener,25,1150
 4405,Drone Damage Amplifier II,5,645
 4959,'Seed' Micro Capacitor Booster I,,
@@ -231,7 +232,7 @@ type_id,name,volume,group_id
 7447,425mm Prototype Gauss Gun,20,74
 7579,Modal Light Neutron Particle Accelerator I,5,
 8263,,5,
-8433,Medium Azeotropic Restrained Shield Extender,10,
+8433,Medium Azeotropic Restrained Shield Extender,10,38
 8517,Medium F-S9 Regolith Compact Shield Extender,10,38
 8529,,20,38
 8635,Large Murky Compact Remote Shield Booster,25,41
@@ -449,6 +450,7 @@ type_id,name,volume,group_id
 13827,,10,53
 13828,True Sansha Heavy Pulse Laser,,
 13829,,5,53
+13830,,5,53
 13832,True Sansha Mega Pulse Laser,20,
 13865,Dread Guristas 125mm Railgun,,
 13868,Shadow Serpentis 200mm Railgun,,
@@ -776,6 +778,7 @@ type_id,name,volume,group_id
 18851,Centum B-Type Multispectrum Energized Membrane,5,326
 18859,Centum B-Type Explosive Energized Membrane,5,
 18863,,5,326
+18865,Corpum A-Type Thermal Energized Membrane,5,326
 18867,Centum A-Type Thermal Energized Membrane,5,326
 18877,Corpum A-Type Kinetic Energized Membrane,5,326
 18881,Corpum A-Type Multispectrum Energized Membrane,5,
@@ -1453,6 +1456,7 @@ type_id,name,volume,group_id
 31965,High-grade Talon Epsilon,,
 31990,,4.5,
 31998,Navy Cap Booster 200,6,87
+32006,,12,87
 32014,Navy Cap Booster 800,24,87
 32039,,10,
 32063,Medium Drone Speed Augmentor II,10,
