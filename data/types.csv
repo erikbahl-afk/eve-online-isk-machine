@@ -121,6 +121,7 @@ type_id,name,volume,group_id
 2870,Organic Mortar Applicators,,
 2875,Sterile Conduits,50,1041
 2876,,50,1041
+2889,,5,55
 2897,220mm Vulcan AutoCannon II,10,55
 2905,250mm Light Artillery Cannon II,5,55
 2929,800mm Repeating Cannon II,20,55
@@ -322,7 +323,7 @@ type_id,name,volume,group_id
 11552,Scalar Capacitor Unit,1,334
 11553,Oscillator Capacitor Unit,1,334
 11554,Tesseract Capacitor Unit,1,334
-11556,,1,
+11556,Pulse Shield Emitter,1,334
 11557,Linear Shield Emitter,1,334
 11558,,1,334
 11563,,20,339
@@ -434,6 +435,7 @@ type_id,name,volume,group_id
 13245,Zainou 'Deadeye' Trajectory Analysis TA-703,1,742
 13247,,1,
 13248,Zainou 'Deadeye' Missile Projection MP-703,1,
+13250,,1,746
 13254,Zainou 'Gypsy' Electronics Upgrades EU-603,,
 13255,Inherent Implants 'Squire' Energy Grid Upgrades EU-703,,
 13256,Inherent Implants 'Noble' Hull Upgrades HG-1003,1,
@@ -838,6 +840,7 @@ type_id,name,volume,group_id
 19081,Corpum A-Type Medium Remote Capacitor Transmitter,10,
 19087,,10,
 19105,,5,
+19109,,5,68
 19113,Corpus C-Type Heavy Energy Nosferatu,5,68
 19119,Corpus X-Type Heavy Energy Nosferatu,5,
 19141,Gistum C-Type Medium Remote Shield Booster,,
@@ -971,7 +974,8 @@ type_id,name,volume,group_id
 21013,Capital Sensor Cluster,2000,
 21017,,2000,873
 21018,Capital Armor Plates Blueprint,0.01,
-21019,Capital Capacitor Battery,,
+21019,Capital Capacitor Battery,2000,873
+21021,,2000,873
 21023,Capital Shield Emitter,2000,873
 21208,,1,
 21238,Blood Multifrequency L,,
@@ -1000,7 +1004,7 @@ type_id,name,volume,group_id
 21896,,0.0125,
 21898,Republic Fleet EMP S,0.0025,
 21902,Republic Fleet Fusion L,0.025,83
-21918,Republic Fleet Phased Plasma L,0.025,
+21918,Republic Fleet Phased Plasma L,0.025,83
 21922,Republic Fleet Phased Plasma M,0.0125,83
 21924,,0.0025,83
 21926,Republic Fleet Proton L,,
@@ -1015,6 +1019,7 @@ type_id,name,volume,group_id
 22122,Mid-grade Amulet Epsilon,1,300
 22123,Mid-grade Amulet Gamma,1,300
 22124,Mid-grade Amulet Omega,1,300
+22126,,1,300
 22128,Mid-grade Snake Epsilon,1,300
 22229,Ice Harvester II,,
 22428,,50000,898
@@ -1224,7 +1229,7 @@ type_id,name,volume,group_id
 27365,,0.015,384
 27369,Dread Guristas Inferno Light Missile,0.015,384
 27377,Caldari Navy Mjolnir Cruise Missile,0.05,386
-27381,Caldari Navy Nova Light Missile,,
+27381,Caldari Navy Nova Light Missile,0.015,384
 27389,,0.05,386
 27395,Caldari Navy Scourge Cruise Missile,0.05,386
 27399,Dread Guristas Scourge Cruise Missile,0.05,386
@@ -1257,7 +1262,7 @@ type_id,name,volume,group_id
 28270,,10,100
 28272,'Augmented' Hammerhead,10,100
 28276,,5,
-28280,'Augmented' Hornet,5,
+28280,'Augmented' Hornet,5,100
 28284,'Augmented' Infiltrator,10,100
 28288,'Augmented' Ogre,25,100
 28292,'Augmented' Praetor,25,
@@ -1343,6 +1348,7 @@ type_id,name,volume,group_id
 30018,,0.01,
 30024,,0.01,966
 30251,Neurovisual Input Matrix,,
+30252,,0.01,966
 30254,Electromechanical Hull Sheeting,0.01,966
 30304,PPD Fullerene Fibers,0.5,974
 30305,Fullerene Intercalated Graphite,0.8,974
@@ -1446,7 +1452,7 @@ type_id,name,volume,group_id
 31872,Caldari Navy Hornet,5,100
 31874,Caldari Navy Vespa,10,100
 31876,,25,
-31878,Caldari Navy Warden,25,
+31878,Caldari Navy Warden,25,100
 31880,Federation Navy Hobgoblin,5,100
 31882,,10,100
 31884,Federation Navy Ogre,25,
@@ -1864,6 +1870,7 @@ type_id,name,volume,group_id
 47906,Raging Electrical Filament,0.1,1979
 47907,Chaotic Electrical Filament,0.1,1979
 47911,,5,
+47912,Light Compact Entropic Disintegrator,5,1986
 47914,Light Entropic Disintegrator II,5,1986
 47915,Veles Light Entropic Disintegrator,5,1986
 47916,Heavy Compact Entropic Disintegrator,10,1986
@@ -2042,7 +2049,7 @@ type_id,name,volume,group_id
 59633,,1,303
 60032,Golem State Police SKIN,0.01,
 60244,,100,4137
-60279,,6,482
+60279,Simple Asteroid Mining Crystal Type B I,6,482
 60281,Simple Asteroid Mining Crystal Type A II,10,482
 60283,Simple Asteroid Mining Crystal Type B II,10,482
 60288,,10,
@@ -2178,6 +2185,7 @@ type_id,name,volume,group_id
 81948,Consortium Small Tractor Beam,50,650
 81951,Consortium Mobile Tractor Unit,80,1250
 82054,Stabber Capsuleer Day XXI SKIN,0.01,1950
+82063,,0.01,1950
 82184,Thrasher Fleet Issue Republic Police SKIN,,
 82300,,0.012,4755
 82301,Compressed Kylixium II-Grade,,
@@ -2193,6 +2201,7 @@ type_id,name,volume,group_id
 83470,Mordu NET Resonator,1,334
 83471,Sansha NET Resonator,1,334
 83472,Serpentis NET Resonator,1,334
+83473,,1,334
 84100,Paladin War for the Empire SKIN,0.01,
 84173,Imperial Gold Metallic - Limited,0.1,4726
 85084,Small Breacher Pod Launcher,,

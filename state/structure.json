@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.073,
- "buy_orders": 6087,
- "buy_orders_reaching_jita": 6010,
+ "ask_ratio_median": 1.0669,
+ "buy_orders": 6050,
+ "buy_orders_reaching_jita": 5973,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6467,
+ "orders": 6430,
  "sell_orders": 380,
- "share_ask_below_jita": 0.2548,
+ "share_ask_below_jita": 0.2572,
  "structure_id": 1042508032148,
- "t": 1795041797.025329,
+ "t": 1795046444.345261,
  "top_ask_below_jita": [
   {
    "best_ask": 64900.0,
@@ -117,112 +117,70 @@
  ],
  "top_bid_over_jita": [
   {
-   "best_bid": 0.01,
-   "gap": 1088999999.0,
+   "best_bid": 13140000.0,
+   "gap": 0.0008,
    "name": "",
-   "s_bid_reach": 10890000.0,
-   "type_id": 61121
+   "s_bid_reach": 13150000.0,
+   "type_id": 57483
   },
   {
-   "best_bid": 0.01,
-   "gap": 599999999.0,
+   "best_bid": 1799000.0,
+   "gap": 0.0006,
    "name": "",
-   "s_bid_reach": 6000000.0,
-   "type_id": 46170
+   "s_bid_reach": 1800000.0,
+   "type_id": 23174
   },
   {
-   "best_bid": 0.02,
-   "gap": 475399999.0,
+   "best_bid": 24920.0,
+   "gap": 0.0004,
    "name": "",
-   "s_bid_reach": 9508000.0,
-   "type_id": 46178
+   "s_bid_reach": 24930.0,
+   "type_id": 20781
   },
   {
-   "best_bid": 0.01,
-   "gap": 95109999.0,
+   "best_bid": 27140000.0,
+   "gap": 0.0004,
    "name": "",
-   "s_bid_reach": 951100.0,
-   "type_id": 17680
+   "s_bid_reach": 27150000.0,
+   "type_id": 40568
   },
   {
-   "best_bid": 0.01,
-   "gap": 80859999.0,
+   "best_bid": 363.6,
+   "gap": 0.0003,
    "name": "",
-   "s_bid_reach": 808600.0,
-   "type_id": 20839
+   "s_bid_reach": 363.7,
+   "type_id": 21906
   },
   {
-   "best_bid": 0.01,
-   "gap": 79999999.0,
+   "best_bid": 4318000.0,
+   "gap": 0.0002,
    "name": "",
-   "s_bid_reach": 800000.0,
-   "type_id": 17686
+   "s_bid_reach": 4319000.0,
+   "type_id": 13990
   },
   {
-   "best_bid": 0.01,
-   "gap": 68399999.0,
+   "best_bid": 5073000.0,
+   "gap": 0.0002,
    "name": "",
-   "s_bid_reach": 684000.0,
-   "type_id": 61207
+   "s_bid_reach": 5074000.0,
+   "type_id": 87325
   },
   {
-   "best_bid": 0.01,
-   "gap": 47019999.0,
-   "name": "",
-   "s_bid_reach": 470200.0,
-   "type_id": 17692
+   "best_bid": 5288000.0,
+   "gap": 0.0002,
+   "name": "Einherji I",
+   "s_bid_reach": 5289000.0,
+   "type_id": 23061
   },
   {
-   "best_bid": 0.01,
-   "gap": 17779999.0,
+   "best_bid": 56100.0,
+   "gap": 0.0002,
    "name": "",
-   "s_bid_reach": 177800.0,
-   "type_id": 3104
-  },
-  {
-   "best_bid": 0.01,
-   "gap": 13009999.0,
-   "name": "",
-   "s_bid_reach": 130100.0,
-   "type_id": 31496
-  },
-  {
-   "best_bid": 0.01,
-   "gap": 10029999.0,
-   "name": "",
-   "s_bid_reach": 100300.0,
-   "type_id": 17682
-  },
-  {
-   "best_bid": 1.0,
-   "gap": 10009999.0,
-   "name": "",
-   "s_bid_reach": 10010000.0,
-   "type_id": 91977
-  },
-  {
-   "best_bid": 6.11,
-   "gap": 1007854.9738,
-   "name": "",
-   "s_bid_reach": 6158000.0,
-   "type_id": 85012
-  },
-  {
-   "best_bid": 1.0,
-   "gap": 899999.0,
-   "name": "",
-   "s_bid_reach": 900000.0,
-   "type_id": 17694
-  },
-  {
-   "best_bid": 0.01,
-   "gap": 499999.0,
-   "name": "",
-   "s_bid_reach": 5000.0,
-   "type_id": 47617
+   "s_bid_reach": 56110.0,
+   "type_id": 16391
   }
  ],
- "types": 3836,
- "types_also_in_jita": 3815,
- "types_bid_over_jita_reaching": 775
+ "types": 3824,
+ "types_also_in_jita": 3824,
+ "types_bid_over_jita_reaching": 9
 }
