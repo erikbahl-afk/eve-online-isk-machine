@@ -174,12 +174,13 @@ note = "open question: also ship cheap goods from the import hub back to Jita on
 [variants.strategy]
 exports_enabled = true
 
+# seeding killed 2026-11-19: 0 seeds placed in 14 days (no second import courier), results = a fresh-main clone
 [[variants]]
-name = "seeding"
+name = "fill_floor"
 kind = "regular"
-note = "open question: also seed items that sold out at the import hub (demand is an assumption: 50% comes back)"
-[variants.strategy]
-seeding_enabled = true
+note = "fill probe: top_floor 0.3 (time-on-top fit 11-17); judged by paper fills vs official volume, not profit"
+[variants.sim]
+top_floor = 0.3
 
 [[variants]]
 name = "rotation"

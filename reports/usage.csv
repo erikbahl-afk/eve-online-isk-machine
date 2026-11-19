@@ -13,3 +13,4 @@ date,topic,tool_calls,notes
 2026-11-16,audit the picks,22,reach check now continues past an unreachable top 40 (Jita: 2 of 40 passed); courier clean
 2026-11-17,competition,22,time-on-top floor found (obs 40% vs pred 15%; f 0.33 k 1.4); top_floor/hazard_scale knobs; partial-fill step-down fix
 2026-11-18,open questions,18,Q3 closed (Perimeter thin); Q9: Perimeter ranged bids added to Jita book (11/15 of main's bids had hidden rivals ahead); Q4 parked
+2026-11-19,experiments,17,seeding killed (0 seeds in 14d); fill_floor probe (top_floor 0.3) started; Typhoon SKIN: no dump, step-down continues

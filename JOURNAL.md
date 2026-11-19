@@ -394,3 +394,22 @@
 - Alerts: same as Tue. Liquidation 50% / Typhoon SKIN 8.5%: legacy imports being stepped down, SKIN decision Thu 19. Stale
   Amarr sells: step-down fired Tue 06:56, next Amarr session continues it. Antikythera (Jita, 10 d): now at stale_days, step-down
   applies from here. Idle bids 2.3k / 2.25M: noise. Thresholds kept.
+
+## 2026-11-19 · experiments (Thursday)
+- Scoreboard since 11-05 23:02 UTC: main −0.25% (liq 50%, legacy), no_imports −0.79% (realized −110M, fees 23% of turnover),
+  start_1b +0.60%, start_1b_more_time +4.70% (realized +32M, +23M w/o best+worst), exports −1.78%, seeding −1.89%, rotation
+  −1.78% (liq 84–89%). Since 11-12 the 1B pair flipped: start_1b +2.03% vs more_time +0.21%, so the extra-time lead is noisy.
+- The three "open question" variants are near-identical (realized −89 to −94M): each did 1 import courier of 12 items (11-05)
+  and none since. Seeding placed **0** seeds in 14 days (it rides on imports). Rotation went to Dodixie once (1 bid), never
+  shipped there. Exports bought 4 items in Amarr (1.01B, incl. 399M and 248M singles), sold 1 of 11 units (40M): 1B tied up.
+- Verdicts: seeding **kill** (no signal possible until imports cycle). exports **extend** 1 week, kill Thu 26 unless the
+  export stock sells (it lowers liq vs peers). rotation (bold) **extend**, kill Thu 26 if still no Dodixie courier. start_1b
+  pair, no_imports **extend**. Open question for Sun/Mon: why no second import courier in 14 days with 0.25–0.6B cash.
+- New slot: `fill_floor` (regular), `[sim] top_floor = 0.3` only (Tue fit f 0.33). Success = its paper fills per item closer
+  to official volume × alpha than main's, without overshooting; profit not the measure. Slots 6/6 (bold rotation, flex more_time).
+- Projection 1B start: more_time ~+2.3%/wk → 4B in ~60 weeks; start_1b ~+0.3%/wk → no forecast. Fill-gated, 2 weeks: weak.
+- **SKIN decision** (Typhoon FI SKIN, cost 418.5M, ask 734.3M Amarr): live Amarr history = 1 trade in a year (778M, 10-29),
+  no Amarr bids; Jita ~1–2 trades/month at 400–449M, asks 398–448M, best bid 142M. Dumping = −66%. Decision: no dump; the
+  stale step-down keeps cutting 10% per Amarr session to the break-even floor (~5 sessions). Accept the 8.4% alert until then.
+- Alerts: liquidation 50% / Typhoon 8.4%: legacy imports, above. Stale Amarr sells: step-down firing each Amarr visit (Tue).
+  Antikythera (Jita, 11 d): step-down now applies. Idle bids 2.3k / 2.25M: noise. Thresholds kept. 35 tests pass.
