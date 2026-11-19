@@ -1,16 +1,16 @@
 {
- "ask_ratio_median": 1.0669,
- "buy_orders": 6050,
- "buy_orders_reaching_jita": 5973,
+ "ask_ratio_median": 1.0723,
+ "buy_orders": 6046,
+ "buy_orders_reaching_jita": 5969,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6430,
+ "orders": 6426,
  "sell_orders": 380,
- "share_ask_below_jita": 0.2572,
+ "share_ask_below_jita": 0.2605,
  "structure_id": 1042508032148,
- "t": 1795046444.345261,
+ "t": 1795047849.1343274,
  "top_ask_below_jita": [
   {
-   "best_ask": 64900.0,
+   "best_ask": 64890.0,
    "gap": 0.9976,
    "name": "",
    "s_ask": 152.6,
@@ -31,7 +31,7 @@
    "type_id": 84399
   },
   {
-   "best_ask": 2239.0,
+   "best_ask": 2238.0,
    "gap": 0.8883,
    "name": "",
    "s_ask": 250.0,
@@ -94,8 +94,8 @@
    "type_id": 34650
   },
   {
-   "best_ask": 2450.0,
-   "gap": 0.4596,
+   "best_ask": 2449.0,
+   "gap": 0.4594,
    "name": "",
    "s_ask": 1324.0,
    "type_id": 90590
@@ -117,70 +117,84 @@
  ],
  "top_bid_over_jita": [
   {
-   "best_bid": 13140000.0,
-   "gap": 0.0008,
-   "name": "",
-   "s_bid_reach": 13150000.0,
-   "type_id": 57483
+   "best_bid": 135300000.0,
+   "gap": 0.0007,
+   "name": "Unstable Stasis Webifier Mutaplasmid",
+   "s_bid_reach": 135400000.0,
+   "type_id": 47700
   },
   {
-   "best_bid": 1799000.0,
+   "best_bid": 162400.0,
    "gap": 0.0006,
    "name": "",
-   "s_bid_reach": 1800000.0,
-   "type_id": 23174
+   "s_bid_reach": 162500.0,
+   "type_id": 56131
   },
   {
-   "best_bid": 24920.0,
+   "best_bid": 2016000.0,
+   "gap": 0.0005,
+   "name": "",
+   "s_bid_reach": 2017000.0,
+   "type_id": 53229
+  },
+  {
+   "best_bid": 2151000.0,
+   "gap": 0.0005,
+   "name": "",
+   "s_bid_reach": 2152000.0,
+   "type_id": 64379
+  },
+  {
+   "best_bid": 2215000.0,
+   "gap": 0.0005,
+   "name": "",
+   "s_bid_reach": 2216000.0,
+   "type_id": 28680
+  },
+  {
+   "best_bid": 2854000.0,
    "gap": 0.0004,
    "name": "",
-   "s_bid_reach": 24930.0,
-   "type_id": 20781
+   "s_bid_reach": 2855000.0,
+   "type_id": 52188
   },
   {
-   "best_bid": 27140000.0,
-   "gap": 0.0004,
-   "name": "",
-   "s_bid_reach": 27150000.0,
-   "type_id": 40568
-  },
-  {
-   "best_bid": 363.6,
+   "best_bid": 300000.0,
    "gap": 0.0003,
    "name": "",
-   "s_bid_reach": 363.7,
-   "type_id": 21906
+   "s_bid_reach": 300100.0,
+   "type_id": 15613
   },
   {
-   "best_bid": 4318000.0,
+   "best_bid": 56180.0,
    "gap": 0.0002,
    "name": "",
-   "s_bid_reach": 4319000.0,
-   "type_id": 13990
-  },
-  {
-   "best_bid": 5073000.0,
-   "gap": 0.0002,
-   "name": "",
-   "s_bid_reach": 5074000.0,
-   "type_id": 87325
-  },
-  {
-   "best_bid": 5288000.0,
-   "gap": 0.0002,
-   "name": "Einherji I",
-   "s_bid_reach": 5289000.0,
-   "type_id": 23061
-  },
-  {
-   "best_bid": 56100.0,
-   "gap": 0.0002,
-   "name": "",
-   "s_bid_reach": 56110.0,
+   "s_bid_reach": 56190.0,
    "type_id": 16391
+  },
+  {
+   "best_bid": 605200.0,
+   "gap": 0.0002,
+   "name": "",
+   "s_bid_reach": 605300.0,
+   "type_id": 57446
+  },
+  {
+   "best_bid": 63260000.0,
+   "gap": 0.0002,
+   "name": "Pithum C-Type Medium Shield Booster",
+   "s_bid_reach": 63270000.0,
+   "type_id": 19187
+  },
+  {
+   "best_bid": 922300.0,
+   "gap": 0.0001,
+   "name": "",
+   "s_bid_reach": 922400.0,
+   "type_id": 49980
   }
  ],
- "types": 3824,
- "types_also_in_jita": 3824,
- "types_bid_over_jita_reaching": 9
+ "types": 3823,
+ "types_also_in_jita": 3823,
+ "types_bid_over_jita_reaching": 11
 }

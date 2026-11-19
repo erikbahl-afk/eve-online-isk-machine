@@ -119,6 +119,7 @@ type_id,name,volume,group_id
 2868,Integrity Response Drones,50,1041
 2869,Nano-Factory,50,1041
 2870,Organic Mortar Applicators,,
+2872,,50,1041
 2875,Sterile Conduits,50,1041
 2876,,50,1041
 2889,,5,55
@@ -2115,6 +2116,7 @@ type_id,name,volume,group_id
 62538,Compressed Kernite III-Grade,,
 62539,,0.012,457
 62540,,0.02,456
+62544,,0.03,455
 62552,,0.05,467
 62553,Compressed Gneiss II-Grade,0.05,467
 62554,Compressed Gneiss III-Grade,0.05,467

@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Wed 18 Nov 16:00 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
+**Updated:** Wed 18 Nov 16:23 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
 **Steps:** 32 · **Est. time:** 18 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -29,7 +29,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 2 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **174,500,000** | 174,500,000 | 174,800,000 |
+| 2 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **174,400,000** | 174,400,000 | 174,800,000 |
 | 3 | ☐ Sansha NET Resonator | 2,474,000 | **2,469,000** | 2,469,000 | 2,588,000 |
 
 #### Cancel buy orders
@@ -54,8 +54,8 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 6 | ☐ 50MN Microwarpdrive II | 3,674,000 | **3,712,000** | 3,889,000 | 3,711,000 |
-| 7 | ☐ Bomb Launcher II | 2,250,000 | **2,251,000** | 2,594,000 | 2,250,000 |
+| 6 | ☐ 50MN Microwarpdrive II | 3,674,000 | **3,712,000** | 3,908,000 | 3,711,000 |
+| 7 | ☐ Bomb Launcher II | 2,250,000 | **2,251,000** | 2,593,000 | 2,250,000 |
 | 8 | ☐ Compressed Hezorime III-Grade | 778.10 | **778.50** | 882.90 | 778.40 |
 | 9 | ☐ Criterion Cipher | 10,590,000 | **10,880,000** | 10,880,000 | 12,310,000 |
 
@@ -74,7 +74,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 11 | ☐ Compressed Fullerite-C540 | 42,580 | **43,210** | 43,210 | 44,080 |
+| 11 | ☐ Compressed Fullerite-C540 | 42,580 | **43,200** | 43,200 | 44,090 |
 
 ## 12. ☐ Jump clone to Amarr VIII (Oris) - Emperor Family Academy
 _Clone Bay → Jump Clone → Amarr VIII (Oris) - Emperor Family Academy. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
