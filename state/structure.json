@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0397,
- "buy_orders": 6025,
- "buy_orders_reaching_jita": 5946,
+ "ask_ratio_median": 1.0385,
+ "buy_orders": 6066,
+ "buy_orders_reaching_jita": 5987,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6421,
- "sell_orders": 396,
- "share_ask_below_jita": 0.2813,
+ "orders": 6466,
+ "sell_orders": 400,
+ "share_ask_below_jita": 0.2939,
  "structure_id": 1042508032148,
- "t": 1795060857.1113098,
+ "t": 1795062746.044186,
  "top_ask_below_jita": [
   {
    "best_ask": 64880.0,
@@ -31,8 +31,8 @@
    "type_id": 84399
   },
   {
-   "best_ask": 2238.0,
-   "gap": 0.8883,
+   "best_ask": 2236.0,
+   "gap": 0.8882,
    "name": "",
    "s_ask": 250.0,
    "type_id": 90480
@@ -117,14 +117,35 @@
  ],
  "top_bid_over_jita": [
   {
-   "best_bid": 4345000.0,
+   "best_bid": 519500000.0,
+   "gap": 0.0206,
+   "name": "Eifyr and Co. 'Rogue' Evasive Maneuvering EM-706",
+   "s_bid_reach": 530200000.0,
+   "type_id": 3095
+  },
+  {
+   "best_bid": 15020000.0,
+   "gap": 0.004,
+   "name": "Corpus B-Type Kinetic Armor Hardener",
+   "s_bid_reach": 15080000.0,
+   "type_id": 18909
+  },
+  {
+   "best_bid": 5317000.0,
+   "gap": 0.0015,
+   "name": "",
+   "s_bid_reach": 5325000.0,
+   "type_id": 3193
+  },
+  {
+   "best_bid": 6555000.0,
    "gap": 0.0002,
-   "name": "Orbweaver SW-300-I",
-   "s_bid_reach": 4346000.0,
-   "type_id": 92033
+   "name": "",
+   "s_bid_reach": 6556000.0,
+   "type_id": 13980
   }
  ],
- "types": 3856,
- "types_also_in_jita": 3856,
- "types_bid_over_jita_reaching": 1
+ "types": 3859,
+ "types_also_in_jita": 3859,
+ "types_bid_over_jita_reaching": 4
 }
