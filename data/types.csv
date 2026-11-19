@@ -216,7 +216,7 @@ type_id,name,volume,group_id
 4260,Expanded Probe Launcher II,5,
 4292,Siege Module II,1000,
 4294,Triage Module II,,
-4302,Oracle,,
+4302,Oracle,15000,1201
 4306,,15000,1201
 4308,,15000,1201
 4310,,15000,1201
@@ -664,6 +664,7 @@ type_id,name,volume,group_id
 16537,Vigor Compact Micro Auxiliary Power Core,5,339
 16631,Small Artillery Battery,500,426
 16633,Hydrocarbons,0.05,427
+16635,,0.05,427
 16636,Silicates,0.05,427
 16637,Tungsten,0.05,427
 16641,Chromium,0.05,
@@ -807,6 +808,7 @@ type_id,name,volume,group_id
 18935,,5,328
 18937,Corpus X-Type Explosive Armor Hardener,5,328
 18939,Centus X-Type Explosive Armor Hardener,5,328
+18941,,5,328
 18943,,5,328
 18945,Corpus X-Type Thermal Armor Hardener,5,
 18947,Centus X-Type Thermal Armor Hardener,5,328
@@ -919,6 +921,7 @@ type_id,name,volume,group_id
 19687,Eifyr and Co. 'Gunslinger' Surgical Strike SS-905,1,742
 19694,Inherent Implants 'Lancer' Large Energy Turret LE-1005,1,742
 19698,Zainou 'Deadeye' Large Hybrid Turret LH-1005,1,
+19699,Zainou 'Deadeye' Medium Hybrid Turret MH-805,,
 19719,Transport Ships,,
 19739,Cruise Missile Launcher II,20,506
 19744,,20000,28
@@ -1474,7 +1477,7 @@ type_id,name,volume,group_id
 31936,Navy Micro Auxiliary Power Core,20,339
 31942,Federation Navy Omnidirectional Tracking Link,5,646
 31944,Republic Fleet Target Painter,5,379
-31946,Imperial Navy Large Remote Capacitor Transmitter,25,
+31946,Imperial Navy Large Remote Capacitor Transmitter,25,67
 31952,Caldari Navy Power Diagnostic System,5,766
 31959,,1,
 31965,High-grade Talon Epsilon,,
@@ -2179,6 +2182,7 @@ type_id,name,volume,group_id
 79951,Machariel Luminae Polaris SKIN,,
 79954,Mamba Luminae Polaris SKIN,,
 81008,,20000,
+81023,,0.01,1950
 81040,,1300000,513
 81046,Deluge,20000,1202
 81047,Torrent,20000,380
