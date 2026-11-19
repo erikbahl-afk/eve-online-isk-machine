@@ -187,6 +187,7 @@ type_id,name,volume,group_id
 3542,CONCORD Capital Shield Booster,1000,
 3544,CONCORD Capital Remote Shield Booster,1000,41
 3568,Small Capacitor Booster II,5,76
+3581,Purloined Sansha Data Analyzer,,
 3616,Capital Remote Shield Booster I,1000,41
 3645,Water,0.19,1042
 3683,Oxygen,0.19,1042
@@ -1815,6 +1816,7 @@ type_id,name,volume,group_id
 45620,Loki Propulsion - Intercalated Nanofibers,40,
 45621,Loki Propulsion - Wake Limiter,40,957
 45622,Legion Core - Dissolution Sequencer,40,958
+45623,,40,958
 45626,Tengu Core - Augmented Graviton Reactor,40,958
 45627,,40,
 45628,,40,
@@ -2178,7 +2180,7 @@ type_id,name,volume,group_id
 73789,Coercer Navy Issue,5000,420
 73794,,5000,420
 73795,Cormorant Navy Issue,5000,420
-73796,,5000,
+73796,Catalyst Navy Issue,5000,420
 74160,,0.01,
 75275,,0.001,4513
 75276,Compressed Mordunium II-Grade,0.001,4513
@@ -2248,6 +2250,7 @@ type_id,name,volume,group_id
 85551,Glorified Gravid X-Large Shield Booster Mutaplasmid,,
 85559,Glorified Gravid Stasis Webifier Mutaplasmid,1,1964
 85642,,1,1964
+85656,Glorified Unstable Entropic Radiation Sink Mutaplasmid,1,1964
 85662,Glorified Unstable Gyrostabilizer Mutaplasmid,1,1964
 85668,Glorified Unstable Magnetic Field Stabilizer Mutaplasmid,,
 85746,Infomorph Decryption Key,,

@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Thu 19 Nov 12:00 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
+**Updated:** Thu 19 Nov 12:37 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
 **Steps:** 31 · **Est. time:** 17 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -41,10 +41,10 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 5 | ☐ 50MN Microwarpdrive II | 3,674,000 | **3,715,000** | 3,883,000 | 3,714,000 |
+| 5 | ☐ 50MN Microwarpdrive II | 3,674,000 | **3,717,000** | 3,883,000 | 3,716,000 |
 | 6 | ☐ Bomb Launcher II | 2,250,000 | **2,253,000** | 2,591,000 | 2,252,000 |
 | 7 | ☐ Compressed Hezorime III-Grade | 778.10 | **778.60** | 795.60 | 778.50 |
-| 8 | ☐ Sansha NET Resonator | 2,474,000 | **2,464,000** | 2,464,000 | 2,589,000 |
+| 8 | ☐ Sansha NET Resonator | 2,474,000 | **2,464,000** | 2,464,000 | 2,590,000 |
 
 ### Block 3 · if there's time · about 1 min
 _Short on time? Skip to the jump (step 11): the next hub's Block 1 is worth more per minute than the rest of this hub._
@@ -61,7 +61,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 10 | ☐ Compressed Fullerite-C540 | 42,580 | **42,690** | 42,690 | 44,090 |
+| 10 | ☐ Compressed Fullerite-C540 | 42,580 | **42,680** | 42,680 | 44,090 |
 
 ## 11. ☐ Jump clone to Amarr VIII (Oris) - Emperor Family Academy
 _Clone Bay → Jump Clone → Amarr VIII (Oris) - Emperor Family Academy. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
@@ -82,7 +82,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 | 16 | ☐ Legion Mjolnir Auto-Targeting Light Missile | 2,314 | **2,312** | 1,138 | 2,313 |
 | 17 | ☐ Limited Expanded 'Archiver' Cargo | 49,720,000 | **49,710,000** | 25,980,000 | 49,720,000 |
 | 18 | ☐ Standup M-Set Basic Small Ship Manufacturing Material Efficiency I | 629,600,000 | **566,600,000** | 335,200,000 | 715,000,000 |
-| 19 | ☐ Standup Moon Drill I | 148,800,000 | **144,600,000** | 130,900,000 | 144,700,000 |
+| 19 | ☐ Standup Moon Drill I | 148,800,000 | **144,500,000** | 130,900,000 | 144,600,000 |
 | 20 | ☐ Typhoon Fleet Issue Capsuleer Elite XX SKIN | 734,300,000 | **660,800,000** | 420,200,000 | - |
 
 ### Block 2 · should do · about 3 min
