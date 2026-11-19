@@ -1,20 +1,34 @@
 {
- "ask_ratio_median": 1.073,
- "buy_orders": 5929,
- "buy_orders_reaching_jita": 5851,
+ "ask_ratio_median": 1.0703,
+ "buy_orders": 5912,
+ "buy_orders_reaching_jita": 5834,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6316,
- "sell_orders": 387,
- "share_ask_below_jita": 0.2267,
+ "orders": 6300,
+ "sell_orders": 388,
+ "share_ask_below_jita": 0.2422,
  "structure_id": 1042508032148,
- "t": 1795125638.9343657,
+ "t": 1795128410.3540454,
  "top_ask_below_jita": [
+  {
+   "best_ask": 64000.0,
+   "gap": 0.9976,
+   "name": "",
+   "s_ask": 152.6,
+   "type_id": 90499
+  },
   {
    "best_ask": 18630.0,
    "gap": 0.8927,
    "name": "",
    "s_ask": 1999.0,
    "type_id": 84399
+  },
+  {
+   "best_ask": 2234.0,
+   "gap": 0.8881,
+   "name": "",
+   "s_ask": 250.0,
+   "type_id": 90480
   },
   {
    "best_ask": 169900.0,
@@ -59,8 +73,15 @@
    "type_id": 34650
   },
   {
-   "best_ask": 18000000.0,
-   "gap": 0.4444,
+   "best_ask": 3100.0,
+   "gap": 0.4471,
+   "name": "",
+   "s_ask": 1714.0,
+   "type_id": 90526
+  },
+  {
+   "best_ask": 17990000.0,
+   "gap": 0.4441,
    "name": "",
    "s_ask": 10000000.0,
    "type_id": 13235
@@ -92,31 +113,46 @@
    "name": "",
    "s_ask": 2150000.0,
    "type_id": 3665
-  },
-  {
-   "best_ask": 80000000.0,
-   "gap": 0.375,
-   "name": "",
-   "s_ask": 50000000.0,
-   "type_id": 48233
-  },
-  {
-   "best_ask": 14970000.0,
-   "gap": 0.332,
-   "name": "",
-   "s_ask": 10000000.0,
-   "type_id": 37574
-  },
-  {
-   "best_ask": 369900000.0,
-   "gap": 0.3241,
-   "name": "",
-   "s_ask": 250000000.0,
-   "type_id": 48831
   }
  ],
- "top_bid_over_jita": [],
- "types": 3812,
- "types_also_in_jita": 3812,
- "types_bid_over_jita_reaching": 0
+ "top_bid_over_jita": [
+  {
+   "best_bid": 27800.0,
+   "gap": 0.0004,
+   "name": "",
+   "s_bid_reach": 27810.0,
+   "type_id": 33448
+  },
+  {
+   "best_bid": 32380.0,
+   "gap": 0.0003,
+   "name": "",
+   "s_bid_reach": 32390.0,
+   "type_id": 30309
+  },
+  {
+   "best_bid": 73270.0,
+   "gap": 0.0003,
+   "name": "",
+   "s_bid_reach": 73290.0,
+   "type_id": 30311
+  },
+  {
+   "best_bid": 468500000.0,
+   "gap": 0.0002,
+   "name": "Skill Extractor",
+   "s_bid_reach": 468600000.0,
+   "type_id": 40519
+  },
+  {
+   "best_bid": 57290.0,
+   "gap": 0.0002,
+   "name": "",
+   "s_bid_reach": 57300.0,
+   "type_id": 2355
+  }
+ ],
+ "types": 3813,
+ "types_also_in_jita": 3813,
+ "types_bid_over_jita_reaching": 5
 }

@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Thu 19 Nov 14:00 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
+**Updated:** Thu 19 Nov 14:46 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
 **Steps:** 32 · **Est. time:** 18 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -68,7 +68,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 11 | ☐ Compressed Fullerite-C540 | 42,580 | **42,870** | 42,870 | 44,090 |
+| 11 | ☐ Compressed Fullerite-C540 | 42,580 | **42,850** | 42,850 | 44,090 |
 
 ## 12. ☐ Jump clone to Amarr VIII (Oris) - Emperor Family Academy
 _Clone Bay → Jump Clone → Amarr VIII (Oris) - Emperor Family Academy. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
