@@ -620,6 +620,7 @@ type_id,name,volume,group_id
 15860,Imperial Navy Tachyon Beam Laser,,
 15862,Imperial Navy Mega Pulse Laser,20,53
 15863,Imperial Navy Mega Beam Laser,20,53
+15864,Imperial Navy Small Focused Pulse Laser,5,53
 15865,Imperial Navy Small Focused Beam Laser,5,53
 15887,Caldari Navy Warp Scrambler,5,52
 15889,Caldari Navy Warp Disruptor,5,52
@@ -1241,7 +1242,7 @@ type_id,name,volume,group_id
 27423,Caldari Navy Inferno Cruise Missile,0.05,386
 27429,Caldari Navy Nova Cruise Missile,0.05,386
 27435,Caldari Navy Mjolnir Heavy Missile,0.03,385
-27441,,0.03,
+27441,,0.03,385
 27447,Caldari Navy Inferno Heavy Missile,0.03,
 27453,,0.03,385
 27459,,0.05,
@@ -1634,6 +1635,7 @@ type_id,name,volume,group_id
 37298,Dual Giga Pulse Laser II,1000,53
 37300,Triple Neutron Blaster Cannon II,1000,74
 37302,Ion Siege Blaster II,1000,
+37304,,1000,55
 37306,Hexa 2500mm Repeating Cannon II,1000,55
 37450,,5,54
 37452,ORE Ice Mining Laser,5,54
@@ -2121,6 +2123,7 @@ type_id,name,volume,group_id
 62553,Compressed Gneiss II-Grade,0.05,467
 62554,Compressed Gneiss III-Grade,0.05,467
 62555,Compressed Gneiss IV-Grade,0.05,467
+62556,,0.08,453
 62559,Compressed Dark Ochre IV-Grade,0.08,453
 62560,Compressed Crokite,0.16,452
 62562,,0.16,452
@@ -2398,7 +2401,8 @@ type_id,name,volume,group_id
 97897,Bloody Sunset Background,,
 97955,Imperial Navy Stasis Webifier,5,65
 97957,,5,52
-97976,,25,644
+97975,'Vigilant' Vital Shield Boost Amplifier,5,338
+97976,'Vigilant' Vital Drone Navigation Computer,25,644
 98134,SARO Monitoring Booster,1,303
 98135,SARO Pursuit Booster,1,303
 98137,,1,303

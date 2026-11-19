@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0723,
- "buy_orders": 6046,
- "buy_orders_reaching_jita": 5969,
+ "ask_ratio_median": 1.0651,
+ "buy_orders": 6056,
+ "buy_orders_reaching_jita": 5979,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6426,
+ "orders": 6436,
  "sell_orders": 380,
  "share_ask_below_jita": 0.2605,
  "structure_id": 1042508032148,
- "t": 1795047849.1343274,
+ "t": 1795053651.0527508,
  "top_ask_below_jita": [
   {
    "best_ask": 64890.0,
@@ -117,84 +117,98 @@
  ],
  "top_bid_over_jita": [
   {
-   "best_bid": 135300000.0,
-   "gap": 0.0007,
-   "name": "Unstable Stasis Webifier Mutaplasmid",
-   "s_bid_reach": 135400000.0,
-   "type_id": 47700
-  },
-  {
-   "best_bid": 162400.0,
-   "gap": 0.0006,
+   "best_bid": 56240.0,
+   "gap": 0.0048,
    "name": "",
-   "s_bid_reach": 162500.0,
-   "type_id": 56131
-  },
-  {
-   "best_bid": 2016000.0,
-   "gap": 0.0005,
-   "name": "",
-   "s_bid_reach": 2017000.0,
-   "type_id": 53229
-  },
-  {
-   "best_bid": 2151000.0,
-   "gap": 0.0005,
-   "name": "",
-   "s_bid_reach": 2152000.0,
-   "type_id": 64379
-  },
-  {
-   "best_bid": 2215000.0,
-   "gap": 0.0005,
-   "name": "",
-   "s_bid_reach": 2216000.0,
-   "type_id": 28680
-  },
-  {
-   "best_bid": 2854000.0,
-   "gap": 0.0004,
-   "name": "",
-   "s_bid_reach": 2855000.0,
-   "type_id": 52188
-  },
-  {
-   "best_bid": 300000.0,
-   "gap": 0.0003,
-   "name": "",
-   "s_bid_reach": 300100.0,
-   "type_id": 15613
-  },
-  {
-   "best_bid": 56180.0,
-   "gap": 0.0002,
-   "name": "",
-   "s_bid_reach": 56190.0,
+   "s_bid_reach": 56510.0,
    "type_id": 16391
   },
   {
-   "best_bid": 605200.0,
-   "gap": 0.0002,
+   "best_bid": 7293.0,
+   "gap": 0.0025,
    "name": "",
-   "s_bid_reach": 605300.0,
-   "type_id": 57446
+   "s_bid_reach": 7311.0,
+   "type_id": 41302
   },
   {
-   "best_bid": 63260000.0,
-   "gap": 0.0002,
+   "best_bid": 11060.0,
+   "gap": 0.0018,
+   "name": "Nonlinear Metamaterials",
+   "s_bid_reach": 11080.0,
+   "type_id": 33362
+  },
+  {
+   "best_bid": 102.0,
+   "gap": 0.001,
+   "name": "",
+   "s_bid_reach": 102.1,
+   "type_id": 12775
+  },
+  {
+   "best_bid": 63290000.0,
+   "gap": 0.0008,
    "name": "Pithum C-Type Medium Shield Booster",
-   "s_bid_reach": 63270000.0,
+   "s_bid_reach": 63340000.0,
    "type_id": 19187
   },
   {
-   "best_bid": 922300.0,
+   "best_bid": 301200.0,
+   "gap": 0.0007,
+   "name": "",
+   "s_bid_reach": 301400.0,
+   "type_id": 98450
+  },
+  {
+   "best_bid": 20120000.0,
+   "gap": 0.0005,
+   "name": "",
+   "s_bid_reach": 20130000.0,
+   "type_id": 40567
+  },
+  {
+   "best_bid": 2230000.0,
+   "gap": 0.0004,
+   "name": "",
+   "s_bid_reach": 2231000.0,
+   "type_id": 4383
+  },
+  {
+   "best_bid": 2817000.0,
+   "gap": 0.0004,
+   "name": "",
+   "s_bid_reach": 2818000.0,
+   "type_id": 31868
+  },
+  {
+   "best_bid": 37100000.0,
+   "gap": 0.0003,
+   "name": "Dark Blood Mega Pulse Laser",
+   "s_bid_reach": 37110000.0,
+   "type_id": 13815
+  },
+  {
+   "best_bid": 5021000.0,
+   "gap": 0.0002,
+   "name": "",
+   "s_bid_reach": 5022000.0,
+   "type_id": 18839
+  },
+  {
+   "best_bid": 7705.0,
    "gap": 0.0001,
    "name": "",
-   "s_bid_reach": 922400.0,
-   "type_id": 49980
+   "s_bid_reach": 7706.0,
+   "type_id": 28999
+  },
+  {
+   "best_bid": 8938000.0,
+   "gap": 0.0001,
+   "name": "Medium Targeting Systems Stabilizer II",
+   "s_bid_reach": 8939000.0,
+   "type_id": 31342
   }
  ],
- "types": 3823,
- "types_also_in_jita": 3823,
- "types_bid_over_jita_reaching": 11
+ "types": 3853,
+ "types_also_in_jita": 3853,
+ "types_bid_over_jita_reaching": 13
 }
