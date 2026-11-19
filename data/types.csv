@@ -146,6 +146,7 @@ type_id,name,volume,group_id
 3092,Zainou 'Gnome' Shield Operation SP-906,1,749
 3095,Eifyr and Co. 'Rogue' Evasive Maneuvering EM-706,1,747
 3106,,10,
+3113,Eifyr and Co. 'Rogue' High Speed Maneuvering HS-904,,
 3119,Eifyr and Co. 'Rogue' Warp Drive Speed WS-618,1,747
 3122,Electron Blaster Cannon II,,
 3130,Heavy Electron Blaster II,10,74
@@ -477,7 +478,7 @@ type_id,name,volume,group_id
 13933,Dread Guristas Rocket Launcher,5,
 13935,Domination Ballistic Control System,5,367
 13937,Dread Guristas Ballistic Control System,5,367
-13939,Domination Gyrostabilizer,,
+13939,Domination Gyrostabilizer,5,59
 13943,True Sansha Heat Sink,5,205
 13945,,5,
 13947,,25,
@@ -1349,7 +1350,7 @@ type_id,name,volume,group_id
 29015,Targeting Range Dampening Script,,
 29336,,10000,26
 29337,Augoror Navy Issue,10000,26
-29340,,10000,26
+29340,Osprey Navy Issue,10000,26
 29344,,10000,
 29984,Tengu,5000,963
 29986,Legion,5000,963
@@ -1477,6 +1478,7 @@ type_id,name,volume,group_id
 31916,Imperial Navy 800mm Steel Plates,20,329
 31918,Federation Navy 800mm Steel Plates,20,329
 31922,Caldari Navy Small Shield Extender,5,
+31924,,5,38
 31926,Caldari Navy Medium Shield Extender,10,38
 31928,Republic Fleet Medium Shield Extender,10,38
 31930,Caldari Navy Large Shield Extender,20,38
@@ -2162,6 +2164,7 @@ type_id,name,volume,group_id
 64380,Men's Amarr Courtly Robe,,
 72812,Ferox Navy Issue,15000,419
 72869,Myrmidon Navy Issue,,
+72872,,15000,419
 72903,,2500,25
 72904,Heron Navy Issue,2500,25
 72913,Imicus Navy Issue,,

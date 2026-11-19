@@ -5,6 +5,12 @@
  "in_transit": [],
  "inventory": {
   "amarr": {
+   "11452": {
+    "cost": 6516000.0,
+    "qty": 1,
+    "since": 1795096623.0,
+    "tag": "station"
+   },
    "62590": {
     "cost": 7775000.0,
     "qty": 1,
@@ -40,7 +46,7 @@
   }
  },
  "last_jump": 1794931228.2503583,
- "last_t": 1795089637.4062543,
+ "last_t": 1795096828.4558134,
  "location": "amarr",
  "next_oid": 52,
  "orders": [
@@ -421,23 +427,11 @@
    "type_id": 62553,
    "unit_cost": 2313.0,
    "updated": 1794931228.2503583
-  },
-  {
-   "created": 1794931228.2503583,
-   "hub": "amarr",
-   "oid": 50,
-   "price": 6516000.0,
-   "qty": 1,
-   "remain": 1,
-   "side": "buy",
-   "tag": "station",
-   "type_id": 11452,
-   "updated": 1794931228.2503583
   }
  ],
  "per_strategy": {
   "station": {
-   "buys": 264544971.1,
+   "buys": 271060971.1,
    "fees": 27592453.835849993,
    "realized": 250297.49915000884,
    "sales": 77361116.0
@@ -445,8 +439,8 @@
  },
  "per_type": {
   "amarr:11452": {
-   "bought_isk": 0.0,
-   "bought_units": 0,
+   "bought_isk": 6516000.0,
+   "bought_units": 1,
    "fees": 97740.0,
    "realized": -97740.0,
    "sold_net": 0.0,
@@ -751,7 +745,7 @@
  },
  "pnl": {
   "broker": 21987770.924249995,
-  "buys": 264544971.1,
+  "buys": 271060971.1,
   "courier": 0.0,
   "realized": 250297.49915000884,
   "relist": 5604682.911599999,
