@@ -534,7 +534,7 @@ type_id,name,volume,group_id
 14148,Dark Blood Small Energy Nosferatu,5,68
 14152,,5,
 14156,Dark Blood Medium Energy Nosferatu,,
-14158,,5,
+14158,True Sansha Medium Energy Nosferatu,5,68
 14164,Dark Blood Medium Energy Neutralizer,5,71
 14166,,5,71
 14168,Dark Blood Heavy Energy Neutralizer,5,
@@ -1528,6 +1528,7 @@ type_id,name,volume,group_id
 33362,Nonlinear Metamaterials,1,429
 33393,Genolution Core Augmentation CA-3,1,
 33400,,200,
+33403,,1,744
 33405,,1,744
 33406,Caldari Navy Command Mindlink,,
 33446,Caldari Navy Rapid Heavy Missile Launcher,20,1245
@@ -1817,7 +1818,7 @@ type_id,name,volume,group_id
 45628,,40,
 45629,Proteus Core - Augmented Fusion Reactor,40,958
 45630,Proteus Core - Friction Extension Processor,40,958
-45631,Loki Core - Dissolution Sequencer,40,
+45631,Loki Core - Dissolution Sequencer,40,958
 45632,Loki Core - Augmented Nuclear Reactor,40,958
 45633,Loki Core - Immobility Drivers,40,958
 45856,Golem Exoplanets Hunter SKIN,0.01,
