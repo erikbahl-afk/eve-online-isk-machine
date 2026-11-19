@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Thu 19 Nov 10:00 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
+**Updated:** Thu 19 Nov 12:00 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
 **Steps:** 31 · **Est. time:** 17 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -22,16 +22,16 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 1 | ☐ Gistum B-Type Medium Shield Booster | 105,700,000 | **105,700,000** | 105,700,000 | 111,900,000 |
-| 2 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **174,200,000** | 174,200,000 | 174,800,000 |
-| 3 | ☐ Sansha NET Resonator | 2,474,000 | **2,464,000** | 2,464,000 | 2,589,000 |
+| 1 | ☐ Criterion Cipher | 10,590,000 | **12,810,000** | 20,130,000 | 12,800,000 |
+| 2 | ☐ Gistum B-Type Medium Shield Booster | 105,700,000 | **105,800,000** | 105,800,000 | 111,900,000 |
+| 3 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **174,200,000** | 174,200,000 | 174,800,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 4 | ☐ Compressed Glistening Zeolites | 42,754 | **2,477** | 2,623 | 2,476 |
+| 4 | ☐ Compressed Glistening Zeolites | 42,736 | **2,478** | 2,623 | 2,477 |
 
 ### Block 2 · should do · about 2 min
 _Short on time? Skip to the jump (step 11): the next hub's Block 1 is worth more per minute than the rest of this hub._
@@ -41,10 +41,10 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 5 | ☐ 50MN Microwarpdrive II | 3,674,000 | **3,715,000** | 3,884,000 | 3,714,000 |
+| 5 | ☐ 50MN Microwarpdrive II | 3,674,000 | **3,715,000** | 3,883,000 | 3,714,000 |
 | 6 | ☐ Bomb Launcher II | 2,250,000 | **2,253,000** | 2,591,000 | 2,252,000 |
 | 7 | ☐ Compressed Hezorime III-Grade | 778.10 | **778.60** | 795.60 | 778.50 |
-| 8 | ☐ Criterion Cipher | 10,590,000 | **12,800,000** | 19,350,000 | 12,790,000 |
+| 8 | ☐ Sansha NET Resonator | 2,474,000 | **2,464,000** | 2,464,000 | 2,589,000 |
 
 ### Block 3 · if there's time · about 1 min
 _Short on time? Skip to the jump (step 11): the next hub's Block 1 is worth more per minute than the rest of this hub._
@@ -54,14 +54,14 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 9 | ☐ Compressed Brimful Bitumens | 1,214 | **1,293** | 1,215 | 1,294 |
+| 9 | ☐ Compressed Brimful Bitumens | 1,214 | **1,289** | 1,215 | 1,290 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 10 | ☐ Compressed Fullerite-C540 | 42,580 | **42,730** | 42,730 | 44,110 |
+| 10 | ☐ Compressed Fullerite-C540 | 42,580 | **42,690** | 42,690 | 44,090 |
 
 ## 11. ☐ Jump clone to Amarr VIII (Oris) - Emperor Family Academy
 _Clone Bay → Jump Clone → Amarr VIII (Oris) - Emperor Family Academy. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
@@ -110,7 +110,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 | 28 | ☐ Caldari Drone Specialization | 2,193,000 | **2,110,000** | 1,139,000 | 2,111,000 |
 | 29 | ☐ Polarized Light Neutron Blaster | 5,929,000 | **5,885,000** | 3,818,000 | 5,886,000 |
 | 30 | ☐ Shrapnel Bomb | 1,657,000 | **1,657,000** | 1,311,000 | 1,658,000 |
-| 31 | ☐ Zero-Point Mass Entangler | 8,875,000 | **8,875,000** | 8,875,000 | 8,764,000 |
+| 31 | ☐ Zero-Point Mass Entangler | 8,875,000 | **8,875,000** | 8,875,000 | 8,762,000 |
 
 ---
 Wallet 206.76M · escrow 966.64M · stock 3.79B · in transit 0.00 · net worth 4.96B (liquidation 2.49B)

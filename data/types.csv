@@ -297,6 +297,7 @@ type_id,name,volume,group_id
 11325,,20,329
 11343,100mm Crystalline Carbonide Restrained Plates,,
 11365,Vengeance,2500,324
+11371,,2500,324
 11377,Nemesis,2500,834
 11379,,2500,
 11381,,2500,
@@ -713,6 +714,7 @@ type_id,name,volume,group_id
 17478,Retriever,3750,
 17480,,3750,463
 17482,Strip Miner I,5,464
+17483,,0.01,490
 17487,Republic Fleet Heavy Missile Launcher,10,
 17488,Republic Fleet Rocket Launcher,5,507
 17491,Republic Fleet Light Missile Launcher,5,509
@@ -1929,7 +1931,7 @@ type_id,name,volume,group_id
 49733,Unstable Gyrostabilizer Mutaplasmid,1,
 49737,,1,1964
 49740,Gravid Ballistic Control System Mutaplasmid,1,1964
-49741,Unstable Ballistic Control System Mutaplasmid,,
+49741,Unstable Ballistic Control System Mutaplasmid,1,1964
 49774,Perun Heavy Mutadaptive Remote Armor Repairer,10,2018
 49790,ML-EKP 'Polybolos' Ballistic Control System,5,367
 49924,Vedmak Blackfire Steel SKIN,0.01,1950
@@ -2227,7 +2229,7 @@ type_id,name,volume,group_id
 83470,Mordu NET Resonator,1,334
 83471,Sansha NET Resonator,1,334
 83472,Serpentis NET Resonator,1,334
-83473,,1,334
+83473,SoE NET Resonator,1,334
 84100,Paladin War for the Empire SKIN,0.01,
 84173,Imperial Gold Metallic - Limited,0.1,4726
 85084,Small Breacher Pod Launcher,,
@@ -2321,6 +2323,7 @@ type_id,name,volume,group_id
 92039,Inshore EC-300-I,5,5239
 92040,Nertic EC-600-I,10,5239
 92041,Humboldt EC-900-I,25,5239
+92454,,5,763
 92456,Presidential Mining Foreman Burst,60,1770
 92462,Darter TP-600-I,10,5239
 92463,,25,
