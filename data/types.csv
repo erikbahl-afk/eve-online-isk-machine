@@ -1361,7 +1361,7 @@ type_id,name,volume,group_id
 30018,,0.01,
 30024,,0.01,966
 30251,Neurovisual Input Matrix,,
-30252,,0.01,966
+30252,Thermoelectric Catalysts,0.01,966
 30254,Electromechanical Hull Sheeting,0.01,966
 30304,PPD Fullerene Fibers,0.5,974
 30305,Fullerene Intercalated Graphite,0.8,974
@@ -1970,7 +1970,7 @@ type_id,name,volume,group_id
 53712,High-grade Nirvana Delta,1,300
 53713,High-grade Nirvana Epsilon,1,
 53714,High-grade Nirvana Omega,1,300
-53715,High-grade Nirvana Gamma,1,
+53715,High-grade Nirvana Gamma,1,300
 53839,Low-grade Nirvana Omega,1,300
 53854,Low-grade Nirvana Beta,1,300
 53856,Low-grade Nirvana Delta,,

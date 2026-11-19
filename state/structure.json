@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0637,
- "buy_orders": 6006,
- "buy_orders_reaching_jita": 5927,
+ "ask_ratio_median": 1.0659,
+ "buy_orders": 5998,
+ "buy_orders_reaching_jita": 5919,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6403,
- "sell_orders": 397,
- "share_ask_below_jita": 0.2431,
+ "orders": 6394,
+ "sell_orders": 396,
+ "share_ask_below_jita": 0.2492,
  "structure_id": 1042508032148,
- "t": 1795104054.2719042,
+ "t": 1795111243.6722138,
  "top_ask_below_jita": [
   {
    "best_ask": 62900.0,
@@ -24,7 +24,7 @@
    "type_id": 90470
   },
   {
-   "best_ask": 46890.0,
+   "best_ask": 46880.0,
    "gap": 0.9284,
    "name": "",
    "s_ask": 3356.0,
@@ -38,7 +38,7 @@
    "type_id": 84399
   },
   {
-   "best_ask": 2235.0,
+   "best_ask": 2234.0,
    "gap": 0.8881,
    "name": "",
    "s_ask": 250.0,
@@ -115,8 +115,16 @@
    "type_id": 34601
   }
  ],
- "top_bid_over_jita": [],
- "types": 3835,
- "types_also_in_jita": 3835,
- "types_bid_over_jita_reaching": 0
+ "top_bid_over_jita": [
+  {
+   "best_bid": 685900000.0,
+   "gap": 0.0001,
+   "name": "Large Skill Injector",
+   "s_bid_reach": 686000000.0,
+   "type_id": 40520
+  }
+ ],
+ "types": 3821,
+ "types_also_in_jita": 3821,
+ "types_bid_over_jita_reaching": 1
 }
