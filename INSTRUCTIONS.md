@@ -3,13 +3,13 @@
 
 # Session checklist
 
-**Updated:** Wed 18 Nov 22:00 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
-**Steps:** 33 · **Est. time:** 19 min. Work top to bottom; stop any time.  
+**Updated:** Thu 19 Nov 00:00 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
+**Steps:** 32 · **Est. time:** 18 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
 
-_Left out 11 small steps worth less than 991.52k per minute of your time (0.02% of net worth per minute)._
+_Left out 12 small steps worth less than 991.54k per minute of your time (0.02% of net worth per minute)._
 
 Each hub's steps come in **priority blocks**: finish Block 1 before anything else, and stop wherever your time runs out. Within a block, steps follow the in-game windows for speed.
 
@@ -44,7 +44,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 5 | ☐ Compressed Glistening Zeolites | 21,146 | **2,477** | 2,569 | 2,476 |
+| 5 | ☐ Compressed Glistening Zeolites | 21,530 | **2,478** | 2,574 | 2,477 |
 
 ### Block 2 · should do · about 2 min
 _Short on time? Skip to the jump (step 12): the next hub's Block 1 is worth more per minute than the rest of this hub._
@@ -54,10 +54,10 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 6 | ☐ 50MN Microwarpdrive II | 3,674,000 | **3,711,000** | 3,909,000 | 3,710,000 |
-| 7 | ☐ Bomb Launcher II | 2,250,000 | **2,251,000** | 2,593,000 | 2,250,000 |
+| 6 | ☐ 50MN Microwarpdrive II | 3,674,000 | **3,710,000** | 3,888,000 | 3,709,000 |
+| 7 | ☐ Bomb Launcher II | 2,250,000 | **2,253,000** | 2,593,000 | 2,252,000 |
 | 8 | ☐ Compressed Hezorime III-Grade | 778.10 | **778.50** | 882.90 | 778.40 |
-| 9 | ☐ Criterion Cipher | 10,590,000 | **12,350,000** | 19,320,000 | 12,340,000 |
+| 9 | ☐ Criterion Cipher | 10,590,000 | **12,360,000** | 19,350,000 | 12,350,000 |
 
 ### Block 3 · if there's time · about 1 min
 _Short on time? Skip to the jump (step 12): the next hub's Block 1 is worth more per minute than the rest of this hub._
@@ -67,7 +67,7 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 10 | ☐ Compressed Brimful Bitumens | 1,214 | **1,335** | 1,215 | 1,336 |
+| 10 | ☐ Compressed Brimful Bitumens | 1,214 | **1,296** | 1,215 | 1,297 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
@@ -107,13 +107,12 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
 | 23 | ☐ Caesium | 6,635 | **6,635** | 6,165 | 6,636 |
-| 24 | ☐ Caldari Drone Specialization | 2,193,000 | **2,110,000** | 1,139,000 | 2,111,000 |
-| 25 | ☐ Capital I-a Enduring Armor Repairer | 199,700,000 | **179,700,000** | 88,790,000 | 199,800,000 |
-| 26 | ☐ Gravid Vorton Tuning System Mutaplasmid | 71,990,000 | **64,790,000** | 54,540,000 | 80,000,000 |
-| 27 | ☐ Legion Mjolnir Auto-Targeting Light Missile | 2,314 | **2,312** | 1,138 | 2,313 |
-| 28 | ☐ Low-grade Crystal Epsilon | 136,900,000 | **136,800,000** | 0.01 | 136,900,000 |
-| 29 | ☐ Mobile Large Warp Disruptor I | 24,840,000 | **24,760,000** | 18,570,000 | 24,770,000 |
-| 30 | ☐ Shrapnel Bomb | 1,657,000 | **1,657,000** | 1,311,000 | 1,658,000 |
+| 24 | ☐ Capital I-a Enduring Armor Repairer | 199,700,000 | **179,700,000** | 88,790,000 | 199,800,000 |
+| 25 | ☐ Gravid Vorton Tuning System Mutaplasmid | 71,990,000 | **64,790,000** | 54,540,000 | 80,000,000 |
+| 26 | ☐ Legion Mjolnir Auto-Targeting Light Missile | 2,314 | **2,312** | 1,138 | 2,313 |
+| 27 | ☐ Low-grade Crystal Epsilon | 136,900,000 | **136,800,000** | 0.01 | 136,900,000 |
+| 28 | ☐ Mobile Large Warp Disruptor I | 24,840,000 | **24,740,000** | 18,570,000 | 24,750,000 |
+| 29 | ☐ Shrapnel Bomb | 1,657,000 | **1,657,000** | 1,311,000 | 1,658,000 |
 
 ### Block 3 · if there's time · about 2 min
 
@@ -122,15 +121,15 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 31 | ☐ Polarized Light Neutron Blaster | 5,929,000 | **5,885,000** | 3,818,000 | 5,886,000 |
-| 32 | ☐ Zero-Point Mass Entangler | 8,875,000 | **8,875,000** | 8,875,000 | 8,780,000 |
+| 30 | ☐ Polarized Light Neutron Blaster | 5,929,000 | **5,885,000** | 3,818,000 | 5,886,000 |
+| 31 | ☐ Zero-Point Mass Entangler | 8,875,000 | **8,875,000** | 8,875,000 | 8,778,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 33 | ☐ Medium Industrial Core I | 3 | **7,775,000** | 10,420,000 | 7,774,000 |
+| 32 | ☐ Medium Industrial Core I | 3 | **7,775,000** | 10,420,000 | 7,774,000 |
 
 ---
-Wallet 175.99M · escrow 966.64M · stock 3.81B · in transit 0.00 · net worth 4.96B (liquidation 2.49B)
+Wallet 176.98M · escrow 966.64M · stock 3.81B · in transit 0.00 · net worth 4.96B (liquidation 2.49B)

@@ -1241,6 +1241,7 @@ type_id,name,volume,group_id
 27399,Dread Guristas Scourge Cruise Missile,0.05,386
 27401,Caldari Navy Nova Heavy Assault Missile,0.015,772
 27409,Guristas Inferno Cruise Missile,,
+27413,,0.015,772
 27419,Caldari Navy Mjolnir Heavy Assault Missile,0.015,772
 27421,,0.015,
 27423,Caldari Navy Inferno Cruise Missile,0.05,386
@@ -1306,7 +1307,7 @@ type_id,name,volume,group_id
 28674,Synth Drop Booster,1,303
 28676,Synth Exile Booster,1,
 28678,,1,303
-28680,,1,
+28680,Synth Mindflood Booster,1,
 28682,Synth X-Instinct Booster,1,303
 28684,Synth Sooth Sayer Booster,1,
 28694,Amber Mykoserocin,10,711
@@ -1467,6 +1468,7 @@ type_id,name,volume,group_id
 31900,Imperial Navy 1600mm Steel Plates,20,329
 31902,Federation Navy 1600mm Steel Plates,20,329
 31904,Imperial Navy 200mm Steel Plates,10,329
+31908,,10,329
 31910,Federation Navy 400mm Steel Plates,10,329
 31916,Imperial Navy 800mm Steel Plates,20,329
 31918,Federation Navy 800mm Steel Plates,20,329
@@ -2407,6 +2409,7 @@ type_id,name,volume,group_id
 97897,Bloody Sunset Background,,
 97955,Imperial Navy Stasis Webifier,5,65
 97957,,5,52
+97974,'Vigilant' Vital Overdrive Injector System,5,764
 97975,'Vigilant' Vital Shield Boost Amplifier,5,338
 97976,'Vigilant' Vital Drone Navigation Computer,25,644
 98134,SARO Monitoring Booster,1,303
@@ -2422,6 +2425,7 @@ type_id,name,volume,group_id
 98415,Imperial Mobility Booster II,,
 98417,Imperial Hardpoint Booster I,,
 98418,,1,303
+98430,State Hardpoint Booster II,1,303
 98436,Federation Defense Booster II,,
 98454,Republic Hardpoint Booster II,,
 98652,,0.01,1950
