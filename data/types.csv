@@ -549,7 +549,7 @@ type_id,name,volume,group_id
 14202,True Sansha Small EMP Smartbomb,5,72
 14204,Dread Guristas Large Graviton Smartbomb,50,72
 14206,Shadow Serpentis Large Plasma Smartbomb,50,72
-14208,Domination Large Proton Smartbomb,50,
+14208,Domination Large Proton Smartbomb,50,72
 14210,,10,72
 14220,Shadow Serpentis Medium Plasma Smartbomb,10,72
 14230,Dread Guristas Co-Processor,5,285
@@ -981,6 +981,7 @@ type_id,name,volume,group_id
 20629,,10,
 20779,,0.0125,83
 20783,Domination EMP M,0.0125,83
+20839,Sanshas Multifrequency L,,
 20847,,1,86
 20855,True Sanshas Standard S,,
 21009,Capital Propulsion Engine,2000,
@@ -1117,7 +1118,7 @@ type_id,name,volume,group_id
 24531,Nova Fury Cruise Missile,0.05,656
 24533,,0.05,656
 24535,,0.05,
-24539,,0.05,
+24539,Mjolnir Precision Cruise Missile,0.05,656
 24560,,2000,873
 24632,Zainou 'Deadeye' Guided Missile Precision GP-803,1,746
 24640,Zainou 'Deadeye' Guided Missile Precision GP-805,,
