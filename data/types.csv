@@ -497,7 +497,7 @@ type_id,name,volume,group_id
 13976,Dark Blood Explosive Armor Hardener,,
 13978,True Sansha Kinetic Armor Hardener,5,328
 13982,True Sansha Thermal Armor Hardener,5,328
-13984,Dark Blood Thermal Armor Hardener,,
+13984,Dark Blood Thermal Armor Hardener,5,328
 13998,Domination Multispectrum Shield Hardener,5,77
 14001,True Sansha Multispectrum Coating,5,98
 14041,,5,
@@ -848,7 +848,7 @@ type_id,name,volume,group_id
 19105,,5,
 19109,,5,68
 19113,Corpus C-Type Heavy Energy Nosferatu,5,68
-19119,Corpus X-Type Heavy Energy Nosferatu,5,
+19119,Corpus X-Type Heavy Energy Nosferatu,5,68
 19139,Pithi A-Type Small Remote Shield Booster,5,41
 19141,Gistum C-Type Medium Remote Shield Booster,,
 19143,Gistum B-Type Medium Remote Shield Booster,10,41
@@ -1027,6 +1027,7 @@ type_id,name,volume,group_id
 22122,Mid-grade Amulet Epsilon,1,300
 22123,Mid-grade Amulet Gamma,1,300
 22124,Mid-grade Amulet Omega,1,300
+22125,Mid-grade Snake Alpha,1,300
 22126,,1,300
 22128,Mid-grade Snake Epsilon,1,300
 22229,Ice Harvester II,,
@@ -1514,7 +1515,7 @@ type_id,name,volume,group_id
 33151,,15000,
 33153,Drake Navy Issue,15000,419
 33155,Harbinger Navy Issue,15000,419
-33157,,15000,
+33157,,15000,419
 33201,,5,
 33332,,1.5,87
 33359,Photonic Metamaterials,1,429
@@ -2125,6 +2126,7 @@ type_id,name,volume,group_id
 62529,Compressed Plagioclase II-Grade,0.0035,458
 62532,Compressed Omber,0.006,469
 62533,Compressed Omber II-Grade,,
+62535,,0.006,469
 62536,Compressed Kernite,0.012,457
 62538,Compressed Kernite III-Grade,,
 62539,,0.012,457
@@ -2185,6 +2187,7 @@ type_id,name,volume,group_id
 78367,Mamba,5000,420
 78369,Khizriel,15000,419
 78622,Gravid Vorton Tuning System Mutaplasmid,1,1964
+78889,Mysterious GalNet Crate,0.1,1194
 79186,Mysterious GalNet Crate II,,
 79744,Barghest Aurora Universalis SKIN,,
 79951,Machariel Luminae Polaris SKIN,,

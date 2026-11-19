@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Thu 19 Nov 02:21 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
+**Updated:** Thu 19 Nov 04:00 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
 **Steps:** 33 · **Est. time:** 19 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -30,7 +30,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 2 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **174,400,000** | 174,400,000 | 174,800,000 |
-| 3 | ☐ Sansha NET Resonator | 2,474,000 | **2,467,000** | 2,467,000 | 2,591,000 |
+| 3 | ☐ Sansha NET Resonator | 2,474,000 | **2,467,000** | 2,467,000 | 2,592,000 |
 
 #### Cancel buy orders
 _My Orders → Buying. Right-click → Cancel Order._
@@ -44,7 +44,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 5 | ☐ Compressed Glistening Zeolites | 21,530 | **2,478** | 2,574 | 2,477 |
+| 5 | ☐ Compressed Glistening Zeolites | 21,530 | **2,478** | 2,623 | 2,477 |
 
 ### Block 2 · should do · about 2 min
 _Short on time? Skip to the jump (step 12): the next hub's Block 1 is worth more per minute than the rest of this hub._
@@ -54,10 +54,10 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 6 | ☐ 50MN Microwarpdrive II | 3,674,000 | **3,710,000** | 3,884,000 | 3,709,000 |
+| 6 | ☐ 50MN Microwarpdrive II | 3,674,000 | **3,711,000** | 3,884,000 | 3,710,000 |
 | 7 | ☐ Bomb Launcher II | 2,250,000 | **2,253,000** | 2,593,000 | 2,252,000 |
 | 8 | ☐ Compressed Hezorime III-Grade | 778.10 | **778.50** | 882.80 | 778.40 |
-| 9 | ☐ Criterion Cipher | 10,590,000 | **12,370,000** | 19,350,000 | 12,360,000 |
+| 9 | ☐ Criterion Cipher | 10,590,000 | **12,390,000** | 19,350,000 | 12,380,000 |
 
 ### Block 3 · if there's time · about 1 min
 _Short on time? Skip to the jump (step 12): the next hub's Block 1 is worth more per minute than the rest of this hub._
@@ -74,7 +74,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 11 | ☐ Compressed Fullerite-C540 | 42,580 | **42,820** | 42,820 | 44,060 |
+| 11 | ☐ Compressed Fullerite-C540 | 42,580 | **42,840** | 42,840 | 44,060 |
 
 ## 12. ☐ Jump clone to Amarr VIII (Oris) - Emperor Family Academy
 _Clone Bay → Jump Clone → Amarr VIII (Oris) - Emperor Family Academy. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
