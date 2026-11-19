@@ -1,14 +1,14 @@
 {
- "est_secs": 1095,
- "generated": 1795075224.0300007,
+ "est_secs": 1120,
+ "generated": 1795082428.454864,
  "hub": "jita",
  "location": "jita",
  "min_isk_per_min": 991537,
  "other": "amarr",
- "skipped_low_value": 12,
+ "skipped_low_value": 11,
  "steps": [
   {
-   "benefit": 1528827.8044103945,
+   "benefit": 1338954.9457438078,
    "block": 1,
    "floor": 808.5,
    "group": 1,
@@ -17,9 +17,9 @@
    "mine": 998.8,
    "n": 1,
    "oid": 57,
-   "ref": 998.8,
+   "ref": 998.6,
    "secs": 25,
-   "target": 998.7,
+   "target": 998.5,
    "type_id": 82314,
    "value": 30580259.599999998
   },
@@ -49,7 +49,7 @@
    "mine": 2474000.0,
    "n": 3,
    "oid": 42,
-   "ref": 2590000.0,
+   "ref": 2591000.0,
    "secs": 25,
    "target": 2467000.0,
    "type_id": 83471,
@@ -70,7 +70,7 @@
    "value": 211400000.0
   },
   {
-   "benefit": 4763891.954549498,
+   "benefit": 4696716.9212637115,
    "block": 1,
    "cap": 2574.0,
    "group": 6,
@@ -83,12 +83,12 @@
    "tag": "station",
    "target": 2478.0,
    "type_id": 62467,
-   "value": 2381945.977274749
+   "value": 2348358.4606318558
   },
   {
-   "benefit": 681219.2593547235,
+   "benefit": 690448.1208641675,
    "block": 2,
-   "cap": 3888000.0,
+   "cap": 3884000.0,
    "group": 4,
    "hub": "jita",
    "kind": "modify_buy",
@@ -102,7 +102,7 @@
    "value": 40414000.0
   },
   {
-   "benefit": 587598.7727657768,
+   "benefit": 580082.2936414408,
    "block": 2,
    "cap": 2593000.0,
    "group": 4,
@@ -120,7 +120,7 @@
   {
    "benefit": 1196359.8750000002,
    "block": 2,
-   "cap": 882.9,
+   "cap": 882.8,
    "group": 4,
    "hub": "jita",
    "kind": "modify_buy",
@@ -134,7 +134,7 @@
    "value": 23914903.5
   },
   {
-   "benefit": 833108.2165388829,
+   "benefit": 806266.5506811372,
    "block": 2,
    "cap": 19350000.0,
    "group": 4,
@@ -143,14 +143,14 @@
    "mine": 10590000.0,
    "n": 9,
    "oid": 36,
-   "ref": 12350000.0,
+   "ref": 12360000.0,
    "secs": 25,
-   "target": 12360000.0,
+   "target": 12370000.0,
    "type_id": 97265,
    "value": 21180000.0
   },
   {
-   "benefit": 133758.52,
+   "benefit": 132561.21250000005,
    "block": 3,
    "fallback": 1579.5,
    "floor": 1215.0,
@@ -159,9 +159,9 @@
    "kind": "new_sell",
    "n": 10,
    "qty": 1214,
-   "ref": 1297.0,
+   "ref": 1296.0,
    "secs": 45,
-   "target": 1296.0,
+   "target": 1295.0,
    "type_id": 62455,
    "value": 1417952.0
   },
@@ -192,7 +192,7 @@
    "value": 0.0
   },
   {
-   "benefit": 9534000.017483603,
+   "benefit": 9534000.017688941,
    "block": 1,
    "floor": 30280000.0,
    "group": 1,
@@ -258,7 +258,7 @@
    "value": 473400000.0
   },
   {
-   "benefit": 14428268.267739233,
+   "benefit": 14439849.779646592,
    "block": 1,
    "floor": 31940000.0,
    "group": 1,
@@ -274,37 +274,36 @@
    "value": 99920000.0
   },
   {
-   "benefit": 34269088.62880844,
+   "benefit": 10495860.082109999,
+   "block": 1,
+   "floor": 1138.0,
+   "group": 1,
+   "hub": "amarr",
+   "kind": "modify_sell",
+   "mine": 2314.0,
+   "n": 18,
+   "oid": 50,
+   "ref": 2313.0,
+   "secs": 25,
+   "target": 2312.0,
+   "type_id": 27507,
+   "value": 30709094.0
+  },
+  {
+   "benefit": 29800033.425912242,
    "block": 1,
    "floor": 25980000.0,
    "group": 1,
    "hub": "amarr",
    "kind": "modify_sell",
    "mine": 49720000.0,
-   "n": 18,
+   "n": 19,
    "oid": 46,
-   "ref": 49740000.0,
+   "ref": 49730000.0,
    "secs": 25,
-   "target": 49730000.0,
+   "target": 49720000.0,
    "type_id": 21493,
    "value": 99440000.0
-  },
-  {
-   "benefit": 8099000.0,
-   "block": 1,
-   "floor": 49760000.0,
-   "group": 1,
-   "hub": "amarr",
-   "kind": "modify_sell",
-   "mine": 89990000.0,
-   "n": 19,
-   "oid": 16,
-   "ref": 100000000.0,
-   "secs": 25,
-   "step": true,
-   "target": 80990000.0,
-   "type_id": 3966,
-   "value": 449950000.0
   },
   {
    "benefit": 11332000.224964686,
@@ -324,7 +323,7 @@
    "value": 629600000.0
   },
   {
-   "benefit": 9490324.626322052,
+   "benefit": 9965845.739848036,
    "block": 1,
    "floor": 130900000.0,
    "group": 1,
@@ -357,7 +356,7 @@
    "value": 734300000.0
   },
   {
-   "benefit": 5085591.29557285,
+   "benefit": 5051449.473696748,
    "block": 2,
    "floor": 6165.0,
    "group": 1,
@@ -373,6 +372,22 @@
    "value": 118998725.0
   },
   {
+   "benefit": 4365398.154687883,
+   "block": 2,
+   "floor": 1139000.0,
+   "group": 1,
+   "hub": "amarr",
+   "kind": "modify_sell",
+   "mine": 2193000.0,
+   "n": 24,
+   "oid": 49,
+   "ref": 2111000.0,
+   "secs": 25,
+   "target": 2110000.0,
+   "type_id": 12487,
+   "value": 24123000.0
+  },
+  {
    "benefit": 7188000.087771907,
    "block": 2,
    "floor": 88790000.0,
@@ -380,7 +395,7 @@
    "hub": "amarr",
    "kind": "modify_sell",
    "mine": 199700000.0,
-   "n": 24,
+   "n": 25,
    "oid": 10,
    "ref": 199800000.0,
    "secs": 25,
@@ -390,37 +405,20 @@
    "value": 399400000.0
   },
   {
-   "benefit": 6479000.009932391,
+   "benefit": 6767000.011314464,
    "block": 2,
    "floor": 54540000.0,
    "group": 1,
    "hub": "amarr",
    "kind": "modify_sell",
    "mine": 71990000.0,
-   "n": 25,
+   "n": 26,
    "oid": 18,
-   "ref": 80000000.0,
+   "ref": 67680000.0,
    "secs": 25,
-   "step": true,
-   "target": 64790000.0,
+   "target": 67670000.0,
    "type_id": 78622,
    "value": 359950000.0
-  },
-  {
-   "benefit": 6677274.827227918,
-   "block": 2,
-   "floor": 1138.0,
-   "group": 1,
-   "hub": "amarr",
-   "kind": "modify_sell",
-   "mine": 2314.0,
-   "n": 26,
-   "oid": 50,
-   "ref": 2313.0,
-   "secs": 25,
-   "target": 2312.0,
-   "type_id": 27507,
-   "value": 30709094.0
   },
   {
    "benefit": 5472000.0,
@@ -439,14 +437,31 @@
    "value": 273800000.0
   },
   {
-   "benefit": 6932720.0919301035,
+   "benefit": 8099000.0,
+   "block": 2,
+   "floor": 49760000.0,
+   "group": 1,
+   "hub": "amarr",
+   "kind": "modify_sell",
+   "mine": 89990000.0,
+   "n": 28,
+   "oid": 16,
+   "ref": 100000000.0,
+   "secs": 25,
+   "step": true,
+   "target": 80990000.0,
+   "type_id": 3966,
+   "value": 449950000.0
+  },
+  {
+   "benefit": 7010284.639190758,
    "block": 2,
    "floor": 18570000.0,
    "group": 1,
    "hub": "amarr",
    "kind": "modify_sell",
    "mine": 24840000.0,
-   "n": 28,
+   "n": 29,
    "oid": 51,
    "ref": 24750000.0,
    "secs": 25,
@@ -455,14 +470,14 @@
    "value": 74520000.0
   },
   {
-   "benefit": 3397655.233419118,
+   "benefit": 3368162.7270733556,
    "block": 2,
    "floor": 1311000.0,
    "group": 1,
    "hub": "amarr",
    "kind": "modify_sell",
    "mine": 1657000.0,
-   "n": 29,
+   "n": 30,
    "oid": 52,
    "ref": 1658000.0,
    "secs": 25,
@@ -471,14 +486,14 @@
    "value": 53024000.0
   },
   {
-   "benefit": 2250287.4681082913,
+   "benefit": 2247439.6307299715,
    "block": 3,
    "floor": 3818000.0,
    "group": 1,
    "hub": "amarr",
    "kind": "modify_sell",
    "mine": 5929000.0,
-   "n": 30,
+   "n": 31,
    "oid": 55,
    "ref": 5886000.0,
    "secs": 25,
@@ -487,14 +502,14 @@
    "value": 47432000.0
   },
   {
-   "benefit": 2920043.160528302,
+   "benefit": 2919998.7562401495,
    "block": 3,
    "floor": 8875000.0,
    "group": 1,
    "hub": "amarr",
    "kind": "modify_sell",
    "mine": 8875000.0,
-   "n": 31,
+   "n": 32,
    "oid": 53,
    "ref": 8778000.0,
    "secs": 25,
@@ -503,20 +518,20 @@
    "value": 142000000.0
   },
   {
-   "benefit": 3569051.86631633,
+   "benefit": 3524218.8928369046,
    "block": 3,
    "cap": 10420000.0,
    "group": 6,
    "hub": "amarr",
    "kind": "new_buy",
-   "n": 32,
+   "n": 33,
    "qty": 3,
    "ref": 7774000.0,
    "secs": 60,
    "tag": "station",
    "target": 7775000.0,
    "type_id": 62590,
-   "value": 1784525.933158165
+   "value": 1762109.4464184523
   }
  ]
 }

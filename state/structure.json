@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0453,
- "buy_orders": 6022,
- "buy_orders_reaching_jita": 5944,
+ "ask_ratio_median": 1.0455,
+ "buy_orders": 6039,
+ "buy_orders_reaching_jita": 5961,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6417,
- "sell_orders": 395,
- "share_ask_below_jita": 0.2713,
+ "orders": 6435,
+ "sell_orders": 396,
+ "share_ask_below_jita": 0.263,
  "structure_id": 1042508032148,
- "t": 1795075253.082978,
+ "t": 1795082452.1384864,
  "top_ask_below_jita": [
   {
    "best_ask": 63000.0,
@@ -117,112 +117,42 @@
  ],
  "top_bid_over_jita": [
   {
-   "best_bid": 95200000.0,
-   "gap": 0.0084,
-   "name": "",
-   "s_bid_reach": 96000000.0,
-   "type_id": 12241
-  },
-  {
-   "best_bid": 27840000.0,
-   "gap": 0.0022,
-   "name": "Caldari Navy Large Shield Extender",
-   "s_bid_reach": 27900000.0,
-   "type_id": 31930
-  },
-  {
-   "best_bid": 1073000.0,
-   "gap": 0.0019,
-   "name": "Heavy Missile Launcher II",
-   "s_bid_reach": 1075000.0,
-   "type_id": 2410
-  },
-  {
-   "best_bid": 1476000.0,
-   "gap": 0.0014,
-   "name": "Kinetic Armor Hardener II",
-   "s_bid_reach": 1478000.0,
-   "type_id": 11644
-  },
-  {
-   "best_bid": 10170000.0,
-   "gap": 0.001,
-   "name": "'Inception' Target Painter",
-   "s_bid_reach": 10180000.0,
-   "type_id": 21540
-  },
-  {
-   "best_bid": 13070000.0,
-   "gap": 0.0008,
-   "name": "Republic Fleet Small Cap Battery",
-   "s_bid_reach": 13080000.0,
-   "type_id": 41212
-  },
-  {
-   "best_bid": 335300.0,
-   "gap": 0.0006,
-   "name": "",
-   "s_bid_reach": 335500.0,
-   "type_id": 11443
-  },
-  {
-   "best_bid": 1851000.0,
-   "gap": 0.0005,
-   "name": "",
-   "s_bid_reach": 1852000.0,
-   "type_id": 23174
-  },
-  {
-   "best_bid": 1923000.0,
-   "gap": 0.0005,
-   "name": "Small Tractor Beam II",
-   "s_bid_reach": 1924000.0,
-   "type_id": 4250
-  },
-  {
-   "best_bid": 2313000.0,
+   "best_bid": 5286000.0,
    "gap": 0.0004,
-   "name": "",
-   "s_bid_reach": 2314000.0,
-   "type_id": 76493
+   "name": "Federation Navy Fleet Colonel Insignia I",
+   "s_bid_reach": 5288000.0,
+   "type_id": 15594
   },
   {
-   "best_bid": 3031000.0,
+   "best_bid": 625900.0,
    "gap": 0.0003,
    "name": "",
-   "s_bid_reach": 3032000.0,
-   "type_id": 23793
+   "s_bid_reach": 626100.0,
+   "type_id": 1877
   },
   {
-   "best_bid": 352000.0,
+   "best_bid": 32170000.0,
    "gap": 0.0003,
+   "name": "Domination Shield Boost Amplifier",
+   "s_bid_reach": 32180000.0,
+   "type_id": 14045
+  },
+  {
+   "best_bid": 834400.0,
+   "gap": 0.0001,
    "name": "",
-   "s_bid_reach": 352100.0,
-   "type_id": 20209
+   "s_bid_reach": 834500.0,
+   "type_id": 47805
   },
   {
-   "best_bid": 4324000.0,
-   "gap": 0.0002,
-   "name": "",
-   "s_bid_reach": 4325000.0,
-   "type_id": 13990
-  },
-  {
-   "best_bid": 6216000.0,
-   "gap": 0.0002,
-   "name": "Large Autocannon Specialization",
-   "s_bid_reach": 6217000.0,
-   "type_id": 12209
-  },
-  {
-   "best_bid": 63300000.0,
-   "gap": 0.0002,
-   "name": "Pithum C-Type Medium Shield Booster",
-   "s_bid_reach": 63310000.0,
-   "type_id": 19187
+   "best_bid": 9500000.0,
+   "gap": 0.0001,
+   "name": "Vigor Compact Micro Auxiliary Power Core",
+   "s_bid_reach": 9501000.0,
+   "type_id": 16537
   }
  ],
- "types": 3839,
- "types_also_in_jita": 3839,
- "types_bid_over_jita_reaching": 16
+ "types": 3851,
+ "types_also_in_jita": 3851,
+ "types_bid_over_jita_reaching": 5
 }
