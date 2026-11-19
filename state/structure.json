@@ -1,16 +1,16 @@
 {
- "ask_ratio_median": 1.0385,
- "buy_orders": 6066,
- "buy_orders_reaching_jita": 5987,
+ "ask_ratio_median": 1.0392,
+ "buy_orders": 6043,
+ "buy_orders_reaching_jita": 5964,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6466,
- "sell_orders": 400,
- "share_ask_below_jita": 0.2939,
+ "orders": 6440,
+ "sell_orders": 397,
+ "share_ask_below_jita": 0.2866,
  "structure_id": 1042508032148,
- "t": 1795062746.044186,
+ "t": 1795068052.3663194,
  "top_ask_below_jita": [
   {
-   "best_ask": 64880.0,
+   "best_ask": 64800.0,
    "gap": 0.9976,
    "name": "",
    "s_ask": 152.6,
@@ -59,13 +59,6 @@
    "type_id": 46947
   },
   {
-   "best_ask": 25000000.0,
-   "gap": 0.6,
-   "name": "",
-   "s_ask": 10000000.0,
-   "type_id": 13235
-  },
-  {
    "best_ask": 69390000.0,
    "gap": 0.4956,
    "name": "",
@@ -101,11 +94,18 @@
    "type_id": 90590
   },
   {
-   "best_ask": 3140.0,
-   "gap": 0.4541,
+   "best_ask": 3100.0,
+   "gap": 0.4471,
    "name": "",
    "s_ask": 1714.0,
    "type_id": 90526
+  },
+  {
+   "best_ask": 18000000.0,
+   "gap": 0.4444,
+   "name": "",
+   "s_ask": 10000000.0,
+   "type_id": 13235
   },
   {
    "best_ask": 699900000.0,
@@ -117,35 +117,77 @@
  ],
  "top_bid_over_jita": [
   {
-   "best_bid": 519500000.0,
-   "gap": 0.0206,
-   "name": "Eifyr and Co. 'Rogue' Evasive Maneuvering EM-706",
-   "s_bid_reach": 530200000.0,
-   "type_id": 3095
-  },
-  {
-   "best_bid": 15020000.0,
+   "best_bid": 470100000.0,
    "gap": 0.004,
-   "name": "Corpus B-Type Kinetic Armor Hardener",
-   "s_bid_reach": 15080000.0,
-   "type_id": 18909
+   "name": "Skill Extractor",
+   "s_bid_reach": 472000000.0,
+   "type_id": 40519
   },
   {
-   "best_bid": 5317000.0,
-   "gap": 0.0015,
+   "best_bid": 2047000.0,
+   "gap": 0.001,
    "name": "",
-   "s_bid_reach": 5325000.0,
-   "type_id": 3193
+   "s_bid_reach": 2049000.0,
+   "type_id": 92037
   },
   {
-   "best_bid": 6555000.0,
+   "best_bid": 131500000.0,
+   "gap": 0.0008,
+   "name": "Inherent Implants 'Yeti' Ice Harvesting IH-1005",
+   "s_bid_reach": 131600000.0,
+   "type_id": 22571
+  },
+  {
+   "best_bid": 18.72,
+   "gap": 0.0005,
+   "name": "Compressed Mordunium IV-Grade",
+   "s_bid_reach": 18.73,
+   "type_id": 75278
+  },
+  {
+   "best_bid": 22100000.0,
+   "gap": 0.0005,
+   "name": "",
+   "s_bid_reach": 22110000.0,
+   "type_id": 17834
+  },
+  {
+   "best_bid": 5623.0,
+   "gap": 0.0004,
+   "name": "Caldari Navy Antimatter Charge L",
+   "s_bid_reach": 5625.0,
+   "type_id": 21740
+  },
+  {
+   "best_bid": 62020.0,
+   "gap": 0.0003,
+   "name": "Compressed Celadon Mykoserocin",
+   "s_bid_reach": 62040.0,
+   "type_id": 62380
+  },
+  {
+   "best_bid": 86350.0,
    "gap": 0.0002,
    "name": "",
-   "s_bid_reach": 6556000.0,
-   "type_id": 13980
+   "s_bid_reach": 86370.0,
+   "type_id": 41267
+  },
+  {
+   "best_bid": 97550.0,
+   "gap": 0.0002,
+   "name": "Warp Disrupt Probe",
+   "s_bid_reach": 97570.0,
+   "type_id": 22778
+  },
+  {
+   "best_bid": 7339.0,
+   "gap": 0.0001,
+   "name": "",
+   "s_bid_reach": 7340.0,
+   "type_id": 41302
   }
  ],
- "types": 3859,
- "types_also_in_jita": 3859,
- "types_bid_over_jita_reaching": 4
+ "types": 3845,
+ "types_also_in_jita": 3845,
+ "types_bid_over_jita_reaching": 10
 }

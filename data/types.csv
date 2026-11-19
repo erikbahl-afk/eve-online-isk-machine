@@ -712,7 +712,7 @@ type_id,name,volume,group_id
 17480,,3750,463
 17482,Strip Miner I,5,464
 17487,Republic Fleet Heavy Missile Launcher,10,
-17488,,5,507
+17488,Republic Fleet Rocket Launcher,5,507
 17491,Republic Fleet Light Missile Launcher,5,509
 17494,,5,
 17495,Caldari Navy Kinetic Shield Hardener,,
@@ -1664,6 +1664,7 @@ type_id,name,volume,group_id
 37846,Standup Cruise Missile,0.5,1547
 37847,Standup Heavy Missile,0.5,
 37848,,0.5,
+40346,,3000,1537
 40347,,3000,
 40349,25000mm Crystalline Carbonide Restrained Plates,,
 40351,25000mm Steel Plates II,1000,329
@@ -1998,7 +1999,7 @@ type_id,name,volume,group_id
 55031,EDENCOM Frigate,,
 55033,Vorton Projector Operation,,
 55652,Loki Biosecurity Responders SKIN,,
-55761,,5,
+55761,,5,1159
 55831,Triglavian Transconduit Datacaster,1,1995
 56068,Proximity-5 'Extraction' Filament,0.1,4087
 56069,Proximity-15 'Extraction' Filament,0.1,4087
@@ -2423,3 +2424,4 @@ type_id,name,volume,group_id
 98418,,1,303
 98436,Federation Defense Booster II,,
 98454,Republic Hardpoint Booster II,,
+98652,,0.01,1950
