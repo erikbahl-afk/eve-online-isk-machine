@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0455,
- "buy_orders": 6039,
- "buy_orders_reaching_jita": 5961,
+ "ask_ratio_median": 1.045,
+ "buy_orders": 6042,
+ "buy_orders_reaching_jita": 5964,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6435,
- "sell_orders": 396,
- "share_ask_below_jita": 0.263,
+ "orders": 6439,
+ "sell_orders": 397,
+ "share_ask_below_jita": 0.2622,
  "structure_id": 1042508032148,
- "t": 1795082452.1384864,
+ "t": 1795083718.316486,
  "top_ask_below_jita": [
   {
    "best_ask": 63000.0,
@@ -117,42 +117,14 @@
  ],
  "top_bid_over_jita": [
   {
-   "best_bid": 5286000.0,
-   "gap": 0.0004,
-   "name": "Federation Navy Fleet Colonel Insignia I",
-   "s_bid_reach": 5288000.0,
-   "type_id": 15594
-  },
-  {
-   "best_bid": 625900.0,
-   "gap": 0.0003,
+   "best_bid": 4135.0,
+   "gap": 0.0002,
    "name": "",
-   "s_bid_reach": 626100.0,
-   "type_id": 1877
-  },
-  {
-   "best_bid": 32170000.0,
-   "gap": 0.0003,
-   "name": "Domination Shield Boost Amplifier",
-   "s_bid_reach": 32180000.0,
-   "type_id": 14045
-  },
-  {
-   "best_bid": 834400.0,
-   "gap": 0.0001,
-   "name": "",
-   "s_bid_reach": 834500.0,
-   "type_id": 47805
-  },
-  {
-   "best_bid": 9500000.0,
-   "gap": 0.0001,
-   "name": "Vigor Compact Micro Auxiliary Power Core",
-   "s_bid_reach": 9501000.0,
-   "type_id": 16537
+   "s_bid_reach": 4136.0,
+   "type_id": 75290
   }
  ],
- "types": 3851,
- "types_also_in_jita": 3851,
- "types_bid_over_jita_reaching": 5
+ "types": 3856,
+ "types_also_in_jita": 3856,
+ "types_bid_over_jita_reaching": 1
 }
