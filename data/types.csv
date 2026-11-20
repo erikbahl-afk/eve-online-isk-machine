@@ -626,7 +626,7 @@ type_id,name,volume,group_id
 15615,Imperial Navy General Insignia I,0.1,409
 15632,Republic Fleet Commander Insignia I,0.1,409
 15646,Federation Navy Command Sergeant Major Insignia I,0.1,409
-15656,,0.1,409
+15656,Caldari Navy Commodore Insignia II,0.1,409
 15661,Republic Fleet Commander Insignia II,0.1,409
 15669,Imperial Navy General Insignia II,0.1,409
 15673,,0.1,409
@@ -1038,6 +1038,7 @@ type_id,name,volume,group_id
 20613,'Glycerine' Shield Boost Amplifier,5,338
 20623,,50,
 20629,,10,
+20747,,0.125,83
 20779,,0.0125,83
 20783,Domination EMP M,0.0125,83
 20839,Sanshas Multifrequency L,,
@@ -1966,7 +1967,8 @@ type_id,name,volume,group_id
 47136,Standup Siren II,6000,4778
 47139,,2000,4777
 47270,Vedmak,10000,26
-47271,,50000,27
+47271,Leshak,50000,27
+47286,,0.1,1088
 47297,,1,1964
 47298,Standup Multirole Missile Launcher II,4000,
 47323,Standup Anticapital Missile Launcher II,,

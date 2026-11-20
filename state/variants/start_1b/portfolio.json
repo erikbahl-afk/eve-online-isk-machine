@@ -1,11 +1,17 @@
 {
- "cash": 45570645.66505005,
+ "cash": 59552283.16505005,
  "created": 1793854970.3735604,
  "import_hub": "amarr",
  "in_transit": [],
  "inventory": {
   "amarr": {},
   "jita": {
+   "28435": {
+    "cost": 339000.0,
+    "qty": 15,
+    "since": 1795197442.0,
+    "tag": "station"
+   },
    "41274": {
     "cost": 3851.0,
     "qty": 372,
@@ -39,7 +45,7 @@
   }
  },
  "last_jump": 1795154423.6279857,
- "last_t": 1795190427.491829,
+ "last_t": 1795197636.8554647,
  "location": "jita",
  "next_oid": 62,
  "orders": [
@@ -147,7 +153,7 @@
    "oid": 17,
    "price": 339000.0,
    "qty": 247,
-   "remain": 247,
+   "remain": 232,
    "side": "buy",
    "tag": "station",
    "type_id": 28435,
@@ -410,20 +416,6 @@
   {
    "created": 1795154423.6279857,
    "hub": "amarr",
-   "oid": 52,
-   "price": 14470000.0,
-   "qty": 1,
-   "remain": 1,
-   "side": "sell",
-   "since": 1795096623.0,
-   "tag": "station",
-   "type_id": 11452,
-   "unit_cost": 6516000.0,
-   "updated": 1795154423.6279857
-  },
-  {
-   "created": 1795154423.6279857,
-   "hub": "amarr",
    "oid": 53,
    "price": 11740000.0,
    "qty": 1,
@@ -516,10 +508,10 @@
  ],
  "per_strategy": {
   "station": {
-   "buys": 314555782.50000006,
+   "buys": 319640782.50000006,
    "fees": 31144871.35844999,
-   "realized": 2699125.715050007,
-   "sales": 109195775.6
+   "realized": 10164763.215050008,
+   "sales": 123665775.6
   }
  },
  "per_type": {
@@ -527,9 +519,9 @@
    "bought_isk": 6516000.0,
    "bought_units": 1,
    "fees": 314790.0,
-   "realized": -314790.0,
-   "sold_net": 0.0,
-   "sold_units": 0
+   "realized": 7150847.5,
+   "sold_net": 13981637.5,
+   "sold_units": 1
   },
   "amarr:62590": {
    "bought_isk": 7775000.0,
@@ -636,8 +628,8 @@
    "sold_units": 0
   },
   "jita:28435": {
-   "bought_isk": 0.0,
-   "bought_units": 0,
+   "bought_isk": 5085000.0,
+   "bought_units": 15,
    "fees": 1507194.0,
    "realized": -1507194.0,
    "sold_net": 0.0,
@@ -854,12 +846,12 @@
  },
  "pnl": {
   "broker": 24764040.764249995,
-  "buys": 314555782.50000006,
+  "buys": 319640782.50000006,
   "courier": 0.0,
-  "realized": 2699125.715050007,
+  "realized": 10164763.215050008,
   "relist": 6380830.594199999,
-  "sales": 109195775.6,
-  "tax": 3685357.4265
+  "sales": 123665775.6,
+  "tax": 4173719.9265
  },
  "start_isk": 1000000000,
  "version": 2,
