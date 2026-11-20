@@ -96,7 +96,7 @@ type_id,name,volume,group_id
 2361,Hermetic Membranes,3,1040
 2389,Plasmoids,0.19,1042
 2390,Electrolytes,0.19,1042
-2392,,0.19,1042
+2392,Oxidizing Compound,0.19,1042
 2393,Bacteria,0.19,1042
 2395,,0.19,1042
 2396,Biofuels,0.19,1042
@@ -113,7 +113,7 @@ type_id,name,volume,group_id
 2478,Berserker II,25,100
 2506,Mjolnir Torpedo,0.05,89
 2539,,5,
-2553,,5,295
+2553,EM Shield Amplifier II,5,295
 2563,,5,
 2567,Multispectral ECM II,5,201
 2571,Gravimetric ECM II,,
@@ -189,7 +189,7 @@ type_id,name,volume,group_id
 3482,Inherent Implants 'Noble' Hull Upgrades HG-1006,1,738
 3488,,5,
 3512,Focused Medium Pulse Laser II,10,53
-3520,,10,53
+3520,Heavy Pulse Laser II,10,53
 3534,CONCORD Capital Armor Repairer,1000,62
 3536,,1000,325
 3540,Large Armor Repairer II,50,62
@@ -249,6 +249,7 @@ type_id,name,volume,group_id
 5839,IFFA Compact Damage Control,5,60
 5973,5MN Y-T8 Compact Microwarpdrive,10,46
 6719,,5,
+7087,,20,53
 7171,,20,53
 7447,425mm Prototype Gauss Gun,20,74
 7579,Modal Light Neutron Particle Accelerator I,5,
@@ -262,6 +263,7 @@ type_id,name,volume,group_id
 9411,,5,
 9491,1400mm 'Scout' Artillery I,20,55
 9497,1400mm Prototype Siege Cannon,,
+9580,,5,295
 9632,,5,
 9734,,10,72
 9830,,0.75,1034
@@ -318,6 +320,7 @@ type_id,name,volume,group_id
 11377,Nemesis,2500,834
 11379,Hawk,2500,324
 11381,,2500,
+11387,,2500,893
 11393,Retribution,2500,324
 11399,Morphite,0.01,18
 11400,Jaguar,2500,324
@@ -488,11 +491,12 @@ type_id,name,volume,group_id
 13868,Shadow Serpentis 200mm Railgun,,
 13872,Shadow Serpentis 250mm Railgun,,
 13879,Dread Guristas 425mm Railgun,,
-13891,,20,74
+13891,Shadow Serpentis Neutron Blaster Cannon,20,74
 13919,Domination Rapid Light Missile Launcher,10,511
 13920,Dread Guristas Rapid Light Missile Launcher,10,511
 13923,Domination Torpedo Launcher,20,
 13924,Dread Guristas Torpedo Launcher,20,508
+13925,,5,509
 13926,Dread Guristas Light Missile Launcher,5,509
 13927,,20,506
 13929,,20,506
@@ -998,7 +1002,7 @@ type_id,name,volume,group_id
 20410,Datacore - Gallentean Starship Engineering,0.1,333
 20411,,0.1,333
 20413,Datacore - Laser Physics,0.1,333
-20414,,0.1,333
+20414,Datacore - Quantum Physics,0.1,333
 20415,Datacore - Molecular Engineering,0.1,333
 20418,Datacore - Electronic Engineering,0.1,333
 20419,Datacore - Graviton Physics,0.1,333
@@ -1082,6 +1086,7 @@ type_id,name,volume,group_id
 22126,,1,300
 22128,Mid-grade Snake Epsilon,1,300
 22229,Ice Harvester II,,
+22291,Ballistic Control System II,5,367
 22428,,50000,898
 22430,Sin,,
 22436,Widow,50000,898
@@ -1091,7 +1096,7 @@ type_id,name,volume,group_id
 22448,Absolution,15000,540
 22456,,5000,
 22464,,5000,
-22468,Claymore,15000,
+22468,Claymore,15000,540
 22470,Nighthawk,15000,540
 22534,Inherent Implants 'Highwall' Mining MX-1003,1,1229
 22535,Inherent Implants 'Highwall' Mining MX-1005,1,1229
@@ -1192,6 +1197,7 @@ type_id,name,volume,group_id
 25591,Contaminated Lorentz Fluid,0.01,754
 25592,,0.01,754
 25594,Tangled Power Conduit,0.01,754
+25600,Burned Logic Circuit,0.01,754
 25601,Fried Interface Circuit,0.01,754
 25604,,0.01,
 25605,Armor Plates,0.01,754
@@ -1426,6 +1432,7 @@ type_id,name,volume,group_id
 30251,Neurovisual Input Matrix,,
 30252,Thermoelectric Catalysts,0.01,966
 30254,Electromechanical Hull Sheeting,0.01,966
+30259,,0.01,966
 30304,PPD Fullerene Fibers,0.5,974
 30305,Fullerene Intercalated Graphite,0.8,974
 30306,Methanofullerene,0.75,974
@@ -1496,6 +1503,7 @@ type_id,name,volume,group_id
 31378,Medium Capacitor Control Circuit II,10,781
 31380,Capital Capacitor Control Circuit II,40,781
 31410,Capital Semiconductor Memory Cell I,40,
+31412,,5,781
 31414,,10,
 31450,Medium Energy Burst Aerator II,10,775
 31498,Medium Energy Metastasis Adjuster II,10,
@@ -1579,6 +1587,7 @@ type_id,name,volume,group_id
 32262,Black Eagle Drone Link Augmentor,25,647
 32305,Armageddon Navy Issue,50000,
 32309,Scorpion Navy Issue,50000,27
+32311,,50000,27
 32414,Domination Target Painter,5,379
 32881,Venture Blueprint,0.01,105
 32947,Unit P-343554's Modified Drone Navigation Computer,,
@@ -1665,6 +1674,7 @@ type_id,name,volume,group_id
 34202,Attainment Decryptor,0.1,1304
 34204,Parity Decryptor,0.1,1304
 34205,Process Decryptor,0.1,1304
+34206,,0.1,1304
 34207,Optimized Attainment Decryptor,0.1,1304
 34208,Optimized Augmentation Decryptor,0.1,1304
 34264,Focused Void Bomb,75,864
@@ -1748,7 +1758,7 @@ type_id,name,volume,group_id
 37623,,5,71
 37624,Corpii A-Type Small Energy Neutralizer,5,71
 37625,,5,71
-37626,,5,71
+37626,Corpum B-Type Medium Energy Neutralizer,5,71
 37627,Corpum A-Type Medium Energy Neutralizer,5,71
 37631,Corpus X-Type Heavy Energy Neutralizer,5,71
 37810,,0.1,1088
@@ -1768,6 +1778,7 @@ type_id,name,volume,group_id
 40519,Skill Extractor,0.01,1301
 40520,Large Skill Injector,0.01,1739
 40556,Templar II,1000,1652
+40557,,1000,1652
 40558,Firbolg II,1000,1652
 40559,Einherji II,1000,1652
 40560,Ametat II,2000,1653
@@ -1992,7 +2003,7 @@ type_id,name,volume,group_id
 47905,Fierce Electrical Filament,0.1,1979
 47906,Raging Electrical Filament,0.1,1979
 47907,Chaotic Electrical Filament,0.1,1979
-47911,,5,
+47911,Entropic Radiation Sink II,5,1988
 47912,Light Compact Entropic Disintegrator,5,1986
 47914,Light Entropic Disintegrator II,5,1986
 47915,Veles Light Entropic Disintegrator,5,1986
@@ -2221,7 +2232,7 @@ type_id,name,volume,group_id
 62450,Shipboard Compression Technology,,
 62454,Compressed Bitumens,0.1,1884
 62455,Compressed Brimful Bitumens,0.1,1884
-62456,Compressed Glistening Bitumens,,
+62456,Compressed Glistening Bitumens,0.1,1884
 62457,,0.1,1884
 62458,Compressed Brimful Coesite,0.1,1884
 62459,,0.1,1884
@@ -2394,7 +2405,7 @@ type_id,name,volume,group_id
 89615,Expedition Command Burst II,60,
 89647,Pioneer Consortium Issue,5000,420
 89648,Venture Consortium Issue,2500,25
-89649,,5000,1534
+89649,Outrider,5000,1534
 89665,,0.01,1950
 89689,Advanced Armor Layering,,
 90022,Babaroga Deathglow Remnant SKIN,,
@@ -2408,6 +2419,7 @@ type_id,name,volume,group_id
 90416,Squall Shattered Paradigm SKIN,0.01,1950
 90468,,1,1964
 90469,Unstable Modulated Strip Miner Mutaplasmid,1,1964
+90491,Unstable Strip Miner Mutaplasmid,1,1964
 90523,Unstable Ice Harvester Mutaplasmid,,
 90528,Unstable Gas Cloud Scoop Mutaplasmid,1,1964
 90592,,1,1964
@@ -2420,7 +2432,7 @@ type_id,name,volume,group_id
 91636,,0.01,1950
 91773,Rampancy Data Dump,0.01,5067
 91775,Dragoon Navy Issue,5000,420
-91849,Algos Navy Issue,5000,
+91849,Algos Navy Issue,5000,420
 91857,Corax Navy Issue,5000,420
 91858,,5000,420
 91926,Federation Electronics Booster III,1,303
@@ -2447,6 +2459,7 @@ type_id,name,volume,group_id
 92041,Humboldt EC-900-I,25,5239
 92454,,5,763
 92456,Presidential Mining Foreman Burst,60,1770
+92461,,5,5239
 92462,Darter TP-600-I,10,5239
 92463,Meganeura TP-900-I,25,5239
 92466,Atlas SD-900-I,,
@@ -2564,6 +2577,7 @@ type_id,name,volume,group_id
 98338,Ultra-Indigo Matte - Unlimited,,
 98409,,1,303
 98415,Imperial Mobility Booster II,,
+98416,,1,303
 98417,Imperial Hardpoint Booster I,,
 98418,,1,303
 98430,State Hardpoint Booster II,1,303

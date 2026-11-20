@@ -21,3 +21,4 @@ t,event,hub,type_id,qty,price,cash_delta,note
 1795154423,market_buy,jita,95631,2,164400000.0,-328800000.0,
 1795154423,courier,amarr,0,12,0.0,-138000000,jita->amarr 50996m3
 1795154423,broker,jita,62523,0,0.0,-637589.46375,bid o9
+1795161456,buy_fill,jita,96326,1,16890000.0,-16890000.0,o2
