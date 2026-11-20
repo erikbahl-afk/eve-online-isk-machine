@@ -361,6 +361,7 @@ type_id,name,volume,group_id
 11563,,20,339
 11577,Improved Cloaking Device II,100,330
 11578,Covert Ops Cloaking Device II,100,330
+11642,,5,328
 11644,Kinetic Armor Hardener II,5,328
 11646,Explosive Armor Hardener II,5,328
 11648,,5,328
@@ -489,6 +490,7 @@ type_id,name,volume,group_id
 13809,Dark Blood Small Focused Beam Laser,5,53
 13815,Dark Blood Mega Pulse Laser,20,53
 13824,,10,
+13825,True Sansha Focused Medium Pulse Laser,,
 13827,,10,53
 13828,True Sansha Heavy Pulse Laser,,
 13829,,5,53
@@ -623,7 +625,7 @@ type_id,name,volume,group_id
 15604,Caldari Navy Admiral Insignia I,0.1,409
 15605,Caldari Navy Vice Admiral Insignia I,0.1,409
 15610,Imperial Navy Sergeant Insignia I,0.1,409
-15613,,0.1,409
+15613,Imperial Navy Major Insignia I,0.1,409
 15614,,0.1,409
 15615,Imperial Navy General Insignia I,0.1,409
 15632,Republic Fleet Commander Insignia I,0.1,409
@@ -1009,7 +1011,7 @@ type_id,name,volume,group_id
 20183,,1300000,
 20185,Charon,1300000,
 20199,Dread Guristas Multispectral ECM,5,201
-20212,,0.01,256
+20212,Cruise Missile Specialization,0.01,256
 20327,Capital Energy Turret,,
 20342,Advanced Spaceship Command,,
 20351,800mm Steel Plates II,,
@@ -1560,7 +1562,7 @@ type_id,name,volume,group_id
 31870,Imperial Navy Praetor,25,100
 31872,Caldari Navy Hornet,5,100
 31874,Caldari Navy Vespa,10,100
-31876,,25,100
+31876,Caldari Navy Wasp,25,100
 31878,Caldari Navy Warden,25,100
 31880,Federation Navy Hobgoblin,5,100
 31882,,10,100
@@ -1772,10 +1774,10 @@ type_id,name,volume,group_id
 37457,Deacon,2500,1527
 37458,,2500,1527
 37459,Thalia,2500,1527
-37460,Scalpel,,
+37460,Scalpel,2500,1527
 37479,Micro Jump Field Generator,10,1533
 37480,Bifrost,5000,1534
-37482,,5000,
+37482,Stork,5000,1534
 37599,,3000,1537
 37608,Pitfall Compact Warp Disruption Field Generator,50,899
 37612,,50,899
@@ -1858,6 +1860,7 @@ type_id,name,volume,group_id
 41459,CONCORD Capital Shield Extender,1000,38
 41463,Capital I-ax Enduring Remote Armor Repairer,,
 41469,Capital Asymmetric Enduring Remote Shield Booster,1000,41
+41482,,25,1697
 41485,Capital Compact Pb-Acid Cap Battery,1000,61
 41486,,1000,61
 41489,,128,
@@ -2288,7 +2291,7 @@ type_id,name,volume,group_id
 62535,,0.006,469
 62536,Compressed Kernite,0.012,457
 62538,Compressed Kernite III-Grade,0.012,457
-62539,,0.012,457
+62539,Compressed Kernite IV-Grade,0.012,457
 62540,,0.02,456
 62544,,0.03,455
 62552,,0.05,467

@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Fri 20 Nov 12:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Fri 20 Nov 13:49 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 21 · **Est. time:** 12 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -38,7 +38,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
 | 7 | ☐ 'Cartel' Power Diagnostic System I | 68,080,000 | **68,040,000** | 30,280,000 | 68,050,000 |
-| 8 | ☐ Caesium | 6,635 | **6,635** | 6,165 | 6,636 |
+| 8 | ☐ Caesium | 6,635 | **6,634** | 6,165 | 6,635 |
 | 9 | ☐ Golem Exoplanets Hunter SKIN | 142,000,000 | **142,000,000** | 130,200,000 | - |
 | 10 | ☐ Low-grade Crystal Epsilon | 136,800,000 | **136,800,000** | 0.01 | 136,900,000 |
 | 11 | ☐ Mobile Large Warp Disruptor I | 24,710,000 | **24,670,000** | 18,570,000 | 24,680,000 |
@@ -67,7 +67,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 16 | ☐ Compressed Glistening Zeolites | 2,482 | **2,492** | 2,621 | 2,491 |
+| 16 | ☐ Compressed Glistening Zeolites | 2,482 | **2,493** | 2,621 | 2,492 |
 | 17 | ☐ Gistum B-Type Medium Shield Booster | 112,300,000 | **113,100,000** | 114,400,000 | 113,000,000 |
 | 18 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **175,100,000** | 179,600,000 | 175,000,000 |
 
@@ -78,8 +78,8 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 19 | ☐ Criterion Cipher | 12,840,000 | **17,590,000** | 21,960,000 | 17,580,000 |
-| 20 | ☐ Sansha NET Resonator | 2,464,000 | **2,461,000** | 2,461,000 | 2,505,000 |
+| 19 | ☐ Criterion Cipher | 12,840,000 | **17,600,000** | 21,940,000 | 17,590,000 |
+| 20 | ☐ Sansha NET Resonator | 2,464,000 | **2,462,000** | 2,462,000 | 2,506,000 |
 
 ### Block 3 · if there's time · about 1 min
 
@@ -88,7 +88,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 21 | ☐ 50MN Microwarpdrive II | 3,724,000 | **3,743,000** | 3,844,000 | 3,742,000 |
+| 21 | ☐ 50MN Microwarpdrive II | 3,724,000 | **3,745,000** | 3,844,000 | 3,744,000 |
 
 ---
 Wallet 95.40M · escrow 1.08B · stock 3.78B · in transit 0.00 · net worth 4.95B (liquidation 2.48B)
