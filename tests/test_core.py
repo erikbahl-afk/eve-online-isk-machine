@@ -432,3 +432,28 @@ def test_station_book_includes_reaching_bids():
     b = market.station_book(df, J, {"30000142": 0, "30000144": 1})
     assert set(b.order_id) == {1, 2, 6}
     assert market.tops(b).at[7, "best_bid"] == 101.0
+
+
+def test_capped_unfilled_bid_below_top_is_cancelled_after_buy_stale_days():
+    from trader.strategy import Planner
+    pl = Planner.__new__(Planner)
+    pl.cfg = {**CFG, "strategy": {**CFG["strategy"], "buy_stale_days": 5}}
+    pl.t, pl.specs, pl.exits, pl.avoid, pl.fees, pl.home, pl.s = 7 * 86400, {}, {}, set(), Fees(CFG), "jita", pl.cfg["strategy"]
+    pl.pf = {"orders": [{"oid": o, "hub": "jita", "side": "buy", "type_id": o, "price": 100.0, "qty": 2, "remain": r,
+                         "created": c, "updated": 6 * 86400} for o, r, c in ((1, 2, 0), (2, 1, 0), (3, 2, 5 * 86400))],
+             "inventory": {}, "in_transit": []}
+    pl.station = {"jita": __import__("pandas").DataFrame(index=[1, 2, 3])}  # all still "selected"
+    pl.best = lambda hub, ty, col: 120.0 if col == "best_bid" else 200.0
+    pl.anchored_ask = lambda hub, ty: 200.0
+    pl.lam = lambda hub, ty, side: 0.0
+    pl.step = lambda kind, hub, value, **kw: {"kind": kind, **kw}
+    import trader.strategy as S
+    orig, S.buy_cap = S.buy_cap, lambda fees, cfg, ask: 105.0  # margin allows at most 105, rival at 120
+    try:
+        _, tier2 = pl.maintenance("jita")
+    finally:
+        S.buy_cap = orig
+    kinds = {s["oid"]: s["kind"] for s in tier2}
+    assert kinds[1] == "cancel"          # never filled, 7 d old, can't reach the top
+    assert kinds.get(2) != "cancel"      # partly filled: keep
+    assert kinds.get(3) != "cancel"      # only 2 d old: keep

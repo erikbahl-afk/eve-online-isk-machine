@@ -343,6 +343,12 @@ class Planner:
                 cap = buy_cap(self.fees, self.cfg, self.anchored_ask(hub, ty)) if not np.isnan(ba) else 0.0
                 keep = ty in selected or (not np.isnan(ba) and cap >= o["price"] * 0.97)
                 keep = keep and ty not in self.exits and ty not in self.avoid
+            # capped below the top (a rival outbids what our margin allows) and never filled for buy_stale_days:
+            # the bid can't fill, it only ties up escrow (2026-11-20: 15 of 17 Jita bids behind a rival, ~0.84B of 1.08B escrow)
+            bsd = self.s.get("buy_stale_days", 0)
+            if (keep and bsd and not np.isnan(bb) and bb >= o["price"] and tick_up(bb) > cap
+                    and o["remain"] >= o["qty"] and t - o.get("created", t) > bsd * 86400):
+                keep = False
             if not keep:
                 tier2.append(self.step("cancel", hub, o["remain"] * o["price"], oid=o["oid"], type_id=ty, ref=bb,
                                        mine=o["price"]))

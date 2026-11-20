@@ -79,6 +79,7 @@ cash_reserve_frac = 0.02
 floor_margin = 0.005         # sell floor = break-even * (1 + this)
 stale_days = 10              # after this, accept a small loss to free capital
 stale_loss = 0.03
+buy_stale_days = 5           # buy orders capped below the best bid with zero fills this long are cancelled (0 = off)
 stale_step = 0.10             # sell orders on top past stale_days with no fill: cut 10% per session (not below the floor)
 max_price_ratio = 2.5        # skip if ask/bid wider than this (dead or manipulated market)
 vwap_band = 0.25             # recent trade prices must be within +-25% of our target prices

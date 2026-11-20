@@ -1,41 +1,5 @@
 {
- "avoid": [
-  {
-   "type_id": 85668,
-   "reason": "station bid on a thin item: the only 'bid fills' seen were single vanished orders (gone_weight 0.8 artefact); 0 fills in 6 days",
-   "until": "2026-11-20"
-  },
-  {
-   "type_id": 28792,
-   "reason": "station bid on a thin item: the only 'bid fills' seen were single vanished orders (gone_weight 0.8 artefact); 0 fills in 6 days",
-   "until": "2026-11-20"
-  },
-  {
-   "type_id": 18688,
-   "reason": "station bid on a thin item: the only 'bid fills' seen were single vanished orders (gone_weight 0.8 artefact); 0 fills in 6 days",
-   "until": "2026-11-20"
-  },
-  {
-   "type_id": 41202,
-   "reason": "station bid on a thin item: the only 'bid fills' seen were single vanished orders (gone_weight 0.8 artefact); 0 fills in 6 days",
-   "until": "2026-11-20"
-  },
-  {
-   "type_id": 35923,
-   "reason": "station bid on a thin item: the only 'bid fills' seen were single vanished orders (gone_weight 0.8 artefact); 0 fills in 6 days",
-   "until": "2026-11-20"
-  },
-  {
-   "type_id": 47806,
-   "reason": "station bid on a thin item: the only 'bid fills' seen were single vanished orders (gone_weight 0.8 artefact); 0 fills in 6 days",
-   "until": "2026-11-20"
-  },
-  {
-   "type_id": 53301,
-   "reason": "Amarr station bid (6,602) reached by official trades on ~2 of 20 days; 0 fills in 11 days, 99M tied up; below the new 25% pick-reach bar",
-   "until": "2026-11-20"
-  }
- ],
+ "avoid": [],
  "exit": [
   {
    "type_id": 33926,

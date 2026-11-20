@@ -413,3 +413,17 @@
   stale step-down keeps cutting 10% per Amarr session to the break-even floor (~5 sessions). Accept the 8.4% alert until then.
 - Alerts: liquidation 50% / Typhoon 8.4%: legacy imports, above. Stale Amarr sells: step-down firing each Amarr visit (Tue).
   Antikythera (Jita, 11 d): step-down now applies. Idle bids 2.3k / 2.25M: noise. Thresholds kept. 35 tests pass.
+
+## 2026-11-20 · weekly review (Friday)
+- Week: main NW 4.877 → 4.953B (+1.55%), realized −122.6 → −47.1M (Cap I-a rep 199.7M legacy sale 11-14; Archiver 49.7M vs
+  22.8M cost). Relists 45 / 41M this week (38M on Amarr legacy step-downs): realized slid −35.5 → −47.1M since Sun on fees.
+- Scoreboard since 11-13: start_1b +2.45%, more_time −0.13%, no_imports −0.75%, rotation −1.35%, exports −1.73%, fill_floor −0.37%.
+- Idle-bid alerts (8 Jita bids, 6 d): live Jita book (with Perimeter reach) has rivals ahead of 15 of main's 17 bids (2–23
+  orders, ~0.84B of 1.08B escrow). Cause: maintenance keeps a bid that is still "selected" and re-bids at min(cap, tick_up(bb)),
+  so a bid capped below the top sits forever (Entosis, Jaguar, Quad Pulse untouched 6 d). Fix: `[strategy] buy_stale_days = 5`
+  cancels bids with remain == qty, older than 5 d, best bid ≥ ours and tick_up(best) > cap. Test added; 36 pass. ~0.56B frees at the next Jita login.
+- Overrides: 7 avoid entries expired today, removed (reach filter + history gate cover them). Crystal Epsilon exit kept (2 left).
+- Other alerts: liquidation 50% / Typhoon 8.4%: legacy, step-down continues (Thu decision). Stale Amarr sells: step-down each
+  Amarr visit. Antikythera (Jita, 12 d): step-down applies. Thresholds kept.
+- Grades: all 7 topics "changed something"; no reassignment. Usage ~22 calls/day, flat vs baseline.
+- Memo: reports/2026-11-20-memo.md. Next: Sat check cancels freed escrow and new bids sit on top; Thu 26 exports/rotation kill.
