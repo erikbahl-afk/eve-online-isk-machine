@@ -1,4 +1,5 @@
 type_id,name,volume,group_id
+20,,1.2,457
 34,Tritanium,0.01,18
 35,Pyerite,0.01,18
 36,Mexallon,0.01,18
@@ -51,6 +52,7 @@ type_id,name,volume,group_id
 1319,Expanded Cargohold II,5,765
 1355,Reactor Control Unit II,5,769
 1436,Auto Targeting System II,,
+1541,Power Diagnostic System II,5,766
 1565,Small EMP Smartbomb II,,
 1818,Scourge Auto-Targeting Heavy Missile I,0.03,
 1826,Scourge Auto-Targeting Cruise Missile I,0.05,396
@@ -63,9 +65,9 @@ type_id,name,volume,group_id
 1987,Signal Amplifier II,,
 1999,Tracking Enhancer II,,
 2006,,10000,26
-2032,Cap Recharger II,,
+2032,Cap Recharger II,5,43
 2050,Gistum C-Type Multispectrum Shield Hardener,5,77
-2175,,10,
+2175,,10,100
 2185,Hammerhead II,,
 2195,Praetor II,25,100
 2270,,0.005,
@@ -82,7 +84,7 @@ type_id,name,volume,group_id
 2312,,0.75,1034
 2319,,0.75,1034
 2321,Polyaramids,0.75,1034
-2327,,0.75,1034
+2327,Microfiber Shielding,0.75,1034
 2328,Water-Cooled CPU,0.75,1034
 2344,,3,1040
 2345,Camera Drones,3,1040
@@ -96,6 +98,7 @@ type_id,name,volume,group_id
 2393,Bacteria,0.19,1042
 2395,,0.19,1042
 2396,,0.19,1042
+2398,Reactive Metals,0.19,1042
 2399,Precious Metals,,
 2400,Toxic Metals,0.19,1042
 2401,Chiral Structures,0.19,1042
@@ -108,13 +111,15 @@ type_id,name,volume,group_id
 2478,Berserker II,25,100
 2506,Mjolnir Torpedo,0.05,89
 2539,,5,
+2553,,5,295
 2563,,5,
 2567,Multispectral ECM II,5,201
 2571,Gravimetric ECM II,,
-2605,Nanofiber Internal Structure II,5,
+2605,Nanofiber Internal Structure II,5,763
 2613,Mjolnir Fury Light Missile,,
 2655,,0.03,655
 2801,Nova Javelin Torpedo,0.05,
+2811,,0.05,657
 2867,Broadcast Node,50,1041
 2868,Integrity Response Drones,50,1041
 2869,Nano-Factory,50,1041
@@ -152,6 +157,7 @@ type_id,name,volume,group_id
 3130,Heavy Electron Blaster II,10,74
 3134,Zainou 'Deadeye' Missile Projection MP-704,,
 3135,Zainou 'Deadeye' Missile Projection MP-706,1,
+3138,,10,74
 3140,,1,746
 3141,Zainou 'Deadeye' Target Navigation Prediction TN-902,,
 3142,Zainou 'Deadeye' Target Navigation Prediction TN-904,,
@@ -195,9 +201,11 @@ type_id,name,volume,group_id
 3691,,0.75,1034
 3693,,0.75,1034
 3695,Polytextiles,0.75,1034
+3725,,0.75,1034
 3756,Gnosis,15000,419
 3775,Viral Agent,0.75,1034
 3828,,0.75,1034
+3831,Medium Shield Extender II,10,38
 3841,,20,38
 3893,Mining Connections,0.01,
 3894,Distribution Connections,0.01,278
@@ -215,7 +223,7 @@ type_id,name,volume,group_id
 4246,Hydrogen Fuel Block,5,1136
 4247,,5,1136
 4248,,50,899
-4250,Small Tractor Beam II,,
+4250,Small Tractor Beam II,50,650
 4256,Bomb Launcher II,50,862
 4260,Expanded Probe Launcher II,5,
 4292,Siege Module II,1000,
@@ -238,6 +246,7 @@ type_id,name,volume,group_id
 5839,IFFA Compact Damage Control,5,60
 5973,5MN Y-T8 Compact Microwarpdrive,10,46
 6719,,5,
+7171,,20,53
 7447,425mm Prototype Gauss Gun,20,74
 7579,Modal Light Neutron Particle Accelerator I,5,
 8263,,5,
@@ -257,8 +266,10 @@ type_id,name,volume,group_id
 9842,,0.75,1034
 9899,,1,
 9941,Memory Augmentation - Basic,1,745
+9942,,1,745
 9947,Standard Crash Booster,,
 9950,Standard Blue Pill Booster,1,303
+9956,,1,745
 9957,Eifyr and Co. 'Gunslinger' Motion Prediction MR-703,1,742
 10151,,1,
 10155,Improved Blue Pill Booster,1,303
@@ -298,9 +309,9 @@ type_id,name,volume,group_id
 11325,,20,329
 11343,100mm Crystalline Carbonide Restrained Plates,,
 11365,Vengeance,2500,324
-11371,,2500,324
+11371,Wolf,2500,324
 11377,Nemesis,2500,834
-11379,,2500,
+11379,Hawk,2500,324
 11381,,2500,
 11393,Retribution,2500,324
 11399,Morphite,0.01,18
@@ -311,7 +322,7 @@ type_id,name,volume,group_id
 11452,Mechanical Engineering,0.01,270
 11453,Electronic Engineering,0.01,270
 11529,Molecular Engineering,0.01,270
-11531,,1,334
+11531,Ion Thruster,1,334
 11534,Gravimetric Sensor Cluster,1,334
 11535,Magnetometric Sensor Cluster,1,334
 11536,,1,
@@ -361,7 +372,7 @@ type_id,name,volume,group_id
 12005,Ishtar,10000,358
 12011,Eagle,10000,358
 12015,Muninn,10000,358
-12017,,10000,894
+12017,Devoter,10000,894
 12019,Sacrilege,10000,358
 12023,Deimos,10000,358
 12032,Manticore,2500,834
@@ -370,8 +381,9 @@ type_id,name,volume,group_id
 12042,Ishkur,2500,324
 12044,,2500,
 12054,,50,
-12058,,5,
+12058,,5,46
 12066,100MN Afterburner I,,
+12068,100MN Afterburner II,5,46
 12076,50MN Microwarpdrive II,10,46
 12084,500MN Microwarpdrive II,10,46
 12102,Large Remote Capacitor Transmitter II,25,67
@@ -397,6 +409,7 @@ type_id,name,volume,group_id
 12533,,0.1,370
 12537,Serpentis Bronze Tag,0.1,370
 12542,,0.1,370
+12565,,1,375
 12608,Hail S,0.0025,
 12631,,0.0025,376
 12729,Crane,20000,1202
@@ -439,7 +452,7 @@ type_id,name,volume,group_id
 13243,,1,
 13244,Eifyr and Co. 'Gunslinger' Surgical Strike SS-903,1,742
 13245,Zainou 'Deadeye' Trajectory Analysis TA-703,1,742
-13247,,1,
+13247,,1,746
 13248,Zainou 'Deadeye' Missile Projection MP-703,1,
 13250,,1,746
 13254,Zainou 'Gypsy' Electronics Upgrades EU-603,,
@@ -464,7 +477,7 @@ type_id,name,volume,group_id
 13828,True Sansha Heavy Pulse Laser,,
 13829,,5,53
 13830,,5,53
-13832,True Sansha Mega Pulse Laser,20,
+13832,True Sansha Mega Pulse Laser,20,53
 13865,Dread Guristas 125mm Railgun,,
 13868,Shadow Serpentis 200mm Railgun,,
 13872,Shadow Serpentis 250mm Railgun,,
@@ -483,13 +496,13 @@ type_id,name,volume,group_id
 13939,Domination Gyrostabilizer,5,59
 13943,True Sansha Heat Sink,5,205
 13945,,5,
-13947,,25,
+13947,Dread Guristas Large Shield Booster,25,40
 13948,Domination Large Shield Booster,25,40
 13949,Dread Guristas Medium Shield Booster,10,40
 13951,Dread Guristas Small Shield Booster,5,40
 13952,Domination Small Shield Booster,,
 13953,Dread Guristas X-Large Shield Booster,50,40
-13954,,50,
+13954,,50,40
 13956,True Sansha Large Armor Repairer,50,62
 13957,Dark Blood Large Armor Repairer,50,62
 13960,Dark Blood Medium Armor Repairer,10,62
@@ -508,6 +521,7 @@ type_id,name,volume,group_id
 14045,Domination Shield Boost Amplifier,5,338
 14047,,5,
 14049,Shadow Serpentis Multispectrum Coating,5,98
+14059,,5,328
 14065,Shadow Serpentis Thermal Armor Hardener,5,328
 14067,Shadow Serpentis Large Armor Repairer,50,
 14068,,10,
@@ -528,7 +542,7 @@ type_id,name,volume,group_id
 14128,,5,
 14130,True Sansha Reactor Control Unit,5,769
 14134,Dark Blood Power Diagnostic System,5,766
-14136,,5,
+14136,,5,766
 14140,True Sansha Cap Recharger,5,43
 14142,Dark Blood Cap Recharger,5,43
 14144,Dark Blood Capacitor Power Relay,5,767
@@ -562,7 +576,7 @@ type_id,name,volume,group_id
 14248,,5,
 14252,Dark Blood Warp Scrambler,,
 14254,Domination Warp Scrambler,5,52
-14256,,5,52
+14256,Dread Guristas Warp Scrambler,5,52
 14260,,5,
 14262,Dark Blood Stasis Webifier,5,65
 14264,Domination Stasis Webifier,5,65
@@ -578,7 +592,7 @@ type_id,name,volume,group_id
 15464,Improved Mindflood Booster,1,303
 15465,Strong Mindflood Booster,1,303
 15466,Standard Drop Booster,1,303
-15477,Improved Drop Booster,1,
+15477,Improved Drop Booster,1,303
 15478,Strong Drop Booster,,
 15479,Standard Exile Booster,1,303
 15480,Improved Exile Booster,1,303
@@ -594,6 +608,7 @@ type_id,name,volume,group_id
 15615,Imperial Navy General Insignia I,0.1,409
 15632,Republic Fleet Commander Insignia I,0.1,409
 15646,Federation Navy Command Sergeant Major Insignia I,0.1,409
+15656,,0.1,409
 15661,Republic Fleet Commander Insignia II,0.1,409
 15669,Imperial Navy General Insignia II,0.1,409
 15673,,0.1,409
@@ -612,6 +627,7 @@ type_id,name,volume,group_id
 15766,Federation Navy 10MN Afterburner,5,46
 15768,,10,46
 15780,,5,76
+15784,,10,76
 15790,Caldari Navy Cloaking Device,100,330
 15792,Federation Navy Tracking Computer,5,213
 15804,Imperial Navy Heavy Energy Neutralizer,,
@@ -660,11 +676,12 @@ type_id,name,volume,group_id
 16246,Zainou 'Gnome' Shield Management SM-705,1,749
 16247,,1,
 16248,Zainou 'Gnome' Shield Operation SP-905,1,749
-16272,Heavy Water,0.4,
+16272,Heavy Water,0.4,423
 16273,,0.4,
 16275,Strontium Clathrates,3,423
 16278,,5,
 16457,Crosslink Compact Ballistic Control System,5,367
+16527,,5,507
 16535,Copasetic Compact Shield Boost Amplifier,5,338
 16537,Vigor Compact Micro Auxiliary Power Core,5,339
 16631,Small Artillery Battery,500,426
@@ -684,12 +701,13 @@ type_id,name,volume,group_id
 16651,Neodymium,0.05,427
 16652,Promethium,0.05,427
 16653,Thulium,0.05,427
+16655,,0.2,428
 16661,,0.2,428
 16667,Neo Mercurite,0.2,428
 16668,Dysporite,0.2,428
 16669,Ferrofluid,0.2,428
 16670,Crystalline Carbonide,0.01,429
-16671,,0.01,429
+16671,Titanium Carbide,0.01,429
 16672,Tungsten Carbide,0.01,429
 16673,Fernite Carbide,0.01,429
 16678,Sylramic Fibers,0.05,429
@@ -704,6 +722,7 @@ type_id,name,volume,group_id
 17180,Sensor Dampening Battery,,
 17182,Warp Scrambling Battery,,
 17187,,4000,
+17190,Angel Bronze Tag,,
 17207,Guristas Brass Tag,0.1,370
 17210,,0.1,370
 17217,Serpentis Brass Tag,0.1,370
@@ -712,7 +731,7 @@ type_id,name,volume,group_id
 17368,,100000,
 17392,Data Chips,3,1040
 17476,Covetor,3750,463
-17478,Retriever,3750,
+17478,Retriever,3750,463
 17480,,3750,463
 17482,Strip Miner I,5,464
 17483,,0.01,490
@@ -728,6 +747,7 @@ type_id,name,volume,group_id
 17526,Imperial Navy Cap Recharger,5,
 17528,Imperial Navy Capacitor Power Relay,5,767
 17546,Imperial Navy Large Armor Repairer,,
+17548,Imperial Navy Small Armor Repairer,5,62
 17549,Federation Navy Multispectrum Coating,5,98
 17559,Federation Navy Stasis Webifier,5,65
 17619,,2500,
@@ -747,6 +767,7 @@ type_id,name,volume,group_id
 17738,Machariel,50000,27
 17769,Fluxed Condensates,0.2,428
 17772,Small AutoCannon Battery,,
+17812,,2500,25
 17843,Vexor Navy Issue,10000,26
 17859,,0.3,476
 17871,,1,738
@@ -765,7 +786,7 @@ type_id,name,volume,group_id
 17932,Dramiel,2500,25
 17960,,0.2,428
 18054,Mercoxit Asteroid Mining Crystal Type A I,6,
-18068,,5,
+18068,,5,483
 18580,Tycoon,,
 18635,Discovery Survey Probe I,10,
 18637,,5,
@@ -782,11 +803,12 @@ type_id,name,volume,group_id
 18706,,5,98
 18708,Corpii A-Type Multispectrum Coating,5,98
 18710,Centii A-Type Multispectrum Coating,5,98
+18764,,5,98
 18766,,5,
 18768,Coreli C-Type Multispectrum Coating,5,98
 18789,Coreli A-Type Multispectrum Coating,5,98
 18797,Coreli A-Type Thermal Coating,5,98
-18799,,5,
+18799,,5,326
 18813,,5,
 18827,Corelum A-Type Thermal Energized Membrane,5,
 18829,Corpum C-Type Multispectrum Energized Membrane,5,326
@@ -797,19 +819,24 @@ type_id,name,volume,group_id
 18849,Corpum B-Type Multispectrum Energized Membrane,5,326
 18851,Centum B-Type Multispectrum Energized Membrane,5,326
 18859,Centum B-Type Explosive Energized Membrane,5,
+18861,,5,326
 18863,,5,326
 18865,Corpum A-Type Thermal Energized Membrane,5,326
 18867,Centum A-Type Thermal Energized Membrane,5,326
+18869,,5,326
+18871,,5,326
 18877,Corpum A-Type Kinetic Energized Membrane,5,326
 18881,Corpum A-Type Multispectrum Energized Membrane,5,
 18883,Centum A-Type Multispectrum Energized Membrane,5,326
 18885,Corpus C-Type EM Armor Hardener,5,328
 18891,Centus C-Type Explosive Armor Hardener,,
 18897,Corpus C-Type Thermal Armor Hardener,5,
+18899,Centus C-Type Thermal Armor Hardener,5,328
 18905,Corpus B-Type Explosive Armor Hardener,5,328
 18909,Corpus B-Type Kinetic Armor Hardener,,
 18913,Corpus B-Type Thermal Armor Hardener,,
 18923,Centus A-Type Kinetic Armor Hardener,,
+18931,Centus A-Type EM Armor Hardener,,
 18933,Corpus X-Type EM Armor Hardener,5,328
 18935,,5,328
 18937,Corpus X-Type Explosive Armor Hardener,5,328
@@ -819,6 +846,8 @@ type_id,name,volume,group_id
 18945,Corpus X-Type Thermal Armor Hardener,5,
 18947,Centus X-Type Thermal Armor Hardener,5,328
 18949,,5,
+18951,,5,328
+18955,,5,328
 18963,Core B-Type Thermal Armor Hardener,,
 18973,Core X-Type EM Armor Hardener,5,328
 18975,Core X-Type Explosive Armor Hardener,5,328
@@ -839,6 +868,7 @@ type_id,name,volume,group_id
 19029,Corelum C-Type Medium Armor Repairer,10,62
 19031,Corelum B-Type Medium Armor Repairer,10,62
 19033,Corelum A-Type Medium Armor Repairer,10,62
+19035,,50,62
 19036,Core B-Type Large Armor Repairer,50,62
 19037,Core A-Type Large Armor Repairer,50,
 19038,Core X-Type Large Armor Repairer,50,62
@@ -846,11 +876,13 @@ type_id,name,volume,group_id
 19045,Corpus X-Type Large Armor Repairer,50,62
 19046,Centus X-Type Large Armor Repairer,50,62
 19051,,5,325
-19053,Centum C-Type Medium Remote Armor Repairer,,
+19053,Centum C-Type Medium Remote Armor Repairer,10,325
 19081,Corpum A-Type Medium Remote Capacitor Transmitter,10,
 19087,,10,
 19105,,5,
+19107,,5,68
 19109,,5,68
+19111,Corpum A-Type Medium Energy Nosferatu,5,68
 19113,Corpus C-Type Heavy Energy Nosferatu,5,68
 19119,Corpus X-Type Heavy Energy Nosferatu,5,68
 19139,Pithi A-Type Small Remote Shield Booster,5,41
@@ -867,7 +899,7 @@ type_id,name,volume,group_id
 19185,Gistum A-Type Medium Shield Booster,10,40
 19187,Pithum C-Type Medium Shield Booster,10,40
 19189,Pithum B-Type Medium Shield Booster,10,40
-19191,Pithum A-Type Medium Shield Booster,10,
+19191,Pithum A-Type Medium Shield Booster,10,40
 19193,Gist C-Type Large Shield Booster,,
 19194,Gist B-Type Large Shield Booster,25,
 19195,,50,40
@@ -887,7 +919,7 @@ type_id,name,volume,group_id
 19227,Pithum A-Type Thermal Shield Amplifier,5,295
 19229,,5,
 19231,Pithum A-Type EM Shield Amplifier,5,295
-19247,Gistum B-Type EM Shield Amplifier,,
+19247,Gistum B-Type EM Shield Amplifier,5,295
 19253,,5,
 19263,Gist C-Type EM Shield Hardener,,
 19268,,5,
@@ -955,10 +987,12 @@ type_id,name,volume,group_id
 20358,Numon Family Heirloom,1,
 20410,Datacore - Gallentean Starship Engineering,0.1,333
 20411,,0.1,333
+20413,Datacore - Laser Physics,0.1,333
+20414,,0.1,333
 20415,Datacore - Molecular Engineering,0.1,
 20418,Datacore - Electronic Engineering,0.1,333
 20419,Datacore - Graviton Physics,0.1,333
-20421,,0.1,333
+20421,Datacore - Amarrian Starship Engineering,0.1,333
 20424,Datacore - Mechanical Engineering,0.1,333
 20443,Ogdin's Eye Coordination Enhancer,1,
 20445,Dual Giga Pulse Laser I Blueprint,,
@@ -1004,7 +1038,7 @@ type_id,name,volume,group_id
 21510,'Interruptive' Warp Disruptor,5,52
 21512,'Delineative' Warp Scrambler,5,52
 21540,'Inception' Target Painter,5,
-21569,Sleeper Profound Research Notes,1,
+21569,Sleeper Profound Research Notes,1,732
 21640,,10,100
 21667,Capital Projectile Turret,,
 21721,,0.1,
@@ -1074,6 +1108,7 @@ type_id,name,volume,group_id
 23007,Federation Navy Iron Charge L,,
 23009,Caldari Navy Antimatter Charge S,0.0025,85
 23025,Caldari Navy Antimatter Charge M,0.0125,85
+23045,,0.025,85
 23047,Caldari Navy Lead Charge L,,
 23055,Templar I,1000,1652
 23061,Einherji I,1000,1652
@@ -1081,7 +1116,7 @@ type_id,name,volume,group_id
 23073,,1,
 23079,Imperial Navy Standard S,,
 23085,,1,86
-23089,,1,86
+23089,Imperial Navy Multifrequency M,1,86
 23097,Imperial Navy Standard M,1,86
 23105,Imperial Navy Multifrequency L,1,86
 23107,,1,86
@@ -1091,12 +1126,14 @@ type_id,name,volume,group_id
 23119,Imperial Navy Radio L,1,86
 23128,,0.1,
 23134,Takmahl Dynamic Gauge,,
+23137,,0.1,528
+23149,,0.1,528
 23152,,0.1,528
 23172,Yan Jung Singularity Fact Sheet,1,733
 23473,Wasp EC-900,,
 23707,,5,639
 23785,'Bailey' 1600mm Steel Plates,20,329
-23797,,10,
+23797,,10,62
 23803,'Censer' Medium Cap Battery,10,
 23805,'Thurifer' Large Cap Battery,15,61
 23894,,5,768
@@ -1117,17 +1154,17 @@ type_id,name,volume,group_id
 24523,Mjolnir Rage Torpedo,0.05,657
 24531,Nova Fury Cruise Missile,0.05,656
 24533,,0.05,656
-24535,,0.05,
+24535,Mjolnir Fury Cruise Missile,0.05,656
 24539,Mjolnir Precision Cruise Missile,0.05,656
 24560,,2000,873
 24632,Zainou 'Deadeye' Guided Missile Precision GP-803,1,746
 24640,Zainou 'Deadeye' Guided Missile Precision GP-805,,
 24644,Capital Tractor Beam I,,
-24663,Zor's Custom Navigation Hyper-Link,,
+24663,Zor's Custom Navigation Hyper-Link,1,747
 24690,,50000,27
 24692,,50000,
 24696,,15000,419
-24698,,15000,419
+24698,Drake,15000,419
 24700,Myrmidon,15000,419
 24702,Hurricane,15000,419
 25252,Pure Standard Frentix Booster,1,712
@@ -1148,6 +1185,7 @@ type_id,name,volume,group_id
 25605,Armor Plates,0.01,754
 25608,Intact Shield Emitter,0.01,754
 25609,Nanite Compound,,
+25617,,0.01,754
 25619,Logic Circuit,0.01,754
 25624,Intact Armor Plates,0.01,754
 25715,Heavy Assault Missile Launcher II,10,771
@@ -1206,6 +1244,7 @@ type_id,name,volume,group_id
 27094,,1,
 27108,Zainou 'Snapshot' Light Missiles LM-903,1,
 27109,,1,
+27114,Eifyr and Co. 'Rogue' Warp Drive Speed WS-615,1,747
 27116,Inherent Implants 'Squire' Capacitor Management EM-805,1,741
 27118,Inherent Implants 'Squire' Capacitor Systems Operation EO-605,1,741
 27126,Inherent Implants 'Squire' Power Grid Management EG-605,1,
@@ -1220,7 +1259,7 @@ type_id,name,volume,group_id
 27181,Zainou 'Beancounter' Metallurgy MY-705,1,748
 27184,Zainou 'Beancounter' Science SC-805,1,748
 27186,Poteque 'Prospector' Astrometric Pinpointing AP-606,1,1230
-27187,,1,
+27187,,1,1230
 27188,Poteque 'Prospector' Astrometric Rangefinding AR-806,1,1230
 27190,Poteque 'Prospector' Astrometric Pinpointing AP-610,,
 27192,Poteque 'Prospector' Astrometric Acquisition AQ-710,1,1230
@@ -1233,9 +1272,9 @@ type_id,name,volume,group_id
 27258,Zainou 'Snapshot' Cruise Missiles CM-605,,
 27260,Poteque 'Prospector' Environmental Analysis EY-1005,1,1230
 27309,,0.01,
-27321,,0.005,
-27327,,0.005,
-27339,Caldari Navy Mjolnir Torpedo,0.05,
+27321,,0.005,387
+27327,,0.005,387
+27339,Caldari Navy Mjolnir Torpedo,0.05,89
 27341,Dread Guristas Mjolnir Torpedo,0.05,89
 27345,Caldari Navy Scourge Torpedo,0.05,89
 27347,,0.05,89
@@ -1250,6 +1289,7 @@ type_id,name,volume,group_id
 27395,Caldari Navy Scourge Cruise Missile,0.05,386
 27399,Dread Guristas Scourge Cruise Missile,0.05,386
 27401,Caldari Navy Nova Heavy Assault Missile,0.015,772
+27405,,0.015,772
 27409,Guristas Inferno Cruise Missile,,
 27413,,0.015,772
 27419,Caldari Navy Mjolnir Heavy Assault Missile,0.015,772
@@ -1280,6 +1320,7 @@ type_id,name,volume,group_id
 28272,'Augmented' Hammerhead,10,100
 28276,,5,
 28280,'Augmented' Hornet,5,100
+28282,'Integrated' Infiltrator,10,100
 28284,'Augmented' Infiltrator,10,100
 28288,'Augmented' Ogre,25,100
 28292,'Augmented' Praetor,25,
@@ -1305,6 +1346,8 @@ type_id,name,volume,group_id
 28438,,100,465
 28439,Compressed Glare Crust,,
 28440,Compressed Krystallos,100,465
+28576,Mining Laser Upgrade II,5,546
+28578,,5,546
 28606,Orca,500000,941
 28609,Heavy Interdiction Cruisers,,
 28652,Covert Jump Portal Generator I,125,4127
@@ -1317,7 +1360,7 @@ type_id,name,volume,group_id
 28674,Synth Drop Booster,1,303
 28676,Synth Exile Booster,1,
 28678,,1,303
-28680,Synth Mindflood Booster,1,
+28680,Synth Mindflood Booster,1,303
 28682,Synth X-Instinct Booster,1,303
 28684,Synth Sooth Sayer Booster,1,
 28694,Amber Mykoserocin,10,711
@@ -1363,6 +1406,7 @@ type_id,name,volume,group_id
 29990,Loki,5000,963
 29992,Optimized Nano-Engines,,
 30018,,0.01,
+30019,,0.01,966
 30024,,0.01,966
 30251,Neurovisual Input Matrix,,
 30252,Thermoelectric Catalysts,0.01,966
@@ -1380,10 +1424,12 @@ type_id,name,volume,group_id
 30376,Fullerite-C32,5,711
 30377,Fullerite-C320,5,711
 30378,Fullerite-C540,10,711
-30486,Sisters Combat Scanner Probe,1,
+30486,Sisters Combat Scanner Probe,1,479
 30488,Sisters Core Scanner Probe,,
 30586,Malfunctioning Power Cores,,
+30615,,10,993
 30628,,10,991
+30632,,10,991
 30752,Intact Hull Section,,
 30987,Small Trimark Armor Pump I,5,773
 31001,Capital EM Armor Reinforcer I,,
@@ -1398,7 +1444,7 @@ type_id,name,volume,group_id
 31039,Small Thermal Armor Reinforcer II,5,
 31041,,10,
 31045,Small Auxiliary Nano Pump I,5,773
-31047,Medium Auxiliary Nano Pump I,,
+31047,Medium Auxiliary Nano Pump I,10,773
 31053,Medium Auxiliary Nano Pump II,10,773
 31055,Medium Trimark Armor Pump I,10,773
 31059,Medium Trimark Armor Pump II,10,773
@@ -1414,6 +1460,7 @@ type_id,name,volume,group_id
 31119,Medium Cargohold Optimization I,10,782
 31123,Small Cargohold Optimization II,5,782
 31125,Medium Cargohold Optimization II,10,782
+31155,,10,782
 31161,Medium Hyperspatial Velocity Optimizer I,10,782
 31165,Small Hyperspatial Velocity Optimizer II,5,782
 31167,Medium Hyperspatial Velocity Optimizer II,10,782
@@ -1425,10 +1472,11 @@ type_id,name,volume,group_id
 31330,Medium Targeting System Subcontroller II,10,
 31340,Small Targeting Systems Stabilizer II,5,786
 31342,Medium Targeting Systems Stabilizer II,10,
-31360,,10,781
+31360,Medium Ancillary Current Router I,10,781
 31364,Small Ancillary Current Router II,5,
 31366,Medium Ancillary Current Router II,,
 31370,Small Capacitor Control Circuit I,5,
+31372,,10,781
 31374,Capital Capacitor Control Circuit I,,
 31378,Medium Capacitor Control Circuit II,10,781
 31380,Capital Capacitor Control Circuit II,40,
@@ -1452,6 +1500,8 @@ type_id,name,volume,group_id
 31674,Small Projectile Burst Aerator II,,
 31676,,10,
 31720,Capital EM Shield Reinforcer I,,
+31722,Small EM Shield Reinforcer II,5,774
+31724,Medium EM Shield Reinforcer II,10,774
 31748,,10,
 31760,Medium Thermal Shield Reinforcer II,10,774
 31770,,5,
@@ -1465,7 +1515,7 @@ type_id,name,volume,group_id
 31812,Medium Core Defense Field Purger II,10,774
 31824,,10,
 31866,Imperial Navy Infiltrator,10,100
-31868,,25,
+31868,Imperial Navy Curator,25,100
 31870,Imperial Navy Praetor,25,100
 31872,Caldari Navy Hornet,5,100
 31874,Caldari Navy Vespa,10,100
@@ -1476,6 +1526,7 @@ type_id,name,volume,group_id
 31884,Federation Navy Ogre,25,
 31888,Republic Fleet Warrior,5,100
 31890,Republic Fleet Valkyrie,10,100
+31894,,25,100
 31900,Imperial Navy 1600mm Steel Plates,20,329
 31902,Federation Navy 1600mm Steel Plates,20,329
 31904,Imperial Navy 200mm Steel Plates,10,329
@@ -1523,9 +1574,10 @@ type_id,name,volume,group_id
 33151,,15000,
 33153,Drake Navy Issue,15000,419
 33155,Harbinger Navy Issue,15000,419
-33157,,15000,419
+33157,Hurricane Fleet Issue,15000,419
 33201,,5,
 33332,,1.5,87
+33337,,0.2,428
 33359,Photonic Metamaterials,1,429
 33360,Terahertz Metamaterials,1,429
 33361,Plasmonic Metamaterials,1,
@@ -1536,16 +1588,17 @@ type_id,name,volume,group_id
 33405,,1,744
 33406,Caldari Navy Command Mindlink,,
 33446,Caldari Navy Rapid Heavy Missile Launcher,20,1245
-33450,Rapid Heavy Missile Launcher II,20,
+33450,Rapid Heavy Missile Launcher II,20,1245
 33452,Domination Rapid Heavy Missile Launcher,20,1245
 33453,,20,1245
 33468,Astero,2500,25
 33470,Stratios,10000,26
 33472,Nestor,,
+33474,,50,1246
 33513,Leopard,500,31
 33522,'Yurt' Mobile Depot,50,1246
 33526,,1,
-33527,High-grade Ascendancy Epsilon,1,
+33527,High-grade Ascendancy Epsilon,1,300
 33528,High-grade Ascendancy Gamma,1,300
 33539,Shattered Villard Wheel,0.1,526
 33557,Mid-grade Ascendancy Beta,1,
@@ -1564,6 +1617,7 @@ type_id,name,volume,group_id
 33842,Federation Navy Drone Damage Amplifier,5,645
 33844,Imperial Navy Drone Damage Amplifier,5,645
 33846,Dread Guristas Drone Damage Amplifier,5,645
+33848,,5,645
 33850,Federation Navy Drone Navigation Computer,25,644
 33852,,25,644
 33890,Small Transverse Bulkhead I,5,773
@@ -1584,6 +1638,7 @@ type_id,name,volume,group_id
 33948,Low-grade Nomad Beta,1,300
 33960,,1,
 33961,Low-grade Snake Delta,1,300
+33964,,1,300
 33973,Low-grade Virtue Delta,1,300
 33975,Low-grade Virtue Gamma,,
 33981,Limited Hyperspatial Accelerator,5,1289
@@ -1592,7 +1647,11 @@ type_id,name,volume,group_id
 34049,Women's 'Hover' Tights (opaque black),,
 34057,Men's 'Tectonic' Headwear (matte black),,
 34132,Pilot's Body Resculpt Certificate,,
+34202,,0.1,1304
+34204,,0.1,1304
+34205,Process Decryptor,0.1,1304
 34207,Optimized Attainment Decryptor,0.1,1304
+34208,Optimized Augmentation Decryptor,0.1,1304
 34264,Focused Void Bomb,75,864
 34268,Medium Higgs Anchor I,,
 34272,Polarized Small Focused Pulse Laser,5,53
@@ -1606,6 +1665,7 @@ type_id,name,volume,group_id
 34306,Large Higgs Anchor I,20,1308
 34317,Confessor,5000,
 34328,Bowhead,1300000,
+34412,,20,997
 34481,Domination Inertial Stabilizers,5,
 34489,,5,765
 34496,,500,31
@@ -1654,7 +1714,7 @@ type_id,name,volume,group_id
 37298,Dual Giga Pulse Laser II,1000,53
 37300,Triple Neutron Blaster Cannon II,1000,74
 37302,Ion Siege Blaster II,1000,
-37304,,1000,55
+37304,Quad 800mm Repeating Cannon II,1000,55
 37306,Hexa 2500mm Repeating Cannon II,1000,55
 37450,,5,54
 37452,ORE Ice Mining Laser,5,54
@@ -1668,18 +1728,22 @@ type_id,name,volume,group_id
 37480,Bifrost,5000,1534
 37482,,5000,
 37599,,3000,1537
+37608,,50,899
+37612,,50,899
 37623,,5,71
 37624,Corpii A-Type Small Energy Neutralizer,5,71
+37625,,5,71
 37626,,5,71
 37627,Corpum A-Type Medium Energy Neutralizer,5,71
 37631,Corpus X-Type Heavy Energy Neutralizer,5,71
+37810,,0.1,1088
 37820,Caldari Navy Shield Power Relay,5,57
 37843,,0.5,
 37844,,0.5,1546
 37846,Standup Cruise Missile,0.5,1547
 37847,Standup Heavy Missile,0.5,
 37848,,0.5,
-40346,,3000,1537
+40346,Siren I,3000,1537
 40347,,3000,
 40349,25000mm Crystalline Carbonide Restrained Plates,,
 40351,25000mm Steel Plates II,1000,329
@@ -1689,8 +1753,8 @@ type_id,name,volume,group_id
 40519,Skill Extractor,0.01,1301
 40520,Large Skill Injector,0.01,1739
 40556,Templar II,1000,1652
-40558,Firbolg II,1000,
-40559,Einherji II,,
+40558,Firbolg II,1000,1652
+40559,Einherji II,1000,1652
 40560,Ametat II,2000,1653
 40561,Malleus II,1800,1653
 40568,,3000,1537
@@ -1709,6 +1773,7 @@ type_id,name,volume,group_id
 41066,Dark Blood Quad Mega Pulse Laser,,
 41191,Sentient Sensor Booster,5,212
 41193,Unit F-435454's Modified Sensor Booster,,
+41196,,5,210
 41197,,5,
 41198,Sentient Remote Sensor Booster,,
 41200,Shadow Serpentis Damage Control,5,60
@@ -1724,6 +1789,8 @@ type_id,name,volume,group_id
 41238,10000MN Monopropellant Enduring Afterburner,,
 41249,50000MN Microwarpdrive I,1000,
 41251,50000MN Quad LiF Restrained Microwarpdrive,1000,
+41267,,0.001,1676
+41268,,0.001,1676
 41271,,0.3,1677
 41274,Mjolnir Javelin XL Torpedo,0.3,1677
 41276,Inferno Javelin XL Torpedo,,
@@ -1740,9 +1807,9 @@ type_id,name,volume,group_id
 41456,,1000,329
 41459,,1000,38
 41463,Capital I-ax Enduring Remote Armor Repairer,,
-41469,Capital Asymmetric Enduring Remote Shield Booster,,
+41469,Capital Asymmetric Enduring Remote Shield Booster,1000,41
 41485,Capital Compact Pb-Acid Cap Battery,1000,61
-41486,,1000,
+41486,,1000,61
 41489,,128,
 41490,Navy Cap Booster 3200,96,87
 41492,Capital F-RX Compact Capacitor Booster,1000,76
@@ -1751,7 +1818,9 @@ type_id,name,volume,group_id
 41503,Capital Ancillary Armor Repairer,,
 41533,Ligature Integrated Analyzer,5,538
 41534,Zeugma Integrated Analyzer,5,538
-42145,Low-grade Asklepian Alpha,,
+41566,,1000,67
+42145,Low-grade Asklepian Alpha,1,300
+42146,Low-grade Asklepian Beta,,
 42201,Low-grade Asklepian Epsilon,1,
 42203,Low-grade Asklepian Omega,1,300
 42204,Mid-grade Asklepian Alpha,1,300
@@ -1769,7 +1838,9 @@ type_id,name,volume,group_id
 42696,Shield Extension Charge,0.01,1769
 42787,,0.01,
 42789,,0.01,
+42829,,0.01,1771
 42830,Mining Laser Optimization Charge,,
+42840,,0.01,1772
 42881,Mining Laser Field Enhancement Charge Blueprint,0.01,
 42882,Mining Laser Optimization Charge Blueprint,0.01,
 42890,Capital Industrial Core II,,
@@ -1797,6 +1868,7 @@ type_id,name,volume,group_id
 45591,Tengu Defensive - Amplification Node,40,954
 45592,Proteus Defensive - Covert Reconfiguration,40,954
 45595,Loki Defensive - Covert Reconfiguration,40,954
+45597,,40,954
 45598,Legion Offensive - Liquid Crystal Magnifiers,40,956
 45599,Legion Offensive - Assault Optimization,40,956
 45601,Tengu Offensive - Accelerated Ejection Bay,40,956
@@ -1817,7 +1889,7 @@ type_id,name,volume,group_id
 45620,Loki Propulsion - Intercalated Nanofibers,40,
 45621,Loki Propulsion - Wake Limiter,40,957
 45622,Legion Core - Dissolution Sequencer,40,958
-45623,,40,958
+45623,Legion Core - Augmented Antimatter Reactor,40,958
 45626,Tengu Core - Augmented Graviton Reactor,40,958
 45627,,40,
 45628,,40,
@@ -1826,6 +1898,7 @@ type_id,name,volume,group_id
 45631,Loki Core - Dissolution Sequencer,40,958
 45632,Loki Core - Augmented Nuclear Reactor,40,958
 45633,Loki Core - Immobility Drivers,40,958
+45663,Synthetic Aperture Ladar Receiver,0.01,966
 45856,Golem Exoplanets Hunter SKIN,0.01,
 45866,Bustard Exoplanets Hunter SKIN,,
 45998,,1,303
@@ -1850,11 +1923,12 @@ type_id,name,volume,group_id
 47133,Standup Dromi I,,
 47136,Standup Siren II,6000,4778
 47139,,2000,4777
-47270,,10000,26
+47270,Vedmak,10000,26
 47271,,50000,27
+47297,,1,1964
 47298,Standup Multirole Missile Launcher II,4000,
 47323,Standup Anticapital Missile Launcher II,,
-47334,,4000,
+47334,,4000,1442
 47340,Standup Missile Guidance Enhancer II,,
 47342,Standup Ballistic Control System II,4000,
 47351,,4000,1441
@@ -1867,16 +1941,22 @@ type_id,name,volume,group_id
 47700,Unstable Stasis Webifier Mutaplasmid,1,1964
 47701,Gravid Stasis Webifier Mutaplasmid,1,1964
 47734,Unstable Warp Disruptor Mutaplasmid,1,1964
+47738,,1,1964
 47752,Gravid 10MN Afterburner Mutaplasmid,1,
+47755,Unstable 100MN Afterburner Mutaplasmid,1,1964
+47761,,0.1,1979
 47771,,1,
+47775,,1,1964
 47783,Unstable Medium Shield Booster Mutaplasmid,,
 47787,Unstable Large Shield Booster Mutaplasmid,1,
 47790,Decayed X-Large Shield Booster Mutaplasmid,1,1964
+47805,,1,1964
 47806,Unstable Large Shield Extender Mutaplasmid,1,1964
 47807,Gravid Large Shield Extender Mutaplasmid,1,1964
 47818,Unstable Large Armor Plate Mutaplasmid,1,1964
 47826,,1,1964
-47830,Unstable Heavy Energy Neutralizer Mutaplasmid,,
+47830,Unstable Heavy Energy Neutralizer Mutaplasmid,1,1964
+47831,,1,1964
 47841,,1,1964
 47845,,1,
 47875,Large Disintegrator Specialization,0.01,255
@@ -1886,6 +1966,7 @@ type_id,name,volume,group_id
 47891,Chaotic Exotic Filament,0.1,1979
 47895,Chaotic Dark Filament,0.1,1979
 47897,,0.1,
+47898,,0.1,1979
 47899,Chaotic Firestorm Filament,0.1,1979
 47901,,0.1,
 47902,Raging Gamma Filament,0.1,1979
@@ -1929,10 +2010,13 @@ type_id,name,volume,group_id
 49711,Drekavac,15000,419
 49712,,10000,
 49713,Zarmazd,10000,832
+49727,,1,1964
 49728,Gravid Heat Sink Mutaplasmid,1,1964
 49732,,1,
 49733,Unstable Gyrostabilizer Mutaplasmid,1,
-49737,,1,1964
+49736,,1,1964
+49737,Unstable Entropic Radiation Sink Mutaplasmid,1,1964
+49739,,1,1964
 49740,Gravid Ballistic Control System Mutaplasmid,1,1964
 49741,Unstable Ballistic Control System Mutaplasmid,1,1964
 49774,Perun Heavy Mutadaptive Remote Armor Repairer,10,2018
@@ -2020,7 +2104,8 @@ type_id,name,volume,group_id
 55831,Triglavian Transconduit Datacaster,1,1995
 56068,Proximity-5 'Extraction' Filament,0.1,4087
 56069,Proximity-15 'Extraction' Filament,0.1,4087
-56133,,0.1,
+56131,Tranquil Electrical Filament,0.1,1979
+56133,,0.1,1979
 56136,Tranquil Gamma Filament,,
 56139,Cataclysmic Electrical Filament,0.1,1979
 56140,Cataclysmic Dark Filament,0.1,1979
@@ -2035,6 +2120,7 @@ type_id,name,volume,group_id
 56716,Protective Equipment Patterns,0.1,526
 57064,Rifter Zakura Shumyu SKIN,,
 57112,Low-grade Rapture Gamma,,
+57113,,1,300
 57117,Mid-grade Rapture Alpha,,
 57118,,1,
 57119,Mid-grade Rapture Gamma,,
@@ -2045,6 +2131,7 @@ type_id,name,volume,group_id
 57442,Counter-Subversion Sensor Array,2,
 57443,Meta-Molecular Combiner,1,526
 57444,,1,
+57445,,1,526
 57446,,1,526
 57449,Nano Regulation Gate,0.1,526
 57450,Electro-Neural Signaller,0.25,526
@@ -2067,7 +2154,7 @@ type_id,name,volume,group_id
 57487,Capital Core Temperature Regulator,28000,873
 57488,Neurolink Protection Cell,5500,873
 57733,,0.01,1950
-58945,,3500,
+58945,Large Industrial Core I,3500,515
 58950,Large Industrial Core II,3500,515
 58966,,5,
 58972,,5,
@@ -2093,6 +2180,7 @@ type_id,name,volume,group_id
 60470,Exigent Sentry Drone Projection Mutaplasmid,1,
 60472,,1,1964
 60473,Exigent Medium Drone Firepower Mutaplasmid,1,1964
+60474,,1,1964
 60476,Radical Drone Damage Amplifier Mutaplasmid,1,1964
 60515,,0.01,
 60575,Quafe Zero Green Apple,1,303
@@ -2135,10 +2223,10 @@ type_id,name,volume,group_id
 62528,,0.0035,458
 62529,Compressed Plagioclase II-Grade,0.0035,458
 62532,Compressed Omber,0.006,469
-62533,Compressed Omber II-Grade,,
+62533,Compressed Omber II-Grade,0.006,469
 62535,,0.006,469
 62536,Compressed Kernite,0.012,457
-62538,Compressed Kernite III-Grade,,
+62538,Compressed Kernite III-Grade,0.012,457
 62539,,0.012,457
 62540,,0.02,456
 62544,,0.03,455
@@ -2156,7 +2244,7 @@ type_id,name,volume,group_id
 62567,Compressed Bistot IV-Grade,0.16,451
 62568,,0.16,450
 62571,Compressed Arkonor IV-Grade,0.16,450
-62572,,0.16,
+62572,Compressed Spodumain,0.16,461
 62573,Compressed Spodumain II-Grade,0.16,
 62587,Compressed Mercoxit II-Grade,,
 62590,Medium Industrial Core I,3500,515
@@ -2170,6 +2258,7 @@ type_id,name,volume,group_id
 63054,Men's 'Semiotique Superluminal' Pants,,
 63140,,5000,
 64380,Men's Amarr Courtly Robe,,
+72811,,15000,419
 72812,Ferox Navy Issue,15000,419
 72869,Myrmidon Navy Issue,,
 72872,,15000,419
@@ -2188,6 +2277,7 @@ type_id,name,volume,group_id
 75277,,0.001,4513
 75278,Compressed Mordunium IV-Grade,0.001,4513
 75279,,0.006,4514
+75283,,0.16,4515
 75287,Compressed Ducinium,,
 75908,Barghest Red Stargazer SKIN,,
 76954,Ishkur Zydrine Burn SKIN,,
@@ -2213,6 +2303,7 @@ type_id,name,volume,group_id
 81143,Magmatic Gas,0.01,4729
 81144,Superionic Ice,1.5,4729
 81350,Kerr Sequencer,0.001,
+81920,Integrated Moon Drill Armature,3000,4086
 81948,Consortium Small Tractor Beam,50,650
 81951,Consortium Mobile Tractor Unit,80,1250
 82054,Stabber Capsuleer Day XXI SKIN,0.01,1950
@@ -2246,6 +2337,7 @@ type_id,name,volume,group_id
 85393,,0.01,1996
 85394,Warp Disruption Mutaplasmid Residue,0.01,1996
 85400,X-Large Mutaplasmid Residue,0.01,1996
+85401,Engineering Mutaplasmid Residue,0.01,1996
 85521,,1,1964
 85543,Glorified Gravid Large Shield Booster Mutaplasmid,,
 85551,Glorified Gravid X-Large Shield Booster Mutaplasmid,,
@@ -2291,12 +2383,15 @@ type_id,name,volume,group_id
 90318,Aeon Sanguinary Savant SKIN,0.01,1950
 90396,Blood Raider Crate,,
 90416,Squall Shattered Paradigm SKIN,0.01,1950
+90468,,1,1964
 90469,Unstable Modulated Strip Miner Mutaplasmid,1,1964
 90523,Unstable Ice Harvester Mutaplasmid,,
 90528,Unstable Gas Cloud Scoop Mutaplasmid,1,1964
+90592,,1,1964
 90647,Oxidative Stress - Unlimited,,
 90733,,0.01,1771
 90734,,0.01,
+90739,,1,1194
 91174,Perseverance,5000,420
 91619,,0.01,1950
 91636,,0.01,1950
@@ -2364,7 +2459,7 @@ type_id,name,volume,group_id
 95556,Lorharyth’s Modified Inertial Stabilizer,5,762
 95629,Oracle Navy Issue,15000,1201
 95630,Naga Navy Issue,15000,1201
-95631,,15000,1201
+95631,Talos Navy Issue,15000,1201
 95632,Tornado Fleet Issue,15000,1201
 95672,Liberated Matar Background,0.1,
 95673,Foundation Wisdom Background,0.1,

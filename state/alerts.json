@@ -88,5 +88,53 @@
   "severity": "info",
   "since": 1794613405.4287903,
   "text": "Buy order for Compressed Dark Glitter in jita hasn't filled at all in 11 days (2.25M tied up)."
+ },
+ {
+  "key": "idle_buy:36",
+  "severity": "info",
+  "since": 1795132829.190364,
+  "text": "Buy order for Criterion Cipher in jita hasn't filled at all in 5 days (21.18M tied up)."
+ },
+ {
+  "key": "idle_buy:37",
+  "severity": "info",
+  "since": 1795132829.190364,
+  "text": "Buy order for Entosis Link II in jita hasn't filled at all in 5 days (133.40M tied up)."
+ },
+ {
+  "key": "idle_buy:38",
+  "severity": "info",
+  "since": 1795132829.190364,
+  "text": "Buy order for Gistum B-Type Medium Shield Booster in jita hasn't filled at all in 5 days (211.40M tied up)."
+ },
+ {
+  "key": "idle_buy:39",
+  "severity": "info",
+  "since": 1795132829.190364,
+  "text": "Buy order for Jaguar in jita hasn't filled at all in 5 days (58.12M tied up)."
+ },
+ {
+  "key": "idle_buy:40",
+  "severity": "info",
+  "since": 1795132829.190364,
+  "text": "Buy order for Bomb Launcher II in jita hasn't filled at all in 5 days (40.50M tied up)."
+ },
+ {
+  "key": "idle_buy:41",
+  "severity": "info",
+  "since": 1795132829.190364,
+  "text": "Buy order for Quad Mega Pulse Laser II in jita hasn't filled at all in 5 days (175.20M tied up)."
+ },
+ {
+  "key": "idle_buy:42",
+  "severity": "info",
+  "since": 1795132829.190364,
+  "text": "Buy order for Sansha NET Resonator in jita hasn't filled at all in 5 days (29.69M tied up)."
+ },
+ {
+  "key": "idle_buy:43",
+  "severity": "info",
+  "since": 1795132829.190364,
+  "text": "Buy order for Siren II in jita hasn't filled at all in 5 days (48.98M tied up)."
  }
 ]

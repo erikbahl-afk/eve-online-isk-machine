@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0703,
- "buy_orders": 5912,
- "buy_orders_reaching_jita": 5834,
+ "ask_ratio_median": 1.0618,
+ "buy_orders": 5924,
+ "buy_orders_reaching_jita": 5847,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6300,
- "sell_orders": 388,
- "share_ask_below_jita": 0.2422,
+ "orders": 6310,
+ "sell_orders": 386,
+ "share_ask_below_jita": 0.2516,
  "structure_id": 1042508032148,
- "t": 1795128410.3540454,
+ "t": 1795132852.5267215,
  "top_ask_below_jita": [
   {
    "best_ask": 64000.0,
@@ -115,44 +115,8 @@
    "type_id": 3665
   }
  ],
- "top_bid_over_jita": [
-  {
-   "best_bid": 27800.0,
-   "gap": 0.0004,
-   "name": "",
-   "s_bid_reach": 27810.0,
-   "type_id": 33448
-  },
-  {
-   "best_bid": 32380.0,
-   "gap": 0.0003,
-   "name": "",
-   "s_bid_reach": 32390.0,
-   "type_id": 30309
-  },
-  {
-   "best_bid": 73270.0,
-   "gap": 0.0003,
-   "name": "",
-   "s_bid_reach": 73290.0,
-   "type_id": 30311
-  },
-  {
-   "best_bid": 468500000.0,
-   "gap": 0.0002,
-   "name": "Skill Extractor",
-   "s_bid_reach": 468600000.0,
-   "type_id": 40519
-  },
-  {
-   "best_bid": 57290.0,
-   "gap": 0.0002,
-   "name": "",
-   "s_bid_reach": 57300.0,
-   "type_id": 2355
-  }
- ],
- "types": 3813,
- "types_also_in_jita": 3813,
- "types_bid_over_jita_reaching": 5
+ "top_bid_over_jita": [],
+ "types": 3825,
+ "types_also_in_jita": 3825,
+ "types_bid_over_jita_reaching": 0
 }
