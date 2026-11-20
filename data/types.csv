@@ -297,7 +297,7 @@ type_id,name,volume,group_id
 10222,Cybernetic Subprocessor - Improved,1,
 10225,Social Adaptation Chip - Standard,1,745
 10226,Social Adaptation Chip - Improved,1,745
-10228,Zainou 'Gnome' Shield Management SM-703,1,
+10228,Zainou 'Gnome' Shield Management SM-703,1,749
 10244,Zainou 'Gypsy' Signature Analysis SA-703,1,
 10631,Rocket Launcher II,5,507
 10842,,50,40
@@ -1356,7 +1356,7 @@ type_id,name,volume,group_id
 28298,'Integrated' Vespa,,
 28300,'Augmented' Vespa,10,100
 28304,'Augmented' Warrior,5,100
-28308,,25,
+28308,,25,100
 28324,,0.025,
 28332,,0.025,83
 28334,,0.0125,
@@ -1668,6 +1668,7 @@ type_id,name,volume,group_id
 33941,Low-grade Harvest Alpha,1,300
 33942,Low-grade Harvest Beta,1,300
 33948,Low-grade Nomad Beta,1,300
+33957,,1,300
 33960,,1,
 33961,Low-grade Snake Delta,1,300
 33964,,1,300
@@ -1869,7 +1870,7 @@ type_id,name,volume,group_id
 42213,High-grade Asklepian Delta,1,300
 42215,High-grade Asklepian Omega,1,300
 42244,Porpoise,50000,941
-42685,,5000,420
+42685,Sunesis,5000,420
 42696,Shield Extension Charge,0.01,1769
 42787,,0.01,
 42789,,0.01,
@@ -1900,6 +1901,7 @@ type_id,name,volume,group_id
 45587,Legion Defensive - Augmented Plating,40,
 45588,Legion Defensive - Nanobot Injector,40,954
 45589,Tengu Defensive - Covert Reconfiguration,40,
+45590,Tengu Defensive - Supplemental Screening,40,954
 45591,Tengu Defensive - Amplification Node,40,954
 45592,Proteus Defensive - Covert Reconfiguration,40,954
 45595,Loki Defensive - Covert Reconfiguration,40,954
@@ -1990,7 +1992,7 @@ type_id,name,volume,group_id
 47806,Unstable Large Shield Extender Mutaplasmid,1,1964
 47807,Gravid Large Shield Extender Mutaplasmid,1,1964
 47818,Unstable Large Armor Plate Mutaplasmid,1,1964
-47826,,1,1964
+47826,Unstable Medium Energy Neutralizer Mutaplasmid,1,1964
 47830,Unstable Heavy Energy Neutralizer Mutaplasmid,1,1964
 47831,,1,1964
 47841,,1,1964

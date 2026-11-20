@@ -97,14 +97,14 @@
    },
    "96326": {
     "cost": 16890000.0,
-    "qty": 3,
+    "qty": 4,
     "since": 1795161456.0,
     "tag": "station"
    }
   }
  },
  "last_jump": null,
- "last_t": 1795179238.5819619,
+ "last_t": 1795183231.8411853,
  "location": "jita",
  "next_oid": 10,
  "orders": [
@@ -126,7 +126,7 @@
    "oid": 2,
    "price": 16890000.0,
    "qty": 5,
-   "remain": 2,
+   "remain": 1,
    "side": "buy",
    "tag": "station",
    "type_id": 96326,
@@ -225,7 +225,7 @@
    "sales": 0.0
   },
   "station": {
-   "buys": 52175000.0,
+   "buys": 69065000.0,
    "fees": 18596834.46375,
    "realized": -18596834.46375,
    "sales": 0.0
@@ -393,8 +393,8 @@
    "sold_units": 0
   },
   "jita:96326": {
-   "bought_isk": 50670000.0,
-   "bought_units": 3,
+   "bought_isk": 67560000.0,
+   "bought_units": 4,
    "fees": 1266750.0,
    "realized": -1266750.0,
    "sold_net": 0.0,
@@ -403,7 +403,7 @@
  },
  "pnl": {
   "broker": 18596834.46375,
-  "buys": 2795011000.0,
+  "buys": 2811901000.0,
   "courier": 138000000.0,
   "realized": -18596834.46375,
   "relist": 0.0,
