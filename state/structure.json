@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0722,
- "buy_orders": 5897,
- "buy_orders_reaching_jita": 5819,
+ "ask_ratio_median": 1.0637,
+ "buy_orders": 5875,
+ "buy_orders_reaching_jita": 5797,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6283,
+ "orders": 6261,
  "sell_orders": 386,
- "share_ask_below_jita": 0.2516,
+ "share_ask_below_jita": 0.2547,
  "structure_id": 1042508032148,
- "t": 1795140039.0367827,
+ "t": 1795144584.4504297,
  "top_ask_below_jita": [
   {
    "best_ask": 64000.0,
@@ -24,7 +24,7 @@
    "type_id": 84399
   },
   {
-   "best_ask": 2233.0,
+   "best_ask": 2232.0,
    "gap": 0.888,
    "name": "",
    "s_ask": 250.0,
@@ -115,8 +115,30 @@
    "type_id": 44896
   }
  ],
- "top_bid_over_jita": [],
- "types": 3816,
- "types_also_in_jita": 3816,
- "types_bid_over_jita_reaching": 0
+ "top_bid_over_jita": [
+  {
+   "best_bid": 11000.0,
+   "gap": 0.0009,
+   "name": "",
+   "s_bid_reach": 11010.0,
+   "type_id": 9832
+  },
+  {
+   "best_bid": 14050.0,
+   "gap": 0.0007,
+   "name": "Enriched Uranium",
+   "s_bid_reach": 14060.0,
+   "type_id": 44
+  },
+  {
+   "best_bid": 721.7,
+   "gap": 0.0001,
+   "name": "Nocxium",
+   "s_bid_reach": 721.8,
+   "type_id": 38
+  }
+ ],
+ "types": 3806,
+ "types_also_in_jita": 3806,
+ "types_bid_over_jita_reaching": 3
 }

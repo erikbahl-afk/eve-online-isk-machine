@@ -72,6 +72,7 @@ type_id,name,volume,group_id
 2185,Hammerhead II,10,100
 2195,Praetor II,25,100
 2270,,0.005,
+2272,,0.005,1032
 2281,Multispectrum Shield Hardener II,5,77
 2286,,0.005,
 2287,,0.005,
@@ -93,12 +94,12 @@ type_id,name,volume,group_id
 2348,Gel-Matrix Biopaste,3,1040
 2352,Nuclear Reactors,3,
 2361,Hermetic Membranes,3,1040
-2389,,0.19,1042
+2389,Plasmoids,0.19,1042
 2390,Electrolytes,0.19,1042
 2392,,0.19,1042
 2393,Bacteria,0.19,1042
 2395,,0.19,1042
-2396,,0.19,1042
+2396,Biofuels,0.19,1042
 2398,Reactive Metals,0.19,1042
 2399,Precious Metals,,
 2400,Toxic Metals,0.19,1042
@@ -352,7 +353,7 @@ type_id,name,volume,group_id
 11646,Explosive Armor Hardener II,5,328
 11648,,5,328
 11688,,1,
-11689,,1,334
+11689,Laser Focusing Crystals,1,334
 11690,,1,
 11694,,1,
 11695,Plasma Pulse Generator,1,334
@@ -497,6 +498,7 @@ type_id,name,volume,group_id
 13935,Domination Ballistic Control System,5,367
 13937,Dread Guristas Ballistic Control System,5,367
 13939,Domination Gyrostabilizer,5,59
+13941,Dark Blood Heat Sink,5,205
 13943,True Sansha Heat Sink,5,205
 13945,,5,
 13947,Dread Guristas Large Shield Booster,25,40
@@ -912,7 +914,7 @@ type_id,name,volume,group_id
 19200,Gist X-Type Large Shield Booster,25,40
 19201,,25,40
 19202,Pith C-Type X-Large Shield Booster,50,40
-19203,Pith B-Type Large Shield Booster,25,
+19203,Pith B-Type Large Shield Booster,25,40
 19204,Pith B-Type X-Large Shield Booster,50,40
 19205,Pith A-Type Large Shield Booster,25,40
 19207,Pith X-Type Large Shield Booster,25,40
@@ -1165,6 +1167,7 @@ type_id,name,volume,group_id
 24640,Zainou 'Deadeye' Guided Missile Precision GP-805,,
 24644,Capital Tractor Beam I,,
 24663,Zor's Custom Navigation Hyper-Link,1,747
+24688,,50000,27
 24690,Hyperion,50000,27
 24692,,50000,
 24696,,15000,419
@@ -1188,7 +1191,7 @@ type_id,name,volume,group_id
 25604,,0.01,
 25605,Armor Plates,0.01,754
 25608,Intact Shield Emitter,0.01,754
-25609,Nanite Compound,,
+25609,Nanite Compound,0.01,754
 25617,,0.01,754
 25619,Logic Circuit,0.01,754
 25624,Intact Armor Plates,0.01,754
@@ -1272,6 +1275,7 @@ type_id,name,volume,group_id
 27238,Eifyr and Co. 'Alchemist' Gas Harvesting GH-803,1,1229
 27239,Eifyr and Co. 'Alchemist' Gas Harvesting GH-805,1,1229
 27245,Zainou 'Snapshot' Heavy Assault Missiles AM-705,,
+27250,Zainou 'Snapshot' Heavy Missiles HM-705,,
 27252,Zainou 'Snapshot' Light Missiles LM-905,,
 27258,Zainou 'Snapshot' Cruise Missiles CM-605,,
 27260,Poteque 'Prospector' Environmental Analysis EY-1005,1,1230
@@ -1420,7 +1424,7 @@ type_id,name,volume,group_id
 30305,Fullerene Intercalated Graphite,0.8,974
 30306,Methanofullerene,0.75,974
 30309,,1.5,974
-30310,Carbon-86 Epoxy Resin,,
+30310,Carbon-86 Epoxy Resin,0.4,974
 30370,Fullerite-C50,1,711
 30371,Fullerite-C60,1,711
 30372,Fullerite-C70,1,711
@@ -1476,7 +1480,7 @@ type_id,name,volume,group_id
 31298,Small Particle Dispersion Projector I,,
 31330,Medium Targeting System Subcontroller II,10,
 31340,Small Targeting Systems Stabilizer II,5,786
-31342,Medium Targeting Systems Stabilizer II,10,
+31342,Medium Targeting Systems Stabilizer II,10,786
 31360,Medium Ancillary Current Router I,10,781
 31364,Small Ancillary Current Router II,5,
 31366,Medium Ancillary Current Router II,,
@@ -1733,7 +1737,7 @@ type_id,name,volume,group_id
 37480,Bifrost,5000,1534
 37482,,5000,
 37599,,3000,1537
-37608,,50,899
+37608,Pitfall Compact Warp Disruption Field Generator,50,899
 37612,,50,899
 37623,,5,71
 37624,Corpii A-Type Small Energy Neutralizer,5,71
@@ -1750,7 +1754,7 @@ type_id,name,volume,group_id
 37848,,0.5,
 40346,Siren I,3000,1537
 40347,,3000,
-40349,25000mm Crystalline Carbonide Restrained Plates,,
+40349,25000mm Crystalline Carbonide Restrained Plates,1000,329
 40351,25000mm Steel Plates II,1000,329
 40356,Capital F-S9 Regolith Compact Shield Extender,1000,38
 40357,,1000,38
@@ -1885,6 +1889,7 @@ type_id,name,volume,group_id
 45609,Loki Offensive - Support Processor,40,956
 45611,Legion Propulsion - Intercalated Nanofibers,40,957
 45612,Legion Propulsion - Wake Limiter,40,957
+45613,Tengu Propulsion - Interdiction Nullifier,40,957
 45614,Tengu Propulsion - Chassis Optimization,40,957
 45615,Tengu Propulsion - Fuel Catalyst,40,957
 45616,Proteus Propulsion - Interdiction Nullifier,,
@@ -2015,6 +2020,7 @@ type_id,name,volume,group_id
 49711,Drekavac,15000,419
 49712,,10000,
 49713,Zarmazd,10000,832
+49725,,1,1964
 49727,,1,1964
 49728,Gravid Heat Sink Mutaplasmid,1,1964
 49732,,1,
@@ -2434,7 +2440,7 @@ type_id,name,volume,group_id
 92454,,5,763
 92456,Presidential Mining Foreman Burst,60,1770
 92462,Darter TP-600-I,10,5239
-92463,,25,
+92463,Meganeura TP-900-I,25,5239
 92466,Atlas SD-900-I,,
 92468,Immaculate TD-600-I,10,5239
 92469,Torafugu TD-900-I,,
@@ -2516,6 +2522,7 @@ type_id,name,volume,group_id
 97516,Akoman Blueprint Crate,1,1194
 97552,Hyperspherical Housing,0.1,1194
 97560,Polycrase X-Grade,,
+97564,Compressed Raspite X-Grade,0.01,5083
 97569,,0.01,5085
 97570,Compressed Kangite X-Grade,0.01,5086
 97621,Pioneer Medical Enforcement Taskforce SKIN,,
@@ -2542,6 +2549,7 @@ type_id,name,volume,group_id
 98145,Blood Raider Blueprint Crate,1,1194
 98147,Crimson Totality Background,0.1,5082
 98306,Minmatar Republic Emblem - Unlimited,,
+98317,Carmine Chrome Metallic - Unlimited,,
 98319,Deep-Space Crimson Metallic - Unlimited,,
 98321,Amber Comet Metallic - Unlimited,,
 98338,Ultra-Indigo Matte - Unlimited,,

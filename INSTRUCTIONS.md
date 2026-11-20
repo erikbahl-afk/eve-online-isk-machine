@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Thu 19 Nov 18:00 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
+**Updated:** Thu 19 Nov 19:16 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
 **Steps:** 29 · **Est. time:** 17 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -22,8 +22,8 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 1 | ☐ Gistum B-Type Medium Shield Booster | 105,700,000 | **112,200,000** | 112,900,000 | 112,100,000 |
-| 2 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **174,200,000** | 174,200,000 | 174,800,000 |
+| 1 | ☐ Gistum B-Type Medium Shield Booster | 105,700,000 | **112,300,000** | 113,700,000 | 112,200,000 |
+| 2 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **174,900,000** | 178,200,000 | 174,800,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
@@ -40,8 +40,8 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 4 | ☐ 50MN Microwarpdrive II | 3,674,000 | **3,719,000** | 3,884,000 | 3,718,000 |
-| 5 | ☐ Compressed Fullerite-C540 | 42,580 | **42,840** | 42,840 | 44,140 |
+| 4 | ☐ 50MN Microwarpdrive II | 3,674,000 | **3,722,000** | 3,884,000 | 3,721,000 |
+| 5 | ☐ Compressed Fullerite-C540 | 42,580 | **42,830** | 42,830 | 44,150 |
 | 6 | ☐ Criterion Cipher | 10,590,000 | **12,820,000** | 21,980,000 | 12,810,000 |
 | 7 | ☐ Sansha NET Resonator | 2,474,000 | **2,464,000** | 2,464,000 | 2,588,000 |
 
@@ -53,7 +53,7 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 8 | ☐ Compressed Brimful Bitumens | 1,214 | **1,289** | 1,215 | 1,290 |
+| 8 | ☐ Compressed Brimful Bitumens | 1,214 | **1,288** | 1,215 | 1,289 |
 
 ## 9. ☐ Jump clone to Amarr VIII (Oris) - Emperor Family Academy
 _Clone Bay → Jump Clone → Amarr VIII (Oris) - Emperor Family Academy. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
