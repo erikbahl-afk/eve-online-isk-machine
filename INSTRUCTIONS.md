@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Fri 20 Nov 14:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Fri 20 Nov 14:22 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 21 · **Est. time:** 12 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -88,7 +88,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 21 | ☐ 50MN Microwarpdrive II | 3,724,000 | **3,745,000** | 3,844,000 | 3,744,000 |
+| 21 | ☐ 50MN Microwarpdrive II | 3,724,000 | **3,746,000** | 3,844,000 | 3,745,000 |
 
 ---
 Wallet 95.40M · escrow 1.08B · stock 3.78B · in transit 0.00 · net worth 4.95B (liquidation 2.48B)
