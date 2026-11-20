@@ -173,3 +173,4 @@ t,event,hub,type_id,qty,price,cash_delta,note
 1795161456,buy_fill,jita,82314,3,778.6,-2335.8,o37
 1795168656,buy_fill,jita,82314,16,778.6,-12457.6,o37
 1795175841,buy_fill,jita,41274,247,3851.0,-951197.0,o47
+1795179141,buy_fill,jita,41274,125,3851.0,-481375.0,o47

@@ -26,6 +26,7 @@ type_id,name,volume,group_id
 625,,10000,26
 626,Vexor,10000,26
 627,,10000,
+628,,10000,26
 629,Rupture,,
 630,Bellicose,,
 632,,10000,26
@@ -855,7 +856,7 @@ type_id,name,volume,group_id
 18923,Centus A-Type Kinetic Armor Hardener,,
 18931,Centus A-Type EM Armor Hardener,,
 18933,Corpus X-Type EM Armor Hardener,5,328
-18935,,5,328
+18935,Centus X-Type EM Armor Hardener,5,328
 18937,Corpus X-Type Explosive Armor Hardener,5,328
 18939,Centus X-Type Explosive Armor Hardener,5,328
 18941,,5,328
@@ -1559,7 +1560,7 @@ type_id,name,volume,group_id
 31900,Imperial Navy 1600mm Steel Plates,20,329
 31902,Federation Navy 1600mm Steel Plates,20,329
 31904,Imperial Navy 200mm Steel Plates,10,329
-31908,,10,329
+31908,Imperial Navy 400mm Steel Plates,10,329
 31910,Federation Navy 400mm Steel Plates,10,329
 31916,Imperial Navy 800mm Steel Plates,20,329
 31918,Federation Navy 800mm Steel Plates,20,329
@@ -2120,6 +2121,7 @@ type_id,name,volume,group_id
 54732,Stormbringer,10000,26
 54742,Small Vorton Projector II,5,4060
 54743,Small Consortium Vorton Projector,5,
+54745,Medium Vorton Projector I,,
 54748,Medium Vorton Projector II,25,4060
 54749,Medium Consortium Vorton Projector,25,
 54753,Large Vorton Projector II,50,4060
