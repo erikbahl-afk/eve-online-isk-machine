@@ -2082,7 +2082,7 @@ type_id,name,volume,group_id
 54398,Mid-grade Hydra Alpha,,
 54399,Mid-grade Hydra Beta,,
 54400,Mid-grade Hydra Gamma,,
-54402,Mid-grade Hydra Epsilon,,
+54402,Mid-grade Hydra Epsilon,1,300
 54403,Mid-grade Hydra Omega,,
 54407,Low-grade Hydra Delta,,
 54534,Black Market 'Valdimar' Drone Navigation DN-701,1,
@@ -2143,7 +2143,7 @@ type_id,name,volume,group_id
 57443,Meta-Molecular Combiner,1,526
 57444,,1,
 57445,,1,526
-57446,,1,526
+57446,AG-Composite Molecular Condenser,1,526
 57449,Nano Regulation Gate,0.1,526
 57450,Electro-Neural Signaller,0.25,526
 57451,,2.5,526
