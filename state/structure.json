@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0408,
- "buy_orders": 5829,
- "buy_orders_reaching_jita": 5747,
+ "ask_ratio_median": 1.0376,
+ "buy_orders": 5800,
+ "buy_orders_reaching_jita": 5718,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6244,
+ "orders": 6215,
  "sell_orders": 415,
- "share_ask_below_jita": 0.2571,
+ "share_ask_below_jita": 0.2686,
  "structure_id": 1042508032148,
- "t": 1795197657.7349606,
+ "t": 1795204849.6176357,
  "top_ask_below_jita": [
   {
    "best_ask": 63990.0,
@@ -15,6 +15,13 @@
    "name": "",
    "s_ask": 152.6,
    "type_id": 90499
+  },
+  {
+   "best_ask": 175.0,
+   "gap": 0.9905,
+   "name": "",
+   "s_ask": 1.66,
+   "type_id": 90470
   },
   {
    "best_ask": 18260.0,
@@ -94,8 +101,8 @@
    "type_id": 34650
   },
   {
-   "best_ask": 2484.0,
-   "gap": 0.467,
+   "best_ask": 2483.0,
+   "gap": 0.4668,
    "name": "",
    "s_ask": 1324.0,
    "type_id": 90590
@@ -106,17 +113,32 @@
    "name": "",
    "s_ask": 1714.0,
    "type_id": 90526
-  },
-  {
-   "best_ask": 17990000.0,
-   "gap": 0.4441,
-   "name": "",
-   "s_ask": 10000000.0,
-   "type_id": 13235
   }
  ],
- "top_bid_over_jita": [],
- "types": 3809,
- "types_also_in_jita": 3809,
- "types_bid_over_jita_reaching": 0
+ "top_bid_over_jita": [
+  {
+   "best_bid": 10290000.0,
+   "gap": 0.001,
+   "name": "Federal Equilibrium Token",
+   "s_bid_reach": 10300000.0,
+   "type_id": 96516
+  },
+  {
+   "best_bid": 219600.0,
+   "gap": 0.0005,
+   "name": "Neurovisual Input Matrix",
+   "s_bid_reach": 219700.0,
+   "type_id": 30251
+  },
+  {
+   "best_bid": 2619.0,
+   "gap": 0.0004,
+   "name": "",
+   "s_bid_reach": 2620.0,
+   "type_id": 30258
+  }
+ ],
+ "types": 3799,
+ "types_also_in_jita": 3798,
+ "types_bid_over_jita_reaching": 3
 }

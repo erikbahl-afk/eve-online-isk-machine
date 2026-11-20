@@ -11,6 +11,7 @@ type_id,name,volume,group_id
 202,,0.05,386
 203,,0.05,386
 204,Inferno Cruise Missile,0.05,386
+207,Mjolnir Heavy Missile,0.03,385
 233,,0.025,
 238,,0.025,85
 421,,5,
@@ -208,6 +209,7 @@ type_id,name,volume,group_id
 3691,,0.75,1034
 3693,,0.75,1034
 3695,Polytextiles,0.75,1034
+3697,Silicate Glass,0.75,1034
 3725,,0.75,1034
 3756,Gnosis,15000,419
 3775,Viral Agent,0.75,1034
@@ -552,7 +554,7 @@ type_id,name,volume,group_id
 14108,,5,
 14114,,10,46
 14118,,10,46
-14120,,10,46
+14120,Shadow Serpentis 50MN Microwarpdrive,10,46
 14122,Domination 5MN Microwarpdrive,10,46
 14124,Shadow Serpentis 5MN Microwarpdrive,10,46
 14126,Domination Overdrive Injector,5,
@@ -638,6 +640,7 @@ type_id,name,volume,group_id
 15707,Imperial Navy Kinetic Armor Hardener,5,328
 15729,Imperial Navy Multispectrum Energized Membrane,5,326
 15739,Federation Navy Multispectrum Energized Membrane,5,326
+15743,Ammatar Navy Large Armor Repairer,,
 15749,,5,
 15751,Republic Fleet 50MN Microwarpdrive,10,46
 15753,Republic Fleet 10MN Afterburner,5,46
@@ -679,7 +682,7 @@ type_id,name,volume,group_id
 15955,Federation Navy Large Plasma Smartbomb,50,72
 15963,Imperial Navy Large EMP Smartbomb,50,72
 15965,Republic Fleet Tracking Enhancer,5,211
-16002,,0.1,409
+16002,Federation Navy Sergeant Insignia III,0.1,409
 16004,Eifyr and Co. 'Rogue' Evasive Maneuvering EM-705,1,747
 16050,Republic Fleet 200mm Autocannon,,
 16057,Republic Fleet 800mm Repeating Cannon,,
@@ -709,6 +712,7 @@ type_id,name,volume,group_id
 16636,Silicates,0.05,427
 16637,Tungsten,0.05,427
 16638,,0.05,427
+16639,,0.05,427
 16641,Chromium,0.05,
 16642,Vanadium,0.05,427
 16643,Cadmium,0.05,
@@ -752,7 +756,7 @@ type_id,name,volume,group_id
 17392,Data Chips,3,1040
 17476,Covetor,3750,463
 17478,Retriever,3750,463
-17480,,3750,463
+17480,Procurer,3750,463
 17482,Strip Miner I,5,464
 17483,,0.01,490
 17487,Republic Fleet Heavy Missile Launcher,10,
@@ -952,6 +956,7 @@ type_id,name,volume,group_id
 19283,Gist X-Type Thermal Shield Hardener,5,77
 19284,Pith X-Type Thermal Shield Hardener,5,77
 19285,,5,
+19286,,5,77
 19288,Pith X-Type Kinetic Shield Hardener,5,77
 19293,Gist A-Type Shield Boost Amplifier,5,
 19295,Pith X-Type Shield Boost Amplifier,5,338
@@ -1105,6 +1110,7 @@ type_id,name,volume,group_id
 22440,,50000,
 22442,Eos,15000,540
 22444,Sleipnir,15000,540
+22446,,15000,540
 22448,Absolution,15000,540
 22456,,5000,
 22464,,5000,
@@ -1278,7 +1284,7 @@ type_id,name,volume,group_id
 27114,Eifyr and Co. 'Rogue' Warp Drive Speed WS-615,1,747
 27116,Inherent Implants 'Squire' Capacitor Management EM-805,1,741
 27118,Inherent Implants 'Squire' Capacitor Systems Operation EO-605,1,741
-27126,Inherent Implants 'Squire' Power Grid Management EG-605,1,
+27126,Inherent Implants 'Squire' Power Grid Management EG-605,1,741
 27142,Zainou 'Gypsy' CPU Management EE-605,1,
 27148,Eifyr and Co. 'Alchemist' Biology BY-810,1,1231
 27167,Zainou 'Beancounter' Industry BX-802,1,743
@@ -1392,7 +1398,7 @@ type_id,name,volume,group_id
 28672,Synth Crash Booster,,
 28674,Synth Drop Booster,1,303
 28676,Synth Exile Booster,1,
-28678,,1,303
+28678,Synth Frentix Booster,1,303
 28680,Synth Mindflood Booster,1,303
 28682,Synth X-Instinct Booster,1,303
 28684,Synth Sooth Sayer Booster,1,
@@ -1631,12 +1637,14 @@ type_id,name,volume,group_id
 33470,Stratios,10000,26
 33472,Nestor,,
 33474,,50,1246
+33476,Mobile Cynosural Inhibitor,50,1249
 33513,Leopard,500,31
 33516,,1,300
 33522,'Yurt' Mobile Depot,50,1246
 33526,,1,
 33527,High-grade Ascendancy Epsilon,1,300
 33528,High-grade Ascendancy Gamma,1,300
+33529,,1,300
 33539,Shattered Villard Wheel,0.1,526
 33557,Mid-grade Ascendancy Beta,1,
 33561,,1,300
@@ -1738,6 +1746,7 @@ type_id,name,volume,group_id
 35941,,4000,1719
 35947,Standup Target Painter I,4000,
 35949,,4000,
+36908,Antipharmakon Thureo,1,303
 36909,Antipharmakon Kosybo,1,303
 36910,,1,
 36911,Antipharmakon Toxot,1,303
@@ -2031,7 +2040,7 @@ type_id,name,volume,group_id
 47923,,20,1986
 47924,Baryon Exotic Plasma S,,
 47926,,0.01,1989
-47927,Mystic S,0.01,
+47927,Mystic S,0.01,1989
 47928,,0.01,
 47929,Meson Exotic Plasma M,0.01,1987
 47931,Mystic M,0.01,1989
@@ -2173,7 +2182,7 @@ type_id,name,volume,group_id
 57117,Mid-grade Rapture Alpha,,
 57118,,1,
 57119,Mid-grade Rapture Gamma,,
-57120,,1,300
+57120,Mid-grade Rapture Delta,1,300
 57121,Mid-grade Rapture Epsilon,1,
 57207,Mining Barge Operations,1,
 57319,Mobile Cynosural Beacon,400,4093
@@ -2214,6 +2223,7 @@ type_id,name,volume,group_id
 60279,Simple Asteroid Mining Crystal Type B I,6,482
 60281,Simple Asteroid Mining Crystal Type A II,10,482
 60283,Simple Asteroid Mining Crystal Type B II,10,482
+60286,Coherent Asteroid Mining Crystal Type B I,,
 60288,,10,
 60289,,10,
 60291,Variegated Asteroid Mining Crystal Type A I,6,
