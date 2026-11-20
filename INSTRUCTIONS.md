@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Fri 20 Nov 06:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Fri 20 Nov 06:23 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 20 · **Est. time:** 12 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -77,7 +77,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 18 | ☐ Criterion Cipher | 12,840,000 | **12,920,000** | 20,320,000 | 12,910,000 |
+| 18 | ☐ Criterion Cipher | 12,840,000 | **17,010,000** | 21,970,000 | 17,000,000 |
 | 19 | ☐ Sansha NET Resonator | 2,464,000 | **2,463,000** | 2,463,000 | 2,502,000 |
 
 ### Block 3 · if there's time · about 1 min
@@ -87,7 +87,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 20 | ☐ 50MN Microwarpdrive II | 3,724,000 | **3,731,000** | 3,845,000 | 3,730,000 |
+| 20 | ☐ 50MN Microwarpdrive II | 3,724,000 | **3,731,000** | 3,844,000 | 3,730,000 |
 
 ---
 Wallet 95.20M · escrow 1.08B · stock 3.78B · in transit 0.00 · net worth 4.95B (liquidation 2.48B)

@@ -706,6 +706,7 @@ type_id,name,volume,group_id
 16635,,0.05,427
 16636,Silicates,0.05,427
 16637,Tungsten,0.05,427
+16638,,0.05,427
 16641,Chromium,0.05,
 16642,Vanadium,0.05,427
 16643,Cadmium,0.05,
@@ -1285,7 +1286,7 @@ type_id,name,volume,group_id
 27181,Zainou 'Beancounter' Metallurgy MY-705,1,748
 27184,Zainou 'Beancounter' Science SC-805,1,748
 27186,Poteque 'Prospector' Astrometric Pinpointing AP-606,1,1230
-27187,,1,1230
+27187,Poteque 'Prospector' Astrometric Acquisition AQ-706,1,1230
 27188,Poteque 'Prospector' Astrometric Rangefinding AR-806,1,1230
 27190,Poteque 'Prospector' Astrometric Pinpointing AP-610,,
 27192,Poteque 'Prospector' Astrometric Acquisition AQ-710,1,1230
@@ -2473,6 +2474,7 @@ type_id,name,volume,group_id
 92041,Humboldt EC-900-I,25,5239
 92454,,5,763
 92456,Presidential Mining Foreman Burst,60,1770
+92458,,60,1770
 92461,,5,5239
 92462,Darter TP-600-I,10,5239
 92463,Meganeura TP-900-I,25,5239
