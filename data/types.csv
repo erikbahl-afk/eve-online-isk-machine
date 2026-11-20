@@ -911,6 +911,7 @@ type_id,name,volume,group_id
 19195,,50,40
 19197,Gist A-Type X-Large Shield Booster,50,
 19198,Gist X-Type X-Large Shield Booster,50,40
+19199,,25,40
 19200,Gist X-Type Large Shield Booster,25,40
 19201,,25,40
 19202,Pith C-Type X-Large Shield Booster,50,40
@@ -995,7 +996,7 @@ type_id,name,volume,group_id
 20411,,0.1,333
 20413,Datacore - Laser Physics,0.1,333
 20414,,0.1,333
-20415,Datacore - Molecular Engineering,0.1,
+20415,Datacore - Molecular Engineering,0.1,333
 20418,Datacore - Electronic Engineering,0.1,333
 20419,Datacore - Graviton Physics,0.1,333
 20421,Datacore - Amarrian Starship Engineering,0.1,333
@@ -1731,7 +1732,7 @@ type_id,name,volume,group_id
 37456,,2500,
 37457,Deacon,2500,1527
 37458,,2500,1527
-37459,,2500,
+37459,Thalia,2500,1527
 37460,Scalpel,,
 37479,Micro Jump Field Generator,10,1533
 37480,Bifrost,5000,1534
@@ -1972,6 +1973,7 @@ type_id,name,volume,group_id
 47875,Large Disintegrator Specialization,0.01,255
 47886,Tetryon Exotic Plasma M,0.01,
 47887,,0.01,
+47889,,0.1,1979
 47890,Raging Exotic Filament,0.1,1979
 47891,Chaotic Exotic Filament,0.1,1979
 47895,Chaotic Dark Filament,0.1,1979

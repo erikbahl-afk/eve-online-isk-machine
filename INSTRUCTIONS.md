@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Thu 19 Nov 20:00 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
+**Updated:** Thu 19 Nov 20:20 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
 **Steps:** 29 · **Est. time:** 17 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
