@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Fri 20 Nov 13:49 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Fri 20 Nov 14:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 21 · **Est. time:** 12 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -79,7 +79,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 19 | ☐ Criterion Cipher | 12,840,000 | **17,600,000** | 21,940,000 | 17,590,000 |
-| 20 | ☐ Sansha NET Resonator | 2,464,000 | **2,462,000** | 2,462,000 | 2,506,000 |
+| 20 | ☐ Sansha NET Resonator | 2,464,000 | **2,461,000** | 2,461,000 | 2,506,000 |
 
 ### Block 3 · if there's time · about 1 min
 
