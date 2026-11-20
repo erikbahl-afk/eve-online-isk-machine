@@ -3,13 +3,13 @@
   "key": "liquidation",
   "severity": "medium",
   "since": 1793915372.8054109,
-  "text": "Liquidation value is 50% of net worth (2.47B of 4.95B): much of the stock couldn't be sold quickly without a big loss."
+  "text": "Liquidation value is 50% of net worth (2.49B of 4.95B): much of the stock couldn't be sold quickly without a big loss."
  },
  {
   "key": "position:77169",
   "severity": "medium",
   "since": 1793915372.8054109,
-  "text": "Typhoon Fleet Issue Capsuleer Elite XX SKIN is 8.5% of net worth (418.51M)."
+  "text": "Typhoon Fleet Issue Capsuleer Elite XX SKIN is 8.4% of net worth (418.51M)."
  },
  {
   "key": "stale_sell:10",
@@ -69,7 +69,7 @@
   "key": "stale_sell:26",
   "severity": "medium",
   "since": 1794780029.8794281,
-  "text": "Sell order for Antikythera Element in jita still has 8 left after 11 days."
+  "text": "Sell order for Antikythera Element in jita still has 8 left after 12 days."
  },
  {
   "key": "stale_sell:9",
@@ -87,7 +87,7 @@
   "key": "idle_buy:22",
   "severity": "info",
   "since": 1794613405.4287903,
-  "text": "Buy order for Compressed Dark Glitter in jita hasn't filled at all in 11 days (2.25M tied up)."
+  "text": "Buy order for Compressed Dark Glitter in jita hasn't filled at all in 12 days (2.25M tied up)."
  },
  {
   "key": "idle_buy:36",

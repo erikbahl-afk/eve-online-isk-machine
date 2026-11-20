@@ -1,31 +1,31 @@
 {
- "ask_ratio_median": 1.0395,
- "buy_orders": 5859,
- "buy_orders_reaching_jita": 5780,
+ "ask_ratio_median": 1.0367,
+ "buy_orders": 5839,
+ "buy_orders_reaching_jita": 5760,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6277,
- "sell_orders": 418,
- "share_ask_below_jita": 0.3068,
+ "orders": 6256,
+ "sell_orders": 417,
+ "share_ask_below_jita": 0.2906,
  "structure_id": 1042508032148,
- "t": 1795161650.7304323,
+ "t": 1795168856.0349517,
  "top_ask_below_jita": [
   {
-   "best_ask": 63990.0,
+   "best_ask": 63980.0,
    "gap": 0.9976,
    "name": "",
    "s_ask": 152.6,
    "type_id": 90499
   },
   {
-   "best_ask": 18620.0,
-   "gap": 0.8926,
+   "best_ask": 18260.0,
+   "gap": 0.8905,
    "name": "",
    "s_ask": 1999.0,
    "type_id": 84399
   },
   {
-   "best_ask": 2232.0,
-   "gap": 0.888,
+   "best_ask": 2230.0,
+   "gap": 0.8879,
    "name": "",
    "s_ask": 250.0,
    "type_id": 90480
@@ -59,8 +59,8 @@
    "type_id": 45919
   },
   {
-   "best_ask": 9990.0,
-   "gap": 0.4867,
+   "best_ask": 9989.0,
+   "gap": 0.4866,
    "name": "",
    "s_ask": 5128.0,
    "type_id": 47896
@@ -101,22 +101,65 @@
    "type_id": 45665
   },
   {
-   "best_ask": 52980.0,
-   "gap": 0.396,
-   "name": "",
-   "s_ask": 32000.0,
-   "type_id": 2173
-  },
-  {
    "best_ask": 32770000.0,
    "gap": 0.3897,
    "name": "",
    "s_ask": 20000000.0,
    "type_id": 34601
+  },
+  {
+   "best_ask": 18000000.0,
+   "gap": 0.3889,
+   "name": "",
+   "s_ask": 11000000.0,
+   "type_id": 44896
   }
  ],
- "top_bid_over_jita": [],
- "types": 3820,
- "types_also_in_jita": 3820,
- "types_bid_over_jita_reaching": 0
+ "top_bid_over_jita": [
+  {
+   "best_bid": 210000000.0,
+   "gap": 0.0048,
+   "name": "High-grade Crystal Delta",
+   "s_bid_reach": 211000000.0,
+   "type_id": 20159
+  },
+  {
+   "best_bid": 107600000.0,
+   "gap": 0.0037,
+   "name": "",
+   "s_bid_reach": 108000000.0,
+   "type_id": 20158
+  },
+  {
+   "best_bid": 340200000.0,
+   "gap": 0.0024,
+   "name": "High-grade Crystal Epsilon",
+   "s_bid_reach": 341000000.0,
+   "type_id": 20160
+  },
+  {
+   "best_bid": 38020000.0,
+   "gap": 0.0003,
+   "name": "Cataclysmic Dark Filament",
+   "s_bid_reach": 38030000.0,
+   "type_id": 56140
+  },
+  {
+   "best_bid": 69210000.0,
+   "gap": 0.0001,
+   "name": "Vedmak",
+   "s_bid_reach": 69220000.0,
+   "type_id": 47270
+  },
+  {
+   "best_bid": 81590000.0,
+   "gap": 0.0001,
+   "name": "High-grade Crystal Beta",
+   "s_bid_reach": 81600000.0,
+   "type_id": 20157
+  }
+ ],
+ "types": 3809,
+ "types_also_in_jita": 3809,
+ "types_bid_over_jita_reaching": 6
 }

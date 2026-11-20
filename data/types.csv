@@ -92,6 +92,7 @@ type_id,name,volume,group_id
 2345,Camera Drones,3,1040
 2346,,3,1040
 2348,Gel-Matrix Biopaste,3,1040
+2349,,3,1040
 2352,Nuclear Reactors,3,
 2361,Hermetic Membranes,3,1040
 2389,Plasmoids,0.19,1042
@@ -149,6 +150,7 @@ type_id,name,volume,group_id
 3065,Tachyon Beam Laser II,20,53
 3080,,1,
 3082,,10,
+3084,,1,749
 3090,425mm Railgun II,20,74
 3092,Zainou 'Gnome' Shield Operation SP-906,1,749
 3095,Eifyr and Co. 'Rogue' Evasive Maneuvering EM-706,1,747
@@ -249,6 +251,7 @@ type_id,name,volume,group_id
 5839,IFFA Compact Damage Control,5,60
 5973,5MN Y-T8 Compact Microwarpdrive,10,46
 6719,,5,
+6809,Focused Modulated Pulse Energy Beam I,10,53
 7087,,20,53
 7171,,20,53
 7447,425mm Prototype Gauss Gun,20,74
@@ -350,7 +353,7 @@ type_id,name,volume,group_id
 11554,Tesseract Capacitor Unit,1,334
 11556,Pulse Shield Emitter,1,334
 11557,Linear Shield Emitter,1,334
-11558,,1,334
+11558,Sustained Shield Emitter,1,334
 11563,,20,339
 11577,Improved Cloaking Device II,100,330
 11578,Covert Ops Cloaking Device II,100,330
@@ -770,7 +773,7 @@ type_id,name,volume,group_id
 17709,,10000,
 17713,Stabber Fleet Issue,10000,
 17715,Gila,10000,26
-17718,Phantasm,10000,
+17718,Phantasm,10000,26
 17720,Cynabal,10000,26
 17722,Vigilant,10000,26
 17726,Apocalypse Navy Issue,50000,27
@@ -786,6 +789,7 @@ type_id,name,volume,group_id
 17887,Oxygen Isotopes,0.03,423
 17888,Nitrogen Isotopes,0.03,423
 17889,Hydrogen Isotopes,0.03,423
+17893,,0.01,314
 17894,High-Tech Scanner,0.01,
 17895,High-Tech Manufacturing Tools,0.01,314
 17912,Modulated Strip Miner II,,
@@ -836,7 +840,7 @@ type_id,name,volume,group_id
 18865,Corpum A-Type Thermal Energized Membrane,5,326
 18867,Centum A-Type Thermal Energized Membrane,5,326
 18869,,5,326
-18871,,5,326
+18871,Centum A-Type EM Energized Membrane,5,326
 18877,Corpum A-Type Kinetic Energized Membrane,5,326
 18881,Corpum A-Type Multispectrum Energized Membrane,5,
 18883,Centum A-Type Multispectrum Energized Membrane,5,326
@@ -900,6 +904,7 @@ type_id,name,volume,group_id
 19139,Pithi A-Type Small Remote Shield Booster,5,41
 19141,Gistum C-Type Medium Remote Shield Booster,,
 19143,Gistum B-Type Medium Remote Shield Booster,10,41
+19147,,10,41
 19149,Pithum B-Type Medium Remote Shield Booster,10,41
 19151,Pithum A-Type Medium Remote Shield Booster,10,41
 19171,,5,
@@ -1318,7 +1323,7 @@ type_id,name,volume,group_id
 27423,Caldari Navy Inferno Cruise Missile,0.05,386
 27429,Caldari Navy Nova Cruise Missile,0.05,386
 27435,Caldari Navy Mjolnir Heavy Missile,0.03,385
-27441,,0.03,385
+27441,Caldari Navy Scourge Heavy Missile,0.03,385
 27447,Caldari Navy Inferno Heavy Missile,0.03,
 27453,,0.03,385
 27459,,0.05,
@@ -1620,6 +1625,7 @@ type_id,name,volume,group_id
 33472,Nestor,,
 33474,,50,1246
 33513,Leopard,500,31
+33516,,1,300
 33522,'Yurt' Mobile Depot,50,1246
 33526,,1,
 33527,High-grade Ascendancy Epsilon,1,300
@@ -1671,6 +1677,7 @@ type_id,name,volume,group_id
 34049,Women's 'Hover' Tights (opaque black),,
 34057,Men's 'Tectonic' Headwear (matte black),,
 34132,Pilot's Body Resculpt Certificate,,
+34201,,0.1,1304
 34202,Attainment Decryptor,0.1,1304
 34204,Parity Decryptor,0.1,1304
 34205,Process Decryptor,0.1,1304
@@ -2027,6 +2034,7 @@ type_id,name,volume,group_id
 48115,Agency 'Pyrolancea' DB9 Dose IV,1,303
 48386,,0.1,1088
 48434,Unstable Medium Cap Battery Mutaplasmid,,
+48437,Gravid Large Cap Battery Mutaplasmid,1,1964
 48438,Unstable Large Cap Battery Mutaplasmid,1,1964
 48501,Bellicose Dawn of Liberation SKIN,,
 48576,,0.01,1950
@@ -2454,6 +2462,7 @@ type_id,name,volume,group_id
 92034,Huntsman SW-600-I,10,5239
 92035,Arabellata SW-900-I,25,5239
 92036,Tick EV-300-I,5,5239
+92037,Mosquito EV-600-I,10,5239
 92039,Inshore EC-300-I,5,5239
 92040,Nertic EC-600-I,10,5239
 92041,Humboldt EC-900-I,25,5239
@@ -2580,6 +2589,7 @@ type_id,name,volume,group_id
 98416,,1,303
 98417,Imperial Hardpoint Booster I,,
 98418,,1,303
+98419,Imperial Hardpoint Booster III,1,303
 98430,State Hardpoint Booster II,1,303
 98436,Federation Defense Booster II,,
 98454,Republic Hardpoint Booster II,,

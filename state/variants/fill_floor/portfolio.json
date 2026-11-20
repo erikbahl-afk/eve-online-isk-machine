@@ -89,16 +89,22 @@
  ],
  "inventory": {
   "jita": {
+   "92463": {
+    "cost": 1505000.0,
+    "qty": 1,
+    "since": 1795168656.0,
+    "tag": "station"
+   },
    "96326": {
     "cost": 16890000.0,
-    "qty": 1,
+    "qty": 2,
     "since": 1795161456.0,
     "tag": "station"
    }
   }
  },
  "last_jump": null,
- "last_t": 1795161628.3033018,
+ "last_t": 1795168834.6318512,
  "location": "jita",
  "next_oid": 10,
  "orders": [
@@ -120,7 +126,7 @@
    "oid": 2,
    "price": 16890000.0,
    "qty": 5,
-   "remain": 4,
+   "remain": 3,
    "side": "buy",
    "tag": "station",
    "type_id": 96326,
@@ -192,7 +198,7 @@
    "oid": 8,
    "price": 1505000.0,
    "qty": 23,
-   "remain": 23,
+   "remain": 22,
    "side": "buy",
    "tag": "station",
    "type_id": 92463,
@@ -219,7 +225,7 @@
    "sales": 0.0
   },
   "station": {
-   "buys": 16890000.0,
+   "buys": 35285000.0,
    "fees": 18596834.46375,
    "realized": -18596834.46375,
    "sales": 0.0
@@ -371,8 +377,8 @@
    "sold_units": 0
   },
   "jita:92463": {
-   "bought_isk": 0.0,
-   "bought_units": 0,
+   "bought_isk": 1505000.0,
+   "bought_units": 1,
    "fees": 519225.0,
    "realized": -519225.0,
    "sold_net": 0.0,
@@ -387,8 +393,8 @@
    "sold_units": 0
   },
   "jita:96326": {
-   "bought_isk": 16890000.0,
-   "bought_units": 1,
+   "bought_isk": 33780000.0,
+   "bought_units": 2,
    "fees": 1266750.0,
    "realized": -1266750.0,
    "sold_net": 0.0,
@@ -397,7 +403,7 @@
  },
  "pnl": {
   "broker": 18596834.46375,
-  "buys": 2759726000.0,
+  "buys": 2778121000.0,
   "courier": 138000000.0,
   "realized": -18596834.46375,
   "relist": 0.0,
