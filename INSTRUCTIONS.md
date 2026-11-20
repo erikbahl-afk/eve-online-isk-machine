@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Fri 20 Nov 06:23 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 20 · **Est. time:** 12 min. Work top to bottom; stop any time.  
+**Updated:** Fri 20 Nov 08:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 21 · **Est. time:** 12 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -22,39 +22,40 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 1 | ☐ 'Cartel' Power Diagnostic System I | 68,080,000 | **68,070,000** | 30,280,000 | 68,080,000 |
-| 2 | ☐ Dread Guristas Rocket Launcher | 99,070,000 | **99,070,000** | 47,280,000 | 99,080,000 |
-| 3 | ☐ Improved 'Guise' Cloaking Device II | 49,960,000 | **49,950,000** | 31,940,000 | 49,960,000 |
-| 4 | ☐ Limited Expanded 'Archiver' Cargo | 49,700,000 | **49,690,000** | 25,980,000 | 49,700,000 |
-| 5 | ☐ Men's 'Precision' Boots | 80,990,000 | **99,990,000** | 49,760,000 | 100,000,000 |
+| 1 | ☐ Dread Guristas Rocket Launcher | 99,070,000 | **99,070,000** | 47,280,000 | 99,080,000 |
+| 2 | ☐ Improved 'Guise' Cloaking Device II | 49,960,000 | **48,980,000** | 31,940,000 | 48,990,000 |
+| 3 | ☐ Limited Expanded 'Archiver' Cargo | 49,700,000 | **49,680,000** | 25,980,000 | 49,690,000 |
+| 4 | ☐ Men's 'Precision' Boots | 80,990,000 | **99,990,000** | 49,760,000 | 100,000,000 |
+| 5 | ☐ Standup Moon Drill I | 144,600,000 | **144,600,000** | 130,900,000 | 144,700,000 |
 | 6 | ☐ Typhoon Fleet Issue Capsuleer Elite XX SKIN | 660,800,000 | **660,800,000** | 420,200,000 | - |
 
 ### Block 2 · should do · about 2 min
-_Short on time? Skip to the jump (step 14): the next hub's Block 1 is worth more per minute than the rest of this hub._
+_Short on time? Skip to the jump (step 15): the next hub's Block 1 is worth more per minute than the rest of this hub._
 
 #### Fix undercut sell orders
 _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours is already the lowest, skip._
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 7 | ☐ Golem Exoplanets Hunter SKIN | 142,000,000 | **142,000,000** | 130,200,000 | - |
-| 8 | ☐ Low-grade Crystal Epsilon | 136,800,000 | **136,800,000** | 0.01 | 136,900,000 |
-| 9 | ☐ Mobile Large Warp Disruptor I | 24,710,000 | **24,700,000** | 18,570,000 | 24,710,000 |
-| 10 | ☐ Shrapnel Bomb | 1,657,000 | **1,657,000** | 1,311,000 | 1,658,000 |
+| 7 | ☐ 'Cartel' Power Diagnostic System I | 68,080,000 | **68,070,000** | 30,280,000 | 68,080,000 |
+| 8 | ☐ Caesium | 6,635 | **6,635** | 6,165 | 6,636 |
+| 9 | ☐ Golem Exoplanets Hunter SKIN | 142,000,000 | **142,000,000** | 130,200,000 | - |
+| 10 | ☐ Low-grade Crystal Epsilon | 136,800,000 | **136,800,000** | 0.01 | 136,900,000 |
+| 11 | ☐ Mobile Large Warp Disruptor I | 24,710,000 | **24,690,000** | 18,570,000 | 24,700,000 |
 
 ### Block 3 · if there's time · about 1 min
-_Short on time? Skip to the jump (step 14): the next hub's Block 1 is worth more per minute than the rest of this hub._
+_Short on time? Skip to the jump (step 15): the next hub's Block 1 is worth more per minute than the rest of this hub._
 
 #### Fix undercut sell orders
 _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours is already the lowest, skip._
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 11 | ☐ Caesium | 6,635 | **6,499** | 6,165 | 6,500 |
 | 12 | ☐ Polarized Light Neutron Blaster | 5,884,000 | **5,860,000** | 3,818,000 | 5,861,000 |
-| 13 | ☐ Zero-Point Mass Entangler | 8,875,000 | **8,875,000** | 8,875,000 | 8,749,000 |
+| 13 | ☐ Shrapnel Bomb | 1,657,000 | **1,657,000** | 1,311,000 | 1,658,000 |
+| 14 | ☐ Zero-Point Mass Entangler | 8,875,000 | **8,875,000** | 8,875,000 | 8,749,000 |
 
-## 14. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
+## 15. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
 _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
 
 ## At Jita IV - Moon 4 - Caldari Navy Assembly Plant
@@ -66,9 +67,9 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 15 | ☐ Compressed Glistening Zeolites | 2,482 | **2,486** | 2,621 | 2,485 |
-| 16 | ☐ Gistum B-Type Medium Shield Booster | 112,300,000 | **112,500,000** | 114,300,000 | 112,400,000 |
-| 17 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **175,000,000** | 178,200,000 | 174,900,000 |
+| 16 | ☐ Compressed Glistening Zeolites | 2,482 | **2,487** | 2,621 | 2,486 |
+| 17 | ☐ Gistum B-Type Medium Shield Booster | 112,300,000 | **112,600,000** | 114,300,000 | 112,500,000 |
+| 18 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **175,000,000** | 178,800,000 | 174,900,000 |
 
 ### Block 2 · should do · about 1 min
 
@@ -77,8 +78,8 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 18 | ☐ Criterion Cipher | 12,840,000 | **17,010,000** | 21,970,000 | 17,000,000 |
-| 19 | ☐ Sansha NET Resonator | 2,464,000 | **2,463,000** | 2,463,000 | 2,502,000 |
+| 19 | ☐ Criterion Cipher | 12,840,000 | **17,020,000** | 21,970,000 | 17,010,000 |
+| 20 | ☐ Sansha NET Resonator | 2,464,000 | **2,462,000** | 2,462,000 | 2,503,000 |
 
 ### Block 3 · if there's time · about 1 min
 
@@ -87,7 +88,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 20 | ☐ 50MN Microwarpdrive II | 3,724,000 | **3,731,000** | 3,844,000 | 3,730,000 |
+| 21 | ☐ 50MN Microwarpdrive II | 3,724,000 | **3,734,000** | 3,844,000 | 3,733,000 |
 
 ---
-Wallet 95.20M · escrow 1.08B · stock 3.78B · in transit 0.00 · net worth 4.95B (liquidation 2.48B)
+Wallet 95.28M · escrow 1.08B · stock 3.78B · in transit 0.00 · net worth 4.95B (liquidation 2.48B)

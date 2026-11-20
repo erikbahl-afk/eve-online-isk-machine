@@ -28,7 +28,7 @@ type_id,name,volume,group_id
 627,,10000,
 628,,10000,26
 629,Rupture,,
-630,Bellicose,,
+630,Bellicose,10000,26
 632,,10000,26
 633,,10000,26
 638,Raven,50000,27
@@ -119,6 +119,7 @@ type_id,name,volume,group_id
 2563,,5,
 2567,Multispectral ECM II,5,201
 2571,Gravimetric ECM II,,
+2575,,5,201
 2605,Nanofiber Internal Structure II,5,763
 2613,Mjolnir Fury Light Missile,,
 2655,,0.03,655
@@ -678,6 +679,7 @@ type_id,name,volume,group_id
 15955,Federation Navy Large Plasma Smartbomb,50,72
 15963,Imperial Navy Large EMP Smartbomb,50,72
 15965,Republic Fleet Tracking Enhancer,5,211
+16002,,0.1,409
 16004,Eifyr and Co. 'Rogue' Evasive Maneuvering EM-705,1,747
 16050,Republic Fleet 200mm Autocannon,,
 16057,Republic Fleet 800mm Repeating Cannon,,
@@ -757,8 +759,8 @@ type_id,name,volume,group_id
 17488,Republic Fleet Rocket Launcher,5,507
 17491,Republic Fleet Light Missile Launcher,5,509
 17494,,5,
-17495,Caldari Navy Kinetic Shield Hardener,,
-17497,,5,77
+17495,Caldari Navy Kinetic Shield Hardener,5,77
+17497,Caldari Navy Thermal Shield Hardener,5,77
 17498,Caldari Navy Multispectrum Shield Hardener,5,77
 17500,Caldari Navy Stasis Webifier,5,65
 17520,Federation Navy Sensor Booster,5,
@@ -793,7 +795,7 @@ type_id,name,volume,group_id
 17888,Nitrogen Isotopes,0.03,423
 17889,Hydrogen Isotopes,0.03,423
 17893,,0.01,314
-17894,High-Tech Scanner,0.01,
+17894,High-Tech Scanner,0.01,314
 17895,High-Tech Manufacturing Tools,0.01,314
 17912,Modulated Strip Miner II,,
 17918,Rattlesnake,50000,27
@@ -872,6 +874,7 @@ type_id,name,volume,group_id
 18975,Core X-Type Explosive Armor Hardener,5,328
 18977,Core X-Type Kinetic Armor Hardener,5,328
 18979,,5,328
+18983,,5,325
 18985,Coreli A-Type Small Remote Armor Repairer,5,325
 18987,Corelum C-Type Medium Remote Armor Repairer,10,325
 18989,Corelum B-Type Medium Remote Armor Repairer,10,
@@ -879,7 +882,7 @@ type_id,name,volume,group_id
 18999,,5,
 19003,,5,
 19009,Centii A-Type Small Armor Repairer,5,62
-19015,Coreli A-Type Small Armor Repairer,5,
+19015,Coreli A-Type Small Armor Repairer,5,62
 19017,Corpum C-Type Medium Armor Repairer,10,
 19019,Corpum B-Type Medium Armor Repairer,10,62
 19025,Centum B-Type Medium Armor Repairer,10,62
@@ -1001,7 +1004,7 @@ type_id,name,volume,group_id
 20183,,1300000,
 20185,Charon,1300000,
 20199,Dread Guristas Multispectral ECM,5,201
-20212,,0.01,
+20212,,0.01,256
 20327,Capital Energy Turret,,
 20342,Advanced Spaceship Command,,
 20351,800mm Steel Plates II,,
@@ -1219,7 +1222,7 @@ type_id,name,volume,group_id
 25718,,0.01,
 25736,Large EM Armor Reinforcer I,,
 25812,Gas Cloud Scoop II,5,737
-25887,,0.1,
+25887,Datacore - Caldari Starship Engineering,0.1,333
 25888,Large Explosive Armor Reinforcer I,20,
 25890,Large Kinetic Armor Reinforcer I,20,
 25892,Large Thermal Armor Reinforcer I,20,
@@ -1550,7 +1553,7 @@ type_id,name,volume,group_id
 31870,Imperial Navy Praetor,25,100
 31872,Caldari Navy Hornet,5,100
 31874,Caldari Navy Vespa,10,100
-31876,,25,
+31876,,25,100
 31878,Caldari Navy Warden,25,100
 31880,Federation Navy Hobgoblin,5,100
 31882,,10,100
@@ -1940,7 +1943,7 @@ type_id,name,volume,group_id
 45663,Synthetic Aperture Ladar Receiver,0.01,966
 45856,Golem Exoplanets Hunter SKIN,0.01,
 45866,Bustard Exoplanets Hunter SKIN,,
-45998,,1,303
+45998,Agency 'Pyrolancea' DB3 Dose I,1,303
 45999,Agency 'Pyrolancea' DB5 Dose II,1,303
 46000,Agency 'Pyrolancea' DB7 Dose III,1,303
 46002,Agency 'Hardshell' TB5 Dose II,1,303
@@ -2376,6 +2379,7 @@ type_id,name,volume,group_id
 84173,Imperial Gold Metallic - Limited,0.1,4726
 85084,Small Breacher Pod Launcher,,
 85085,Medium Breacher Pod Launcher,10,4807
+85086,,15000,419
 85087,Tholos,5000,420
 85089,SCARAB Breacher Pod M,0.5,4808
 85178,Tetrimonic Warclone Blanks,0.1,314
