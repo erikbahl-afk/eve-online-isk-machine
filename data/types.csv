@@ -24,7 +24,7 @@ type_id,name,volume,group_id
 622,Stabber,10000,26
 623,,10000,26
 625,,10000,26
-626,,10000,26
+626,Vexor,10000,26
 627,,10000,
 629,Rupture,,
 630,Bellicose,,
@@ -252,6 +252,7 @@ type_id,name,volume,group_id
 7171,,20,53
 7447,425mm Prototype Gauss Gun,20,74
 7579,Modal Light Neutron Particle Accelerator I,5,
+8105,,10,510
 8263,,5,
 8433,Medium Azeotropic Restrained Shield Extender,10,38
 8517,Medium F-S9 Regolith Compact Shield Extender,10,38
@@ -270,6 +271,7 @@ type_id,name,volume,group_id
 9899,,1,
 9941,Memory Augmentation - Basic,1,745
 9942,,1,745
+9943,,1,745
 9947,Standard Crash Booster,,
 9950,Standard Blue Pill Booster,1,303
 9956,,1,745
@@ -781,7 +783,7 @@ type_id,name,volume,group_id
 17888,Nitrogen Isotopes,0.03,423
 17889,Hydrogen Isotopes,0.03,423
 17894,High-Tech Scanner,0.01,
-17895,High-Tech Manufacturing Tools,0.01,
+17895,High-Tech Manufacturing Tools,0.01,314
 17912,Modulated Strip Miner II,,
 17918,Rattlesnake,50000,27
 17922,Ashimmu,10000,26
@@ -978,7 +980,8 @@ type_id,name,volume,group_id
 20066,,2000,365
 20121,High-grade Crystal Alpha,1,300
 20125,Curse,10000,906
-20157,High-grade Crystal Beta,1,
+20157,High-grade Crystal Beta,1,300
+20158,,1,300
 20159,High-grade Crystal Delta,1,300
 20160,High-grade Crystal Epsilon,1,300
 20161,High-grade Crystal Omega,,
@@ -1032,6 +1035,7 @@ type_id,name,volume,group_id
 21019,Capital Capacitor Battery,2000,873
 21021,,2000,873
 21023,Capital Shield Emitter,2000,873
+21027,,2000,873
 21208,,1,
 21238,Blood Multifrequency L,,
 21254,Blood Multifrequency XL,,
@@ -1064,7 +1068,7 @@ type_id,name,volume,group_id
 21924,,0.0025,83
 21926,Republic Fleet Proton L,,
 22108,Mid-grade Crystal Beta,1,300
-22109,Mid-grade Crystal Delta,1,
+22109,Mid-grade Crystal Delta,1,300
 22110,Mid-grade Crystal Epsilon,1,300
 22111,Mid-grade Crystal Gamma,1,300
 22112,Mid-grade Crystal Omega,1,300
@@ -1193,7 +1197,8 @@ type_id,name,volume,group_id
 25605,Armor Plates,0.01,754
 25608,Intact Shield Emitter,0.01,754
 25609,Nanite Compound,0.01,754
-25617,,0.01,754
+25613,,0.01,754
+25617,Power Circuit,0.01,754
 25619,Logic Circuit,0.01,754
 25624,Intact Armor Plates,0.01,754
 25715,Heavy Assault Missile Launcher II,10,771
@@ -1365,7 +1370,7 @@ type_id,name,volume,group_id
 28659,Paladin,50000,900
 28661,Kronos,50000,900
 28665,Vargur,50000,900
-28668,Nanite Repair Paste,,
+28668,Nanite Repair Paste,0.01,916
 28672,Synth Crash Booster,,
 28674,Synth Drop Booster,1,303
 28676,Synth Exile Booster,1,
@@ -1406,7 +1411,7 @@ type_id,name,volume,group_id
 28844,Rhea,,
 28974,Vaccines,3,1040
 29015,Targeting Range Dampening Script,,
-29336,,10000,26
+29336,Scythe Fleet Issue,10000,26
 29337,Augoror Navy Issue,10000,26
 29340,Osprey Navy Issue,10000,26
 29344,,10000,
@@ -1751,7 +1756,7 @@ type_id,name,volume,group_id
 37843,,0.5,
 37844,,0.5,1546
 37846,Standup Cruise Missile,0.5,1547
-37847,Standup Heavy Missile,0.5,
+37847,Standup Heavy Missile,0.5,1547
 37848,,0.5,
 40346,Siren I,3000,1537
 40347,,3000,
@@ -2100,6 +2105,7 @@ type_id,name,volume,group_id
 54753,Large Vorton Projector II,50,4060
 54754,Large Consortium Vorton Projector,50,
 54773,GalvaSurge Condenser Pack M,0.0125,4062
+54779,,0.025,4062
 54782,,0.025,
 54783,ElectroPunch Ultra L,0.025,4061
 54785,StrikeSnipe Ultra M,0.0125,
@@ -2522,6 +2528,7 @@ type_id,name,volume,group_id
 97513,Aberrant Polycrase,0.01,18
 97514,Aberrant Moissanite,0.001,18
 97516,Akoman Blueprint Crate,1,1194
+97545,Shield Failover Report,0.01,1194
 97552,Hyperspherical Housing,0.1,1194
 97560,Polycrase X-Grade,,
 97564,Compressed Raspite X-Grade,0.01,5083

@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0664,
- "buy_orders": 5888,
- "buy_orders_reaching_jita": 5810,
+ "ask_ratio_median": 1.0673,
+ "buy_orders": 5869,
+ "buy_orders_reaching_jita": 5790,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6274,
+ "orders": 6255,
  "sell_orders": 386,
- "share_ask_below_jita": 0.2484,
+ "share_ask_below_jita": 0.2516,
  "structure_id": 1042508032148,
- "t": 1795148462.2104144,
+ "t": 1795154442.0013113,
  "top_ask_below_jita": [
   {
    "best_ask": 63990.0,
@@ -38,8 +38,8 @@
    "type_id": 3301
   },
   {
-   "best_ask": 14980000.0,
-   "gap": 0.7626,
+   "best_ask": 15000000.0,
+   "gap": 0.7629,
    "name": "",
    "s_ask": 3556000.0,
    "type_id": 63870
@@ -115,58 +115,8 @@
    "type_id": 44896
   }
  ],
- "top_bid_over_jita": [
-  {
-   "best_bid": 18850.0,
-   "gap": 0.0005,
-   "name": "Compressed Fullerite-C32",
-   "s_bid_reach": 18860.0,
-   "type_id": 62404
-  },
-  {
-   "best_bid": 32290.0,
-   "gap": 0.0003,
-   "name": "",
-   "s_bid_reach": 32300.0,
-   "type_id": 62406
-  },
-  {
-   "best_bid": 3282.0,
-   "gap": 0.0003,
-   "name": "",
-   "s_bid_reach": 3283.0,
-   "type_id": 30018
-  },
-  {
-   "best_bid": 34300.0,
-   "gap": 0.0003,
-   "name": "",
-   "s_bid_reach": 34310.0,
-   "type_id": 30022
-  },
-  {
-   "best_bid": 44150.0,
-   "gap": 0.0002,
-   "name": "Compressed Fullerite-C540",
-   "s_bid_reach": 44160.0,
-   "type_id": 62405
-  },
-  {
-   "best_bid": 5287.0,
-   "gap": 0.0002,
-   "name": "Fullerite-C60",
-   "s_bid_reach": 5288.0,
-   "type_id": 30371
-  },
-  {
-   "best_bid": 7190.0,
-   "gap": 0.0001,
-   "name": "Fullerite-C50",
-   "s_bid_reach": 7191.0,
-   "type_id": 30370
-  }
- ],
- "types": 3810,
- "types_also_in_jita": 3810,
- "types_bid_over_jita_reaching": 7
+ "top_bid_over_jita": [],
+ "types": 3798,
+ "types_also_in_jita": 3798,
+ "types_bid_over_jita_reaching": 0
 }

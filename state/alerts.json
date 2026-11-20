@@ -3,13 +3,13 @@
   "key": "liquidation",
   "severity": "medium",
   "since": 1793915372.8054109,
-  "text": "Liquidation value is 50% of net worth (2.49B of 4.96B): much of the stock couldn't be sold quickly without a big loss."
+  "text": "Liquidation value is 50% of net worth (2.47B of 4.95B): much of the stock couldn't be sold quickly without a big loss."
  },
  {
   "key": "position:77169",
   "severity": "medium",
   "since": 1793915372.8054109,
-  "text": "Typhoon Fleet Issue Capsuleer Elite XX SKIN is 8.4% of net worth (418.51M)."
+  "text": "Typhoon Fleet Issue Capsuleer Elite XX SKIN is 8.5% of net worth (418.51M)."
  },
  {
   "key": "stale_sell:10",
@@ -93,7 +93,7 @@
   "key": "idle_buy:36",
   "severity": "info",
   "since": 1795132829.190364,
-  "text": "Buy order for Criterion Cipher in jita hasn't filled at all in 5 days (21.18M tied up)."
+  "text": "Buy order for Criterion Cipher in jita hasn't filled at all in 5 days (25.68M tied up)."
  },
  {
   "key": "idle_buy:37",
@@ -105,7 +105,7 @@
   "key": "idle_buy:38",
   "severity": "info",
   "since": 1795132829.190364,
-  "text": "Buy order for Gistum B-Type Medium Shield Booster in jita hasn't filled at all in 5 days (211.40M tied up)."
+  "text": "Buy order for Gistum B-Type Medium Shield Booster in jita hasn't filled at all in 5 days (224.60M tied up)."
  },
  {
   "key": "idle_buy:39",
@@ -129,7 +129,7 @@
   "key": "idle_buy:42",
   "severity": "info",
   "since": 1795132829.190364,
-  "text": "Buy order for Sansha NET Resonator in jita hasn't filled at all in 5 days (29.69M tied up)."
+  "text": "Buy order for Sansha NET Resonator in jita hasn't filled at all in 5 days (29.57M tied up)."
  },
  {
   "key": "idle_buy:43",

@@ -70,5 +70,17 @@
   "secs": 890,
   "t": 1794927360.0,
   "to": "jita"
+ },
+ {
+  "done": 8,
+  "frac": 1.0,
+  "from": "jita",
+  "local": "Thu 19 Nov 21:08",
+  "merged": 1,
+  "planned": 8,
+  "run_t": 1795154423.6279857,
+  "secs": 390,
+  "t": 1795151280.0,
+  "to": "jita"
  }
 ]
