@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0367,
- "buy_orders": 5839,
- "buy_orders_reaching_jita": 5760,
+ "ask_ratio_median": 1.0383,
+ "buy_orders": 5840,
+ "buy_orders_reaching_jita": 5761,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6256,
- "sell_orders": 417,
- "share_ask_below_jita": 0.2906,
+ "orders": 6254,
+ "sell_orders": 414,
+ "share_ask_below_jita": 0.2808,
  "structure_id": 1042508032148,
- "t": 1795168856.0349517,
+ "t": 1795176047.4232225,
  "top_ask_below_jita": [
   {
    "best_ask": 63980.0,
@@ -24,8 +24,8 @@
    "type_id": 84399
   },
   {
-   "best_ask": 2230.0,
-   "gap": 0.8879,
+   "best_ask": 2229.0,
+   "gap": 0.8878,
    "name": "",
    "s_ask": 250.0,
    "type_id": 90480
@@ -36,13 +36,6 @@
    "name": "",
    "s_ask": 30000.0,
    "type_id": 3301
-  },
-  {
-   "best_ask": 15000000.0,
-   "gap": 0.7629,
-   "name": "",
-   "s_ask": 3556000.0,
-   "type_id": 63870
   },
   {
    "best_ask": 69390000.0,
@@ -113,53 +106,17 @@
    "name": "",
    "s_ask": 11000000.0,
    "type_id": 44896
-  }
- ],
- "top_bid_over_jita": [
-  {
-   "best_bid": 210000000.0,
-   "gap": 0.0048,
-   "name": "High-grade Crystal Delta",
-   "s_bid_reach": 211000000.0,
-   "type_id": 20159
   },
   {
-   "best_bid": 107600000.0,
-   "gap": 0.0037,
+   "best_ask": 3481000.0,
+   "gap": 0.3824,
    "name": "",
-   "s_bid_reach": 108000000.0,
-   "type_id": 20158
-  },
-  {
-   "best_bid": 340200000.0,
-   "gap": 0.0024,
-   "name": "High-grade Crystal Epsilon",
-   "s_bid_reach": 341000000.0,
-   "type_id": 20160
-  },
-  {
-   "best_bid": 38020000.0,
-   "gap": 0.0003,
-   "name": "Cataclysmic Dark Filament",
-   "s_bid_reach": 38030000.0,
-   "type_id": 56140
-  },
-  {
-   "best_bid": 69210000.0,
-   "gap": 0.0001,
-   "name": "Vedmak",
-   "s_bid_reach": 69220000.0,
-   "type_id": 47270
-  },
-  {
-   "best_bid": 81590000.0,
-   "gap": 0.0001,
-   "name": "High-grade Crystal Beta",
-   "s_bid_reach": 81600000.0,
-   "type_id": 20157
+   "s_ask": 2150000.0,
+   "type_id": 3665
   }
  ],
- "types": 3809,
- "types_also_in_jita": 3809,
- "types_bid_over_jita_reaching": 6
+ "top_bid_over_jita": [],
+ "types": 3805,
+ "types_also_in_jita": 3805,
+ "types_bid_over_jita_reaching": 0
 }

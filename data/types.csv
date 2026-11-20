@@ -516,7 +516,7 @@ type_id,name,volume,group_id
 13951,Dread Guristas Small Shield Booster,5,40
 13952,Domination Small Shield Booster,,
 13953,Dread Guristas X-Large Shield Booster,50,40
-13954,,50,40
+13954,Domination X-Large Shield Booster,50,40
 13956,True Sansha Large Armor Repairer,50,62
 13957,Dark Blood Large Armor Repairer,50,62
 13960,Dark Blood Medium Armor Repairer,10,62
@@ -589,6 +589,7 @@ type_id,name,volume,group_id
 14244,Domination Warp Disruptor,5,52
 14246,Dread Guristas Warp Disruptor,5,52
 14248,,5,
+14250,Shadow Serpentis Warp Disruptor,5,52
 14252,Dark Blood Warp Scrambler,,
 14254,Domination Warp Scrambler,5,52
 14256,Dread Guristas Warp Scrambler,5,52
@@ -949,7 +950,7 @@ type_id,name,volume,group_id
 19288,Pith X-Type Kinetic Shield Hardener,5,77
 19293,Gist A-Type Shield Boost Amplifier,5,
 19295,Pith X-Type Shield Boost Amplifier,5,338
-19297,Gist C-Type Shield Boost Amplifier,,
+19297,Gist C-Type Shield Boost Amplifier,5,338
 19301,Gist X-Type Shield Boost Amplifier,5,
 19311,,5,
 19315,Corelum C-Type 50MN Microwarpdrive,10,46
@@ -1088,7 +1089,7 @@ type_id,name,volume,group_id
 22123,Mid-grade Amulet Gamma,1,300
 22124,Mid-grade Amulet Omega,1,300
 22125,Mid-grade Snake Alpha,1,300
-22126,,1,300
+22126,Mid-grade Snake Beta,1,300
 22128,Mid-grade Snake Epsilon,1,300
 22229,Ice Harvester II,,
 22291,Ballistic Control System II,5,367
@@ -1414,7 +1415,7 @@ type_id,name,volume,group_id
 28800,Mid-grade Nomad Gamma,,
 28802,Mid-grade Harvest Alpha,,
 28808,Mid-grade Virtue Alpha,1,300
-28809,Mid-grade Virtue Beta,1,
+28809,Mid-grade Virtue Beta,1,300
 28810,Mid-grade Virtue Delta,1,300
 28811,Mid-grade Virtue Epsilon,1,300
 28812,Mid-grade Virtue Gamma,1,300
@@ -1824,7 +1825,7 @@ type_id,name,volume,group_id
 41251,50000MN Quad LiF Restrained Microwarpdrive,1000,
 41267,,0.001,1676
 41268,,0.001,1676
-41271,,0.3,1677
+41271,Scourge Rage XL Torpedo,0.3,1677
 41274,Mjolnir Javelin XL Torpedo,0.3,1677
 41276,Inferno Javelin XL Torpedo,,
 41308,Restrained Compounds,,
@@ -2003,7 +2004,7 @@ type_id,name,volume,group_id
 47897,,0.1,
 47898,,0.1,1979
 47899,Chaotic Firestorm Filament,0.1,1979
-47901,,0.1,
+47901,Fierce Gamma Filament,0.1,1979
 47902,Raging Gamma Filament,0.1,1979
 47903,Chaotic Gamma Filament,0.1,1979
 47904,,0.1,
@@ -2030,7 +2031,7 @@ type_id,name,volume,group_id
 47975,Crystalline Isogen-10,0.3,1996
 48112,Zero-Point Condensate,0.2,1996
 48113,Agency 'Hardshell' TB9 Dose IV,1,303
-48114,,1,303
+48114,Agency 'Overclocker' SB9 Dose IV,1,303
 48115,Agency 'Pyrolancea' DB9 Dose IV,1,303
 48386,,0.1,1088
 48434,Unstable Medium Cap Battery Mutaplasmid,,
@@ -2351,7 +2352,7 @@ type_id,name,volume,group_id
 82054,Stabber Capsuleer Day XXI SKIN,0.01,1950
 82063,,0.01,1950
 82184,Thrasher Fleet Issue Republic Police SKIN,,
-82300,,0.012,4755
+82300,Compressed Kylixium,0.012,4755
 82301,Compressed Kylixium II-Grade,,
 82302,Compressed Kylixium III-Grade,,
 82303,Compressed Kylixium IV-Grade,0.012,4755
@@ -2590,6 +2591,7 @@ type_id,name,volume,group_id
 98417,Imperial Hardpoint Booster I,,
 98418,,1,303
 98419,Imperial Hardpoint Booster III,1,303
+98425,State Defense Booster III,1,303
 98430,State Hardpoint Booster II,1,303
 98436,Federation Defense Booster II,,
 98454,Republic Hardpoint Booster II,,

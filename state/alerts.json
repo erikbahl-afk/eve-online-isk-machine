@@ -3,7 +3,7 @@
   "key": "liquidation",
   "severity": "medium",
   "since": 1793915372.8054109,
-  "text": "Liquidation value is 50% of net worth (2.49B of 4.95B): much of the stock couldn't be sold quickly without a big loss."
+  "text": "Liquidation value is 50% of net worth (2.48B of 4.95B): much of the stock couldn't be sold quickly without a big loss."
  },
  {
   "key": "position:77169",
@@ -93,48 +93,48 @@
   "key": "idle_buy:36",
   "severity": "info",
   "since": 1795132829.190364,
-  "text": "Buy order for Criterion Cipher in jita hasn't filled at all in 5 days (25.68M tied up)."
+  "text": "Buy order for Criterion Cipher in jita hasn't filled at all in 6 days (25.68M tied up)."
  },
  {
   "key": "idle_buy:37",
   "severity": "info",
   "since": 1795132829.190364,
-  "text": "Buy order for Entosis Link II in jita hasn't filled at all in 5 days (133.40M tied up)."
+  "text": "Buy order for Entosis Link II in jita hasn't filled at all in 6 days (133.40M tied up)."
  },
  {
   "key": "idle_buy:38",
   "severity": "info",
   "since": 1795132829.190364,
-  "text": "Buy order for Gistum B-Type Medium Shield Booster in jita hasn't filled at all in 5 days (224.60M tied up)."
+  "text": "Buy order for Gistum B-Type Medium Shield Booster in jita hasn't filled at all in 6 days (224.60M tied up)."
  },
  {
   "key": "idle_buy:39",
   "severity": "info",
   "since": 1795132829.190364,
-  "text": "Buy order for Jaguar in jita hasn't filled at all in 5 days (58.12M tied up)."
+  "text": "Buy order for Jaguar in jita hasn't filled at all in 6 days (58.12M tied up)."
  },
  {
   "key": "idle_buy:40",
   "severity": "info",
   "since": 1795132829.190364,
-  "text": "Buy order for Bomb Launcher II in jita hasn't filled at all in 5 days (40.50M tied up)."
+  "text": "Buy order for Bomb Launcher II in jita hasn't filled at all in 6 days (40.50M tied up)."
  },
  {
   "key": "idle_buy:41",
   "severity": "info",
   "since": 1795132829.190364,
-  "text": "Buy order for Quad Mega Pulse Laser II in jita hasn't filled at all in 5 days (175.20M tied up)."
+  "text": "Buy order for Quad Mega Pulse Laser II in jita hasn't filled at all in 6 days (175.20M tied up)."
  },
  {
   "key": "idle_buy:42",
   "severity": "info",
   "since": 1795132829.190364,
-  "text": "Buy order for Sansha NET Resonator in jita hasn't filled at all in 5 days (29.57M tied up)."
+  "text": "Buy order for Sansha NET Resonator in jita hasn't filled at all in 6 days (29.57M tied up)."
  },
  {
   "key": "idle_buy:43",
   "severity": "info",
   "since": 1795132829.190364,
-  "text": "Buy order for Siren II in jita hasn't filled at all in 5 days (48.98M tied up)."
+  "text": "Buy order for Siren II in jita hasn't filled at all in 6 days (48.98M tied up)."
  }
 ]
