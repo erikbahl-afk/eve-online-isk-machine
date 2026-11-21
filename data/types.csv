@@ -151,7 +151,7 @@ type_id,name,volume,group_id
 3017,Gatling Pulse Laser II,5,53
 3025,,10,53
 3033,Small Focused Beam Laser II,5,
-3041,Small Focused Pulse Laser II,5,
+3041,Small Focused Pulse Laser II,5,53
 3049,Mega Beam Laser II,20,
 3057,Mega Pulse Laser II,20,53
 3065,Tachyon Beam Laser II,20,53
@@ -550,6 +550,8 @@ type_id,name,volume,group_id
 14047,,5,
 14049,Shadow Serpentis Multispectrum Coating,5,98
 14059,Shadow Serpentis EM Armor Hardener,5,328
+14061,,5,328
+14063,,5,328
 14065,Shadow Serpentis Thermal Armor Hardener,5,328
 14067,Shadow Serpentis Large Armor Repairer,50,
 14068,,10,
@@ -699,6 +701,7 @@ type_id,name,volume,group_id
 15965,Republic Fleet Tracking Enhancer,5,211
 16002,Federation Navy Sergeant Insignia III,0.1,409
 16004,Eifyr and Co. 'Rogue' Evasive Maneuvering EM-705,1,747
+16008,Eifyr and Co. 'Rogue' Acceleration Control AC-603,,
 16050,Republic Fleet 200mm Autocannon,,
 16057,Republic Fleet 800mm Repeating Cannon,,
 16061,Caldari Navy Rapid Light Missile Launcher,10,511
@@ -873,7 +876,7 @@ type_id,name,volume,group_id
 18881,Corpum A-Type Multispectrum Energized Membrane,5,
 18883,Centum A-Type Multispectrum Energized Membrane,5,326
 18885,Corpus C-Type EM Armor Hardener,5,328
-18891,Centus C-Type Explosive Armor Hardener,,
+18891,Centus C-Type Explosive Armor Hardener,5,328
 18897,Corpus C-Type Thermal Armor Hardener,5,
 18899,Centus C-Type Thermal Armor Hardener,5,328
 18905,Corpus B-Type Explosive Armor Hardener,5,328
@@ -1693,6 +1696,7 @@ type_id,name,volume,group_id
 33816,Garmur,2500,25
 33818,Orthrus,10000,26
 33820,Barghest,50000,27
+33826,,5,646
 33830,Dread Guristas Omnidirectional Tracking Enhancer,,
 33842,Federation Navy Drone Damage Amplifier,5,645
 33844,Imperial Navy Drone Damage Amplifier,5,645
@@ -1744,7 +1748,7 @@ type_id,name,volume,group_id
 34280,Polarized Heavy Neutron Blaster,10,
 34282,Polarized Neutron Blaster Cannon,20,74
 34290,Polarized Rocket Launcher,5,507
-34292,,10,
+34292,,10,771
 34294,Polarized Torpedo Launcher,20,508
 34306,Large Higgs Anchor I,20,1308
 34317,Confessor,5000,
@@ -2586,6 +2590,7 @@ type_id,name,volume,group_id
 96321,Salvation Sanguinary Savant SKIN,,
 96326,Captured Bioadaptive Cache,1,1194
 96333,,0.01,1950
+96515,,0.001,1194
 96516,Federal Equilibrium Token,,
 96543,Potent 'Radiance' Cerebral Accelerator,1,303
 96544,Extended 'Radiance' Cerebral Accelerator,1,303

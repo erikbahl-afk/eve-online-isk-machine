@@ -1,4 +1,4 @@
-# Summary · Sat 21 Nov 04:39 PST
+# Summary · Sat 21 Nov 05:44 PST
 
 Updated every ~2 hours. **Your real character** is the first section; everything after it is the **practice trader** (pretend ISK, real market data). Each section starts with a line on how to read it.
 
@@ -111,47 +111,47 @@ _Market size = ISK spent per day buying from sell orders in that station. Items 
 
 | Hub | Market size/day | Station items | Station profit/day | Import items | Import profit/day |
 |---|---|---|---|---|---|
-| jita | 5.20T | 19 | 24.87M | - | - |
-| amarr | 550.30B | 7 | 7.78M | 51 | 109.83M |
-| dodixie | 170.45B | 4 | 4.17M | 51 | 98.14M |
-| rens | 33.29B | 0 | - | 10 | 31.70M |
-| hek | 68.02B | 1 | 978.94k | 19 | 52.98M |
+| jita | 5.22T | 18 | 22.91M | - | - |
+| amarr | 553.49B | 9 | 10.01M | 54 | 113.36M |
+| dodixie | 171.78B | 4 | 4.17M | 56 | 102.50M |
+| rens | 33.27B | 0 | - | 10 | 30.94M |
+| hek | 68.19B | 1 | 978.01k | 20 | 58.75M |
 
 ## 8. Best items to trade inside Jita
 _Buy at the highest buy price + 1 tick, sell at the lowest sell price − 1 tick. Margin is after all fees. On top = how much of the time between your logins our order would stay the best price before a rival undercuts it (sell side / buy side). Limited by = which resource it eats most: order slots, ISK, or your time._
 
 | Item | Buy → sell price | Margin | Sold per day | On top (sell/buy) | Profit/day | Limited by |
 |---|---|---|---|---|---|---|
-| Mysterious GalNet Crate | 41.11M → 66.03M | 51.3% | 0.1 | 9% / 32% | 3.00M | time |
-| Federation Electronics Booster III | 30.00M → 52.07M | 63.6% | 0.1 | 20% / 45% | 1.68M | time |
+| Mysterious GalNet Crate | 41.11M → 66.03M | 51.3% | 0.1 | 9% / 32% | 2.96M | time |
+| Federation Electronics Booster III | 30.00M → 52.07M | 63.6% | 0.1 | 21% / 46% | 1.68M | time |
 | Low-grade Virtue Gamma | 141.20M → 177.90M | 18.3% | 0.1 | 17% / 45% | 1.68M | time |
-| Compressed Glistening Zeolites | 2.52k → 2.90k | 7.9% | 11726.6 | 4% / 10% | 2.08M | ISK |
-| Mid-grade Nomad Epsilon | 445.40M → 549.40M | 15.8% | 0.0 | 3% / 7% | 1.90M | time |
-| PPD Fullerene Fibers | 16.34k → 18.99k | 9.1% | 1162.0 | 5% / 5% | 1.54M | time |
-| High-grade Asklepian Gamma | 178.90M → 215.90M | 13.3% | 0.1 | 12% / 38% | 1.26M | time |
-| Coreli B-Type Small Remote Armor Repairer | 22.01M → 31.04M | 32.7% | 0.2 | 21% / 62% | 1.09M | time |
-| High-grade Snake Epsilon | 524.40M → 598.90M | 7.1% | 0.0 | 7% / 8% | 1.33M | time |
-| Compressed Kylixium | 231.50 → 280.20 | 13.6% | 42659.4 | 17% / 10% | 1.26M | time |
-| Centus A-Type EM Armor Hardener | 82.06M → 114.90M | 31.7% | 0.0 | 27% / 29% | 1.15M | time |
-| Glorified Unstable Entropic Radiation Sink Mutaplasmid | 172.20M → 229.60M | 25.3% | 0.0 | 10% / 20% | 1.17M | time |
+| Compressed Glistening Zeolites | 2.52k → 2.90k | 7.9% | 11690.9 | 4% / 10% | 2.07M | ISK |
+| Mid-grade Nomad Epsilon | 445.60M → 548.80M | 15.7% | 0.0 | 3% / 7% | 1.85M | time |
+| PPD Fullerene Fibers | 16.34k → 18.89k | 8.5% | 1158.8 | 5% / 5% | 1.43M | time |
+| High-grade Asklepian Gamma | 178.90M → 215.90M | 13.3% | 0.1 | 12% / 38% | 1.25M | time |
+| Centus A-Type EM Armor Hardener | 82.06M → 114.90M | 31.7% | 0.0 | 28% / 29% | 1.15M | time |
+| Compressed Kylixium | 231.50 → 280.20 | 13.6% | 42567.3 | 17% / 10% | 1.26M | time |
+| Glorified Unstable Entropic Radiation Sink Mutaplasmid | 172.20M → 229.60M | 25.3% | 0.0 | 10% / 21% | 1.18M | time |
+| Scourge Rage XL Torpedo | 5.55k → 8.23k | 39.5% | 340.3 | 33% / 88% | 736.25k | time |
+| Coreli B-Type Small Armor Repairer | 13.96M → 25.96M | 75.4% | 0.1 | 15% / 25% | 855.58k | time |
 
 ## 9. Best items to import Jita → Amarr
 _Buy from Jita sellers, ship by courier, sell just under the cheapest seller there. Margin is after shipping and fees. m³ = cargo volume per unit._
 
 | Item | Jita price → sell price | m³ | Margin | Sold per day | On top | Profit/day | Limited by |
 |---|---|---|---|---|---|---|---|
-| Federation Navy Bastion Module | 1.82B → 2.31B | 200.0 | 16.1% | 0.1 | 26% | 25.87M | ISK |
-| Standup Moon Drill I | 109.80M → 144.50M | 8,000.0 | 17.1% | 0.3 | 29% | 4.74M | time |
-| Oscillator Capacitor Unit | 32.67k → 44.88k | 1.0 | 26.1% | 442.8 | 69% | 3.75M | time |
-| Corpus X-Type Thermal Armor Hardener | 346.00M → 474.80M | 5.0 | 25.9% | 0.0 | 10% | 4.25M | time |
-| Upwell Starship Engineering | 21.10M → 37.61M | 0.0 | 65.0% | 0.3 | 46% | 3.81M | time |
-| Zainou 'Beancounter' Industry BX-804 | 134.10M → 173.10M | 1.0 | 18.2% | 0.1 | 88% | 3.39M | time |
-| Improved 'Guise' Cloaking Device II | 34.58M → 49.96M | 100.0 | 32.8% | 0.3 | 55% | 3.50M | time |
-| Talos Navy Issue | 164.20M → 219.80M | 15,000.0 | 17.3% | 0.1 | 31% | 3.71M | time |
-| Legion Mjolnir Auto-Targeting Light Missile | 999.00 → 2.31k | 0.0 | 115.5% | 2940.8 | 61% | 3.39M | time |
-| Claymore | 258.50M → 324.40M | 15,000.0 | 13.0% | 0.1 | 46% | 3.41M | time |
-| Sustained Shield Emitter | 32.75k → 54.99k | 1.0 | 55.1% | 177.0 | 62% | 3.18M | time |
-| Imperial Navy Small Armor Repairer | 16.95M → 41.92M | 5.0 | 130.7% | 0.1 | 35% | 3.21M | time |
+| Federation Navy Bastion Module | 1.82B → 2.31B | 200.0 | 16.1% | 0.1 | 26% | 26.11M | ISK |
+| Upwell Starship Engineering | 21.10M → 37.64M | 0.0 | 65.1% | 0.3 | 46% | 4.62M | time |
+| Standup Moon Drill I | 109.80M → 144.50M | 8,000.0 | 17.1% | 0.3 | 29% | 4.73M | time |
+| Oscillator Capacitor Unit | 32.66k → 44.88k | 1.0 | 26.1% | 442.6 | 70% | 3.76M | time |
+| Corpus X-Type Thermal Armor Hardener | 346.00M → 474.80M | 5.0 | 25.9% | 0.0 | 10% | 4.24M | time |
+| Zainou 'Beancounter' Industry BX-804 | 134.10M → 173.10M | 1.0 | 18.2% | 0.1 | 88% | 3.37M | time |
+| Breacher Pod Clone Efficacity | 74.96M → 99.56M | 0.0 | 21.7% | 0.2 | 27% | 3.94M | time |
+| Improved 'Guise' Cloaking Device II | 34.56M → 49.96M | 100.0 | 32.9% | 0.3 | 56% | 3.50M | time |
+| Talos Navy Issue | 164.20M → 219.80M | 15,000.0 | 17.3% | 0.1 | 31% | 3.72M | time |
+| Legion Mjolnir Auto-Targeting Light Missile | 999.00 → 2.31k | 0.0 | 115.5% | 2931.9 | 62% | 3.38M | time |
+| Claymore | 258.30M → 324.40M | 15,000.0 | 13.1% | 0.1 | 46% | 3.41M | time |
+| Sustained Shield Emitter | 32.74k → 54.99k | 1.0 | 55.2% | 176.0 | 62% | 3.17M | time |
 
 ## 10. Cornering watchlist (read-only, nothing is traded)
 _Items where buying out the cheapest few sell orders and relisting higher would pay on paper. We only watch them, to learn whether such prices hold or get undercut._
@@ -159,25 +159,25 @@ _Items where buying out the cheapest few sell orders and relisting higher would 
 | Hub | Item | Cheapest now | Buy out | Cost | Relist at | Paper profit | Return | Days to sell | Rival updates/day |
 |---|---|---|---|---|---|---|---|---|---|
 | jita | True Sansha Focused Medium Pulse Laser | 19.95M | 5 orders / 7 units | 139.89M | 53.09M | 213.62M | 153% | 4.9 | 1.3 |
-| jita | Republic Electronics Booster III | 34.80M | 4 orders / 6 units | 214.70M | 64.99M | 156.23M | 73% | 6.9 | 1.5 |
 | jita | Vorton Projector Operation | 22.00M | 4 orders / 14 units | 321.04M | 35.70M | 154.39M | 48% | 2.4 | 2.1 |
 | jita | Heavy Interdiction Cruisers | 37.90M | 2 orders / 10 units | 379.09M | 54.99M | 144.00M | 38% | 4.3 | 0.3 |
-| jita | Gallente Freighter | 87.75M | 3 orders / 4 units | 363.05M | 131.50M | 137.31M | 38% | 2.0 | 1.3 |
-| jita | Medium Core Defense Operational Solidifier I | 1.28M | 4 orders / 258 units | 331.48M | 1.90M | 134.08M | 40% | 9.7 | 1.2 |
-| jita | EDENCOM Frigate | 33.50M | 2 orders / 8 units | 282.70M | 50.49M | 101.53M | 36% | 1.6 | 2.5 |
+| jita | Gallente Freighter | 87.75M | 3 orders / 4 units | 363.05M | 131.50M | 137.31M | 38% | 2.1 | 1.3 |
+| jita | Medium Core Defense Operational Solidifier I | 1.28M | 4 orders / 257 units | 330.21M | 1.90M | 133.56M | 40% | 9.7 | 1.2 |
+| jita | EDENCOM Frigate | 30.00M | 3 orders / 8 units | 279.20M | 50.49M | 105.03M | 38% | 1.5 | 2.6 |
+| jita | Eifyr and Co. 'Rogue' Acceleration Control AC-603 | 17.46M | 5 orders / 21 units | 368.06M | 23.55M | 102.38M | 28% | 4.1 | 2.8 |
+| jita | Republic Electronics Booster III | 35.00M | 2 orders / 4 units | 145.00M | 64.99M | 102.29M | 71% | 4.0 | 1.5 |
 | jita | Capital EM Shield Reinforcer I | 7.82M | 3 orders / 11 units | 88.64M | 17.83M | 97.93M | 110% | 3.9 | 1.6 |
-| jita | True Sansha Small Armor Repairer | 16.07M | 13 orders / 18 units | 325.17M | 24.70M | 97.76M | 30% | 9.0 | 2.8 |
-| jita | Medium Pulse Laser Specialization | 3.65M | 5 orders / 69 units | 264.75M | 5.52M | 97.50M | 37% | 9.8 | 1.1 |
+| jita | True Sansha Small Armor Repairer | 16.07M | 13 orders / 18 units | 325.17M | 24.70M | 97.76M | 30% | 9.1 | 2.8 |
 
 ## 11. Data health
 _Is the market data flowing? Orders = orders seen in the station · Hours today = hours of data collected since 00:00 UTC · Trades seen = trades inferred since the last snapshot. Any note means something went wrong._
 
 | Hub | Orders | Hours today | Trades seen | Note |
 |---|---|---|---|---|
-| jita | 369,659 | 14.2 | 5,279 |  |
-| amarr | 131,437 | 14.3 | 1,598 |  |
-| dodixie | 68,039 | 14.3 | 527 |  |
-| rens | 33,177 | 14.3 | 183 |  |
-| hek | 41,336 | 14.3 | 382 |  |
+| jita | 369,698 | 15.3 | 7,465 |  |
+| amarr | 131,576 | 15.3 | 1,893 |  |
+| dodixie | 67,903 | 15.3 | 1,013 |  |
+| rens | 33,109 | 15.3 | 307 |  |
+| hek | 41,264 | 15.3 | 563 |  |
 
-_This run took 66 s (market data 21 s, stats and character 5 s, experiments 38 s, main portfolio 1 s, cornering scan 0 s, ESI back-off 0 s; 1,534 ESI calls). A slow run usually means ESI rate limits (back-off) or a first-time lookup of many item types._
+_This run took 44 s (market data 12 s, stats and character 4 s, experiments 27 s, main portfolio 1 s, cornering scan 0 s, ESI back-off 0 s; 1,544 ESI calls). A slow run usually means ESI rate limits (back-off) or a first-time lookup of many item types._

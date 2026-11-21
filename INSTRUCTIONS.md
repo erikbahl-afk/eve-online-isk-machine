@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Sat 21 Nov 04:39 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Sat 21 Nov 05:44 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 25 · **Est. time:** 14 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -69,7 +69,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 17 | ☐ Compressed Glistening Zeolites | 2,482 | **2,518** | 2,561 | 2,517 |
-| 18 | ☐ Glorified Unstable Medium Remote Armor Repairer Mutaplasmid | 77,150,000 | **77,160,000** | 107,800,000 | 77,150,000 |
+| 18 | ☐ Glorified Unstable Medium Remote Armor Repairer Mutaplasmid | 77,150,000 | **77,160,000** | 107,700,000 | 77,150,000 |
 | 19 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **175,100,000** | 186,900,000 | 175,000,000 |
 
 #### Cancel buy orders
@@ -86,8 +86,8 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 21 | ☐ Compressed Fullerite-C540 | 42,830 | **43,210** | 43,210 | 44,310 |
-| 22 | ☐ Compressed Hezorime III-Grade | 778.10 | **663.50** | 883.70 | 663.40 |
+| 21 | ☐ Compressed Fullerite-C540 | 42,830 | **43,140** | 43,140 | 44,340 |
+| 22 | ☐ Compressed Hezorime III-Grade | 778.10 | **663.60** | 883.70 | 663.50 |
 
 #### Cancel buy orders
 _My Orders → Buying. Right-click → Cancel Order._
@@ -104,7 +104,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 24 | ☐ 50MN Microwarpdrive II | 3,724,000 | **3,748,000** | 3,838,000 | 3,747,000 |
-| 25 | ☐ Criterion Cipher | 12,840,000 | **17,730,000** | 21,820,000 | 17,720,000 |
+| 25 | ☐ Criterion Cipher | 12,840,000 | **17,750,000** | 21,820,000 | 17,740,000 |
 
 ---
 Wallet 97.44M · escrow 1.08B · stock 3.78B · in transit 0.00 · net worth 4.95B (liquidation 2.48B)
