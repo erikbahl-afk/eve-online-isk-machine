@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Sat 21 Nov 12:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Sat 21 Nov 12:15 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 30 · **Est. time:** 18 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -125,8 +125,8 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 28 | ☐ 50MN Microwarpdrive II | 3,724,000 | **3,763,000** | 3,831,000 | 3,762,000 |
-| 29 | ☐ Compressed Fullerite-C540 | 42,830 | **43,130** | 43,130 | 44,440 |
+| 28 | ☐ 50MN Microwarpdrive II | 3,724,000 | **3,763,000** | 3,830,000 | 3,762,000 |
+| 29 | ☐ Compressed Fullerite-C540 | 42,830 | **43,120** | 43,120 | 44,440 |
 | 30 | ☐ Criterion Cipher | 12,840,000 | **17,780,000** | 21,840,000 | 17,770,000 |
 
 ---
