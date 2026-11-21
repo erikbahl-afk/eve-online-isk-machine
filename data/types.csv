@@ -72,6 +72,7 @@ type_id,name,volume,group_id
 2006,,10000,26
 2032,Cap Recharger II,5,43
 2050,Gistum C-Type Multispectrum Shield Hardener,5,77
+2117,,5,80
 2175,Infiltrator II,10,100
 2185,Hammerhead II,10,100
 2195,Praetor II,25,100
@@ -165,6 +166,7 @@ type_id,name,volume,group_id
 3113,Eifyr and Co. 'Rogue' High Speed Maneuvering HS-904,,
 3119,Eifyr and Co. 'Rogue' Warp Drive Speed WS-618,1,747
 3122,Electron Blaster Cannon II,,
+3126,,1,746
 3130,Heavy Electron Blaster II,10,74
 3134,Zainou 'Deadeye' Missile Projection MP-704,,
 3135,Zainou 'Deadeye' Missile Projection MP-706,1,
@@ -421,6 +423,7 @@ type_id,name,volume,group_id
 12259,Medium Energy Nosferatu II,5,68
 12263,Heavy Energy Nosferatu II,5,
 12267,Medium Energy Neutralizer II,5,71
+12269,Heavy Energy Neutralizer I,,
 12271,,5,
 12304,Angel Copper Tag,0.1,370
 12356,350mm Railgun II,20,
@@ -536,7 +539,7 @@ type_id,name,volume,group_id
 13963,True Sansha Small Armor Repairer,,
 13965,,5,77
 13969,Dread Guristas Multispectrum Shield Hardener,5,77
-13970,,5,328
+13970,True Sansha EM Armor Hardener,5,328
 13974,True Sansha Explosive Armor Hardener,5,328
 13976,Dark Blood Explosive Armor Hardener,5,328
 13978,True Sansha Kinetic Armor Hardener,5,328
@@ -731,7 +734,7 @@ type_id,name,volume,group_id
 16636,Silicates,0.05,427
 16637,Tungsten,0.05,427
 16638,,0.05,427
-16639,,0.05,427
+16639,Scandium,0.05,427
 16641,Chromium,0.05,
 16642,Vanadium,0.05,427
 16643,Cadmium,0.05,
@@ -913,6 +916,7 @@ type_id,name,volume,group_id
 19015,Coreli A-Type Small Armor Repairer,5,62
 19017,Corpum C-Type Medium Armor Repairer,10,62
 19019,Corpum B-Type Medium Armor Repairer,10,62
+19023,,10,62
 19025,Centum B-Type Medium Armor Repairer,10,62
 19027,Centum A-Type Medium Armor Repairer,10,62
 19029,Corelum C-Type Medium Armor Repairer,10,62
@@ -1471,7 +1475,7 @@ type_id,name,volume,group_id
 29336,Scythe Fleet Issue,10000,26
 29337,Augoror Navy Issue,10000,26
 29340,Osprey Navy Issue,10000,26
-29344,,10000,26
+29344,Exequror Navy Issue,10000,26
 29984,Tengu,5000,963
 29986,Legion,5000,963
 29988,Proteus,5000,963
@@ -1643,7 +1647,7 @@ type_id,name,volume,group_id
 32262,Black Eagle Drone Link Augmentor,25,647
 32305,Armageddon Navy Issue,50000,
 32309,Scorpion Navy Issue,50000,27
-32311,,50000,27
+32311,Typhoon Fleet Issue,50000,27
 32414,Domination Target Painter,5,379
 32881,Venture Blueprint,0.01,105
 32947,Unit P-343554's Modified Drone Navigation Computer,,
@@ -2060,7 +2064,7 @@ type_id,name,volume,group_id
 47875,Large Disintegrator Specialization,0.01,255
 47886,Tetryon Exotic Plasma M,0.01,
 47887,,0.01,
-47889,,0.1,1979
+47889,Fierce Exotic Filament,0.1,1979
 47890,Raging Exotic Filament,0.1,1979
 47891,Chaotic Exotic Filament,0.1,1979
 47895,Chaotic Dark Filament,0.1,1979
@@ -2204,7 +2208,7 @@ type_id,name,volume,group_id
 55031,EDENCOM Frigate,,
 55033,Vorton Projector Operation,,
 55652,Loki Biosecurity Responders SKIN,,
-55761,,5,1159
+55761,'Dunk' Salvage Drone,5,1159
 55831,Triglavian Transconduit Datacaster,1,1995
 56068,Proximity-5 'Extraction' Filament,0.1,4087
 56069,Proximity-15 'Extraction' Filament,0.1,4087
@@ -2617,6 +2621,7 @@ type_id,name,volume,group_id
 96845,Star of Pochven Background,0.1,5082
 97265,Criterion Cipher,0.1,474
 97422,Vedmak Blood Raiders Crimson Mark SKIN,,
+97423,,0.01,1950
 97424,,0.01,
 97431,Leshak Blood Raiders Crimson Mark SKIN,0.01,1950
 97435,,0.01,1950
@@ -2656,6 +2661,7 @@ type_id,name,volume,group_id
 98137,,1,303
 98145,Blood Raider Blueprint Crate,1,1194
 98147,Crimson Totality Background,0.1,5082
+98296,Gradated Sunrise - Unlimited,,
 98306,Minmatar Republic Emblem - Unlimited,,
 98317,Carmine Chrome Metallic - Unlimited,,
 98319,Deep-Space Crimson Metallic - Unlimited,,

@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0132,
- "buy_orders": 5784,
- "buy_orders_reaching_jita": 5703,
+ "ask_ratio_median": 1.0128,
+ "buy_orders": 5818,
+ "buy_orders_reaching_jita": 5739,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6257,
- "sell_orders": 473,
- "share_ask_below_jita": 0.3756,
+ "orders": 6286,
+ "sell_orders": 468,
+ "share_ask_below_jita": 0.3864,
  "structure_id": 1042508032148,
- "t": 1795269667.4758513,
+ "t": 1795276875.7157454,
  "top_ask_below_jita": [
   {
    "best_ask": 63990.0,
@@ -17,7 +17,7 @@
    "type_id": 90499
   },
   {
-   "best_ask": 150.0,
+   "best_ask": 149.8,
    "gap": 0.9889,
    "name": "",
    "s_ask": 1.66,
@@ -59,18 +59,18 @@
    "type_id": 17440
   },
   {
+   "best_ask": 4349.0,
+   "gap": 0.6956,
+   "name": "",
+   "s_ask": 1324.0,
+   "type_id": 90590
+  },
+  {
    "best_ask": 3600000.0,
    "gap": 0.6358,
    "name": "",
    "s_ask": 1311000.0,
    "type_id": 91133
-  },
-  {
-   "best_ask": 3234.0,
-   "gap": 0.5906,
-   "name": "",
-   "s_ask": 1324.0,
-   "type_id": 90590
   },
   {
    "best_ask": 4756000.0,
@@ -101,8 +101,8 @@
    "type_id": 52284
   },
   {
-   "best_ask": 3377000.0,
-   "gap": 0.5558,
+   "best_ask": 3376000.0,
+   "gap": 0.5557,
    "name": "",
    "s_ask": 1500000.0,
    "type_id": 45949
@@ -117,35 +117,14 @@
  ],
  "top_bid_over_jita": [
   {
-   "best_bid": 1123000000.0,
-   "gap": 0.1345,
-   "name": "High-grade Amulet Omega",
-   "s_bid_reach": 1274000000.0,
-   "type_id": 20509
-  },
-  {
-   "best_bid": 20010000.0,
+   "best_bid": 1950000.0,
    "gap": 0.0005,
-   "name": "Federation Navy Multispectrum Energized Membrane",
-   "s_bid_reach": 20020000.0,
-   "type_id": 15739
-  },
-  {
-   "best_bid": 32600000.0,
-   "gap": 0.0003,
-   "name": "Transport Ships",
-   "s_bid_reach": 32610000.0,
-   "type_id": 19719
-  },
-  {
-   "best_bid": 5002000.0,
-   "gap": 0.0002,
-   "name": "",
-   "s_bid_reach": 5003000.0,
-   "type_id": 33939
+   "name": "Logic Circuit",
+   "s_bid_reach": 1951000.0,
+   "type_id": 25619
   }
  ],
- "types": 3835,
- "types_also_in_jita": 3834,
- "types_bid_over_jita_reaching": 4
+ "types": 3842,
+ "types_also_in_jita": 3841,
+ "types_bid_over_jita_reaching": 1
 }
