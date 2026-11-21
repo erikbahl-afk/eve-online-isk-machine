@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Sat 21 Nov 12:31 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Sat 21 Nov 14:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 30 · **Est. time:** 18 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -22,7 +22,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 1 | ☐ 'Cartel' Power Diagnostic System I | 68,080,000 | **68,030,000** | 30,280,000 | 68,040,000 |
+| 1 | ☐ 'Cartel' Power Diagnostic System I | 68,080,000 | **68,020,000** | 30,280,000 | 68,030,000 |
 | 2 | ☐ Black Market 'Valdimar' Drone Navigation DN-701 | 149,800,000 | **134,800,000** | 126,600,000 | 199,900,000 |
 | 3 | ☐ Dread Guristas Rocket Launcher | 99,070,000 | **89,160,000** | 47,280,000 | 99,250,000 |
 | 4 | ☐ Improved 'Guise' Cloaking Device II | 49,960,000 | **49,960,000** | 31,940,000 | 49,970,000 |
@@ -40,7 +40,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
 | 9 | ☐ Caesium | 6,635 | **6,634** | 6,165 | 6,635 |
-| 10 | ☐ Caldari Drone Specialization | 2,110,000 | **2,193,000** | 1,139,000 | 2,194,000 |
+| 10 | ☐ Caldari Drone Specialization | 2,110,000 | **2,192,000** | 1,139,000 | 2,193,000 |
 | 11 | ☐ Limited Expanded 'Archiver' Cargo | 49,700,000 | **49,570,000** | 25,980,000 | 49,580,000 |
 | 12 | ☐ Men's 'Precision' Boots | 80,990,000 | **72,890,000** | 49,760,000 | 100,000,000 |
 | 13 | ☐ Mobile Large Warp Disruptor I | 24,710,000 | **24,570,000** | 18,570,000 | 24,580,000 |
@@ -76,9 +76,9 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 19 | ☐ Compressed Glistening Zeolites | 2,482 | **2,526** | 2,560 | 2,525 |
-| 20 | ☐ Glorified Unstable Medium Remote Armor Repairer Mutaplasmid | 77,150,000 | **77,160,000** | 107,700,000 | 77,150,000 |
-| 21 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **175,800,000** | 189,200,000 | 175,700,000 |
+| 19 | ☐ Compressed Glistening Zeolites | 2,482 | **2,526** | 2,559 | 2,525 |
+| 20 | ☐ Glorified Unstable Medium Remote Armor Repairer Mutaplasmid | 77,150,000 | **77,160,000** | 105,900,000 | 77,150,000 |
+| 21 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **176,000,000** | 189,200,000 | 175,900,000 |
 
 #### Cancel buy orders
 _My Orders → Buying. Right-click → Cancel Order._
@@ -115,8 +115,8 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 26 | ☐ Compressed Kylixium | 143,939 | **231.50** | 247.70 | 231.40 |
-| 27 | ☐ Federation Electronics Booster III | 1 | **30,000,000** | 43,930,000 | 29,990,000 |
+| 26 | ☐ Compressed Kylixium | 143,923 | **231.50** | 247.70 | 231.40 |
+| 27 | ☐ Federation Electronics Booster III | 1 | **30,010,000** | 43,920,000 | 30,000,000 |
 
 ### Block 3 · if there's time · about 1 min
 
@@ -125,9 +125,9 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 28 | ☐ 50MN Microwarpdrive II | 3,724,000 | **3,763,000** | 3,831,000 | 3,762,000 |
-| 29 | ☐ Compressed Fullerite-C540 | 42,830 | **43,120** | 43,120 | 44,440 |
-| 30 | ☐ Criterion Cipher | 12,840,000 | **17,780,000** | 21,840,000 | 17,770,000 |
+| 28 | ☐ 50MN Microwarpdrive II | 3,724,000 | **3,763,000** | 3,830,000 | 3,762,000 |
+| 29 | ☐ Compressed Fullerite-C540 | 42,830 | **44,020** | 44,020 | 44,440 |
+| 30 | ☐ Criterion Cipher | 12,840,000 | **17,810,000** | 21,820,000 | 17,800,000 |
 
 ---
 Wallet 229.10M · escrow 1.08B · stock 3.67B · in transit 0.00 · net worth 4.98B (liquidation 2.56B)
