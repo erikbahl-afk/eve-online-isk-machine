@@ -185,6 +185,18 @@ def test_alerts():
     assert out[0]["severity"] == "high"
 
 
+def test_stale_sell_alert_info_when_recently_repriced():
+    from trader import alerts
+    pf = new_portfolio(CFG, 0)
+    o = {"oid": 1, "side": "sell", "type_id": 7, "hub": "amarr", "qty": 1, "remain": 1, "price": 1e6,
+         "unit_cost": 1e6, "created": 0, "updated": 0}
+    pf["orders"] = [o, {**o, "oid": 2, "updated": 9 * 86400}]
+    val = {"nw_book": 5e9, "nw_liquid": 5e9, "cash": 5e9}
+    out = {a["key"]: a for a in alerts.compute(CFG, pf, val, {}, {}, None, 10 * 86400, {7: "Thing"})}
+    assert out["stale_sell:1"]["severity"] == "medium"   # never touched: needs a look
+    assert out["stale_sell:2"]["severity"] == "info"     # cut 1 day ago: the step-down is handling it
+
+
 
 def test_skip_run_keeps_summary(tmp_path, monkeypatch):
     import trader.run as run

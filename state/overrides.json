@@ -5,6 +5,11 @@
    "type_id": 33926,
    "reason": "Amarr import (2 units, cost 148.4M): live best ask 137M, our ask 247.7M; 30 d high 394.7M and falling. Can't sell above cost; take the ~25M loss and free 275M",
    "mode": "fast"
+  },
+  {
+   "type_id": 34575,
+   "reason": "Jita sell 13 d untouched (8 units, cost 6.8M): best ask 0.54x cost, best bid 0.15x, below the stale floor so the step-down can't act. Take the ~3M loss, free the slot",
+   "mode": "fast"
   }
  ]
 }

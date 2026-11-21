@@ -47,8 +47,11 @@ def compute(cfg, pf, val, plan, health, char, now, names=None):
     for o in pf["orders"]:
         age = (now - o["created"]) / day
         if o["side"] == "sell" and age > a["stale_days"]:
-            add(f"stale_sell:{o['oid']}", "medium",
-                f"Sell order for {nm(o['type_id'])} in {o['hub']} still has {o['remain']:,} left after {age:.0f} days.")
+            cut = (now - o.get("updated", o["created"])) / day
+            handled = o.get("updated", o["created"]) > o["created"] and cut < a.get("stale_handled_days", 3)
+            add(f"stale_sell:{o['oid']}", "info" if handled else "medium",
+                f"Sell order for {nm(o['type_id'])} in {o['hub']} still has {o['remain']:,} left after {age:.0f} days"
+                + (f" (repriced {cut:.0f} d ago: step-down working)." if handled else "."))
         if o["side"] == "buy" and o["remain"] == o["qty"] and age > a["buy_stale_days"]:
             add(f"idle_buy:{o['oid']}", "info",
                 f"Buy order for {nm(o['type_id'])} in {o['hub']} hasn't filled at all in {age:.0f} days "

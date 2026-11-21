@@ -427,3 +427,20 @@
   Amarr visit. Antikythera (Jita, 12 d): step-down applies. Thresholds kept.
 - Grades: all 7 topics "changed something"; no reassignment. Usage ~22 calls/day, flat vs baseline.
 - Memo: reports/2026-11-20-memo.md. Next: Sat check cancels freed escrow and new bids sit on top; Thu 26 exports/rotation kill.
+
+## 2026-11-21 · risk and concentration (Saturday)
+- Liquidation ratio by week: 0.503 (11-06) → 0.504 → 0.497 (11-15) → 0.499 → **0.515** today. Flat; stock 3.67B, of which the
+  11 legacy Amarr sells (3.13B, 16 d) have no bid at all, so they count 0. New imports (4 d) exit at 0.82–0.99x cost: healthy.
+- Concentration: top 5 = 36.5% of NW (Typhoon SKIN 8.4%, Golem SKIN 7.8%, Valdimar 7.6%, M-Set 6.7%, Crystal Eps 6.0%), all
+  legacy; 99.8% of stock in Amarr, all import. Stress: top 3 −30% = 356M = 7.2% of NW. No push (liq > 50%, max 8.4% < 15%).
+- Step-down check: legacy sells repriced 1.7 d ago (Thu 21:08 Amarr session) but still 1.1–2.3x cost (Cartel 2.26x, Dread
+  2.10x, Typhoon 1.58x); at 10%/session and ~2 Amarr visits/week that's 2–4 more weeks to the floor. Idea for Thu 26 slot
+  refill: probe `stale_step = 0.2`, judged on liq ratio and realized vs main.
+- Falling: Zero-Point Mass Entangler (16, 137M) Amarr ask −10.3% in a week, exit still 0.90x. Watch Mon.
+- Guards: nothing new got through; everything flagged predates the history gate / reach filter (11-05 import).
+- Changed: Antikythera Element (Jita, 13 d untouched, ask 0.54x cost, below the stale floor so step-down can't act) → exit
+  list, fast (~3M loss). Alert tuning: stale-sell alerts on orders repriced < `stale_handled_days = 3` days ago are now
+  "info" with "step-down working", so untouched ones stand out. Test added; 37 pass.
+- Alerts: liquidation 51% / Typhoon 8.4%: legacy, as above. Idle Jita bids (8, 0.84B): the buy_stale_days fix landed after
+  the last Jita login (Thu 21:08), so they clear next Jita session — check Sun. Infomorph Key / Void XL / Mordunium (8 d) under
+  strategy stale_days 10. Crystal Epsilon exit still working (2 left, 0.92x).
