@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Fri 20 Nov 22:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 23 · **Est. time:** 13 min. Work top to bottom; stop any time.  
+**Updated:** Sat 21 Nov 00:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 24 · **Est. time:** 13 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -22,9 +22,9 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 1 | ☐ 'Cartel' Power Diagnostic System I | 68,080,000 | **68,040,000** | 30,280,000 | 68,050,000 |
+| 1 | ☐ 'Cartel' Power Diagnostic System I | 68,080,000 | **68,030,000** | 30,280,000 | 68,040,000 |
 | 2 | ☐ Black Market 'Valdimar' Drone Navigation DN-701 | 149,800,000 | **134,800,000** | 126,600,000 | 199,900,000 |
-| 3 | ☐ Dread Guristas Rocket Launcher | 99,070,000 | **99,060,000** | 47,280,000 | 99,070,000 |
+| 3 | ☐ Dread Guristas Rocket Launcher | 99,070,000 | **99,040,000** | 47,280,000 | 99,050,000 |
 | 4 | ☐ Improved 'Guise' Cloaking Device II | 49,960,000 | **49,960,000** | 31,940,000 | 49,970,000 |
 | 5 | ☐ Standup M-Set Basic Small Ship Manufacturing Material Efficiency I | 566,600,000 | **509,900,000** | 335,200,000 | 715,000,000 |
 | 6 | ☐ Standup Moon Drill I | 144,600,000 | **144,500,000** | 130,900,000 | 144,600,000 |
@@ -41,7 +41,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 | 8 | ☐ Caesium | 6,635 | **6,634** | 6,165 | 6,635 |
 | 9 | ☐ Gravid Vorton Tuning System Mutaplasmid | 67,670,000 | **60,900,000** | 54,540,000 | 67,680,000 |
 | 10 | ☐ Men's 'Precision' Boots | 80,990,000 | **72,890,000** | 49,760,000 | 100,000,000 |
-| 11 | ☐ Mobile Large Warp Disruptor I | 24,710,000 | **24,630,000** | 18,570,000 | 24,640,000 |
+| 11 | ☐ Mobile Large Warp Disruptor I | 24,710,000 | **24,610,000** | 18,570,000 | 24,620,000 |
 | 12 | ☐ Shrapnel Bomb | 1,657,000 | **1,657,000** | 1,311,000 | 1,658,000 |
 
 ### Block 3 · if there's time · about 1 min
@@ -52,7 +52,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 13 | ☐ Limited Expanded 'Archiver' Cargo | 49,700,000 | **49,660,000** | 25,980,000 | 49,670,000 |
+| 13 | ☐ Limited Expanded 'Archiver' Cargo | 49,700,000 | **49,630,000** | 25,980,000 | 49,640,000 |
 | 14 | ☐ Polarized Light Neutron Blaster | 5,884,000 | **5,860,000** | 3,818,000 | 5,861,000 |
 | 15 | ☐ Zero-Point Mass Entangler | 8,875,000 | **8,875,000** | 8,875,000 | 8,700,000 |
 
@@ -61,22 +61,23 @@ _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Ne
 
 ## At Jita IV - Moon 4 - Caldari Navy Assembly Plant
 
-### Block 1 · must do · about 1 min
+### Block 1 · must do · about 2 min
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 17 | ☐ Compressed Glistening Zeolites | 2,482 | **2,511** | 2,621 | 2,510 |
-| 18 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **175,100,000** | 186,000,000 | 175,000,000 |
+| 17 | ☐ Compressed Glistening Zeolites | 2,482 | **2,516** | 2,621 | 2,515 |
+| 18 | ☐ Compressed Hezorime III-Grade | 778.10 | **663.40** | 883.70 | 663.30 |
+| 19 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **175,100,000** | 186,000,000 | 175,000,000 |
 
 #### Cancel buy orders
 _My Orders → Buying. Right-click → Cancel Order._
 
 | # | Item | Your price |
 |---|---|---|
-| 19 | ☐ Gistum B-Type Medium Shield Booster | 112,300,000 |
+| 20 | ☐ Gistum B-Type Medium Shield Booster | 112,300,000 |
 
 ### Block 2 · should do · about 1 min
 
@@ -85,15 +86,15 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 20 | ☐ Compressed Fullerite-C540 | 42,830 | **43,840** | 43,840 | 44,520 |
-| 21 | ☐ Criterion Cipher | 12,840,000 | **17,660,000** | 21,900,000 | 17,650,000 |
+| 21 | ☐ Compressed Fullerite-C540 | 42,830 | **43,840** | 43,840 | 44,520 |
+| 22 | ☐ Criterion Cipher | 12,840,000 | **17,680,000** | 21,900,000 | 17,670,000 |
 
 #### Cancel buy orders
 _My Orders → Buying. Right-click → Cancel Order._
 
 | # | Item | Your price |
 |---|---|---|
-| 22 | ☐ Sansha NET Resonator | 2,464,000 |
+| 23 | ☐ Sansha NET Resonator | 2,464,000 |
 
 ### Block 3 · if there's time · about 1 min
 
@@ -102,7 +103,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 23 | ☐ 50MN Microwarpdrive II | 3,724,000 | **3,747,000** | 3,843,000 | 3,746,000 |
+| 24 | ☐ 50MN Microwarpdrive II | 3,724,000 | **3,747,000** | 3,842,000 | 3,746,000 |
 
 ---
 Wallet 97.44M · escrow 1.08B · stock 3.78B · in transit 0.00 · net worth 4.95B (liquidation 2.48B)

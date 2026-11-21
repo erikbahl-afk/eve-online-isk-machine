@@ -103,7 +103,7 @@ type_id,name,volume,group_id
 2390,Electrolytes,0.19,1042
 2392,Oxidizing Compound,0.19,1042
 2393,Bacteria,0.19,1042
-2395,,0.19,1042
+2395,Proteins,0.19,1042
 2396,Biofuels,0.19,1042
 2398,Reactive Metals,0.19,1042
 2399,Precious Metals,0.19,1042
@@ -243,7 +243,7 @@ type_id,name,volume,group_id
 4302,Oracle,15000,1201
 4306,,15000,1201
 4308,,15000,1201
-4310,,15000,1201
+4310,Tornado,15000,1201
 4313,Oxygen Fuel Block Blueprint,0.01,
 4315,,0.01,
 4345,Gistum B-Type Multispectrum Shield Hardener,5,77
@@ -342,6 +342,7 @@ type_id,name,volume,group_id
 11453,Electronic Engineering,0.01,270
 11529,Molecular Engineering,0.01,270
 11531,Ion Thruster,1,334
+11532,,1,334
 11534,Gravimetric Sensor Cluster,1,334
 11535,Magnetometric Sensor Cluster,1,334
 11536,,1,
@@ -356,6 +357,7 @@ type_id,name,volume,group_id
 11547,Fusion Reactor Unit,1,334
 11548,Nuclear Reactor Unit,1,
 11549,Antimatter Reactor Unit,1,334
+11550,,1,334
 11552,Scalar Capacitor Unit,1,334
 11553,Oscillator Capacitor Unit,1,334
 11554,Tesseract Capacitor Unit,1,334
@@ -960,6 +962,7 @@ type_id,name,volume,group_id
 19227,Pithum A-Type Thermal Shield Amplifier,5,295
 19229,,5,
 19231,Pithum A-Type EM Shield Amplifier,5,295
+19245,Gistum C-Type EM Shield Amplifier,5,295
 19247,Gistum B-Type EM Shield Amplifier,5,295
 19253,,5,
 19263,Gist C-Type EM Shield Hardener,,
@@ -1918,7 +1921,7 @@ type_id,name,volume,group_id
 42882,Mining Laser Optimization Charge Blueprint,0.01,
 42890,Capital Industrial Core II,,
 43551,Mining Foreman Burst II,60,1770
-43556,Skirmish Command Burst II,,
+43556,Skirmish Command Burst II,60,1770
 43662,Gallente Phenomena Generator,,
 43688,Astral Mining Inc. Strong Box,,
 43694,'Augmented' Mining Drone,5,101
@@ -2213,7 +2216,7 @@ type_id,name,volume,group_id
 57442,Counter-Subversion Sensor Array,2,
 57443,Meta-Molecular Combiner,1,526
 57444,,1,
-57445,,1,526
+57445,LM-Composite Molecular Condenser,1,526
 57446,AG-Composite Molecular Condenser,1,526
 57449,Nano Regulation Gate,0.1,526
 57450,Electro-Neural Signaller,0.25,526
@@ -2323,6 +2326,7 @@ type_id,name,volume,group_id
 62554,Compressed Gneiss III-Grade,0.05,467
 62555,Compressed Gneiss IV-Grade,0.05,467
 62556,,0.08,453
+62558,,0.08,453
 62559,Compressed Dark Ochre IV-Grade,0.08,453
 62560,Compressed Crokite,0.16,452
 62562,,0.16,452
@@ -2400,7 +2404,7 @@ type_id,name,volume,group_id
 82063,,0.01,1950
 82184,Thrasher Fleet Issue Republic Police SKIN,,
 82300,Compressed Kylixium,0.012,4755
-82301,Compressed Kylixium II-Grade,,
+82301,Compressed Kylixium II-Grade,0.012,4755
 82302,Compressed Kylixium III-Grade,,
 82303,Compressed Kylixium IV-Grade,0.012,4755
 82304,,0.04,4756
