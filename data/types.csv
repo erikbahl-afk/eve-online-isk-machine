@@ -64,7 +64,7 @@ type_id,name,volume,group_id
 1855,,5,
 1952,Sensor Booster II,5,212
 1969,Remote Sensor Dampener II,5,208
-1978,Tracking Computer II,5,
+1978,Tracking Computer II,5,213
 1987,Signal Amplifier II,,
 1999,Tracking Enhancer II,,
 2006,,10000,26
@@ -104,7 +104,7 @@ type_id,name,volume,group_id
 2395,,0.19,1042
 2396,Biofuels,0.19,1042
 2398,Reactive Metals,0.19,1042
-2399,Precious Metals,,
+2399,Precious Metals,0.19,1042
 2400,Toxic Metals,0.19,1042
 2401,Chiral Structures,0.19,1042
 2404,,5,509
@@ -264,6 +264,7 @@ type_id,name,volume,group_id
 8263,,5,
 8433,Medium Azeotropic Restrained Shield Extender,10,38
 8517,Medium F-S9 Regolith Compact Shield Extender,10,38
+8521,,5,38
 8529,,20,38
 8635,Large Murky Compact Remote Shield Booster,25,41
 8863,,5,
@@ -392,7 +393,7 @@ type_id,name,volume,group_id
 12019,Sacrilege,10000,358
 12023,Deimos,10000,358
 12032,Manticore,2500,834
-12034,,2500,
+12034,,2500,834
 12038,Purifier,2500,834
 12042,Ishkur,2500,324
 12044,,2500,
@@ -526,10 +527,11 @@ type_id,name,volume,group_id
 13956,True Sansha Large Armor Repairer,50,62
 13957,Dark Blood Large Armor Repairer,50,62
 13960,Dark Blood Medium Armor Repairer,10,62
+13963,True Sansha Small Armor Repairer,,
 13965,,5,77
 13969,Dread Guristas Multispectrum Shield Hardener,5,77
 13970,,5,328
-13974,True Sansha Explosive Armor Hardener,,
+13974,True Sansha Explosive Armor Hardener,5,328
 13976,Dark Blood Explosive Armor Hardener,5,328
 13978,True Sansha Kinetic Armor Hardener,5,328
 13982,True Sansha Thermal Armor Hardener,5,328
@@ -541,7 +543,7 @@ type_id,name,volume,group_id
 14045,Domination Shield Boost Amplifier,5,338
 14047,,5,
 14049,Shadow Serpentis Multispectrum Coating,5,98
-14059,,5,328
+14059,Shadow Serpentis EM Armor Hardener,5,328
 14065,Shadow Serpentis Thermal Armor Hardener,5,328
 14067,Shadow Serpentis Large Armor Repairer,50,
 14068,,10,
@@ -607,6 +609,7 @@ type_id,name,volume,group_id
 14270,Shadow Serpentis Stasis Webifier,5,65
 14278,,10,
 14295,,1,745
+14296,,1,745
 14297,Limited Memory Augmentation - Beta,1,745
 15317,Genetically Enhanced Livestock,0.75,1034
 15457,,1,
@@ -643,6 +646,7 @@ type_id,name,volume,group_id
 15729,Imperial Navy Multispectrum Energized Membrane,5,326
 15739,Federation Navy Multispectrum Energized Membrane,5,326
 15743,Ammatar Navy Large Armor Repairer,,
+15747,,10,46
 15749,,5,
 15751,Republic Fleet 50MN Microwarpdrive,10,46
 15753,Republic Fleet 10MN Afterburner,5,46
@@ -701,9 +705,9 @@ type_id,name,volume,group_id
 16247,,1,
 16248,Zainou 'Gnome' Shield Operation SP-905,1,749
 16272,Heavy Water,0.4,423
-16273,,0.4,
+16273,,0.4,423
 16275,Strontium Clathrates,3,423
-16278,,5,
+16278,Ice Harvester I,5,464
 16457,Crosslink Compact Ballistic Control System,5,367
 16527,,5,507
 16535,Copasetic Compact Shield Boost Amplifier,5,338
@@ -761,7 +765,7 @@ type_id,name,volume,group_id
 17480,Procurer,3750,463
 17482,Strip Miner I,5,464
 17483,,0.01,490
-17487,Republic Fleet Heavy Missile Launcher,10,
+17487,Republic Fleet Heavy Missile Launcher,10,510
 17488,Republic Fleet Rocket Launcher,5,507
 17491,Republic Fleet Light Missile Launcher,5,509
 17494,,5,
@@ -863,7 +867,7 @@ type_id,name,volume,group_id
 18909,Corpus B-Type Kinetic Armor Hardener,,
 18913,Corpus B-Type Thermal Armor Hardener,,
 18923,Centus A-Type Kinetic Armor Hardener,,
-18931,Centus A-Type EM Armor Hardener,,
+18931,Centus A-Type EM Armor Hardener,5,328
 18933,Corpus X-Type EM Armor Hardener,5,328
 18935,Centus X-Type EM Armor Hardener,5,328
 18937,Corpus X-Type Explosive Armor Hardener,5,328
@@ -889,7 +893,7 @@ type_id,name,volume,group_id
 19003,,5,
 19009,Centii A-Type Small Armor Repairer,5,62
 19015,Coreli A-Type Small Armor Repairer,5,62
-19017,Corpum C-Type Medium Armor Repairer,10,
+19017,Corpum C-Type Medium Armor Repairer,10,62
 19019,Corpum B-Type Medium Armor Repairer,10,62
 19025,Centum B-Type Medium Armor Repairer,10,62
 19027,Centum A-Type Medium Armor Repairer,10,62
@@ -1449,7 +1453,7 @@ type_id,name,volume,group_id
 30018,,0.01,
 30019,,0.01,966
 30024,,0.01,966
-30251,Neurovisual Input Matrix,,
+30251,Neurovisual Input Matrix,0.01,966
 30252,Thermoelectric Catalysts,0.01,966
 30254,Electromechanical Hull Sheeting,0.01,966
 30259,,0.01,966
@@ -1468,6 +1472,7 @@ type_id,name,volume,group_id
 30378,Fullerite-C540,10,711
 30486,Sisters Combat Scanner Probe,1,479
 30488,Sisters Core Scanner Probe,,
+30558,,10,971
 30586,Malfunctioning Power Cores,,
 30615,,10,993
 30628,,10,991
@@ -1846,7 +1851,7 @@ type_id,name,volume,group_id
 41271,Scourge Rage XL Torpedo,0.3,1677
 41274,Mjolnir Javelin XL Torpedo,0.3,1677
 41276,Inferno Javelin XL Torpedo,,
-41308,Restrained Compounds,,
+41308,Restrained Compounds,0.001,1676
 41312,Scoped Conductors,,
 41314,Hail XL,0.125,
 41322,Void XL,0.125,
@@ -2227,7 +2232,7 @@ type_id,name,volume,group_id
 60281,Simple Asteroid Mining Crystal Type A II,10,482
 60283,Simple Asteroid Mining Crystal Type B II,10,482
 60286,Coherent Asteroid Mining Crystal Type B I,,
-60288,,10,
+60288,,10,482
 60289,,10,
 60291,Variegated Asteroid Mining Crystal Type A I,6,
 60292,,6,
@@ -2252,7 +2257,7 @@ type_id,name,volume,group_id
 62380,Compressed Celadon Mykoserocin,1,4168
 62383,Compressed Malachite Mykoserocin,1,4168
 62385,Compressed Viridian Mykoserocin,,
-62392,,1,4168
+62392,Compressed Malachite Cytoserocin,1,4168
 62397,Compressed Fullerite-C60,0.1,4168
 62398,Compressed Fullerite-C70,0.1,4168
 62399,Compressed Fullerite-C50,0.1,4168
@@ -2303,7 +2308,7 @@ type_id,name,volume,group_id
 62559,Compressed Dark Ochre IV-Grade,0.08,453
 62560,Compressed Crokite,0.16,452
 62562,,0.16,452
-62563,,0.16,452
+62563,Compressed Crokite IV-Grade,0.16,452
 62564,Compressed Bistot,,
 62566,,0.16,
 62567,Compressed Bistot IV-Grade,0.16,451
@@ -2622,3 +2627,4 @@ type_id,name,volume,group_id
 98436,Federation Defense Booster II,,
 98454,Republic Hardpoint Booster II,,
 98652,,0.01,1950
+98845,Imperial Navy Stasis Webifier,5,65
