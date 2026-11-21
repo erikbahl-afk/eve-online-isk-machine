@@ -718,6 +718,7 @@ type_id,name,volume,group_id
 16248,Zainou 'Gnome' Shield Operation SP-905,1,749
 16272,Heavy Water,0.4,423
 16273,,0.4,423
+16274,Helium Isotopes,0.03,423
 16275,Strontium Clathrates,3,423
 16278,Ice Harvester I,5,464
 16457,Crosslink Compact Ballistic Control System,5,367
@@ -1470,7 +1471,7 @@ type_id,name,volume,group_id
 29336,Scythe Fleet Issue,10000,26
 29337,Augoror Navy Issue,10000,26
 29340,Osprey Navy Issue,10000,26
-29344,,10000,
+29344,,10000,26
 29984,Tengu,5000,963
 29986,Legion,5000,963
 29988,Proteus,5000,963
@@ -2171,7 +2172,7 @@ type_id,name,volume,group_id
 54394,,1,300
 54398,Mid-grade Hydra Alpha,,
 54399,Mid-grade Hydra Beta,,
-54400,Mid-grade Hydra Gamma,,
+54400,Mid-grade Hydra Gamma,1,300
 54402,Mid-grade Hydra Epsilon,1,300
 54403,Mid-grade Hydra Omega,,
 54407,Low-grade Hydra Delta,,

@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0136,
- "buy_orders": 5786,
- "buy_orders_reaching_jita": 5704,
+ "ask_ratio_median": 1.0132,
+ "buy_orders": 5784,
+ "buy_orders_reaching_jita": 5703,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6263,
- "sell_orders": 477,
- "share_ask_below_jita": 0.3722,
+ "orders": 6257,
+ "sell_orders": 473,
+ "share_ask_below_jita": 0.3756,
  "structure_id": 1042508032148,
- "t": 1795268667.1108458,
+ "t": 1795269667.4758513,
  "top_ask_below_jita": [
   {
    "best_ask": 63990.0,
@@ -115,8 +115,37 @@
    "type_id": 47621
   }
  ],
- "top_bid_over_jita": [],
+ "top_bid_over_jita": [
+  {
+   "best_bid": 1123000000.0,
+   "gap": 0.1345,
+   "name": "High-grade Amulet Omega",
+   "s_bid_reach": 1274000000.0,
+   "type_id": 20509
+  },
+  {
+   "best_bid": 20010000.0,
+   "gap": 0.0005,
+   "name": "Federation Navy Multispectrum Energized Membrane",
+   "s_bid_reach": 20020000.0,
+   "type_id": 15739
+  },
+  {
+   "best_bid": 32600000.0,
+   "gap": 0.0003,
+   "name": "Transport Ships",
+   "s_bid_reach": 32610000.0,
+   "type_id": 19719
+  },
+  {
+   "best_bid": 5002000.0,
+   "gap": 0.0002,
+   "name": "",
+   "s_bid_reach": 5003000.0,
+   "type_id": 33939
+  }
+ ],
  "types": 3835,
  "types_also_in_jita": 3834,
- "types_bid_over_jita_reaching": 0
+ "types_bid_over_jita_reaching": 4
 }
