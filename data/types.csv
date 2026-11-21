@@ -40,6 +40,7 @@ type_id,name,volume,group_id
 644,Typhoon,50000,27
 645,Dominix,,
 648,,20000,28
+652,,20000,28
 655,,20000,28
 686,,0.01,
 687,Caracal Blueprint,0.01,
@@ -873,7 +874,7 @@ type_id,name,volume,group_id
 18935,Centus X-Type EM Armor Hardener,5,328
 18937,Corpus X-Type Explosive Armor Hardener,5,328
 18939,Centus X-Type Explosive Armor Hardener,5,328
-18941,,5,328
+18941,Corpus X-Type Kinetic Armor Hardener,5,328
 18943,,5,328
 18945,Corpus X-Type Thermal Armor Hardener,5,328
 18947,Centus X-Type Thermal Armor Hardener,5,328
@@ -949,7 +950,7 @@ type_id,name,volume,group_id
 19207,Pith X-Type Large Shield Booster,25,40
 19208,Pith X-Type X-Large Shield Booster,50,40
 19215,Pithum C-Type EM Shield Amplifier,5,295
-19219,,5,
+19219,,5,295
 19223,Pithum B-Type EM Shield Amplifier,5,295
 19227,Pithum A-Type Thermal Shield Amplifier,5,295
 19229,,5,
@@ -1515,6 +1516,7 @@ type_id,name,volume,group_id
 31167,Medium Hyperspatial Velocity Optimizer II,10,782
 31171,Small Low Friction Nozzle Joints II,5,782
 31173,Medium Low Friction Nozzle Joints II,10,782
+31185,Medium Polycarbon Engine Housing II,10,782
 31220,Small Gravity Capacitor Upgrade II,5,1233
 31244,Small Memetic Algorithm Bank II,5,
 31298,Small Particle Dispersion Projector I,,
@@ -1671,7 +1673,7 @@ type_id,name,volume,group_id
 33842,Federation Navy Drone Damage Amplifier,5,645
 33844,Imperial Navy Drone Damage Amplifier,5,645
 33846,Dread Guristas Drone Damage Amplifier,5,645
-33848,,5,645
+33848,Sentient Drone Damage Amplifier,5,645
 33850,Federation Navy Drone Navigation Computer,25,644
 33852,,25,644
 33890,Small Transverse Bulkhead I,5,773
@@ -1852,6 +1854,7 @@ type_id,name,volume,group_id
 41268,,0.001,1676
 41271,Scourge Rage XL Torpedo,0.3,1677
 41274,Mjolnir Javelin XL Torpedo,0.3,1677
+41275,Mjolnir Rage XL Torpedo,0.3,1677
 41276,Inferno Javelin XL Torpedo,,
 41308,Restrained Compounds,0.001,1676
 41312,Scoped Conductors,,
@@ -1987,6 +1990,7 @@ type_id,name,volume,group_id
 47139,,2000,4777
 47270,Vedmak,10000,26
 47271,Leshak,50000,27
+47272,,5,1986
 47286,,0.1,1088
 47297,,1,1964
 47298,Standup Multirole Missile Launcher II,4000,
@@ -2466,6 +2470,7 @@ type_id,name,volume,group_id
 90523,Unstable Ice Harvester Mutaplasmid,,
 90528,Unstable Gas Cloud Scoop Mutaplasmid,1,1964
 90592,,1,1964
+90609,,1,1964
 90647,Oxidative Stress - Unlimited,,
 90733,,0.01,1771
 90734,,0.01,

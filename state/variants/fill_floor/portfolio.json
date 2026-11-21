@@ -90,8 +90,8 @@
  "inventory": {
   "jita": {
    "62523": {
-    "cost": 27.050000000000004,
-    "qty": 622338,
+    "cost": 27.05,
+    "qty": 1301925,
     "since": 1795190242.0,
     "tag": "station"
    },
@@ -110,7 +110,7 @@
   }
  },
  "last_jump": null,
- "last_t": 1795226437.5426846,
+ "last_t": 1795230837.1887643,
  "location": "jita",
  "next_oid": 10,
  "orders": [
@@ -216,7 +216,7 @@
    "oid": 9,
    "price": 27.05,
    "qty": 1571385,
-   "remain": 949047,
+   "remain": 269460,
    "side": "buy",
    "tag": "station",
    "type_id": 62523,
@@ -231,7 +231,7 @@
    "sales": 0.0
   },
   "station": {
-   "buys": 85899242.9,
+   "buys": 104282071.25,
    "fees": 18596834.46375,
    "realized": -18596834.46375,
    "sales": 0.0
@@ -343,8 +343,8 @@
    "sold_units": 0
   },
   "jita:62523": {
-   "bought_isk": 16834242.900000002,
-   "bought_units": 622338,
+   "bought_isk": 35217071.25,
+   "bought_units": 1301925,
    "fees": 637589.46375,
    "realized": -637589.46375,
    "sold_net": 0.0,
@@ -409,7 +409,7 @@
  },
  "pnl": {
   "broker": 18596834.46375,
-  "buys": 2828735242.9,
+  "buys": 2847118071.25,
   "courier": 138000000.0,
   "realized": -18596834.46375,
   "relist": 0.0,

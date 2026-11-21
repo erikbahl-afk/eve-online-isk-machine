@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Fri 20 Nov 18:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Fri 20 Nov 19:13 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 22 · **Est. time:** 13 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -23,7 +23,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
 | 1 | ☐ 'Cartel' Power Diagnostic System I | 68,080,000 | **68,040,000** | 30,280,000 | 68,050,000 |
-| 2 | ☐ Dread Guristas Rocket Launcher | 99,070,000 | **99,070,000** | 47,280,000 | 99,080,000 |
+| 2 | ☐ Dread Guristas Rocket Launcher | 99,070,000 | **99,060,000** | 47,280,000 | 99,070,000 |
 | 3 | ☐ Improved 'Guise' Cloaking Device II | 49,960,000 | **49,960,000** | 31,940,000 | 49,970,000 |
 | 4 | ☐ Men's 'Precision' Boots | 80,990,000 | **99,990,000** | 49,760,000 | 100,000,000 |
 | 5 | ☐ Standup Moon Drill I | 144,600,000 | **144,500,000** | 130,900,000 | 144,600,000 |
@@ -69,7 +69,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 |---|---|---|---|---|---|
 | 16 | ☐ Compressed Glistening Zeolites | 2,482 | **2,493** | 2,621 | 2,492 |
 | 17 | ☐ Gistum B-Type Medium Shield Booster | 112,300,000 | **113,400,000** | 114,600,000 | 113,300,000 |
-| 18 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **175,100,000** | 181,100,000 | 175,000,000 |
+| 18 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **175,100,000** | 186,000,000 | 175,000,000 |
 
 ### Block 2 · should do · about 1 min
 
@@ -78,8 +78,8 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 19 | ☐ Compressed Fullerite-C540 | 42,830 | **43,680** | 43,680 | 44,420 |
-| 20 | ☐ Criterion Cipher | 12,840,000 | **17,610,000** | 21,920,000 | 17,600,000 |
+| 19 | ☐ Compressed Fullerite-C540 | 42,830 | **43,750** | 43,750 | 49,430 |
+| 20 | ☐ Criterion Cipher | 12,840,000 | **17,620,000** | 21,900,000 | 17,610,000 |
 
 #### Cancel buy orders
 _My Orders → Buying. Right-click → Cancel Order._
@@ -95,7 +95,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 22 | ☐ 50MN Microwarpdrive II | 3,724,000 | **3,748,000** | 3,843,000 | 3,747,000 |
+| 22 | ☐ 50MN Microwarpdrive II | 3,724,000 | **3,748,000** | 3,842,000 | 3,747,000 |
 
 ---
 Wallet 95.40M · escrow 1.08B · stock 3.78B · in transit 0.00 · net worth 4.95B (liquidation 2.48B)
