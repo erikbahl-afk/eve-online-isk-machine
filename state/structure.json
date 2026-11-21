@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0128,
+ "ask_ratio_median": 1.02,
  "buy_orders": 5818,
  "buy_orders_reaching_jita": 5739,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6286,
- "sell_orders": 468,
- "share_ask_below_jita": 0.3864,
+ "orders": 6287,
+ "sell_orders": 469,
+ "share_ask_below_jita": 0.3671,
  "structure_id": 1042508032148,
- "t": 1795276875.7157454,
+ "t": 1795284067.9351327,
  "top_ask_below_jita": [
   {
    "best_ask": 63990.0,
@@ -24,18 +24,18 @@
    "type_id": 90470
   },
   {
+   "best_ask": 999000.0,
+   "gap": 0.975,
+   "name": "",
+   "s_ask": 24990.0,
+   "type_id": 22576
+  },
+  {
    "best_ask": 199700000.0,
    "gap": 0.8998,
    "name": "",
    "s_ask": 20000000.0,
    "type_id": 45894
-  },
-  {
-   "best_ask": 18260.0,
-   "gap": 0.8905,
-   "name": "",
-   "s_ask": 1999.0,
-   "type_id": 84399
   },
   {
    "best_ask": 2228.0,
@@ -73,6 +73,13 @@
    "type_id": 91133
   },
   {
+   "best_ask": 5000.0,
+   "gap": 0.6002,
+   "name": "",
+   "s_ask": 1999.0,
+   "type_id": 84399
+  },
+  {
    "best_ask": 4756000.0,
    "gap": 0.5795,
    "name": "",
@@ -94,13 +101,6 @@
    "type_id": 46916
   },
   {
-   "best_ask": 5674000.0,
-   "gap": 0.5559,
-   "name": "",
-   "s_ask": 2520000.0,
-   "type_id": 52284
-  },
-  {
    "best_ask": 3376000.0,
    "gap": 0.5557,
    "name": "",
@@ -108,23 +108,15 @@
    "type_id": 45949
   },
   {
-   "best_ask": 76760000.0,
-   "gap": 0.544,
+   "best_ask": 5670000.0,
+   "gap": 0.5556,
    "name": "",
-   "s_ask": 35000000.0,
-   "type_id": 47621
+   "s_ask": 2520000.0,
+   "type_id": 52284
   }
  ],
- "top_bid_over_jita": [
-  {
-   "best_bid": 1950000.0,
-   "gap": 0.0005,
-   "name": "Logic Circuit",
-   "s_bid_reach": 1951000.0,
-   "type_id": 25619
-  }
- ],
+ "top_bid_over_jita": [],
  "types": 3842,
  "types_also_in_jita": 3841,
- "types_bid_over_jita_reaching": 1
+ "types_bid_over_jita_reaching": 0
 }

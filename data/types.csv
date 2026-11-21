@@ -389,7 +389,7 @@ type_id,name,volume,group_id
 11978,Scimitar,10000,832
 11985,Basilisk,,
 11987,Guardian,10000,832
-11989,,10000,
+11989,Oneiros,10000,832
 11993,Cerberus,10000,358
 11995,Onyx,10000,894
 11999,Vagabond,10000,358
@@ -419,6 +419,7 @@ type_id,name,volume,group_id
 12214,Medium Pulse Laser Specialization,,
 12221,Medium Remote Capacitor Transmitter II,10,
 12223,,1000,
+12235,,8000,365
 12237,,8000,
 12259,Medium Energy Nosferatu II,5,68
 12263,Heavy Energy Nosferatu II,5,
@@ -432,7 +433,7 @@ type_id,name,volume,group_id
 12487,Caldari Drone Specialization,0.01,273
 12529,,0.1,370
 12532,Blood Bronze Tag,0.1,370
-12533,,0.1,370
+12533,Blood Silver Tag,0.1,370
 12537,Serpentis Bronze Tag,0.1,370
 12542,,0.1,370
 12563,,1,375
@@ -553,7 +554,7 @@ type_id,name,volume,group_id
 14047,,5,
 14049,Shadow Serpentis Multispectrum Coating,5,98
 14059,Shadow Serpentis EM Armor Hardener,5,328
-14061,,5,328
+14061,Shadow Serpentis Explosive Armor Hardener,5,328
 14063,,5,328
 14065,Shadow Serpentis Thermal Armor Hardener,5,328
 14067,Shadow Serpentis Large Armor Repairer,50,
@@ -706,6 +707,7 @@ type_id,name,volume,group_id
 16004,Eifyr and Co. 'Rogue' Evasive Maneuvering EM-705,1,747
 16008,Eifyr and Co. 'Rogue' Acceleration Control AC-603,,
 16050,Republic Fleet 200mm Autocannon,,
+16053,,5,55
 16057,Republic Fleet 800mm Repeating Cannon,,
 16061,Caldari Navy Rapid Light Missile Launcher,10,511
 16062,Caldari Navy Cruise Missile Launcher,20,506
@@ -916,7 +918,7 @@ type_id,name,volume,group_id
 19015,Coreli A-Type Small Armor Repairer,5,62
 19017,Corpum C-Type Medium Armor Repairer,10,62
 19019,Corpum B-Type Medium Armor Repairer,10,62
-19023,,10,62
+19023,Centum C-Type Medium Armor Repairer,10,62
 19025,Centum B-Type Medium Armor Repairer,10,62
 19027,Centum A-Type Medium Armor Repairer,10,62
 19029,Corelum C-Type Medium Armor Repairer,10,62
@@ -1748,7 +1750,7 @@ type_id,name,volume,group_id
 34264,Focused Void Bomb,75,864
 34268,Medium Higgs Anchor I,,
 34272,Polarized Small Focused Pulse Laser,5,53
-34276,Polarized Mega Pulse Laser,20,
+34276,Polarized Mega Pulse Laser,20,53
 34278,Polarized Light Neutron Blaster,5,74
 34280,Polarized Heavy Neutron Blaster,10,
 34282,Polarized Neutron Blaster Cannon,20,74
@@ -2027,7 +2029,7 @@ type_id,name,volume,group_id
 47271,Leshak,50000,27
 47272,,5,1986
 47286,,0.1,1088
-47297,,1,1964
+47297,Unstable 50MN Microwarpdrive Mutaplasmid,1,1964
 47298,Standup Multirole Missile Launcher II,4000,
 47323,Standup Anticapital Missile Launcher II,,
 47334,,4000,1442
@@ -2456,6 +2458,7 @@ type_id,name,volume,group_id
 85394,Warp Disruption Mutaplasmid Residue,0.01,1996
 85400,X-Large Mutaplasmid Residue,0.01,1996
 85401,Engineering Mutaplasmid Residue,0.01,1996
+85514,Glorified Gravid Large Cap Battery Mutaplasmid,1,1964
 85521,,1,1964
 85543,Glorified Gravid Large Shield Booster Mutaplasmid,,
 85551,Glorified Gravid X-Large Shield Booster Mutaplasmid,,
@@ -2473,6 +2476,7 @@ type_id,name,volume,group_id
 86260,Breacher Pod Launcher Operation,0.01,256
 86261,Breacher Pod Clone Efficacity,0.01,256
 86262,,0.01,
+86263,Breacher Pod Projection,0.01,256
 86264,Breacher Pod Rapid Firing,0.01,256
 87324,Navy Scan Pinpointing Array,5,1223
 87504,Paladin Imperial Police SKIN,0.01,
@@ -2557,6 +2561,7 @@ type_id,name,volume,group_id
 92572,Crystalline Kangite,,
 92818,Compressed Raspite X-Grade,0.01,5083
 92819,Compressed Polycrase X-Grade,0.01,5084
+92963,,0.01,1950
 93145,,1100,101
 93350,Guerilla Republic - Unlimited,,
 93466,Imperial Benediction - Unlimited,,
