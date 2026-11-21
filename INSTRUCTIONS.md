@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Sat 21 Nov 02:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Sat 21 Nov 04:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 25 · **Est. time:** 14 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -41,7 +41,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 | 8 | ☐ Caesium | 6,635 | **6,634** | 6,165 | 6,635 |
 | 9 | ☐ Gravid Vorton Tuning System Mutaplasmid | 67,670,000 | **60,900,000** | 54,540,000 | 67,680,000 |
 | 10 | ☐ Men's 'Precision' Boots | 80,990,000 | **72,890,000** | 49,760,000 | 100,000,000 |
-| 11 | ☐ Mobile Large Warp Disruptor I | 24,710,000 | **24,610,000** | 18,570,000 | 24,620,000 |
+| 11 | ☐ Mobile Large Warp Disruptor I | 24,710,000 | **24,600,000** | 18,570,000 | 24,610,000 |
 | 12 | ☐ Shrapnel Bomb | 1,657,000 | **1,657,000** | 1,311,000 | 1,658,000 |
 
 ### Block 3 · if there's time · about 1 min
@@ -53,7 +53,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
 | 13 | ☐ Limited Expanded 'Archiver' Cargo | 49,700,000 | **49,630,000** | 25,980,000 | 49,640,000 |
-| 14 | ☐ Polarized Light Neutron Blaster | 5,884,000 | **5,884,000** | 3,818,000 | 5,885,000 |
+| 14 | ☐ Polarized Light Neutron Blaster | 5,884,000 | **5,883,000** | 3,818,000 | 5,884,000 |
 | 15 | ☐ Zero-Point Mass Entangler | 8,875,000 | **8,875,000** | 8,875,000 | 8,700,000 |
 
 ## 16. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
@@ -68,8 +68,8 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 17 | ☐ Compressed Glistening Zeolites | 2,482 | **2,518** | 2,563 | 2,517 |
-| 18 | ☐ Compressed Hezorime III-Grade | 778.10 | **663.50** | 883.70 | 663.40 |
+| 17 | ☐ Compressed Glistening Zeolites | 2,482 | **2,518** | 2,561 | 2,517 |
+| 18 | ☐ Glorified Unstable Medium Remote Armor Repairer Mutaplasmid | 77,150,000 | **77,160,000** | 107,900,000 | 77,150,000 |
 | 19 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **175,100,000** | 186,000,000 | 175,000,000 |
 
 #### Cancel buy orders
@@ -86,8 +86,8 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 21 | ☐ Compressed Dark Glitter | 322,000 | **332,700** | 388,400 | 332,600 |
-| 22 | ☐ Compressed Fullerite-C540 | 42,830 | **43,310** | 43,310 | 44,300 |
+| 21 | ☐ Compressed Fullerite-C540 | 42,830 | **43,220** | 43,220 | 44,310 |
+| 22 | ☐ Compressed Hezorime III-Grade | 778.10 | **663.50** | 883.70 | 663.40 |
 
 #### Cancel buy orders
 _My Orders → Buying. Right-click → Cancel Order._
@@ -103,8 +103,8 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 24 | ☐ 50MN Microwarpdrive II | 3,724,000 | **3,748,000** | 3,841,000 | 3,747,000 |
-| 25 | ☐ Criterion Cipher | 12,840,000 | **17,680,000** | 21,870,000 | 17,670,000 |
+| 24 | ☐ 50MN Microwarpdrive II | 3,724,000 | **3,748,000** | 3,839,000 | 3,747,000 |
+| 25 | ☐ Criterion Cipher | 12,840,000 | **17,720,000** | 21,830,000 | 17,710,000 |
 
 ---
 Wallet 97.44M · escrow 1.08B · stock 3.78B · in transit 0.00 · net worth 4.95B (liquidation 2.48B)
