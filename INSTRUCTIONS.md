@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Fri 20 Nov 19:13 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Fri 20 Nov 20:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 22 · **Est. time:** 13 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -53,7 +53,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 |---|---|---|---|---|---|
 | 12 | ☐ Limited Expanded 'Archiver' Cargo | 49,700,000 | **49,660,000** | 25,980,000 | 49,670,000 |
 | 13 | ☐ Polarized Light Neutron Blaster | 5,884,000 | **5,860,000** | 3,818,000 | 5,861,000 |
-| 14 | ☐ Zero-Point Mass Entangler | 8,875,000 | **8,875,000** | 8,875,000 | 8,749,000 |
+| 14 | ☐ Zero-Point Mass Entangler | 8,875,000 | **8,875,000** | 8,875,000 | 8,748,000 |
 
 ## 15. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
 _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
@@ -67,7 +67,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 16 | ☐ Compressed Glistening Zeolites | 2,482 | **2,493** | 2,621 | 2,492 |
+| 16 | ☐ Compressed Glistening Zeolites | 2,482 | **2,494** | 2,621 | 2,493 |
 | 17 | ☐ Gistum B-Type Medium Shield Booster | 112,300,000 | **113,400,000** | 114,600,000 | 113,300,000 |
 | 18 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **175,100,000** | 186,000,000 | 175,000,000 |
 
@@ -79,7 +79,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 19 | ☐ Compressed Fullerite-C540 | 42,830 | **43,750** | 43,750 | 49,430 |
-| 20 | ☐ Criterion Cipher | 12,840,000 | **17,620,000** | 21,900,000 | 17,610,000 |
+| 20 | ☐ Criterion Cipher | 12,840,000 | **17,640,000** | 21,900,000 | 17,630,000 |
 
 #### Cancel buy orders
 _My Orders → Buying. Right-click → Cancel Order._
@@ -95,7 +95,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 22 | ☐ 50MN Microwarpdrive II | 3,724,000 | **3,748,000** | 3,842,000 | 3,747,000 |
+| 22 | ☐ 50MN Microwarpdrive II | 3,724,000 | **3,747,000** | 3,800,000 | 3,746,000 |
 
 ---
 Wallet 95.40M · escrow 1.08B · stock 3.78B · in transit 0.00 · net worth 4.95B (liquidation 2.48B)

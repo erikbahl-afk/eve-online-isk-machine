@@ -394,7 +394,7 @@ type_id,name,volume,group_id
 12019,Sacrilege,10000,358
 12023,Deimos,10000,358
 12032,Manticore,2500,834
-12034,,2500,834
+12034,Hound,2500,834
 12038,Purifier,2500,834
 12042,Ishkur,2500,324
 12044,,2500,
@@ -859,6 +859,7 @@ type_id,name,volume,group_id
 18869,,5,326
 18871,Centum A-Type EM Energized Membrane,5,326
 18877,Corpum A-Type Kinetic Energized Membrane,5,326
+18879,,5,326
 18881,Corpum A-Type Multispectrum Energized Membrane,5,
 18883,Centum A-Type Multispectrum Energized Membrane,5,326
 18885,Corpus C-Type EM Armor Hardener,5,328
@@ -894,6 +895,7 @@ type_id,name,volume,group_id
 18999,,5,
 19003,,5,
 19009,Centii A-Type Small Armor Repairer,5,62
+19013,Coreli B-Type Small Armor Repairer,5,62
 19015,Coreli A-Type Small Armor Repairer,5,62
 19017,Corpum C-Type Medium Armor Repairer,10,62
 19019,Corpum B-Type Medium Armor Repairer,10,62
@@ -969,7 +971,7 @@ type_id,name,volume,group_id
 19293,Gist A-Type Shield Boost Amplifier,5,
 19295,Pith X-Type Shield Boost Amplifier,5,338
 19297,Gist C-Type Shield Boost Amplifier,5,338
-19301,Gist X-Type Shield Boost Amplifier,5,
+19301,Gist X-Type Shield Boost Amplifier,5,338
 19311,,5,
 19315,Corelum C-Type 50MN Microwarpdrive,10,46
 19321,Corelum B-Type 50MN Microwarpdrive,10,46
@@ -1051,7 +1053,7 @@ type_id,name,volume,group_id
 20613,'Glycerine' Shield Boost Amplifier,5,338
 20623,,50,
 20629,,10,
-20631,,20,38
+20631,Large 'Sheriff' Shield Extender,20,38
 20747,,0.125,83
 20779,,0.0125,83
 20783,Domination EMP M,0.0125,83
@@ -1182,6 +1184,7 @@ type_id,name,volume,group_id
 23894,,5,768
 23896,,5,767
 24242,Infomorph Psychology,,
+24348,,50,650
 24438,Omnidirectional Tracking Link II,,
 24486,Inferno Rage Heavy Assault Missile,,
 24490,,0.015,654
@@ -1216,7 +1219,7 @@ type_id,name,volume,group_id
 25267,,0.01,
 25278,,10,711
 25349,Strong Exile Booster,1,303
-25530,,0.01,1220
+25530,Neurotoxin Recovery,0.01,1220
 25538,,0.01,
 25544,Gas Cloud Harvesting,0.01,
 25563,,5,
@@ -1565,6 +1568,7 @@ type_id,name,volume,group_id
 31802,Medium Core Defense Field Purger I,10,
 31810,Small Core Defense Field Purger II,5,
 31812,Medium Core Defense Field Purger II,10,774
+31818,Medium Core Defense Operational Solidifier I,,
 31824,,10,
 31866,Imperial Navy Infiltrator,10,100
 31868,Imperial Navy Curator,25,100
@@ -1575,7 +1579,7 @@ type_id,name,volume,group_id
 31878,Caldari Navy Warden,25,100
 31880,Federation Navy Hobgoblin,5,100
 31882,,10,100
-31884,Federation Navy Ogre,25,
+31884,Federation Navy Ogre,25,100
 31888,Republic Fleet Warrior,5,100
 31890,Republic Fleet Valkyrie,10,100
 31894,,25,100
@@ -2340,7 +2344,7 @@ type_id,name,volume,group_id
 72812,Ferox Navy Issue,15000,419
 72869,Myrmidon Navy Issue,,
 72872,,15000,419
-72903,,2500,25
+72903,Probe Fleet Issue,2500,25
 72904,Heron Navy Issue,2500,25
 72913,Imicus Navy Issue,,
 73455,Prophecy Sanguinary Savant SKIN,,
