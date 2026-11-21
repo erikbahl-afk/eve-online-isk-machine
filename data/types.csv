@@ -34,7 +34,7 @@ type_id,name,volume,group_id
 632,,10000,26
 633,,10000,26
 638,Raven,50000,27
-639,,50000,27
+639,Tempest,50000,27
 640,Scorpion,50000,27
 641,Megathron,50000,27
 642,Apocalypse,50000,27
@@ -166,7 +166,7 @@ type_id,name,volume,group_id
 3113,Eifyr and Co. 'Rogue' High Speed Maneuvering HS-904,,
 3119,Eifyr and Co. 'Rogue' Warp Drive Speed WS-618,1,747
 3122,Electron Blaster Cannon II,,
-3126,,1,746
+3126,Zainou 'Deadeye' Guided Missile Precision GP-804,1,746
 3130,Heavy Electron Blaster II,10,74
 3134,Zainou 'Deadeye' Missile Projection MP-704,,
 3135,Zainou 'Deadeye' Missile Projection MP-706,1,
@@ -667,6 +667,7 @@ type_id,name,volume,group_id
 15764,Federation Navy 50MN Microwarpdrive,10,46
 15766,Federation Navy 10MN Afterburner,5,46
 15768,,10,46
+15770,,5,46
 15780,,5,76
 15784,,10,76
 15790,Caldari Navy Cloaking Device,100,330
@@ -861,6 +862,7 @@ type_id,name,volume,group_id
 18797,Coreli A-Type Thermal Coating,5,98
 18799,Corelum C-Type Multispectrum Energized Membrane,5,326
 18813,,5,
+18817,,5,326
 18827,Corelum A-Type Thermal Energized Membrane,5,
 18829,Corpum C-Type Multispectrum Energized Membrane,5,326
 18831,,5,326
@@ -960,6 +962,7 @@ type_id,name,volume,group_id
 19193,Gist C-Type Large Shield Booster,,
 19194,Gist B-Type Large Shield Booster,25,
 19195,,50,40
+19196,Gist B-Type X-Large Shield Booster,50,40
 19197,Gist A-Type X-Large Shield Booster,50,
 19198,Gist X-Type X-Large Shield Booster,50,40
 19199,Gist A-Type Large Shield Booster,25,40
@@ -1302,6 +1305,7 @@ type_id,name,volume,group_id
 26412,Large Warhead Flare Catalyst II,20,779
 26414,Large Warhead Rigor Catalyst II,20,
 26416,Large Hydraulic Bay Thrusters II,20,
+26418,,20,779
 26424,Large Projectile Collision Accelerator II,20,
 26428,Large Projectile Ambit Extension II,20,
 26434,Large Projectile Metastasis Adjuster II,20,
@@ -1317,7 +1321,7 @@ type_id,name,volume,group_id
 26913,,10,325
 26914,Large Remote Armor Repairer II,25,325
 27094,,1,
-27108,Zainou 'Snapshot' Light Missiles LM-903,1,
+27108,Zainou 'Snapshot' Light Missiles LM-903,1,746
 27109,,1,
 27114,Eifyr and Co. 'Rogue' Warp Drive Speed WS-615,1,747
 27116,Inherent Implants 'Squire' Capacitor Management EM-805,1,741
@@ -1386,7 +1390,7 @@ type_id,name,volume,group_id
 27918,Shrapnel Bomb,75,90
 27920,Electron Bomb,75,90
 27922,Lockbreaker Bomb,,
-27924,,75,
+27924,Void Bomb,75,
 28201,Light Armor Maintenance Bot II,5,
 28209,,25,100
 28211,Garde II,25,100
@@ -1417,6 +1421,7 @@ type_id,name,volume,group_id
 28375,,10,
 28377,Caldari Navy Heavy Assault Missile Launcher,10,771
 28379,Domination Heavy Assault Missile Launcher,,
+28381,,10,771
 28433,Compressed Blue Ice,,
 28435,Compressed Dark Glitter,100,465
 28437,Compressed Gelidus,100,465
@@ -1703,14 +1708,14 @@ type_id,name,volume,group_id
 33816,Garmur,2500,25
 33818,Orthrus,10000,26
 33820,Barghest,50000,27
-33826,,5,646
+33826,Sentient Omnidirectional Tracking Link,5,646
 33830,Dread Guristas Omnidirectional Tracking Enhancer,,
 33842,Federation Navy Drone Damage Amplifier,5,645
 33844,Imperial Navy Drone Damage Amplifier,5,645
 33846,Dread Guristas Drone Damage Amplifier,5,645
 33848,Sentient Drone Damage Amplifier,5,645
 33850,Federation Navy Drone Navigation Computer,25,644
-33852,,25,644
+33852,Sentient Drone Navigation Computer,25,644
 33890,Small Transverse Bulkhead I,5,773
 33894,Medium Transverse Bulkhead I,10,
 33896,Medium Transverse Bulkhead II,10,773
@@ -1795,7 +1800,7 @@ type_id,name,volume,group_id
 35949,,4000,
 36908,Antipharmakon Thureo,1,303
 36909,Antipharmakon Kosybo,1,303
-36910,,1,
+36910,Antipharmakon Iokira,1,303
 36911,Antipharmakon Toxot,1,303
 36912,Antipharmakon Aeolis,1,303
 37135,,2500,1283
@@ -1950,7 +1955,7 @@ type_id,name,volume,group_id
 43688,Astral Mining Inc. Strong Box,,
 43694,'Augmented' Mining Drone,5,101
 43700,Ice Harvesting Drone II,,
-43701,'Augmented' Ice Harvesting Drone,50,
+43701,'Augmented' Ice Harvesting Drone,50,101
 43775,ORE Mining Director Mindlink,1,744
 43880,Standup M-Set Invention Accelerator I,,
 43896,Medium Command Processor I,,
@@ -2013,7 +2018,7 @@ type_id,name,volume,group_id
 46182,,0.01,1888
 46213,Ferrogel Reaction Formula,,
 46251,Improved Blue Pill Booster Reaction Formula,,
-46355,Ubiquitous Moon Mining Crystal Type A I,6,
+46355,Ubiquitous Moon Mining Crystal Type A I,6,482
 46356,Ubiquitous Moon Mining Crystal Type A II,10,482
 46375,Daily Alpha Injector,0.01,1739
 46490,,10,1936
@@ -2103,6 +2108,7 @@ type_id,name,volume,group_id
 48114,Agency 'Overclocker' SB9 Dose IV,1,303
 48115,Agency 'Pyrolancea' DB9 Dose IV,1,303
 48386,,0.1,1088
+48387,,0.1,1088
 48434,Unstable Medium Cap Battery Mutaplasmid,,
 48437,Gravid Large Cap Battery Mutaplasmid,1,1964
 48438,Unstable Large Cap Battery Mutaplasmid,1,1964
@@ -2391,7 +2397,7 @@ type_id,name,volume,group_id
 74160,,0.01,
 75275,,0.001,4513
 75276,Compressed Mordunium II-Grade,0.001,4513
-75277,,0.001,4513
+75277,Compressed Mordunium III-Grade,0.001,4513
 75278,Compressed Mordunium IV-Grade,0.001,4513
 75279,,0.006,4514
 75283,,0.16,4515
@@ -2561,6 +2567,7 @@ type_id,name,volume,group_id
 92572,Crystalline Kangite,,
 92818,Compressed Raspite X-Grade,0.01,5083
 92819,Compressed Polycrase X-Grade,0.01,5084
+92954,,0.01,1989
 92963,,0.01,1950
 93145,,1100,101
 93350,Guerilla Republic - Unlimited,,
@@ -2641,6 +2648,7 @@ type_id,name,volume,group_id
 97552,Hyperspherical Housing,0.1,1194
 97560,Polycrase X-Grade,,
 97564,Compressed Raspite X-Grade,0.01,5083
+97566,,0.01,5084
 97569,Compressed Moissanite X-Grade,0.01,5085
 97570,Compressed Kangite X-Grade,0.01,5086
 97621,Pioneer Medical Enforcement Taskforce SKIN,,
@@ -2674,7 +2682,7 @@ type_id,name,volume,group_id
 98338,Ultra-Indigo Matte - Unlimited,,
 98409,,1,303
 98415,Imperial Mobility Booster II,,
-98416,,1,303
+98416,Imperial Mobility Booster III,1,303
 98417,Imperial Hardpoint Booster I,,
 98418,,1,303
 98419,Imperial Hardpoint Booster III,1,303
