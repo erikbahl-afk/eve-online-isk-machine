@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0418,
- "buy_orders": 5795,
- "buy_orders_reaching_jita": 5713,
+ "ask_ratio_median": 1.041,
+ "buy_orders": 5822,
+ "buy_orders_reaching_jita": 5740,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6209,
- "sell_orders": 414,
- "share_ask_below_jita": 0.2615,
+ "orders": 6238,
+ "sell_orders": 416,
+ "share_ask_below_jita": 0.2678,
  "structure_id": 1042508032148,
- "t": 1795219257.8637516,
+ "t": 1795226460.0598805,
  "top_ask_below_jita": [
   {
    "best_ask": 63990.0,
@@ -22,6 +22,13 @@
    "name": "",
    "s_ask": 1.66,
    "type_id": 90470
+  },
+  {
+   "best_ask": 999800.0,
+   "gap": 0.975,
+   "name": "",
+   "s_ask": 24990.0,
+   "type_id": 22576
   },
   {
    "best_ask": 18260.0,
@@ -106,17 +113,46 @@
    "name": "",
    "s_ask": 10000000.0,
    "type_id": 13235
-  },
-  {
-   "best_ask": 699900000.0,
-   "gap": 0.4285,
-   "name": "",
-   "s_ask": 400000000.0,
-   "type_id": 45665
   }
  ],
- "top_bid_over_jita": [],
- "types": 3804,
- "types_also_in_jita": 3803,
- "types_bid_over_jita_reaching": 0
+ "top_bid_over_jita": [
+  {
+   "best_bid": 117800.0,
+   "gap": 0.0008,
+   "name": "",
+   "s_bid_reach": 117900.0,
+   "type_id": 63784
+  },
+  {
+   "best_bid": 154500.0,
+   "gap": 0.0006,
+   "name": "",
+   "s_bid_reach": 154600.0,
+   "type_id": 63771
+  },
+  {
+   "best_bid": 190100.0,
+   "gap": 0.0005,
+   "name": "Compressed Glare Crust",
+   "s_bid_reach": 190200.0,
+   "type_id": 28439
+  },
+  {
+   "best_bid": 40100.0,
+   "gap": 0.0002,
+   "name": "",
+   "s_bid_reach": 40110.0,
+   "type_id": 63780
+  },
+  {
+   "best_bid": 65110.0,
+   "gap": 0.0002,
+   "name": "",
+   "s_bid_reach": 65120.0,
+   "type_id": 63785
+  }
+ ],
+ "types": 3816,
+ "types_also_in_jita": 3815,
+ "types_bid_over_jita_reaching": 5
 }

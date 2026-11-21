@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Fri 20 Nov 16:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Fri 20 Nov 18:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 22 · **Est. time:** 13 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -40,7 +40,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 | 7 | ☐ Caesium | 6,635 | **6,634** | 6,165 | 6,635 |
 | 8 | ☐ Golem Exoplanets Hunter SKIN | 142,000,000 | **142,000,000** | 130,200,000 | - |
 | 9 | ☐ Low-grade Crystal Epsilon | 136,800,000 | **136,800,000** | 0.01 | 136,900,000 |
-| 10 | ☐ Mobile Large Warp Disruptor I | 24,710,000 | **24,660,000** | 18,570,000 | 24,670,000 |
+| 10 | ☐ Mobile Large Warp Disruptor I | 24,710,000 | **24,630,000** | 18,570,000 | 24,640,000 |
 | 11 | ☐ Shrapnel Bomb | 1,657,000 | **1,657,000** | 1,311,000 | 1,658,000 |
 
 ### Block 3 · if there's time · about 1 min
@@ -53,7 +53,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 |---|---|---|---|---|---|
 | 12 | ☐ Limited Expanded 'Archiver' Cargo | 49,700,000 | **49,660,000** | 25,980,000 | 49,670,000 |
 | 13 | ☐ Polarized Light Neutron Blaster | 5,884,000 | **5,860,000** | 3,818,000 | 5,861,000 |
-| 14 | ☐ Zero-Point Mass Entangler | 8,875,000 | **8,875,000** | 8,875,000 | 8,748,000 |
+| 14 | ☐ Zero-Point Mass Entangler | 8,875,000 | **8,875,000** | 8,875,000 | 8,749,000 |
 
 ## 15. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
 _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
@@ -68,8 +68,8 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 16 | ☐ Compressed Glistening Zeolites | 2,482 | **2,493** | 2,621 | 2,492 |
-| 17 | ☐ Gistum B-Type Medium Shield Booster | 112,300,000 | **113,100,000** | 114,500,000 | 113,000,000 |
-| 18 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **175,100,000** | 180,400,000 | 175,000,000 |
+| 17 | ☐ Gistum B-Type Medium Shield Booster | 112,300,000 | **113,400,000** | 114,600,000 | 113,300,000 |
+| 18 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **175,100,000** | 181,100,000 | 175,000,000 |
 
 ### Block 2 · should do · about 1 min
 
@@ -78,8 +78,8 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 19 | ☐ Compressed Fullerite-C540 | 42,830 | **43,680** | 43,680 | 44,400 |
-| 20 | ☐ Criterion Cipher | 12,840,000 | **17,600,000** | 21,920,000 | 17,590,000 |
+| 19 | ☐ Compressed Fullerite-C540 | 42,830 | **43,680** | 43,680 | 44,420 |
+| 20 | ☐ Criterion Cipher | 12,840,000 | **17,610,000** | 21,920,000 | 17,600,000 |
 
 #### Cancel buy orders
 _My Orders → Buying. Right-click → Cancel Order._
@@ -95,7 +95,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 22 | ☐ 50MN Microwarpdrive II | 3,724,000 | **3,748,000** | 3,842,000 | 3,747,000 |
+| 22 | ☐ 50MN Microwarpdrive II | 3,724,000 | **3,748,000** | 3,843,000 | 3,747,000 |
 
 ---
 Wallet 95.40M · escrow 1.08B · stock 3.78B · in transit 0.00 · net worth 4.95B (liquidation 2.48B)
