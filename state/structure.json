@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0089,
- "buy_orders": 5793,
- "buy_orders_reaching_jita": 5710,
+ "ask_ratio_median": 1.0102,
+ "buy_orders": 5790,
+ "buy_orders_reaching_jita": 5708,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6272,
- "sell_orders": 479,
- "share_ask_below_jita": 0.3827,
+ "orders": 6266,
+ "sell_orders": 476,
+ "share_ask_below_jita": 0.3797,
  "structure_id": 1042508032148,
- "t": 1795262459.8898258,
+ "t": 1795264815.4155126,
  "top_ask_below_jita": [
   {
    "best_ask": 63990.0,
@@ -108,15 +108,15 @@
    "type_id": 45949
   },
   {
-   "best_ask": 9958000.0,
-   "gap": 0.5481,
+   "best_ask": 76760000.0,
+   "gap": 0.544,
    "name": "",
-   "s_ask": 4500000.0,
-   "type_id": 52281
+   "s_ask": 35000000.0,
+   "type_id": 47621
   }
  ],
  "top_bid_over_jita": [],
- "types": 3845,
- "types_also_in_jita": 3844,
+ "types": 3842,
+ "types_also_in_jita": 3841,
  "types_bid_over_jita_reaching": 0
 }

@@ -125,6 +125,7 @@ type_id,name,volume,group_id
 2575,,5,201
 2605,Nanofiber Internal Structure II,5,763
 2613,Mjolnir Fury Light Missile,,
+2621,,0.05,656
 2629,,0.03,655
 2655,,0.03,655
 2801,Nova Javelin Torpedo,0.05,
@@ -584,6 +585,7 @@ type_id,name,volume,group_id
 14168,Dark Blood Heavy Energy Neutralizer,5,
 14170,True Sansha Heavy Energy Neutralizer,5,71
 14172,Dark Blood Heavy Capacitor Booster,20,76
+14174,,20,76
 14176,Dark Blood Medium Capacitor Booster,,
 14184,Dark Blood Small Capacitor Booster,5,76
 14190,True Sansha Large EMP Smartbomb,50,72
@@ -683,6 +685,7 @@ type_id,name,volume,group_id
 15895,Federation Navy Magnetic Field Stabilizer,5,302
 15897,Caldari Navy X-Large Shield Booster,50,
 15898,Caldari Navy Small Shield Booster,5,
+15899,Caldari Navy Medium Shield Booster,,
 15900,Caldari Navy Large Shield Booster,25,40
 15902,Republic Fleet Small Shield Booster,5,40
 15905,Caldari Navy Shield Boost Amplifier,5,338
@@ -949,7 +952,7 @@ type_id,name,volume,group_id
 19195,,50,40
 19197,Gist A-Type X-Large Shield Booster,50,
 19198,Gist X-Type X-Large Shield Booster,50,40
-19199,,25,40
+19199,Gist A-Type Large Shield Booster,25,40
 19200,Gist X-Type Large Shield Booster,25,40
 19201,,25,40
 19202,Pith C-Type X-Large Shield Booster,50,40
@@ -1472,7 +1475,9 @@ type_id,name,volume,group_id
 29992,Optimized Nano-Engines,,
 30018,,0.01,
 30019,,0.01,966
+30021,,0.01,966
 30024,,0.01,966
+30187,Intact Thruster Sections,10,971
 30251,Neurovisual Input Matrix,0.01,966
 30252,Thermoelectric Catalysts,0.01,966
 30254,Electromechanical Hull Sheeting,0.01,966
