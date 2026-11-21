@@ -3,13 +3,13 @@
 
 # Session checklist
 
-**Updated:** Sat 21 Nov 00:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 24 · **Est. time:** 13 min. Work top to bottom; stop any time.  
+**Updated:** Sat 21 Nov 02:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 25 · **Est. time:** 14 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
 
-_Left out 15 small steps worth less than 990.77k per minute of your time (0.02% of net worth per minute)._
+_Left out 14 small steps worth less than 990.77k per minute of your time (0.02% of net worth per minute)._
 
 Each hub's steps come in **priority blocks**: finish Block 1 before anything else, and stop wherever your time runs out. Within a block, steps follow the in-game windows for speed.
 
@@ -24,7 +24,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 |---|---|---|---|---|---|
 | 1 | ☐ 'Cartel' Power Diagnostic System I | 68,080,000 | **68,030,000** | 30,280,000 | 68,040,000 |
 | 2 | ☐ Black Market 'Valdimar' Drone Navigation DN-701 | 149,800,000 | **134,800,000** | 126,600,000 | 199,900,000 |
-| 3 | ☐ Dread Guristas Rocket Launcher | 99,070,000 | **99,040,000** | 47,280,000 | 99,050,000 |
+| 3 | ☐ Dread Guristas Rocket Launcher | 99,070,000 | **89,160,000** | 47,280,000 | 99,250,000 |
 | 4 | ☐ Improved 'Guise' Cloaking Device II | 49,960,000 | **49,960,000** | 31,940,000 | 49,970,000 |
 | 5 | ☐ Standup M-Set Basic Small Ship Manufacturing Material Efficiency I | 566,600,000 | **509,900,000** | 335,200,000 | 715,000,000 |
 | 6 | ☐ Standup Moon Drill I | 144,600,000 | **144,500,000** | 130,900,000 | 144,600,000 |
@@ -53,7 +53,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
 | 13 | ☐ Limited Expanded 'Archiver' Cargo | 49,700,000 | **49,630,000** | 25,980,000 | 49,640,000 |
-| 14 | ☐ Polarized Light Neutron Blaster | 5,884,000 | **5,860,000** | 3,818,000 | 5,861,000 |
+| 14 | ☐ Polarized Light Neutron Blaster | 5,884,000 | **5,884,000** | 3,818,000 | 5,885,000 |
 | 15 | ☐ Zero-Point Mass Entangler | 8,875,000 | **8,875,000** | 8,875,000 | 8,700,000 |
 
 ## 16. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
@@ -68,8 +68,8 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 17 | ☐ Compressed Glistening Zeolites | 2,482 | **2,516** | 2,621 | 2,515 |
-| 18 | ☐ Compressed Hezorime III-Grade | 778.10 | **663.40** | 883.70 | 663.30 |
+| 17 | ☐ Compressed Glistening Zeolites | 2,482 | **2,518** | 2,563 | 2,517 |
+| 18 | ☐ Compressed Hezorime III-Grade | 778.10 | **663.50** | 883.70 | 663.40 |
 | 19 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **175,100,000** | 186,000,000 | 175,000,000 |
 
 #### Cancel buy orders
@@ -86,8 +86,8 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 21 | ☐ Compressed Fullerite-C540 | 42,830 | **43,840** | 43,840 | 44,520 |
-| 22 | ☐ Criterion Cipher | 12,840,000 | **17,680,000** | 21,900,000 | 17,670,000 |
+| 21 | ☐ Compressed Dark Glitter | 322,000 | **332,700** | 388,400 | 332,600 |
+| 22 | ☐ Compressed Fullerite-C540 | 42,830 | **43,310** | 43,310 | 44,300 |
 
 #### Cancel buy orders
 _My Orders → Buying. Right-click → Cancel Order._
@@ -103,7 +103,8 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 24 | ☐ 50MN Microwarpdrive II | 3,724,000 | **3,747,000** | 3,842,000 | 3,746,000 |
+| 24 | ☐ 50MN Microwarpdrive II | 3,724,000 | **3,748,000** | 3,841,000 | 3,747,000 |
+| 25 | ☐ Criterion Cipher | 12,840,000 | **17,680,000** | 21,870,000 | 17,670,000 |
 
 ---
 Wallet 97.44M · escrow 1.08B · stock 3.78B · in transit 0.00 · net worth 4.95B (liquidation 2.48B)

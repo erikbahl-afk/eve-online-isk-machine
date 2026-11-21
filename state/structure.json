@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0112,
- "buy_orders": 5802,
- "buy_orders_reaching_jita": 5719,
+ "ask_ratio_median": 1.0106,
+ "buy_orders": 5780,
+ "buy_orders_reaching_jita": 5697,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6269,
- "sell_orders": 467,
- "share_ask_below_jita": 0.3899,
+ "orders": 6250,
+ "sell_orders": 470,
+ "share_ask_below_jita": 0.3819,
  "structure_id": 1042508032148,
- "t": 1795248049.42125,
+ "t": 1795255255.8548918,
  "top_ask_below_jita": [
   {
    "best_ask": 63990.0,
@@ -17,14 +17,7 @@
    "type_id": 90499
   },
   {
-   "best_ask": 160.0,
-   "gap": 0.9896,
-   "name": "",
-   "s_ask": 1.66,
-   "type_id": 90470
-  },
-  {
-   "best_ask": 999800.0,
+   "best_ask": 999000.0,
    "gap": 0.975,
    "name": "",
    "s_ask": 24990.0,
@@ -59,11 +52,11 @@
    "type_id": 3301
   },
   {
-   "best_ask": 1590.0,
-   "gap": 0.7901,
+   "best_ask": 3600000.0,
+   "gap": 0.6358,
    "name": "",
-   "s_ask": 333.7,
-   "type_id": 57149
+   "s_ask": 1311000.0,
+   "type_id": 91133
   },
   {
    "best_ask": 3234.0,
@@ -73,8 +66,8 @@
    "type_id": 90590
   },
   {
-   "best_ask": 4764000.0,
-   "gap": 0.5802,
+   "best_ask": 4757000.0,
+   "gap": 0.5796,
    "name": "",
    "s_ask": 2000000.0,
    "type_id": 45766
@@ -94,8 +87,8 @@
    "type_id": 46916
   },
   {
-   "best_ask": 5680000.0,
-   "gap": 0.5563,
+   "best_ask": 5674000.0,
+   "gap": 0.5559,
    "name": "",
    "s_ask": 2520000.0,
    "type_id": 52284
@@ -113,10 +106,95 @@
    "name": "",
    "s_ask": 4500000.0,
    "type_id": 52281
+  },
+  {
+   "best_ask": 76760000.0,
+   "gap": 0.544,
+   "name": "",
+   "s_ask": 35000000.0,
+   "type_id": 47621
   }
  ],
- "top_bid_over_jita": [],
- "types": 3841,
- "types_also_in_jita": 3840,
- "types_bid_over_jita_reaching": 0
+ "top_bid_over_jita": [
+  {
+   "best_bid": 109200000.0,
+   "gap": 0.0009,
+   "name": "Caldari Navy Torpedo Launcher",
+   "s_bid_reach": 109300000.0,
+   "type_id": 16067
+  },
+  {
+   "best_bid": 16190000.0,
+   "gap": 0.0006,
+   "name": "Algos Navy Issue",
+   "s_bid_reach": 16200000.0,
+   "type_id": 91849
+  },
+  {
+   "best_bid": 2214000.0,
+   "gap": 0.0005,
+   "name": "",
+   "s_bid_reach": 2215000.0,
+   "type_id": 64379
+  },
+  {
+   "best_bid": 229700000.0,
+   "gap": 0.0004,
+   "name": "Devoter",
+   "s_bid_reach": 229800000.0,
+   "type_id": 12017
+  },
+  {
+   "best_bid": 34960000.0,
+   "gap": 0.0003,
+   "name": "Domination Shield Boost Amplifier",
+   "s_bid_reach": 34970000.0,
+   "type_id": 14045
+  },
+  {
+   "best_bid": 38000000.0,
+   "gap": 0.0003,
+   "name": "Covetor",
+   "s_bid_reach": 38010000.0,
+   "type_id": 17476
+  },
+  {
+   "best_bid": 4121000.0,
+   "gap": 0.0002,
+   "name": "",
+   "s_bid_reach": 4122000.0,
+   "type_id": 53508
+  },
+  {
+   "best_bid": 96160000.0,
+   "gap": 0.0002,
+   "name": "Gistum B-Type 50MN Microwarpdrive",
+   "s_bid_reach": 96180000.0,
+   "type_id": 19345
+  },
+  {
+   "best_bid": 640900.0,
+   "gap": 0.0002,
+   "name": "",
+   "s_bid_reach": 641000.0,
+   "type_id": 53041
+  },
+  {
+   "best_bid": 6494000.0,
+   "gap": 0.0002,
+   "name": "Dread Guristas Multispectral ECM",
+   "s_bid_reach": 6495000.0,
+   "type_id": 20199
+  },
+  {
+   "best_bid": 659400000.0,
+   "gap": 0.0002,
+   "name": "Ikitursa",
+   "s_bid_reach": 659500000.0,
+   "type_id": 52252
+  }
+ ],
+ "types": 3842,
+ "types_also_in_jita": 3841,
+ "types_bid_over_jita_reaching": 11
 }

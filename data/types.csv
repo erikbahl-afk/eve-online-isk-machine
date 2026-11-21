@@ -275,7 +275,7 @@ type_id,name,volume,group_id
 9491,1400mm 'Scout' Artillery I,20,55
 9497,1400mm Prototype Siege Cannon,,
 9580,,5,295
-9632,,5,
+9632,,5,77
 9734,,10,72
 9830,,0.75,1034
 9838,Superconductors,0.75,1034
@@ -1017,7 +1017,7 @@ type_id,name,volume,group_id
 20121,High-grade Crystal Alpha,1,300
 20125,Curse,10000,906
 20157,High-grade Crystal Beta,1,300
-20158,,1,300
+20158,High-grade Crystal Gamma,1,300
 20159,High-grade Crystal Delta,1,300
 20160,High-grade Crystal Epsilon,1,300
 20161,High-grade Crystal Omega,,
@@ -1043,6 +1043,7 @@ type_id,name,volume,group_id
 20443,Ogdin's Eye Coordination Enhancer,1,
 20445,Dual Giga Pulse Laser I Blueprint,,
 20499,,1,
+20500,,1,300
 20501,High-grade Amulet Beta,,
 20503,High-grade Amulet Delta,1,300
 20504,High-grade Halo Epsilon,,
@@ -1077,6 +1078,7 @@ type_id,name,volume,group_id
 21208,,1,
 21238,Blood Multifrequency L,,
 21254,Blood Multifrequency XL,,
+21262,,1,86
 21368,Guristas Antimatter Charge XL,,
 21370,Guristas Iridium Charge XL,,
 21472,,5,
@@ -1159,6 +1161,7 @@ type_id,name,volume,group_id
 23007,Federation Navy Iron Charge L,,
 23009,Caldari Navy Antimatter Charge S,0.0025,85
 23025,Caldari Navy Antimatter Charge M,0.0125,85
+23031,,0.0125,85
 23045,,0.025,85
 23047,Caldari Navy Lead Charge L,,
 23055,Templar I,1000,1652
@@ -1195,6 +1198,7 @@ type_id,name,volume,group_id
 24438,Omnidirectional Tracking Link II,,
 24486,Inferno Rage Heavy Assault Missile,,
 24490,,0.015,654
+24495,,0.015,653
 24499,,0.015,
 24507,,0.03,655
 24509,,0.03,
@@ -1435,6 +1439,7 @@ type_id,name,volume,group_id
 28758,Sisters Core Probe Launcher,5,481
 28780,Syndicate 1600mm Steel Plates,20,329
 28784,Syndicate 400mm Steel Plates,,
+28786,,20,329
 28788,Syndicate Gas Cloud Scoop,5,737
 28790,Mid-grade Centurion Alpha,,
 28791,Mid-grade Centurion Beta,,
@@ -1663,6 +1668,7 @@ type_id,name,volume,group_id
 33513,Leopard,500,31
 33516,,1,300
 33522,'Yurt' Mobile Depot,50,1246
+33525,,1,300
 33526,,1,
 33527,High-grade Ascendancy Epsilon,1,300
 33528,High-grade Ascendancy Gamma,1,300
@@ -1753,7 +1759,7 @@ type_id,name,volume,group_id
 35789,Astro-Inertial Compact Missile Guidance Computer,5,1396
 35790,Missile Guidance Computer II,5,1396
 35795,Missile Precision Script,1,1400
-35826,Azbel,,
+35826,Azbel,80000,1404
 35832,Astrahus,8000,
 35833,Fortizar,,
 35835,Athanor,8000,1406
@@ -1804,7 +1810,7 @@ type_id,name,volume,group_id
 37612,,50,899
 37623,,5,71
 37624,Corpii A-Type Small Energy Neutralizer,5,71
-37625,,5,71
+37625,Corpum C-Type Medium Energy Neutralizer,5,71
 37626,Corpum B-Type Medium Energy Neutralizer,5,71
 37627,Corpum A-Type Medium Energy Neutralizer,5,71
 37631,Corpus X-Type Heavy Energy Neutralizer,5,71
@@ -2231,7 +2237,7 @@ type_id,name,volume,group_id
 57466,,10,
 57470,U-C Trigger Neurolink Conduit,16,334
 57472,,16,
-57474,,100,
+57474,Radar-FTL Interlink Communicator,100,913
 57476,Magnetometric-FTL Interlink Communicator,100,913
 57478,Auto-Integrity Preservation Seal,16,334
 57479,Core Temperature Regulator,180,334
@@ -2446,7 +2452,7 @@ type_id,name,volume,group_id
 85747,Satori-Horigu Combat Scanner Probe,,
 85750,Deathless Circle Relic Analyzer,5,538
 85930,Archon Arkombine Arisen SKIN,,
-85931,Chimera Arkombine Arisen SKIN,,
+85931,Chimera Arkombine Arisen SKIN,0.01,1950
 86260,Breacher Pod Launcher Operation,0.01,256
 86261,Breacher Pod Clone Efficacity,0.01,256
 86262,,0.01,
@@ -2479,7 +2485,7 @@ type_id,name,volume,group_id
 90318,Aeon Sanguinary Savant SKIN,0.01,1950
 90396,Blood Raider Crate,,
 90416,Squall Shattered Paradigm SKIN,0.01,1950
-90468,,1,1964
+90468,Gravid Modulated Strip Miner Mutaplasmid,1,1964
 90469,Unstable Modulated Strip Miner Mutaplasmid,1,1964
 90491,Unstable Strip Miner Mutaplasmid,1,1964
 90523,Unstable Ice Harvester Mutaplasmid,,
@@ -2606,7 +2612,7 @@ type_id,name,volume,group_id
 97513,Aberrant Polycrase,0.01,18
 97514,Aberrant Moissanite,0.001,18
 97516,Akoman Blueprint Crate,1,1194
-97544,,0.01,1194
+97544,Thermoelectric Flux Log,0.01,1194
 97545,Shield Failover Report,0.01,1194
 97552,Hyperspherical Housing,0.1,1194
 97560,Polycrase X-Grade,,
