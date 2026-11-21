@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Fri 20 Nov 20:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Fri 20 Nov 20:18 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 22 · **Est. time:** 13 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -79,7 +79,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 19 | ☐ Compressed Fullerite-C540 | 42,830 | **43,750** | 43,750 | 49,430 |
-| 20 | ☐ Criterion Cipher | 12,840,000 | **17,640,000** | 21,900,000 | 17,630,000 |
+| 20 | ☐ Criterion Cipher | 12,840,000 | **17,650,000** | 21,900,000 | 17,640,000 |
 
 #### Cancel buy orders
 _My Orders → Buying. Right-click → Cancel Order._

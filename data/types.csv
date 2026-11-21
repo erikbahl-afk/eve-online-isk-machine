@@ -14,6 +14,7 @@ type_id,name,volume,group_id
 207,Mjolnir Heavy Missile,0.03,385
 233,,0.025,
 238,,0.025,85
+267,,0.05,89
 421,,5,
 438,,5,
 440,5MN Microwarpdrive II,10,46
@@ -887,7 +888,7 @@ type_id,name,volume,group_id
 18975,Core X-Type Explosive Armor Hardener,5,328
 18977,Core X-Type Kinetic Armor Hardener,5,328
 18979,,5,328
-18983,,5,325
+18983,Coreli B-Type Small Remote Armor Repairer,5,325
 18985,Coreli A-Type Small Remote Armor Repairer,5,325
 18987,Corelum C-Type Medium Remote Armor Repairer,10,325
 18989,Corelum B-Type Medium Remote Armor Repairer,10,
@@ -2428,6 +2429,7 @@ type_id,name,volume,group_id
 85551,Glorified Gravid X-Large Shield Booster Mutaplasmid,,
 85559,Glorified Gravid Stasis Webifier Mutaplasmid,1,1964
 85642,,1,1964
+85645,Glorified Unstable Warp Scrambler Mutaplasmid,1,1964
 85656,Glorified Unstable Entropic Radiation Sink Mutaplasmid,1,1964
 85662,Glorified Unstable Gyrostabilizer Mutaplasmid,1,1964
 85668,Glorified Unstable Magnetic Field Stabilizer Mutaplasmid,,
