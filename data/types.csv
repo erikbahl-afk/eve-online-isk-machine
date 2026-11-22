@@ -1290,6 +1290,7 @@ type_id,name,volume,group_id
 25613,,0.01,754
 25617,Power Circuit,0.01,754
 25619,Logic Circuit,0.01,754
+25620,,0.01,754
 25624,Intact Armor Plates,0.01,754
 25715,Heavy Assault Missile Launcher II,10,771
 25718,,0.01,
@@ -1524,14 +1525,17 @@ type_id,name,volume,group_id
 30252,Thermoelectric Catalysts,0.01,966
 30254,Electromechanical Hull Sheeting,0.01,966
 30259,,0.01,966
+30303,,0.1,974
 30304,PPD Fullerene Fibers,0.5,974
 30305,Fullerene Intercalated Graphite,0.8,974
 30306,Methanofullerene,0.75,974
+30307,,1,974
 30309,,1.5,974
 30310,Carbon-86 Epoxy Resin,0.4,974
 30370,Fullerite-C50,1,711
 30371,Fullerite-C60,1,711
 30372,Fullerite-C70,1,711
+30373,,2,711
 30374,,2,711
 30375,Fullerite-C28,2,711
 30376,Fullerite-C32,5,711
@@ -2066,6 +2070,7 @@ type_id,name,volume,group_id
 46355,Ubiquitous Moon Mining Crystal Type A I,6,482
 46356,Ubiquitous Moon Mining Crystal Type A II,10,482
 46375,Daily Alpha Injector,0.01,1739
+46381,,1,1818
 46490,,10,1936
 46633,Standup M-Set Asteroid Ore Grading Processor I,10,
 46637,Standup M-Set Moon Ore Grading Processor I,10,1943
@@ -2737,7 +2742,7 @@ type_id,name,volume,group_id
 97976,'Vigilant' Vital Drone Navigation Computer,25,644
 98134,SARO Monitoring Booster,1,303
 98135,SARO Pursuit Booster,1,303
-98137,,1,303
+98137,SARO Enforcement Booster,1,303
 98145,Blood Raider Blueprint Crate,1,1194
 98147,Crimson Totality Background,0.1,5082
 98296,Gradated Sunrise - Unlimited,,
@@ -2757,6 +2762,7 @@ type_id,name,volume,group_id
 98430,State Hardpoint Booster II,1,303
 98434,Federation Electronics Booster III,1,303
 98436,Federation Defense Booster II,,
+98441,,1,303
 98442,,1,303
 98446,Republic Electronics Booster III,,
 98449,Republic Defense Booster III,1,303

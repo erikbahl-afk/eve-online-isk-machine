@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0302,
- "buy_orders": 5884,
- "buy_orders_reaching_jita": 5806,
+ "ask_ratio_median": 1.029,
+ "buy_orders": 5886,
+ "buy_orders_reaching_jita": 5808,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6343,
+ "orders": 6345,
  "sell_orders": 459,
- "share_ask_below_jita": 0.3099,
+ "share_ask_below_jita": 0.3125,
  "structure_id": 1042508032148,
- "t": 1795368318.2803636,
+ "t": 1795369831.6328955,
  "top_ask_below_jita": [
   {
    "best_ask": 145.0,
@@ -108,7 +108,7 @@
    "type_id": 37552
   },
   {
-   "best_ask": 5246000.0,
+   "best_ask": 5245000.0,
    "gap": 0.5234,
    "name": "",
    "s_ask": 2500000.0,
@@ -117,14 +117,21 @@
  ],
  "top_bid_over_jita": [
   {
-   "best_bid": 3378000.0,
-   "gap": 0.0003,
-   "name": "Imperial Navy General Insignia I",
-   "s_bid_reach": 3379000.0,
-   "type_id": 15615
+   "best_bid": 48.43,
+   "gap": 0.0324,
+   "name": "",
+   "s_bid_reach": 50.0,
+   "type_id": 24492
+  },
+  {
+   "best_bid": 559200.0,
+   "gap": 0.0002,
+   "name": "Large Shield Extender II",
+   "s_bid_reach": 559300.0,
+   "type_id": 3841
   }
  ],
- "types": 3879,
- "types_also_in_jita": 3878,
- "types_bid_over_jita_reaching": 1
+ "types": 3881,
+ "types_also_in_jita": 3880,
+ "types_bid_over_jita_reaching": 2
 }
