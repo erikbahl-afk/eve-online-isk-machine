@@ -304,7 +304,7 @@ type_id,name,volume,group_id
 10165,Improved Sooth Sayer Booster,1,
 10204,Zainou 'Deadeye' Sharpshooter ST-903,1,742
 10208,Memory Augmentation - Standard,1,745
-10209,,1,745
+10209,Memory Augmentation - Improved,1,745
 10212,Neural Boost - Standard,1,745
 10213,Neural Boost - Improved,1,745
 10216,Ocular Filter - Standard,1,745
@@ -335,6 +335,7 @@ type_id,name,volume,group_id
 11229,Explosive Energized Membrane II,,
 11309,400mm Rolled Tungsten Compact Plates,10,329
 11325,,20,329
+11327,,20,329
 11343,100mm Crystalline Carbonide Restrained Plates,,
 11365,Vengeance,2500,324
 11371,Wolf,2500,324
@@ -611,6 +612,7 @@ type_id,name,volume,group_id
 14208,Domination Large Proton Smartbomb,50,72
 14210,,10,72
 14220,Shadow Serpentis Medium Plasma Smartbomb,10,72
+14228,,5,72
 14230,Dread Guristas Co-Processor,5,285
 14234,Dread Guristas Cloaking Device,100,
 14236,Shadow Serpentis Sensor Booster,5,212
@@ -699,7 +701,7 @@ type_id,name,volume,group_id
 15891,Republic Fleet Warp Disruptor,5,52
 15893,,5,
 15895,Federation Navy Magnetic Field Stabilizer,5,302
-15897,Caldari Navy X-Large Shield Booster,50,
+15897,Caldari Navy X-Large Shield Booster,50,40
 15898,Caldari Navy Small Shield Booster,5,
 15899,Caldari Navy Medium Shield Booster,,
 15900,Caldari Navy Large Shield Booster,25,40
@@ -1161,7 +1163,7 @@ type_id,name,volume,group_id
 22440,,50000,
 22442,Eos,15000,540
 22444,Sleipnir,15000,540
-22446,,15000,540
+22446,Vulture,15000,540
 22448,Absolution,15000,540
 22456,,5000,
 22464,,5000,
@@ -1224,6 +1226,7 @@ type_id,name,volume,group_id
 23797,,10,62
 23803,'Censer' Medium Cap Battery,10,
 23805,'Thurifer' Large Cap Battery,15,61
+23868,,50,72
 23894,,5,768
 23896,,5,767
 24242,Infomorph Psychology,,
@@ -1754,6 +1757,7 @@ type_id,name,volume,group_id
 33948,Low-grade Nomad Beta,1,300
 33949,Low-grade Nomad Delta,1,300
 33951,Low-grade Nomad Gamma,1,300
+33952,,1,300
 33957,,1,300
 33960,,1,
 33961,Low-grade Snake Delta,1,300
@@ -1822,6 +1826,7 @@ type_id,name,volume,group_id
 35944,,4000,1331
 35947,Standup Target Painter I,4000,
 35949,,4000,
+35959,,4000,1429
 36908,Antipharmakon Thureo,1,303
 36909,Antipharmakon Kosybo,1,303
 36910,Antipharmakon Iokira,1,303
@@ -1832,6 +1837,7 @@ type_id,name,volume,group_id
 37154,Standup M-Set Basic Small Ship Manufacturing Material Efficiency I,10,
 37216,Standup M-Set Missile Precision I,,
 37222,Standup M-Set Energy Neutralizer Economy I,,
+37228,Standup M-Set Electronic Warfare Projection I,,
 37230,Standup M-Set Electronic Warfare Economy I,10,1620
 37234,Standup M-Set Enhanced Targeting System I,10,1622
 37292,Rapid Torpedo Launcher II,1000,
@@ -2135,7 +2141,7 @@ type_id,name,volume,group_id
 47929,Meson Exotic Plasma M,0.01,1987
 47931,Mystic M,0.01,1989
 47932,,0.01,
-47934,,0.01,1989
+47934,Occult L,0.01,1989
 47975,Crystalline Isogen-10,0.3,1996
 48112,Zero-Point Condensate,0.2,1996
 48113,Agency 'Hardshell' TB9 Dose IV,1,303
@@ -2273,7 +2279,7 @@ type_id,name,volume,group_id
 56716,Protective Equipment Patterns,0.1,526
 57064,Rifter Zakura Shumyu SKIN,,
 57112,Low-grade Rapture Gamma,,
-57113,,1,300
+57113,Low-grade Rapture Delta,1,300
 57117,Mid-grade Rapture Alpha,,
 57118,,1,
 57119,Mid-grade Rapture Gamma,,
@@ -2421,7 +2427,7 @@ type_id,name,volume,group_id
 72811,,15000,419
 72812,Ferox Navy Issue,15000,419
 72869,Myrmidon Navy Issue,,
-72872,,15000,419
+72872,Prophecy Navy Issue,15000,419
 72903,Probe Fleet Issue,2500,25
 72904,Heron Navy Issue,2500,25
 72913,Imicus Navy Issue,,
@@ -2625,6 +2631,7 @@ type_id,name,volume,group_id
 94034,Harpy State Regulator SKIN,0.01,
 94035,,0.01,1950
 94056,,0.01,1950
+94058,Imperial Navy 'Neophyte' Heat Sink,5,205
 94063,,5,1396
 94064,Republic Fleet Missile Guidance Computer,5,1396
 94065,Republic Fleet Mining Survey Chipset,5,49
