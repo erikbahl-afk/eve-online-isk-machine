@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0295,
- "buy_orders": 5843,
- "buy_orders_reaching_jita": 5766,
+ "ask_ratio_median": 1.0288,
+ "buy_orders": 5815,
+ "buy_orders_reaching_jita": 5738,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6300,
- "sell_orders": 457,
- "share_ask_below_jita": 0.3272,
+ "orders": 6268,
+ "sell_orders": 453,
+ "share_ask_below_jita": 0.3219,
  "structure_id": 1042508032148,
- "t": 1795377652.841829,
+ "t": 1795384862.1651423,
  "top_ask_below_jita": [
   {
    "best_ask": 145.0,
@@ -52,8 +52,8 @@
    "type_id": 17440
   },
   {
-   "best_ask": 79970.0,
-   "gap": 0.6875,
+   "best_ask": 79930.0,
+   "gap": 0.6874,
    "name": "",
    "s_ask": 24990.0,
    "type_id": 22576
@@ -66,8 +66,15 @@
    "type_id": 47809
   },
   {
-   "best_ask": 4999.0,
-   "gap": 0.6001,
+   "best_ask": 3985.0,
+   "gap": 0.6678,
+   "name": "",
+   "s_ask": 1324.0,
+   "type_id": 90590
+  },
+  {
+   "best_ask": 4998.0,
+   "gap": 0.6,
    "name": "",
    "s_ask": 1999.0,
    "type_id": 84399
@@ -85,13 +92,6 @@
    "name": "",
    "s_ask": 3500000.0,
    "type_id": 46916
-  },
-  {
-   "best_ask": 3000.0,
-   "gap": 0.5587,
-   "name": "",
-   "s_ask": 1324.0,
-   "type_id": 90590
   },
   {
    "best_ask": 76760000.0,
@@ -117,14 +117,14 @@
  ],
  "top_bid_over_jita": [
   {
-   "best_bid": 97500000.0,
-   "gap": 0.0462,
-   "name": "Dark Blood Stasis Webifier",
-   "s_bid_reach": 102000000.0,
-   "type_id": 14262
+   "best_bid": 96110.0,
+   "gap": 0.0001,
+   "name": "",
+   "s_bid_reach": 96120.0,
+   "type_id": 90072
   }
  ],
- "types": 3857,
- "types_also_in_jita": 3856,
+ "types": 3841,
+ "types_also_in_jita": 3840,
  "types_bid_over_jita_reaching": 1
 }

@@ -202,6 +202,7 @@ type_id,name,volume,group_id
 3256,Inherent Implants 'Squire' Power Grid Management EG-602,1,741
 3257,Inherent Implants 'Squire' Power Grid Management EG-604,1,741
 3265,Zainou 'Gypsy' CPU Management EE-602,1,
+3266,Zainou 'Gypsy' CPU Management EE-604,,
 3430,Advanced Target Management,,
 3475,Inherent Implants 'Noble' Mechanic MC-806,1,738
 3482,Inherent Implants 'Noble' Hull Upgrades HG-1006,1,738
@@ -250,7 +251,7 @@ type_id,name,volume,group_id
 4250,Small Tractor Beam II,50,650
 4256,Bomb Launcher II,50,862
 4260,Expanded Probe Launcher II,5,
-4292,Siege Module II,1000,
+4292,Siege Module II,1000,515
 4294,Triage Module II,,
 4302,Oracle,15000,1201
 4306,,15000,1201
@@ -904,7 +905,7 @@ type_id,name,volume,group_id
 18871,Centum A-Type EM Energized Membrane,5,326
 18875,,5,326
 18877,Corpum A-Type Kinetic Energized Membrane,5,326
-18879,,5,326
+18879,Centum A-Type Kinetic Energized Membrane,5,326
 18881,Corpum A-Type Multispectrum Energized Membrane,5,
 18883,Centum A-Type Multispectrum Energized Membrane,5,326
 18885,Corpus C-Type EM Armor Hardener,5,328
@@ -960,7 +961,7 @@ type_id,name,volume,group_id
 19051,Centii A-Type Small Remote Armor Repairer,5,325
 19053,Centum C-Type Medium Remote Armor Repairer,10,325
 19081,Corpum A-Type Medium Remote Capacitor Transmitter,10,
-19087,,10,
+19087,Centum A-Type Medium Remote Capacitor Transmitter,10,67
 19105,,5,68
 19107,Corpum C-Type Medium Energy Nosferatu,5,68
 19109,,5,68
@@ -1288,6 +1289,7 @@ type_id,name,volume,group_id
 25603,,0.01,754
 25604,,0.01,
 25605,Armor Plates,0.01,754
+25607,,0.01,754
 25608,Intact Shield Emitter,0.01,754
 25609,Nanite Compound,0.01,754
 25610,,0.01,754
@@ -1498,10 +1500,10 @@ type_id,name,volume,group_id
 28792,Mid-grade Centurion Delta,,
 28796,Mid-grade Nomad Alpha,1,300
 28797,Mid-grade Nomad Beta,1,
-28798,Mid-grade Nomad Delta,1,
+28798,Mid-grade Nomad Delta,1,300
 28799,Mid-grade Nomad Epsilon,1,300
 28800,Mid-grade Nomad Gamma,,
-28802,Mid-grade Harvest Alpha,,
+28802,Mid-grade Harvest Alpha,1,300
 28803,Mid-grade Harvest Beta,,
 28808,Mid-grade Virtue Alpha,1,300
 28809,Mid-grade Virtue Beta,1,300
@@ -2526,7 +2528,7 @@ type_id,name,volume,group_id
 85085,Medium Breacher Pod Launcher,10,4807
 85086,,15000,419
 85087,Tholos,5000,420
-85088,,0.1,4808
+85088,SCARAB Breacher Pod S,0.1,4808
 85089,SCARAB Breacher Pod M,0.5,4808
 85178,Tetrimonic Warclone Blanks,0.1,314
 85179,Overseer Sabik Vial,,
@@ -2771,12 +2773,14 @@ type_id,name,volume,group_id
 98430,State Hardpoint Booster II,1,303
 98434,Federation Electronics Booster III,1,303
 98436,Federation Defense Booster II,,
+98440,Federation Mobility Booster III,1,303
 98441,,1,303
 98442,,1,303
 98446,Republic Electronics Booster III,,
 98449,Republic Defense Booster III,1,303
 98451,Republic Mobility Booster II,1,303
 98454,Republic Hardpoint Booster II,,
+98484,,0.01,1950
 98651,,0.01,1950
 98652,,0.01,1950
 98653,,0.01,1950
