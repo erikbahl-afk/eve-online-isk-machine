@@ -446,7 +446,7 @@ def test_station_book_includes_reaching_bids():
     assert market.tops(b).at[7, "best_bid"] == 101.0
 
 
-def test_capped_unfilled_bid_below_top_is_cancelled_after_buy_stale_days():
+def test_unfilled_bid_behind_top_is_cancelled_after_buy_stale_days():
     from trader.strategy import Planner
     pl = Planner.__new__(Planner)
     pl.cfg = {**CFG, "strategy": {**CFG["strategy"], "buy_stale_days": 5}}
@@ -469,3 +469,28 @@ def test_capped_unfilled_bid_below_top_is_cancelled_after_buy_stale_days():
     assert kinds[1] == "cancel"          # never filled, 7 d old, can't reach the top
     assert kinds.get(2) != "cancel"      # partly filled: keep
     assert kinds.get(3) != "cancel"      # only 2 d old: keep
+    S.buy_cap = lambda fees, cfg, ask: 150.0  # cap could re-top us, but 7 d unfilled behind a rival: still cancel
+    try:
+        _, tier2 = pl.maintenance("jita")
+    finally:
+        S.buy_cap = orig
+    assert {s["oid"]: s["kind"] for s in tier2}[1] == "cancel"
+
+
+def test_fill_capped_at_share_of_official_day_volume():
+    import random
+    from trader.market import PriceLevels
+    from trader.sim import Sim
+    hist = pd.DataFrame({"date": ["1970-01-06", "1970-01-07", "1970-01-08"], "lowest": [1.0] * 3,
+                         "highest": [2.0] * 3, "volume": [1000, 1000, 50000]})
+    lv = PriceLevels(None, {}, days=14, fetch=lambda hub, ty: hist)
+    cfg = {**CFG, "sim": {**CFG["sim"], "alpha": 1.0, "top_floor": 1.0, "max_day_share": 0.3}}
+    pf = {"orders": [{"oid": 1, "hub": "jita", "side": "buy", "type_id": 7, "price": 1.5, "qty": 5000,
+                      "remain": 5000, "updated": 8 * 86400, "created": 8 * 86400, "tag": "station"}],
+          "inventory": {}, "in_transit": [], "pnl": {}, "per_type": {}, "per_strategy": {}, "cash": 0.0}
+    sim = Sim(cfg, pf, Fees(CFG), random.Random(0), None)
+    filled = []
+    sim._fill = lambda o, q, t: filled.append(q)
+    prints = pd.DataFrame({"type_id": [7], "side": ["bid"], "price": [1.4], "qty": [4000.0]})
+    sim.apply_fills("jita", prints, {}, 8 * 86400, 8 * 86400 + 3600, levels=lv)
+    assert filled == [300]                            # 30% of the 1000-unit median day, not 4000

@@ -33,6 +33,7 @@ top_floor = 0.0              # share of orders rivals never contest (time-on-top
 hazard_scale = 1.0           # multiplier on rival update rates in time-on-top survival (fit 11-17: 1.4 with the floor)
 history_gate = true          # scale fills by how often official daily trades reached our price (phantom-fill guard)
 history_days = 14            # trading days looked back for that check
+max_day_share = 0.3          # one paper fill takes at most this share of the median official day volume (0 = off)
 logon_gap_hours = 48         # typical time between sessions (planning assumption)
 session_seconds = 1800
 partial_prob = 0.2           # chance a simulated session stops early

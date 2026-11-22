@@ -343,10 +343,12 @@ class Planner:
                 cap = buy_cap(self.fees, self.cfg, self.anchored_ask(hub, ty)) if not np.isnan(ba) else 0.0
                 keep = ty in selected or (not np.isnan(ba) and cap >= o["price"] * 0.97)
                 keep = keep and ty not in self.exits and ty not in self.avoid
-            # capped below the top (a rival outbids what our margin allows) and never filled for buy_stale_days:
-            # the bid can't fill, it only ties up escrow (2026-11-20: 15 of 17 Jita bids behind a rival, ~0.84B of 1.08B escrow)
+            # behind a rival and never filled for buy_stale_days: the bid only ties up escrow
+            # (2026-11-20: 15 of 17 Jita bids behind a rival, ~0.84B of 1.08B escrow). First only when capped below
+            # the top; 2026-11-22: bids the cap could re-top got a modify step worth ~0 (bid-side rate ~0), which the
+            # planner dropped as low-value, so Entosis Link II / Jaguar sat behind 8 days untouched. Cancel those too.
             bsd = self.s.get("buy_stale_days", 0)
-            if (keep and bsd and not np.isnan(bb) and bb >= o["price"] and tick_up(bb) > cap
+            if (keep and bsd and not np.isnan(bb) and bb >= o["price"]
                     and o["remain"] >= o["qty"] and t - o.get("created", t) > bsd * 86400):
                 keep = False
             if not keep:

@@ -444,3 +444,22 @@
 - Alerts: liquidation 51% / Typhoon 8.4%: legacy, as above. Idle Jita bids (8, 0.84B): the buy_stale_days fix landed after
   the last Jita login (Thu 21:08), so they clear next Jita session — check Sun. Infomorph Key / Void XL / Mordunium (8 d) under
   strategy stale_days 10. Crystal Epsilon exit still working (2 left, 0.92x).
+
+## 2026-11-22 · is the fill model realistic? (Sunday)
+- Calibration (7 days, `full_days` filter): Jita median 0.662 (0.665 last Sun), Amarr 0.757 (0.745). The Perimeter reach
+  (Wed) didn't move Jita and nothing overshoots 1.0 in Jita (max 0.985); one Amarr item at 1.67. alpha / gone_weight kept.
+- Own fills since 11-15, all 7 portfolios (202 fills, 138 checkable, ±1 day vs region history): ISK-weighted 88% inside the
+  official range, 11% conservative (sold lower / bought higher than any trade), 1% optimistic. Cap I-a rep 199.7M matches.
+  Median fill = 1.4% of the day's volume, but Hezorime (82314) bids filled 30.6k units = **57%** of the 11-15 day, in 5
+  portfolios at once (vanished big bids counted as trades). New `[sim] max_day_share = 0.3`: one paper fill takes at most 30%
+  of the 14-day median official day volume (min 1 unit). Test added.
+- Idle Jita bids still there after today's 09:08 Jita session (Fri's buy_stale fix): time_on_top shows Entosis Link II and
+  Jaguar at 0% on top (288 / 432 checks), but their cap could still re-top them, so they got a modify step worth ~0 (bid-side
+  rate ~0) that the planner dropped as low-value: untouched 8 days. `buy_stale_days` now cancels any never-filled bid behind a
+  rival after 5 d, capped or not (test extended). Frees ~0.3B more at the next Jita login. Quad Pulse (90% on top, 0 fills in
+  8 d) is a real no-sellers case and stays.
+- Alerts: liquidation 51% / Typhoon 8.4%: legacy, step-down continues (Thu 19 decision). Idle Jita bids: fixed above. Stale
+  Amarr sells: info, step-down working. Antikythera: on the exit list since Sat, next Jita session. Infomorph Key / Void XL /
+  Mordunium (9 d) under stale_days 10. Thresholds kept. 38 tests pass.
+- Not done (budget): time-on-top by time of day, 1 h vs 2 h spacing, gone_weight probe (slots 6/6).
+- Next: Mon/Tue check Entosis/Jaguar/Siren/Bomb Launcher bids cancelled at the next Jita session and fill counts after the cap.

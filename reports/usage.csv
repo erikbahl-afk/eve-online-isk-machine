@@ -16,3 +16,4 @@ date,topic,tool_calls,notes
 2026-11-19,experiments,17,seeding killed (0 seeds in 14d); fill_floor probe (top_floor 0.3) started; Typhoon SKIN: no dump, step-down continues
 2026-11-20,weekly review,23,memo; capped-below-top Jita bids (0.84B) now cancelled after buy_stale_days=5; expired avoids removed
 2026-11-21,risk and concentration,14,liq 0.515 flat; top5 36.5% legacy; Antikythera exit; stale-sell alerts info when step-down active
+2026-11-22,fill model,30,fills 88% in official range; max_day_share 0.3 cap (Hezorime 57% of day); buy_stale cancels all behind-rival unfilled bids

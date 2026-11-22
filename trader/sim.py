@@ -179,6 +179,12 @@ class Sim:
                 if reach <= 0:
                     continue
                 q = min(o["remain"], self._round(alpha * elig * sv * reach))
+                # one fill can't take more than max_day_share of a typical official day (2026-11-22: Hezorime bids
+                # filled 30.6k units = 57% of that day's official volume, in 5 portfolios at once: vanished big bids)
+                share = self.cfg["sim"].get("max_day_share", 0.0)
+                v = levels.day_volume(hub, o["type_id"], t1) if (levels is not None and share) else None
+                if v:
+                    q = min(q, max(1, int(share * v)))
                 if q <= 0:
                     continue
                 used[o["type_id"]] = used.get(o["type_id"], 0.0) + q / alpha

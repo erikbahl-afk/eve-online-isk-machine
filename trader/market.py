@@ -281,6 +281,13 @@ class PriceLevels:
             for t, h in ex.map(one, todo):
                 self.cache[(hub, t)] = h
 
+    def day_volume(self, hub, type_id, now):
+        """Median official units per trading day over the look-back, or None if unknown / never traded."""
+        h = self.history(hub, type_id, now)
+        if h is None or not len(h):
+            return None
+        return float(h.volume.median())
+
     def reach(self, hub, type_id, side, price, now):
         """Share of recent trading days on which trades happened at our price or better for the counterparty."""
         h = self.history(hub, type_id, now)
