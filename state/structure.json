@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0245,
- "buy_orders": 5797,
- "buy_orders_reaching_jita": 5715,
+ "ask_ratio_median": 1.0249,
+ "buy_orders": 5827,
+ "buy_orders_reaching_jita": 5745,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6261,
+ "orders": 6291,
  "sell_orders": 464,
- "share_ask_below_jita": 0.3454,
+ "share_ask_below_jita": 0.3376,
  "structure_id": 1042508032148,
- "t": 1795327265.137885,
+ "t": 1795334455.2856772,
  "top_ask_below_jita": [
   {
    "best_ask": 149.7,
@@ -15,6 +15,13 @@
    "name": "",
    "s_ask": 1.66,
    "type_id": 90470
+  },
+  {
+   "best_ask": 997900.0,
+   "gap": 0.975,
+   "name": "",
+   "s_ask": 24990.0,
+   "type_id": 22576
   },
   {
    "best_ask": 45000.0,
@@ -106,25 +113,10 @@
    "name": "",
    "s_ask": 6000000.0,
    "type_id": 44941
-  },
-  {
-   "best_ask": 22780000.0,
-   "gap": 0.5171,
-   "name": "",
-   "s_ask": 11000000.0,
-   "type_id": 44912
   }
  ],
- "top_bid_over_jita": [
-  {
-   "best_bid": 52550.0,
-   "gap": 0.0091,
-   "name": "Shield Failover Report",
-   "s_bid_reach": 53030.0,
-   "type_id": 97545
-  }
- ],
- "types": 3841,
- "types_also_in_jita": 3840,
- "types_bid_over_jita_reaching": 1
+ "top_bid_over_jita": [],
+ "types": 3855,
+ "types_also_in_jita": 3854,
+ "types_bid_over_jita_reaching": 0
 }

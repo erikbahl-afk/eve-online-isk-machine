@@ -299,7 +299,7 @@ type_id,name,volume,group_id
 10165,Improved Sooth Sayer Booster,1,
 10204,Zainou 'Deadeye' Sharpshooter ST-903,1,742
 10208,Memory Augmentation - Standard,1,745
-10209,,1,
+10209,,1,745
 10212,Neural Boost - Standard,1,745
 10213,Neural Boost - Improved,1,745
 10216,Ocular Filter - Standard,1,745
@@ -678,7 +678,7 @@ type_id,name,volume,group_id
 15792,Federation Navy Tracking Computer,5,213
 15804,Imperial Navy Heavy Energy Neutralizer,,
 15806,Republic Fleet Gyrostabilizer,5,59
-15810,,5,205
+15810,Imperial Navy Heat Sink,5,205
 15812,Republic Fleet Overdrive Injector,5,764
 15813,Republic Fleet Nanofiber Structure,,
 15830,Federation Navy Heavy Neutron Blaster,10,
@@ -856,6 +856,7 @@ type_id,name,volume,group_id
 18688,Corelum B-Type 10MN Afterburner,5,46
 18692,Coreli A-Type 1MN Afterburner,5,46
 18698,Core X-Type 100MN Afterburner,,
+18704,,5,98
 18706,,5,98
 18708,Corpii A-Type Multispectrum Coating,5,98
 18710,Centii A-Type Multispectrum Coating,5,98
@@ -1266,6 +1267,7 @@ type_id,name,volume,group_id
 25594,Tangled Power Conduit,0.01,754
 25600,Burned Logic Circuit,0.01,754
 25601,Fried Interface Circuit,0.01,754
+25603,,0.01,754
 25604,,0.01,
 25605,Armor Plates,0.01,754
 25608,Intact Shield Emitter,0.01,754
@@ -1527,6 +1529,7 @@ type_id,name,volume,group_id
 30628,,10,991
 30632,,10,991
 30752,Intact Hull Section,,
+30836,Salvager II,5,1122
 30987,Small Trimark Armor Pump I,5,773
 31001,Capital EM Armor Reinforcer I,,
 31003,Small EM Armor Reinforcer II,5,
@@ -1810,6 +1813,7 @@ type_id,name,volume,group_id
 35925,Standup Heavy Energy Neutralizer I,8000,1329
 35940,Standup Variable Spectrum ECM I,4000,1332
 35941,,4000,1719
+35944,,4000,1331
 35947,Standup Target Painter I,4000,
 35949,,4000,
 36908,Antipharmakon Thureo,1,303
@@ -2484,6 +2488,7 @@ type_id,name,volume,group_id
 85089,SCARAB Breacher Pod M,0.5,4808
 85178,Tetrimonic Warclone Blanks,0.1,314
 85179,Overseer Sabik Vial,,
+85230,,50,4810
 85390,Armor Mutaplasmid Residue,0.01,1996
 85392,Damage Control Mutaplasmid Residue,0.01,1996
 85393,,0.01,1996

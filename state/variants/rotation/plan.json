@@ -1,11 +1,11 @@
 {
- "est_secs": 410,
- "generated": 1795327226.620746,
+ "est_secs": 420,
+ "generated": 1795334429.9924672,
  "hub": "jita",
  "location": "jita",
  "min_isk_per_min": 980421,
  "other": "dodixie",
- "skipped_low_value": 16,
+ "skipped_low_value": 17,
  "steps": [
   {
    "benefit": 38819000.0,
@@ -40,7 +40,7 @@
    "value": 130193310.0
   },
   {
-   "benefit": 6719610.531514301,
+   "benefit": 6644099.844992816,
    "block": 1,
    "cap": 189400000.0,
    "group": 4,
@@ -100,7 +100,7 @@
    "value": 130180000.0
   },
   {
-   "benefit": 1564803.3205965934,
+   "benefit": 1560705.5979422694,
    "block": 2,
    "cap": 358000.0,
    "group": 4,
@@ -116,7 +116,7 @@
    "value": 119784000.0
   },
   {
-   "benefit": 5151693.888894371,
+   "benefit": 5208789.362534717,
    "block": 2,
    "cap": 795.4,
    "group": 6,
@@ -129,7 +129,7 @@
    "tag": "station",
    "target": 650.5,
    "type_id": 82312,
-   "value": 2575846.9444471854
+   "value": 2604394.6812673584
   },
   {
    "benefit": 928109.8199999996,
@@ -148,16 +148,18 @@
    "value": 11759216.0
   },
   {
-   "benefit": 513600.0,
+   "benefit": 555490.8547668733,
    "block": 3,
-   "group": 5,
+   "cap": 21180000.0,
+   "group": 4,
    "hub": "jita",
-   "kind": "cancel",
+   "kind": "modify_buy",
    "mine": 12840000.0,
    "n": 10,
    "oid": 26,
    "ref": 17790000.0,
-   "secs": 15,
+   "secs": 25,
+   "target": 17800000.0,
    "type_id": 97265,
    "value": 25680000.0
   },
@@ -170,7 +172,7 @@
    "mine": 2464000.0,
    "n": 11,
    "oid": 31,
-   "ref": 2533000.0,
+   "ref": 2550000.0,
    "secs": 15,
    "type_id": 83471,
    "value": 14784000.0

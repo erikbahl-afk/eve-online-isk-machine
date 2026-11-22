@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Sat 21 Nov 22:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 29 · **Est. time:** 18 min. Work top to bottom; stop any time.  
+**Updated:** Sun 22 Nov 00:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 30 · **Est. time:** 19 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -22,13 +22,13 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 1 | ☐ 'Cartel' Power Diagnostic System I | 68,080,000 | **68,020,000** | 30,280,000 | 68,030,000 |
+| 1 | ☐ 'Cartel' Power Diagnostic System I | 68,080,000 | **68,010,000** | 30,280,000 | 68,020,000 |
 | 2 | ☐ Black Market 'Valdimar' Drone Navigation DN-701 | 149,800,000 | **134,800,000** | 126,600,000 | 199,900,000 |
-| 3 | ☐ Dread Guristas Rocket Launcher | 99,070,000 | **89,160,000** | 47,280,000 | 99,250,000 |
+| 3 | ☐ Dread Guristas Rocket Launcher | 99,070,000 | **89,160,000** | 47,280,000 | 99,240,000 |
 | 4 | ☐ Improved 'Guise' Cloaking Device II | 49,960,000 | **49,960,000** | 31,940,000 | 49,970,000 |
 | 5 | ☐ Men's 'Precision' Boots | 80,990,000 | **72,890,000** | 49,760,000 | 100,000,000 |
 | 6 | ☐ Standup M-Set Basic Small Ship Manufacturing Material Efficiency I | 566,600,000 | **509,900,000** | 335,200,000 | 715,000,000 |
-| 7 | ☐ Standup Moon Drill I | 144,600,000 | **144,500,000** | 130,900,000 | 144,600,000 |
+| 7 | ☐ Standup Moon Drill I | 144,600,000 | **144,400,000** | 130,900,000 | 144,500,000 |
 | 8 | ☐ Typhoon Fleet Issue Capsuleer Elite XX SKIN | 660,800,000 | **594,700,000** | 420,200,000 | - |
 
 ### Block 2 · should do · about 3 min
@@ -55,7 +55,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 16 | ☐ Polarized Light Neutron Blaster | 5,884,000 | **5,880,000** | 3,818,000 | 5,881,000 |
+| 16 | ☐ Polarized Light Neutron Blaster | 5,884,000 | **5,879,000** | 3,818,000 | 5,880,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
@@ -69,7 +69,7 @@ _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Ne
 
 ## At Jita IV - Moon 4 - Caldari Navy Assembly Plant
 
-### Block 1 · must do · about 2 min
+### Block 1 · must do · about 4 min
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
@@ -92,41 +92,36 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 23 | ☐ Mysterious GalNet Crate | 1 | **41,020,000** | 58,170,000 | 41,010,000 |
+| 23 | ☐ Compressed Hezorime | 54,246 | **650.50** | 795.40 | 650.40 |
+| 24 | ☐ Mysterious GalNet Crate | 1 | **41,020,000** | 58,170,000 | 41,010,000 |
 
 ### Block 2 · should do · about 2 min
-
-#### Cancel buy orders
-_My Orders → Buying. Right-click → Cancel Order._
-
-| # | Item | Your price |
-|---|---|---|
-| 24 | ☐ Sansha NET Resonator | 2,464,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 25 | ☐ Compressed Hezorime | 53,658 | **650.50** | 795.40 | 650.40 |
+| 25 | ☐ Federation Navy Fleet Colonel Insignia I | 2 | **4,714,000** | 4,859,000 | 4,713,000 |
 | 26 | ☐ State Defense Booster III | 1 | **26,150,000** | 44,190,000 | 26,140,000 |
 
-### Block 3 · if there's time · about 1 min
+### Block 3 · if there's time · about 2 min
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 27 | ☐ 50MN Microwarpdrive II | 3,724,000 | **3,764,000** | 3,830,000 | 3,763,000 |
-| 28 | ☐ Compressed Fullerite-C540 | 42,830 | **44,010** | 44,010 | 44,600 |
+| 27 | ☐ 50MN Microwarpdrive II | 3,724,000 | **3,765,000** | 3,829,000 | 3,764,000 |
+| 28 | ☐ Compressed Fullerite-C540 | 42,830 | **44,010** | 44,010 | 44,630 |
+| 29 | ☐ Criterion Cipher | 12,840,000 | **17,800,000** | 21,180,000 | 17,790,000 |
 
 #### Cancel buy orders
 _My Orders → Buying. Right-click → Cancel Order._
 
 | # | Item | Your price |
 |---|---|---|
-| 29 | ☐ Criterion Cipher | 12,840,000 |
+| 30 | ☐ Sansha NET Resonator | 2,464,000 |
 
 ---
-Wallet 231.14M · escrow 1.08B · stock 3.67B · in transit 0.00 · net worth 4.98B (liquidation 2.57B)
+Wallet 231.14M · escrow 1.08B · stock 3.67B · in transit 0.00 · net worth 4.98B (liquidation 2.55B)
