@@ -356,7 +356,7 @@ type_id,name,volume,group_id
 11540,Quantum Microprocessor,1,334
 11541,Photon Microprocessor,1,334
 11542,Fernite Carbide Composite Armor Plate,1,334
-11543,,1,334
+11543,Tungsten Carbide Armor Plate,1,334
 11545,Crystalline Carbonide Armor Plate,1,334
 11547,Fusion Reactor Unit,1,334
 11548,Nuclear Reactor Unit,1,
@@ -545,6 +545,7 @@ type_id,name,volume,group_id
 13974,True Sansha Explosive Armor Hardener,5,328
 13976,Dark Blood Explosive Armor Hardener,5,328
 13978,True Sansha Kinetic Armor Hardener,5,328
+13980,,5,328
 13982,True Sansha Thermal Armor Hardener,5,328
 13984,Dark Blood Thermal Armor Hardener,5,328
 13998,Domination Multispectrum Shield Hardener,5,77
@@ -615,7 +616,7 @@ type_id,name,volume,group_id
 14252,Dark Blood Warp Scrambler,,
 14254,Domination Warp Scrambler,5,52
 14256,Dread Guristas Warp Scrambler,5,52
-14260,,5,
+14260,,5,52
 14262,Dark Blood Stasis Webifier,5,65
 14264,Domination Stasis Webifier,5,65
 14266,Dread Guristas Stasis Webifier,5,65
@@ -1732,12 +1733,13 @@ type_id,name,volume,group_id
 33923,Low-grade Crystal Alpha,1,300
 33924,Low-grade Crystal Beta,1,300
 33925,Low-grade Crystal Delta,1,300
-33926,Low-grade Crystal Epsilon,1,
+33926,Low-grade Crystal Epsilon,1,300
 33927,Low-grade Crystal Gamma,1,300
 33928,,1,300
 33941,Low-grade Harvest Alpha,1,300
 33942,Low-grade Harvest Beta,1,300
 33948,Low-grade Nomad Beta,1,300
+33951,Low-grade Nomad Gamma,1,300
 33957,,1,300
 33960,,1,
 33961,Low-grade Snake Delta,1,300
@@ -1746,7 +1748,7 @@ type_id,name,volume,group_id
 33973,Low-grade Virtue Delta,1,300
 33975,Low-grade Virtue Gamma,1,300
 33981,Limited Hyperspatial Accelerator,5,1289
-33983,Experimental Hyperspatial Accelerator,5,
+33983,Experimental Hyperspatial Accelerator,5,1289
 33985,Prototype Hyperspatial Accelerator,5,1289
 34049,Women's 'Hover' Tights (opaque black),,
 34057,Men's 'Tectonic' Headwear (matte black),,
@@ -2057,6 +2059,7 @@ type_id,name,volume,group_id
 47532,,0.01,1950
 47700,Unstable Stasis Webifier Mutaplasmid,1,1964
 47701,Gravid Stasis Webifier Mutaplasmid,1,1964
+47730,,1,1964
 47734,Unstable Warp Disruptor Mutaplasmid,1,1964
 47738,,1,1964
 47751,,1,1964
@@ -2702,13 +2705,13 @@ type_id,name,volume,group_id
 98418,Imperial Hardpoint Booster II,1,303
 98419,Imperial Hardpoint Booster III,1,303
 98425,State Defense Booster III,1,303
-98429,,1,303
+98429,State Hardpoint Booster I,1,303
 98430,State Hardpoint Booster II,1,303
 98434,Federation Electronics Booster III,1,303
 98436,Federation Defense Booster II,,
 98442,,1,303
 98446,Republic Electronics Booster III,,
-98451,,1,303
+98451,Republic Mobility Booster II,1,303
 98454,Republic Hardpoint Booster II,,
 98651,,0.01,1950
 98652,,0.01,1950

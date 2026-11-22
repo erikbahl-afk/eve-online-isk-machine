@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0232,
- "buy_orders": 5802,
- "buy_orders_reaching_jita": 5722,
+ "ask_ratio_median": 1.027,
+ "buy_orders": 5783,
+ "buy_orders_reaching_jita": 5703,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6266,
+ "orders": 6247,
  "sell_orders": 464,
- "share_ask_below_jita": 0.3634,
+ "share_ask_below_jita": 0.3479,
  "structure_id": 1042508032148,
- "t": 1795305670.9477618,
+ "t": 1795311471.1442223,
  "top_ask_below_jita": [
   {
    "best_ask": 149.7,
@@ -17,7 +17,14 @@
    "type_id": 90470
   },
   {
-   "best_ask": 199500000.0,
+   "best_ask": 997900.0,
+   "gap": 0.975,
+   "name": "",
+   "s_ask": 24990.0,
+   "type_id": 22576
+  },
+  {
+   "best_ask": 199400000.0,
    "gap": 0.8997,
    "name": "",
    "s_ask": 20000000.0,
@@ -106,17 +113,39 @@
    "name": "",
    "s_ask": 4000000.0,
    "type_id": 37552
-  },
-  {
-   "best_ask": 41990000.0,
-   "gap": 0.5237,
-   "name": "",
-   "s_ask": 20000000.0,
-   "type_id": 47638
   }
  ],
- "top_bid_over_jita": [],
- "types": 3833,
- "types_also_in_jita": 3832,
- "types_bid_over_jita_reaching": 0
+ "top_bid_over_jita": [
+  {
+   "best_bid": 11030.0,
+   "gap": 0.0009,
+   "name": "",
+   "s_bid_reach": 11040.0,
+   "type_id": 9832
+  },
+  {
+   "best_bid": 13840.0,
+   "gap": 0.0007,
+   "name": "Enriched Uranium",
+   "s_bid_reach": 13850.0,
+   "type_id": 44
+  },
+  {
+   "best_bid": 5213.0,
+   "gap": 0.0002,
+   "name": "Strontium Clathrates",
+   "s_bid_reach": 5214.0,
+   "type_id": 16275
+  },
+  {
+   "best_bid": 567.5,
+   "gap": 0.0002,
+   "name": "Hydrogen Isotopes",
+   "s_bid_reach": 567.6,
+   "type_id": 17889
+  }
+ ],
+ "types": 3826,
+ "types_also_in_jita": 3825,
+ "types_bid_over_jita_reaching": 4
 }
