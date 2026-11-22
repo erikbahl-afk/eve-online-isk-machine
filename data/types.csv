@@ -82,7 +82,7 @@ type_id,name,volume,group_id
 2286,,0.005,
 2287,,0.005,
 2297,Explosive Shield Hardener II,,
-2301,EM Shield Hardener II,,
+2301,EM Shield Hardener II,5,77
 2303,Thermal Shield Hardener II,5,77
 2305,Autotrophs,,
 2309,Ionic Solutions,0.005,1033
@@ -874,6 +874,7 @@ type_id,name,volume,group_id
 18837,,5,326
 18839,,5,326
 18845,Corpum C-Type Thermal Energized Membrane,5,326
+18847,,5,326
 18849,Corpum B-Type Multispectrum Energized Membrane,5,326
 18851,Centum B-Type Multispectrum Energized Membrane,5,326
 18855,,5,326
@@ -939,7 +940,7 @@ type_id,name,volume,group_id
 19039,Corpus C-Type Large Armor Repairer,50,
 19045,Corpus X-Type Large Armor Repairer,50,62
 19046,Centus X-Type Large Armor Repairer,50,62
-19051,,5,325
+19051,Centii A-Type Small Remote Armor Repairer,5,325
 19053,Centum C-Type Medium Remote Armor Repairer,10,325
 19081,Corpum A-Type Medium Remote Capacitor Transmitter,10,
 19087,,10,
@@ -1756,6 +1757,7 @@ type_id,name,volume,group_id
 33985,Prototype Hyperspatial Accelerator,5,1289
 34049,Women's 'Hover' Tights (opaque black),,
 34057,Men's 'Tectonic' Headwear (matte black),,
+34126,Prototype Jump Drive Economizer,3500,1299
 34132,Pilot's Body Resculpt Certificate,,
 34201,,0.1,1304
 34202,Attainment Decryptor,0.1,1304
@@ -2462,6 +2464,7 @@ type_id,name,volume,group_id
 82302,Compressed Kylixium III-Grade,,
 82303,Compressed Kylixium IV-Grade,0.012,4755
 82304,,0.04,4756
+82312,Compressed Hezorime,0.05,4758
 82314,Compressed Hezorime III-Grade,0.05,4758
 82432,Admiral Noir's - Spiced Rum,0.1,1194
 83465,,1000,4769
