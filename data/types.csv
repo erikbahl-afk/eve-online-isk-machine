@@ -212,6 +212,7 @@ type_id,name,volume,group_id
 3645,Water,0.19,1042
 3683,Oxygen,0.19,1042
 3685,Hydrogen Batteries,1,280
+3689,Mechanical Parts,0.75,1034
 3691,,0.75,1034
 3693,,0.75,1034
 3695,Polytextiles,0.75,1034
@@ -428,7 +429,7 @@ type_id,name,volume,group_id
 12269,Heavy Energy Neutralizer I,,
 12271,,5,
 12304,Angel Copper Tag,0.1,370
-12356,350mm Railgun II,20,
+12356,350mm Railgun II,20,74
 12484,Amarr Drone Specialization,0.01,
 12486,Gallente Drone Specialization,0.01,
 12487,Caldari Drone Specialization,0.01,273
@@ -542,6 +543,7 @@ type_id,name,volume,group_id
 13965,,5,77
 13969,Dread Guristas Multispectrum Shield Hardener,5,77
 13970,True Sansha EM Armor Hardener,5,328
+13972,,5,328
 13974,True Sansha Explosive Armor Hardener,5,328
 13976,Dark Blood Explosive Armor Hardener,5,328
 13978,True Sansha Kinetic Armor Hardener,5,328
@@ -616,7 +618,7 @@ type_id,name,volume,group_id
 14252,Dark Blood Warp Scrambler,,
 14254,Domination Warp Scrambler,5,52
 14256,Dread Guristas Warp Scrambler,5,52
-14260,,5,52
+14260,Shadow Serpentis Warp Scrambler,5,52
 14262,Dark Blood Stasis Webifier,5,65
 14264,Domination Stasis Webifier,5,65
 14266,Dread Guristas Stasis Webifier,5,65
@@ -1693,6 +1695,7 @@ type_id,name,volume,group_id
 33470,Stratios,10000,26
 33472,Nestor,,
 33474,,50,1246
+33475,,100,1250
 33476,Mobile Cynosural Inhibitor,50,1249
 33513,Leopard,500,31
 33516,,1,300

@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Sat 21 Nov 17:37 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Sat 21 Nov 18:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 29 · **Est. time:** 18 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -102,15 +102,14 @@ _My Orders → Buying. Right-click → Cancel Order._
 
 | # | Item | Your price |
 |---|---|---|
-| 25 | ☐ Criterion Cipher | 12,840,000 |
-| 26 | ☐ Sansha NET Resonator | 2,464,000 |
+| 25 | ☐ Sansha NET Resonator | 2,464,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 27 | ☐ Imperial Hardpoint Booster II | 1 | **13,170,000** | 20,900,000 | 13,160,000 |
+| 26 | ☐ Federation Navy Fleet Colonel Insignia I | 2 | **4,837,000** | 4,947,000 | 4,836,000 |
 
 ### Block 3 · if there's time · about 1 min
 
@@ -119,8 +118,15 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 28 | ☐ 50MN Microwarpdrive II | 3,724,000 | **3,764,000** | 3,800,000 | 3,763,000 |
-| 29 | ☐ Compressed Fullerite-C540 | 42,830 | **44,020** | 44,020 | 44,520 |
+| 27 | ☐ 50MN Microwarpdrive II | 3,724,000 | **3,764,000** | 3,800,000 | 3,763,000 |
+| 28 | ☐ Compressed Fullerite-C540 | 42,830 | **44,020** | 44,020 | 44,520 |
+
+#### Cancel buy orders
+_My Orders → Buying. Right-click → Cancel Order._
+
+| # | Item | Your price |
+|---|---|---|
+| 29 | ☐ Criterion Cipher | 12,840,000 |
 
 ---
 Wallet 229.10M · escrow 1.08B · stock 3.67B · in transit 0.00 · net worth 4.98B (liquidation 2.56B)

@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.027,
- "buy_orders": 5783,
- "buy_orders_reaching_jita": 5703,
+ "ask_ratio_median": 1.0256,
+ "buy_orders": 5775,
+ "buy_orders_reaching_jita": 5695,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6247,
- "sell_orders": 464,
- "share_ask_below_jita": 0.3479,
+ "orders": 6238,
+ "sell_orders": 463,
+ "share_ask_below_jita": 0.354,
  "structure_id": 1042508032148,
- "t": 1795311471.1442223,
+ "t": 1795312861.772136,
  "top_ask_below_jita": [
   {
    "best_ask": 149.7,
@@ -24,8 +24,8 @@
    "type_id": 22576
   },
   {
-   "best_ask": 199400000.0,
-   "gap": 0.8997,
+   "best_ask": 199300000.0,
+   "gap": 0.8996,
    "name": "",
    "s_ask": 20000000.0,
    "type_id": 45894
@@ -50,13 +50,6 @@
    "name": "",
    "s_ask": 540.3,
    "type_id": 17440
-  },
-  {
-   "best_ask": 3600000.0,
-   "gap": 0.6358,
-   "name": "",
-   "s_ask": 1311000.0,
-   "type_id": 91133
   },
   {
    "best_ask": 4999.0,
@@ -87,8 +80,8 @@
    "type_id": 52284
   },
   {
-   "best_ask": 3333000.0,
-   "gap": 0.55,
+   "best_ask": 3332000.0,
+   "gap": 0.5498,
    "name": "",
    "s_ask": 1500000.0,
    "type_id": 45949
@@ -113,39 +106,17 @@
    "name": "",
    "s_ask": 4000000.0,
    "type_id": 37552
-  }
- ],
- "top_bid_over_jita": [
+  },
   {
-   "best_bid": 11030.0,
-   "gap": 0.0009,
+   "best_ask": 41990000.0,
+   "gap": 0.5237,
    "name": "",
-   "s_bid_reach": 11040.0,
-   "type_id": 9832
-  },
-  {
-   "best_bid": 13840.0,
-   "gap": 0.0007,
-   "name": "Enriched Uranium",
-   "s_bid_reach": 13850.0,
-   "type_id": 44
-  },
-  {
-   "best_bid": 5213.0,
-   "gap": 0.0002,
-   "name": "Strontium Clathrates",
-   "s_bid_reach": 5214.0,
-   "type_id": 16275
-  },
-  {
-   "best_bid": 567.5,
-   "gap": 0.0002,
-   "name": "Hydrogen Isotopes",
-   "s_bid_reach": 567.6,
-   "type_id": 17889
+   "s_ask": 20000000.0,
+   "type_id": 47638
   }
  ],
- "types": 3826,
- "types_also_in_jita": 3825,
- "types_bid_over_jita_reaching": 4
+ "top_bid_over_jita": [],
+ "types": 3821,
+ "types_also_in_jita": 3820,
+ "types_bid_over_jita_reaching": 0
 }
