@@ -92,6 +92,7 @@ type_id,name,volume,group_id
 2310,Noble Gas,0.005,1033
 2311,Reactive Gas,0.005,1033
 2312,,0.75,1034
+2317,Oxides,0.75,1034
 2319,,0.75,1034
 2321,Polyaramids,0.75,1034
 2327,Microfiber Shielding,0.75,1034
@@ -213,6 +214,7 @@ type_id,name,volume,group_id
 3542,CONCORD Capital Shield Booster,1000,
 3544,CONCORD Capital Remote Shield Booster,1000,41
 3568,Small Capacitor Booster II,5,76
+3578,,20,76
 3581,Purloined Sansha Data Analyzer,,
 3616,Capital Remote Shield Booster I,1000,41
 3645,Water,0.19,1042
@@ -289,6 +291,7 @@ type_id,name,volume,group_id
 9632,,5,77
 9734,,10,72
 9830,,0.75,1034
+9836,,0.75,1034
 9838,Superconductors,0.75,1034
 9840,,0.75,
 9842,,0.75,1034
@@ -1287,11 +1290,12 @@ type_id,name,volume,group_id
 25605,Armor Plates,0.01,754
 25608,Intact Shield Emitter,0.01,754
 25609,Nanite Compound,0.01,754
+25610,,0.01,754
 25611,,0.01,754
 25613,,0.01,754
 25617,Power Circuit,0.01,754
 25619,Logic Circuit,0.01,754
-25620,,0.01,754
+25620,Interface Circuit,0.01,754
 25624,Intact Armor Plates,0.01,754
 25715,Heavy Assault Missile Launcher II,10,771
 25718,,0.01,
@@ -1349,7 +1353,7 @@ type_id,name,volume,group_id
 26914,Large Remote Armor Repairer II,25,325
 27094,,1,
 27108,Zainou 'Snapshot' Light Missiles LM-903,1,746
-27109,,1,
+27109,,1,746
 27114,Eifyr and Co. 'Rogue' Warp Drive Speed WS-615,1,747
 27116,Inherent Implants 'Squire' Capacitor Management EM-805,1,741
 27118,Inherent Implants 'Squire' Capacitor Systems Operation EO-605,1,741
@@ -1660,7 +1664,7 @@ type_id,name,volume,group_id
 31916,Imperial Navy 800mm Steel Plates,20,329
 31918,Federation Navy 800mm Steel Plates,20,329
 31922,Caldari Navy Small Shield Extender,5,
-31924,,5,38
+31924,Republic Fleet Small Shield Extender,5,38
 31926,Caldari Navy Medium Shield Extender,10,38
 31928,Republic Fleet Medium Shield Extender,10,38
 31930,Caldari Navy Large Shield Extender,20,38
@@ -1936,7 +1940,7 @@ type_id,name,volume,group_id
 41238,10000MN Monopropellant Enduring Afterburner,1000,46
 41249,50000MN Microwarpdrive I,1000,
 41251,50000MN Quad LiF Restrained Microwarpdrive,1000,
-41267,,0.001,1676
+41267,Compact Compounds,0.001,1676
 41268,,0.001,1676
 41271,Scourge Rage XL Torpedo,0.3,1677
 41274,Mjolnir Javelin XL Torpedo,0.3,1677
@@ -1946,6 +1950,7 @@ type_id,name,volume,group_id
 41312,Scoped Conductors,,
 41314,Hail XL,0.125,
 41322,Void XL,0.125,
+41334,Gleam XL,1,374
 41403,Capital Autocannon Specialization,,
 41404,Capital Artillery Specialization,,
 41405,Capital Blaster Specialization,,
@@ -2052,6 +2057,7 @@ type_id,name,volume,group_id
 45631,Loki Core - Dissolution Sequencer,40,958
 45632,Loki Core - Augmented Nuclear Reactor,40,958
 45633,Loki Core - Immobility Drivers,40,958
+45660,,0.01,966
 45663,Synthetic Aperture Ladar Receiver,0.01,966
 45856,Golem Exoplanets Hunter SKIN,0.01,
 45866,Bustard Exoplanets Hunter SKIN,,
@@ -2240,6 +2246,7 @@ type_id,name,volume,group_id
 53893,High-grade Savior Delta,,
 53894,High-grade Savior Epsilon,,
 53983,Signal-25 'Needlejack' Filament,0.1,4041
+53984,,0.1,4041
 54162,Bouquet of Flowers,1,1194
 54394,,1,300
 54398,Mid-grade Hydra Alpha,,
@@ -2300,7 +2307,7 @@ type_id,name,volume,group_id
 57113,Low-grade Rapture Delta,1,300
 57117,Mid-grade Rapture Alpha,,
 57118,,1,
-57119,Mid-grade Rapture Gamma,,
+57119,Mid-grade Rapture Gamma,1,300
 57120,Mid-grade Rapture Delta,1,300
 57121,Mid-grade Rapture Epsilon,1,
 57207,Mining Barge Operations,1,
@@ -2519,6 +2526,7 @@ type_id,name,volume,group_id
 85085,Medium Breacher Pod Launcher,10,4807
 85086,,15000,419
 85087,Tholos,5000,420
+85088,,0.1,4808
 85089,SCARAB Breacher Pod M,0.5,4808
 85178,Tetrimonic Warclone Blanks,0.1,314
 85179,Overseer Sabik Vial,,

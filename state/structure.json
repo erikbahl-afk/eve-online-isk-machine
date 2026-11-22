@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.028,
- "buy_orders": 5884,
- "buy_orders_reaching_jita": 5806,
+ "ask_ratio_median": 1.0295,
+ "buy_orders": 5843,
+ "buy_orders_reaching_jita": 5766,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6342,
- "sell_orders": 458,
- "share_ask_below_jita": 0.3133,
+ "orders": 6300,
+ "sell_orders": 457,
+ "share_ask_below_jita": 0.3272,
  "structure_id": 1042508032148,
- "t": 1795370458.2870076,
+ "t": 1795377652.841829,
  "top_ask_below_jita": [
   {
    "best_ask": 145.0,
@@ -17,8 +17,8 @@
    "type_id": 90470
   },
   {
-   "best_ask": 46900.0,
-   "gap": 0.9284,
+   "best_ask": 45000.0,
+   "gap": 0.9254,
    "name": "",
    "s_ask": 3356.0,
    "type_id": 84408
@@ -36,6 +36,13 @@
    "name": "",
    "s_ask": 250.0,
    "type_id": 90480
+  },
+  {
+   "best_ask": 850.0,
+   "gap": 0.7806,
+   "name": "",
+   "s_ask": 186.5,
+   "type_id": 90484
   },
   {
    "best_ask": 1900.0,
@@ -106,25 +113,18 @@
    "name": "",
    "s_ask": 4000000.0,
    "type_id": 37552
-  },
-  {
-   "best_ask": 5245000.0,
-   "gap": 0.5234,
-   "name": "",
-   "s_ask": 2500000.0,
-   "type_id": 46906
   }
  ],
  "top_bid_over_jita": [
   {
-   "best_bid": 44900.0,
-   "gap": 0.0002,
-   "name": "Compressed Fullerite-C540",
-   "s_bid_reach": 44910.0,
-   "type_id": 62405
+   "best_bid": 97500000.0,
+   "gap": 0.0462,
+   "name": "Dark Blood Stasis Webifier",
+   "s_bid_reach": 102000000.0,
+   "type_id": 14262
   }
  ],
- "types": 3879,
- "types_also_in_jita": 3878,
+ "types": 3857,
+ "types_also_in_jita": 3856,
  "types_bid_over_jita_reaching": 1
 }
