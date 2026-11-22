@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0249,
- "buy_orders": 5827,
- "buy_orders_reaching_jita": 5745,
+ "ask_ratio_median": 1.0278,
+ "buy_orders": 5828,
+ "buy_orders_reaching_jita": 5746,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6291,
+ "orders": 6292,
  "sell_orders": 464,
- "share_ask_below_jita": 0.3376,
+ "share_ask_below_jita": 0.3299,
  "structure_id": 1042508032148,
- "t": 1795334455.2856772,
+ "t": 1795337576.8471243,
  "top_ask_below_jita": [
   {
    "best_ask": 149.7,
@@ -17,8 +17,8 @@
    "type_id": 90470
   },
   {
-   "best_ask": 997900.0,
-   "gap": 0.975,
+   "best_ask": 900000.0,
+   "gap": 0.9722,
    "name": "",
    "s_ask": 24990.0,
    "type_id": 22576
@@ -38,11 +38,18 @@
    "type_id": 45894
   },
   {
-   "best_ask": 2200.0,
-   "gap": 0.8864,
+   "best_ask": 2199.0,
+   "gap": 0.8863,
    "name": "",
    "s_ask": 250.0,
    "type_id": 90480
+  },
+  {
+   "best_ask": 1900.0,
+   "gap": 0.7156,
+   "name": "",
+   "s_ask": 540.3,
+   "type_id": 17440
   },
   {
    "best_ask": 4999.0,
@@ -106,17 +113,18 @@
    "name": "",
    "s_ask": 10000000.0,
    "type_id": 44927
-  },
-  {
-   "best_ask": 12490000.0,
-   "gap": 0.5196,
-   "name": "",
-   "s_ask": 6000000.0,
-   "type_id": 44941
   }
  ],
- "top_bid_over_jita": [],
- "types": 3855,
- "types_also_in_jita": 3854,
- "types_bid_over_jita_reaching": 0
+ "top_bid_over_jita": [
+  {
+   "best_bid": 52280000.0,
+   "gap": 0.0025,
+   "name": "Federation Navy Stasis Webifier",
+   "s_bid_reach": 52410000.0,
+   "type_id": 17559
+  }
+ ],
+ "types": 3856,
+ "types_also_in_jita": 3855,
+ "types_bid_over_jita_reaching": 1
 }

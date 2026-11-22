@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Sun 22 Nov 00:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Sun 22 Nov 00:52 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 30 · **Est. time:** 19 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -45,7 +45,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 | 12 | ☐ Limited Expanded 'Archiver' Cargo | 49,700,000 | **49,570,000** | 25,980,000 | 49,580,000 |
 | 13 | ☐ Mobile Large Warp Disruptor I | 24,710,000 | **24,560,000** | 18,570,000 | 24,570,000 |
 | 14 | ☐ Shrapnel Bomb | 1,657,000 | **1,654,000** | 1,311,000 | 1,655,000 |
-| 15 | ☐ Zero-Point Mass Entangler | 8,875,000 | **8,875,000** | 8,875,000 | 8,697,000 |
+| 15 | ☐ Zero-Point Mass Entangler | 8,875,000 | **8,875,000** | 8,875,000 | 8,698,000 |
 
 ### Block 3 · if there's time · about 1 min
 _Short on time? Skip to the jump (step 18): the next hub's Block 1 is worth more per minute than the rest of this hub._
@@ -76,7 +76,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 19 | ☐ Compressed Glistening Zeolites | 2,482 | **2,526** | 2,560 | 2,525 |
+| 19 | ☐ Compressed Glistening Zeolites | 2,482 | **2,526** | 2,559 | 2,525 |
 | 20 | ☐ Glorified Unstable Medium Remote Armor Repairer Mutaplasmid | 77,150,000 | **77,160,000** | 104,000,000 | 77,150,000 |
 | 21 | ☐ Quad Mega Pulse Laser II | 175,200,000 | **174,600,000** | 189,400,000 | 174,500,000 |
 
@@ -92,36 +92,36 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 23 | ☐ Compressed Hezorime | 54,246 | **650.50** | 795.40 | 650.40 |
+| 23 | ☐ Compressed Hezorime | 54,478 | **650.50** | 795.40 | 650.40 |
 | 24 | ☐ Mysterious GalNet Crate | 1 | **41,020,000** | 58,170,000 | 41,010,000 |
 
 ### Block 2 · should do · about 2 min
-
-#### New buy orders
-_Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
-
-| # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
-|---|---|---|---|---|---|
-| 25 | ☐ Federation Navy Fleet Colonel Insignia I | 2 | **4,714,000** | 4,859,000 | 4,713,000 |
-| 26 | ☐ State Defense Booster III | 1 | **26,150,000** | 44,190,000 | 26,140,000 |
-
-### Block 3 · if there's time · about 2 min
-
-#### Fix outbid buy orders
-_My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
-
-| # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
-|---|---|---|---|---|---|
-| 27 | ☐ 50MN Microwarpdrive II | 3,724,000 | **3,765,000** | 3,829,000 | 3,764,000 |
-| 28 | ☐ Compressed Fullerite-C540 | 42,830 | **44,010** | 44,010 | 44,630 |
-| 29 | ☐ Criterion Cipher | 12,840,000 | **17,800,000** | 21,180,000 | 17,790,000 |
 
 #### Cancel buy orders
 _My Orders → Buying. Right-click → Cancel Order._
 
 | # | Item | Your price |
 |---|---|---|
-| 30 | ☐ Sansha NET Resonator | 2,464,000 |
+| 25 | ☐ Sansha NET Resonator | 2,464,000 |
+
+#### New buy orders
+_Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
+
+| # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
+|---|---|---|---|---|---|
+| 26 | ☐ Federation Navy Fleet Colonel Insignia I | 2 | **4,754,000** | 4,772,000 | 4,753,000 |
+| 27 | ☐ State Defense Booster III | 1 | **26,150,000** | 44,180,000 | 26,140,000 |
+
+### Block 3 · if there's time · about 1 min
+
+#### Fix outbid buy orders
+_My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
+
+| # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
+|---|---|---|---|---|---|
+| 28 | ☐ 50MN Microwarpdrive II | 3,724,000 | **3,766,000** | 3,829,000 | 3,765,000 |
+| 29 | ☐ Compressed Fullerite-C540 | 42,830 | **44,010** | 44,010 | 44,660 |
+| 30 | ☐ Criterion Cipher | 12,840,000 | **17,800,000** | 21,180,000 | 17,790,000 |
 
 ---
 Wallet 231.14M · escrow 1.08B · stock 3.67B · in transit 0.00 · net worth 4.98B (liquidation 2.55B)

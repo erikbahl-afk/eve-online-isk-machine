@@ -99,6 +99,7 @@ type_id,name,volume,group_id
 2348,Gel-Matrix Biopaste,3,1040
 2349,,3,1040
 2352,Nuclear Reactors,3,
+2358,,3,1040
 2361,Hermetic Membranes,3,1040
 2389,Plasmoids,0.19,1042
 2390,Electrolytes,0.19,1042
@@ -135,6 +136,7 @@ type_id,name,volume,group_id
 2868,Integrity Response Drones,50,1041
 2869,Nano-Factory,50,1041
 2870,Organic Mortar Applicators,,
+2871,,50,1041
 2872,,50,1041
 2875,Sterile Conduits,50,1041
 2876,,50,1041
@@ -259,6 +261,7 @@ type_id,name,volume,group_id
 4405,Drone Damage Amplifier II,5,645
 4959,'Seed' Micro Capacitor Booster I,,
 5051,Heavy F-RX Compact Capacitor Booster,20,76
+5697,,50,63
 5839,IFFA Compact Damage Control,5,60
 5973,5MN Y-T8 Compact Microwarpdrive,10,46
 6719,,5,
@@ -315,7 +318,7 @@ type_id,name,volume,group_id
 10858,Large Shield Booster II,,
 11172,Helios,2500,830
 11176,Crow,2500,831
-11178,,2500,831
+11178,Raptor,2500,831
 11182,Cheetah,2500,830
 11184,Crusader,2500,831
 11186,Malediction,2500,831
@@ -1058,7 +1061,7 @@ type_id,name,volume,group_id
 20353,1600mm Steel Plates II,20,329
 20358,Numon Family Heirloom,1,
 20410,Datacore - Gallentean Starship Engineering,0.1,333
-20411,,0.1,333
+20411,Datacore - High Energy Physics,0.1,333
 20413,Datacore - Laser Physics,0.1,333
 20414,Datacore - Quantum Physics,0.1,333
 20415,Datacore - Molecular Engineering,0.1,333
@@ -2054,6 +2057,7 @@ type_id,name,volume,group_id
 47136,Standup Siren II,6000,4778
 47139,,2000,4777
 47258,,5,60
+47269,,2500,25
 47270,Vedmak,10000,26
 47271,Leshak,50000,27
 47272,,5,1986
@@ -2728,6 +2732,7 @@ type_id,name,volume,group_id
 98436,Federation Defense Booster II,,
 98442,,1,303
 98446,Republic Electronics Booster III,,
+98449,,1,303
 98451,Republic Mobility Booster II,1,303
 98454,Republic Hardpoint Booster II,,
 98651,,0.01,1950
