@@ -1,4 +1,4 @@
-# Summary · Sun 22 Nov 01:50 PST
+# Summary · Sun 22 Nov 02:00 PST
 
 Updated every ~2 hours. **Your real character** is the first section; everything after it is the **practice trader** (pretend ISK, real market data). Each section starts with a line on how to read it.
 
@@ -111,11 +111,11 @@ _Market size = ISK spent per day buying from sell orders in that station. Items 
 
 | Hub | Market size/day | Station items | Station profit/day | Import items | Import profit/day |
 |---|---|---|---|---|---|
-| jita | 5.31T | 19 | 27.98M | - | - |
-| amarr | 540.16B | 6 | 6.68M | 47 | 119.78M |
-| dodixie | 168.78B | 5 | 5.39M | 52 | 117.76M |
-| rens | 31.62B | 0 | - | 13 | 37.38M |
-| hek | 65.99B | 1 | 1.30M | 15 | 51.30M |
+| jita | 5.31T | 18 | 26.96M | - | - |
+| amarr | 540.96B | 6 | 6.68M | 45 | 122.49M |
+| dodixie | 169.14B | 5 | 5.39M | 52 | 117.83M |
+| rens | 31.60B | 0 | - | 13 | 37.02M |
+| hek | 65.98B | 1 | 1.30M | 16 | 51.90M |
 
 ## 8. Best items to trade inside Jita
 _Buy at the highest buy price + 1 tick, sell at the lowest sell price − 1 tick. Margin is after all fees. On top = how much of the time between your logins our order would stay the best price before a rival undercuts it (sell side / buy side). Limited by = which resource it eats most: order slots, ISK, or your time._
@@ -123,61 +123,61 @@ _Buy at the highest buy price + 1 tick, sell at the lowest sell price − 1 tick
 | Item | Buy → sell price | Margin | Sold per day | On top (sell/buy) | Profit/day | Limited by |
 |---|---|---|---|---|---|---|
 | Mysterious GalNet Crate | 41.02M → 65.80M | 51.1% | 0.2 | 8% / 33% | 3.74M | time |
-| Compressed Hezorime | 650.50 → 899.70 | 30.1% | 13686.7 | 55% / 42% | 2.63M | time |
+| Compressed Hezorime | 650.50 → 899.70 | 30.1% | 13697.7 | 55% / 42% | 2.63M | time |
 | Low-grade Virtue Gamma | 141.00M → 187.90M | 25.3% | 0.1 | 17% / 41% | 2.80M | time |
 | Low-grade Nomad Gamma | 92.41M → 137.50M | 40.0% | 0.1 | 16% / 37% | 2.33M | time |
+| Low-grade Nomad Delta | 122.30M → 154.80M | 18.9% | 0.1 | 15% / 69% | 1.52M | time |
 | Low-grade Nirvana Omega | 180.20M → 209.20M | 8.9% | 0.1 | 28% / 40% | 1.48M | time |
 | Glorified Unstable Entropic Radiation Sink Mutaplasmid | 172.40M → 229.10M | 24.9% | 0.0 | 11% / 23% | 1.45M | time |
-| Compressed Glistening Zeolites | 2.53k → 2.89k | 7.4% | 10216.4 | 5% / 9% | 1.69M | ISK |
+| Compressed Glistening Zeolites | 2.53k → 2.89k | 7.4% | 10216.8 | 5% / 9% | 1.69M | ISK |
 | Glorified Unstable Heat Sink Mutaplasmid | 403.60M → 460.00M | 6.9% | 0.1 | 11% / 23% | 1.43M | time |
 | State Defense Booster III | 26.15M → 49.98M | 80.3% | 0.1 | 15% / 44% | 1.33M | time |
-| Low-grade Nomad Delta | 122.30M → 148.90M | 14.3% | 0.1 | 15% / 69% | 1.09M | time |
-| Prototype Jump Drive Economizer | 245.40M → 286.60M | 9.6% | 0.1 | 10% / 13% | 1.30M | time |
-| Federation Electronics Booster III | 30.01M → 49.66M | 55.9% | 0.1 | 17% / 50% | 1.08M | time |
+| Federation Electronics Booster III | 30.00M → 49.66M | 56.0% | 0.1 | 17% / 50% | 1.09M | time |
+| Coreli B-Type Small Remote Armor Repairer | 22.53M → 31.04M | 29.6% | 0.1 | 22% / 36% | 961.66k | time |
 
 ## 9. Best items to import Jita → Amarr
 _Buy from Jita sellers, ship by courier, sell just under the cheapest seller there. Margin is after shipping and fees. m³ = cargo volume per unit._
 
 | Item | Jita price → sell price | m³ | Margin | Sold per day | On top | Profit/day | Limited by |
 |---|---|---|---|---|---|---|---|
-| Athanor | 717.20M → 924.50M | 8,000.0 | 18.0% | 0.1 | 10% | 11.58M | ISK |
-| Federation Navy Bastion Module | 1.82B → 2.30B | 200.0 | 15.2% | 0.1 | 26% | 24.02M | ISK |
+| Athanor | 717.20M → 924.30M | 8,000.0 | 18.0% | 0.1 | 10% | 11.30M | ISK |
+| Federation Navy Bastion Module | 1.82B → 2.30B | 200.0 | 15.2% | 0.1 | 26% | 24.06M | ISK |
 | Improved 'Guise' Cloaking Device II | 34.36M → 49.96M | 100.0 | 33.7% | 0.4 | 68% | 4.61M | time |
-| Upwell Starship Engineering | 21.10M → 37.63M | 0.0 | 65.0% | 0.3 | 42% | 4.73M | time |
+| Clone Soldier Negotiator Tag | 32.00M → 39.25M | 0.1 | 12.1% | 1.4 | 24% | 5.13M | time |
+| Upwell Starship Engineering | 21.10M → 37.63M | 0.0 | 65.0% | 0.3 | 42% | 4.72M | time |
 | Standup Moon Drill I | 107.80M → 144.30M | 8,000.0 | 19.1% | 0.2 | 30% | 4.81M | time |
 | Corpus X-Type Thermal Armor Hardener | 331.00M → 473.20M | 5.0 | 31.4% | 0.0 | 10% | 4.97M | time |
 | Breacher Pod Rapid Firing | 69.99M → 97.38M | 0.0 | 27.8% | 0.2 | 37% | 4.22M | time |
-| Breacher Pod Clone Efficacity | 69.97M → 99.48M | 0.0 | 30.6% | 0.2 | 24% | 4.17M | time |
+| Breacher Pod Clone Efficacity | 69.97M → 99.48M | 0.0 | 30.6% | 0.2 | 24% | 4.16M | time |
 | Small Targeting Systems Stabilizer II | 3.71M → 8.85M | 5.0 | 122.3% | 0.8 | 57% | 3.50M | time |
 | U-C Trigger Neurolink Conduit | 17.00M → 20.52M | 16.0 | 10.2% | 2.2 | 27% | 3.73M | time |
 | Loki Offensive - Support Processor | 34.96M → 42.95M | 40.0 | 12.3% | 0.7 | 77% | 3.12M | time |
-| Small Vorton Projector II | 72.20M → 98.48M | 5.0 | 25.1% | 0.2 | 40% | 3.34M | time |
 
 ## 10. Cornering watchlist (read-only, nothing is traded)
 _Items where buying out the cheapest few sell orders and relisting higher would pay on paper. We only watch them, to learn whether such prices hold or get undercut._
 
 | Hub | Item | Cheapest now | Buy out | Cost | Relist at | Paper profit | Return | Days to sell | Rival updates/day |
 |---|---|---|---|---|---|---|---|---|---|
-| jita | Zainou 'Gypsy' Electronics Upgrades EU-603 | 18.70M | 4 orders / 21 units | 393.94M | 28.09M | 167.19M | 42% | 8.0 | 1.1 |
+| jita | Zainou 'Gypsy' Electronics Upgrades EU-603 | 18.70M | 4 orders / 21 units | 393.94M | 28.09M | 167.19M | 42% | 8.1 | 1.1 |
 | jita | Inherent Implants 'Squire' Capacitor Systems Operation EO-602 | 6.48M | 3 orders / 53 units | 343.29M | 9.92M | 156.89M | 46% | 6.8 | 2.4 |
 | amarr | Imperial Mobility Booster III | 44.90M | 3 orders / 3 units | 139.90M | 98.99M | 142.59M | 102% | 6.3 | 2.7 |
+| jita | Precursor Battleship | 1.30M | 3 orders / 246 units | 320.44M | 1.93M | 131.90M | 41% | 4.9 | 2.5 |
 | jita | Mining Laser Optimization Charge Blueprint | 17.45M | 3 orders / 16 units | 279.67M | 26.08M | 117.27M | 42% | 6.1 | 2.4 |
 | jita | Dread Guristas Inferno Heavy Missile | 95.00k | 1 orders / 435 units | 41.33M | 382.80k | 117.08M | 283% | 7.4 | 0.3 |
+| jita | Ibis Copper Lightning SKIN | 16.09M | 4 orders / 4 units | 84.97M | 52.77M | 115.82M | 136% | 8.3 | 2.4 |
 | jita | Imperial Navy Mega Beam Laser | 82.00M | 3 orders / 3 units | 246.00M | 126.50M | 115.00M | 47% | 3.2 | 1.7 |
 | jita | Low-grade Asklepian Beta | 25.54M | 7 orders / 15 units | 393.47M | 35.40M | 111.64M | 28% | 5.7 | 2.4 |
 | jita | Eifyr and Co. 'Rogue' High Speed Maneuvering HS-904 | 125.00M | 1 orders / 2 units | 250.00M | 187.40M | 106.53M | 43% | 4.1 | 0.3 |
-| jita | Vorton Projector Operation | 21.80M | 5 orders / 10 units | 232.23M | 34.94M | 100.14M | 43% | 1.9 | 2.1 |
-| jita | Maller Blueprint | 88.58M | 4 orders / 4 units | 354.98M | 118.80M | 97.05M | 27% | 6.7 | 0.7 |
 
 ## 11. Data health
 _Is the market data flowing? Orders = orders seen in the station · Hours today = hours of data collected since 00:00 UTC · Trades seen = trades inferred since the last snapshot. Any note means something went wrong._
 
 | Hub | Orders | Hours today | Trades seen | Note |
 |---|---|---|---|---|
-| jita | 370,996 | 11.8 | 6,141 |  |
-| amarr | 132,178 | 11.8 | 1,213 |  |
-| dodixie | 68,008 | 11.8 | 954 |  |
-| rens | 33,189 | 11.8 | 288 |  |
-| hek | 41,269 | 11.8 | 464 |  |
+| jita | 370,358 | 12.0 | 2,710 |  |
+| amarr | 132,163 | 12.0 | 484 |  |
+| dodixie | 68,004 | 12.0 | 195 |  |
+| rens | 33,195 | 12.0 | 12 |  |
+| hek | 41,329 | 12.0 | 85 |  |
 
-_This run took 42 s (market data 16 s, stats and character 5 s, experiments 20 s, main portfolio 1 s, cornering scan 0 s, ESI back-off 0 s; 1,539 ESI calls). A slow run usually means ESI rate limits (back-off) or a first-time lookup of many item types._
+_This run took 69 s (market data 29 s, stats and character 5 s, experiments 32 s, main portfolio 2 s, cornering scan 1 s, ESI back-off 0 s; 1,533 ESI calls). A slow run usually means ESI rate limits (back-off) or a first-time lookup of many item types._

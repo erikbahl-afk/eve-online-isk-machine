@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Sun 22 Nov 01:50 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Sun 22 Nov 02:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 29 · **Est. time:** 18 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -39,7 +39,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 |---|---|---|---|---|---|
 | 8 | ☐ Caesium | 6,635 | **6,634** | 6,165 | 6,635 |
 | 9 | ☐ Caldari Drone Specialization | 2,110,000 | **2,193,000** | 1,139,000 | 2,194,000 |
-| 10 | ☐ Legion Mjolnir Auto-Targeting Light Missile | 2,312 | **2,312** | 1,138 | 2,313 |
+| 10 | ☐ Legion Mjolnir Auto-Targeting Light Missile | 2,312 | **2,311** | 1,138 | 2,312 |
 | 11 | ☐ Men's 'Precision' Boots | 80,990,000 | **72,890,000** | 49,760,000 | 100,000,000 |
 | 12 | ☐ Mobile Large Warp Disruptor I | 24,710,000 | **24,550,000** | 18,570,000 | 24,560,000 |
 | 13 | ☐ Zero-Point Mass Entangler | 8,875,000 | **8,875,000** | 8,875,000 | 8,698,000 |
@@ -84,7 +84,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 22 | ☐ Compressed Hezorime | 54,747 | **650.50** | 795.40 | 650.40 |
+| 22 | ☐ Compressed Hezorime | 54,791 | **650.50** | 795.40 | 650.40 |
 | 23 | ☐ Mysterious GalNet Crate | 1 | **41,020,000** | 58,170,000 | 41,010,000 |
 
 ### Block 2 · should do · about 2 min
@@ -111,7 +111,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 27 | ☐ 50MN Microwarpdrive II | 3,724,000 | **3,766,000** | 3,827,000 | 3,765,000 |
+| 27 | ☐ 50MN Microwarpdrive II | 3,724,000 | **3,766,000** | 3,826,000 | 3,765,000 |
 | 28 | ☐ Compressed Fullerite-C540 | 42,830 | **44,710** | 44,830 | 44,700 |
 | 29 | ☐ Criterion Cipher | 12,840,000 | **17,800,000** | 21,170,000 | 17,790,000 |
 

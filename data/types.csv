@@ -8,6 +8,7 @@ type_id,name,volume,group_id
 39,Zydrine,0.01,18
 40,Megacyte,0.01,18
 44,Enriched Uranium,0.75,1034
+200,,0.025,83
 202,,0.05,386
 203,,0.05,386
 204,Inferno Cruise Missile,0.05,386
@@ -2100,6 +2101,7 @@ type_id,name,volume,group_id
 47831,,1,1964
 47841,,1,1964
 47845,,1,
+47869,Precursor Battleship,,
 47875,Large Disintegrator Specialization,0.01,255
 47886,Tetryon Exotic Plasma M,0.01,
 47887,,0.01,
@@ -2740,4 +2742,5 @@ type_id,name,volume,group_id
 98651,,0.01,1950
 98652,,0.01,1950
 98653,,0.01,1950
+98657,Ibis Copper Lightning SKIN,,
 98845,Imperial Navy Stasis Webifier,5,65

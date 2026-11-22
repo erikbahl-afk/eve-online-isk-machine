@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0244,
- "buy_orders": 5854,
- "buy_orders_reaching_jita": 5771,
+ "ask_ratio_median": 1.0226,
+ "buy_orders": 5852,
+ "buy_orders_reaching_jita": 5770,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6318,
+ "orders": 6316,
  "sell_orders": 464,
- "share_ask_below_jita": 0.3402,
+ "share_ask_below_jita": 0.3479,
  "structure_id": 1042508032148,
- "t": 1795341059.347665,
+ "t": 1795341660.362411,
  "top_ask_below_jita": [
   {
    "best_ask": 149.7,
@@ -22,6 +22,13 @@
    "name": "",
    "s_ask": 24990.0,
    "type_id": 22576
+  },
+  {
+   "best_ask": 45000.0,
+   "gap": 0.9254,
+   "name": "",
+   "s_ask": 3356.0,
+   "type_id": 84408
   },
   {
    "best_ask": 199300000.0,
@@ -106,17 +113,18 @@
    "name": "",
    "s_ask": 2500000.0,
    "type_id": 46906
-  },
-  {
-   "best_ask": 20890000.0,
-   "gap": 0.5213,
-   "name": "",
-   "s_ask": 10000000.0,
-   "type_id": 44927
   }
  ],
- "top_bid_over_jita": [],
- "types": 3876,
- "types_also_in_jita": 3875,
- "types_bid_over_jita_reaching": 0
+ "top_bid_over_jita": [
+  {
+   "best_bid": 24500000.0,
+   "gap": 0.0004,
+   "name": "Domination Target Painter",
+   "s_bid_reach": 24510000.0,
+   "type_id": 32414
+  }
+ ],
+ "types": 3875,
+ "types_also_in_jita": 3874,
+ "types_bid_over_jita_reaching": 1
 }
