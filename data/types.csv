@@ -13,6 +13,7 @@ type_id,name,volume,group_id
 203,,0.05,386
 204,Inferno Cruise Missile,0.05,386
 207,Mjolnir Heavy Missile,0.03,385
+209,,0.03,385
 233,,0.025,
 238,,0.025,85
 267,,0.05,89
@@ -116,6 +117,7 @@ type_id,name,volume,group_id
 2404,,5,509
 2410,Heavy Missile Launcher II,10,510
 2420,Torpedo Launcher II,20,508
+2436,,25,100
 2444,,25,100
 2456,,5,
 2463,,0.75,1034
@@ -269,7 +271,7 @@ type_id,name,volume,group_id
 6719,,5,
 6809,Focused Modulated Pulse Energy Beam I,10,53
 7087,,20,53
-7171,,20,53
+7171,Tachyon Modulated Energy Beam I,20,53
 7447,425mm Prototype Gauss Gun,20,74
 7579,Modal Light Neutron Particle Accelerator I,5,
 8105,,10,510
@@ -605,6 +607,7 @@ type_id,name,volume,group_id
 14176,Dark Blood Medium Capacitor Booster,,
 14184,Dark Blood Small Capacitor Booster,5,76
 14190,True Sansha Large EMP Smartbomb,50,72
+14194,,10,72
 14200,,5,72
 14202,True Sansha Small EMP Smartbomb,5,72
 14204,Dread Guristas Large Graviton Smartbomb,50,72
@@ -648,7 +651,7 @@ type_id,name,volume,group_id
 15592,Federation Navy Fleet Captain Insignia I,0.1,409
 15593,,0.1,409
 15594,Federation Navy Fleet Colonel Insignia I,0.1,409
-15601,,0.1,409
+15601,Caldari Navy Captain Insignia III,0.1,409
 15602,Caldari Navy Commodore Insignia I,0.1,409
 15604,Caldari Navy Admiral Insignia I,0.1,409
 15605,Caldari Navy Vice Admiral Insignia I,0.1,409
@@ -678,7 +681,7 @@ type_id,name,volume,group_id
 15764,Federation Navy 50MN Microwarpdrive,10,46
 15766,Federation Navy 10MN Afterburner,5,46
 15768,,10,46
-15770,,5,46
+15770,Federation Navy 100MN Afterburner,5,46
 15780,,5,76
 15784,,10,76
 15790,Caldari Navy Cloaking Device,100,330
@@ -1226,6 +1229,7 @@ type_id,name,volume,group_id
 23797,,10,62
 23803,'Censer' Medium Cap Battery,10,
 23805,'Thurifer' Large Cap Battery,15,61
+23819,,5,71
 23868,,50,72
 23894,,5,768
 23896,,5,767
@@ -1432,7 +1436,7 @@ type_id,name,volume,group_id
 28308,,25,100
 28324,,0.025,
 28332,,0.025,83
-28334,,0.0125,
+28334,,0.0125,83
 28336,Republic Fleet Depleted Uranium S,,
 28361,Drone Synaptic Relay Wiring,0.01,886
 28362,Drone Capillary Fluid,0.02,886
@@ -1698,6 +1702,7 @@ type_id,name,volume,group_id
 33393,Genolution Core Augmentation CA-3,1,
 33400,,200,
 33403,,1,744
+33404,,1,744
 33405,,1,744
 33406,Caldari Navy Command Mindlink,,
 33446,Caldari Navy Rapid Heavy Missile Launcher,20,1245
@@ -2091,6 +2096,7 @@ type_id,name,volume,group_id
 47738,,1,1964
 47751,,1,1964
 47752,Gravid 10MN Afterburner Mutaplasmid,1,
+47754,,1,1964
 47755,Unstable 100MN Afterburner Mutaplasmid,1,1964
 47761,,0.1,1979
 47771,,1,
@@ -2743,7 +2749,7 @@ type_id,name,volume,group_id
 98436,Federation Defense Booster II,,
 98442,,1,303
 98446,Republic Electronics Booster III,,
-98449,,1,303
+98449,Republic Defense Booster III,1,303
 98451,Republic Mobility Booster II,1,303
 98454,Republic Hardpoint Booster II,,
 98651,,0.01,1950

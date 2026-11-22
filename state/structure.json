@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0232,
- "buy_orders": 5857,
- "buy_orders_reaching_jita": 5775,
+ "ask_ratio_median": 1.0244,
+ "buy_orders": 5865,
+ "buy_orders_reaching_jita": 5785,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6319,
+ "orders": 6327,
  "sell_orders": 462,
- "share_ask_below_jita": 0.3531,
+ "share_ask_below_jita": 0.3376,
  "structure_id": 1042508032148,
- "t": 1795348866.9867957,
+ "t": 1795356065.75643,
  "top_ask_below_jita": [
   {
    "best_ask": 145.0,
@@ -17,15 +17,15 @@
    "type_id": 90470
   },
   {
-   "best_ask": 44900.0,
-   "gap": 0.9253,
+   "best_ask": 45000.0,
+   "gap": 0.9254,
    "name": "",
    "s_ask": 3356.0,
    "type_id": 84408
   },
   {
-   "best_ask": 310000.0,
-   "gap": 0.9194,
+   "best_ask": 308000.0,
+   "gap": 0.9189,
    "name": "",
    "s_ask": 24990.0,
    "type_id": 22576
@@ -38,11 +38,18 @@
    "type_id": 45894
   },
   {
-   "best_ask": 2100.0,
-   "gap": 0.881,
+   "best_ask": 2099.0,
+   "gap": 0.8809,
    "name": "",
    "s_ask": 250.0,
    "type_id": 90480
+  },
+  {
+   "best_ask": 976.9,
+   "gap": 0.7953,
+   "name": "",
+   "s_ask": 200.0,
+   "type_id": 3446
   },
   {
    "best_ask": 1900.0,
@@ -106,25 +113,18 @@
    "name": "",
    "s_ask": 20000000.0,
    "type_id": 47638
-  },
-  {
-   "best_ask": 5246000.0,
-   "gap": 0.5234,
-   "name": "",
-   "s_ask": 2500000.0,
-   "type_id": 46906
   }
  ],
  "top_bid_over_jita": [
   {
-   "best_bid": 153100000.0,
-   "gap": 0.0007,
-   "name": "Bustard",
-   "s_bid_reach": 153200000.0,
-   "type_id": 12731
+   "best_bid": 277.2,
+   "gap": 0.0004,
+   "name": "Compressed Kylixium III-Grade",
+   "s_bid_reach": 277.3,
+   "type_id": 82302
   }
  ],
- "types": 3873,
- "types_also_in_jita": 3872,
+ "types": 3876,
+ "types_also_in_jita": 3875,
  "types_bid_over_jita_reaching": 1
 }
