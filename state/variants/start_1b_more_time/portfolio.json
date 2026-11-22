@@ -4,7 +4,14 @@
  "import_hub": "amarr",
  "in_transit": [],
  "inventory": {
-  "amarr": {},
+  "amarr": {
+   "12532": {
+    "cost": 6842000.0,
+    "qty": 1,
+    "since": 1795387501.0,
+    "tag": "station"
+   }
+  },
   "jita": {
    "13221": {
     "cost": 16010000.0,
@@ -14,7 +21,7 @@
    },
    "47916": {
     "cost": 6936000.0,
-    "qty": 1,
+    "qty": 2,
     "since": 1795377616.0,
     "tag": "station"
    },
@@ -45,7 +52,7 @@
   }
  },
  "last_jump": 1795368289.7112262,
- "last_t": 1795384831.7955477,
+ "last_t": 1795387769.9730802,
  "location": "jita",
  "next_oid": 101,
  "orders": [
@@ -96,18 +103,6 @@
    "tag": "station",
    "type_id": 2993,
    "updated": 1794974427.7641113
-  },
-  {
-   "created": 1793894429.201751,
-   "hub": "jita",
-   "oid": 13,
-   "price": 6936000.0,
-   "qty": 2,
-   "remain": 1,
-   "side": "buy",
-   "tag": "station",
-   "type_id": 47916,
-   "updated": 1795368289.7112262
   },
   {
    "created": 1793894429.201751,
@@ -287,7 +282,7 @@
    "oid": 49,
    "price": 6842000.0,
    "qty": 3,
-   "remain": 3,
+   "remain": 2,
    "side": "buy",
    "tag": "station",
    "type_id": 12532,
@@ -692,7 +687,7 @@
  ],
  "per_strategy": {
   "station": {
-   "buys": 516543512.94000006,
+   "buys": 530321512.94000006,
    "fees": 43234451.10080003,
    "realized": 29419989.30781248,
    "sales": 315429480.92999995
@@ -700,8 +695,8 @@
  },
  "per_type": {
   "amarr:12532": {
-   "bought_isk": 0.0,
-   "bought_units": 0,
+   "bought_isk": 6842000.0,
+   "bought_units": 1,
    "fees": 735579.0,
    "realized": -735579.0,
    "sold_net": 0.0,
@@ -1020,8 +1015,8 @@
    "sold_units": 0
   },
   "jita:47916": {
-   "bought_isk": 6936000.0,
-   "bought_units": 1,
+   "bought_isk": 13872000.0,
+   "bought_units": 2,
    "fees": 291300.0,
    "realized": -291300.0,
    "sold_net": 0.0,
@@ -1206,7 +1201,7 @@
  },
  "pnl": {
   "broker": 32864754.461600006,
-  "buys": 516543512.94000006,
+  "buys": 530321512.94000006,
   "courier": 0.0,
   "realized": 29419989.30781248,
   "relist": 10369696.639199998,
