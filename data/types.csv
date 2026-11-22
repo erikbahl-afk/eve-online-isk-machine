@@ -27,7 +27,7 @@ type_id,name,volume,group_id
 623,,10000,26
 625,,10000,26
 626,Vexor,10000,26
-627,,10000,
+627,Thorax,10000,26
 628,,10000,26
 629,Rupture,,
 630,Bellicose,10000,26
@@ -39,7 +39,7 @@ type_id,name,volume,group_id
 641,Megathron,50000,27
 642,Apocalypse,50000,27
 644,Typhoon,50000,27
-645,Dominix,,
+645,Dominix,50000,27
 648,,20000,28
 652,,20000,28
 655,,20000,28
@@ -76,7 +76,7 @@ type_id,name,volume,group_id
 2175,Infiltrator II,10,100
 2185,Hammerhead II,10,100
 2195,Praetor II,25,100
-2270,,0.005,
+2270,,0.005,1032
 2272,,0.005,1032
 2281,Multispectrum Shield Hardener II,5,77
 2286,,0.005,
@@ -153,7 +153,7 @@ type_id,name,volume,group_id
 3025,,10,53
 3033,Small Focused Beam Laser II,5,
 3041,Small Focused Pulse Laser II,5,53
-3049,Mega Beam Laser II,20,
+3049,Mega Beam Laser II,20,53
 3057,Mega Pulse Laser II,20,53
 3065,Tachyon Beam Laser II,20,53
 3080,,1,
@@ -225,7 +225,7 @@ type_id,name,volume,group_id
 3893,Mining Connections,0.01,
 3894,Distribution Connections,0.01,278
 3895,Security Connections,0.01,278
-3898,Quafe Zero Classic,1,
+3898,Quafe Zero Classic,1,303
 3962,Customs Office Gantry,7600,1106
 3966,Men's 'Precision' Boots,0.1,
 3989,Large Plasma Smartbomb II,,
@@ -327,6 +327,7 @@ type_id,name,volume,group_id
 11200,,2500,
 11202,,2500,831
 11229,Explosive Energized Membrane II,,
+11309,,10,329
 11325,,20,329
 11343,100mm Crystalline Carbonide Restrained Plates,,
 11365,Vengeance,2500,324
@@ -551,7 +552,7 @@ type_id,name,volume,group_id
 14041,,5,
 14043,Dread Guristas EM Shield Amplifier,5,295
 14045,Domination Shield Boost Amplifier,5,338
-14047,,5,
+14047,,5,338
 14049,Shadow Serpentis Multispectrum Coating,5,98
 14059,Shadow Serpentis EM Armor Hardener,5,328
 14061,Shadow Serpentis Explosive Armor Hardener,5,328
@@ -868,9 +869,11 @@ type_id,name,volume,group_id
 18831,,5,326
 18835,Centum C-Type Kinetic Energized Membrane,,
 18837,,5,326
+18839,,5,326
 18845,Corpum C-Type Thermal Energized Membrane,5,326
 18849,Corpum B-Type Multispectrum Energized Membrane,5,326
 18851,Centum B-Type Multispectrum Energized Membrane,5,326
+18855,,5,326
 18859,Centum B-Type Explosive Energized Membrane,5,
 18861,,5,326
 18863,,5,326
@@ -1190,6 +1193,7 @@ type_id,name,volume,group_id
 23079,Imperial Navy Standard S,,
 23085,,1,86
 23089,Imperial Navy Multifrequency M,1,86
+23093,,1,86
 23097,Imperial Navy Standard M,1,86
 23105,Imperial Navy Multifrequency L,1,86
 23107,,1,86
@@ -1380,6 +1384,7 @@ type_id,name,volume,group_id
 27435,Caldari Navy Mjolnir Heavy Missile,0.03,385
 27441,Caldari Navy Scourge Heavy Missile,0.03,385
 27447,Caldari Navy Inferno Heavy Missile,0.03,
+27449,Dread Guristas Inferno Heavy Missile,,
 27453,,0.03,385
 27459,,0.05,
 27465,Legion Scourge Auto-Targeting Cruise Missile,,
@@ -1575,6 +1580,7 @@ type_id,name,volume,group_id
 31498,Medium Energy Metastasis Adjuster II,10,
 31544,,5,
 31564,Medium Hybrid Locus Coordinator I,,
+31568,Small Hybrid Locus Coordinator II,5,776
 31594,,10,779
 31598,,5,779
 31606,Medium Hydraulic Bay Thrusters II,10,779
@@ -1768,7 +1774,7 @@ type_id,name,volume,group_id
 34412,,20,997
 34481,Domination Inertial Stabilizers,5,
 34489,,5,765
-34496,,500,31
+34496,Council Diplomatic Shuttle,500,31
 34562,Svipul,5000,1305
 34575,Antikythera Element,0.1,1314
 34590,Victorieux Luxury Yacht,10000,5087
@@ -1963,6 +1969,7 @@ type_id,name,volume,group_id
 43898,,20,
 43920,Standup M-Set Equipment Manufacturing Material Efficiency I,10,1816
 44102,Defender Launcher I,5,512
+44109,,20,501
 44993,Pacifier,2500,830
 45009,Standup Moon Drill I,8000,1887
 45482,Capsule YC119 Capsuleer Day SKIN,,
@@ -2052,6 +2059,7 @@ type_id,name,volume,group_id
 47701,Gravid Stasis Webifier Mutaplasmid,1,1964
 47734,Unstable Warp Disruptor Mutaplasmid,1,1964
 47738,,1,1964
+47751,,1,1964
 47752,Gravid 10MN Afterburner Mutaplasmid,1,
 47755,Unstable 100MN Afterburner Mutaplasmid,1,1964
 47761,,0.1,1979
@@ -2123,6 +2131,7 @@ type_id,name,volume,group_id
 49711,Drekavac,15000,419
 49712,,10000,
 49713,Zarmazd,10000,832
+49724,,1,1964
 49725,,1,1964
 49727,,1,1964
 49728,Gravid Heat Sink Mutaplasmid,1,1964
@@ -2222,6 +2231,7 @@ type_id,name,volume,group_id
 55831,Triglavian Transconduit Datacaster,1,1995
 56068,Proximity-5 'Extraction' Filament,0.1,4087
 56069,Proximity-15 'Extraction' Filament,0.1,4087
+56076,Border-5 'Pochven' Filament,0.1,4087
 56131,Tranquil Electrical Filament,0.1,1979
 56133,,0.1,1979
 56136,Tranquil Gamma Filament,,
@@ -2586,12 +2596,13 @@ type_id,name,volume,group_id
 94010,Caldari Navy Bastion Module,,
 94034,Harpy State Regulator SKIN,0.01,
 94035,,0.01,1950
+94056,,0.01,1950
 94063,,5,1396
 94064,Republic Fleet Missile Guidance Computer,5,1396
 94065,Republic Fleet Mining Survey Chipset,5,49
 94067,Caldari Navy Signal Distortion Amplifier,,
 94154,Confessor Mandate of Faith SKIN,,
-95228,Manifest Homecoming Background,,
+95228,Manifest Homecoming Background,0.1,5082
 95275,,0.1,5082
 95413,Harmonius Bridge - Unlimited,,
 95458,,0.1,5082
@@ -2648,6 +2659,7 @@ type_id,name,volume,group_id
 97516,Akoman Blueprint Crate,1,1194
 97544,Thermoelectric Flux Log,0.01,1194
 97545,Shield Failover Report,0.01,1194
+97547,Stereo-Collapse Signal,0.01,1194
 97552,Hyperspherical Housing,0.1,1194
 97560,Polycrase X-Grade,,
 97564,Compressed Raspite X-Grade,0.01,5083
@@ -2684,16 +2696,21 @@ type_id,name,volume,group_id
 98321,Amber Comet Metallic - Unlimited,,
 98338,Ultra-Indigo Matte - Unlimited,,
 98409,,1,303
-98415,Imperial Mobility Booster II,,
+98415,Imperial Mobility Booster II,1,303
 98416,Imperial Mobility Booster III,1,303
 98417,Imperial Hardpoint Booster I,,
-98418,,1,303
+98418,Imperial Hardpoint Booster II,1,303
 98419,Imperial Hardpoint Booster III,1,303
 98425,State Defense Booster III,1,303
+98429,,1,303
 98430,State Hardpoint Booster II,1,303
 98434,Federation Electronics Booster III,1,303
 98436,Federation Defense Booster II,,
+98442,,1,303
 98446,Republic Electronics Booster III,,
+98451,,1,303
 98454,Republic Hardpoint Booster II,,
+98651,,0.01,1950
 98652,,0.01,1950
+98653,,0.01,1950
 98845,Imperial Navy Stasis Webifier,5,65
