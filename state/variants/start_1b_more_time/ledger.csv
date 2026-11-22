@@ -315,3 +315,4 @@ t,event,hub,type_id,qty,price,cash_delta,note
 1795234644,buy_fill,jita,27369,12,45690.0,-548280.0,o85
 1795247845,buy_fill,jita,82314,26,778.3,-20235.8,o84
 1795268420,buy_fill,jita,27369,2,45690.0,-91380.0,o85
+1795363215,buy_fill,jita,27369,1,45690.0,-45690.0,o85

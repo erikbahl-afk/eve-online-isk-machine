@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0244,
- "buy_orders": 5865,
- "buy_orders_reaching_jita": 5785,
+ "ask_ratio_median": 1.0278,
+ "buy_orders": 5880,
+ "buy_orders_reaching_jita": 5802,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6327,
- "sell_orders": 462,
- "share_ask_below_jita": 0.3376,
+ "orders": 6339,
+ "sell_orders": 459,
+ "share_ask_below_jita": 0.3143,
  "structure_id": 1042508032148,
- "t": 1795356065.75643,
+ "t": 1795363271.8681157,
  "top_ask_below_jita": [
   {
    "best_ask": 145.0,
@@ -17,18 +17,11 @@
    "type_id": 90470
   },
   {
-   "best_ask": 45000.0,
-   "gap": 0.9254,
+   "best_ask": 46900.0,
+   "gap": 0.9284,
    "name": "",
    "s_ask": 3356.0,
    "type_id": 84408
-  },
-  {
-   "best_ask": 308000.0,
-   "gap": 0.9189,
-   "name": "",
-   "s_ask": 24990.0,
-   "type_id": 22576
   },
   {
    "best_ask": 199300000.0,
@@ -45,13 +38,6 @@
    "type_id": 90480
   },
   {
-   "best_ask": 976.9,
-   "gap": 0.7953,
-   "name": "",
-   "s_ask": 200.0,
-   "type_id": 3446
-  },
-  {
    "best_ask": 1900.0,
    "gap": 0.7156,
    "name": "",
@@ -59,11 +45,11 @@
    "type_id": 17440
   },
   {
-   "best_ask": 3990.0,
-   "gap": 0.6682,
+   "best_ask": 80000.0,
+   "gap": 0.6876,
    "name": "",
-   "s_ask": 1324.0,
-   "type_id": 90590
+   "s_ask": 24990.0,
+   "type_id": 22576
   },
   {
    "best_ask": 4999.0,
@@ -85,6 +71,13 @@
    "name": "",
    "s_ask": 3500000.0,
    "type_id": 46916
+  },
+  {
+   "best_ask": 3000.0,
+   "gap": 0.5587,
+   "name": "",
+   "s_ask": 1324.0,
+   "type_id": 90590
   },
   {
    "best_ask": 76760000.0,
@@ -113,18 +106,32 @@
    "name": "",
    "s_ask": 20000000.0,
    "type_id": 47638
+  },
+  {
+   "best_ask": 5246000.0,
+   "gap": 0.5234,
+   "name": "",
+   "s_ask": 2500000.0,
+   "type_id": 46906
   }
  ],
  "top_bid_over_jita": [
   {
-   "best_bid": 277.2,
-   "gap": 0.0004,
-   "name": "Compressed Kylixium III-Grade",
-   "s_bid_reach": 277.3,
-   "type_id": 82302
+   "best_bid": 102900000.0,
+   "gap": 0.001,
+   "name": "",
+   "s_bid_reach": 103000000.0,
+   "type_id": 27121
+  },
+  {
+   "best_bid": 7170.0,
+   "gap": 0.0003,
+   "name": "Fried Interface Circuit",
+   "s_bid_reach": 7172.0,
+   "type_id": 25601
   }
  ],
- "types": 3876,
- "types_also_in_jita": 3875,
- "types_bid_over_jita_reaching": 1
+ "types": 3881,
+ "types_also_in_jita": 3880,
+ "types_bid_over_jita_reaching": 2
 }

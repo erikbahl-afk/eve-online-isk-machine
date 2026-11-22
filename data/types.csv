@@ -243,7 +243,7 @@ type_id,name,volume,group_id
 4144,Women's 'Structure' Dress (black/white),0.1,
 4147,Dual Heavy Pulse Laser II,20,53
 4246,Hydrogen Fuel Block,5,1136
-4247,,5,1136
+4247,Helium Fuel Block,5,1136
 4248,,50,899
 4250,Small Tractor Beam II,50,650
 4256,Bomb Launcher II,50,862
@@ -304,6 +304,7 @@ type_id,name,volume,group_id
 10155,Improved Blue Pill Booster,1,303
 10156,Strong Blue Pill Booster,1,303
 10165,Improved Sooth Sayer Booster,1,
+10190,,5,302
 10204,Zainou 'Deadeye' Sharpshooter ST-903,1,742
 10208,Memory Augmentation - Standard,1,745
 10209,Memory Augmentation - Improved,1,745
@@ -600,7 +601,7 @@ type_id,name,volume,group_id
 14158,True Sansha Medium Energy Nosferatu,5,68
 14164,Dark Blood Medium Energy Neutralizer,5,71
 14166,,5,71
-14168,Dark Blood Heavy Energy Neutralizer,5,
+14168,Dark Blood Heavy Energy Neutralizer,5,71
 14170,True Sansha Heavy Energy Neutralizer,5,71
 14172,Dark Blood Heavy Capacitor Booster,20,76
 14174,,20,76
@@ -1230,8 +1231,8 @@ type_id,name,volume,group_id
 23803,'Censer' Medium Cap Battery,10,
 23805,'Thurifer' Large Cap Battery,15,61
 23819,,5,71
-23868,,50,72
-23894,,5,768
+23868,'Warhammer' Large EMP Smartbomb,50,72
+23894,'Page' Capacitor Flux Coil I,5,768
 23896,,5,767
 24242,Infomorph Psychology,,
 24348,,50,650
@@ -1494,6 +1495,7 @@ type_id,name,volume,group_id
 28799,Mid-grade Nomad Epsilon,1,300
 28800,Mid-grade Nomad Gamma,,
 28802,Mid-grade Harvest Alpha,,
+28803,Mid-grade Harvest Beta,,
 28808,Mid-grade Virtue Alpha,1,300
 28809,Mid-grade Virtue Beta,1,300
 28810,Mid-grade Virtue Delta,1,300
@@ -1544,6 +1546,7 @@ type_id,name,volume,group_id
 30752,Intact Hull Section,,
 30836,Salvager II,5,1122
 30987,Small Trimark Armor Pump I,5,773
+30993,,40,773
 31001,Capital EM Armor Reinforcer I,,
 31003,Small EM Armor Reinforcer II,5,
 31005,Medium EM Armor Reinforcer II,10,773
@@ -1764,7 +1767,7 @@ type_id,name,volume,group_id
 33951,Low-grade Nomad Gamma,1,300
 33952,,1,300
 33957,,1,300
-33960,,1,
+33960,Low-grade Snake Beta,1,300
 33961,Low-grade Snake Delta,1,300
 33964,,1,300
 33971,Low-grade Virtue Alpha,1,300
@@ -1852,7 +1855,7 @@ type_id,name,volume,group_id
 37302,Ion Siege Blaster II,1000,
 37304,Quad 800mm Repeating Cannon II,1000,55
 37306,Hexa 2500mm Repeating Cannon II,1000,55
-37450,,5,54
+37450,Ice Mining Laser I,5,54
 37452,ORE Ice Mining Laser,5,54
 37454,,2500,
 37456,,2500,
@@ -2057,6 +2060,7 @@ type_id,name,volume,group_id
 46204,,0.01,1888
 46210,,0.01,1888
 46213,Ferrogel Reaction Formula,,
+46218,,0.01,1888
 46251,Improved Blue Pill Booster Reaction Formula,,
 46355,Ubiquitous Moon Mining Crystal Type A I,6,482
 46356,Ubiquitous Moon Mining Crystal Type A II,10,482
@@ -2098,6 +2102,7 @@ type_id,name,volume,group_id
 47752,Gravid 10MN Afterburner Mutaplasmid,1,
 47754,,1,1964
 47755,Unstable 100MN Afterburner Mutaplasmid,1,1964
+47756,Gravid 100MN Afterburner Mutaplasmid,1,1964
 47761,,0.1,1979
 47771,,1,
 47775,,1,1964
@@ -2449,6 +2454,7 @@ type_id,name,volume,group_id
 75277,Compressed Mordunium III-Grade,0.001,4513
 75278,Compressed Mordunium IV-Grade,0.001,4513
 75279,,0.006,4514
+75282,,0.006,4514
 75283,,0.16,4515
 75287,Compressed Ducinium,,
 75908,Barghest Red Stargazer SKIN,,
@@ -2607,6 +2613,7 @@ type_id,name,volume,group_id
 92039,Inshore EC-300-I,5,5239
 92040,Nertic EC-600-I,10,5239
 92041,Humboldt EC-900-I,25,5239
+92283,Moreau YC128 Campaign Bus,10000,5087
 92454,,5,763
 92456,Presidential Mining Foreman Burst,60,1770
 92458,,60,1770
@@ -2625,6 +2632,7 @@ type_id,name,volume,group_id
 93145,,1100,101
 93350,Guerilla Republic - Unlimited,,
 93466,Imperial Benediction - Unlimited,,
+93470,,0.1,4726
 93745,Tempest Fleet Issue Capsuleer Day XXIII SKIN,0.01,
 93908,Caldari Navy Missile Guidance Enhancer,5,1395
 93909,Republic Fleet Missile Guidance Enhancer,5,
