@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Sat 21 Nov 18:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Sat 21 Nov 18:14 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 29 · **Est. time:** 18 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -43,7 +43,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 | 10 | ☐ Caesium | 6,635 | **6,634** | 6,165 | 6,635 |
 | 11 | ☐ Caldari Drone Specialization | 2,110,000 | **2,192,000** | 1,139,000 | 2,193,000 |
 | 12 | ☐ Limited Expanded 'Archiver' Cargo | 49,700,000 | **49,570,000** | 25,980,000 | 49,580,000 |
-| 13 | ☐ Mobile Large Warp Disruptor I | 24,710,000 | **24,570,000** | 18,570,000 | 24,580,000 |
+| 13 | ☐ Mobile Large Warp Disruptor I | 24,710,000 | **24,560,000** | 18,570,000 | 24,570,000 |
 | 14 | ☐ Polarized Light Neutron Blaster | 5,884,000 | **5,880,000** | 3,818,000 | 5,881,000 |
 | 15 | ☐ Shrapnel Bomb | 1,657,000 | **1,654,000** | 1,311,000 | 1,655,000 |
 | 16 | ☐ Zero-Point Mass Entangler | 8,875,000 | **8,875,000** | 8,875,000 | 8,698,000 |
