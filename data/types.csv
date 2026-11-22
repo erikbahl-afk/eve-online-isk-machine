@@ -884,7 +884,7 @@ type_id,name,volume,group_id
 18797,Coreli A-Type Thermal Coating,5,98
 18799,Corelum C-Type Multispectrum Energized Membrane,5,326
 18813,,5,
-18817,,5,326
+18817,Corelum B-Type Thermal Energized Membrane,5,326
 18827,Corelum A-Type Thermal Energized Membrane,5,
 18829,Corpum C-Type Multispectrum Energized Membrane,5,326
 18831,,5,326
@@ -1253,7 +1253,7 @@ type_id,name,volume,group_id
 24515,,0.03,
 24517,Mjolnir Precision Heavy Missile,0.03,
 24519,Nova Rage Torpedo,0.05,657
-24521,,0.05,
+24521,,0.05,657
 24523,Mjolnir Rage Torpedo,0.05,657
 24531,Nova Fury Cruise Missile,0.05,656
 24533,,0.05,656
@@ -2079,7 +2079,7 @@ type_id,name,volume,group_id
 46355,Ubiquitous Moon Mining Crystal Type A I,6,482
 46356,Ubiquitous Moon Mining Crystal Type A II,10,482
 46375,Daily Alpha Injector,0.01,1739
-46381,,1,1818
+46381,Agency Support Drop,1,1818
 46490,,10,1936
 46633,Standup M-Set Asteroid Ore Grading Processor I,10,
 46637,Standup M-Set Moon Ore Grading Processor I,10,1943
@@ -2427,7 +2427,7 @@ type_id,name,volume,group_id
 62554,Compressed Gneiss III-Grade,0.05,467
 62555,Compressed Gneiss IV-Grade,0.05,467
 62556,,0.08,453
-62558,,0.08,453
+62558,Compressed Dark Ochre III-Grade,0.08,453
 62559,Compressed Dark Ochre IV-Grade,0.08,453
 62560,Compressed Crokite,0.16,452
 62562,,0.16,452
@@ -2465,7 +2465,7 @@ type_id,name,volume,group_id
 73795,Cormorant Navy Issue,5000,420
 73796,Catalyst Navy Issue,5000,420
 74160,,0.01,
-75275,,0.001,4513
+75275,Compressed Mordunium,0.001,4513
 75276,Compressed Mordunium II-Grade,0.001,4513
 75277,Compressed Mordunium III-Grade,0.001,4513
 75278,Compressed Mordunium IV-Grade,0.001,4513
