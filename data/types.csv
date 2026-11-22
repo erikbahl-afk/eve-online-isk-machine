@@ -1138,7 +1138,7 @@ type_id,name,volume,group_id
 21889,Information Command Mindlink,1,744
 21890,Skirmish Command Mindlink,1,744
 21894,Republic Fleet EMP L,0.025,83
-21896,,0.0125,
+21896,Republic Fleet EMP M,0.0125,83
 21898,Republic Fleet EMP S,0.0025,
 21902,Republic Fleet Fusion L,0.025,83
 21918,Republic Fleet Phased Plasma L,0.025,83
@@ -1286,6 +1286,7 @@ type_id,name,volume,group_id
 25605,Armor Plates,0.01,754
 25608,Intact Shield Emitter,0.01,754
 25609,Nanite Compound,0.01,754
+25611,,0.01,754
 25613,,0.01,754
 25617,Power Circuit,0.01,754
 25619,Logic Circuit,0.01,754
@@ -2455,7 +2456,7 @@ type_id,name,volume,group_id
 75278,Compressed Mordunium IV-Grade,0.001,4513
 75279,,0.006,4514
 75282,,0.006,4514
-75283,,0.16,4515
+75283,Compressed Eifyrium,0.16,4515
 75287,Compressed Ducinium,,
 75908,Barghest Red Stargazer SKIN,,
 76954,Ishkur Zydrine Burn SKIN,,
@@ -2466,6 +2467,7 @@ type_id,name,volume,group_id
 78367,Mamba,5000,420
 78369,Khizriel,15000,419
 78622,Gravid Vorton Tuning System Mutaplasmid,1,1964
+78857,,0.1,314
 78889,Mysterious GalNet Crate,0.1,1194
 79186,Mysterious GalNet Crate II,,
 79744,Barghest Aurora Universalis SKIN,,
@@ -2670,7 +2672,7 @@ type_id,name,volume,group_id
 96321,Salvation Sanguinary Savant SKIN,,
 96326,Captured Bioadaptive Cache,1,1194
 96333,,0.01,1950
-96515,,0.001,1194
+96515,Imperial Light Token,0.001,1194
 96516,Federal Equilibrium Token,,
 96543,Potent 'Radiance' Cerebral Accelerator,1,303
 96544,Extended 'Radiance' Cerebral Accelerator,1,303
@@ -2712,7 +2714,7 @@ type_id,name,volume,group_id
 97552,Hyperspherical Housing,0.1,1194
 97560,Polycrase X-Grade,,
 97564,Compressed Raspite X-Grade,0.01,5083
-97566,,0.01,5084
+97566,Compressed Polycrase X-Grade,0.01,5084
 97569,Compressed Moissanite X-Grade,0.01,5085
 97570,Compressed Kangite X-Grade,0.01,5086
 97621,Pioneer Medical Enforcement Taskforce SKIN,,

@@ -3,7 +3,7 @@
   "key": "liquidation",
   "severity": "medium",
   "since": 1793915372.8054109,
-  "text": "Liquidation value is 51% of net worth (2.55B of 4.98B): much of the stock couldn't be sold quickly without a big loss."
+  "text": "Liquidation value is 51% of net worth (2.54B of 4.96B): much of the stock couldn't be sold quickly without a big loss."
  },
  {
   "key": "position:77169",
@@ -51,7 +51,7 @@
   "key": "idle_buy:36",
   "severity": "info",
   "since": 1795132829.190364,
-  "text": "Buy order for Criterion Cipher in jita hasn't filled at all in 8 days (25.68M tied up)."
+  "text": "Buy order for Criterion Cipher in jita hasn't filled at all in 8 days (36.04M tied up)."
  },
  {
   "key": "idle_buy:37",
@@ -63,7 +63,7 @@
   "key": "idle_buy:38",
   "severity": "info",
   "since": 1795132829.190364,
-  "text": "Buy order for Gistum B-Type Medium Shield Booster in jita hasn't filled at all in 8 days (224.60M tied up)."
+  "text": "Buy order for Gistum B-Type Medium Shield Booster in jita hasn't filled at all in 8 days (231.00M tied up)."
  },
  {
   "key": "idle_buy:39",
@@ -84,12 +84,6 @@
   "text": "Buy order for Quad Mega Pulse Laser II in jita hasn't filled at all in 8 days (175.20M tied up)."
  },
  {
-  "key": "idle_buy:42",
-  "severity": "info",
-  "since": 1795132829.190364,
-  "text": "Buy order for Sansha NET Resonator in jita hasn't filled at all in 8 days (29.57M tied up)."
- },
- {
   "key": "idle_buy:43",
   "severity": "info",
   "since": 1795132829.190364,
@@ -105,7 +99,7 @@
   "key": "idle_buy:58",
   "severity": "info",
   "since": 1795363233.5435922,
-  "text": "Buy order for Glorified Unstable Medium Remote Armor Repairer Mutaplasmid in jita hasn't filled at all in 5 days (77.15M tied up)."
+  "text": "Buy order for Glorified Unstable Medium Remote Armor Repairer Mutaplasmid in jita hasn't filled at all in 5 days (77.16M tied up)."
  },
  {
   "key": "idle_buy:59",
@@ -123,19 +117,19 @@
   "key": "stale_sell:11",
   "severity": "info",
   "since": 1794613405.4287903,
-  "text": "Sell order for Dread Guristas Rocket Launcher in amarr still has 6 left after 17 days (repriced 2 d ago: step-down working)."
+  "text": "Sell order for Dread Guristas Rocket Launcher in amarr still has 6 left after 17 days (repriced 0 d ago: step-down working)."
  },
  {
   "key": "stale_sell:12",
   "severity": "info",
   "since": 1794613405.4287903,
-  "text": "Sell order for Standup M-Set Basic Small Ship Manufacturing Material Efficiency I in amarr still has 1 left after 17 days (repriced 2 d ago: step-down working)."
+  "text": "Sell order for Standup M-Set Basic Small Ship Manufacturing Material Efficiency I in amarr still has 1 left after 17 days (repriced 0 d ago: step-down working)."
  },
  {
   "key": "stale_sell:13",
   "severity": "info",
   "since": 1794613405.4287903,
-  "text": "Sell order for Typhoon Fleet Issue Capsuleer Elite XX SKIN in amarr still has 1 left after 17 days (repriced 2 d ago: step-down working)."
+  "text": "Sell order for Typhoon Fleet Issue Capsuleer Elite XX SKIN in amarr still has 1 left after 17 days (repriced 0 d ago: step-down working)."
  },
  {
   "key": "stale_sell:14",
@@ -147,19 +141,19 @@
   "key": "stale_sell:15",
   "severity": "info",
   "since": 1794613405.4287903,
-  "text": "Sell order for Low-grade Crystal Epsilon in amarr still has 2 left after 17 days (repriced 2 d ago: step-down working)."
+  "text": "Sell order for Low-grade Crystal Epsilon in amarr still has 2 left after 17 days (repriced 0 d ago: step-down working)."
  },
  {
   "key": "stale_sell:16",
   "severity": "info",
   "since": 1794613405.4287903,
-  "text": "Sell order for Men's 'Precision' Boots in amarr still has 5 left after 17 days (repriced 2 d ago: step-down working)."
+  "text": "Sell order for Men's 'Precision' Boots in amarr still has 5 left after 17 days (repriced 0 d ago: step-down working)."
  },
  {
   "key": "stale_sell:17",
   "severity": "info",
   "since": 1794613405.4287903,
-  "text": "Sell order for 'Cartel' Power Diagnostic System I in amarr still has 7 left after 17 days (repriced 2 d ago: step-down working)."
+  "text": "Sell order for 'Cartel' Power Diagnostic System I in amarr still has 7 left after 17 days (repriced 0 d ago: step-down working)."
  },
  {
   "key": "stale_sell:18",
@@ -171,6 +165,6 @@
   "key": "stale_sell:9",
   "severity": "info",
   "since": 1794613405.4287903,
-  "text": "Sell order for Black Market 'Valdimar' Drone Navigation DN-701 in amarr still has 3 left after 17 days (repriced 2 d ago: step-down working)."
+  "text": "Sell order for Black Market 'Valdimar' Drone Navigation DN-701 in amarr still has 3 left after 17 days (repriced 0 d ago: step-down working)."
  }
 ]

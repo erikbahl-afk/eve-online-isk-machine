@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0278,
- "buy_orders": 5880,
- "buy_orders_reaching_jita": 5802,
+ "ask_ratio_median": 1.0302,
+ "buy_orders": 5884,
+ "buy_orders_reaching_jita": 5806,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6339,
+ "orders": 6343,
  "sell_orders": 459,
- "share_ask_below_jita": 0.3143,
+ "share_ask_below_jita": 0.3099,
  "structure_id": 1042508032148,
- "t": 1795363271.8681157,
+ "t": 1795368318.2803636,
  "top_ask_below_jita": [
   {
    "best_ask": 145.0,
@@ -45,11 +45,18 @@
    "type_id": 17440
   },
   {
-   "best_ask": 80000.0,
-   "gap": 0.6876,
+   "best_ask": 79970.0,
+   "gap": 0.6875,
    "name": "",
    "s_ask": 24990.0,
    "type_id": 22576
+  },
+  {
+   "best_ask": 99930.0,
+   "gap": 0.681,
+   "name": "",
+   "s_ask": 31880.0,
+   "type_id": 47809
   },
   {
    "best_ask": 4999.0,
@@ -101,13 +108,6 @@
    "type_id": 37552
   },
   {
-   "best_ask": 41990000.0,
-   "gap": 0.5237,
-   "name": "",
-   "s_ask": 20000000.0,
-   "type_id": 47638
-  },
-  {
    "best_ask": 5246000.0,
    "gap": 0.5234,
    "name": "",
@@ -117,21 +117,14 @@
  ],
  "top_bid_over_jita": [
   {
-   "best_bid": 102900000.0,
-   "gap": 0.001,
-   "name": "",
-   "s_bid_reach": 103000000.0,
-   "type_id": 27121
-  },
-  {
-   "best_bid": 7170.0,
+   "best_bid": 3378000.0,
    "gap": 0.0003,
-   "name": "Fried Interface Circuit",
-   "s_bid_reach": 7172.0,
-   "type_id": 25601
+   "name": "Imperial Navy General Insignia I",
+   "s_bid_reach": 3379000.0,
+   "type_id": 15615
   }
  ],
- "types": 3881,
- "types_also_in_jita": 3880,
- "types_bid_over_jita_reaching": 2
+ "types": 3879,
+ "types_also_in_jita": 3878,
+ "types_bid_over_jita_reaching": 1
 }
