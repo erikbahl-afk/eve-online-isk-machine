@@ -40,7 +40,7 @@ type_id,name,volume,group_id
 642,Apocalypse,50000,27
 644,Typhoon,50000,27
 645,Dominix,50000,27
-648,,20000,28
+648,Badger,20000,28
 652,,20000,28
 655,,20000,28
 686,,0.01,
@@ -222,7 +222,7 @@ type_id,name,volume,group_id
 3775,Viral Agent,0.75,1034
 3828,,0.75,1034
 3831,Medium Shield Extender II,10,38
-3841,,20,38
+3841,Large Shield Extender II,20,38
 3893,Mining Connections,0.01,
 3894,Distribution Connections,0.01,278
 3895,Security Connections,0.01,278
@@ -328,7 +328,7 @@ type_id,name,volume,group_id
 11200,,2500,
 11202,,2500,831
 11229,Explosive Energized Membrane II,,
-11309,,10,329
+11309,400mm Rolled Tungsten Compact Plates,10,329
 11325,,20,329
 11343,100mm Crystalline Carbonide Restrained Plates,,
 11365,Vengeance,2500,324
@@ -406,7 +406,7 @@ type_id,name,volume,group_id
 12034,Hound,2500,834
 12038,Purifier,2500,834
 12042,Ishkur,2500,324
-12044,,2500,
+12044,,2500,324
 12054,,50,
 12058,,5,46
 12066,100MN Afterburner I,,
@@ -944,7 +944,7 @@ type_id,name,volume,group_id
 19081,Corpum A-Type Medium Remote Capacitor Transmitter,10,
 19087,,10,
 19105,,5,68
-19107,,5,68
+19107,Corpum C-Type Medium Energy Nosferatu,5,68
 19109,,5,68
 19111,Corpum A-Type Medium Energy Nosferatu,5,68
 19113,Corpus C-Type Heavy Energy Nosferatu,5,68
@@ -1256,7 +1256,7 @@ type_id,name,volume,group_id
 25278,,10,711
 25349,Strong Exile Booster,1,303
 25530,Neurotoxin Recovery,0.01,1220
-25538,,0.01,
+25538,,0.01,1220
 25544,Gas Cloud Harvesting,0.01,
 25563,,5,
 25590,Contaminated Nanite Compound,0.01,754
@@ -1446,7 +1446,7 @@ type_id,name,volume,group_id
 28661,Kronos,50000,900
 28665,Vargur,50000,900
 28668,Nanite Repair Paste,0.01,916
-28672,Synth Crash Booster,,
+28672,Synth Crash Booster,1,303
 28674,Synth Drop Booster,1,303
 28676,Synth Exile Booster,1,
 28678,Synth Frentix Booster,1,303
@@ -1742,6 +1742,7 @@ type_id,name,volume,group_id
 33941,Low-grade Harvest Alpha,1,300
 33942,Low-grade Harvest Beta,1,300
 33948,Low-grade Nomad Beta,1,300
+33949,Low-grade Nomad Delta,1,300
 33951,Low-grade Nomad Gamma,1,300
 33957,,1,300
 33960,,1,
@@ -1839,6 +1840,7 @@ type_id,name,volume,group_id
 37479,Micro Jump Field Generator,10,1533
 37480,Bifrost,5000,1534
 37482,Stork,5000,1534
+37483,,5000,1534
 37599,,3000,1537
 37608,Pitfall Compact Warp Disruption Field Generator,50,899
 37612,,50,899
@@ -2029,6 +2031,8 @@ type_id,name,volume,group_id
 46005,Agency 'Overclocker' SB5 Dose II,1,303
 46006,Agency 'Overclocker' SB7 Dose III,1,303
 46182,,0.01,1888
+46204,,0.01,1888
+46210,,0.01,1888
 46213,Ferrogel Reaction Formula,,
 46251,Improved Blue Pill Booster Reaction Formula,,
 46355,Ubiquitous Moon Mining Crystal Type A I,6,482
@@ -2043,6 +2047,7 @@ type_id,name,volume,group_id
 47133,Standup Dromi I,,
 47136,Standup Siren II,6000,4778
 47139,,2000,4777
+47258,,5,60
 47270,Vedmak,10000,26
 47271,Leshak,50000,27
 47272,,5,1986
@@ -2313,7 +2318,7 @@ type_id,name,volume,group_id
 60314,Gas Cloud Harvester II,5,4138
 60381,Abyssal Ore Processing,,
 60464,Exigent Heavy Drone Firepower Mutaplasmid,1,1964
-60468,,1,1964
+60468,Exigent Sentry Drone Firepower Mutaplasmid,1,1964
 60470,Exigent Sentry Drone Projection Mutaplasmid,1,
 60472,,1,1964
 60473,Exigent Medium Drone Firepower Mutaplasmid,1,1964
@@ -2485,13 +2490,14 @@ type_id,name,volume,group_id
 85447,Glorified Gravid Medium Armor Plate Mutaplasmid,,
 85514,Glorified Gravid Large Cap Battery Mutaplasmid,1,1964
 85521,,1,1964
-85543,Glorified Gravid Large Shield Booster Mutaplasmid,,
+85543,Glorified Gravid Large Shield Booster Mutaplasmid,1,1964
 85551,Glorified Gravid X-Large Shield Booster Mutaplasmid,,
 85559,Glorified Gravid Stasis Webifier Mutaplasmid,1,1964
 85642,,1,1964
 85645,Glorified Unstable Warp Scrambler Mutaplasmid,1,1964
 85656,Glorified Unstable Entropic Radiation Sink Mutaplasmid,1,1964
 85662,Glorified Unstable Gyrostabilizer Mutaplasmid,1,1964
+85664,Glorified Unstable Heat Sink Mutaplasmid,1,1964
 85668,Glorified Unstable Magnetic Field Stabilizer Mutaplasmid,,
 85746,Infomorph Decryption Key,,
 85747,Satori-Horigu Combat Scanner Probe,,
