@@ -1,20 +1,20 @@
 {
- "ask_ratio_median": 1.0309,
- "buy_orders": 5786,
- "buy_orders_reaching_jita": 5712,
+ "ask_ratio_median": 1.036,
+ "buy_orders": 5811,
+ "buy_orders_reaching_jita": 5737,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6228,
- "sell_orders": 442,
- "share_ask_below_jita": 0.311,
+ "orders": 6251,
+ "sell_orders": 440,
+ "share_ask_below_jita": 0.3038,
  "structure_id": 1042508032148,
- "t": 1795442445.9485402,
+ "t": 1795449649.372417,
  "top_ask_below_jita": [
   {
-   "best_ask": 44000.0,
-   "gap": 0.9237,
+   "best_ask": 1992.0,
+   "gap": 0.8745,
    "name": "",
-   "s_ask": 3356.0,
-   "type_id": 84408
+   "s_ask": 250.0,
+   "type_id": 90480
   },
   {
    "best_ask": 150000000.0,
@@ -45,18 +45,11 @@
    "type_id": 47809
   },
   {
-   "best_ask": 77910.0,
-   "gap": 0.6792,
+   "best_ask": 74990.0,
+   "gap": 0.6668,
    "name": "",
    "s_ask": 24990.0,
    "type_id": 22576
-  },
-  {
-   "best_ask": 976.9,
-   "gap": 0.6314,
-   "name": "",
-   "s_ask": 360.1,
-   "type_id": 3446
   },
   {
    "best_ask": 4896.0,
@@ -80,20 +73,6 @@
    "type_id": 46916
   },
   {
-   "best_ask": 76760000.0,
-   "gap": 0.544,
-   "name": "",
-   "s_ask": 35000000.0,
-   "type_id": 47621
-  },
-  {
-   "best_ask": 2898.0,
-   "gap": 0.5431,
-   "name": "",
-   "s_ask": 1324.0,
-   "type_id": 90590
-  },
-  {
    "best_ask": 14930000.0,
    "gap": 0.5311,
    "name": "",
@@ -108,15 +87,51 @@
    "type_id": 37552
   },
   {
-   "best_ask": 5245000.0,
-   "gap": 0.5234,
+   "best_ask": 22780000.0,
+   "gap": 0.5171,
    "name": "",
-   "s_ask": 2500000.0,
-   "type_id": 46906
+   "s_ask": 11000000.0,
+   "type_id": 44912
+  },
+  {
+   "best_ask": 18370000.0,
+   "gap": 0.5101,
+   "name": "",
+   "s_ask": 9000000.0,
+   "type_id": 45922
+  },
+  {
+   "best_ask": 15130000.0,
+   "gap": 0.5043,
+   "name": "",
+   "s_ask": 7500000.0,
+   "type_id": 44923
+  },
+  {
+   "best_ask": 5997000.0,
+   "gap": 0.4997,
+   "name": "",
+   "s_ask": 3000000.0,
+   "type_id": 45969
   }
  ],
- "top_bid_over_jita": [],
- "types": 3829,
- "types_also_in_jita": 3829,
- "types_bid_over_jita_reaching": 0
+ "top_bid_over_jita": [
+  {
+   "best_bid": 30100000.0,
+   "gap": 0.0003,
+   "name": "",
+   "s_bid_reach": 30110000.0,
+   "type_id": 45597
+  },
+  {
+   "best_bid": 32570000.0,
+   "gap": 0.0003,
+   "name": "Loki Core - Augmented Nuclear Reactor",
+   "s_bid_reach": 32580000.0,
+   "type_id": 45632
+  }
+ ],
+ "types": 3844,
+ "types_also_in_jita": 3844,
+ "types_bid_over_jita_reaching": 2
 }

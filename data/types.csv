@@ -261,6 +261,7 @@ type_id,name,volume,group_id
 4306,,15000,1201
 4308,,15000,1201
 4310,Tornado,15000,1201
+4312,,5,1136
 4313,Oxygen Fuel Block Blueprint,0.01,
 4315,,0.01,
 4345,Gistum B-Type Multispectrum Shield Hardener,5,77
@@ -504,7 +505,7 @@ type_id,name,volume,group_id
 13245,Zainou 'Deadeye' Trajectory Analysis TA-703,1,742
 13247,,1,746
 13248,Zainou 'Deadeye' Missile Projection MP-703,1,
-13249,,1,746
+13249,Zainou 'Deadeye' Rapid Launch RL-1003,1,746
 13250,,1,746
 13254,Zainou 'Gypsy' Electronics Upgrades EU-603,,
 13255,Inherent Implants 'Squire' Energy Grid Upgrades EU-703,,
@@ -1539,7 +1540,7 @@ type_id,name,volume,group_id
 29990,Loki,5000,963
 29992,Optimized Nano-Engines,,
 30018,,0.01,
-30019,,0.01,966
+30019,Powdered C-540 Graphite,0.01,966
 30021,,0.01,966
 30024,,0.01,966
 30187,Intact Thruster Sections,10,971
@@ -1724,6 +1725,7 @@ type_id,name,volume,group_id
 33157,Hurricane Fleet Issue,15000,419
 33201,,5,
 33332,,1.5,87
+33336,,0.2,428
 33337,,0.2,428
 33359,Photonic Metamaterials,1,429
 33360,Terahertz Metamaterials,1,429
@@ -2342,6 +2344,7 @@ type_id,name,volume,group_id
 57444,,1,
 57445,LM-Composite Molecular Condenser,1,526
 57446,AG-Composite Molecular Condenser,1,526
+57447,CV-Composite Molecular Condenser,1,526
 57449,Nano Regulation Gate,0.1,526
 57450,Electro-Neural Signaller,0.25,526
 57451,,2.5,526
@@ -2476,7 +2479,7 @@ type_id,name,volume,group_id
 64380,Men's Amarr Courtly Robe,,
 72811,,15000,419
 72812,Ferox Navy Issue,15000,419
-72869,Myrmidon Navy Issue,,
+72869,Myrmidon Navy Issue,15000,419
 72872,Prophecy Navy Issue,15000,419
 72903,Probe Fleet Issue,2500,25
 72904,Heron Navy Issue,2500,25
