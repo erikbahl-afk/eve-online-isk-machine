@@ -106,6 +106,7 @@ type_id,name,volume,group_id
 2352,Nuclear Reactors,3,
 2358,,3,1040
 2361,Hermetic Membranes,3,1040
+2366,,3,1040
 2389,Plasmoids,0.19,1042
 2390,Electrolytes,0.19,1042
 2392,Oxidizing Compound,0.19,1042
@@ -886,6 +887,7 @@ type_id,name,volume,group_id
 18789,Coreli A-Type Multispectrum Coating,5,98
 18797,Coreli A-Type Thermal Coating,5,98
 18799,Corelum C-Type Multispectrum Energized Membrane,5,326
+18807,,5,326
 18813,,5,
 18817,Corelum B-Type Thermal Energized Membrane,5,326
 18827,Corelum A-Type Thermal Energized Membrane,5,
@@ -939,7 +941,7 @@ type_id,name,volume,group_id
 18983,Coreli B-Type Small Remote Armor Repairer,5,325
 18985,Coreli A-Type Small Remote Armor Repairer,5,325
 18987,Corelum C-Type Medium Remote Armor Repairer,10,325
-18989,Corelum B-Type Medium Remote Armor Repairer,10,
+18989,Corelum B-Type Medium Remote Armor Repairer,10,325
 18991,Corelum A-Type Medium Remote Armor Repairer,10,325
 18999,,5,
 19003,,5,62
@@ -1395,7 +1397,7 @@ type_id,name,volume,group_id
 27309,,0.01,
 27321,,0.005,387
 27327,,0.005,387
-27333,,0.005,387
+27333,Caldari Navy Scourge Rocket,0.005,387
 27339,Caldari Navy Mjolnir Torpedo,0.05,89
 27341,Dread Guristas Mjolnir Torpedo,0.05,89
 27345,Caldari Navy Scourge Torpedo,0.05,89
@@ -1463,7 +1465,7 @@ type_id,name,volume,group_id
 28375,,10,
 28377,Caldari Navy Heavy Assault Missile Launcher,10,771
 28379,Domination Heavy Assault Missile Launcher,,
-28381,,10,771
+28381,Dread Guristas Heavy Assault Missile Launcher,10,771
 28433,Compressed Blue Ice,,
 28435,Compressed Dark Glitter,100,465
 28437,Compressed Gelidus,100,465
@@ -2795,6 +2797,7 @@ type_id,name,volume,group_id
 98449,Republic Defense Booster III,1,303
 98451,Republic Mobility Booster II,1,303
 98454,Republic Hardpoint Booster II,,
+98455,Republic Hardpoint Booster III,,
 98484,,0.01,1950
 98651,,0.01,1950
 98652,,0.01,1950

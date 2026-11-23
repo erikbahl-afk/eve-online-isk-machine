@@ -107,6 +107,12 @@
     "since": 1795384816.0,
     "tag": "station"
    },
+   "75277": {
+    "cost": 21.09,
+    "qty": 1,
+    "since": 1795419318.0,
+    "tag": "station"
+   },
    "75283": {
     "cost": 1687.0,
     "qty": 3,
@@ -122,7 +128,7 @@
   }
  },
  "last_jump": null,
- "last_t": 1795413631.2606566,
+ "last_t": 1795419588.7732441,
  "location": "jita",
  "next_oid": 32,
  "orders": [
@@ -377,18 +383,6 @@
   {
    "created": 1795413631.2606566,
    "hub": "jita",
-   "oid": 27,
-   "price": 21.09,
-   "qty": 1,
-   "remain": 1,
-   "side": "buy",
-   "tag": "station",
-   "type_id": 75277,
-   "updated": 1795413631.2606566
-  },
-  {
-   "created": 1795413631.2606566,
-   "hub": "jita",
    "oid": 28,
    "price": 1.42,
    "qty": 1,
@@ -447,7 +441,7 @@
    "sales": 0.0
   },
   "station": {
-   "buys": 143257728.67,
+   "buys": 143257749.76,
    "fees": 39773991.154029995,
    "realized": -39773991.154029995,
    "sales": 0.0
@@ -647,8 +641,8 @@
    "sold_units": 0
   },
   "jita:75277": {
-   "bought_isk": 0.0,
-   "bought_units": 0,
+   "bought_isk": 21.09,
+   "bought_units": 1,
    "fees": 100.0,
    "realized": -100.0,
    "sold_net": 0.0,
@@ -753,7 +747,7 @@
  },
  "pnl": {
   "broker": 32765923.927150004,
-  "buys": 2886093728.6700006,
+  "buys": 2886093749.7600007,
   "courier": 138000000.0,
   "realized": -39773991.154029995,
   "relist": 7008067.226879999,
