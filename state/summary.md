@@ -1,4 +1,4 @@
-# Summary · Mon 23 Nov 12:14 PST
+# Summary · Mon 23 Nov 14:00 PST
 
 Updated every ~2 hours. **Your real character** is the first section; everything after it is the **practice trader** (pretend ISK, real market data). Each section starts with a line on how to read it.
 
@@ -42,9 +42,9 @@ _Read from the game over SSO. Shows how far the skill plan is and what needs you
 ## 2. Practice portfolio
 _The paper trader started with 5.00B on 28 Oct. Net worth counts stock at what we paid; liquidation is the worst case if we dumped everything into buy orders right now._
 
-- **Net worth:** 5.05B (+1.03% in 26.1 days) · liquidation 2.70B
-- **Where the ISK is:** cash 965.95M · locked in buy orders 411.61M · stock 3.67B · on a courier 0.00
-- **Profit so far (realized):** 51.25M. That's completed sales minus every fee paid. Fees: broker 151.16M, relist 60.55M, sales tax 23.04M, courier 207.00M
+- **Net worth:** 5.05B (+1.04% in 26.2 days) · liquidation 2.70B
+- **Where the ISK is:** cash 967.98M · locked in buy orders 411.61M · stock 3.67B · on a courier 0.00
+- **Profit so far (realized):** 52.20M. That's completed sales minus every fee paid. Fees: broker 151.16M, relist 60.55M, sales tax 23.11M, courier 207.00M
 - **Location:** jita · import hub amarr · shipments on the way 0
 - **What's limiting profit** (near 100% = the bottleneck): order slots 40/113 · ISK in use 81% · your time last plan 20 of 25 min
 
@@ -53,7 +53,7 @@ _station = buy and sell in the same hub · import = buy in Jita, ship, sell else
 
 | Strategy | Spent buying | Sold for | Fees | Realized profit |
 |---|---|---|---|---|
-| import | 3.69B | 610.41M | 367.22M | 90.44M |
+| import | 3.69B | 612.52M | 367.22M | 91.38M |
 | station | 177.01M | 72.21M | 51.48M | -39.19M |
 
 ## 4. Strategy experiments
@@ -61,12 +61,12 @@ _Separate pretend portfolios trading the same market with the same logins but di
 
 | Experiment | Kind | Net worth | Change | Liquidation | Realized profit | What it tests |
 |---|---|---|---|---|---|---|
-| main | main | 5.05B | +1.03% | 53% | 51.25M | current settings (drives INSTRUCTIONS.md) |
+| main | main | 5.05B | +1.04% | 53% | 52.20M | current settings (drives INSTRUCTIONS.md) |
 | no_imports | regular | 4.86B | -2.78% | 99% | -138.83M | station trading only: measures what imports add |
-| start_1b | regular | 1.01B | +1.19% | 90% | 11.94M | 1B starting capital, normal sessions: the likely live start |
-| start_1b_more_time | regular | 1.03B | +3.20% | 91% | 32.00M | 1B start with 60-min sessions and 2-3 weekday logins: is extra early time worth it? |
-| exports | regular | 4.89B | -2.12% | 85% | -105.89M | open question: also ship cheap goods from the import hub back to Jita on the return trip |
-| fill_floor | regular | 4.97B | -0.68% | 87% | -34.22M | fill probe: top_floor 0.3 (time-on-top fit 11-17); judged by paper fills vs official volume, not profit |
+| start_1b | regular | 1.01B | +1.19% | 91% | 11.94M | 1B starting capital, normal sessions: the likely live start |
+| start_1b_more_time | regular | 1.03B | +3.20% | 92% | 32.00M | 1B start with 60-min sessions and 2-3 weekday logins: is extra early time worth it? |
+| exports | regular | 4.90B | -2.05% | 85% | -102.31M | open question: also ship cheap goods from the import hub back to Jita on the return trip |
+| fill_floor | regular | 4.97B | -0.68% | 85% | -34.22M | fill probe: top_floor 0.3 (time-on-top fit 11-17); judged by paper fills vs official volume, not profit |
 | rotation | bold | 4.89B | -2.22% | 88% | -111.11M | BOLD / open question: two import hubs (Dodixie and Amarr) visited in rotation instead of one |
 
 ## 5. Recent simulated logins
@@ -92,8 +92,8 @@ _Per item: units bought and sold, fees paid, and realized profit. Items bought b
 | Limited Expanded 'Archiver' Cargo (amarr) | 0 | 1 | 2.83M | 20.23M |
 | Gravid Vorton Tuning System Mutaplasmid (amarr) | 0 | 2 | 10.04M | 12.08M |
 | Legion Mjolnir Auto-Targeting Light Missile (amarr) | 0 | 7,580 | 639.33k | 8.01M |
-| Compressed Hezorime III-Grade (jita) | 30,810 | 30,617 | 1.25M | 4.50M |
-| Caldari Drone Specialization (amarr) | 0 | 4 | 464.37k | 3.39M |
+| Compressed Hezorime III-Grade (jita) | 30,813 | 30,617 | 1.25M | 4.50M |
+| Caldari Drone Specialization (amarr) | 0 | 5 | 464.37k | 4.34M |
 | Compressed Hezorime (jita) | 11,372 | 11,372 | 640.05k | 2.16M |
 | 50MN Microwarpdrive II (jita) | 7 | 7 | 2.17M | 1.47M |
 | Dread Guristas Rocket Launcher (amarr) | 0 | 0 | 19.49M | -19.49M |
@@ -107,73 +107,73 @@ _Market size = ISK spent per day buying from sell orders in that station. Items 
 
 | Hub | Market size/day | Station items | Station profit/day | Import items | Import profit/day |
 |---|---|---|---|---|---|
-| jita | 5.25T | 20 | 30.72M | - | - |
-| amarr | 528.91B | 9 | 10.46M | 41 | 87.24M |
-| dodixie | 157.22B | 6 | 7.23M | 51 | 104.88M |
-| rens | 32.12B | 0 | - | 10 | 18.66M |
-| hek | 68.33B | 2 | 1.93M | 25 | 60.02M |
+| jita | 5.27T | 22 | 32.59M | - | - |
+| amarr | 531.99B | 7 | 8.53M | 44 | 93.74M |
+| dodixie | 157.42B | 5 | 5.32M | 51 | 104.80M |
+| rens | 32.16B | 0 | - | 9 | 16.78M |
+| hek | 68.14B | 1 | 1.13M | 25 | 61.72M |
 
 ## 8. Best items to trade inside Jita
 _Buy at the highest buy price + 1 tick, sell at the lowest sell price − 1 tick. Margin is after all fees. On top = how much of the time between your logins our order would stay the best price before a rival undercuts it (sell side / buy side). Limited by = which resource it eats most: order slots, ISK, or your time._
 
 | Item | Buy → sell price | Margin | Sold per day | On top (sell/buy) | Profit/day | Limited by |
 |---|---|---|---|---|---|---|
-| Glorified Unstable Entropic Radiation Sink Mutaplasmid | 172.50M → 229.70M | 25.2% | 0.1 | 12% / 27% | 2.97M | time |
-| Compressed Hezorime | 650.70 → 928.70 | 34.3% | 12171.2 | 33% / 35% | 2.66M | time |
-| Astrahus | 995.80M → 1.17B | 10.5% | 0.0 | 6% / 13% | 3.21M | ISK |
-| Low-grade Nomad Delta | 122.20M → 154.60M | 18.8% | 0.1 | 14% / 58% | 2.06M | time |
-| Low-grade Virtue Gamma | 141.00M → 188.60M | 25.7% | 0.1 | 14% / 42% | 2.05M | time |
-| Low-grade Nomad Gamma | 92.46M → 137.30M | 39.8% | 0.1 | 14% / 27% | 2.10M | time |
-| Mid-grade Rapture Gamma | 122.80M → 239.80M | 84.3% | 0.0 | 7% / 15% | 1.69M | time |
-| SARO Enforcement Booster | 17.00M → 26.11M | 44.6% | 0.2 | 1% / 4% | 1.62M | time |
-| Zorya's Light Entropic Disintegrator | 231.60M → 303.30M | 23.1% | 0.0 | 15% / 8% | 1.50M | time |
-| Compressed Glistening Zeolites | 2.53k → 2.89k | 7.1% | 9236.4 | 5% / 10% | 1.46M | ISK |
-| Federation Mobility Booster III | 23.02M → 51.97M | 113.3% | 0.0 | 9% / 55% | 1.17M | time |
-| State Defense Booster III | 26.21M → 44.45M | 59.8% | 0.1 | 12% / 29% | 1.21M | time |
+| Glorified Unstable Entropic Radiation Sink Mutaplasmid | 172.50M → 229.70M | 25.2% | 0.1 | 12% / 27% | 2.96M | time |
+| Compressed Hezorime | 650.70 → 928.70 | 34.3% | 12261.3 | 33% / 35% | 2.68M | time |
+| Astrahus | 995.80M → 1.17B | 10.5% | 0.0 | 6% / 13% | 3.20M | ISK |
+| Low-grade Nomad Delta | 122.30M → 154.90M | 19.0% | 0.1 | 14% / 53% | 2.24M | time |
+| Low-grade Nomad Gamma | 92.46M → 137.50M | 40.0% | 0.1 | 14% / 28% | 2.11M | time |
+| Low-grade Virtue Gamma | 141.00M → 188.60M | 25.7% | 0.1 | 14% / 43% | 2.01M | time |
+| Mid-grade Rapture Gamma | 122.80M → 239.80M | 84.3% | 0.0 | 7% / 15% | 1.68M | time |
+| SARO Enforcement Booster | 17.02M → 26.11M | 44.4% | 0.2 | 1% / 4% | 1.61M | time |
+| Zorya's Light Entropic Disintegrator | 231.60M → 303.30M | 23.1% | 0.0 | 15% / 8% | 1.51M | time |
+| Compressed Glistening Zeolites | 2.53k → 2.89k | 7.1% | 9211.4 | 5% / 10% | 1.45M | ISK |
+| Federation Mobility Booster III | 23.02M → 51.97M | 113.3% | 0.0 | 9% / 56% | 1.17M | time |
+| State Defense Booster III | 26.21M → 44.46M | 59.9% | 0.1 | 12% / 30% | 1.24M | time |
 
 ## 9. Best items to import Jita → Amarr
 _Buy from Jita sellers, ship by courier, sell just under the cheapest seller there. Margin is after shipping and fees. m³ = cargo volume per unit._
 
 | Item | Jita price → sell price | m³ | Margin | Sold per day | On top | Profit/day | Limited by |
 |---|---|---|---|---|---|---|---|
-| Improved 'Guise' Cloaking Device II | 34.29M → 49.96M | 100.0 | 34.0% | 0.5 | 78% | 5.30M | time |
-| Exigent Medium Drone Firepower Mutaplasmid | 27.38M → 33.88M | 1.0 | 13.1% | 1.7 | 37% | 6.02M | ISK |
-| Corpus X-Type Thermal Armor Hardener | 324.80M → 469.40M | 5.0 | 32.9% | 0.1 | 10% | 5.50M | time |
-| Standup Moon Drill I | 107.90M → 139.70M | 8,000.0 | 15.0% | 0.3 | 36% | 4.54M | time |
-| Loki Core - Augmented Nuclear Reactor | 33.50M → 41.52M | 40.0 | 13.3% | 0.9 | 38% | 3.99M | time |
-| Large 'Sheriff' Shield Extender | 34.91M → 46.92M | 20.0 | 23.3% | 0.4 | 64% | 3.63M | time |
-| Loki Defensive - Covert Reconfiguration | 35.00M → 43.85M | 40.0 | 14.6% | 0.8 | 19% | 4.04M | time |
-| Domination Large Cap Battery | 45.87M → 62.66M | 15.0 | 25.3% | 0.3 | 89% | 3.13M | time |
-| Imperial Navy Small Armor Repairer | 16.82M → 39.98M | 5.0 | 121.5% | 0.2 | 39% | 3.41M | time |
+| Improved 'Guise' Cloaking Device II | 34.30M → 49.96M | 100.0 | 34.0% | 0.5 | 78% | 5.24M | time |
+| Exigent Medium Drone Firepower Mutaplasmid | 27.38M → 33.88M | 1.0 | 13.1% | 1.7 | 38% | 6.07M | ISK |
+| Corpus X-Type Thermal Armor Hardener | 324.80M → 469.40M | 5.0 | 32.9% | 0.1 | 10% | 5.49M | time |
+| Huntsman SW-600-I | 7.25M → 9.98M | 10.0 | 26.3% | 2.3 | 48% | 4.39M | time |
+| Standup Moon Drill I | 107.90M → 138.70M | 8,000.0 | 14.1% | 0.3 | 34% | 4.03M | time |
+| Loki Core - Augmented Nuclear Reactor | 33.75M → 41.52M | 40.0 | 12.4% | 0.9 | 38% | 3.74M | time |
+| Domination Large Cap Battery | 45.86M → 62.66M | 15.0 | 25.4% | 0.3 | 89% | 3.12M | time |
+| Large 'Sheriff' Shield Extender | 34.91M → 46.91M | 20.0 | 23.2% | 0.4 | 58% | 3.28M | time |
+| Imperial Navy Small Armor Repairer | 16.83M → 39.98M | 5.0 | 121.4% | 0.2 | 39% | 3.42M | time |
 | Upwell Starship Engineering | 21.03M → 37.61M | 0.0 | 65.5% | 0.2 | 38% | 3.40M | time |
-| Jackdaw | 68.00M → 88.83M | 5,000.0 | 16.1% | 0.3 | 9% | 3.55M | time |
-| Eos | 269.80M → 333.60M | 15,000.0 | 11.5% | 0.1 | 24% | 3.11M | time |
+| Imperial Navy Large EMP Smartbomb | 159.60M → 192.40M | 50.0 | 10.1% | 0.5 | 19% | 7.04M | ISK |
+| Loki Defensive - Covert Reconfiguration | 36.00M → 43.86M | 40.0 | 11.3% | 0.8 | 19% | 3.25M | time |
 
 ## 10. Cornering watchlist (read-only, nothing is traded)
 _Items where buying out the cheapest few sell orders and relisting higher would pay on paper. We only watch them, to learn whether such prices hold or get undercut._
 
 | Hub | Item | Cheapest now | Buy out | Cost | Relist at | Paper profit | Return | Days to sell | Rival updates/day |
 |---|---|---|---|---|---|---|---|---|---|
-| jita | True Sansha Focused Medium Pulse Laser | 19.91M | 8 orders / 11 units | 219.50M | 52.91M | 334.14M | 152% | 8.4 | 1.9 |
+| jita | True Sansha Focused Medium Pulse Laser | 19.91M | 8 orders / 11 units | 219.50M | 52.91M | 334.14M | 152% | 8.5 | 1.9 |
 | amarr | Zainou 'Gypsy' CPU Management EE-604 | 120.00M | 1 orders / 3 units | 360.00M | 212.20M | 245.57M | 68% | 3.5 | 1.3 |
-| amarr | Imperial Mobility Booster III | 44.85M | 4 orders / 4 units | 184.75M | 90.51M | 159.64M | 86% | 4.5 | 2.5 |
-| jita | Large Polycarbon Engine Housing II | 9.93M | 12 orders / 34 units | 351.92M | 14.92M | 130.63M | 37% | 9.9 | 2.8 |
-| jita | Zainou 'Snapshot' Light Missiles LM-902 | 6.49M | 2 orders / 55 units | 357.34M | 9.25M | 126.61M | 35% | 5.9 | 1.8 |
-| jita | Mid-grade Centurion Beta | 99.00M | 1 orders / 3 units | 297.00M | 147.10M | 122.79M | 41% | 7.6 | 0.3 |
+| jita | Republic Hardpoint Booster III | 42.97M | 3 orders / 8 units | 348.75M | 74.99M | 221.92M | 64% | 6.6 | 2.4 |
+| amarr | Imperial Mobility Booster III | 44.85M | 4 orders / 4 units | 184.75M | 90.63M | 160.10M | 87% | 4.6 | 2.5 |
+| jita | Large Polycarbon Engine Housing II | 9.93M | 12 orders / 34 units | 351.90M | 14.92M | 130.65M | 37% | 9.9 | 2.9 |
+| jita | Mid-grade Centurion Beta | 99.00M | 1 orders / 3 units | 297.00M | 147.10M | 122.79M | 41% | 7.7 | 0.3 |
 | jita | Standup Cap Battery I | 39.91M | 5 orders / 7 units | 279.69M | 59.85M | 118.84M | 42% | 7.0 | 1.1 |
 | jita | Mining Laser Optimization Charge Blueprint | 17.45M | 3 orders / 16 units | 279.67M | 26.10M | 117.57M | 42% | 5.8 | 2.4 |
-| jita | Capital EM Shield Reinforcer I | 5.20M | 4 orders / 11 units | 76.75M | 16.46M | 95.48M | 124% | 6.0 | 1.4 |
-| jita | Inherent Implants 'Squire' Capacitor Systems Operation EO-602 | 6.47M | 5 orders / 32 units | 207.16M | 9.79M | 90.75M | 44% | 3.9 | 2.8 |
+| jita | Zainou 'Snapshot' Light Missiles LM-902 | 6.49M | 2 orders / 48 units | 311.91M | 9.25M | 110.44M | 35% | 4.9 | 1.8 |
+| jita | Capital EM Shield Reinforcer I | 5.20M | 4 orders / 11 units | 76.75M | 16.46M | 95.48M | 124% | 6.1 | 1.4 |
 
 ## 11. Data health
 _Is the market data flowing? Orders = orders seen in the station · Hours today = hours of data collected since 00:00 UTC · Trades seen = trades inferred since the last snapshot. Any note means something went wrong._
 
 | Hub | Orders | Hours today | Trades seen | Note |
 |---|---|---|---|---|
-| jita | 375,671 | 20.6 | 2,563 |  |
-| amarr | 133,237 | 20.6 | 733 |  |
-| dodixie | 68,648 | 20.6 | 348 |  |
-| rens | 33,423 | 20.6 | 134 |  |
-| hek | 41,418 | 20.6 | 135 |  |
+| jita | 375,938 | 22.4 | 8,463 |  |
+| amarr | 133,138 | 22.4 | 2,971 |  |
+| dodixie | 68,467 | 22.4 | 1,577 |  |
+| rens | 33,511 | 22.4 | 370 |  |
+| hek | 41,466 | 22.4 | 630 |  |
 
-_This run took 35 s (market data 13 s, stats and character 4 s, experiments 17 s, main portfolio 1 s, cornering scan 0 s, ESI back-off 0 s; 1,536 ESI calls). A slow run usually means ESI rate limits (back-off) or a first-time lookup of many item types._
+_This run took 43 s (market data 17 s, stats and character 4 s, experiments 20 s, main portfolio 1 s, cornering scan 0 s, ESI back-off 0 s; 1,548 ESI calls). A slow run usually means ESI rate limits (back-off) or a first-time lookup of many item types._

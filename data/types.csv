@@ -419,7 +419,7 @@ type_id,name,volume,group_id
 12003,Zealot,10000,358
 12005,Ishtar,10000,358
 12011,Eagle,10000,358
-12013,,10000,894
+12013,Broadsword,10000,894
 12015,Muninn,10000,358
 12017,Devoter,10000,894
 12019,Sacrilege,10000,358
@@ -986,7 +986,7 @@ type_id,name,volume,group_id
 19147,Pithum C-Type Medium Remote Shield Booster,10,41
 19149,Pithum B-Type Medium Remote Shield Booster,10,41
 19151,Pithum A-Type Medium Remote Shield Booster,10,41
-19169,,5,40
+19169,Gistii C-Type Small Shield Booster,5,40
 19171,,5,
 19175,,5,
 19177,Pithi B-Type Small Shield Booster,5,
@@ -1181,7 +1181,7 @@ type_id,name,volume,group_id
 22125,Mid-grade Snake Alpha,1,300
 22126,Mid-grade Snake Beta,1,300
 22128,Mid-grade Snake Epsilon,1,300
-22229,Ice Harvester II,,
+22229,Ice Harvester II,5,464
 22291,Ballistic Control System II,5,367
 22428,,50000,898
 22430,Sin,,
@@ -1224,6 +1224,7 @@ type_id,name,volume,group_id
 23031,,0.0125,85
 23045,,0.025,85
 23047,Caldari Navy Lead Charge L,,
+23053,,0.025,85
 23055,Templar I,1000,1652
 23059,,1000,1652
 23061,Einherji I,1000,1652
@@ -1871,7 +1872,7 @@ type_id,name,volume,group_id
 35944,,4000,1331
 35947,Standup Target Painter I,4000,
 35949,,4000,
-35959,,4000,1429
+35959,Standup Ballistic Control System I,4000,1429
 36908,Antipharmakon Thureo,1,303
 36909,Antipharmakon Kosybo,1,303
 36910,Antipharmakon Iokira,1,303
