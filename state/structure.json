@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0372,
- "buy_orders": 5808,
- "buy_orders_reaching_jita": 5736,
+ "ask_ratio_median": 1.0243,
+ "buy_orders": 5803,
+ "buy_orders_reaching_jita": 5731,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6247,
- "sell_orders": 439,
- "share_ask_below_jita": 0.2957,
+ "orders": 6282,
+ "sell_orders": 479,
+ "share_ask_below_jita": 0.335,
  "structure_id": 1042508032148,
- "t": 1795451447.4319973,
+ "t": 1795456855.9924982,
  "top_ask_below_jita": [
   {
    "best_ask": 1992.0,
@@ -31,6 +31,13 @@
    "type_id": 3301
   },
   {
+   "best_ask": 849.9,
+   "gap": 0.7806,
+   "name": "",
+   "s_ask": 186.5,
+   "type_id": 90484
+  },
+  {
    "best_ask": 1900.0,
    "gap": 0.7156,
    "name": "",
@@ -45,11 +52,39 @@
    "type_id": 47809
   },
   {
-   "best_ask": 74990.0,
-   "gap": 0.6668,
+   "best_ask": 74980.0,
+   "gap": 0.6667,
    "name": "",
    "s_ask": 24990.0,
    "type_id": 22576
+  },
+  {
+   "best_ask": 16.99,
+   "gap": 0.6627,
+   "name": "",
+   "s_ask": 5.73,
+   "type_id": 23160
+  },
+  {
+   "best_ask": 86.0,
+   "gap": 0.6256,
+   "name": "",
+   "s_ask": 32.2,
+   "type_id": 21589
+  },
+  {
+   "best_ask": 386800000.0,
+   "gap": 0.6063,
+   "name": "Mid-grade Nomad Beta",
+   "s_ask": 152300000.0,
+   "type_id": 28797
+  },
+  {
+   "best_ask": 58660.0,
+   "gap": 0.5992,
+   "name": "",
+   "s_ask": 23510.0,
+   "type_id": 21080
   },
   {
    "best_ask": 4896.0,
@@ -73,65 +108,30 @@
    "type_id": 46916
   },
   {
-   "best_ask": 14930000.0,
-   "gap": 0.5311,
+   "best_ask": 2896.0,
+   "gap": 0.5428,
    "name": "",
-   "s_ask": 7000000.0,
-   "type_id": 47316
-  },
-  {
-   "best_ask": 8500000.0,
-   "gap": 0.5294,
-   "name": "",
-   "s_ask": 4000000.0,
-   "type_id": 37552
-  },
-  {
-   "best_ask": 22780000.0,
-   "gap": 0.5171,
-   "name": "",
-   "s_ask": 11000000.0,
-   "type_id": 44912
-  },
-  {
-   "best_ask": 18370000.0,
-   "gap": 0.5101,
-   "name": "",
-   "s_ask": 9000000.0,
-   "type_id": 45922
-  },
-  {
-   "best_ask": 15130000.0,
-   "gap": 0.5043,
-   "name": "",
-   "s_ask": 7500000.0,
-   "type_id": 44923
-  },
-  {
-   "best_ask": 5997000.0,
-   "gap": 0.4997,
-   "name": "",
-   "s_ask": 3000000.0,
-   "type_id": 45969
+   "s_ask": 1324.0,
+   "type_id": 90590
   }
  ],
  "top_bid_over_jita": [
   {
-   "best_bid": 64030.0,
-   "gap": 0.0002,
+   "best_bid": 2704.0,
+   "gap": 0.0004,
    "name": "",
-   "s_bid_reach": 64040.0,
-   "type_id": 18754
+   "s_bid_reach": 2705.0,
+   "type_id": 30258
   },
   {
-   "best_bid": 808600.0,
-   "gap": 0.0001,
-   "name": "Malfunctioning Power Cores",
-   "s_bid_reach": 808700.0,
-   "type_id": 30586
+   "best_bid": 54.39,
+   "gap": 0.0002,
+   "name": "Mexallon",
+   "s_bid_reach": 54.4,
+   "type_id": 36
   }
  ],
- "types": 3844,
- "types_also_in_jita": 3844,
+ "types": 3860,
+ "types_also_in_jita": 3860,
  "types_bid_over_jita_reaching": 2
 }

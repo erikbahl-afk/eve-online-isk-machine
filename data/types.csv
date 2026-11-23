@@ -475,6 +475,7 @@ type_id,name,volume,group_id
 12765,,0.025,376
 12771,Tremor M,,
 12775,,0.025,372
+12777,,0.0125,372
 12779,,0.025,
 12787,Null L,0.025,377
 12791,Void L,0.025,377
@@ -574,6 +575,7 @@ type_id,name,volume,group_id
 13984,Dark Blood Thermal Armor Hardener,5,328
 13998,Domination Multispectrum Shield Hardener,5,77
 14001,True Sansha Multispectrum Coating,5,98
+14003,,5,98
 14041,,5,
 14043,Dread Guristas EM Shield Amplifier,5,295
 14045,Domination Shield Boost Amplifier,5,338
@@ -1339,6 +1341,7 @@ type_id,name,volume,group_id
 26296,,20,
 26302,Large Trimark Armor Pump II,20,
 26310,Large Low Friction Nozzle Joints II,20,
+26312,Large Polycarbon Engine Housing II,,
 26322,,20,
 26324,,20,
 26328,Large Drone Mining Augmentor II,20,
@@ -2080,7 +2083,7 @@ type_id,name,volume,group_id
 45631,Loki Core - Dissolution Sequencer,40,958
 45632,Loki Core - Augmented Nuclear Reactor,40,958
 45633,Loki Core - Immobility Drivers,40,958
-45660,,0.01,966
+45660,Scorched Microgravimeter,0.01,966
 45663,Synthetic Aperture Ladar Receiver,0.01,966
 45856,Golem Exoplanets Hunter SKIN,0.01,
 45866,Bustard Exoplanets Hunter SKIN,,
@@ -2756,6 +2759,7 @@ type_id,name,volume,group_id
 97545,Shield Failover Report,0.01,1194
 97547,Stereo-Collapse Signal,0.01,1194
 97552,Hyperspherical Housing,0.1,1194
+97553,Hyper-Field Projector,0.01,1194
 97554,Pulse-Mimic Circuitry,0.01,1194
 97560,Polycrase X-Grade,,
 97564,Compressed Raspite X-Grade,0.01,5083
