@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Sun 22 Nov 23:39 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
+**Updated:** Mon 23 Nov 00:00 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
 **Steps:** 26 · **Est. time:** 18 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -22,7 +22,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 1 | ☐ Compressed Glistening Zeolites | 2,886 | **2,884** | 2,629 | 2,885 |
+| 1 | ☐ Compressed Glistening Zeolites | 2,886 | **2,883** | 2,629 | 2,884 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
@@ -37,7 +37,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 4 | ☐ Glorified Unstable Entropic Radiation Sink Mutaplasmid | 1 | **172,500,000** | 203,100,000 | 172,400,000 |
+| 4 | ☐ Glorified Unstable Entropic Radiation Sink Mutaplasmid | 1 | **172,500,000** | 203,000,000 | 172,400,000 |
 | 5 | ☐ Low-grade Nirvana Omega | 1 | **172,100,000** | 184,900,000 | 172,000,000 |
 
 ### Block 2 · should do · about 3 min
@@ -48,7 +48,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 6 | ☐ Federation Navy Fleet Colonel Insignia I | 1 | **4,767,000** | 4,771,000 | 4,766,000 |
+| 6 | ☐ Federation Navy Fleet Colonel Insignia I | 1 | **4,767,000** | 4,770,000 | 4,766,000 |
 | 7 | ☐ Low-grade Nomad Delta | 1 | **122,200,000** | 136,700,000 | 122,100,000 |
 | 8 | ☐ Low-grade Virtue Gamma | 1 | **141,000,000** | 166,100,000 | 140,900,000 |
 
@@ -60,7 +60,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 9 | ☐ Vaccines | 2 | **77,990** | 84,830 | 77,980 |
+| 9 | ☐ Vaccines | 2 | **78,010** | 84,830 | 78,000 |
 
 ## 10. ☐ Jump clone to Amarr VIII (Oris) - Emperor Family Academy
 _Clone Bay → Jump Clone → Amarr VIII (Oris) - Emperor Family Academy. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
@@ -91,7 +91,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
 | 19 | ☐ Caldari Drone Specialization | 2,110,000 | **2,194,000** | 1,139,000 | 2,195,000 |
-| 20 | ☐ Legion Mjolnir Auto-Targeting Light Missile | 2,311 | **2,308** | 1,138 | 2,309 |
+| 20 | ☐ Legion Mjolnir Auto-Targeting Light Missile | 2,311 | **2,306** | 1,138 | 2,307 |
 | 21 | ☐ Mobile Large Warp Disruptor I | 24,540,000 | **24,520,000** | 18,570,000 | 24,530,000 |
 | 22 | ☐ Polarized Light Neutron Blaster | 5,879,000 | **5,880,000** | 3,818,000 | 5,881,000 |
 | 23 | ☐ Zero-Point Mass Entangler | 8,875,000 | **8,875,000** | 8,875,000 | 8,842,000 |
