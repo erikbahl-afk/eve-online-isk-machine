@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Sun 22 Nov 16:00 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
-**Steps:** 25 · **Est. time:** 15 min. Work top to bottom; stop any time.  
+**Updated:** Sun 22 Nov 18:00 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
+**Steps:** 29 · **Est. time:** 17 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -59,7 +59,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 10 | ☐ Compressed Glistening Zeolites | 1,677 | **2,526** | 2,552 | 2,525 |
-| 11 | ☐ Compressed Ytirium IV-Grade | 4 | **375.20** | 424.10 | 375.10 |
+| 11 | ☐ Compressed Ytirium IV-Grade | 4 | **375.20** | 417.20 | 375.10 |
 
 ### Block 3 · if there's time · about 1 min
 _Short on time? Skip to the jump (step 14): the next hub's Block 1 is worth more per minute than the rest of this hub._
@@ -76,14 +76,14 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 13 | ☐ 50MN Microwarpdrive II | 3,769,000 | **3,779,000** | 3,792,000 | 3,778,000 |
+| 13 | ☐ 50MN Microwarpdrive II | 3,769,000 | **3,781,000** | 3,790,000 | 3,780,000 |
 
 ## 14. ☐ Jump clone to Amarr VIII (Oris) - Emperor Family Academy
 _Clone Bay → Jump Clone → Amarr VIII (Oris) - Emperor Family Academy. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
 
 ## At Amarr VIII (Oris) - Emperor Family Academy
 
-### Block 1 · must do · about 2 min
+### Block 1 · must do · about 3 min
 
 #### Fix undercut sell orders
 _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours is already the lowest, skip._
@@ -91,10 +91,12 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
 | 15 | ☐ 'Cartel' Power Diagnostic System I | 67,980,000 | **67,970,000** | 30,280,000 | 67,980,000 |
-| 16 | ☐ Caesium | 6,635 | **6,635** | 6,165 | 6,636 |
-| 17 | ☐ Capital I-a Enduring Armor Repairer | 179,700,000 | **199,400,000** | 88,790,000 | 199,500,000 |
-| 18 | ☐ Improved 'Guise' Cloaking Device II | 49,960,000 | **49,960,000** | 31,940,000 | 49,970,000 |
-| 19 | ☐ Standup Moon Drill I | 144,100,000 | **144,000,000** | 130,900,000 | 144,100,000 |
+| 16 | ☐ Capital I-a Enduring Armor Repairer | 179,700,000 | **199,400,000** | 88,790,000 | 199,500,000 |
+| 17 | ☐ Improved 'Guise' Cloaking Device II | 49,960,000 | **49,960,000** | 31,940,000 | 49,970,000 |
+| 18 | ☐ Low-grade Crystal Epsilon | 134,900,000 | **134,900,000** | 0.01 | 135,000,000 |
+| 19 | ☐ Men's 'Precision' Boots | 72,890,000 | **99,990,000** | 49,760,000 | 100,000,000 |
+| 20 | ☐ Standup Moon Drill I | 144,100,000 | **139,900,000** | 130,900,000 | 140,000,000 |
+| 21 | ☐ Typhoon Fleet Issue Capsuleer Elite XX SKIN | 594,700,000 | **594,700,000** | 420,200,000 | - |
 
 ### Block 2 · should do · about 2 min
 
@@ -103,16 +105,17 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 20 | ☐ Caldari Drone Specialization | 2,110,000 | **2,194,000** | 1,139,000 | 2,195,000 |
-| 21 | ☐ Mobile Large Warp Disruptor I | 24,540,000 | **24,530,000** | 18,570,000 | 24,540,000 |
-| 22 | ☐ Zero-Point Mass Entangler | 8,875,000 | **8,875,000** | 8,875,000 | 8,700,000 |
+| 22 | ☐ Caesium | 6,635 | **6,635** | 6,165 | 6,636 |
+| 23 | ☐ Caldari Drone Specialization | 2,110,000 | **2,194,000** | 1,139,000 | 2,195,000 |
+| 24 | ☐ Mobile Large Warp Disruptor I | 24,540,000 | **24,530,000** | 18,570,000 | 24,540,000 |
+| 25 | ☐ Zero-Point Mass Entangler | 8,875,000 | **8,875,000** | 8,875,000 | 8,700,000 |
 
 #### Cancel buy orders
 _My Orders → Buying. Right-click → Cancel Order._
 
 | # | Item | Your price |
 |---|---|---|
-| 23 | ☐ Large Disintegrator Specialization | 92,550,000 |
+| 26 | ☐ Large Disintegrator Specialization | 92,550,000 |
 
 ### Block 3 · if there's time · about 1 min
 
@@ -121,8 +124,9 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 24 | ☐ Legion Mjolnir Auto-Targeting Light Missile | 2,311 | **2,308** | 1,138 | 2,309 |
-| 25 | ☐ Shrapnel Bomb | 1,654,000 | **1,499,000** | 1,311,000 | 1,500,000 |
+| 27 | ☐ Legion Mjolnir Auto-Targeting Light Missile | 2,311 | **2,308** | 1,138 | 2,309 |
+| 28 | ☐ Polarized Light Neutron Blaster | 5,879,000 | **5,880,000** | 3,818,000 | 5,881,000 |
+| 29 | ☐ Shrapnel Bomb | 1,654,000 | **1,498,000** | 1,311,000 | 1,499,000 |
 
 ---
 Wallet 103.59M · escrow 1.09B · stock 3.77B · in transit 0.00 · net worth 4.96B (liquidation 2.54B)

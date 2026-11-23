@@ -142,7 +142,7 @@ type_id,name,volume,group_id
 2869,Nano-Factory,50,1041
 2870,Organic Mortar Applicators,,
 2871,,50,1041
-2872,,50,1041
+2872,Self-Harmonizing Power Core,50,1041
 2875,Sterile Conduits,50,1041
 2876,,50,1041
 2889,,5,55
@@ -277,6 +277,7 @@ type_id,name,volume,group_id
 7171,Tachyon Modulated Energy Beam I,20,53
 7447,425mm Prototype Gauss Gun,20,74
 7579,Modal Light Neutron Particle Accelerator I,5,
+8027,,10,511
 8105,'Arbalest' Heavy Missile Launcher,10,510
 8263,,5,
 8433,Medium Azeotropic Restrained Shield Extender,10,38
@@ -469,7 +470,7 @@ type_id,name,volume,group_id
 12775,,0.025,372
 12779,,0.025,
 12787,Null L,0.025,377
-12791,,0.025,377
+12791,Void L,0.025,377
 12807,,0.025,373
 12816,Conflagration L,1,375
 12818,Scorch M,,
@@ -1024,7 +1025,7 @@ type_id,name,volume,group_id
 19311,,5,
 19315,Corelum C-Type 50MN Microwarpdrive,10,46
 19321,Corelum B-Type 50MN Microwarpdrive,10,46
-19323,Core B-Type 500MN Microwarpdrive,10,
+19323,Core B-Type 500MN Microwarpdrive,10,46
 19325,Coreli A-Type 5MN Microwarpdrive,10,46
 19327,Corelum A-Type 50MN Microwarpdrive,,
 19329,Core A-Type 500MN Microwarpdrive,,
@@ -1212,7 +1213,7 @@ type_id,name,volume,group_id
 23061,Einherji I,1000,1652
 23071,Imperial Navy Multifrequency S,1,86
 23073,,1,
-23079,Imperial Navy Standard S,,
+23079,Imperial Navy Standard S,1,86
 23085,,1,86
 23089,Imperial Navy Multifrequency M,1,86
 23093,Imperial Navy Xray M,1,86
@@ -1421,7 +1422,7 @@ type_id,name,volume,group_id
 27483,Legion Mjolnir Auto-Targeting Heavy Missile,0.03,395
 27489,Legion Scourge Auto-Targeting Heavy Missile,0.03,395
 27507,Legion Mjolnir Auto-Targeting Light Missile,0.015,394
-27916,,75,
+27916,,75,90
 27918,Shrapnel Bomb,75,90
 27920,Electron Bomb,75,90
 27922,Lockbreaker Bomb,,
@@ -1980,6 +1981,7 @@ type_id,name,volume,group_id
 41566,,1000,67
 42145,Low-grade Asklepian Alpha,1,300
 42146,Low-grade Asklepian Beta,,
+42200,,1,300
 42201,Low-grade Asklepian Epsilon,1,
 42203,Low-grade Asklepian Omega,1,300
 42204,Mid-grade Asklepian Alpha,1,300
@@ -2673,6 +2675,7 @@ type_id,name,volume,group_id
 94154,Confessor Mandate of Faith SKIN,,
 95228,Manifest Homecoming Background,0.1,5082
 95275,,0.1,5082
+95292,,0.01,1950
 95413,Harmonius Bridge - Unlimited,,
 95458,,0.1,5082
 95556,Lorharyth’s Modified Inertial Stabilizer,5,762
