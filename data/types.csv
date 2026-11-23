@@ -98,6 +98,7 @@ type_id,name,volume,group_id
 2321,Polyaramids,0.75,1034
 2327,Microfiber Shielding,0.75,1034
 2328,Water-Cooled CPU,0.75,1034
+2333,,5,49
 2344,,3,1040
 2345,Camera Drones,3,1040
 2346,,3,1040
@@ -1086,7 +1087,7 @@ type_id,name,volume,group_id
 20413,Datacore - Laser Physics,0.1,333
 20414,Datacore - Quantum Physics,0.1,333
 20415,Datacore - Molecular Engineering,0.1,333
-20416,,0.1,333
+20416,Datacore - Nanite Engineering,0.1,333
 20418,Datacore - Electronic Engineering,0.1,333
 20419,Datacore - Graviton Physics,0.1,333
 20421,Datacore - Amarrian Starship Engineering,0.1,333
@@ -1112,6 +1113,7 @@ type_id,name,volume,group_id
 20623,,50,
 20629,,10,
 20631,Large 'Sheriff' Shield Extender,20,38
+20741,,0.125,83
 20747,,0.125,83
 20779,,0.0125,83
 20783,Domination EMP M,0.0125,83
@@ -1152,7 +1154,7 @@ type_id,name,volume,group_id
 21890,Skirmish Command Mindlink,1,744
 21894,Republic Fleet EMP L,0.025,83
 21896,Republic Fleet EMP M,0.0125,83
-21898,Republic Fleet EMP S,0.0025,
+21898,Republic Fleet EMP S,0.0025,83
 21902,Republic Fleet Fusion L,0.025,83
 21918,Republic Fleet Phased Plasma L,0.025,83
 21922,Republic Fleet Phased Plasma M,0.0125,83
@@ -2221,7 +2223,7 @@ type_id,name,volume,group_id
 49741,Unstable Ballistic Control System Mutaplasmid,1,1964
 49774,Perun Heavy Mutadaptive Remote Armor Repairer,10,2018
 49790,ML-EKP 'Polybolos' Ballistic Control System,5,367
-49791,,5,538
+49791,Frostline 'Clavicula' Integrated Analyzer,5,538
 49924,Vedmak Blackfire Steel SKIN,0.01,1950
 50149,Kronos Caille Neon SKIN,0.01,
 50153,Nemesis Caille Neon SKIN,,
@@ -2490,7 +2492,7 @@ type_id,name,volume,group_id
 75276,Compressed Mordunium II-Grade,0.001,4513
 75277,Compressed Mordunium III-Grade,0.001,4513
 75278,Compressed Mordunium IV-Grade,0.001,4513
-75279,,0.006,4514
+75279,Compressed Ytirium,0.006,4514
 75282,Compressed Ytirium IV-Grade,0.006,4514
 75283,Compressed Eifyrium,0.16,4515
 75287,Compressed Ducinium,,
