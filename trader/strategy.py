@@ -468,6 +468,15 @@ class Planner:
         days = self.s.get("list_after_days", 3)
         return bool(it) and (self.t - it.get("since", self.t)) / 86400 >= days
 
+    def forced(self, st):
+        """Steps an analysis session ordered through state/overrides.json (exit: sell at a loss, avoid/exit: cancel
+        bids) carry ~0 ISK benefit, so the low-value filter used to drop them: 2026-11-23 the Antikythera exit
+        (Jita, on the list since 11-21) sat untouched through two Jita sessions. They always run."""
+        ty, k = st.get("type_id"), st["kind"]
+        if ty in self.exits and k in ("modify_sell", "new_sell", "instant_sell", "cancel"):
+            return True
+        return k == "cancel" and ty in self.avoid
+
     def benefit(self, st):
         """Rough ISK gained over the next gap between sessions by doing this step (for ordering only)."""
         days = self.c["logon_gap_hours"] / 24
@@ -546,7 +555,8 @@ class Planner:
             secs = sum(s["secs"] for s in steps)
             for st in steps:
                 st.setdefault("benefit", self.benefit(st))
-            if sum(st["benefit"] for st in steps) < min_rate * secs and not any(self.aged(st) for st in steps):
+            if sum(st["benefit"] for st in steps) < min_rate * secs and not any(
+                    self.aged(st) or self.forced(st) for st in steps):
                 dropped.extend(steps)  # not worth the player's time at this bankroll
                 return False
             extra = self.c["secs_jump"] if (O and not jumped and any(s["hub"] == O for s in steps)) else 0

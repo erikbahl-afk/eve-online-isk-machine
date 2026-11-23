@@ -321,6 +321,17 @@ def test_aged_stock_is_listed_even_if_low_value():
     assert not pl.aged({"kind": "new_buy", "hub": "amarr", "type_id": 7})
 
 
+def test_override_steps_skip_the_low_value_filter():
+    from trader.strategy import Planner
+    pl = Planner.__new__(Planner)
+    pl.exits, pl.avoid = {34575: "fast"}, {99}
+    assert pl.forced({"kind": "modify_sell", "hub": "jita", "type_id": 34575})
+    assert pl.forced({"kind": "cancel", "hub": "jita", "type_id": 34575})
+    assert pl.forced({"kind": "cancel", "hub": "jita", "type_id": 99})
+    assert not pl.forced({"kind": "new_buy", "hub": "jita", "type_id": 34575})
+    assert not pl.forced({"kind": "modify_sell", "hub": "jita", "type_id": 1})
+
+
 def test_top_check_flags_undercut_and_predicts_survival():
     import pandas as pd
     from trader.sim import top_check

@@ -463,3 +463,21 @@
   Mordunium (9 d) under stale_days 10. Thresholds kept. 38 tests pass.
 - Not done (budget): time-on-top by time of day, 1 h vs 2 h spacing, gone_weight probe (slots 6/6).
 - Next: Mon/Tue check Entosis/Jaguar/Siren/Bomb Launcher bids cancelled at the next Jita session and fill counts after the cap.
+
+## 2026-11-23 · audit the picks (Monday)
+- Checked 71 lines (main's 40 orders + 3 stock lots, 12 Jita station + 12 Jita→Amarr import picks) vs live books and 90 d history.
+- **Bug:** exit-list sells at a loss have benefit ~0 (no profit over cost), so the planner's low-value filter dropped them:
+  Antikythera (on the exit list since Sat) still asks 1.00M vs best 0.26M after two Jita sessions, untouched 15 d. New
+  `Planner.forced()`: exit-list sell/cancel steps and avoid-list cancels always pass the filter. Test added; 39 pass.
+- Import picks: 11/12 trade 15–30 of 30 days with Amarr bid ≥ 0.69x Jita cost. Watch two rising Amarr prices: Imperial Navy
+  Small Armor Repairer (90 d avg 26M → 7 d 41.8M, 26 units/30 d; downside small, Amarr bid 16M ≈ Jita cost) and Corpus X-Type
+  Thermal Hardener (356M → 482M, bid 0.69x cost). Neither is a trap yet; profit/day 3.4M / 5.5M.
+- Station picks: Mid-grade Rapture Gamma's 84% margin rests on a 239.9M ask vs 7 d avg 200.6M / 30 d 168M (margin overstated,
+  1.7M/day). Federation Mobility / State Defense Booster III and SARO booster have only 11–13 days of history (new event
+  items); prices flat so far (Fed Mobility 7 d 39.7M vs 30 d 40.7M, but our sell target 52M). Idea: an age/history-days gate.
+- Holdings: no new trap. 'Cartel' PDS last-7-day trades at 24.5M (the bid) vs our 68M ask; step-down continues. Gravid Vorton
+  has no live Amarr seller (7 d avg 81M, ours 67.7M). Void XL / Infomorph Key asks sit above the best ask (small, ~20M total,
+  low-value drops by design). No push: no large position looks like a new trap.
+- Alerts: liquidation 53% / Typhoon 8.3%: legacy, step-down continues (Thu 19 decision). Stale Amarr sells: info, step-down
+  working. Antikythera: fixed above. Idle Jita bids: buy_stale_days applies at the next Jita session. Thresholds kept.
+- Next: Tue confirm Antikythera relisted at ~0.26M and Entosis/Jaguar bids cancelled; Thu slot refill candidates: stale_step 0.2, history-days gate.
