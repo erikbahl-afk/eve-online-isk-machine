@@ -66,6 +66,7 @@ type_id,name,volume,group_id
 1826,Scourge Auto-Targeting Cruise Missile I,0.05,396
 1828,,0.05,396
 1830,,0.05,
+1832,,0.05,396
 1855,,5,
 1952,Sensor Booster II,5,212
 1969,Remote Sensor Dampener II,5,208
@@ -190,6 +191,7 @@ type_id,name,volume,group_id
 3185,Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-802,,
 3186,Neutron Blaster Cannon II,20,74
 3190,Eifyr and Co. 'Gunslinger' Motion Prediction MR-702,,
+3193,Eifyr and Co. 'Gunslinger' Surgical Strike SS-902,1,742
 3194,,1,742
 3203,,1,
 3214,,1,
@@ -570,7 +572,7 @@ type_id,name,volume,group_id
 14041,,5,
 14043,Dread Guristas EM Shield Amplifier,5,295
 14045,Domination Shield Boost Amplifier,5,338
-14047,,5,338
+14047,Dread Guristas Shield Boost Amplifier,5,338
 14049,Shadow Serpentis Multispectrum Coating,5,98
 14059,Shadow Serpentis EM Armor Hardener,5,328
 14061,Shadow Serpentis Explosive Armor Hardener,5,328
@@ -758,7 +760,7 @@ type_id,name,volume,group_id
 16635,,0.05,427
 16636,Silicates,0.05,427
 16637,Tungsten,0.05,427
-16638,,0.05,427
+16638,Titanium,0.05,427
 16639,Scandium,0.05,427
 16641,Chromium,0.05,
 16642,Vanadium,0.05,427
@@ -1080,6 +1082,7 @@ type_id,name,volume,group_id
 20413,Datacore - Laser Physics,0.1,333
 20414,Datacore - Quantum Physics,0.1,333
 20415,Datacore - Molecular Engineering,0.1,333
+20416,,0.1,333
 20418,Datacore - Electronic Engineering,0.1,333
 20419,Datacore - Graviton Physics,0.1,333
 20421,Datacore - Amarrian Starship Engineering,0.1,333
@@ -1118,7 +1121,7 @@ type_id,name,volume,group_id
 21019,Capital Capacitor Battery,2000,873
 21021,,2000,873
 21023,Capital Shield Emitter,2000,873
-21027,,2000,873
+21027,Capital Cargo Bay,2000,873
 21208,,1,
 21238,Blood Multifrequency L,,
 21254,Blood Multifrequency XL,,
@@ -1151,6 +1154,7 @@ type_id,name,volume,group_id
 21922,Republic Fleet Phased Plasma M,0.0125,83
 21924,,0.0025,83
 21926,Republic Fleet Proton L,,
+22043,Tactical Weapon Reconfiguration,,
 22108,Mid-grade Crystal Beta,1,300
 22109,Mid-grade Crystal Delta,1,300
 22110,Mid-grade Crystal Epsilon,1,300
@@ -1201,7 +1205,7 @@ type_id,name,volume,group_id
 22983,,0.0125,85
 22993,Federation Navy Antimatter Charge L,0.025,85
 22995,,0.025,
-23005,Federation Navy Tungsten Charge L,,
+23005,Federation Navy Tungsten Charge L,0.025,85
 23007,Federation Navy Iron Charge L,,
 23009,Caldari Navy Antimatter Charge S,0.0025,85
 23025,Caldari Navy Antimatter Charge M,0.0125,85

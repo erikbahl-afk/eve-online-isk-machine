@@ -93,19 +93,19 @@
   "key": "idle_buy:56",
   "severity": "info",
   "since": 1795363233.5435922,
-  "text": "Buy order for Large Disintegrator Specialization in amarr hasn't filled at all in 5 days (92.55M tied up)."
+  "text": "Buy order for Large Disintegrator Specialization in amarr hasn't filled at all in 6 days (92.55M tied up)."
  },
  {
   "key": "idle_buy:58",
   "severity": "info",
   "since": 1795363233.5435922,
-  "text": "Buy order for Glorified Unstable Medium Remote Armor Repairer Mutaplasmid in jita hasn't filled at all in 5 days (77.16M tied up)."
+  "text": "Buy order for Glorified Unstable Medium Remote Armor Repairer Mutaplasmid in jita hasn't filled at all in 6 days (77.16M tied up)."
  },
  {
   "key": "idle_buy:59",
   "severity": "info",
   "since": 1795363233.5435922,
-  "text": "Buy order for Compressed Fullerite-C540 in jita hasn't filled at all in 5 days (11.22M tied up)."
+  "text": "Buy order for Compressed Fullerite-C540 in jita hasn't filled at all in 6 days (11.22M tied up)."
  },
  {
   "key": "stale_sell:10",
