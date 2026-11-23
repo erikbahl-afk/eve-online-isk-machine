@@ -17,7 +17,7 @@ type_id,name,volume,group_id
 233,,0.025,
 238,,0.025,85
 267,,0.05,89
-421,,5,
+421,,5,43
 438,,5,
 440,5MN Microwarpdrive II,10,46
 448,Warp Scrambler II,5,52
@@ -818,7 +818,7 @@ type_id,name,volume,group_id
 17497,Caldari Navy Thermal Shield Hardener,5,77
 17498,Caldari Navy Multispectrum Shield Hardener,5,77
 17500,Caldari Navy Stasis Webifier,5,65
-17520,Federation Navy Sensor Booster,5,
+17520,Federation Navy Sensor Booster,5,212
 17526,Imperial Navy Cap Recharger,5,
 17528,Imperial Navy Capacitor Power Relay,5,767
 17546,Imperial Navy Large Armor Repairer,50,62
@@ -1359,6 +1359,7 @@ type_id,name,volume,group_id
 26912,Small Remote Armor Repairer II,5,
 26913,,10,325
 26914,Large Remote Armor Repairer II,25,325
+27081,Eifyr and Co. 'Gunslinger' Surgical Strike SS-901,,
 27094,,1,
 27108,Zainou 'Snapshot' Light Missiles LM-903,1,746
 27109,,1,746
@@ -1367,6 +1368,7 @@ type_id,name,volume,group_id
 27118,Inherent Implants 'Squire' Capacitor Systems Operation EO-605,1,741
 27126,Inherent Implants 'Squire' Power Grid Management EG-605,1,741
 27142,Zainou 'Gypsy' CPU Management EE-605,1,
+27143,Zainou 'Gypsy' CPU Management EE-601,,
 27148,Eifyr and Co. 'Alchemist' Biology BY-810,1,1231
 27167,Zainou 'Beancounter' Industry BX-802,1,743
 27169,Zainou 'Beancounter' Reprocessing RX-802,1,1229
@@ -1548,7 +1550,7 @@ type_id,name,volume,group_id
 30370,Fullerite-C50,1,711
 30371,Fullerite-C60,1,711
 30372,Fullerite-C70,1,711
-30373,,2,711
+30373,Fullerite-C72,2,711
 30374,,2,711
 30375,Fullerite-C28,2,711
 30376,Fullerite-C32,5,711
@@ -1836,7 +1838,7 @@ type_id,name,volume,group_id
 35790,Missile Guidance Computer II,5,1396
 35795,Missile Precision Script,1,1400
 35826,Azbel,80000,1404
-35832,Astrahus,8000,
+35832,Astrahus,8000,1657
 35833,Fortizar,,
 35835,Athanor,8000,1406
 35878,Standup Manufacturing Plant I,4000,
@@ -2219,6 +2221,7 @@ type_id,name,volume,group_id
 52226,Unstable Damage Control Mutaplasmid,1,1964
 52236,Zorya's Light Entropic Disintegrator,5,1986
 52238,Zorya's Heavy Entropic Disintegrator,10,
+52240,,20,1986
 52242,Zorya's Entropic Radiation Sink,5,1988
 52244,Veles Entropic Radiation Sink,5,1988
 52250,Nergal,2500,324
@@ -2253,6 +2256,7 @@ type_id,name,volume,group_id
 53839,Low-grade Nirvana Omega,1,300
 53854,Low-grade Nirvana Beta,1,300
 53856,Low-grade Nirvana Delta,,
+53857,,1,300
 53893,High-grade Savior Delta,,
 53894,High-grade Savior Epsilon,,
 53983,Signal-25 'Needlejack' Filament,0.1,4041
@@ -2490,7 +2494,7 @@ type_id,name,volume,group_id
 78367,Mamba,5000,420
 78369,Khizriel,15000,419
 78622,Gravid Vorton Tuning System Mutaplasmid,1,1964
-78857,,0.1,314
+78857,Guristas Insurgency Data Sequence,0.1,314
 78889,Mysterious GalNet Crate,0.1,1194
 79186,Mysterious GalNet Crate II,,
 79744,Barghest Aurora Universalis SKIN,,
@@ -2659,6 +2663,7 @@ type_id,name,volume,group_id
 93350,Guerilla Republic - Unlimited,,
 93466,Imperial Benediction - Unlimited,,
 93470,,0.1,4726
+93663,Drake Navy Issue Penumbral Shadows SKIN,,
 93745,Tempest Fleet Issue Capsuleer Day XXIII SKIN,0.01,
 93908,Caldari Navy Missile Guidance Enhancer,5,1395
 93909,Republic Fleet Missile Guidance Enhancer,5,
