@@ -853,7 +853,7 @@ type_id,name,volume,group_id
 17893,High-Tech Data Chip,0.01,314
 17894,High-Tech Scanner,0.01,314
 17895,High-Tech Manufacturing Tools,0.01,314
-17912,Modulated Strip Miner II,,
+17912,Modulated Strip Miner II,5,483
 17918,Rattlesnake,50000,27
 17922,Ashimmu,10000,26
 17924,Succubus,2500,25
@@ -1824,6 +1824,7 @@ type_id,name,volume,group_id
 34328,Bowhead,1300000,
 34412,,20,997
 34481,Domination Inertial Stabilizers,5,
+34483,Shadow Serpentis Inertial Stabilizers,5,762
 34489,,5,765
 34496,Council Diplomatic Shuttle,500,31
 34562,Svipul,5000,1305
@@ -1839,6 +1840,7 @@ type_id,name,volume,group_id
 35789,Astro-Inertial Compact Missile Guidance Computer,5,1396
 35790,Missile Guidance Computer II,5,1396
 35795,Missile Precision Script,1,1400
+35825,,8000,1404
 35826,Azbel,80000,1404
 35832,Astrahus,8000,1657
 35833,Fortizar,,
@@ -2091,6 +2093,7 @@ type_id,name,volume,group_id
 46356,Ubiquitous Moon Mining Crystal Type A II,10,482
 46375,Daily Alpha Injector,0.01,1739
 46381,Agency Support Drop,1,1818
+46488,,10,1935
 46490,,10,1936
 46633,Standup M-Set Asteroid Ore Grading Processor I,10,
 46637,Standup M-Set Moon Ore Grading Processor I,10,1943

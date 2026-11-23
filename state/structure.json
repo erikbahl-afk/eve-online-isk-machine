@@ -1,16 +1,16 @@
 {
- "ask_ratio_median": 1.0285,
- "buy_orders": 5806,
- "buy_orders_reaching_jita": 5728,
+ "ask_ratio_median": 1.0283,
+ "buy_orders": 5833,
+ "buy_orders_reaching_jita": 5758,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6250,
+ "orders": 6277,
  "sell_orders": 444,
- "share_ask_below_jita": 0.3128,
+ "share_ask_below_jita": 0.3067,
  "structure_id": 1042508032148,
- "t": 1795420855.4683635,
+ "t": 1795428059.6913602,
  "top_ask_below_jita": [
   {
-   "best_ask": 45000.0,
+   "best_ask": 44990.0,
    "gap": 0.9254,
    "name": "",
    "s_ask": 3356.0,
@@ -22,13 +22,6 @@
    "name": "",
    "s_ask": 20000000.0,
    "type_id": 45894
-  },
-  {
-   "best_ask": 2092.0,
-   "gap": 0.8805,
-   "name": "",
-   "s_ask": 250.0,
-   "type_id": 90480
   },
   {
    "best_ask": 169000.0,
@@ -52,22 +45,22 @@
    "type_id": 17440
   },
   {
-   "best_ask": 99940.0,
-   "gap": 0.681,
+   "best_ask": 99840.0,
+   "gap": 0.6807,
    "name": "",
    "s_ask": 31880.0,
    "type_id": 47809
   },
   {
-   "best_ask": 77990.0,
-   "gap": 0.6796,
+   "best_ask": 77950.0,
+   "gap": 0.6794,
    "name": "",
    "s_ask": 24990.0,
    "type_id": 22576
   },
   {
-   "best_ask": 4997.0,
-   "gap": 0.6,
+   "best_ask": 4897.0,
+   "gap": 0.5918,
    "name": "",
    "s_ask": 1999.0,
    "type_id": 84399
@@ -87,18 +80,18 @@
    "type_id": 46916
   },
   {
-   "best_ask": 3000.0,
-   "gap": 0.5587,
-   "name": "",
-   "s_ask": 1324.0,
-   "type_id": 90590
-  },
-  {
    "best_ask": 76760000.0,
    "gap": 0.544,
    "name": "",
    "s_ask": 35000000.0,
    "type_id": 47621
+  },
+  {
+   "best_ask": 2900.0,
+   "gap": 0.5434,
+   "name": "",
+   "s_ask": 1324.0,
+   "type_id": 90590
   },
   {
    "best_ask": 14930000.0,
@@ -113,10 +106,17 @@
    "name": "",
    "s_ask": 4000000.0,
    "type_id": 37552
+  },
+  {
+   "best_ask": 5245000.0,
+   "gap": 0.5234,
+   "name": "",
+   "s_ask": 2500000.0,
+   "type_id": 46906
   }
  ],
  "top_bid_over_jita": [],
- "types": 3843,
- "types_also_in_jita": 3843,
+ "types": 3851,
+ "types_also_in_jita": 3851,
  "types_bid_over_jita_reaching": 0
 }
