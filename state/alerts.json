@@ -3,19 +3,19 @@
   "key": "liquidation",
   "severity": "medium",
   "since": 1793915372.8054109,
-  "text": "Liquidation value is 51% of net worth (2.54B of 4.97B): much of the stock couldn't be sold quickly without a big loss."
+  "text": "Liquidation value is 53% of net worth (2.70B of 5.05B): much of the stock couldn't be sold quickly without a big loss."
  },
  {
   "key": "position:77169",
   "severity": "medium",
   "since": 1793915372.8054109,
-  "text": "Typhoon Fleet Issue Capsuleer Elite XX SKIN is 8.4% of net worth (418.51M)."
+  "text": "Typhoon Fleet Issue Capsuleer Elite XX SKIN is 8.3% of net worth (418.51M)."
  },
  {
   "key": "stale_sell:10",
   "severity": "medium",
   "since": 1794613405.4287903,
-  "text": "Sell order for Capital I-a Enduring Armor Repairer in amarr still has 2 left after 18 days."
+  "text": "Sell order for Capital I-a Enduring Armor Repairer in amarr still has 1 left after 18 days."
  },
  {
   "key": "stale_sell:14",

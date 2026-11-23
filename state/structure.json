@@ -1,38 +1,38 @@
 {
  "ask_ratio_median": 1.0243,
- "buy_orders": 5803,
- "buy_orders_reaching_jita": 5731,
+ "buy_orders": 5809,
+ "buy_orders_reaching_jita": 5737,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6282,
- "sell_orders": 479,
- "share_ask_below_jita": 0.335,
+ "orders": 6276,
+ "sell_orders": 467,
+ "share_ask_below_jita": 0.3257,
  "structure_id": 1042508032148,
- "t": 1795456855.9924982,
+ "t": 1795464045.318972,
  "top_ask_below_jita": [
   {
-   "best_ask": 1992.0,
-   "gap": 0.8745,
+   "best_ask": 44000.0,
+   "gap": 0.9237,
+   "name": "",
+   "s_ask": 3356.0,
+   "type_id": 84408
+  },
+  {
+   "best_ask": 1991.0,
+   "gap": 0.8744,
    "name": "",
    "s_ask": 250.0,
    "type_id": 90480
   },
   {
-   "best_ask": 150000000.0,
-   "gap": 0.8667,
+   "best_ask": 149900000.0,
+   "gap": 0.8666,
    "name": "",
    "s_ask": 20000000.0,
    "type_id": 45894
   },
   {
-   "best_ask": 169000.0,
-   "gap": 0.8225,
-   "name": "",
-   "s_ask": 30000.0,
-   "type_id": 3301
-  },
-  {
-   "best_ask": 849.9,
-   "gap": 0.7806,
+   "best_ask": 800.0,
+   "gap": 0.7669,
    "name": "",
    "s_ask": 186.5,
    "type_id": 90484
@@ -66,13 +66,6 @@
    "type_id": 23160
   },
   {
-   "best_ask": 86.0,
-   "gap": 0.6256,
-   "name": "",
-   "s_ask": 32.2,
-   "type_id": 21589
-  },
-  {
    "best_ask": 386800000.0,
    "gap": 0.6063,
    "name": "Mid-grade Nomad Beta",
@@ -80,8 +73,8 @@
    "type_id": 28797
   },
   {
-   "best_ask": 58660.0,
-   "gap": 0.5992,
+   "best_ask": 58640.0,
+   "gap": 0.5991,
    "name": "",
    "s_ask": 23510.0,
    "type_id": 21080
@@ -94,8 +87,8 @@
    "type_id": 84399
   },
   {
-   "best_ask": 4756000.0,
-   "gap": 0.5795,
+   "best_ask": 4749000.0,
+   "gap": 0.5789,
    "name": "",
    "s_ask": 2000000.0,
    "type_id": 45766
@@ -113,25 +106,17 @@
    "name": "",
    "s_ask": 1324.0,
    "type_id": 90590
-  }
- ],
- "top_bid_over_jita": [
-  {
-   "best_bid": 2704.0,
-   "gap": 0.0004,
-   "name": "",
-   "s_bid_reach": 2705.0,
-   "type_id": 30258
   },
   {
-   "best_bid": 54.39,
-   "gap": 0.0002,
-   "name": "Mexallon",
-   "s_bid_reach": 54.4,
-   "type_id": 36
+   "best_ask": 14930000.0,
+   "gap": 0.5311,
+   "name": "",
+   "s_ask": 7000000.0,
+   "type_id": 47316
   }
  ],
- "types": 3860,
- "types_also_in_jita": 3860,
- "types_bid_over_jita_reaching": 2
+ "top_bid_over_jita": [],
+ "types": 3861,
+ "types_also_in_jita": 3861,
+ "types_bid_over_jita_reaching": 0
 }

@@ -268,6 +268,7 @@ type_id,name,volume,group_id
 4347,Pithum A-Type Multispectrum Shield Hardener,5,77
 4348,Pithum B-Type Multispectrum Shield Hardener,5,77
 4349,Pithum C-Type Multispectrum Shield Hardener,5,77
+4383,Large Micro Jump Drive,10,1189
 4399,,5,781
 4403,Reactive Armor Hardener,25,1150
 4405,Drone Damage Amplifier II,5,645
@@ -301,7 +302,7 @@ type_id,name,volume,group_id
 9832,,0.75,1034
 9836,,0.75,1034
 9838,Superconductors,0.75,1034
-9840,,0.75,
+9840,,0.75,1034
 9842,,0.75,1034
 9899,,1,
 9941,Memory Augmentation - Basic,1,745
@@ -985,6 +986,7 @@ type_id,name,volume,group_id
 19147,Pithum C-Type Medium Remote Shield Booster,10,41
 19149,Pithum B-Type Medium Remote Shield Booster,10,41
 19151,Pithum A-Type Medium Remote Shield Booster,10,41
+19169,,5,40
 19171,,5,
 19175,,5,
 19177,Pithi B-Type Small Shield Booster,5,
@@ -1018,7 +1020,7 @@ type_id,name,volume,group_id
 19231,Pithum A-Type EM Shield Amplifier,5,295
 19245,Gistum C-Type EM Shield Amplifier,5,295
 19247,Gistum B-Type EM Shield Amplifier,5,295
-19253,,5,
+19253,,5,295
 19263,Gist C-Type EM Shield Hardener,,
 19268,,5,
 19281,Gist X-Type EM Shield Hardener,5,77
@@ -2411,7 +2413,7 @@ type_id,name,volume,group_id
 62397,Compressed Fullerite-C60,0.1,4168
 62398,Compressed Fullerite-C70,0.1,4168
 62399,Compressed Fullerite-C50,0.1,4168
-62400,Compressed Fullerite-C84,,
+62400,Compressed Fullerite-C84,0.2,4168
 62402,Compressed Fullerite-C28,0.2,4168
 62403,Compressed Fullerite-C72,,
 62404,Compressed Fullerite-C32,0.5,4168
@@ -2798,7 +2800,7 @@ type_id,name,volume,group_id
 98409,,1,303
 98415,Imperial Mobility Booster II,1,303
 98416,Imperial Mobility Booster III,1,303
-98417,Imperial Hardpoint Booster I,,
+98417,Imperial Hardpoint Booster I,1,303
 98418,Imperial Hardpoint Booster II,1,303
 98419,Imperial Hardpoint Booster III,1,303
 98425,State Defense Booster III,1,303
