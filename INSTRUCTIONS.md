@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Mon 23 Nov 12:00 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
+**Updated:** Mon 23 Nov 12:14 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
 **Steps:** 29 · **Est. time:** 20 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -51,7 +51,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 |---|---|---|---|---|---|
 | 7 | ☐ Mid-grade Rapture Gamma | 1 | **122,800,000** | 212,000,000 | 122,700,000 |
 | 8 | ☐ SARO Enforcement Booster | 1 | **17,000,000** | 23,080,000 | 16,990,000 |
-| 9 | ☐ Zorya's Light Entropic Disintegrator | 1 | **231,500,000** | 268,100,000 | 231,400,000 |
+| 9 | ☐ Zorya's Light Entropic Disintegrator | 1 | **231,600,000** | 268,100,000 | 231,500,000 |
 
 ### Block 3 · if there's time · about 1 min
 _Short on time? Skip to the jump (step 12): the next hub's Block 1 is worth more per minute than the rest of this hub._
@@ -68,7 +68,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 11 | ☐ Ice Mining Laser I | 6 | **458,100** | 690,100 | 458,000 |
+| 11 | ☐ Ice Mining Laser I | 5 | **458,100** | 690,100 | 458,000 |
 
 ## 12. ☐ Jump clone to Amarr VIII (Oris) - Emperor Family Academy
 _Clone Bay → Jump Clone → Amarr VIII (Oris) - Emperor Family Academy. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._

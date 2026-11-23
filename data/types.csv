@@ -462,7 +462,7 @@ type_id,name,volume,group_id
 12542,,0.1,370
 12563,,1,375
 12565,,1,375
-12608,Hail S,0.0025,
+12608,Hail S,0.0025,372
 12631,,0.0025,376
 12729,Crane,20000,1202
 12731,Bustard,20000,380
@@ -1060,6 +1060,7 @@ type_id,name,volume,group_id
 19686,Eifyr and Co. 'Gunslinger' Motion Prediction MR-705,1,742
 19687,Eifyr and Co. 'Gunslinger' Surgical Strike SS-905,1,742
 19694,Inherent Implants 'Lancer' Large Energy Turret LE-1005,1,742
+19695,,1,742
 19698,Zainou 'Deadeye' Large Hybrid Turret LH-1005,1,
 19699,Zainou 'Deadeye' Medium Hybrid Turret MH-805,,
 19719,Transport Ships,,
@@ -2585,6 +2586,7 @@ type_id,name,volume,group_id
 85746,Infomorph Decryption Key,,
 85747,Satori-Horigu Combat Scanner Probe,,
 85750,Deathless Circle Relic Analyzer,5,538
+85846,,0.1,4726
 85930,Archon Arkombine Arisen SKIN,,
 85931,Chimera Arkombine Arisen SKIN,0.01,1950
 86260,Breacher Pod Launcher Operation,0.01,256
