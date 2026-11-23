@@ -147,7 +147,7 @@ type_id,name,volume,group_id
 2872,Self-Harmonizing Power Core,50,1041
 2875,Sterile Conduits,50,1041
 2876,,50,1041
-2889,,5,55
+2889,200mm AutoCannon II,5,55
 2897,220mm Vulcan AutoCannon II,10,55
 2905,250mm Light Artillery Cannon II,5,55
 2929,800mm Repeating Cannon II,20,55
@@ -166,7 +166,7 @@ type_id,name,volume,group_id
 3057,Mega Pulse Laser II,20,53
 3065,Tachyon Beam Laser II,20,53
 3080,,1,
-3082,,10,
+3082,,10,74
 3084,,1,749
 3090,425mm Railgun II,20,74
 3092,Zainou 'Gnome' Shield Operation SP-906,1,749
@@ -180,7 +180,7 @@ type_id,name,volume,group_id
 3134,Zainou 'Deadeye' Missile Projection MP-704,,
 3135,Zainou 'Deadeye' Missile Projection MP-706,1,
 3138,,10,74
-3140,,1,746
+3140,Zainou 'Deadeye' Rapid Launch RL-1006,1,746
 3141,Zainou 'Deadeye' Target Navigation Prediction TN-902,,
 3142,Zainou 'Deadeye' Target Navigation Prediction TN-904,,
 3146,Heavy Neutron Blaster II,10,74
@@ -296,6 +296,7 @@ type_id,name,volume,group_id
 9632,,5,77
 9734,,10,72
 9830,,0.75,1034
+9832,,0.75,1034
 9836,,0.75,1034
 9838,Superconductors,0.75,1034
 9840,,0.75,
@@ -415,6 +416,7 @@ type_id,name,volume,group_id
 12003,Zealot,10000,358
 12005,Ishtar,10000,358
 12011,Eagle,10000,358
+12013,,10000,894
 12015,Muninn,10000,358
 12017,Devoter,10000,894
 12019,Sacrilege,10000,358
@@ -1248,6 +1250,7 @@ type_id,name,volume,group_id
 23894,'Page' Capacitor Flux Coil I,5,768
 23896,,5,767
 24242,Infomorph Psychology,,
+24283,Fighter Support Unit I,1000,407
 24348,,50,650
 24438,Omnidirectional Tracking Link II,,
 24486,Inferno Rage Heavy Assault Missile,,
@@ -1285,7 +1288,7 @@ type_id,name,volume,group_id
 25278,,10,711
 25349,Strong Exile Booster,1,303
 25530,Neurotoxin Recovery,0.01,1220
-25538,,0.01,1220
+25538,Neurotoxin Control,0.01,1220
 25544,Gas Cloud Harvesting,0.01,
 25563,,5,
 25590,Contaminated Nanite Compound,0.01,754
@@ -1654,7 +1657,7 @@ type_id,name,volume,group_id
 31810,Small Core Defense Field Purger II,5,
 31812,Medium Core Defense Field Purger II,10,774
 31818,Medium Core Defense Operational Solidifier I,,
-31824,,10,
+31824,,10,774
 31866,Imperial Navy Infiltrator,10,100
 31868,Imperial Navy Curator,25,100
 31870,Imperial Navy Praetor,25,100
@@ -1889,6 +1892,7 @@ type_id,name,volume,group_id
 37460,Scalpel,2500,1527
 37479,Micro Jump Field Generator,10,1533
 37480,Bifrost,5000,1534
+37481,,5000,1534
 37482,Stork,5000,1534
 37483,,5000,1534
 37599,,3000,1537
@@ -2260,7 +2264,7 @@ type_id,name,volume,group_id
 53715,High-grade Nirvana Gamma,1,300
 53839,Low-grade Nirvana Omega,1,300
 53854,Low-grade Nirvana Beta,1,300
-53856,Low-grade Nirvana Delta,,
+53856,Low-grade Nirvana Delta,1,300
 53857,,1,300
 53893,High-grade Savior Delta,,
 53894,High-grade Savior Epsilon,,
@@ -2609,7 +2613,7 @@ type_id,name,volume,group_id
 90468,Gravid Modulated Strip Miner Mutaplasmid,1,1964
 90469,Unstable Modulated Strip Miner Mutaplasmid,1,1964
 90491,Unstable Strip Miner Mutaplasmid,1,1964
-90523,Unstable Ice Harvester Mutaplasmid,,
+90523,Unstable Ice Harvester Mutaplasmid,1,1964
 90528,Unstable Gas Cloud Scoop Mutaplasmid,1,1964
 90592,,1,1964
 90609,,1,1964
@@ -2708,7 +2712,7 @@ type_id,name,volume,group_id
 96326,Captured Bioadaptive Cache,1,1194
 96333,,0.01,1950
 96515,Imperial Light Token,0.001,1194
-96516,Federal Equilibrium Token,,
+96516,Federal Equilibrium Token,0.001,1194
 96543,Potent 'Radiance' Cerebral Accelerator,1,303
 96544,Extended 'Radiance' Cerebral Accelerator,1,303
 96556,,1,
