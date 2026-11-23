@@ -591,7 +591,7 @@ type_id,name,volume,group_id
 14074,Shadow Serpentis Multispectrum Energized Membrane,5,326
 14094,Dark Blood Thermal Energized Membrane,,
 14100,Domination Tracking Enhancer,5,
-14104,,5,
+14104,,5,46
 14106,Domination 10MN Afterburner,5,46
 14108,,5,
 14114,,10,46
@@ -2811,6 +2811,7 @@ type_id,name,volume,group_id
 98454,Republic Hardpoint Booster II,,
 98455,Republic Hardpoint Booster III,,
 98484,,0.01,1950
+98650,,0.01,1950
 98651,,0.01,1950
 98652,,0.01,1950
 98653,Tornado Fleet Issue Stark Strategist SKIN,0.01,1950

@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Mon 23 Nov 08:00 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
+**Updated:** Mon 23 Nov 08:30 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
 **Steps:** 28 · **Est. time:** 21 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -57,7 +57,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 8 | ☐ Federation Mobility Booster III | 1 | **23,020,000** | 45,940,000 | 23,010,000 |
-| 9 | ☐ Mid-grade Rapture Gamma | 1 | **122,600,000** | 212,200,000 | 122,500,000 |
+| 9 | ☐ Mid-grade Rapture Gamma | 1 | **122,600,000** | 212,100,000 | 122,500,000 |
 | 10 | ☐ State Defense Booster III | 1 | **26,210,000** | 39,300,000 | 26,200,000 |
 
 ### Block 3 · if there's time · about 2 min
@@ -68,7 +68,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 11 | ☐ Caldari Navy Antimatter Charge M | 18 | **4,156** | 5,567 | 4,155 |
+| 11 | ☐ Caldari Navy Antimatter Charge M | 18 | **4,157** | 5,564 | 4,156 |
 | 12 | ☐ Vaccines | 87 | **78,030** | 84,780 | 78,020 |
 
 ## 13. ☐ Jump clone to Amarr VIII (Oris) - Emperor Family Academy

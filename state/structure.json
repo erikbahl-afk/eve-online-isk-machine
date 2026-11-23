@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.036,
- "buy_orders": 5811,
- "buy_orders_reaching_jita": 5737,
+ "ask_ratio_median": 1.0372,
+ "buy_orders": 5808,
+ "buy_orders_reaching_jita": 5736,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6251,
- "sell_orders": 440,
- "share_ask_below_jita": 0.3038,
+ "orders": 6247,
+ "sell_orders": 439,
+ "share_ask_below_jita": 0.2957,
  "structure_id": 1042508032148,
- "t": 1795449649.372417,
+ "t": 1795451447.4319973,
  "top_ask_below_jita": [
   {
    "best_ask": 1992.0,
@@ -117,18 +117,18 @@
  ],
  "top_bid_over_jita": [
   {
-   "best_bid": 30100000.0,
-   "gap": 0.0003,
+   "best_bid": 64030.0,
+   "gap": 0.0002,
    "name": "",
-   "s_bid_reach": 30110000.0,
-   "type_id": 45597
+   "s_bid_reach": 64040.0,
+   "type_id": 18754
   },
   {
-   "best_bid": 32570000.0,
-   "gap": 0.0003,
-   "name": "Loki Core - Augmented Nuclear Reactor",
-   "s_bid_reach": 32580000.0,
-   "type_id": 45632
+   "best_bid": 808600.0,
+   "gap": 0.0001,
+   "name": "Malfunctioning Power Cores",
+   "s_bid_reach": 808700.0,
+   "type_id": 30586
   }
  ],
  "types": 3844,
