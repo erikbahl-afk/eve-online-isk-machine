@@ -215,7 +215,7 @@ type_id,name,volume,group_id
 3542,CONCORD Capital Shield Booster,1000,
 3544,CONCORD Capital Remote Shield Booster,1000,41
 3568,Small Capacitor Booster II,5,76
-3578,,20,76
+3578,Heavy Capacitor Booster II,20,76
 3581,Purloined Sansha Data Analyzer,,
 3616,Capital Remote Shield Booster I,1000,41
 3645,Water,0.19,1042
@@ -277,7 +277,7 @@ type_id,name,volume,group_id
 7171,Tachyon Modulated Energy Beam I,20,53
 7447,425mm Prototype Gauss Gun,20,74
 7579,Modal Light Neutron Particle Accelerator I,5,
-8105,,10,510
+8105,'Arbalest' Heavy Missile Launcher,10,510
 8263,,5,
 8433,Medium Azeotropic Restrained Shield Extender,10,38
 8517,Medium F-S9 Regolith Compact Shield Extender,10,38
@@ -561,7 +561,7 @@ type_id,name,volume,group_id
 13974,True Sansha Explosive Armor Hardener,5,328
 13976,Dark Blood Explosive Armor Hardener,5,328
 13978,True Sansha Kinetic Armor Hardener,5,328
-13980,,5,328
+13980,Dark Blood Kinetic Armor Hardener,5,328
 13982,True Sansha Thermal Armor Hardener,5,328
 13984,Dark Blood Thermal Armor Hardener,5,328
 13998,Domination Multispectrum Shield Hardener,5,77
@@ -791,7 +791,7 @@ type_id,name,volume,group_id
 17178,Stasis Webification Battery,,
 17180,Sensor Dampening Battery,,
 17182,Warp Scrambling Battery,,
-17187,,4000,
+17187,,4000,444
 17190,Angel Bronze Tag,,
 17200,,0.1,370
 17207,Guristas Brass Tag,0.1,370
@@ -827,8 +827,8 @@ type_id,name,volume,group_id
 17634,Caracal Navy Issue,10000,26
 17636,Raven Navy Issue,50000,27
 17648,,0.125,85
-17709,,10000,
-17713,Stabber Fleet Issue,10000,
+17709,Omen Navy Issue,10000,26
+17713,Stabber Fleet Issue,10000,26
 17715,Gila,10000,26
 17718,Phantasm,10000,26
 17720,Cynabal,10000,26
@@ -1218,10 +1218,11 @@ type_id,name,volume,group_id
 23093,Imperial Navy Xray M,1,86
 23097,Imperial Navy Standard M,1,86
 23105,Imperial Navy Multifrequency L,1,86
-23107,,1,86
+23107,Imperial Navy Gamma L,1,86
 23111,,1,86
 23113,Imperial Navy Standard L,1,86
 23115,,1,86
+23117,,1,86
 23119,Imperial Navy Radio L,1,86
 23128,,0.1,528
 23134,Takmahl Dynamic Gauge,,
@@ -1562,7 +1563,7 @@ type_id,name,volume,group_id
 31001,Capital EM Armor Reinforcer I,,
 31003,Small EM Armor Reinforcer II,5,
 31005,Medium EM Armor Reinforcer II,10,773
-31011,Medium Explosive Armor Reinforcer I,,
+31011,Medium Explosive Armor Reinforcer I,10,773
 31017,Medium Explosive Armor Reinforcer II,10,773
 31027,,5,
 31029,,10,
@@ -2193,6 +2194,7 @@ type_id,name,volume,group_id
 49727,,1,1964
 49728,Gravid Heat Sink Mutaplasmid,1,1964
 49729,,1,1964
+49731,,1,1964
 49732,,1,
 49733,Unstable Gyrostabilizer Mutaplasmid,1,
 49736,,1,1964
@@ -2327,7 +2329,7 @@ type_id,name,volume,group_id
 57455,Thermosetting Polymer,0.2,428
 57456,Pressurized Oxidizers,0.1,429
 57457,Reinforced Carbon Fiber,0.1,429
-57459,Hypnagogic Neurolink Enhancer,4,
+57459,Hypnagogic Neurolink Enhancer,4,4096
 57465,,8,4096
 57466,,10,
 57470,U-C Trigger Neurolink Conduit,16,334
@@ -2421,7 +2423,7 @@ type_id,name,volume,group_id
 62538,Compressed Kernite III-Grade,0.012,457
 62539,Compressed Kernite IV-Grade,0.012,457
 62540,,0.02,456
-62544,,0.03,455
+62544,Compressed Hemorphite,0.03,455
 62552,,0.05,467
 62553,Compressed Gneiss II-Grade,0.05,467
 62554,Compressed Gneiss III-Grade,0.05,467
@@ -2470,7 +2472,7 @@ type_id,name,volume,group_id
 75277,Compressed Mordunium III-Grade,0.001,4513
 75278,Compressed Mordunium IV-Grade,0.001,4513
 75279,,0.006,4514
-75282,,0.006,4514
+75282,Compressed Ytirium IV-Grade,0.006,4514
 75283,Compressed Eifyrium,0.16,4515
 75287,Compressed Ducinium,,
 75908,Barghest Red Stargazer SKIN,,
@@ -2683,7 +2685,7 @@ type_id,name,volume,group_id
 95741,Akoman,15000,1201
 96145,,5,5140
 96317,,0.01,1950
-96318,,0.01,1950
+96318,Absolution Sanguinary Savant SKIN,0.01,1950
 96320,Coercer Sanguinary Savant SKIN,0.01,1950
 96321,Salvation Sanguinary Savant SKIN,,
 96326,Captured Bioadaptive Cache,1,1194
@@ -2728,6 +2730,7 @@ type_id,name,volume,group_id
 97545,Shield Failover Report,0.01,1194
 97547,Stereo-Collapse Signal,0.01,1194
 97552,Hyperspherical Housing,0.1,1194
+97554,Pulse-Mimic Circuitry,0.01,1194
 97560,Polycrase X-Grade,,
 97564,Compressed Raspite X-Grade,0.01,5083
 97566,Compressed Polycrase X-Grade,0.01,5084
@@ -2783,6 +2786,6 @@ type_id,name,volume,group_id
 98484,,0.01,1950
 98651,,0.01,1950
 98652,,0.01,1950
-98653,,0.01,1950
+98653,Tornado Fleet Issue Stark Strategist SKIN,0.01,1950
 98657,Ibis Copper Lightning SKIN,,
 98845,Imperial Navy Stasis Webifier,5,65
