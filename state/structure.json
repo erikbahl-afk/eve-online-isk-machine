@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0402,
- "buy_orders": 5826,
- "buy_orders_reaching_jita": 5754,
+ "ask_ratio_median": 1.0405,
+ "buy_orders": 5830,
+ "buy_orders_reaching_jita": 5758,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6273,
+ "orders": 6277,
  "sell_orders": 447,
  "share_ask_below_jita": 0.2958,
  "structure_id": 1042508032148,
- "t": 1795528856.817877,
+ "t": 1795529945.209364,
  "top_ask_below_jita": [
   {
    "best_ask": 7500.0,
@@ -38,8 +38,8 @@
    "type_id": 84403
   },
   {
-   "best_ask": 1900.0,
-   "gap": 0.7156,
+   "best_ask": 1899.0,
+   "gap": 0.7155,
    "name": "",
    "s_ask": 540.3,
    "type_id": 17440
@@ -117,28 +117,21 @@
  ],
  "top_bid_over_jita": [
   {
-   "best_bid": 2016.0,
-   "gap": 0.0005,
-   "name": "",
-   "s_bid_reach": 2017.0,
-   "type_id": 23717
+   "best_bid": 13160000.0,
+   "gap": 0.0008,
+   "name": "Ishkur",
+   "s_bid_reach": 13170000.0,
+   "type_id": 12042
   },
   {
-   "best_bid": 412800000.0,
-   "gap": 0.0005,
-   "name": "",
-   "s_bid_reach": 413000000.0,
-   "type_id": 95720
-  },
-  {
-   "best_bid": 6501000.0,
+   "best_bid": 5119000.0,
    "gap": 0.0002,
-   "name": "Frigoris Restrained Ice Harvester Upgrade",
-   "s_bid_reach": 6502000.0,
-   "type_id": 22619
+   "name": "Caldari Navy Kinetic Shield Hardener",
+   "s_bid_reach": 5120000.0,
+   "type_id": 17495
   }
  ],
- "types": 3870,
- "types_also_in_jita": 3870,
- "types_bid_over_jita_reaching": 3
+ "types": 3874,
+ "types_also_in_jita": 3874,
+ "types_bid_over_jita_reaching": 2
 }

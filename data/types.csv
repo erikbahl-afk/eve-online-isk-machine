@@ -904,7 +904,7 @@ type_id,name,volume,group_id
 18789,Coreli A-Type Multispectrum Coating,5,98
 18797,Coreli A-Type Thermal Coating,5,98
 18799,Corelum C-Type Multispectrum Energized Membrane,5,326
-18807,,5,326
+18807,Corelum C-Type Thermal Energized Membrane,5,326
 18813,,5,
 18817,Corelum B-Type Thermal Energized Membrane,5,326
 18827,Corelum A-Type Thermal Energized Membrane,5,
@@ -2012,7 +2012,7 @@ type_id,name,volume,group_id
 41407,Capital Pulse Laser Specialization,,
 41408,Capital Beam Laser Specialization,,
 41415,Fighter Support Unit II,1000,407
-41456,,1000,329
+41456,CONCORD 25000mm Steel Plates,1000,329
 41459,CONCORD Capital Shield Extender,1000,38
 41463,Capital I-ax Enduring Remote Armor Repairer,,
 41469,Capital Asymmetric Enduring Remote Shield Booster,1000,41
@@ -2630,6 +2630,7 @@ type_id,name,volume,group_id
 87324,Navy Scan Pinpointing Array,5,1223
 87504,Paladin Imperial Police SKIN,0.01,
 87562,ORE Deep Core Strip Miner,5,464
+87572,,0.1,1088
 87573,,0.1,1088
 88001,Babaroga,50000,900
 88119,Low-grade Wedge Alpha,,

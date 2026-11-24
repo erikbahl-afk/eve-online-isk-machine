@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Tue 24 Nov 06:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Tue 24 Nov 06:18 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 33 · **Est. time:** 21 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -35,7 +35,7 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 8 | ☐ Chaotic Exotic Filament | 2 | **28,220,000** | 22,950,000 | 28,230,000 |
+| 8 | ☐ Chaotic Exotic Filament | 2 | **28,240,000** | 22,950,000 | 28,250,000 |
 
 ### Block 2 · should do · about 3 min
 _Short on time? Skip to the jump (step 17): the next hub's Block 1 is worth more per minute than the rest of this hub._
@@ -94,17 +94,17 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 19 | ☐ State Security Token | 1 | **17,970,000** | 12,700,000 | 17,980,000 |
+| 19 | ☐ State Security Token | 1 | **17,960,000** | 12,700,000 | 17,970,000 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 20 | ☐ Glorified Unstable Entropic Radiation Sink Mutaplasmid | 172,600,000 | **172,500,000** | 203,000,000 | 172,400,000 |
-| 21 | ☐ Low-grade Nomad Gamma | 92,460,000 | **92,470,000** | 121,300,000 | 92,460,000 |
+| 20 | ☐ Glorified Unstable Entropic Radiation Sink Mutaplasmid | 172,600,000 | **172,500,000** | 202,900,000 | 172,400,000 |
+| 21 | ☐ Low-grade Nomad Gamma | 92,460,000 | **92,470,000** | 121,200,000 | 92,460,000 |
 | 22 | ☐ Mid-grade Rapture Gamma | 122,800,000 | **122,800,000** | 211,300,000 | 122,700,000 |
-| 23 | ☐ Neurotoxin Control | 8,902,000 | **8,906,000** | 11,480,000 | 8,905,000 |
+| 23 | ☐ Neurotoxin Control | 8,902,000 | **8,906,000** | 12,790,000 | 8,905,000 |
 | 24 | ☐ State Defense Booster III | 26,210,000 | **26,210,000** | 39,300,000 | 26,200,000 |
 | 25 | ☐ Zorya's Light Entropic Disintegrator | 231,900,000 | **232,000,000** | 267,900,000 | 231,900,000 |
 
@@ -115,7 +115,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 26 | ☐ Compressed Mercoxit II-Grade | 23,240 | **22,990** | 20,730 | 23,000 |
+| 26 | ☐ Compressed Mercoxit II-Grade | 23,240 | **22,980** | 20,730 | 22,990 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
@@ -123,7 +123,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 27 | ☐ Capital Flex Armor Hardener II | 64,740,000 | **64,850,000** | 79,150,000 | 64,840,000 |
-| 28 | ☐ State Security Token | 12,210,000 | **9,668,000** | 14,490,000 | 9,667,000 |
+| 28 | ☐ State Security Token | 12,210,000 | **9,667,000** | 14,490,000 | 9,666,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
