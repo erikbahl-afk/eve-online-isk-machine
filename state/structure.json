@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0249,
- "buy_orders": 5807,
- "buy_orders_reaching_jita": 5733,
+ "ask_ratio_median": 1.027,
+ "buy_orders": 5814,
+ "buy_orders_reaching_jita": 5740,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6262,
- "sell_orders": 455,
+ "orders": 6270,
+ "sell_orders": 456,
  "share_ask_below_jita": 0.3265,
  "structure_id": 1042508032148,
- "t": 1795490985.5932426,
+ "t": 1795492843.9013653,
  "top_ask_below_jita": [
   {
    "best_ask": 7500.0,
@@ -17,8 +17,8 @@
    "type_id": 90480
   },
   {
-   "best_ask": 4500.0,
-   "gap": 0.9488,
+   "best_ask": 4400.0,
+   "gap": 0.9476,
    "name": "",
    "s_ask": 230.5,
    "type_id": 90495
@@ -87,7 +87,7 @@
    "type_id": 45944
   },
   {
-   "best_ask": 99840.0,
+   "best_ask": 99830.0,
    "gap": 0.6807,
    "name": "",
    "s_ask": 31880.0,
@@ -108,23 +108,44 @@
    "type_id": 22576
   },
   {
-   "best_ask": 16.99,
-   "gap": 0.6627,
+   "best_ask": 510.4,
+   "gap": 0.6346,
    "name": "",
-   "s_ask": 5.73,
-   "type_id": 23160
+   "s_ask": 186.5,
+   "type_id": 90484
   }
  ],
  "top_bid_over_jita": [
   {
-   "best_bid": 12000000.0,
-   "gap": 0.0008,
+   "best_bid": 1082000.0,
+   "gap": 0.0009,
    "name": "",
-   "s_bid_reach": 12010000.0,
-   "type_id": 33937
+   "s_bid_reach": 1083000.0,
+   "type_id": 30558
+  },
+  {
+   "best_bid": 2006000.0,
+   "gap": 0.0005,
+   "name": "",
+   "s_bid_reach": 2007000.0,
+   "type_id": 30615
+  },
+  {
+   "best_bid": 808900.0,
+   "gap": 0.0001,
+   "name": "",
+   "s_bid_reach": 809000.0,
+   "type_id": 30632
+  },
+  {
+   "best_bid": 809100.0,
+   "gap": 0.0001,
+   "name": "Malfunctioning Power Cores",
+   "s_bid_reach": 809200.0,
+   "type_id": 30586
   }
  ],
- "types": 3866,
- "types_also_in_jita": 3866,
- "types_bid_over_jita_reaching": 1
+ "types": 3872,
+ "types_also_in_jita": 3872,
+ "types_bid_over_jita_reaching": 4
 }

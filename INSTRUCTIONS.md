@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Mon 23 Nov 19:29 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
+**Updated:** Mon 23 Nov 20:00 PST · **Start docked at:** Jita IV - Moon 4 - Caldari Navy Assembly Plant  
 **Steps:** 35 · **Est. time:** 24 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -30,7 +30,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 3 | ☐ Low-grade Nomad Gamma | 92,440,000 | **92,460,000** | 121,500,000 | 92,450,000 |
+| 3 | ☐ Low-grade Nomad Gamma | 92,440,000 | **92,460,000** | 121,400,000 | 92,450,000 |
 
 #### Cancel buy orders
 _My Orders → Buying. Right-click → Cancel Order._
@@ -58,9 +58,9 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 9 | ☐ Capital Flex Armor Hardener II | 1 | **64,660,000** | 79,150,000 | 64,650,000 |
-| 10 | ☐ Neurotoxin Control | 1 | **8,903,000** | 12,970,000 | 8,902,000 |
+| 10 | ☐ Neurotoxin Control | 1 | **8,903,000** | 12,880,000 | 8,902,000 |
 | 11 | ☐ State Defense Booster III | 1 | **26,210,000** | 39,300,000 | 26,200,000 |
-| 12 | ☐ State Security Token | 2 | **12,150,000** | 14,490,000 | 12,140,000 |
+| 12 | ☐ State Security Token | 2 | **12,210,000** | 14,490,000 | 12,200,000 |
 
 ### Block 3 · if there's time · about 3 min
 _Short on time? Skip to the jump (step 17): the next hub's Block 1 is worth more per minute than the rest of this hub._
@@ -70,14 +70,14 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 13 | ☐ Antikythera Element | 996,000 | **234,900** | 0.01 | 235,000 |
+| 13 | ☐ Antikythera Element | 996,000 | **234,800** | 0.01 | 234,900 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 14 | ☐ 50MN Microwarpdrive II | 3,769,000 | **3,794,000** | 3,794,000 | 3,796,000 |
+| 14 | ☐ 50MN Microwarpdrive II | 3,769,000 | **3,793,000** | 3,793,000 | 3,796,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._

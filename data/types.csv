@@ -162,7 +162,7 @@ type_id,name,volume,group_id
 3001,Dual Light Pulse Laser II,5,53
 3017,Gatling Pulse Laser II,5,53
 3025,,10,53
-3033,Small Focused Beam Laser II,5,
+3033,Small Focused Beam Laser II,5,53
 3041,Small Focused Pulse Laser II,5,53
 3049,Mega Beam Laser II,20,53
 3057,Mega Pulse Laser II,20,53
@@ -1444,6 +1444,7 @@ type_id,name,volume,group_id
 27423,Caldari Navy Inferno Cruise Missile,0.05,386
 27429,Caldari Navy Nova Cruise Missile,0.05,386
 27435,Caldari Navy Mjolnir Heavy Missile,0.03,385
+27437,,0.03,385
 27441,Caldari Navy Scourge Heavy Missile,0.03,385
 27447,Caldari Navy Inferno Heavy Missile,0.03,
 27449,Dread Guristas Inferno Heavy Missile,,
@@ -1514,6 +1515,7 @@ type_id,name,volume,group_id
 28684,Synth Sooth Sayer Booster,1,
 28694,Amber Mykoserocin,10,711
 28696,Celadon Mykoserocin,,
+28697,,10,711
 28698,Lime Mykoserocin,10,711
 28700,,10,711
 28701,Viridian Mykoserocin,,
