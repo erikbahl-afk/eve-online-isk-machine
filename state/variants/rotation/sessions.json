@@ -106,5 +106,17 @@
   "secs": 835,
   "t": 1795409100.0,
   "to": "dodixie"
+ },
+ {
+  "done": 22,
+  "frac": 1.0,
+  "from": "dodixie",
+  "local": "Mon 23 Nov 20:15",
+  "merged": 1,
+  "planned": 22,
+  "run_t": 1795495761.9714994,
+  "secs": 1185,
+  "t": 1795493700.0,
+  "to": "jita"
  }
 ]

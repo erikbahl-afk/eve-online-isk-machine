@@ -284,7 +284,7 @@ type_id,name,volume,group_id
 7087,,20,53
 7171,Tachyon Modulated Energy Beam I,20,53
 7447,425mm Prototype Gauss Gun,20,74
-7579,Modal Light Neutron Particle Accelerator I,5,
+7579,Modal Light Neutron Particle Accelerator I,5,74
 8027,,10,511
 8105,'Arbalest' Heavy Missile Launcher,10,510
 8263,,5,
@@ -922,7 +922,7 @@ type_id,name,volume,group_id
 18875,,5,326
 18877,Corpum A-Type Kinetic Energized Membrane,5,326
 18879,Centum A-Type Kinetic Energized Membrane,5,326
-18881,Corpum A-Type Multispectrum Energized Membrane,5,
+18881,Corpum A-Type Multispectrum Energized Membrane,5,326
 18883,Centum A-Type Multispectrum Energized Membrane,5,326
 18885,Corpus C-Type EM Armor Hardener,5,328
 18891,Centus C-Type Explosive Armor Hardener,5,328
@@ -944,7 +944,7 @@ type_id,name,volume,group_id
 18949,,5,
 18951,Core C-Type Explosive Armor Hardener,5,328
 18955,,5,328
-18963,Core B-Type Thermal Armor Hardener,,
+18963,Core B-Type Thermal Armor Hardener,5,328
 18973,Core X-Type EM Armor Hardener,5,328
 18975,Core X-Type Explosive Armor Hardener,5,328
 18977,Core X-Type Kinetic Armor Hardener,5,328
