@@ -16,6 +16,7 @@ type_id,name,volume,group_id
 209,,0.03,385
 233,,0.025,
 238,,0.025,85
+254,,1,86
 267,,0.05,89
 421,,5,43
 438,,5,
@@ -182,6 +183,7 @@ type_id,name,volume,group_id
 3130,Heavy Electron Blaster II,10,74
 3134,Zainou 'Deadeye' Missile Projection MP-704,,
 3135,Zainou 'Deadeye' Missile Projection MP-706,1,
+3137,Zainou 'Deadeye' Rapid Launch RL-1004,,
 3138,,10,74
 3140,Zainou 'Deadeye' Rapid Launch RL-1006,1,746
 3141,Zainou 'Deadeye' Target Navigation Prediction TN-902,,
@@ -209,7 +211,7 @@ type_id,name,volume,group_id
 3256,Inherent Implants 'Squire' Power Grid Management EG-602,1,741
 3257,Inherent Implants 'Squire' Power Grid Management EG-604,1,741
 3265,Zainou 'Gypsy' CPU Management EE-602,1,
-3266,Zainou 'Gypsy' CPU Management EE-604,,
+3266,Zainou 'Gypsy' CPU Management EE-604,1,741
 3430,Advanced Target Management,,
 3475,Inherent Implants 'Noble' Mechanic MC-806,1,738
 3482,Inherent Implants 'Noble' Hull Upgrades HG-1006,1,738
@@ -957,7 +959,7 @@ type_id,name,volume,group_id
 18989,Corelum B-Type Medium Remote Armor Repairer,10,325
 18991,Corelum A-Type Medium Remote Armor Repairer,10,325
 18999,,5,
-19003,,5,62
+19003,Corpii A-Type Small Armor Repairer,5,62
 19009,Centii A-Type Small Armor Repairer,5,62
 19013,Coreli B-Type Small Armor Repairer,5,62
 19015,Coreli A-Type Small Armor Repairer,5,62
@@ -1022,10 +1024,11 @@ type_id,name,volume,group_id
 19219,,5,295
 19223,Pithum B-Type EM Shield Amplifier,5,295
 19227,Pithum A-Type Thermal Shield Amplifier,5,295
-19229,,5,
+19229,,5,295
 19231,Pithum A-Type EM Shield Amplifier,5,295
 19245,Gistum C-Type EM Shield Amplifier,5,295
 19247,Gistum B-Type EM Shield Amplifier,5,295
+19251,Gistum A-Type Thermal Shield Amplifier,5,295
 19253,,5,295
 19263,Gist C-Type EM Shield Hardener,,
 19268,,5,
@@ -2625,6 +2628,7 @@ type_id,name,volume,group_id
 87573,,0.1,1088
 88001,Babaroga,50000,900
 88119,Low-grade Wedge Alpha,,
+88120,Low-grade Wedge Beta,,
 88133,Historic Capsuleer Day SKIN Crate,0,
 88147,Triplot Scan Acquisition Array,5,1238
 88716,Xarasier Medium Ancillary Shield Booster,,
@@ -2699,6 +2703,7 @@ type_id,name,volume,group_id
 92466,Atlas SD-900-I,,
 92468,Immaculate TD-600-I,10,5239
 92469,Torafugu TD-900-I,,
+92514,Ultratidal Entropic Disintegrator II,1600,1986
 92541,Capital Disintegrator Specialization,0.01,255
 92572,Crystalline Kangite,,
 92818,Compressed Raspite X-Grade,0.01,5083

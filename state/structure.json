@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0279,
- "buy_orders": 5838,
- "buy_orders_reaching_jita": 5764,
+ "ask_ratio_median": 1.0312,
+ "buy_orders": 5863,
+ "buy_orders_reaching_jita": 5789,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6290,
- "sell_orders": 452,
- "share_ask_below_jita": 0.3325,
+ "orders": 6311,
+ "sell_orders": 448,
+ "share_ask_below_jita": 0.3159,
  "structure_id": 1042508032148,
- "t": 1795507247.1466238,
+ "t": 1795514452.9830408,
  "top_ask_below_jita": [
   {
    "best_ask": 7500.0,
@@ -115,8 +115,16 @@
    "type_id": 90484
   }
  ],
- "top_bid_over_jita": [],
- "types": 3875,
- "types_also_in_jita": 3875,
- "types_bid_over_jita_reaching": 0
+ "top_bid_over_jita": [
+  {
+   "best_bid": 89240.0,
+   "gap": 0.0001,
+   "name": "Datacore - Molecular Engineering",
+   "s_bid_reach": 89250.0,
+   "type_id": 20415
+  }
+ ],
+ "types": 3882,
+ "types_also_in_jita": 3882,
+ "types_bid_over_jita_reaching": 1
 }
