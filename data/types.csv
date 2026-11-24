@@ -203,6 +203,7 @@ type_id,name,volume,group_id
 3239,Inherent Implants 'Squire' Capacitor Management EM-806,1,741
 3240,Inherent Implants 'Squire' Capacitor Systems Operation EO-602,1,
 3241,Inherent Implants 'Squire' Capacitor Systems Operation EO-604,1,
+3244,,5,52
 3256,Inherent Implants 'Squire' Power Grid Management EG-602,1,741
 3257,Inherent Implants 'Squire' Power Grid Management EG-604,1,741
 3265,Zainou 'Gypsy' CPU Management EE-602,1,
@@ -406,11 +407,11 @@ type_id,name,volume,group_id
 11959,Rook,10000,906
 11961,Huginn,10000,906
 11963,Rapier,10000,
-11965,Pilgrim,10000,
+11965,Pilgrim,10000,833
 11969,Arazu,10000,833
 11971,Lachesis,10000,906
 11978,Scimitar,10000,832
-11985,Basilisk,,
+11985,Basilisk,10000,832
 11987,Guardian,10000,832
 11989,Oneiros,10000,832
 11993,Cerberus,10000,358
@@ -889,7 +890,7 @@ type_id,name,volume,group_id
 18708,Corpii A-Type Multispectrum Coating,5,98
 18710,Centii A-Type Multispectrum Coating,5,98
 18764,,5,98
-18766,,5,
+18766,,5,98
 18768,Coreli C-Type Multispectrum Coating,5,98
 18789,Coreli A-Type Multispectrum Coating,5,98
 18797,Coreli A-Type Thermal Coating,5,98
@@ -899,7 +900,7 @@ type_id,name,volume,group_id
 18817,Corelum B-Type Thermal Energized Membrane,5,326
 18827,Corelum A-Type Thermal Energized Membrane,5,
 18829,Corpum C-Type Multispectrum Energized Membrane,5,326
-18831,,5,326
+18831,Centum C-Type Multispectrum Energized Membrane,5,326
 18835,Centum C-Type Kinetic Energized Membrane,,
 18837,,5,326
 18839,,5,326
@@ -1083,6 +1084,7 @@ type_id,name,volume,group_id
 20185,Charon,1300000,
 20199,Dread Guristas Multispectral ECM,5,201
 20212,Cruise Missile Specialization,0.01,256
+20213,,0.01,256
 20327,Capital Energy Turret,,
 20342,Advanced Spaceship Command,,
 20351,800mm Steel Plates II,,
@@ -1162,6 +1164,7 @@ type_id,name,volume,group_id
 21896,Republic Fleet EMP M,0.0125,83
 21898,Republic Fleet EMP S,0.0025,83
 21902,Republic Fleet Fusion L,0.025,83
+21904,,0.0125,83
 21918,Republic Fleet Phased Plasma L,0.025,83
 21922,Republic Fleet Phased Plasma M,0.0125,83
 21924,,0.0025,83
@@ -1237,6 +1240,7 @@ type_id,name,volume,group_id
 23097,Imperial Navy Standard M,1,86
 23105,Imperial Navy Multifrequency L,1,86
 23107,Imperial Navy Gamma L,1,86
+23109,,1,86
 23111,,1,86
 23113,Imperial Navy Standard L,1,86
 23115,,1,86
@@ -1316,6 +1320,7 @@ type_id,name,volume,group_id
 25611,,0.01,754
 25613,,0.01,754
 25617,Power Circuit,0.01,754
+25618,,0.01,754
 25619,Logic Circuit,0.01,754
 25620,Interface Circuit,0.01,754
 25624,Intact Armor Plates,0.01,754
@@ -1443,7 +1448,7 @@ type_id,name,volume,group_id
 27483,Legion Mjolnir Auto-Targeting Heavy Missile,0.03,395
 27489,Legion Scourge Auto-Targeting Heavy Missile,0.03,395
 27507,Legion Mjolnir Auto-Targeting Light Missile,0.015,394
-27916,,75,90
+27916,Scorch Bomb,75,90
 27918,Shrapnel Bomb,75,90
 27920,Electron Bomb,75,90
 27922,Lockbreaker Bomb,,
@@ -1617,6 +1622,7 @@ type_id,name,volume,group_id
 31171,Small Low Friction Nozzle Joints II,5,782
 31173,Medium Low Friction Nozzle Joints II,10,782
 31185,Medium Polycarbon Engine Housing II,10,782
+31207,,5,1233
 31220,Small Gravity Capacitor Upgrade II,5,1233
 31244,Small Memetic Algorithm Bank II,5,
 31298,Small Particle Dispersion Projector I,,
@@ -1736,7 +1742,7 @@ type_id,name,volume,group_id
 33337,,0.2,428
 33359,Photonic Metamaterials,1,429
 33360,Terahertz Metamaterials,1,429
-33361,Plasmonic Metamaterials,1,
+33361,Plasmonic Metamaterials,1,429
 33362,Nonlinear Metamaterials,1,429
 33393,Genolution Core Augmentation CA-3,1,
 33400,,200,
@@ -2000,7 +2006,7 @@ type_id,name,volume,group_id
 41498,Capital I-a Enduring Armor Repairer,1000,
 41503,Capital Ancillary Armor Repairer,,
 41504,,1000,1156
-41525,,1000,1699
+41525,Capital Flex Armor Hardener II,1000,1699
 41533,Ligature Integrated Analyzer,5,538
 41534,Zeugma Integrated Analyzer,5,538
 41566,,1000,67
@@ -2035,7 +2041,7 @@ type_id,name,volume,group_id
 43662,Gallente Phenomena Generator,,
 43688,Astral Mining Inc. Strong Box,,
 43694,'Augmented' Mining Drone,5,101
-43700,Ice Harvesting Drone II,,
+43700,Ice Harvesting Drone II,50,101
 43701,'Augmented' Ice Harvesting Drone,50,101
 43775,ORE Mining Director Mindlink,1,744
 43880,Standup M-Set Invention Accelerator I,,
@@ -2056,7 +2062,7 @@ type_id,name,volume,group_id
 45591,Tengu Defensive - Amplification Node,40,954
 45592,Proteus Defensive - Covert Reconfiguration,40,954
 45595,Loki Defensive - Covert Reconfiguration,40,954
-45597,,40,954
+45597,Loki Defensive - Adaptive Defense Node,40,954
 45598,Legion Offensive - Liquid Crystal Magnifiers,40,956
 45599,Legion Offensive - Assault Optimization,40,956
 45601,Tengu Offensive - Accelerated Ejection Bay,40,956
@@ -2098,6 +2104,7 @@ type_id,name,volume,group_id
 46003,Agency 'Hardshell' TB7 Dose III,1,303
 46005,Agency 'Overclocker' SB5 Dose II,1,303
 46006,Agency 'Overclocker' SB7 Dose III,1,303
+46174,,0.01,1888
 46182,,0.01,1888
 46204,,0.01,1888
 46210,,0.01,1888
@@ -2189,7 +2196,7 @@ type_id,name,volume,group_id
 47918,Heavy Entropic Disintegrator II,10,1986
 47919,Veles Heavy Entropic Disintegrator,10,1986
 47923,,20,1986
-47924,Baryon Exotic Plasma S,,
+47924,Baryon Exotic Plasma S,0.01,1987
 47926,,0.01,1989
 47927,Mystic S,0.01,1989
 47928,,0.01,
@@ -2588,7 +2595,8 @@ type_id,name,volume,group_id
 85747,Satori-Horigu Combat Scanner Probe,,
 85750,Deathless Circle Relic Analyzer,5,538
 85846,,0.1,4726
-85930,Archon Arkombine Arisen SKIN,,
+85929,,0.01,1950
+85930,Archon Arkombine Arisen SKIN,0.01,1950
 85931,Chimera Arkombine Arisen SKIN,0.01,1950
 86260,Breacher Pod Launcher Operation,0.01,256
 86261,Breacher Pod Clone Efficacity,0.01,256
@@ -2726,6 +2734,7 @@ type_id,name,volume,group_id
 96333,,0.01,1950
 96515,Imperial Light Token,0.001,1194
 96516,Federal Equilibrium Token,0.001,1194
+96517,State Security Token,0.001,1194
 96543,Potent 'Radiance' Cerebral Accelerator,1,303
 96544,Extended 'Radiance' Cerebral Accelerator,1,303
 96556,,1,
@@ -2762,10 +2771,12 @@ type_id,name,volume,group_id
 97516,Akoman Blueprint Crate,1,1194
 97544,Thermoelectric Flux Log,0.01,1194
 97545,Shield Failover Report,0.01,1194
+97546,Rogue Anoikis Telemetry,0.01,1194
 97547,Stereo-Collapse Signal,0.01,1194
 97552,Hyperspherical Housing,0.1,1194
 97553,Hyper-Field Projector,0.01,1194
 97554,Pulse-Mimic Circuitry,0.01,1194
+97555,,0.01,1194
 97560,Polycrase X-Grade,,
 97564,Compressed Raspite X-Grade,0.01,5083
 97566,Compressed Polycrase X-Grade,0.01,5084
@@ -2809,6 +2820,7 @@ type_id,name,volume,group_id
 98425,State Defense Booster III,1,303
 98429,State Hardpoint Booster I,1,303
 98430,State Hardpoint Booster II,1,303
+98433,,1,303
 98434,Federation Electronics Booster III,1,303
 98436,Federation Defense Booster II,,
 98440,Federation Mobility Booster III,1,303

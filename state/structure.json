@@ -1,14 +1,21 @@
 {
  "ask_ratio_median": 1.0246,
- "buy_orders": 5813,
- "buy_orders_reaching_jita": 5740,
+ "buy_orders": 5793,
+ "buy_orders_reaching_jita": 5718,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6277,
- "sell_orders": 464,
- "share_ask_below_jita": 0.3206,
+ "orders": 6255,
+ "sell_orders": 462,
+ "share_ask_below_jita": 0.3257,
  "structure_id": 1042508032148,
- "t": 1795471245.0135605,
+ "t": 1795478455.0786877,
  "top_ask_below_jita": [
+  {
+   "best_ask": 99990000.0,
+   "gap": 0.992,
+   "name": "",
+   "s_ask": 800000.0,
+   "type_id": 45954
+  },
   {
    "best_ask": 44000.0,
    "gap": 0.9237,
@@ -52,25 +59,32 @@
    "type_id": 47809
   },
   {
-   "best_ask": 74980.0,
+   "best_ask": 74970.0,
    "gap": 0.6667,
    "name": "",
    "s_ask": 24990.0,
    "type_id": 22576
   },
   {
-   "best_ask": 386800000.0,
-   "gap": 0.6063,
-   "name": "Mid-grade Nomad Beta",
-   "s_ask": 152300000.0,
-   "type_id": 28797
+   "best_ask": 16.99,
+   "gap": 0.6627,
+   "name": "",
+   "s_ask": 5.73,
+   "type_id": 23160
   },
   {
-   "best_ask": 58690.0,
-   "gap": 0.5994,
+   "best_ask": 59740.0,
+   "gap": 0.6065,
    "name": "",
    "s_ask": 23510.0,
    "type_id": 21080
+  },
+  {
+   "best_ask": 387000000.0,
+   "gap": 0.6065,
+   "name": "Mid-grade Nomad Beta",
+   "s_ask": 152300000.0,
+   "type_id": 28797
   },
   {
    "best_ask": 4896.0,
@@ -99,39 +113,18 @@
    "name": "",
    "s_ask": 1324.0,
    "type_id": 90590
-  },
-  {
-   "best_ask": 14930000.0,
-   "gap": 0.5311,
-   "name": "",
-   "s_ask": 7000000.0,
-   "type_id": 47316
-  },
-  {
-   "best_ask": 8500000.0,
-   "gap": 0.5294,
-   "name": "",
-   "s_ask": 4000000.0,
-   "type_id": 37552
   }
  ],
  "top_bid_over_jita": [
   {
-   "best_bid": 112100.0,
-   "gap": 0.0009,
+   "best_bid": 80680000.0,
+   "gap": 0.0001,
    "name": "",
-   "s_bid_reach": 112200.0,
-   "type_id": 26931
-  },
-  {
-   "best_bid": 6067000.0,
-   "gap": 0.0002,
-   "name": "",
-   "s_bid_reach": 6068000.0,
-   "type_id": 37454
+   "s_bid_reach": 80690000.0,
+   "type_id": 41250
   }
  ],
- "types": 3866,
- "types_also_in_jita": 3866,
- "types_bid_over_jita_reaching": 2
+ "types": 3856,
+ "types_also_in_jita": 3856,
+ "types_bid_over_jita_reaching": 1
 }
