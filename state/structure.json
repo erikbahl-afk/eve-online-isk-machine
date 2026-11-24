@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0405,
- "buy_orders": 5830,
- "buy_orders_reaching_jita": 5758,
+ "ask_ratio_median": 1.0374,
+ "buy_orders": 5845,
+ "buy_orders_reaching_jita": 5773,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6277,
- "sell_orders": 447,
- "share_ask_below_jita": 0.2958,
+ "orders": 6294,
+ "sell_orders": 449,
+ "share_ask_below_jita": 0.3029,
  "structure_id": 1042508032148,
- "t": 1795529945.209364,
+ "t": 1795536053.7269087,
  "top_ask_below_jita": [
   {
    "best_ask": 7500.0,
@@ -15,6 +15,13 @@
    "name": "",
    "s_ask": 250.0,
    "type_id": 90480
+  },
+  {
+   "best_ask": 15000.0,
+   "gap": 0.9117,
+   "name": "",
+   "s_ask": 1324.0,
+   "type_id": 90590
   },
   {
    "best_ask": 18270.0,
@@ -66,15 +73,15 @@
    "type_id": 84407
   },
   {
-   "best_ask": 74960.0,
+   "best_ask": 74950.0,
    "gap": 0.6666,
    "name": "",
    "s_ask": 24990.0,
    "type_id": 22576
   },
   {
-   "best_ask": 85.98,
-   "gap": 0.6255,
+   "best_ask": 86.0,
+   "gap": 0.6256,
    "name": "",
    "s_ask": 32.2,
    "type_id": 21589
@@ -94,8 +101,8 @@
    "type_id": 45766
   },
   {
-   "best_ask": 69.99,
-   "gap": 0.5709,
+   "best_ask": 70.94,
+   "gap": 0.5767,
    "name": "",
    "s_ask": 30.03,
    "type_id": 23164
@@ -106,32 +113,25 @@
    "name": "",
    "s_ask": 3500000.0,
    "type_id": 46916
-  },
-  {
-   "best_ask": 90000000.0,
-   "gap": 0.5556,
-   "name": "",
-   "s_ask": 40000000.0,
-   "type_id": 44945
   }
  ],
  "top_bid_over_jita": [
   {
-   "best_bid": 13160000.0,
+   "best_bid": 1315000.0,
    "gap": 0.0008,
-   "name": "Ishkur",
-   "s_bid_reach": 13170000.0,
-   "type_id": 12042
+   "name": "",
+   "s_bid_reach": 1316000.0,
+   "type_id": 49735
   },
   {
-   "best_bid": 5119000.0,
-   "gap": 0.0002,
-   "name": "Caldari Navy Kinetic Shield Hardener",
-   "s_bid_reach": 5120000.0,
-   "type_id": 17495
+   "best_bid": 1399000.0,
+   "gap": 0.0007,
+   "name": "",
+   "s_bid_reach": 1400000.0,
+   "type_id": 49723
   }
  ],
- "types": 3874,
- "types_also_in_jita": 3874,
+ "types": 3868,
+ "types_also_in_jita": 3868,
  "types_bid_over_jita_reaching": 2
 }

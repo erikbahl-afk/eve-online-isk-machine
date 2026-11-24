@@ -268,7 +268,7 @@ type_id,name,volume,group_id
 4310,Tornado,15000,1201
 4312,,5,1136
 4313,Oxygen Fuel Block Blueprint,0.01,
-4315,,0.01,
+4315,,0.01,1137
 4345,Gistum B-Type Multispectrum Shield Hardener,5,77
 4347,Pithum A-Type Multispectrum Shield Hardener,5,77
 4348,Pithum B-Type Multispectrum Shield Hardener,5,77
@@ -445,6 +445,7 @@ type_id,name,volume,group_id
 12102,Large Remote Capacitor Transmitter II,25,67
 12108,Deep Core Mining Laser I,5,54
 12200,Mobile Large Warp Disruptor I,585,361
+12203,Large Artillery Specialization,,
 12209,Large Autocannon Specialization,,
 12212,Large Blaster Specialization,,
 12214,Medium Pulse Laser Specialization,,
@@ -717,7 +718,7 @@ type_id,name,volume,group_id
 15806,Republic Fleet Gyrostabilizer,5,59
 15810,Imperial Navy Heat Sink,5,205
 15812,Republic Fleet Overdrive Injector,5,764
-15813,Republic Fleet Nanofiber Structure,,
+15813,Republic Fleet Nanofiber Structure,5,763
 15830,Federation Navy Heavy Neutron Blaster,10,
 15837,Federation Navy 425mm Railgun,20,
 15840,Federation Navy 250mm Railgun,10,
@@ -1070,6 +1071,7 @@ type_id,name,volume,group_id
 19685,Inherent Implants 'Noble' Repair Proficiency RP-905,1,
 19686,Eifyr and Co. 'Gunslinger' Motion Prediction MR-705,1,742
 19687,Eifyr and Co. 'Gunslinger' Surgical Strike SS-905,1,742
+19688,,1,742
 19694,Inherent Implants 'Lancer' Large Energy Turret LE-1005,1,742
 19695,,1,742
 19698,Zainou 'Deadeye' Large Hybrid Turret LH-1005,1,
@@ -1621,6 +1623,7 @@ type_id,name,volume,group_id
 31055,Medium Trimark Armor Pump I,10,773
 31059,Medium Trimark Armor Pump II,10,773
 31067,Capital Nanobot Accelerator I,,
+31071,,10,773
 31073,Medium Remote Repair Augmentor I,,
 31077,,5,
 31079,Medium Remote Repair Augmentor II,10,773
@@ -1833,6 +1836,7 @@ type_id,name,volume,group_id
 33971,Low-grade Virtue Alpha,1,300
 33973,Low-grade Virtue Delta,1,300
 33975,Low-grade Virtue Gamma,1,300
+33976,Low-grade Virtue Omega,1,300
 33981,Limited Hyperspatial Accelerator,5,1289
 33983,Experimental Hyperspatial Accelerator,5,1289
 33985,Prototype Hyperspatial Accelerator,5,1289
@@ -2176,6 +2180,7 @@ type_id,name,volume,group_id
 47756,Gravid 100MN Afterburner Mutaplasmid,1,1964
 47761,,0.1,1979
 47771,,1,
+47772,,1,1964
 47775,,1,1964
 47783,Unstable Medium Shield Booster Mutaplasmid,,
 47787,Unstable Large Shield Booster Mutaplasmid,1,1964
@@ -2232,6 +2237,7 @@ type_id,name,volume,group_id
 48115,Agency 'Pyrolancea' DB9 Dose IV,1,303
 48386,,0.1,1088
 48387,,0.1,1088
+48430,,1,1964
 48434,Unstable Medium Cap Battery Mutaplasmid,,
 48437,Gravid Large Cap Battery Mutaplasmid,1,1964
 48438,Unstable Large Cap Battery Mutaplasmid,1,1964
@@ -2253,7 +2259,7 @@ type_id,name,volume,group_id
 49729,Unstable Heat Sink Mutaplasmid,1,1964
 49731,,1,1964
 49732,,1,
-49733,Unstable Gyrostabilizer Mutaplasmid,1,
+49733,Unstable Gyrostabilizer Mutaplasmid,1,1964
 49736,,1,1964
 49737,Unstable Entropic Radiation Sink Mutaplasmid,1,1964
 49739,Decayed Ballistic Control System Mutaplasmid,1,1964

@@ -42,6 +42,30 @@
   "text": "Sell order for Compressed Mordunium IV-Grade in jita still has 5 left after 11 days."
  },
  {
+  "key": "stale_sell:45",
+  "severity": "medium",
+  "since": 1795536033.3301058,
+  "text": "Sell order for Improved 'Guise' Cloaking Device II in amarr still has 2 left after 7 days."
+ },
+ {
+  "key": "stale_sell:48",
+  "severity": "medium",
+  "since": 1795536033.3301058,
+  "text": "Sell order for Caesium in amarr still has 17,162 left after 7 days."
+ },
+ {
+  "key": "stale_sell:49",
+  "severity": "medium",
+  "since": 1795536033.3301058,
+  "text": "Sell order for Caldari Drone Specialization in amarr still has 7 left after 7 days."
+ },
+ {
+  "key": "stale_sell:53",
+  "severity": "medium",
+  "since": 1795536033.3301058,
+  "text": "Sell order for Zero-Point Mass Entangler in amarr still has 16 left after 7 days."
+ },
+ {
   "key": "idle_buy:21",
   "severity": "info",
   "since": 1794376824.645961,
@@ -112,6 +136,42 @@
   "severity": "info",
   "since": 1795219233.463793,
   "text": "Sell order for Void XL in amarr still has 2,434 left after 11 days (repriced 0 d ago: step-down working)."
+ },
+ {
+  "key": "stale_sell:46",
+  "severity": "info",
+  "since": 1795536033.3301058,
+  "text": "Sell order for Limited Expanded 'Archiver' Cargo in amarr still has 2 left after 7 days (repriced 0 d ago: step-down working)."
+ },
+ {
+  "key": "stale_sell:47",
+  "severity": "info",
+  "since": 1795536033.3301058,
+  "text": "Sell order for Standup Moon Drill I in amarr still has 2 left after 7 days (repriced 0 d ago: step-down working)."
+ },
+ {
+  "key": "stale_sell:50",
+  "severity": "info",
+  "since": 1795536033.3301058,
+  "text": "Sell order for Legion Mjolnir Auto-Targeting Light Missile in amarr still has 2,900 left after 7 days (repriced 0 d ago: step-down working)."
+ },
+ {
+  "key": "stale_sell:51",
+  "severity": "info",
+  "since": 1795536033.3301058,
+  "text": "Sell order for Mobile Large Warp Disruptor I in amarr still has 3 left after 7 days (repriced 0 d ago: step-down working)."
+ },
+ {
+  "key": "stale_sell:52",
+  "severity": "info",
+  "since": 1795536033.3301058,
+  "text": "Sell order for Shrapnel Bomb in amarr still has 32 left after 7 days (repriced 0 d ago: step-down working)."
+ },
+ {
+  "key": "stale_sell:55",
+  "severity": "info",
+  "since": 1795536033.3301058,
+  "text": "Sell order for Polarized Light Neutron Blaster in amarr still has 7 left after 7 days (repriced 2 d ago: step-down working)."
  },
  {
   "key": "stale_sell:9",
