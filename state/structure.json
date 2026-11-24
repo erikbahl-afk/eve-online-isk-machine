@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.04,
- "buy_orders": 5833,
- "buy_orders_reaching_jita": 5760,
+ "ask_ratio_median": 1.0402,
+ "buy_orders": 5826,
+ "buy_orders_reaching_jita": 5754,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6281,
- "sell_orders": 448,
- "share_ask_below_jita": 0.2924,
+ "orders": 6273,
+ "sell_orders": 447,
+ "share_ask_below_jita": 0.2958,
  "structure_id": 1042508032148,
- "t": 1795521657.4857135,
+ "t": 1795528856.817877,
  "top_ask_below_jita": [
   {
    "best_ask": 7500.0,
@@ -22,6 +22,13 @@
    "name": "",
    "s_ask": 1999.0,
    "type_id": 84399
+  },
+  {
+   "best_ask": 15000.0,
+   "gap": 0.8857,
+   "name": "",
+   "s_ask": 1714.0,
+   "type_id": 90526
   },
   {
    "best_ask": 5500.0,
@@ -66,7 +73,7 @@
    "type_id": 22576
   },
   {
-   "best_ask": 85.97,
+   "best_ask": 85.98,
    "gap": 0.6255,
    "name": "",
    "s_ask": 32.2,
@@ -106,17 +113,32 @@
    "name": "",
    "s_ask": 40000000.0,
    "type_id": 44945
-  },
-  {
-   "best_ask": 49.23,
-   "gap": 0.5371,
-   "name": "",
-   "s_ask": 22.79,
-   "type_id": 21593
   }
  ],
- "top_bid_over_jita": [],
- "types": 3874,
- "types_also_in_jita": 3874,
- "types_bid_over_jita_reaching": 0
+ "top_bid_over_jita": [
+  {
+   "best_bid": 2016.0,
+   "gap": 0.0005,
+   "name": "",
+   "s_bid_reach": 2017.0,
+   "type_id": 23717
+  },
+  {
+   "best_bid": 412800000.0,
+   "gap": 0.0005,
+   "name": "",
+   "s_bid_reach": 413000000.0,
+   "type_id": 95720
+  },
+  {
+   "best_bid": 6501000.0,
+   "gap": 0.0002,
+   "name": "Frigoris Restrained Ice Harvester Upgrade",
+   "s_bid_reach": 6502000.0,
+   "type_id": 22619
+  }
+ ],
+ "types": 3870,
+ "types_also_in_jita": 3870,
+ "types_bid_over_jita_reaching": 3
 }

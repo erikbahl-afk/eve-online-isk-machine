@@ -7,7 +7,7 @@
   "amarr": {
    "47891": {
     "cost": 22060000.0,
-    "qty": 1,
+    "qty": 2,
     "since": 1795514251.0,
     "tag": "station"
    }
@@ -24,11 +24,17 @@
     "qty": 13,
     "since": 1795478273.0,
     "tag": "station"
+   },
+   "85656": {
+    "cost": 172600000.0,
+    "qty": 1,
+    "since": 1795528636.0,
+    "tag": "station"
    }
   }
  },
  "last_jump": 1795495761.9714994,
- "last_t": 1795521633.8729887,
+ "last_t": 1795528835.6758192,
  "location": "amarr",
  "next_oid": 50,
  "orders": [
@@ -295,18 +301,6 @@
   {
    "created": 1795413631.2606566,
    "hub": "jita",
-   "oid": 34,
-   "price": 172600000.0,
-   "qty": 1,
-   "remain": 1,
-   "side": "buy",
-   "tag": "station",
-   "type_id": 85656,
-   "updated": 1795495761.9714994
-  },
-  {
-   "created": 1795413631.2606566,
-   "hub": "jita",
    "oid": 35,
    "price": 172100000.0,
    "qty": 1,
@@ -449,18 +443,6 @@
    "tag": "station",
    "type_id": 27916,
    "updated": 1795495761.9714994
-  },
-  {
-   "created": 1795495761.9714994,
-   "hub": "amarr",
-   "oid": 49,
-   "price": 22060000.0,
-   "qty": 2,
-   "remain": 1,
-   "side": "buy",
-   "tag": "station",
-   "type_id": 47891,
-   "updated": 1795495761.9714994
   }
  ],
  "per_strategy": {
@@ -477,7 +459,7 @@
    "sales": 421613943.0
   },
   "station": {
-   "buys": 321722613.46,
+   "buys": 516382613.46,
    "fees": 49489280.699999996,
    "realized": -47930686.073375106,
    "sales": 69612710.2
@@ -597,8 +579,8 @@
    "sold_units": 0
   },
   "amarr:47891": {
-   "bought_isk": 22060000.0,
-   "bought_units": 1,
+   "bought_isk": 44120000.0,
+   "bought_units": 2,
    "fees": 661800.0,
    "realized": -661800.0,
    "sold_net": 0.0,
@@ -885,8 +867,8 @@
    "sold_units": 1
   },
   "jita:85656": {
-   "bought_isk": 0.0,
-   "bought_units": 0,
+   "bought_isk": 172600000.0,
+   "bought_units": 1,
    "fees": 3106800.0,
    "realized": -3106800.0,
    "sold_net": 0.0,
@@ -935,7 +917,7 @@
  },
  "pnl": {
   "broker": 104794677.666,
-  "buys": 3891721978.46,
+  "buys": 4086381978.46,
   "courier": 207000000.0,
   "realized": -107868017.42197542,
   "relist": 41068696.71599999,

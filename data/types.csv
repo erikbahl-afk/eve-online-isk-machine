@@ -127,7 +127,7 @@ type_id,name,volume,group_id
 2436,,25,100
 2444,,25,100
 2456,,5,
-2463,,0.75,1034
+2463,Nanites,0.75,1034
 2478,Berserker II,25,100
 2506,Mjolnir Torpedo,0.05,89
 2539,,5,
@@ -355,6 +355,7 @@ type_id,name,volume,group_id
 11202,,2500,831
 11229,Explosive Energized Membrane II,,
 11309,400mm Rolled Tungsten Compact Plates,10,329
+11317,,20,329
 11325,,20,329
 11327,,20,329
 11343,100mm Crystalline Carbonide Restrained Plates,,
@@ -1537,7 +1538,7 @@ type_id,name,volume,group_id
 28758,Sisters Core Probe Launcher,5,481
 28780,Syndicate 1600mm Steel Plates,20,329
 28784,Syndicate 400mm Steel Plates,,
-28786,,20,329
+28786,Syndicate 800mm Steel Plates,20,329
 28788,Syndicate Gas Cloud Scoop,5,737
 28790,Mid-grade Centurion Alpha,,
 28791,Mid-grade Centurion Beta,,
@@ -1645,6 +1646,7 @@ type_id,name,volume,group_id
 31330,Medium Targeting System Subcontroller II,10,
 31340,Small Targeting Systems Stabilizer II,5,786
 31342,Medium Targeting Systems Stabilizer II,10,786
+31358,,5,781
 31360,Medium Ancillary Current Router I,10,781
 31364,Small Ancillary Current Router II,5,
 31366,Medium Ancillary Current Router II,,
@@ -1968,7 +1970,7 @@ type_id,name,volume,group_id
 40730,Heavy Warp Disruptor I,100,52
 40734,,100,
 40758,,100,52
-41038,,5,
+41038,,5,65
 41057,Heavy Stasis Grappler II,50,
 41058,,50,
 41059,Domination Heavy Stasis Grappler,50,1672
@@ -2583,6 +2585,7 @@ type_id,name,volume,group_id
 83471,Sansha NET Resonator,1,334
 83472,Serpentis NET Resonator,1,334
 83473,SoE NET Resonator,1,334
+83485,,1000,4769
 84100,Paladin War for the Empire SKIN,0.01,
 84173,Imperial Gold Metallic - Limited,0.1,4726
 85084,Small Breacher Pod Launcher,5,4807
