@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0312,
- "buy_orders": 5863,
- "buy_orders_reaching_jita": 5789,
+ "ask_ratio_median": 1.04,
+ "buy_orders": 5833,
+ "buy_orders_reaching_jita": 5760,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6311,
+ "orders": 6281,
  "sell_orders": 448,
- "share_ask_below_jita": 0.3159,
+ "share_ask_below_jita": 0.2924,
  "structure_id": 1042508032148,
- "t": 1795514452.9830408,
+ "t": 1795521657.4857135,
  "top_ask_below_jita": [
   {
    "best_ask": 7500.0,
@@ -17,53 +17,11 @@
    "type_id": 90480
   },
   {
-   "best_ask": 4400.0,
-   "gap": 0.9476,
-   "name": "",
-   "s_ask": 230.5,
-   "type_id": 90495
-  },
-  {
-   "best_ask": 44000.0,
-   "gap": 0.9237,
-   "name": "",
-   "s_ask": 3356.0,
-   "type_id": 84408
-  },
-  {
-   "best_ask": 15000.0,
-   "gap": 0.9117,
-   "name": "",
-   "s_ask": 1324.0,
-   "type_id": 90590
-  },
-  {
    "best_ask": 18270.0,
    "gap": 0.8906,
    "name": "",
    "s_ask": 1999.0,
    "type_id": 84399
-  },
-  {
-   "best_ask": 15000.0,
-   "gap": 0.8857,
-   "name": "",
-   "s_ask": 1714.0,
-   "type_id": 90526
-  },
-  {
-   "best_ask": 7996.0,
-   "gap": 0.8749,
-   "name": "",
-   "s_ask": 999.9,
-   "type_id": 84402
-  },
-  {
-   "best_ask": 149900000.0,
-   "gap": 0.8666,
-   "name": "",
-   "s_ask": 20000000.0,
-   "type_id": 45894
   },
   {
    "best_ask": 5500.0,
@@ -101,30 +59,64 @@
    "type_id": 84407
   },
   {
-   "best_ask": 74970.0,
-   "gap": 0.6667,
+   "best_ask": 74960.0,
+   "gap": 0.6666,
    "name": "",
    "s_ask": 24990.0,
    "type_id": 22576
   },
   {
-   "best_ask": 510.4,
-   "gap": 0.6346,
+   "best_ask": 85.97,
+   "gap": 0.6255,
    "name": "",
-   "s_ask": 186.5,
-   "type_id": 90484
-  }
- ],
- "top_bid_over_jita": [
+   "s_ask": 32.2,
+   "type_id": 21589
+  },
   {
-   "best_bid": 89240.0,
-   "gap": 0.0001,
-   "name": "Datacore - Molecular Engineering",
-   "s_bid_reach": 89250.0,
-   "type_id": 20415
+   "best_ask": 59700.0,
+   "gap": 0.6062,
+   "name": "",
+   "s_ask": 23510.0,
+   "type_id": 21080
+  },
+  {
+   "best_ask": 4749000.0,
+   "gap": 0.5789,
+   "name": "",
+   "s_ask": 2000000.0,
+   "type_id": 45766
+  },
+  {
+   "best_ask": 69.99,
+   "gap": 0.5709,
+   "name": "",
+   "s_ask": 30.03,
+   "type_id": 23164
+  },
+  {
+   "best_ask": 8000000.0,
+   "gap": 0.5625,
+   "name": "",
+   "s_ask": 3500000.0,
+   "type_id": 46916
+  },
+  {
+   "best_ask": 90000000.0,
+   "gap": 0.5556,
+   "name": "",
+   "s_ask": 40000000.0,
+   "type_id": 44945
+  },
+  {
+   "best_ask": 49.23,
+   "gap": 0.5371,
+   "name": "",
+   "s_ask": 22.79,
+   "type_id": 21593
   }
  ],
- "types": 3882,
- "types_also_in_jita": 3882,
- "types_bid_over_jita_reaching": 1
+ "top_bid_over_jita": [],
+ "types": 3874,
+ "types_also_in_jita": 3874,
+ "types_bid_over_jita_reaching": 0
 }

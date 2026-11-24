@@ -672,6 +672,7 @@ type_id,name,volume,group_id
 15478,Strong Drop Booster,,
 15479,Standard Exile Booster,1,303
 15480,Improved Exile Booster,1,303
+15508,,10,100
 15592,Federation Navy Fleet Captain Insignia I,0.1,409
 15593,,0.1,409
 15594,Federation Navy Fleet Colonel Insignia I,0.1,409
@@ -689,7 +690,7 @@ type_id,name,volume,group_id
 15656,Caldari Navy Commodore Insignia II,0.1,409
 15661,Republic Fleet Commander Insignia II,0.1,409
 15669,Imperial Navy General Insignia II,0.1,409
-15673,,0.1,409
+15673,Federation Navy Fleet Colonel Insignia II,0.1,409
 15675,Caldari Navy Co-Processor,5,285
 15681,Caldari Navy Ballistic Control System,5,367
 15683,Republic Fleet Ballistic Control System,5,367
@@ -1359,7 +1360,7 @@ type_id,name,volume,group_id
 26292,,20,
 26294,Large Auxiliary Nano Pump II,20,
 26296,,20,
-26302,Large Trimark Armor Pump II,20,
+26302,Large Trimark Armor Pump II,20,773
 26310,Large Low Friction Nozzle Joints II,20,
 26312,Large Polycarbon Engine Housing II,,
 26322,,20,
@@ -2218,6 +2219,7 @@ type_id,name,volume,group_id
 47927,Mystic S,0.01,1989
 47928,,0.01,
 47929,Meson Exotic Plasma M,0.01,1987
+47930,,0.01,1989
 47931,Mystic M,0.01,1989
 47932,,0.01,
 47934,Occult L,0.01,1989
