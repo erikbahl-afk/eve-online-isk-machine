@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0252,
- "buy_orders": 5794,
- "buy_orders_reaching_jita": 5719,
+ "ask_ratio_median": 1.0249,
+ "buy_orders": 5807,
+ "buy_orders_reaching_jita": 5733,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6255,
- "sell_orders": 461,
- "share_ask_below_jita": 0.3248,
+ "orders": 6262,
+ "sell_orders": 455,
+ "share_ask_below_jita": 0.3265,
  "structure_id": 1042508032148,
- "t": 1795485646.1820543,
+ "t": 1795490985.5932426,
  "top_ask_below_jita": [
   {
    "best_ask": 7500.0,
@@ -15,6 +15,13 @@
    "name": "",
    "s_ask": 250.0,
    "type_id": 90480
+  },
+  {
+   "best_ask": 4500.0,
+   "gap": 0.9488,
+   "name": "",
+   "s_ask": 230.5,
+   "type_id": 90495
   },
   {
    "best_ask": 44000.0,
@@ -106,46 +113,18 @@
    "name": "",
    "s_ask": 5.73,
    "type_id": 23160
-  },
-  {
-   "best_ask": 510.4,
-   "gap": 0.6346,
-   "name": "",
-   "s_ask": 186.5,
-   "type_id": 90484
   }
  ],
  "top_bid_over_jita": [
   {
-   "best_bid": 2365.0,
-   "gap": 0.2211,
+   "best_bid": 12000000.0,
+   "gap": 0.0008,
    "name": "",
-   "s_bid_reach": 2888.0,
-   "type_id": 41269
-  },
-  {
-   "best_bid": 190200.0,
-   "gap": 0.0005,
-   "name": "Compressed Glare Crust",
-   "s_bid_reach": 190300.0,
-   "type_id": 28439
-  },
-  {
-   "best_bid": 24030000.0,
-   "gap": 0.0004,
-   "name": "Mysterious GalNet Crate II",
-   "s_bid_reach": 24040000.0,
-   "type_id": 79186
-  },
-  {
-   "best_bid": 9500.0,
-   "gap": 0.0001,
-   "name": "",
-   "s_bid_reach": 9501.0,
-   "type_id": 37844
+   "s_bid_reach": 12010000.0,
+   "type_id": 33937
   }
  ],
- "types": 3856,
- "types_also_in_jita": 3856,
- "types_bid_over_jita_reaching": 4
+ "types": 3866,
+ "types_also_in_jita": 3866,
+ "types_bid_over_jita_reaching": 1
 }

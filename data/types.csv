@@ -327,7 +327,7 @@ type_id,name,volume,group_id
 10216,Ocular Filter - Standard,1,745
 10217,Ocular Filter - Improved,1,745
 10221,Cybernetic Subprocessor - Standard,,
-10222,Cybernetic Subprocessor - Improved,1,
+10222,Cybernetic Subprocessor - Improved,1,745
 10225,Social Adaptation Chip - Standard,1,745
 10226,Social Adaptation Chip - Improved,1,745
 10228,Zainou 'Gnome' Shield Management SM-703,1,749
@@ -605,6 +605,7 @@ type_id,name,volume,group_id
 14122,Domination 5MN Microwarpdrive,10,46
 14124,Shadow Serpentis 5MN Microwarpdrive,10,46
 14126,Domination Overdrive Injector,5,
+14127,Domination Nanofiber Structure,5,763
 14128,,5,
 14130,True Sansha Reactor Control Unit,5,769
 14134,Dark Blood Power Diagnostic System,5,766
@@ -892,7 +893,7 @@ type_id,name,volume,group_id
 18708,Corpii A-Type Multispectrum Coating,5,98
 18710,Centii A-Type Multispectrum Coating,5,98
 18764,,5,98
-18766,,5,98
+18766,Centii A-Type Thermal Coating,5,98
 18768,Coreli C-Type Multispectrum Coating,5,98
 18789,Coreli A-Type Multispectrum Coating,5,98
 18797,Coreli A-Type Thermal Coating,5,98
@@ -1531,7 +1532,7 @@ type_id,name,volume,group_id
 28791,Mid-grade Centurion Beta,,
 28792,Mid-grade Centurion Delta,,
 28796,Mid-grade Nomad Alpha,1,300
-28797,Mid-grade Nomad Beta,1,
+28797,Mid-grade Nomad Beta,1,300
 28798,Mid-grade Nomad Delta,1,300
 28799,Mid-grade Nomad Epsilon,1,300
 28800,Mid-grade Nomad Gamma,,
@@ -1610,7 +1611,7 @@ type_id,name,volume,group_id
 31067,Capital Nanobot Accelerator I,,
 31073,Medium Remote Repair Augmentor I,,
 31077,,5,
-31079,,10,
+31079,Medium Remote Repair Augmentor II,10,773
 31083,,5,1232
 31085,Medium Salvage Tackle I,,
 31107,Medium Auxiliary Thrusters I,,
@@ -2234,7 +2235,7 @@ type_id,name,volume,group_id
 49725,,1,1964
 49727,,1,1964
 49728,Gravid Heat Sink Mutaplasmid,1,1964
-49729,,1,1964
+49729,Unstable Heat Sink Mutaplasmid,1,1964
 49731,,1,1964
 49732,,1,
 49733,Unstable Gyrostabilizer Mutaplasmid,1,
