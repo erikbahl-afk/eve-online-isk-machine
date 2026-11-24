@@ -1,20 +1,20 @@
 {
- "ask_ratio_median": 1.0246,
- "buy_orders": 5793,
- "buy_orders_reaching_jita": 5718,
+ "ask_ratio_median": 1.0252,
+ "buy_orders": 5794,
+ "buy_orders_reaching_jita": 5719,
  "name": "Perimeter - Tranquility Trading Tower",
  "orders": 6255,
- "sell_orders": 462,
- "share_ask_below_jita": 0.3257,
+ "sell_orders": 461,
+ "share_ask_below_jita": 0.3248,
  "structure_id": 1042508032148,
- "t": 1795478455.0786877,
+ "t": 1795485646.1820543,
  "top_ask_below_jita": [
   {
-   "best_ask": 99990000.0,
-   "gap": 0.992,
+   "best_ask": 7500.0,
+   "gap": 0.9667,
    "name": "",
-   "s_ask": 800000.0,
-   "type_id": 45954
+   "s_ask": 250.0,
+   "type_id": 90480
   },
   {
    "best_ask": 44000.0,
@@ -24,11 +24,32 @@
    "type_id": 84408
   },
   {
-   "best_ask": 1990.0,
-   "gap": 0.8744,
+   "best_ask": 15000.0,
+   "gap": 0.9117,
    "name": "",
-   "s_ask": 250.0,
-   "type_id": 90480
+   "s_ask": 1324.0,
+   "type_id": 90590
+  },
+  {
+   "best_ask": 18270.0,
+   "gap": 0.8906,
+   "name": "",
+   "s_ask": 1999.0,
+   "type_id": 84399
+  },
+  {
+   "best_ask": 15000.0,
+   "gap": 0.8857,
+   "name": "",
+   "s_ask": 1714.0,
+   "type_id": 90526
+  },
+  {
+   "best_ask": 7996.0,
+   "gap": 0.8749,
+   "name": "",
+   "s_ask": 999.9,
+   "type_id": 84402
   },
   {
    "best_ask": 149900000.0,
@@ -38,11 +59,11 @@
    "type_id": 45894
   },
   {
-   "best_ask": 800.0,
-   "gap": 0.7669,
+   "best_ask": 5500.0,
+   "gap": 0.8184,
    "name": "",
-   "s_ask": 186.5,
-   "type_id": 90484
+   "s_ask": 998.6,
+   "type_id": 84403
   },
   {
    "best_ask": 1900.0,
@@ -52,11 +73,25 @@
    "type_id": 17440
   },
   {
+   "best_ask": 7997000.0,
+   "gap": 0.7105,
+   "name": "",
+   "s_ask": 2315000.0,
+   "type_id": 45944
+  },
+  {
    "best_ask": 99840.0,
    "gap": 0.6807,
    "name": "",
    "s_ask": 31880.0,
    "type_id": 47809
+  },
+  {
+   "best_ask": 3112.0,
+   "gap": 0.6787,
+   "name": "",
+   "s_ask": 999.9,
+   "type_id": 84407
   },
   {
    "best_ask": 74970.0,
@@ -73,58 +108,44 @@
    "type_id": 23160
   },
   {
-   "best_ask": 59740.0,
-   "gap": 0.6065,
+   "best_ask": 510.4,
+   "gap": 0.6346,
    "name": "",
-   "s_ask": 23510.0,
-   "type_id": 21080
-  },
-  {
-   "best_ask": 387000000.0,
-   "gap": 0.6065,
-   "name": "Mid-grade Nomad Beta",
-   "s_ask": 152300000.0,
-   "type_id": 28797
-  },
-  {
-   "best_ask": 4896.0,
-   "gap": 0.5917,
-   "name": "",
-   "s_ask": 1999.0,
-   "type_id": 84399
-  },
-  {
-   "best_ask": 4749000.0,
-   "gap": 0.5789,
-   "name": "",
-   "s_ask": 2000000.0,
-   "type_id": 45766
-  },
-  {
-   "best_ask": 7998000.0,
-   "gap": 0.5624,
-   "name": "",
-   "s_ask": 3500000.0,
-   "type_id": 46916
-  },
-  {
-   "best_ask": 2896.0,
-   "gap": 0.5428,
-   "name": "",
-   "s_ask": 1324.0,
-   "type_id": 90590
+   "s_ask": 186.5,
+   "type_id": 90484
   }
  ],
  "top_bid_over_jita": [
   {
-   "best_bid": 80680000.0,
+   "best_bid": 2365.0,
+   "gap": 0.2211,
+   "name": "",
+   "s_bid_reach": 2888.0,
+   "type_id": 41269
+  },
+  {
+   "best_bid": 190200.0,
+   "gap": 0.0005,
+   "name": "Compressed Glare Crust",
+   "s_bid_reach": 190300.0,
+   "type_id": 28439
+  },
+  {
+   "best_bid": 24030000.0,
+   "gap": 0.0004,
+   "name": "Mysterious GalNet Crate II",
+   "s_bid_reach": 24040000.0,
+   "type_id": 79186
+  },
+  {
+   "best_bid": 9500.0,
    "gap": 0.0001,
    "name": "",
-   "s_bid_reach": 80690000.0,
-   "type_id": 41250
+   "s_bid_reach": 9501.0,
+   "type_id": 37844
   }
  ],
  "types": 3856,
  "types_also_in_jita": 3856,
- "types_bid_over_jita_reaching": 1
+ "types_bid_over_jita_reaching": 4
 }

@@ -40,6 +40,7 @@ type_id,name,volume,group_id
 640,Scorpion,50000,27
 641,Megathron,50000,27
 642,Apocalypse,50000,27
+643,,50000,27
 644,Typhoon,50000,27
 645,Dominix,50000,27
 648,Badger,20000,28
@@ -461,7 +462,7 @@ type_id,name,volume,group_id
 12533,Blood Silver Tag,0.1,370
 12537,Serpentis Bronze Tag,0.1,370
 12542,,0.1,370
-12563,,1,375
+12563,Scorch S,1,375
 12565,,1,375
 12608,Hail S,0.0025,372
 12631,,0.0025,376
@@ -677,6 +678,7 @@ type_id,name,volume,group_id
 15613,Imperial Navy Major Insignia I,0.1,409
 15614,,0.1,409
 15615,Imperial Navy General Insignia I,0.1,409
+15631,,0.1,409
 15632,Republic Fleet Commander Insignia I,0.1,409
 15646,Federation Navy Command Sergeant Major Insignia I,0.1,409
 15656,Caldari Navy Commodore Insignia II,0.1,409
@@ -1154,6 +1156,7 @@ type_id,name,volume,group_id
 21640,,10,100
 21667,Capital Projectile Turret,,
 21721,,0.1,
+21722,,0.1,528
 21740,Caldari Navy Antimatter Charge L,0.025,85
 21802,Capital Shield Operation,,
 21815,Elite Drone AI,0.01,886
@@ -1252,6 +1255,7 @@ type_id,name,volume,group_id
 23149,,0.1,528
 23152,,0.1,528
 23172,Yan Jung Singularity Fact Sheet,1,733
+23416,,25,325
 23473,Wasp EC-900,,
 23707,,5,639
 23785,'Bailey' 1600mm Steel Plates,20,329
@@ -1920,6 +1924,7 @@ type_id,name,volume,group_id
 37625,Corpum C-Type Medium Energy Neutralizer,5,71
 37626,Corpum B-Type Medium Energy Neutralizer,5,71
 37627,Corpum A-Type Medium Energy Neutralizer,5,71
+37629,,5,71
 37631,Corpus X-Type Heavy Energy Neutralizer,5,71
 37810,,0.1,1088
 37820,Caldari Navy Shield Power Relay,5,57
@@ -1956,6 +1961,7 @@ type_id,name,volume,group_id
 41058,,50,
 41059,Domination Heavy Stasis Grappler,50,1672
 41061,Federation Navy Warp Scrambler,5,52
+41062,,5,52
 41066,Dark Blood Quad Mega Pulse Laser,,
 41191,Sentient Sensor Booster,5,212
 41193,Unit F-435454's Modified Sensor Booster,,
@@ -2674,7 +2680,7 @@ type_id,name,volume,group_id
 92040,Nertic EC-600-I,10,5239
 92041,Humboldt EC-900-I,25,5239
 92283,Moreau YC128 Campaign Bus,10000,5087
-92454,,5,763
+92454,Roden’s Modified Nanofiber Internal Structure,5,763
 92456,Presidential Mining Foreman Burst,60,1770
 92458,,60,1770
 92461,,5,5239
@@ -2776,7 +2782,7 @@ type_id,name,volume,group_id
 97552,Hyperspherical Housing,0.1,1194
 97553,Hyper-Field Projector,0.01,1194
 97554,Pulse-Mimic Circuitry,0.01,1194
-97555,,0.01,1194
+97555,Hyper-Step Connector,0.01,1194
 97560,Polycrase X-Grade,,
 97564,Compressed Raspite X-Grade,0.01,5083
 97566,Compressed Polycrase X-Grade,0.01,5084
