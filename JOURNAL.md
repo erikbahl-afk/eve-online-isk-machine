@@ -496,9 +496,10 @@
 - Why the near-top count misleads: State Security Token ~1 update/h yet always on top: most "updates" sit within 5% behind us.
   Changed: daily files now also log `ask_beat` / `bid_beat` (updates priced strictly better than the previous snapshot's best,
   i.e. real undercuts). Logged only, no model change; Day cache rows from before are reindexed. Test added; 39 pass.
-- Follow-ups: Antikythera relisted 996k → 197.9k at Mon 20:15 (forced() fix works). Entosis/Jaguar bids gone from the book.
+- Follow-ups: Antikythera relisted 996k → 197.9k at Mon 20:15 (forced() fix works). Entosis/Jaguar bids cancelled (not in orders).
 - Alerts: liquidation 55% / Typhoon 8.2%: legacy, step-down continues (Thu 19 decision). Stale Amarr sells (10 medium, 7–19 d):
   step-down each Amarr visit; Golem SKIN / Gravid Vorton untouched-flagged but at or under best ask (Mon audit). Idle Jita bids
-  (Bomb Launcher 40.5M, Fullerite 11.2M, dust): buy_stale_days cancels at the next Jita login. Thresholds kept.
+  (Bomb Launcher 40.5M on top in 59% of 175 checks and now: no sellers, like Quad Pulse, kept; Fullerite 11.2M 7 d, dust).
+  Thresholds kept.
 - Next: Thu judge fill_floor (2 weeks of floor evidence now), refill slots (stale_step 0.2, history-days gate). Tue 12-01: fit
   P(top) on beat-rate vs near-top rate with a week of `*_beat` data; switch lam to beats if it fits better.
