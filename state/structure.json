@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.029,
- "buy_orders": 5786,
- "buy_orders_reaching_jita": 5713,
+ "ask_ratio_median": 1.0308,
+ "buy_orders": 5809,
+ "buy_orders_reaching_jita": 5736,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6239,
- "sell_orders": 453,
- "share_ask_below_jita": 0.3023,
+ "orders": 6260,
+ "sell_orders": 451,
+ "share_ask_below_jita": 0.3135,
  "structure_id": 1042508032148,
- "t": 1795550453.3059492,
+ "t": 1795557648.763601,
  "top_ask_below_jita": [
   {
    "best_ask": 7500.0,
@@ -15,6 +15,13 @@
    "name": "",
    "s_ask": 250.0,
    "type_id": 90480
+  },
+  {
+   "best_ask": 4400.0,
+   "gap": 0.9476,
+   "name": "",
+   "s_ask": 230.5,
+   "type_id": 90495
   },
   {
    "best_ask": 15000.0,
@@ -80,15 +87,22 @@
    "type_id": 22576
   },
   {
-   "best_ask": 4749000.0,
-   "gap": 0.5789,
+   "best_ask": 59700.0,
+   "gap": 0.6062,
+   "name": "",
+   "s_ask": 23510.0,
+   "type_id": 21080
+  },
+  {
+   "best_ask": 4745000.0,
+   "gap": 0.5785,
    "name": "",
    "s_ask": 2000000.0,
    "type_id": 45766
   },
   {
-   "best_ask": 70.94,
-   "gap": 0.5767,
+   "best_ask": 69.97,
+   "gap": 0.5708,
    "name": "",
    "s_ask": 30.03,
    "type_id": 23164
@@ -99,46 +113,18 @@
    "name": "",
    "s_ask": 3500000.0,
    "type_id": 46916
-  },
-  {
-   "best_ask": 90000000.0,
-   "gap": 0.5556,
-   "name": "",
-   "s_ask": 40000000.0,
-   "type_id": 44945
-  },
-  {
-   "best_ask": 14930000.0,
-   "gap": 0.5311,
-   "name": "",
-   "s_ask": 7000000.0,
-   "type_id": 47316
   }
  ],
  "top_bid_over_jita": [
   {
-   "best_bid": 243700000.0,
-   "gap": 0.0004,
-   "name": "Prototype Jump Drive Economizer",
-   "s_bid_reach": 243800000.0,
-   "type_id": 34126
-  },
-  {
-   "best_bid": 535600.0,
-   "gap": 0.0004,
-   "name": "Heavy Capacitor Booster II",
-   "s_bid_reach": 535800.0,
-   "type_id": 3578
-  },
-  {
-   "best_bid": 5003000.0,
-   "gap": 0.0002,
-   "name": "",
-   "s_bid_reach": 5004000.0,
-   "type_id": 49433
+   "best_bid": 10030.0,
+   "gap": 0.001,
+   "name": "Mechanical Parts",
+   "s_bid_reach": 10040.0,
+   "type_id": 3689
   }
  ],
- "types": 3850,
- "types_also_in_jita": 3850,
- "types_bid_over_jita_reaching": 3
+ "types": 3868,
+ "types_also_in_jita": 3868,
+ "types_bid_over_jita_reaching": 1
 }

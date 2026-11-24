@@ -734,7 +734,7 @@ type_id,name,volume,group_id
 15887,Caldari Navy Warp Scrambler,5,52
 15889,Caldari Navy Warp Disruptor,5,52
 15891,Republic Fleet Warp Disruptor,5,52
-15893,,5,
+15893,,5,52
 15895,Federation Navy Magnetic Field Stabilizer,5,302
 15897,Caldari Navy X-Large Shield Booster,50,40
 15898,Caldari Navy Small Shield Booster,5,
@@ -754,7 +754,7 @@ type_id,name,volume,group_id
 16004,Eifyr and Co. 'Rogue' Evasive Maneuvering EM-705,1,747
 16008,Eifyr and Co. 'Rogue' Acceleration Control AC-603,,
 16050,Republic Fleet 200mm Autocannon,,
-16053,,5,55
+16053,Republic Fleet 280mm Howitzer Artillery,5,55
 16057,Republic Fleet 800mm Repeating Cannon,,
 16061,Caldari Navy Rapid Light Missile Launcher,10,511
 16062,Caldari Navy Cruise Missile Launcher,20,506
@@ -912,6 +912,7 @@ type_id,name,volume,group_id
 18807,Corelum C-Type Thermal Energized Membrane,5,326
 18813,,5,
 18817,Corelum B-Type Thermal Energized Membrane,5,326
+18819,Corelum A-Type Multispectrum Energized Membrane,5,326
 18827,Corelum A-Type Thermal Energized Membrane,5,
 18829,Corpum C-Type Multispectrum Energized Membrane,5,326
 18831,Centum C-Type Multispectrum Energized Membrane,5,326
@@ -925,7 +926,7 @@ type_id,name,volume,group_id
 18855,,5,326
 18859,Centum B-Type Explosive Energized Membrane,5,
 18861,,5,326
-18863,,5,326
+18863,Centum B-Type Thermal Energized Membrane,5,326
 18865,Corpum A-Type Thermal Energized Membrane,5,326
 18867,Centum A-Type Thermal Energized Membrane,5,326
 18869,,5,326
@@ -1268,10 +1269,11 @@ type_id,name,volume,group_id
 23119,Imperial Navy Radio L,1,86
 23128,,0.1,528
 23134,Takmahl Dynamic Gauge,,
-23137,,0.1,528
+23137,Takmahl Quantum Sphere,0.1,528
 23149,,0.1,528
 23152,,0.1,528
 23172,Yan Jung Singularity Fact Sheet,1,733
+23177,Takmahl Astral Treatment,,
 23416,,25,325
 23473,Wasp EC-900,,
 23707,,5,639
@@ -1669,6 +1671,7 @@ type_id,name,volume,group_id
 31412,,5,781
 31414,,10,
 31450,Medium Energy Burst Aerator II,10,775
+31462,Medium Energy Collision Accelerator II,10,775
 31498,Medium Energy Metastasis Adjuster II,10,
 31544,,5,
 31564,Medium Hybrid Locus Coordinator I,,
@@ -1799,6 +1802,7 @@ type_id,name,volume,group_id
 33539,Shattered Villard Wheel,0.1,526
 33557,Mid-grade Ascendancy Beta,1,
 33561,,1,300
+33618,,0.1,314
 33619,Rogue Drone 43-X Nexus Chip,0.1,314
 33681,Gecko,50,100
 33697,Prospect,2500,1283
@@ -2098,6 +2102,7 @@ type_id,name,volume,group_id
 45598,Legion Offensive - Liquid Crystal Magnifiers,40,956
 45599,Legion Offensive - Assault Optimization,40,956
 45601,Tengu Offensive - Accelerated Ejection Bay,40,956
+45602,Tengu Offensive - Magnetic Infusion Basin,40,956
 45604,Proteus Offensive - Hybrid Encoding Platform,40,956
 45605,Proteus Offensive - Drone Synthesis Projector,40,956
 45606,Proteus Offensive - Support Processor,40,
