@@ -199,6 +199,7 @@ type_id,name,volume,group_id
 3190,Eifyr and Co. 'Gunslinger' Motion Prediction MR-702,,
 3193,Eifyr and Co. 'Gunslinger' Surgical Strike SS-902,1,742
 3194,,1,742
+3195,,1,742
 3203,,1,
 3214,,1,
 3218,Harvester Mining Drone,10,101
@@ -604,7 +605,7 @@ type_id,name,volume,group_id
 14100,Domination Tracking Enhancer,5,
 14104,,5,46
 14106,Domination 10MN Afterburner,5,46
-14108,,5,
+14108,,5,46
 14114,,10,46
 14118,,10,46
 14120,Shadow Serpentis 50MN Microwarpdrive,10,46
@@ -1033,6 +1034,7 @@ type_id,name,volume,group_id
 19247,Gistum B-Type EM Shield Amplifier,5,295
 19251,Gistum A-Type Thermal Shield Amplifier,5,295
 19253,,5,295
+19255,,5,295
 19263,Gist C-Type EM Shield Hardener,,
 19268,,5,
 19281,Gist X-Type EM Shield Hardener,5,77
@@ -1621,6 +1623,7 @@ type_id,name,volume,group_id
 31047,Medium Auxiliary Nano Pump I,10,773
 31053,Medium Auxiliary Nano Pump II,10,773
 31055,Medium Trimark Armor Pump I,10,773
+31057,,5,773
 31059,Medium Trimark Armor Pump II,10,773
 31067,Capital Nanobot Accelerator I,,
 31071,,10,773
@@ -1934,6 +1937,7 @@ type_id,name,volume,group_id
 37481,,5000,1534
 37482,Stork,5000,1534
 37483,,5000,1534
+37546,,5,291
 37599,,3000,1537
 37608,Pitfall Compact Warp Disruption Field Generator,50,899
 37612,,50,899
@@ -2173,6 +2177,7 @@ type_id,name,volume,group_id
 47730,,1,1964
 47734,Unstable Warp Disruptor Mutaplasmid,1,1964
 47738,,1,1964
+47743,,1,1964
 47751,,1,1964
 47752,Gravid 10MN Afterburner Mutaplasmid,1,
 47754,,1,1964
@@ -2496,6 +2501,7 @@ type_id,name,volume,group_id
 62554,Compressed Gneiss III-Grade,0.05,467
 62555,Compressed Gneiss IV-Grade,0.05,467
 62556,,0.08,453
+62557,,0.08,453
 62558,Compressed Dark Ochre III-Grade,0.08,453
 62559,Compressed Dark Ochre IV-Grade,0.08,453
 62560,Compressed Crokite,0.16,452
@@ -2844,7 +2850,7 @@ type_id,name,volume,group_id
 98319,Deep-Space Crimson Metallic - Unlimited,,
 98321,Amber Comet Metallic - Unlimited,,
 98338,Ultra-Indigo Matte - Unlimited,,
-98409,,1,303
+98409,Imperial Electronics Booster II,1,303
 98410,,1,303
 98415,Imperial Mobility Booster II,1,303
 98416,Imperial Mobility Booster III,1,303
