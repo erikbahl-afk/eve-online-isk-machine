@@ -140,6 +140,7 @@ type_id,name,volume,group_id
 2613,Mjolnir Fury Light Missile,,
 2621,,0.05,656
 2629,,0.03,655
+2637,,0.05,656
 2655,,0.03,655
 2801,Nova Javelin Torpedo,0.05,
 2811,,0.05,657
@@ -310,7 +311,7 @@ type_id,name,volume,group_id
 9838,Superconductors,0.75,1034
 9840,,0.75,1034
 9842,,0.75,1034
-9899,,1,
+9899,,1,745
 9941,Memory Augmentation - Basic,1,745
 9942,,1,745
 9943,,1,745
@@ -1211,7 +1212,7 @@ type_id,name,volume,group_id
 22446,Vulture,15000,540
 22448,Absolution,15000,540
 22456,,5000,
-22464,,5000,
+22464,,5000,541
 22468,Claymore,15000,540
 22470,Nighthawk,15000,540
 22534,Inherent Implants 'Highwall' Mining MX-1003,1,1229

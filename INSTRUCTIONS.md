@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Tue 24 Nov 09:45 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 35 · **Est. time:** 22 min. Work top to bottom; stop any time.  
+**Updated:** Tue 24 Nov 10:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 36 · **Est. time:** 23 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -67,14 +67,14 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 16 | ☐ Compressed Zeolites | 9,053 | **972.10** | 1,071 | 972.00 |
+| 16 | ☐ Compressed Zeolites | 8,847 | **972.10** | 1,071 | 972.00 |
 
 ## 17. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
 _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
 
 ## At Jita IV - Moon 4 - Caldari Navy Assembly Plant
 
-### Block 1 · must do · about 5 min
+### Block 1 · must do · about 6 min
 
 #### Fix undercut sell orders
 _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours is already the lowest, skip._
@@ -96,8 +96,8 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 20 | ☐ Glorified Unstable Entropic Radiation Sink Mutaplasmid | 172,600,000 | **172,500,000** | 202,900,000 | 172,400,000 |
-| 21 | ☐ Low-grade Nomad Gamma | 92,460,000 | **92,480,000** | 113,800,000 | 92,470,000 |
-| 22 | ☐ Mid-grade Rapture Gamma | 122,800,000 | **123,500,000** | 211,200,000 | 123,400,000 |
+| 21 | ☐ Low-grade Nomad Gamma | 92,460,000 | **92,480,000** | 113,700,000 | 92,470,000 |
+| 22 | ☐ Mid-grade Rapture Gamma | 122,800,000 | **123,700,000** | 211,200,000 | 123,600,000 |
 | 23 | ☐ Neurotoxin Control | 8,902,000 | **8,912,000** | 13,270,000 | 8,911,000 |
 | 24 | ☐ State Defense Booster III | 26,210,000 | **26,210,000** | 37,120,000 | 26,200,000 |
 | 25 | ☐ Zorya's Light Entropic Disintegrator | 231,900,000 | **232,200,000** | 267,800,000 | 232,100,000 |
@@ -107,56 +107,63 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 26 | ☐ Imperial Electronics Booster II | 1 | **8,001,000** | 17,650,000 | 8,000,000 |
+| 26 | ☐ Dread Guristas Large Graviton Smartbomb | 1 | **121,400,000** | 128,100,000 | 121,300,000 |
+| 27 | ☐ Imperial Electronics Booster II | 1 | **8,001,000** | 17,640,000 | 8,000,000 |
 
-### Block 2 · should do · about 4 min
+### Block 2 · should do · about 3 min
 
 #### Fix undercut sell orders
 _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours is already the lowest, skip._
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 27 | ☐ Compressed Mercoxit II-Grade | 23,240 | **22,980** | 20,730 | 22,990 |
+| 28 | ☐ Compressed Mercoxit II-Grade | 23,240 | **22,980** | 20,730 | 22,990 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 28 | ☐ Capital Flex Armor Hardener II | 64,740,000 | **64,850,000** | 79,330,000 | 64,840,000 |
+| 29 | ☐ Capital Flex Armor Hardener II | 64,740,000 | **64,770,000** | 79,330,000 | 64,760,000 |
+| 30 | ☐ State Security Token | 12,210,000 | **10,180,000** | 14,490,000 | 10,170,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 29 | ☐ Distribution Connections | 1 | **27,860,000** | 30,930,000 | 27,850,000 |
-| 30 | ☐ Dread Guristas Large Graviton Smartbomb | 1 | **121,200,000** | 128,100,000 | 121,100,000 |
-| 31 | ☐ Heavy Compact Entropic Disintegrator | 1 | **6,929,000** | 15,020,000 | 6,928,000 |
+| 31 | ☐ Distribution Connections | 1 | **27,860,000** | 30,930,000 | 27,850,000 |
+| 32 | ☐ Heavy Compact Entropic Disintegrator | 1 | **6,929,000** | 15,020,000 | 6,928,000 |
 
-### Block 3 · if there's time · about 2 min
+### Block 3 · if there's time · about 3 min
 
 #### Fix undercut sell orders
 _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours is already the lowest, skip._
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 32 | ☐ Antikythera Element | 197,900 | **228,800** | 0.01 | 228,900 |
+| 33 | ☐ Antikythera Element | 197,900 | **253,800** | 0.01 | 253,900 |
 
 #### List new stock
 _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Duration 3 months._
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 33 | ☐ Compressed Hezorime III-Grade | 196 | **999.50** | 809.40 | 999.60 |
+| 34 | ☐ Compressed Hezorime III-Grade | 196 | **999.50** | 809.40 | 999.60 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 34 | ☐ 50MN Microwarpdrive II | 3,793,000 | **3,793,000** | 3,793,000 | 3,801,000 |
-| 35 | ☐ State Security Token | 12,210,000 | **10,180,000** | 14,490,000 | 10,170,000 |
+| 35 | ☐ 50MN Microwarpdrive II | 3,793,000 | **3,793,000** | 3,793,000 | 3,801,000 |
+
+#### New buy orders
+_Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
+
+| # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
+|---|---|---|---|---|---|
+| 36 | ☐ Federation Navy Tungsten Charge L | 1 | **700.10** | 898.20 | 700.00 |
 
 ---
 Wallet 276.09M · escrow 1.04B · stock 3.72B · in transit 0.00 · net worth 5.04B (liquidation 2.68B)
