@@ -65,7 +65,7 @@ def collect(cfg, esi, now, day):
             note = f"{market.gone_fraction(prev, cur):.0%} of orders vanished; skipped"
         else:
             pr = market.diff_prints(prev, cur, market.tops(prev), top, t1, cc["gone_weight"])
-            upd = market.update_counts(cur, top, t0)
+            upd = market.update_counts(cur, top, t0, market.tops(prev))
             day.add(hub, market.aggregate(pr, upd, top), t0, t1)
             intervals[hub], prints[hub] = (t0, t1), pr
         if consistent and (t0 is None or t1 > t0):

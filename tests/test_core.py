@@ -52,6 +52,12 @@ def test_diff_prints():
     assert bids.qty.sum() == 16 and bids.price.tolist() == [90.0]
     upd = market.update_counts(cur, market.tops(cur), t0)
     assert upd.loc[7, "ask_upd"] == 1
+    upd = market.update_counts(cur, market.tops(cur), t0, market.tops(prev))
+    assert upd.loc[7, "ask_beat"] == 1 and upd.loc[7, "bid_beat"] == 0  # 99 < prev best 100
+    late = book([(6, 7, False, 101.0, 3, t0 + 100, 90)])   # new but behind the old best: near-top, not a beat
+    u2 = market.update_counts(late, market.tops(late), t0, market.tops(prev))
+    assert u2.loc[7, "ask_upd"] == 1 and u2.loc[7, "ask_beat"] == 0
+    assert set(market.UPD_COLS) <= set(market.SUM_COLS)
 
 
 def test_day_and_stats():

@@ -20,6 +20,9 @@ EPOCH = pd.Timestamp("1970-01-01", tz="UTC")
 PRINT_COLS = ["type_id", "side", "price", "qty"]
 NB = 4  # rival activity is tracked per 6-hour UTC block (00-06, 06-12, 12-18, 18-24)
 UPD_COLS = ["ask_upd", "bid_upd"] + [f"{s}_upd{b}" for s in ("ask", "bid") for b in range(NB)]
+# "beat" = updates priced strictly better than the previous snapshot's best: real undercuts. Logged only (2026-11-24),
+# to test against time_on_top.csv whether it predicts being outbid better than the 5% near-top count.
+UPD_COLS += ["ask_beat", "bid_beat"]
 SUM_COLS = ["ask_units", "ask_isk", "bid_units", "bid_isk"] + UPD_COLS
 DAILY_COLS = ["hub", "type_id"] + SUM_COLS + ["best_ask", "best_bid", "hours"] + [f"hours{b}" for b in range(NB)]
 NEAR_TOP = 0.05
@@ -98,8 +101,11 @@ def gone_fraction(prev, cur):
     return 1 - prev.order_id.isin(cur.order_id).mean()
 
 
-def update_counts(cur, top, t0):
-    """Near-top orders created or repriced after t0, per type, side and UTC block of the update."""
+def update_counts(cur, top, t0, prev_top=None):
+    """Near-top orders created or repriced after t0, per type, side and UTC block of the update.
+
+    With prev_top, also ask_beat / bid_beat: updates priced strictly better than the previous best (or on a side that
+    had no orders before)."""
     r = cur[cur.issued > t0].join(top, on="type_id")
     r = r.assign(blk=r.issued // 3600 % 24 // 6)
     parts = []
@@ -110,7 +116,17 @@ def update_counts(cur, top, t0):
         g.columns = [f"{side}_upd{b}" for b in range(NB)]
         g[f"{side}_upd"] = g.sum(axis=1)
         parts.append(g)
-    return pd.concat(parts, axis=1).fillna(0)
+    out = pd.concat(parts, axis=1).fillna(0)
+    if prev_top is not None:
+        q = cur[cur.issued > t0].join(prev_top.rename(columns=lambda c: "p_" + c), on="type_id")
+        beat_a = ~q.is_buy & (q.p_best_ask.isna() | (q.price < q.p_best_ask))
+        beat_b = q.is_buy & (q.p_best_bid.isna() | (q.price > q.p_best_bid))
+        out = out.join(q[beat_a].groupby("type_id").size().rename("ask_beat"), how="outer")
+        out = out.join(q[beat_b].groupby("type_id").size().rename("bid_beat"), how="outer")
+    for c in ("ask_beat", "bid_beat"):
+        if c not in out:
+            out[c] = 0
+    return out.fillna(0)
 
 
 def aggregate(prints, upd, top):
@@ -142,7 +158,7 @@ class Day:
         if old is None:
             new = agg
         else:
-            new = old[SUM_COLS].add(agg[SUM_COLS], fill_value=0.0)
+            new = old.reindex(columns=SUM_COLS, fill_value=0.0).add(agg[SUM_COLS], fill_value=0.0)
             last = agg[["best_ask", "best_bid"]].combine_first(old[["best_ask", "best_bid"]])
             new = new.join(last)
         self.rows[hub] = new

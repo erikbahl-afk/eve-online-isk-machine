@@ -481,3 +481,24 @@
 - Alerts: liquidation 53% / Typhoon 8.3%: legacy, step-down continues (Thu 19 decision). Stale Amarr sells: info, step-down
   working. Antikythera: fixed above. Idle Jita bids: buy_stale_days applies at the next Jita session. Thresholds kept.
 - Next: Tue confirm Antikythera relisted at ~0.26M and Entosis/Jaguar bids cancelled; Thu slot refill candidates: stale_step 0.2, history-days gate.
+
+## 2026-11-24 · competition and timing (Tuesday)
+- Rival activity, 14 daily files (11-10..23): near-top updates/h per traded item by UTC block, Jita ask 0.22 / 0.26 / 0.38 /
+  0.33 (00-06 / 06-12 / 12-18 / 18-24), bid 0.13 / 0.16 / 0.23 / 0.21; Amarr ask 0.11 → 0.19. Quietest block is 00-06 UTC,
+  ~1.7x less than 12-18; the sim's per-block rates already carry this. By weekday rivals are flat (Jita 0.44 Tue – 0.51 Mon).
+- Demand by weekday (traded ISK/day): Jita Tue 7.0T vs Sun 9.4T (+34%), Amarr 0.84T vs 0.98T, Sat/Sun top everywhere. Paper
+  fills come from real snapshots, so the sim sees it; planning uses 14-day averages (fine at our ~4 sessions/week).
+- Bots (≥1 near-top update/h in all 4 blocks on ≥5 of 7 days): 20 Jita books, none Amarr; none of main's 45 orders are on one.
+  No avoid entries needed. Rising competition (last 3 d ≥2x prior 7): Zorya's Entropic Disintegrator bid (0.21 → 0.53/h,
+  outbid 11 h after Mon's placement) and State Security Token bid (0.36 → 0.98/h, yet on top in every check): watch only.
+- Time on top, out-of-sample since 11-23 00Z (1,335 main rows): the floor holds: age > 24 h obs 0.33–0.79 vs pred 0.08–0.35;
+  refit f 0.28 k 0.5 (11-17: 0.33 / 1.4). Flat by UTC block (0.47–0.50). Jita buy 0.35 obs vs 0.04 pred; Amarr sell 0.65 vs 0.30.
+- Why the near-top count misleads: State Security Token ~1 update/h yet always on top: most "updates" sit within 5% behind us.
+  Changed: daily files now also log `ask_beat` / `bid_beat` (updates priced strictly better than the previous snapshot's best,
+  i.e. real undercuts). Logged only, no model change; Day cache rows from before are reindexed. Test added; 39 pass.
+- Follow-ups: Antikythera relisted 996k → 197.9k at Mon 20:15 (forced() fix works). Entosis/Jaguar bids gone from the book.
+- Alerts: liquidation 55% / Typhoon 8.2%: legacy, step-down continues (Thu 19 decision). Stale Amarr sells (10 medium, 7–19 d):
+  step-down each Amarr visit; Golem SKIN / Gravid Vorton untouched-flagged but at or under best ask (Mon audit). Idle Jita bids
+  (Bomb Launcher 40.5M, Fullerite 11.2M, dust): buy_stale_days cancels at the next Jita login. Thresholds kept.
+- Next: Thu judge fill_floor (2 weeks of floor evidence now), refill slots (stale_step 0.2, history-days gate). Tue 12-01: fit
+  P(top) on beat-rate vs near-top rate with a week of `*_beat` data; switch lam to beats if it fits better.
