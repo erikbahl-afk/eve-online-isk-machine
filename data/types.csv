@@ -174,7 +174,7 @@ type_id,name,volume,group_id
 3090,425mm Railgun II,20,74
 3092,Zainou 'Gnome' Shield Operation SP-906,1,749
 3095,Eifyr and Co. 'Rogue' Evasive Maneuvering EM-706,1,747
-3106,,10,
+3106,,10,74
 3113,Eifyr and Co. 'Rogue' High Speed Maneuvering HS-904,,
 3119,Eifyr and Co. 'Rogue' Warp Drive Speed WS-618,1,747
 3122,Electron Blaster Cannon II,,
@@ -239,7 +239,7 @@ type_id,name,volume,group_id
 3828,,0.75,1034
 3831,Medium Shield Extender II,10,38
 3841,Large Shield Extender II,20,38
-3893,Mining Connections,0.01,
+3893,Mining Connections,0.01,278
 3894,Distribution Connections,0.01,278
 3895,Security Connections,0.01,278
 3898,Quafe Zero Classic,1,303
@@ -334,6 +334,7 @@ type_id,name,volume,group_id
 10228,Zainou 'Gnome' Shield Management SM-703,1,749
 10244,Zainou 'Gypsy' Signature Analysis SA-703,1,
 10631,Rocket Launcher II,5,507
+10694,,5,74
 10842,,50,40
 10858,Large Shield Booster II,,
 11172,Helios,2500,830
@@ -628,7 +629,7 @@ type_id,name,volume,group_id
 14176,Dark Blood Medium Capacitor Booster,,
 14184,Dark Blood Small Capacitor Booster,5,76
 14190,True Sansha Large EMP Smartbomb,50,72
-14194,,10,72
+14194,True Sansha Medium EMP Smartbomb,10,72
 14200,,5,72
 14202,True Sansha Small EMP Smartbomb,5,72
 14204,Dread Guristas Large Graviton Smartbomb,50,72
@@ -1441,6 +1442,7 @@ type_id,name,volume,group_id
 27405,,0.015,772
 27409,Guristas Inferno Cruise Missile,,
 27413,Caldari Navy Scourge Heavy Assault Missile,0.015,772
+27415,,0.015,772
 27419,Caldari Navy Mjolnir Heavy Assault Missile,0.015,772
 27421,,0.015,
 27423,Caldari Navy Inferno Cruise Missile,0.05,386
@@ -1522,6 +1524,7 @@ type_id,name,volume,group_id
 28700,,10,711
 28701,Viridian Mykoserocin,,
 28710,Golem,50000,900
+28739,,5,766
 28746,Thukker Medium Shield Extender,,
 28750,ORE Miner,5,54
 28752,ORE Ice Harvester,5,
@@ -2203,7 +2206,7 @@ type_id,name,volume,group_id
 47914,Light Entropic Disintegrator II,5,1986
 47915,Veles Light Entropic Disintegrator,5,1986
 47916,Heavy Compact Entropic Disintegrator,10,1986
-47917,,10,
+47917,,10,1986
 47918,Heavy Entropic Disintegrator II,10,1986
 47919,Veles Heavy Entropic Disintegrator,10,1986
 47923,,20,1986
@@ -2275,6 +2278,7 @@ type_id,name,volume,group_id
 52916,,0.01,1987
 52919,High-grade Mimesis Delta,1,
 52997,Precursor Dreadnought,0.01,257
+52998,Capital Precursor Weapon,0.01,255
 53290,Capital Trinary State Processor,,
 53291,Dreadnought Systems Diagram,0.1,526
 53299,Zirnitra Blueprint Data Vault,0.1,526
@@ -2405,7 +2409,7 @@ type_id,name,volume,group_id
 60283,Simple Asteroid Mining Crystal Type B II,10,482
 60286,Coherent Asteroid Mining Crystal Type B I,,
 60288,,10,482
-60289,,10,
+60289,,10,482
 60291,Variegated Asteroid Mining Crystal Type A I,6,
 60292,,6,
 60294,Variegated Asteroid Mining Crystal Type A II,10,482
@@ -2824,6 +2828,7 @@ type_id,name,volume,group_id
 98321,Amber Comet Metallic - Unlimited,,
 98338,Ultra-Indigo Matte - Unlimited,,
 98409,,1,303
+98410,,1,303
 98415,Imperial Mobility Booster II,1,303
 98416,Imperial Mobility Booster III,1,303
 98417,Imperial Hardpoint Booster I,1,303
