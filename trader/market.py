@@ -170,6 +170,9 @@ class Day:
         for hub, df in self.rows.items():
             d = df.rename_axis("type_id").reset_index()
             d.insert(0, "hub", hub)
+            for c in SUM_COLS:  # rows cached before a column was added (e.g. ask_beat) count it as 0
+                if c not in d:
+                    d[c] = 0.0
             d["hours"] = self.hours.get(hub, 0.0)
             for b, h in enumerate(self.hb.get(hub, [0.0] * NB)):
                 d[f"hours{b}"] = h

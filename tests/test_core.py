@@ -75,6 +75,10 @@ def test_day_and_stats():
     assert market.block_hours(t0 + 5 * 3600, t0 + 7 * 3600) == [1.0, 1.0, 0.0, 0.0]
     empty = market.aggregate(pr.iloc[:0], upd, top)
     assert empty.loc[7, "ask_units"] == 0
+    # a Day cached before ask_beat/bid_beat existed must still flush (11-25 outage: KeyError on rollover)
+    d.rows["jita"] = d.rows["jita"].drop(columns=["ask_beat", "bid_beat"])
+    f2 = d.frame()
+    assert list(f2.columns) == market.DAILY_COLS and f2.ask_beat.iloc[0] == 0
 
 
 def test_fill_and_session():
