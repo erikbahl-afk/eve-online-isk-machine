@@ -515,3 +515,11 @@ def test_fill_capped_at_share_of_official_day_volume():
     prints = pd.DataFrame({"type_id": [7], "side": ["bid"], "price": [1.4], "qty": [4000.0]})
     sim.apply_fills("jita", prints, {}, 8 * 86400, 8 * 86400 + 3600, levels=lv)
     assert filled == [300]                            # 30% of the 1000-unit median day, not 4000
+
+
+def test_hub_rows_log_top30_profit_per_hub():
+    from trader.run import hub_rows
+    st = {"jita": pd.DataFrame({"profit_day": [5.0, 3.0]}), "amarr": pd.DataFrame()}
+    im = {"amarr": pd.DataFrame({"profit_day": [1.0] * 40})}
+    rows = hub_rows(100, st, im)
+    assert rows == [(100, "amarr", 0, 0, 40, 30), (100, "jita", 2, 8, 0, 0)]

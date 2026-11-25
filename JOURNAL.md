@@ -503,3 +503,22 @@
   Thresholds kept.
 - Next: Thu judge fill_floor (2 weeks of floor evidence now), refill slots (stale_step 0.2, history-days gate). Tue 12-01: fit
   P(top) on beat-rate vs near-top rate with a week of `*_beat` data; switch lam to beats if it fits better.
+
+## 2026-11-25 · open questions: import hub (Q1) + outage (Wednesday)
+- **Outage, my regression:** all 12 bot runs from Tue 24 22:01Z to Wed 22:00Z failed with KeyError ['ask_beat','bid_beat']
+  at the day-rollover flush. The cached 11-24 Day held rows built before Tuesday's change, and `Day.frame` didn't fill
+  missing columns (only `add` reindexed). Fixed in e7ed9e9 (frame fills missing SUM_COLS with 0), with a regression test that
+  fails on the old code. Pushed ~23:50Z. Push sent. Lost ~1 day of snapshots; no sim login missed (next Sat 28 19:48 PT).
+  Lesson: a schema change to cached state needs a test that loads the old shape.
+- Q1 (which import hub?): import profit/day from the best 30: Dodixie 104.5M vs Amarr 79.5M in the last summary. Amarr led on
+  11-22 (131M vs 109M), Dodixie on 11-23/24. Can't check "2 weeks running": summary history before 11-22 got squashed, and
+  nothing else logs per-hub numbers. Changed: main now appends `state/hubs.csv` each run (per hub: station/import items and
+  top-30 profit/day). Test added; 40 pass. Also the rotation experiment (Dodixie+Amarr) is −2.49% vs main +2.41%, but it has
+  barely run a Dodixie courier (Thu 26 kill date). Q1 stays open: judge from 2 weeks of hubs.csv (~Wed 12-09).
+- Second question skipped (budget spent on the outage). Next Wed: Q4 Wholesale recheck, or a new question from the
+  history-days gate idea (Mon).
+- Alerts: same 29 as Tue, no new data since then (outage). Liquidation 55% / Typhoon 8.2%: legacy, step-down continues (Thu 19
+  decision). Stale Amarr sells: step-down each Amarr visit. Idle Jita bids: Bomb Launcher on top with no sellers (Tue), others
+  are dust. Thresholds kept.
+- Next: Thu check the first runs after the fix committed data (daily 11-25 file, ask_beat present); judge fill_floor and the
+  rotation kill date.

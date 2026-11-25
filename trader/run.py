@@ -119,6 +119,14 @@ def lookup(esi, types, need_names, need_info):
         print("type lookup failed:", e, file=sys.stderr)
 
 
+def hub_rows(now, station, imports_by_hub):
+    """One row per hub: count and summed profit/day of the best 30 station and import candidates."""
+    def top30(df):
+        return (len(df), round(float(df.head(30).profit_day.sum()))) if df is not None and len(df) else (0, 0)
+    return [(int(now), h, *top30(station.get(h)), *top30(imports_by_hub.get(h)))
+            for h in sorted(set(station) | set(imports_by_hub))]
+
+
 def append_csv(path, cols, rows):
     new = not path.exists()
     with open(path, "a", newline="") as f:
@@ -325,6 +333,9 @@ def run_portfolio(cfg, sdir, sh):
     if lv is not None and mr > 0:
         station = {h: apply_reach(df, lv, h, now, mr, tn, buy_col="bid_t") for h, df in station.items()}
         imports_by_hub = {h: apply_reach(df, lv, h, now, mr, tn, sell_col="sell") for h, df in imports_by_hub.items()}
+    if sdir == STATE:  # history for the "which import hub?" question (summary history gets squashed)
+        append_csv(STATE / "hubs.csv", ["t", "hub", "station_items", "station_profit_day", "import_items",
+                                        "import_profit_day"], hub_rows(now, station, imports_by_hub))
     pf["import_hub"] = choose_import_hub(cfg, imports_by_hub, pf.get("import_hub"))
     st = cfg["strategy"]
     import_hubs = [h for h in (st.get("import_hubs") or ([pf["import_hub"]] if pf["import_hub"] else []))
