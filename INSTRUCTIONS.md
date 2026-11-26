@@ -3,8 +3,8 @@
 
 # Session checklist
 
-**Updated:** Tue 24 Nov 14:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
-**Steps:** 37 · **Est. time:** 24 min. Work top to bottom; stop any time.  
+**Updated:** Wed 25 Nov 16:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Steps:** 39 · **Est. time:** 24 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
 **Prices:** "Type this" was correct when written. If the market moved since then, apply the rule instead (4 significant digits: 1 tick below 12,340,000 is 12,330,000). "Lowest/highest" means other people's orders; yours are highlighted.
@@ -15,125 +15,127 @@ Each hub's steps come in **priority blocks**: finish Block 1 before anything els
 
 ## At Amarr VIII (Oris) - Emperor Family Academy
 
-### Block 1 · must do · about 3 min
+### Block 1 · must do · about 4 min
 
 #### Fix undercut sell orders
 _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours is already the lowest, skip._
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 1 | ☐ 'Cartel' Power Diagnostic System I | 67,940,000 | **67,900,000** | 30,280,000 | 67,910,000 |
-| 2 | ☐ Improved 'Guise' Cloaking Device II | 49,960,000 | **49,790,000** | 31,940,000 | 49,800,000 |
-| 3 | ☐ Men's 'Precision' Boots | 65,600,000 | **99,990,000** | 49,760,000 | 100,000,000 |
-| 4 | ☐ Standup M-Set Basic Small Ship Manufacturing Material Efficiency I | 458,900,000 | **714,900,000** | 335,200,000 | 715,000,000 |
-| 5 | ☐ Standup Moon Drill I | 138,600,000 | **134,900,000** | 130,900,000 | 135,000,000 |
-| 6 | ☐ Typhoon Fleet Issue Capsuleer Elite XX SKIN | 535,200,000 | **535,200,000** | 420,200,000 | - |
+| 1 | ☐ 'Cartel' Power Diagnostic System I | 67,940,000 | **67,860,000** | 30,280,000 | 67,870,000 |
+| 2 | ☐ Dread Guristas Rocket Launcher | 80,240,000 | **72,210,000** | 47,280,000 | 99,170,000 |
+| 3 | ☐ Improved 'Guise' Cloaking Device II | 49,960,000 | **49,960,000** | 31,940,000 | 49,970,000 |
+| 4 | ☐ Men's 'Precision' Boots | 65,600,000 | **59,040,000** | 49,760,000 | 100,000,000 |
+| 5 | ☐ Polarized Light Neutron Blaster | 5,879,000 | **5,876,000** | 3,818,000 | 5,877,000 |
+| 6 | ☐ Standup M-Set Basic Small Ship Manufacturing Material Efficiency I | 458,900,000 | **413,000,000** | 335,200,000 | 715,000,000 |
+| 7 | ☐ Standup Moon Drill I | 138,600,000 | **138,400,000** | 130,900,000 | 138,500,000 |
+| 8 | ☐ Typhoon Fleet Issue Capsuleer Elite XX SKIN | 535,200,000 | **481,600,000** | 420,200,000 | - |
+| 9 | ☐ Zero-Point Mass Entangler | 8,875,000 | **9,750,000** | 8,875,000 | 9,751,000 |
 
 #### List new stock
 _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Duration 3 months._
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 7 | ☐ Chaotic Exotic Filament | 2 | **28,200,000** | 22,950,000 | 28,210,000 |
+| 10 | ☐ Chaotic Exotic Filament | 2 | **28,160,000** | 22,950,000 | 28,170,000 |
 
 ### Block 2 · should do · about 3 min
-_Short on time? Skip to the jump (step 17): the next hub's Block 1 is worth more per minute than the rest of this hub._
+_Short on time? Skip to the jump (step 20): the next hub's Block 1 is worth more per minute than the rest of this hub._
 
 #### Fix undercut sell orders
 _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours is already the lowest, skip._
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 8 | ☐ Caesium | 6,635 | **6,499** | 6,165 | 6,500 |
-| 9 | ☐ Caldari Drone Specialization | 2,110,000 | **2,193,000** | 1,139,000 | 2,194,000 |
-| 10 | ☐ Legion Mjolnir Auto-Targeting Light Missile | 2,309 | **2,308** | 1,138 | 2,309 |
-| 11 | ☐ Limited Expanded 'Archiver' Cargo | 49,530,000 | **49,490,000** | 25,980,000 | 49,500,000 |
-| 12 | ☐ Mobile Large Warp Disruptor I | 24,450,000 | **24,430,000** | 18,570,000 | 24,440,000 |
-| 13 | ☐ Polarized Light Neutron Blaster | 5,879,000 | **5,879,000** | 3,818,000 | 5,880,000 |
-| 14 | ☐ Zero-Point Mass Entangler | 8,875,000 | **8,875,000** | 8,875,000 | 8,844,000 |
-
-### Block 3 · if there's time · about 1 min
-_Short on time? Skip to the jump (step 17): the next hub's Block 1 is worth more per minute than the rest of this hub._
-
-#### Fix undercut sell orders
-_My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours is already the lowest, skip._
-
-| # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
-|---|---|---|---|---|---|
-| 15 | ☐ Void XL | 4,177 | **4,176** | 3,174 | 4,177 |
+| 11 | ☐ Caesium | 6,635 | **6,636** | 6,165 | 6,637 |
+| 12 | ☐ Caldari Drone Specialization | 2,110,000 | **2,193,000** | 1,139,000 | 2,194,000 |
+| 13 | ☐ Legion Mjolnir Auto-Targeting Light Missile | 2,309 | **2,308** | 1,138 | 2,309 |
+| 14 | ☐ Limited Expanded 'Archiver' Cargo | 49,530,000 | **49,440,000** | 25,980,000 | 49,450,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 16 | ☐ Compressed Dark Glitter | 37 | **360,100** | 413,600 | 360,000 |
+| 15 | ☐ Compressed Arkonor IV-Grade | 2,523 | **3,214** | 5,922 | 3,213 |
 
-## 17. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
+### Block 3 · if there's time · about 2 min
+_Short on time? Skip to the jump (step 20): the next hub's Block 1 is worth more per minute than the rest of this hub._
+
+#### Fix undercut sell orders
+_My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours is already the lowest, skip._
+
+| # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
+|---|---|---|---|---|---|
+| 16 | ☐ Mobile Large Warp Disruptor I | 24,450,000 | **24,350,000** | 18,570,000 | 24,360,000 |
+| 17 | ☐ Shrapnel Bomb | 1,474,000 | **1,469,000** | 1,311,000 | 1,470,000 |
+| 18 | ☐ Void XL | 4,177 | **4,174** | 3,174 | 4,175 |
+
+#### List new stock
+_Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Duration 3 months._
+
+| # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
+|---|---|---|---|---|---|
+| 19 | ☐ Strontium Clathrates | 3 | **5,899** | 5,104 | 5,900 |
+
+## 20. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
 _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
 
 ## At Jita IV - Moon 4 - Caldari Navy Assembly Plant
 
-### Block 1 · must do · about 6 min
+### Block 1 · must do · about 5 min
 
 #### Fix undercut sell orders
 _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours is already the lowest, skip._
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 18 | ☐ Compressed Glistening Zeolites | 2,886 | **3,346** | 2,629 | 3,347 |
+| 21 | ☐ Compressed Glistening Zeolites | 2,886 | **2,899** | 2,629 | 2,900 |
 
 #### List new stock
 _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Duration 3 months._
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 19 | ☐ State Defense Booster III | 1 | **40,890,000** | 27,270,000 | 40,900,000 |
-| 20 | ☐ State Security Token | 1 | **16,790,000** | 12,700,000 | 16,800,000 |
+| 22 | ☐ State Defense Booster III | 1 | **39,600,000** | 27,270,000 | 39,610,000 |
+| 23 | ☐ State Security Token | 1 | **28,890,000** | 12,700,000 | 28,900,000 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 21 | ☐ Glorified Unstable Entropic Radiation Sink Mutaplasmid | 172,600,000 | **202,900,000** | 202,900,000 | 217,800,000 |
-| 22 | ☐ Low-grade Nomad Gamma | 92,460,000 | **92,490,000** | 113,400,000 | 92,480,000 |
-| 23 | ☐ Neurotoxin Control | 8,902,000 | **8,914,000** | 13,270,000 | 8,913,000 |
-| 24 | ☐ Zorya's Light Entropic Disintegrator | 231,900,000 | **232,900,000** | 267,600,000 | 232,800,000 |
+| 24 | ☐ Federation Mobility Booster III | 23,020,000 | **23,060,000** | 43,220,000 | 23,050,000 |
+| 25 | ☐ Glorified Unstable Entropic Radiation Sink Mutaplasmid | 172,600,000 | **172,900,000** | 202,600,000 | 172,800,000 |
+| 26 | ☐ Low-grade Nomad Delta | 122,300,000 | **122,200,000** | 125,700,000 | 122,100,000 |
+| 27 | ☐ Neurotoxin Control | 8,902,000 | **8,961,000** | 13,140,000 | 8,960,000 |
+| 28 | ☐ Zorya's Light Entropic Disintegrator | 231,900,000 | **234,700,000** | 267,500,000 | 234,600,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 25 | ☐ Imperial Electronics Booster II | 1 | **8,002,000** | 17,650,000 | 8,001,000 |
-| 26 | ☐ Low-grade Virtue Gamma | 1 | **141,000,000** | 165,600,000 | 140,900,000 |
+| 29 | ☐ Distribution Connections | 3 | **28,060,000** | 33,410,000 | 28,050,000 |
 
-### Block 2 · should do · about 5 min
-
-#### Fix undercut sell orders
-_My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours is already the lowest, skip._
-
-| # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
-|---|---|---|---|---|---|
-| 27 | ☐ Compressed Mercoxit II-Grade | 23,240 | **22,690** | 20,730 | 22,700 |
+### Block 2 · should do · about 4 min
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 28 | ☐ Mid-grade Rapture Gamma | 122,800,000 | **124,700,000** | 167,200,000 | 124,600,000 |
+| 30 | ☐ Low-grade Nomad Gamma | 92,460,000 | **92,570,000** | 105,800,000 | 92,560,000 |
+| 31 | ☐ Mid-grade Rapture Gamma | 122,800,000 | **132,700,000** | 166,900,000 | 132,600,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 29 | ☐ Distribution Connections | 1 | **27,860,000** | 30,930,000 | 27,850,000 |
-| 30 | ☐ Heavy Compact Entropic Disintegrator | 1 | **6,929,000** | 15,010,000 | 6,928,000 |
-| 31 | ☐ Republic Fleet 280mm Howitzer Artillery | 1 | **16,270,000** | 26,160,000 | 16,260,000 |
-| 32 | ☐ State Defense Booster III | 1 | **26,210,000** | 36,150,000 | 26,200,000 |
+| 32 | ☐ Compressed Eifyrium | 6,852 | **1,765** | 2,805 | 1,764 |
+| 33 | ☐ Republic Fleet 720mm Howitzer Artillery | 2 | **68,050,000** | 73,810,000 | 68,040,000 |
+| 34 | ☐ Republic Mobility Booster II | 1 | **8,028,000** | 15,930,000 | 8,027,000 |
 
 ### Block 3 · if there's time · about 2 min
 
@@ -142,23 +144,23 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 33 | ☐ Antikythera Element | 197,900 | **307,600** | 0.01 | 307,700 |
+| 35 | ☐ Compressed Mercoxit II-Grade | 23,240 | **21,990** | 20,730 | 22,000 |
 
 #### List new stock
 _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Duration 3 months._
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 34 | ☐ Compressed Hezorime III-Grade | 196 | **999.50** | 809.40 | 999.60 |
+| 36 | ☐ Compressed Hezorime III-Grade | 196 | **999.20** | 809.40 | 999.30 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 35 | ☐ 50MN Microwarpdrive II | 3,793,000 | **3,794,000** | 3,794,000 | 3,803,000 |
-| 36 | ☐ Capital Flex Armor Hardener II | 64,740,000 | **64,780,000** | 79,330,000 | 64,770,000 |
-| 37 | ☐ State Security Token | 12,210,000 | **11,010,000** | 14,490,000 | 11,000,000 |
+| 37 | ☐ 50MN Microwarpdrive II | 3,793,000 | **3,819,000** | 3,845,000 | 3,818,000 |
+| 38 | ☐ Scorch Bomb | 1,167,000 | **1,168,000** | 1,377,000 | 1,167,000 |
+| 39 | ☐ State Security Token | 12,210,000 | **14,130,000** | 14,130,000 | 15,050,000 |
 
 ---
 Wallet 449.73M · escrow 1.01B · stock 3.66B · in transit 0.00 · net worth 5.12B (liquidation 2.84B)

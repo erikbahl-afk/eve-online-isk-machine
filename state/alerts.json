@@ -1,5 +1,35 @@
 [
  {
+  "key": "data:amarr",
+  "severity": "medium",
+  "since": 1795651236.847146,
+  "text": "Data problem in amarr: gap 26.0h too long; restarted"
+ },
+ {
+  "key": "data:dodixie",
+  "severity": "medium",
+  "since": 1795651236.847146,
+  "text": "Data problem in dodixie: gap 26.0h too long; restarted"
+ },
+ {
+  "key": "data:hek",
+  "severity": "medium",
+  "since": 1795651236.847146,
+  "text": "Data problem in hek: gap 26.0h too long; restarted"
+ },
+ {
+  "key": "data:jita",
+  "severity": "medium",
+  "since": 1795651236.847146,
+  "text": "Data problem in jita: gap 26.0h too long; restarted"
+ },
+ {
+  "key": "data:rens",
+  "severity": "medium",
+  "since": 1795651236.847146,
+  "text": "Data problem in rens: gap 26.0h too long; restarted"
+ },
+ {
   "key": "liquidation",
   "severity": "medium",
   "since": 1793915372.8054109,
@@ -15,162 +45,162 @@
   "key": "stale_sell:14",
   "severity": "medium",
   "since": 1794613405.4287903,
-  "text": "Sell order for Golem Exoplanets Hunter SKIN in amarr still has 3 left after 19 days."
+  "text": "Sell order for Golem Exoplanets Hunter SKIN in amarr still has 3 left after 20 days."
+ },
+ {
+  "key": "stale_sell:15",
+  "severity": "medium",
+  "since": 1794613405.4287903,
+  "text": "Sell order for Low-grade Crystal Epsilon in amarr still has 2 left after 20 days."
  },
  {
   "key": "stale_sell:18",
   "severity": "medium",
   "since": 1794613405.4287903,
-  "text": "Sell order for Gravid Vorton Tuning System Mutaplasmid in amarr still has 3 left after 19 days."
+  "text": "Sell order for Gravid Vorton Tuning System Mutaplasmid in amarr still has 3 left after 20 days."
  },
  {
   "key": "stale_sell:28",
   "severity": "medium",
   "since": 1795219233.463793,
-  "text": "Sell order for Infomorph Decryption Key in amarr still has 3,642 left after 11 days."
+  "text": "Sell order for Infomorph Decryption Key in amarr still has 3,642 left after 12 days."
  },
  {
   "key": "stale_sell:34",
   "severity": "medium",
   "since": 1795219233.463793,
-  "text": "Sell order for Compressed Mordunium IV-Grade in jita still has 5 left after 11 days."
+  "text": "Sell order for Compressed Mordunium IV-Grade in jita still has 5 left after 12 days."
  },
  {
   "key": "stale_sell:45",
   "severity": "medium",
   "since": 1795536033.3301058,
-  "text": "Sell order for Improved 'Guise' Cloaking Device II in amarr still has 2 left after 7 days."
+  "text": "Sell order for Improved 'Guise' Cloaking Device II in amarr still has 2 left after 8 days."
  },
  {
   "key": "stale_sell:48",
   "severity": "medium",
   "since": 1795536033.3301058,
-  "text": "Sell order for Caesium in amarr still has 17,162 left after 7 days."
+  "text": "Sell order for Caesium in amarr still has 17,162 left after 8 days."
  },
  {
   "key": "stale_sell:49",
   "severity": "medium",
   "since": 1795536033.3301058,
-  "text": "Sell order for Caldari Drone Specialization in amarr still has 7 left after 7 days."
+  "text": "Sell order for Caldari Drone Specialization in amarr still has 7 left after 8 days."
  },
  {
   "key": "stale_sell:53",
   "severity": "medium",
   "since": 1795536033.3301058,
-  "text": "Sell order for Zero-Point Mass Entangler in amarr still has 16 left after 7 days."
+  "text": "Sell order for Zero-Point Mass Entangler in amarr still has 16 left after 8 days."
+ },
+ {
+  "key": "stale_sell:55",
+  "severity": "medium",
+  "since": 1795536033.3301058,
+  "text": "Sell order for Polarized Light Neutron Blaster in amarr still has 7 left after 8 days."
+ },
+ {
+  "key": "stale_sell:9",
+  "severity": "medium",
+  "since": 1794613405.4287903,
+  "text": "Sell order for Black Market 'Valdimar' Drone Navigation DN-701 in amarr still has 3 left after 20 days."
  },
  {
   "key": "idle_buy:21",
   "severity": "info",
   "since": 1794376824.645961,
-  "text": "Buy order for Compressed Gneiss III-Grade in jita hasn't filled at all in 19 days (2.33k tied up)."
+  "text": "Buy order for Compressed Gneiss III-Grade in jita hasn't filled at all in 20 days (2.33k tied up)."
  },
  {
   "key": "idle_buy:22",
   "severity": "info",
   "since": 1794613405.4287903,
-  "text": "Buy order for Compressed Dark Glitter in jita hasn't filled at all in 16 days (2.25M tied up)."
+  "text": "Buy order for Compressed Dark Glitter in jita hasn't filled at all in 17 days (2.25M tied up)."
  },
  {
   "key": "idle_buy:40",
   "severity": "info",
   "since": 1795132829.190364,
-  "text": "Buy order for Bomb Launcher II in jita hasn't filled at all in 10 days (40.50M tied up)."
+  "text": "Buy order for Bomb Launcher II in jita hasn't filled at all in 11 days (40.50M tied up)."
  },
  {
   "key": "idle_buy:59",
   "severity": "info",
   "since": 1795363233.5435922,
-  "text": "Buy order for Compressed Fullerite-C540 in jita hasn't filled at all in 7 days (11.22M tied up)."
+  "text": "Buy order for Compressed Fullerite-C540 in jita hasn't filled at all in 8 days (11.22M tied up)."
  },
  {
   "key": "stale_sell:11",
   "severity": "info",
   "since": 1794613405.4287903,
-  "text": "Sell order for Dread Guristas Rocket Launcher in amarr still has 6 left after 19 days (repriced 1 d ago: step-down working)."
+  "text": "Sell order for Dread Guristas Rocket Launcher in amarr still has 6 left after 20 days (repriced 2 d ago: step-down working)."
  },
  {
   "key": "stale_sell:12",
   "severity": "info",
   "since": 1794613405.4287903,
-  "text": "Sell order for Standup M-Set Basic Small Ship Manufacturing Material Efficiency I in amarr still has 1 left after 19 days (repriced 1 d ago: step-down working)."
+  "text": "Sell order for Standup M-Set Basic Small Ship Manufacturing Material Efficiency I in amarr still has 1 left after 20 days (repriced 2 d ago: step-down working)."
  },
  {
   "key": "stale_sell:13",
   "severity": "info",
   "since": 1794613405.4287903,
-  "text": "Sell order for Typhoon Fleet Issue Capsuleer Elite XX SKIN in amarr still has 1 left after 19 days (repriced 1 d ago: step-down working)."
- },
- {
-  "key": "stale_sell:15",
-  "severity": "info",
-  "since": 1794613405.4287903,
-  "text": "Sell order for Low-grade Crystal Epsilon in amarr still has 2 left after 19 days (repriced 2 d ago: step-down working)."
+  "text": "Sell order for Typhoon Fleet Issue Capsuleer Elite XX SKIN in amarr still has 1 left after 20 days (repriced 2 d ago: step-down working)."
  },
  {
   "key": "stale_sell:16",
   "severity": "info",
   "since": 1794613405.4287903,
-  "text": "Sell order for Men's 'Precision' Boots in amarr still has 5 left after 19 days (repriced 1 d ago: step-down working)."
+  "text": "Sell order for Men's 'Precision' Boots in amarr still has 5 left after 20 days (repriced 2 d ago: step-down working)."
  },
  {
   "key": "stale_sell:17",
   "severity": "info",
   "since": 1794613405.4287903,
-  "text": "Sell order for 'Cartel' Power Diagnostic System I in amarr still has 7 left after 19 days (repriced 1 d ago: step-down working)."
+  "text": "Sell order for 'Cartel' Power Diagnostic System I in amarr still has 7 left after 20 days (repriced 2 d ago: step-down working)."
  },
  {
   "key": "stale_sell:26",
   "severity": "info",
   "since": 1794780029.8794281,
-  "text": "Sell order for Antikythera Element in jita still has 8 left after 16 days (repriced 1 d ago: step-down working)."
+  "text": "Sell order for Antikythera Element in jita still has 8 left after 17 days (repriced 2 d ago: step-down working)."
  },
  {
   "key": "stale_sell:30",
   "severity": "info",
   "since": 1795219233.463793,
-  "text": "Sell order for Void XL in amarr still has 2,434 left after 11 days (repriced 1 d ago: step-down working)."
+  "text": "Sell order for Void XL in amarr still has 2,434 left after 12 days (repriced 2 d ago: step-down working)."
  },
  {
   "key": "stale_sell:46",
   "severity": "info",
   "since": 1795536033.3301058,
-  "text": "Sell order for Limited Expanded 'Archiver' Cargo in amarr still has 2 left after 7 days (repriced 1 d ago: step-down working)."
+  "text": "Sell order for Limited Expanded 'Archiver' Cargo in amarr still has 2 left after 8 days (repriced 2 d ago: step-down working)."
  },
  {
   "key": "stale_sell:47",
   "severity": "info",
   "since": 1795536033.3301058,
-  "text": "Sell order for Standup Moon Drill I in amarr still has 2 left after 7 days (repriced 1 d ago: step-down working)."
+  "text": "Sell order for Standup Moon Drill I in amarr still has 2 left after 8 days (repriced 2 d ago: step-down working)."
  },
  {
   "key": "stale_sell:50",
   "severity": "info",
   "since": 1795536033.3301058,
-  "text": "Sell order for Legion Mjolnir Auto-Targeting Light Missile in amarr still has 2,900 left after 7 days (repriced 1 d ago: step-down working)."
+  "text": "Sell order for Legion Mjolnir Auto-Targeting Light Missile in amarr still has 2,900 left after 8 days (repriced 2 d ago: step-down working)."
  },
  {
   "key": "stale_sell:51",
   "severity": "info",
   "since": 1795536033.3301058,
-  "text": "Sell order for Mobile Large Warp Disruptor I in amarr still has 3 left after 7 days (repriced 1 d ago: step-down working)."
+  "text": "Sell order for Mobile Large Warp Disruptor I in amarr still has 3 left after 8 days (repriced 2 d ago: step-down working)."
  },
  {
   "key": "stale_sell:52",
   "severity": "info",
   "since": 1795536033.3301058,
-  "text": "Sell order for Shrapnel Bomb in amarr still has 29 left after 7 days (repriced 1 d ago: step-down working)."
- },
- {
-  "key": "stale_sell:55",
-  "severity": "info",
-  "since": 1795536033.3301058,
-  "text": "Sell order for Polarized Light Neutron Blaster in amarr still has 7 left after 7 days (repriced 2 d ago: step-down working)."
- },
- {
-  "key": "stale_sell:9",
-  "severity": "info",
-  "since": 1794613405.4287903,
-  "text": "Sell order for Black Market 'Valdimar' Drone Navigation DN-701 in amarr still has 3 left after 19 days (repriced 2 d ago: step-down working)."
+  "text": "Sell order for Shrapnel Bomb in amarr still has 29 left after 8 days (repriced 2 d ago: step-down working)."
  }
 ]

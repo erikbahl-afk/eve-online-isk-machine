@@ -1,4 +1,4 @@
-# Summary · Tue 24 Nov 14:00 PST
+# Summary · Wed 25 Nov 16:00 PST
 
 Updated every ~2 hours. **Your real character** is the first section; everything after it is the **practice trader** (pretend ISK, real market data). Each section starts with a line on how to read it.
 
@@ -6,35 +6,40 @@ Updated every ~2 hours. **Your real character** is the first section; everything
 _Automatic red flags from this run. The daily analysis must deal with each one: fix it, or explain why it's fine._
 
 
-- 🟠 Liquidation value is 55% of net worth (2.84B of 5.12B): much of the stock couldn't be sold quickly without a big loss. _(open 19 days)_
-- 🟠 Typhoon Fleet Issue Capsuleer Elite XX SKIN is 8.2% of net worth (418.51M). _(open 19 days)_
-- 🟠 Sell order for Golem Exoplanets Hunter SKIN in amarr still has 3 left after 19 days. _(open 11 days)_
-- 🟠 Sell order for Gravid Vorton Tuning System Mutaplasmid in amarr still has 3 left after 19 days. _(open 11 days)_
-- 🟠 Sell order for Infomorph Decryption Key in amarr still has 3,642 left after 11 days. _(open 4 days)_
-- 🟠 Sell order for Compressed Mordunium IV-Grade in jita still has 5 left after 11 days. _(open 4 days)_
-- 🟠 Sell order for Improved 'Guise' Cloaking Device II in amarr still has 2 left after 7 days.
-- 🟠 Sell order for Caesium in amarr still has 17,162 left after 7 days.
-- 🟠 Sell order for Caldari Drone Specialization in amarr still has 7 left after 7 days.
-- 🟠 Sell order for Zero-Point Mass Entangler in amarr still has 16 left after 7 days.
-- 🔵 Buy order for Compressed Gneiss III-Grade in jita hasn't filled at all in 19 days (2.33k tied up). _(open 14 days)_
-- 🔵 Buy order for Compressed Dark Glitter in jita hasn't filled at all in 16 days (2.25M tied up). _(open 11 days)_
-- 🔵 Buy order for Bomb Launcher II in jita hasn't filled at all in 10 days (40.50M tied up). _(open 5 days)_
-- 🔵 Buy order for Compressed Fullerite-C540 in jita hasn't filled at all in 7 days (11.22M tied up). _(open 2 days)_
-- 🔵 Sell order for Dread Guristas Rocket Launcher in amarr still has 6 left after 19 days (repriced 1 d ago: step-down working). _(open 11 days)_
-- 🔵 Sell order for Standup M-Set Basic Small Ship Manufacturing Material Efficiency I in amarr still has 1 left after 19 days (repriced 1 d ago: step-down working). _(open 11 days)_
-- 🔵 Sell order for Typhoon Fleet Issue Capsuleer Elite XX SKIN in amarr still has 1 left after 19 days (repriced 1 d ago: step-down working). _(open 11 days)_
-- 🔵 Sell order for Low-grade Crystal Epsilon in amarr still has 2 left after 19 days (repriced 2 d ago: step-down working). _(open 11 days)_
-- 🔵 Sell order for Men's 'Precision' Boots in amarr still has 5 left after 19 days (repriced 1 d ago: step-down working). _(open 11 days)_
-- 🔵 Sell order for 'Cartel' Power Diagnostic System I in amarr still has 7 left after 19 days (repriced 1 d ago: step-down working). _(open 11 days)_
-- 🔵 Sell order for Antikythera Element in jita still has 8 left after 16 days (repriced 1 d ago: step-down working). _(open 9 days)_
-- 🔵 Sell order for Void XL in amarr still has 2,434 left after 11 days (repriced 1 d ago: step-down working). _(open 4 days)_
-- 🔵 Sell order for Limited Expanded 'Archiver' Cargo in amarr still has 2 left after 7 days (repriced 1 d ago: step-down working).
-- 🔵 Sell order for Standup Moon Drill I in amarr still has 2 left after 7 days (repriced 1 d ago: step-down working).
-- 🔵 Sell order for Legion Mjolnir Auto-Targeting Light Missile in amarr still has 2,900 left after 7 days (repriced 1 d ago: step-down working).
-- 🔵 Sell order for Mobile Large Warp Disruptor I in amarr still has 3 left after 7 days (repriced 1 d ago: step-down working).
-- 🔵 Sell order for Shrapnel Bomb in amarr still has 29 left after 7 days (repriced 1 d ago: step-down working).
-- 🔵 Sell order for Polarized Light Neutron Blaster in amarr still has 7 left after 7 days (repriced 2 d ago: step-down working).
-- 🔵 Sell order for Black Market 'Valdimar' Drone Navigation DN-701 in amarr still has 3 left after 19 days (repriced 2 d ago: step-down working). _(open 11 days)_
+- 🟠 Data problem in amarr: gap 26.0h too long; restarted
+- 🟠 Data problem in dodixie: gap 26.0h too long; restarted
+- 🟠 Data problem in hek: gap 26.0h too long; restarted
+- 🟠 Data problem in jita: gap 26.0h too long; restarted
+- 🟠 Data problem in rens: gap 26.0h too long; restarted
+- 🟠 Liquidation value is 55% of net worth (2.84B of 5.12B): much of the stock couldn't be sold quickly without a big loss. _(open 20 days)_
+- 🟠 Typhoon Fleet Issue Capsuleer Elite XX SKIN is 8.2% of net worth (418.51M). _(open 20 days)_
+- 🟠 Sell order for Golem Exoplanets Hunter SKIN in amarr still has 3 left after 20 days. _(open 12 days)_
+- 🟠 Sell order for Low-grade Crystal Epsilon in amarr still has 2 left after 20 days. _(open 12 days)_
+- 🟠 Sell order for Gravid Vorton Tuning System Mutaplasmid in amarr still has 3 left after 20 days. _(open 12 days)_
+- 🟠 Sell order for Infomorph Decryption Key in amarr still has 3,642 left after 12 days. _(open 5 days)_
+- 🟠 Sell order for Compressed Mordunium IV-Grade in jita still has 5 left after 12 days. _(open 5 days)_
+- 🟠 Sell order for Improved 'Guise' Cloaking Device II in amarr still has 2 left after 8 days. _(open 1 days)_
+- 🟠 Sell order for Caesium in amarr still has 17,162 left after 8 days. _(open 1 days)_
+- 🟠 Sell order for Caldari Drone Specialization in amarr still has 7 left after 8 days. _(open 1 days)_
+- 🟠 Sell order for Zero-Point Mass Entangler in amarr still has 16 left after 8 days. _(open 1 days)_
+- 🟠 Sell order for Polarized Light Neutron Blaster in amarr still has 7 left after 8 days. _(open 1 days)_
+- 🟠 Sell order for Black Market 'Valdimar' Drone Navigation DN-701 in amarr still has 3 left after 20 days. _(open 12 days)_
+- 🔵 Buy order for Compressed Gneiss III-Grade in jita hasn't filled at all in 20 days (2.33k tied up). _(open 15 days)_
+- 🔵 Buy order for Compressed Dark Glitter in jita hasn't filled at all in 17 days (2.25M tied up). _(open 12 days)_
+- 🔵 Buy order for Bomb Launcher II in jita hasn't filled at all in 11 days (40.50M tied up). _(open 6 days)_
+- 🔵 Buy order for Compressed Fullerite-C540 in jita hasn't filled at all in 8 days (11.22M tied up). _(open 3 days)_
+- 🔵 Sell order for Dread Guristas Rocket Launcher in amarr still has 6 left after 20 days (repriced 2 d ago: step-down working). _(open 12 days)_
+- 🔵 Sell order for Standup M-Set Basic Small Ship Manufacturing Material Efficiency I in amarr still has 1 left after 20 days (repriced 2 d ago: step-down working). _(open 12 days)_
+- 🔵 Sell order for Typhoon Fleet Issue Capsuleer Elite XX SKIN in amarr still has 1 left after 20 days (repriced 2 d ago: step-down working). _(open 12 days)_
+- 🔵 Sell order for Men's 'Precision' Boots in amarr still has 5 left after 20 days (repriced 2 d ago: step-down working). _(open 12 days)_
+- 🔵 Sell order for 'Cartel' Power Diagnostic System I in amarr still has 7 left after 20 days (repriced 2 d ago: step-down working). _(open 12 days)_
+- 🔵 Sell order for Antikythera Element in jita still has 8 left after 17 days (repriced 2 d ago: step-down working). _(open 10 days)_
+- 🔵 Sell order for Void XL in amarr still has 2,434 left after 12 days (repriced 2 d ago: step-down working). _(open 5 days)_
+- 🔵 Sell order for Limited Expanded 'Archiver' Cargo in amarr still has 2 left after 8 days (repriced 2 d ago: step-down working). _(open 1 days)_
+- 🔵 Sell order for Standup Moon Drill I in amarr still has 2 left after 8 days (repriced 2 d ago: step-down working). _(open 1 days)_
+- 🔵 Sell order for Legion Mjolnir Auto-Targeting Light Missile in amarr still has 2,900 left after 8 days (repriced 2 d ago: step-down working). _(open 1 days)_
+- 🔵 Sell order for Mobile Large Warp Disruptor I in amarr still has 3 left after 8 days (repriced 2 d ago: step-down working). _(open 1 days)_
+- 🔵 Sell order for Shrapnel Bomb in amarr still has 29 left after 8 days (repriced 2 d ago: step-down working). _(open 1 days)_
 
 ## 1. Your trading character
 _Read from the game over SSO. Shows how far the skill plan is and what needs your attention._
@@ -49,7 +54,7 @@ _Read from the game over SSO. Shows how far the skill plan is and what needs you
 ## 2. Practice portfolio
 _The paper trader started with 5.00B on 28 Oct. Net worth counts stock at what we paid; liquidation is the worst case if we dumped everything into buy orders right now._
 
-- **Net worth:** 5.12B (+2.41% in 27.2 days) · liquidation 2.84B
+- **Net worth:** 5.12B (+2.41% in 28.3 days) · liquidation 2.84B
 - **Where the ISK is:** cash 449.73M · locked in buy orders 1.01B · stock 3.66B · on a courier 0.00
 - **Profit so far (realized):** 120.57M. That's completed sales minus every fee paid. Fees: broker 163.95M, relist 69.39M, sales tax 29.63M, courier 207.00M
 - **Location:** amarr · import hub amarr · shipments on the way 0
@@ -114,73 +119,73 @@ _Market size = ISK spent per day buying from sell orders in that station. Items 
 
 | Hub | Market size/day | Station items | Station profit/day | Import items | Import profit/day |
 |---|---|---|---|---|---|
-| jita | 5.23T | 15 | 20.11M | - | - |
-| amarr | 531.47B | 6 | 7.48M | 34 | 79.51M |
-| dodixie | 156.07B | 3 | 2.59M | 51 | 104.53M |
-| rens | 30.49B | 0 | - | 11 | 29.79M |
-| hek | 65.16B | 1 | 1.19M | 25 | 49.50M |
+| jita | 5.35T | 37 | 48.57M | - | - |
+| amarr | 527.62B | 16 | 22.29M | 44 | 108.07M |
+| dodixie | 163.40B | 2 | 2.44M | 52 | 114.11M |
+| rens | 35.37B | 0 | - | 17 | 57.94M |
+| hek | 69.16B | 0 | - | 23 | 61.95M |
 
 ## 8. Best items to trade inside Jita
 _Buy at the highest buy price + 1 tick, sell at the lowest sell price − 1 tick. Margin is after all fees. On top = how much of the time between your logins our order would stay the best price before a rival undercuts it (sell side / buy side). Limited by = which resource it eats most: order slots, ISK, or your time._
 
 | Item | Buy → sell price | Margin | Sold per day | On top (sell/buy) | Profit/day | Limited by |
 |---|---|---|---|---|---|---|
-| Low-grade Virtue Gamma | 141.00M → 187.30M | 24.9% | 0.1 | 13% / 44% | 2.12M | time |
-| Imperial Electronics Booster II | 8.00M → 19.97M | 135.9% | 0.2 | 8% / 14% | 2.14M | time |
-| Low-grade Nomad Gamma | 92.49M → 128.30M | 30.5% | 0.1 | 11% / 25% | 1.80M | time |
-| Astrahus | 998.90M → 1.17B | 10.2% | 0.0 | 6% / 7% | 1.89M | time |
-| Zorya's Light Entropic Disintegrator | 232.90M → 302.70M | 22.1% | 0.0 | 14% / 7% | 1.78M | time |
-| Heavy Compact Entropic Disintegrator | 6.93M → 16.98M | 131.6% | 0.1 | 37% / 88% | 1.05M | time |
-| Republic Fleet 280mm Howitzer Artillery | 16.27M → 29.59M | 71.5% | 0.1 | 37% / 58% | 1.01M | time |
-| Neurotoxin Control | 8.91M → 15.02M | 58.8% | 0.2 | 5% / 8% | 1.25M | time |
-| Federation Mobility Booster III | 23.02M → 52.32M | 114.7% | 0.0 | 6% / 56% | 1.07M | time |
-| Distribution Connections | 27.86M → 34.99M | 18.0% | 0.2 | 13% / 17% | 1.16M | time |
-| State Defense Booster III | 26.21M → 40.89M | 46.9% | 0.1 | 11% / 28% | 1.02M | time |
-| Moreau YC128 Campaign Bus | 150.20M → 187.60M | 17.3% | 0.0 | 17% / 27% | 975.44k | time |
+| Distribution Connections | 28.06M → 37.79M | 26.6% | 0.5 | 21% / 21% | 3.68M | time |
+| Republic Fleet 720mm Howitzer Artillery | 68.05M → 83.49M | 15.2% | 0.4 | 15% / 29% | 3.58M | time |
+| Glorified Gravid Large Cap Battery Mutaplasmid | 127.50M → 164.30M | 21.1% | 0.1 | 14% / 40% | 2.28M | time |
+| Low-grade Virtue Delta | 178.10M → 214.40M | 13.0% | 0.1 | 11% / 10% | 2.07M | time |
+| Compressed Eifyrium | 1.76k → 3.17k | 69.5% | 1712.9 | 6% / 12% | 2.07M | time |
+| Low-grade Virtue Gamma | 141.80M → 178.40M | 18.2% | 0.1 | 11% / 43% | 1.82M | time |
+| Republic Mobility Booster II | 8.03M → 18.02M | 112.0% | 0.2 | 8% / 9% | 2.03M | time |
+| Glorified Unstable Entropic Radiation Sink Mutaplasmid | 172.90M → 229.20M | 24.6% | 0.0 | 17% / 24% | 1.75M | time |
+| Federal Equilibrium Token | 10.78M → 14.99M | 30.8% | 0.6 | 7% / 3% | 1.89M | time |
+| State Mobility Booster III | 18.45M → 44.99M | 130.5% | 0.1 | 7% / 14% | 1.74M | time |
+| Prototype Jump Drive Economizer | 245.80M → 283.10M | 8.1% | 0.1 | 8% / 8% | 1.73M | time |
+| Neurotoxin Control | 8.96M → 14.87M | 56.4% | 0.3 | 6% / 7% | 1.72M | time |
 
 ## 9. Best items to import Jita → Amarr
 _Buy from Jita sellers, ship by courier, sell just under the cheapest seller there. Margin is after shipping and fees. m³ = cargo volume per unit._
 
 | Item | Jita price → sell price | m³ | Margin | Sold per day | On top | Profit/day | Limited by |
 |---|---|---|---|---|---|---|---|
-| Republic Fleet Ballistic Control System | 101.10M → 138.70M | 5.0 | 25.9% | 0.5 | 38% | 13.52M | ISK |
-| Small Vorton Projector II | 66.34M → 97.94M | 5.0 | 35.8% | 0.2 | 53% | 4.83M | time |
-| Huntsman SW-600-I | 6.50M → 9.98M | 10.0 | 41.5% | 1.8 | 48% | 4.82M | time |
-| Improved 'Guise' Cloaking Device II | 32.30M → 49.79M | 100.0 | 42.0% | 0.3 | 62% | 3.53M | time |
-| Upwell Starship Engineering | 21.02M → 37.62M | 0.0 | 65.6% | 0.3 | 38% | 3.72M | time |
-| Corpus X-Type Thermal Armor Hardener | 331.60M → 449.70M | 5.0 | 24.4% | 0.0 | 10% | 3.61M | time |
-| Blood Bronze Tag | 7.62M → 9.99M | 0.1 | 20.1% | 2.2 | 16% | 3.29M | time |
-| Large 'Sheriff' Shield Extender | 34.86M → 44.99M | 20.0 | 18.2% | 0.5 | 49% | 3.01M | time |
-| Armored Command Mindlink | 41.96M → 57.89M | 1.0 | 26.6% | 0.3 | 51% | 2.96M | time |
-| Legion Mjolnir Auto-Targeting Light Missile | 999.00 → 2.31k | 0.0 | 115.2% | 2095.9 | 47% | 2.40M | time |
-| Standup Moon Drill I | 107.90M → 134.90M | 8,000.0 | 10.7% | 0.2 | 40% | 2.43M | time |
-| Republic Fleet Target Painter | 30.98M → 39.33M | 5.0 | 16.2% | 0.5 | 19% | 2.48M | time |
+| Naga Navy Issue | 151.70M → 241.90M | 15,000.0 | 40.8% | 0.2 | 14% | 12.65M | ISK |
+| Republic Fleet Ballistic Control System | 110.60M → 136.40M | 5.0 | 12.7% | 0.6 | 40% | 8.65M | ISK |
+| Mid-grade Crystal Omega | 234.70M → 295.40M | 1.0 | 15.1% | 0.2 | 18% | 6.99M | time |
+| Small Vorton Projector II | 62.84M → 97.94M | 5.0 | 43.7% | 0.2 | 44% | 6.26M | time |
+| Improved Mindflood Booster | 8.90M → 12.45M | 1.0 | 28.5% | 1.9 | 24% | 4.78M | time |
+| Capital Compact Pb-Acid Cap Battery | 15.69M → 38.48M | 1,000.0 | 126.3% | 0.2 | 85% | 4.02M | time |
+| Dysprosium | 47.12k → 57.49k | 0.1 | 11.5% | 1219.3 | 49% | 6.48M | ISK |
+| Imperial Navy Small Armor Repairer | 16.81M → 39.95M | 5.0 | 121.5% | 0.2 | 35% | 4.31M | time |
+| Armored Command Mindlink | 41.96M → 57.89M | 1.0 | 26.6% | 0.4 | 43% | 3.96M | time |
+| Blood Bronze Tag | 7.32M → 10.00M | 0.1 | 25.3% | 2.3 | 14% | 4.18M | time |
+| Axosomatic Neurolink Enhancer | 478.30k → 621.10k | 4.0 | 18.9% | 38.2 | 86% | 3.45M | time |
+| Improved 'Guise' Cloaking Device II | 33.98M → 49.96M | 100.0 | 35.3% | 0.3 | 73% | 3.57M | time |
 
 ## 10. Cornering watchlist (read-only, nothing is traded)
 _Items where buying out the cheapest few sell orders and relisting higher would pay on paper. We only watch them, to learn whether such prices hold or get undercut._
 
 | Hub | Item | Cheapest now | Buy out | Cost | Relist at | Paper profit | Return | Days to sell | Rival updates/day |
 |---|---|---|---|---|---|---|---|---|---|
-| amarr | Imperial Mobility Booster III | 37.00M | 7 orders / 7 units | 296.69M | 90.63M | 306.79M | 103% | 8.0 | 2.8 |
-| jita | True Sansha Focused Medium Pulse Laser | 19.89M | 7 orders / 9 units | 179.58M | 50.24M | 250.54M | 140% | 6.4 | 2.1 |
-| amarr | Purloined Sansha Data Analyzer | 22.50M | 5 orders / 8 units | 207.50M | 48.99M | 165.31M | 80% | 8.3 | 0.4 |
-| jita | Mid-grade Centurion Alpha | 80.00M | 1 orders / 4 units | 320.00M | 119.30M | 133.94M | 42% | 7.6 | 0.3 |
-| jita | Transport Ships | 38.80M | 2 orders / 9 units | 349.38M | 54.94M | 120.98M | 35% | 1.1 | 1.3 |
-| jita | Inherent Implants 'Squire' Capacitor Systems Operation EO-602 | 6.47M | 3 orders / 41 units | 265.46M | 9.72M | 113.59M | 43% | 4.7 | 2.5 |
-| jita | Takmahl Astral Treatment | 9.41M | 14 orders / 32 units | 322.51M | 14.18M | 109.13M | 34% | 4.7 | 2.8 |
-| jita | Coherent Asteroid Mining Crystal Type B I | 219.00k | 7 orders / 1,017 units | 248.42M | 369.10k | 108.66M | 44% | 6.6 | 0.9 |
-| jita | Inherent Implants 'Noble' Hull Upgrades HG-1004 | 82.18M | 2 orders / 4 units | 339.12M | 117.40M | 107.59M | 32% | 4.9 | 0.9 |
-| jita | Capital Blaster Specialization | 34.99M | 3 orders / 8 units | 279.93M | 49.99M | 100.49M | 36% | 6.0 | 0.3 |
+| amarr | Imperial Mobility Booster III | 39.84M | 7 orders / 7 units | 299.35M | 90.44M | 302.87M | 101% | 7.0 | 1.8 |
+| jita | Large Drone Durability Enhancer II | 125.00M | 1 orders / 2 units | 250.00M | 276.20M | 275.47M | 110% | 8.3 | 1.5 |
+| jita | Mining Laser Optimization Charge Blueprint | 17.43M | 5 orders / 23 units | 401.62M | 26.15M | 170.51M | 42% | 8.1 | 1.5 |
+| jita | Large Hybrid Locus Coordinator II | 39.39M | 4 orders / 10 units | 407.12M | 59.24M | 156.40M | 38% | 4.1 | 2.0 |
+| jita | Mid-grade Centurion Alpha | 80.00M | 1 orders / 4 units | 320.00M | 119.30M | 133.94M | 42% | 6.4 | 0.3 |
+| amarr | Titanium Diborite Armor Plate | 7.47k | 5 orders / 19,250 units | 159.67M | 15.83k | 130.20M | 82% | 5.2 | 0.2 |
+| jita | Mid-grade Centurion Beta | 99.00M | 2 orders / 3 units | 297.00M | 147.20M | 123.07M | 41% | 5.5 | 0.2 |
+| jita | Tornado Fleet Issue Stark Strategist SKIN | 250.00M | 1 orders / 1 units | 250.00M | 381.30M | 112.71M | 45% | 1.8 | 1.0 |
+| amarr | Purloined Sansha Data Analyzer | 25.00M | 6 orders / 7 units | 190.93M | 45.45M | 111.71M | 59% | 7.2 | 0.0 |
+| jita | Capital Launcher Hardpoint | 9.49M | 3 orders / 41 units | 389.05M | 12.49M | 98.07M | 25% | 0.9 | 1.3 |
 
 ## 11. Data health
 _Is the market data flowing? Orders = orders seen in the station · Hours today = hours of data collected since 00:00 UTC · Trades seen = trades inferred since the last snapshot. Any note means something went wrong._
 
 | Hub | Orders | Hours today | Trades seen | Note |
 |---|---|---|---|---|
-| jita | 377,531 | 24.0 | 8,983 |  |
-| amarr | 132,473 | 24.0 | 2,831 |  |
-| dodixie | 69,134 | 24.0 | 1,710 |  |
-| rens | 33,482 | 24.0 | 528 |  |
-| hek | 41,772 | 24.0 | 846 |  |
+| jita | 376,872 | 0.0 | 0 | gap 26.0h too long; restarted |
+| amarr | 131,547 | 0.0 | 0 | gap 26.0h too long; restarted |
+| dodixie | 69,631 | 0.0 | 0 | gap 26.0h too long; restarted |
+| rens | 33,255 | 0.0 | 0 | gap 26.0h too long; restarted |
+| hek | 42,633 | 0.0 | 0 | gap 26.0h too long; restarted |
 
-_This run took 47 s (market data 14 s, stats and character 4 s, experiments 25 s, main portfolio 3 s, cornering scan 1 s, ESI back-off 0 s; 1,549 ESI calls). A slow run usually means ESI rate limits (back-off) or a first-time lookup of many item types._
+_This run took 36 s (market data 13 s, stats and character 4 s, experiments 17 s, main portfolio 1 s, cornering scan 0 s, ESI back-off 0 s; 1,641 ESI calls). A slow run usually means ESI rate limits (back-off) or a first-time lookup of many item types._
