@@ -993,6 +993,7 @@ type_id,name,volume,group_id
 18999,,5,
 19003,Corpii A-Type Small Armor Repairer,5,62
 19009,Centii A-Type Small Armor Repairer,5,62
+19011,,5,62
 19013,Coreli B-Type Small Armor Repairer,5,62
 19015,Coreli A-Type Small Armor Repairer,5,62
 19017,Corpum C-Type Medium Armor Repairer,10,62
@@ -1130,6 +1131,7 @@ type_id,name,volume,group_id
 20172,,0.1,
 20183,,1300000,
 20185,Charon,1300000,
+20187,,1300000,513
 20189,,1300000,513
 20199,Dread Guristas Multispectral ECM,5,201
 20211,Heavy Missile Specialization,,
@@ -1203,6 +1205,7 @@ type_id,name,volume,group_id
 21512,'Delineative' Warp Scrambler,5,52
 21540,'Inception' Target Painter,5,
 21569,Sleeper Profound Research Notes,1,732
+21586,,1,530
 21640,,10,100
 21667,Capital Projectile Turret,,
 21721,,0.1,
@@ -2955,7 +2958,7 @@ type_id,name,volume,group_id
 98417,Imperial Hardpoint Booster I,1,303
 98418,Imperial Hardpoint Booster II,1,303
 98419,Imperial Hardpoint Booster III,1,303
-98422,,1,303
+98422,State Electronics Booster III,1,303
 98425,State Defense Booster III,1,303
 98428,State Mobility Booster III,1,303
 98429,State Hardpoint Booster I,1,303
