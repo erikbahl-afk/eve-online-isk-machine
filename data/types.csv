@@ -33,7 +33,7 @@ type_id,name,volume,group_id
 626,Vexor,10000,26
 627,Thorax,10000,26
 628,,10000,26
-629,Rupture,,
+629,Rupture,10000,26
 630,Bellicose,10000,26
 632,,10000,26
 633,,10000,26
@@ -136,7 +136,7 @@ type_id,name,volume,group_id
 2553,EM Shield Amplifier II,5,295
 2563,,5,
 2567,Multispectral ECM II,5,201
-2571,Gravimetric ECM II,,
+2571,Gravimetric ECM II,5,201
 2575,,5,201
 2605,Nanofiber Internal Structure II,5,763
 2613,Mjolnir Fury Light Missile,,
@@ -417,7 +417,7 @@ type_id,name,volume,group_id
 11689,Laser Focusing Crystals,1,334
 11690,,1,
 11693,Graviton Pulse Generator,1,334
-11694,,1,
+11694,,1,334
 11695,Plasma Pulse Generator,1,334
 11957,Falcon,10000,833
 11959,Rook,10000,906
@@ -755,7 +755,7 @@ type_id,name,volume,group_id
 15909,Caldari Navy EM Shield Amplifier,5,
 15931,Caldari Navy Large Graviton Smartbomb,50,72
 15935,Republic Fleet Small Proton Smartbomb,5,72
-15949,Federation Navy Small Plasma Smartbomb,,
+15949,Federation Navy Small Plasma Smartbomb,5,72
 15955,Federation Navy Large Plasma Smartbomb,50,72
 15963,Imperial Navy Large EMP Smartbomb,50,72
 15965,Republic Fleet Tracking Enhancer,5,211
@@ -930,6 +930,7 @@ type_id,name,volume,group_id
 18813,,5,
 18817,Corelum B-Type Thermal Energized Membrane,5,326
 18819,Corelum A-Type Multispectrum Energized Membrane,5,326
+18821,,5,326
 18827,Corelum A-Type Thermal Energized Membrane,5,
 18829,Corpum C-Type Multispectrum Energized Membrane,5,326
 18831,Centum C-Type Multispectrum Energized Membrane,5,326
@@ -1263,6 +1264,7 @@ type_id,name,volume,group_id
 22983,,0.0125,85
 22993,Federation Navy Antimatter Charge L,0.025,85
 22995,,0.025,
+22999,Federation Navy Thorium Charge L,,
 23005,Federation Navy Tungsten Charge L,0.025,85
 23007,Federation Navy Iron Charge L,,
 23009,Caldari Navy Antimatter Charge S,0.0025,85
@@ -2653,6 +2655,7 @@ type_id,name,volume,group_id
 83485,,1000,4769
 84100,Paladin War for the Empire SKIN,0.01,
 84173,Imperial Gold Metallic - Limited,0.1,4726
+84422,,1,1964
 85084,Small Breacher Pod Launcher,5,4807
 85085,Medium Breacher Pod Launcher,10,4807
 85086,,15000,419
@@ -2926,6 +2929,7 @@ type_id,name,volume,group_id
 98417,Imperial Hardpoint Booster I,1,303
 98418,Imperial Hardpoint Booster II,1,303
 98419,Imperial Hardpoint Booster III,1,303
+98422,,1,303
 98425,State Defense Booster III,1,303
 98428,State Mobility Booster III,1,303
 98429,State Hardpoint Booster I,1,303
@@ -2945,7 +2949,7 @@ type_id,name,volume,group_id
 98454,Republic Hardpoint Booster II,,
 98455,Republic Hardpoint Booster III,,
 98484,,0.01,1950
-98650,,0.01,1950
+98650,Oracle Navy Issue Mandate of Faith SKIN,0.01,1950
 98651,,0.01,1950
 98652,,0.01,1950
 98653,Tornado Fleet Issue Stark Strategist SKIN,0.01,1950

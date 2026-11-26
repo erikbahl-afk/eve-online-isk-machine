@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0336,
- "buy_orders": 5838,
+ "ask_ratio_median": 1.034,
+ "buy_orders": 5837,
  "buy_orders_reaching_jita": 5768,
  "name": "Perimeter - Tranquility Trading Tower",
  "orders": 6305,
- "sell_orders": 467,
- "share_ask_below_jita": 0.2993,
+ "sell_orders": 468,
+ "share_ask_below_jita": 0.2925,
  "structure_id": 1042508032148,
- "t": 1795652501.2611594,
+ "t": 1795658461.1626348,
  "top_ask_below_jita": [
   {
    "best_ask": 6665.0,
@@ -24,8 +24,8 @@
    "type_id": 90495
   },
   {
-   "best_ask": 14000.0,
-   "gap": 0.9054,
+   "best_ask": 14500.0,
+   "gap": 0.9087,
    "name": "",
    "s_ask": 1324.0,
    "type_id": 90590
@@ -64,6 +64,13 @@
    "name": "",
    "s_ask": 30000.0,
    "type_id": 3301
+  },
+  {
+   "best_ask": 950000.0,
+   "gap": 0.6947,
+   "name": "Antikythera Element",
+   "s_ask": 290000.0,
+   "type_id": 34575
   },
   {
    "best_ask": 99830.0,
@@ -106,67 +113,25 @@
    "name": "",
    "s_ask": 3500000.0,
    "type_id": 46916
-  },
-  {
-   "best_ask": 90000000.0,
-   "gap": 0.5556,
-   "name": "",
-   "s_ask": 40000000.0,
-   "type_id": 44945
   }
  ],
  "top_bid_over_jita": [
   {
-   "best_bid": 847400000.0,
-   "gap": 0.0031,
-   "name": "Golem",
-   "s_bid_reach": 850000000.0,
-   "type_id": 28710
-  },
-  {
-   "best_bid": 65040.0,
-   "gap": 0.0023,
+   "best_bid": 29350000.0,
+   "gap": 0.3629,
    "name": "",
-   "s_bid_reach": 65190.0,
-   "type_id": 261
+   "s_bid_reach": 40000000.0,
+   "type_id": 93841
   },
   {
-   "best_bid": 101900000.0,
-   "gap": 0.001,
-   "name": "Federation Navy Tracking Computer",
-   "s_bid_reach": 102000000.0,
-   "type_id": 15792
-  },
-  {
-   "best_bid": 180300.0,
-   "gap": 0.0006,
+   "best_bid": 31580000.0,
+   "gap": 0.2666,
    "name": "",
-   "s_bid_reach": 180400.0,
-   "type_id": 16467
-  },
-  {
-   "best_bid": 83510000.0,
-   "gap": 0.0005,
-   "name": "Astero",
-   "s_bid_reach": 83550000.0,
-   "type_id": 33468
-  },
-  {
-   "best_bid": 99940000.0,
-   "gap": 0.0002,
-   "name": "Gistum C-Type Medium Shield Booster",
-   "s_bid_reach": 99960000.0,
-   "type_id": 19181
-  },
-  {
-   "best_bid": 601400000.0,
-   "gap": 0.0002,
-   "name": "",
-   "s_bid_reach": 601500000.0,
-   "type_id": 20505
+   "s_bid_reach": 40000000.0,
+   "type_id": 93840
   }
  ],
- "types": 3838,
- "types_also_in_jita": 3838,
- "types_bid_over_jita_reaching": 7
+ "types": 3840,
+ "types_also_in_jita": 3840,
+ "types_bid_over_jita_reaching": 2
 }
