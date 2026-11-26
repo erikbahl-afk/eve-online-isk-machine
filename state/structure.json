@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.035,
- "buy_orders": 5861,
- "buy_orders_reaching_jita": 5786,
+ "ask_ratio_median": 1.039,
+ "buy_orders": 5857,
+ "buy_orders_reaching_jita": 5785,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6314,
+ "orders": 6310,
  "sell_orders": 453,
- "share_ask_below_jita": 0.2946,
+ "share_ask_below_jita": 0.292,
  "structure_id": 1042508032148,
- "t": 1795701661.0573866,
+ "t": 1795708182.8986697,
  "top_ask_below_jita": [
   {
    "best_ask": 10000.0,
@@ -38,15 +38,15 @@
    "type_id": 84407
   },
   {
-   "best_ask": 74910.0,
+   "best_ask": 74900.0,
    "gap": 0.6664,
    "name": "",
    "s_ask": 24990.0,
    "type_id": 22576
   },
   {
-   "best_ask": 59500.0,
-   "gap": 0.6049,
+   "best_ask": 59000.0,
+   "gap": 0.6015,
    "name": "",
    "s_ask": 23510.0,
    "type_id": 21080
@@ -115,8 +115,37 @@
    "type_id": 45969
   }
  ],
- "top_bid_over_jita": [],
- "types": 3824,
- "types_also_in_jita": 3824,
- "types_bid_over_jita_reaching": 0
+ "top_bid_over_jita": [
+  {
+   "best_bid": 64710000.0,
+   "gap": 0.0006,
+   "name": "Pithum C-Type Medium Shield Booster",
+   "s_bid_reach": 64750000.0,
+   "type_id": 19187
+  },
+  {
+   "best_bid": 25910.0,
+   "gap": 0.0004,
+   "name": "Datacore - Mechanical Engineering",
+   "s_bid_reach": 25920.0,
+   "type_id": 20424
+  },
+  {
+   "best_bid": 2806000.0,
+   "gap": 0.0004,
+   "name": "'Vigilant' Vital Drone Navigation Computer",
+   "s_bid_reach": 2807000.0,
+   "type_id": 97976
+  },
+  {
+   "best_bid": 5425000.0,
+   "gap": 0.0002,
+   "name": "Orbweaver SW-300-I",
+   "s_bid_reach": 5426000.0,
+   "type_id": 92033
+  }
+ ],
+ "types": 3822,
+ "types_also_in_jita": 3822,
+ "types_bid_over_jita_reaching": 4
 }

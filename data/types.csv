@@ -1132,6 +1132,7 @@ type_id,name,volume,group_id
 20185,Charon,1300000,
 20189,,1300000,513
 20199,Dread Guristas Multispectral ECM,5,201
+20211,Heavy Missile Specialization,,
 20212,Cruise Missile Specialization,0.01,256
 20213,,0.01,256
 20327,Capital Energy Turret,,
@@ -1322,6 +1323,7 @@ type_id,name,volume,group_id
 24242,Infomorph Psychology,,
 24283,Fighter Support Unit I,1000,407
 24348,,50,650
+24427,Drone Link Augmentor II,25,647
 24438,Omnidirectional Tracking Link II,,
 24486,Inferno Rage Heavy Assault Missile,,
 24490,,0.015,654
@@ -2010,6 +2012,7 @@ type_id,name,volume,group_id
 40346,Siren I,3000,1537
 40347,,3000,1537
 40349,25000mm Crystalline Carbonide Restrained Plates,1000,329
+40350,,1000,329
 40351,25000mm Steel Plates II,1000,329
 40356,Capital F-S9 Regolith Compact Shield Extender,1000,38
 40357,Capital Shield Extender II,1000,38
@@ -2209,7 +2212,7 @@ type_id,name,volume,group_id
 46637,Standup M-Set Moon Ore Grading Processor I,10,1943
 47028,Neural Lace 'Blackglass' Net Intrusion 920-40,1,1230
 47029,Rattlesnake King's Ransom Luecin SKIN,,
-47037,Standup Siren I,,
+47037,Standup Siren I,6000,4778
 47123,,3600,4779
 47133,Standup Dromi I,,
 47136,Standup Siren II,6000,4778
