@@ -911,6 +911,7 @@ type_id,name,volume,group_id
 18658,,5,
 18660,Gistum C-Type 10MN Afterburner,5,46
 18666,Gistum B-Type 10MN Afterburner,5,46
+18670,,5,46
 18676,Gist X-Type 100MN Afterburner,5,46
 18682,,5,46
 18684,Core C-Type 100MN Afterburner,5,46
@@ -1571,6 +1572,7 @@ type_id,name,volume,group_id
 28682,Synth X-Instinct Booster,1,303
 28684,Synth Sooth Sayer Booster,1,
 28694,Amber Mykoserocin,10,711
+28695,,10,711
 28696,Celadon Mykoserocin,,
 28697,,10,711
 28698,Lime Mykoserocin,10,711
@@ -2004,7 +2006,7 @@ type_id,name,volume,group_id
 37844,Standup XL Cruise Missile,0.5,1546
 37846,Standup Cruise Missile,0.5,1547
 37847,Standup Heavy Missile,0.5,1547
-37848,,0.5,
+37848,,0.5,1547
 40346,Siren I,3000,1537
 40347,,3000,1537
 40349,25000mm Crystalline Carbonide Restrained Plates,1000,329
@@ -2170,7 +2172,7 @@ type_id,name,volume,group_id
 45623,Legion Core - Augmented Antimatter Reactor,40,958
 45625,,40,958
 45626,Tengu Core - Augmented Graviton Reactor,40,958
-45627,,40,
+45627,,40,958
 45628,,40,
 45629,Proteus Core - Augmented Fusion Reactor,40,958
 45630,Proteus Core - Friction Extension Processor,40,958
@@ -2482,8 +2484,9 @@ type_id,name,volume,group_id
 57486,Life Support Backup Unit,45,334
 57487,Capital Core Temperature Regulator,28000,873
 57488,Neurolink Protection Cell,5500,873
+57492,,0.01,1888
 57733,,0.01,1950
-58904,,100,4107
+58904,Mobile Observatory,100,4107
 58945,Large Industrial Core I,3500,515
 58950,Large Industrial Core II,3500,515
 58966,,5,
@@ -2942,7 +2945,7 @@ type_id,name,volume,group_id
 98408,,1,303
 98409,Imperial Electronics Booster II,1,303
 98410,,1,303
-98413,,1,303
+98413,Imperial Defense Booster III,1,303
 98414,,1,303
 98415,Imperial Mobility Booster II,1,303
 98416,Imperial Mobility Booster III,1,303
