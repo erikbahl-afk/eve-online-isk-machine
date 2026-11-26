@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0433,
- "buy_orders": 5768,
- "buy_orders_reaching_jita": 5696,
+ "ask_ratio_median": 1.0434,
+ "buy_orders": 5777,
+ "buy_orders_reaching_jita": 5705,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6216,
+ "orders": 6225,
  "sell_orders": 448,
- "share_ask_below_jita": 0.2827,
+ "share_ask_below_jita": 0.288,
  "structure_id": 1042508032148,
- "t": 1795728762.2263036,
+ "t": 1795730455.286499,
  "top_ask_below_jita": [
   {
    "best_ask": 20990.0,
@@ -52,7 +52,7 @@
    "type_id": 84407
   },
   {
-   "best_ask": 74880.0,
+   "best_ask": 74890.0,
    "gap": 0.6663,
    "name": "",
    "s_ask": 24990.0,
@@ -115,8 +115,37 @@
    "type_id": 46997
   }
  ],
- "top_bid_over_jita": [],
- "types": 3793,
- "types_also_in_jita": 3793,
- "types_bid_over_jita_reaching": 0
+ "top_bid_over_jita": [
+  {
+   "best_bid": 161300.0,
+   "gap": 0.0012,
+   "name": "Dread Guristas Inferno Torpedo",
+   "s_bid_reach": 161500.0,
+   "type_id": 27355
+  },
+  {
+   "best_bid": 111000000.0,
+   "gap": 0.0009,
+   "name": "Oneiros",
+   "s_bid_reach": 111100000.0,
+   "type_id": 11989
+  },
+  {
+   "best_bid": 16690000.0,
+   "gap": 0.0006,
+   "name": "Medium Core Defense Field Extender II",
+   "s_bid_reach": 16700000.0,
+   "type_id": 31796
+  },
+  {
+   "best_bid": 6281000.0,
+   "gap": 0.0002,
+   "name": "Huntsman SW-600-I",
+   "s_bid_reach": 6282000.0,
+   "type_id": 92034
+  }
+ ],
+ "types": 3796,
+ "types_also_in_jita": 3796,
+ "types_bid_over_jita_reaching": 4
 }

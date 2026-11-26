@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Thu 26 Nov 13:32 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Thu 26 Nov 14:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 40 · **Est. time:** 25 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -27,7 +27,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 | 3 | ☐ Men's 'Precision' Boots | 65,600,000 | **59,040,000** | 49,760,000 | 100,000,000 |
 | 4 | ☐ Polarized Light Neutron Blaster | 5,879,000 | **5,875,000** | 3,818,000 | 5,876,000 |
 | 5 | ☐ Standup M-Set Basic Small Ship Manufacturing Material Efficiency I | 458,900,000 | **413,000,000** | 335,200,000 | 715,000,000 |
-| 6 | ☐ Standup Moon Drill I | 138,600,000 | **138,100,000** | 130,900,000 | 138,200,000 |
+| 6 | ☐ Standup Moon Drill I | 138,600,000 | **137,400,000** | 130,900,000 | 137,500,000 |
 | 7 | ☐ Typhoon Fleet Issue Capsuleer Elite XX SKIN | 535,200,000 | **481,600,000** | 420,200,000 | - |
 | 8 | ☐ Zero-Point Mass Entangler | 8,875,000 | **9,751,000** | 8,875,000 | 9,752,000 |
 
@@ -69,14 +69,14 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 18 | ☐ Strontium Clathrates | 3 | **5,836** | 5,104 | 5,837 |
+| 18 | ☐ Strontium Clathrates | 3 | **5,834** | 5,104 | 5,835 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 19 | ☐ Compressed Zeolites | 39,101 | **973.50** | 1,085 | 973.40 |
+| 19 | ☐ Compressed Zeolites | 39,094 | **973.50** | 1,085 | 973.40 |
 
 ## 20. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
 _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
@@ -90,21 +90,21 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 21 | ☐ Compressed Glistening Zeolites | 2,886 | **2,817** | 2,629 | 2,818 |
+| 21 | ☐ Compressed Glistening Zeolites | 2,886 | **2,816** | 2,629 | 2,817 |
 
 #### List new stock
 _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Duration 3 months._
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 22 | ☐ State Security Token | 1 | **20,590,000** | 12,700,000 | 20,600,000 |
+| 22 | ☐ State Security Token | 1 | **20,580,000** | 12,700,000 | 20,590,000 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 23 | ☐ Low-grade Nomad Delta | 122,300,000 | **122,100,000** | 138,600,000 | 122,000,000 |
+| 23 | ☐ Low-grade Nomad Delta | 122,300,000 | **122,100,000** | 138,500,000 | 122,000,000 |
 | 24 | ☐ Zorya's Light Entropic Disintegrator | 231,900,000 | **235,800,000** | 267,300,000 | 235,700,000 |
 
 #### New buy orders
@@ -112,7 +112,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 25 | ☐ Compressed Kylixium | 318,341 | **234.20** | 260.60 | 234.10 |
+| 25 | ☐ Compressed Kylixium | 318,369 | **234.20** | 260.60 | 234.10 |
 | 26 | ☐ Heavy Compact Entropic Disintegrator | 2 | **6,932,000** | 15,020,000 | 6,931,000 |
 | 27 | ☐ Imperial Mobility Booster III | 1 | **41,120,000** | 61,870,000 | 41,110,000 |
 
@@ -140,10 +140,10 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 | 30 | ☐ Federation Mobility Booster III | 23,020,000 | **23,030,000** | 44,470,000 | 23,020,000 |
 | 31 | ☐ Glorified Unstable Entropic Radiation Sink Mutaplasmid | 172,600,000 | **173,000,000** | 201,800,000 | 172,900,000 |
 | 32 | ☐ Low-grade Nomad Gamma | 92,460,000 | **92,580,000** | 101,000,000 | 92,570,000 |
-| 33 | ☐ Mid-grade Rapture Gamma | 122,800,000 | **136,400,000** | 166,500,000 | 136,300,000 |
+| 33 | ☐ Mid-grade Rapture Gamma | 122,800,000 | **136,400,000** | 166,400,000 | 136,300,000 |
 | 34 | ☐ Neurotoxin Control | 8,902,000 | **11,180,000** | 13,720,000 | 11,170,000 |
 | 35 | ☐ Scorch Bomb | 1,167,000 | **1,167,000** | 1,379,000 | 1,166,000 |
-| 36 | ☐ State Security Token | 12,210,000 | **14,490,000** | 14,490,000 | 16,060,000 |
+| 36 | ☐ State Security Token | 12,210,000 | **14,490,000** | 14,490,000 | 16,080,000 |
 
 ### Block 3 · if there's time · about 2 min
 
@@ -160,8 +160,8 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 39 | ☐ 50MN Microwarpdrive II | 3,793,000 | **3,837,000** | 3,976,000 | 3,836,000 |
-| 40 | ☐ Capital Flex Armor Hardener II | 64,740,000 | **67,140,000** | 84,040,000 | 67,130,000 |
+| 39 | ☐ 50MN Microwarpdrive II | 3,793,000 | **3,838,000** | 3,976,000 | 3,837,000 |
+| 40 | ☐ Capital Flex Armor Hardener II | 64,740,000 | **67,140,000** | 84,170,000 | 67,130,000 |
 
 ---
 Wallet 449.74M · escrow 1.01B · stock 3.66B · in transit 0.00 · net worth 5.12B (liquidation 2.78B)
