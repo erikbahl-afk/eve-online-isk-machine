@@ -230,7 +230,7 @@ type_id,name,volume,group_id
 3534,CONCORD Capital Armor Repairer,1000,62
 3536,,1000,325
 3540,Large Armor Repairer II,50,62
-3542,CONCORD Capital Shield Booster,1000,
+3542,CONCORD Capital Shield Booster,1000,40
 3544,CONCORD Capital Remote Shield Booster,1000,41
 3568,Small Capacitor Booster II,5,76
 3578,Heavy Capacitor Booster II,20,76
@@ -250,6 +250,7 @@ type_id,name,volume,group_id
 3828,,0.75,1034
 3831,Medium Shield Extender II,10,38
 3841,Large Shield Extender II,20,38
+3888,,5,285
 3893,Mining Connections,0.01,278
 3894,Distribution Connections,0.01,278
 3895,Security Connections,0.01,278
@@ -514,7 +515,7 @@ type_id,name,volume,group_id
 13216,Zainou 'Gypsy' CPU Management EE-603,1,741
 13217,Inherent Implants 'Lancer' Large Energy Turret LE-1003,1,742
 13218,Zainou 'Deadeye' Large Hybrid Turret LH-1003,1,742
-13219,Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1003,,
+13219,Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1003,1,742
 13220,Inherent Implants 'Lancer' Medium Energy Turret ME-803,1,742
 13221,Zainou 'Deadeye' Medium Hybrid Turret MH-803,1,742
 13222,Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-803,,
@@ -701,7 +702,7 @@ type_id,name,volume,group_id
 15605,Caldari Navy Vice Admiral Insignia I,0.1,409
 15610,Imperial Navy Sergeant Insignia I,0.1,409
 15613,Imperial Navy Major Insignia I,0.1,409
-15614,,0.1,409
+15614,Imperial Navy Colonel Insignia I,0.1,409
 15615,Imperial Navy General Insignia I,0.1,409
 15631,,0.1,409
 15632,Republic Fleet Commander Insignia I,0.1,409
@@ -839,7 +840,7 @@ type_id,name,volume,group_id
 17190,Angel Bronze Tag,,
 17200,,0.1,370
 17207,Guristas Brass Tag,0.1,370
-17210,,0.1,370
+17210,Sansha Copper Tag,0.1,370
 17217,Serpentis Brass Tag,0.1,370
 17266,,0.1,370
 17317,Fermionic Condensates,1.3,429
@@ -1406,6 +1407,7 @@ type_id,name,volume,group_id
 26070,,20,
 26076,Large EM Shield Reinforcer I,,
 26084,Large Core Defense Field Purger I,20,
+26088,,20,774
 26288,Large Explosive Armor Reinforcer II,20,773
 26290,,20,
 26292,,20,
@@ -1931,10 +1933,11 @@ type_id,name,volume,group_id
 34562,Svipul,5000,1305
 34575,Antikythera Element,0.1,1314
 34590,Victorieux Luxury Yacht,10000,5087
-34593,Entosis Link I,20,
+34593,Entosis Link I,20,1313
 34595,Entosis Link II,20,1313
 34631,Rokh Wiyrkomi SKIN,,
 34828,Jackdaw,5000,1305
+35658,,10,46
 35661,,10,46
 35662,,10,46
 35683,Hecate,5000,1305
@@ -2839,6 +2842,7 @@ type_id,name,volume,group_id
 94065,Republic Fleet Mining Survey Chipset,5,49
 94067,Caldari Navy Signal Distortion Amplifier,,
 94154,Confessor Mandate of Faith SKIN,,
+94155,,0.01,1950
 95228,Manifest Homecoming Background,0.1,5082
 95275,,0.1,5082
 95292,,0.01,1950

@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0442,
- "buy_orders": 5805,
- "buy_orders_reaching_jita": 5733,
+ "ask_ratio_median": 1.0459,
+ "buy_orders": 5771,
+ "buy_orders_reaching_jita": 5699,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6258,
- "sell_orders": 453,
- "share_ask_below_jita": 0.2927,
+ "orders": 6223,
+ "sell_orders": 452,
+ "share_ask_below_jita": 0.2857,
  "structure_id": 1042508032148,
- "t": 1795716045.532824,
+ "t": 1795723247.7985845,
  "top_ask_below_jita": [
   {
    "best_ask": 10000.0,
@@ -38,15 +38,22 @@
    "type_id": 84407
   },
   {
-   "best_ask": 74890.0,
+   "best_ask": 74880.0,
    "gap": 0.6663,
    "name": "",
    "s_ask": 24990.0,
    "type_id": 22576
   },
   {
-   "best_ask": 58000.0,
-   "gap": 0.5947,
+   "best_ask": 510.4,
+   "gap": 0.6346,
+   "name": "",
+   "s_ask": 186.5,
+   "type_id": 90484
+  },
+  {
+   "best_ask": 57990.0,
+   "gap": 0.5946,
    "name": "",
    "s_ask": 23510.0,
    "type_id": 21080
@@ -106,17 +113,25 @@
    "name": "",
    "s_ask": 7500000.0,
    "type_id": 44951
-  },
-  {
-   "best_ask": 5990000.0,
-   "gap": 0.4992,
-   "name": "",
-   "s_ask": 3000000.0,
-   "type_id": 45969
   }
  ],
- "top_bid_over_jita": [],
- "types": 3806,
- "types_also_in_jita": 3806,
- "types_bid_over_jita_reaching": 0
+ "top_bid_over_jita": [
+  {
+   "best_bid": 8530000.0,
+   "gap": 0.0002,
+   "name": "Large Nanobot Accelerator I",
+   "s_bid_reach": 8532000.0,
+   "type_id": 25898
+  },
+  {
+   "best_bid": 8165000.0,
+   "gap": 0.0001,
+   "name": "",
+   "s_bid_reach": 8166000.0,
+   "type_id": 31824
+  }
+ ],
+ "types": 3797,
+ "types_also_in_jita": 3797,
+ "types_bid_over_jita_reaching": 2
 }
