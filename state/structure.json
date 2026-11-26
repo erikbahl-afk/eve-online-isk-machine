@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.034,
- "buy_orders": 5808,
- "buy_orders_reaching_jita": 5736,
+ "ask_ratio_median": 1.0366,
+ "buy_orders": 5845,
+ "buy_orders_reaching_jita": 5770,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6265,
- "sell_orders": 457,
- "share_ask_below_jita": 0.2916,
+ "orders": 6301,
+ "sell_orders": 456,
+ "share_ask_below_jita": 0.2923,
  "structure_id": 1042508032148,
- "t": 1795687245.8942955,
+ "t": 1795690511.990005,
  "top_ask_below_jita": [
   {
    "best_ask": 5999.0,
@@ -38,13 +38,6 @@
    "type_id": 3301
   },
   {
-   "best_ask": 1495000.0,
-   "gap": 0.806,
-   "name": "Antikythera Element",
-   "s_ask": 290000.0,
-   "type_id": 34575
-  },
-  {
    "best_ask": 99820.0,
    "gap": 0.6806,
    "name": "",
@@ -66,8 +59,8 @@
    "type_id": 22576
   },
   {
-   "best_ask": 59570.0,
-   "gap": 0.6053,
+   "best_ask": 59600.0,
+   "gap": 0.6055,
    "name": "",
    "s_ask": 23510.0,
    "type_id": 21080
@@ -113,10 +106,25 @@
    "name": "",
    "s_ask": 9000000.0,
    "type_id": 45922
+  },
+  {
+   "best_ask": 7098000.0,
+   "gap": 0.5069,
+   "name": "",
+   "s_ask": 3500000.0,
+   "type_id": 46997
   }
  ],
- "top_bid_over_jita": [],
- "types": 3821,
- "types_also_in_jita": 3821,
- "types_bid_over_jita_reaching": 0
+ "top_bid_over_jita": [
+  {
+   "best_bid": 62030.0,
+   "gap": 0.0002,
+   "name": "Rogue Anoikis Telemetry",
+   "s_bid_reach": 62040.0,
+   "type_id": 97546
+  }
+ ],
+ "types": 3829,
+ "types_also_in_jita": 3829,
+ "types_bid_over_jita_reaching": 1
 }
