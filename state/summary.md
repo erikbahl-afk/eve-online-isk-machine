@@ -1,4 +1,4 @@
-# Summary · Wed 25 Nov 22:00 PST
+# Summary · Thu 26 Nov 00:00 PST
 
 Updated every ~2 hours. **Your real character** is the first section; everything after it is the **practice trader** (pretend ISK, real market data). Each section starts with a line on how to read it.
 
@@ -49,7 +49,7 @@ _Read from the game over SSO. Shows how far the skill plan is and what needs you
 ## 2. Practice portfolio
 _The paper trader started with 5.00B on 28 Oct. Net worth counts stock at what we paid; liquidation is the worst case if we dumped everything into buy orders right now._
 
-- **Net worth:** 5.12B (+2.41% in 28.5 days) · liquidation 2.84B
+- **Net worth:** 5.12B (+2.41% in 28.6 days) · liquidation 2.84B
 - **Where the ISK is:** cash 449.73M · locked in buy orders 1.01B · stock 3.66B · on a courier 0.00
 - **Profit so far (realized):** 120.57M. That's completed sales minus every fee paid. Fees: broker 163.95M, relist 69.39M, sales tax 29.63M, courier 207.00M
 - **Location:** amarr · import hub amarr · shipments on the way 0
@@ -114,73 +114,73 @@ _Market size = ISK spent per day buying from sell orders in that station. Items 
 
 | Hub | Market size/day | Station items | Station profit/day | Import items | Import profit/day |
 |---|---|---|---|---|---|
-| jita | 5.18T | 20 | 27.64M | - | - |
-| amarr | 481.38B | 5 | 5.98M | 30 | 79.35M |
-| dodixie | 148.99B | 0 | - | 42 | 106.13M |
-| rens | 30.12B | 0 | - | 12 | 36.63M |
-| hek | 61.08B | 0 | - | 18 | 45.26M |
+| jita | 5.16T | 20 | 26.67M | - | - |
+| amarr | 482.14B | 7 | 7.77M | 30 | 68.27M |
+| dodixie | 149.79B | 0 | - | 43 | 108.78M |
+| rens | 30.54B | 0 | - | 12 | 36.82M |
+| hek | 61.46B | 0 | - | 19 | 46.21M |
 
 ## 8. Best items to trade inside Jita
 _Buy at the highest buy price + 1 tick, sell at the lowest sell price − 1 tick. Margin is after all fees. On top = how much of the time between your logins our order would stay the best price before a rival undercuts it (sell side / buy side). Limited by = which resource it eats most: order slots, ISK, or your time._
 
 | Item | Buy → sell price | Margin | Sold per day | On top (sell/buy) | Profit/day | Limited by |
 |---|---|---|---|---|---|---|
-| Distribution Connections | 28.07M → 37.79M | 26.6% | 0.5 | 21% / 20% | 3.34M | time |
+| Distribution Connections | 28.08M → 37.79M | 26.5% | 0.4 | 21% / 18% | 2.88M | time |
 | State Mobility Booster III | 18.44M → 44.99M | 130.6% | 0.1 | 7% / 14% | 1.86M | time |
-| Low-grade Nomad Delta | 122.20M → 149.90M | 15.2% | 0.1 | 13% / 45% | 1.63M | time |
-| Glorified Gravid Large Cap Battery Mutaplasmid | 127.50M → 164.30M | 21.1% | 0.1 | 15% / 41% | 1.55M | time |
-| Federal Equilibrium Token | 10.78M → 15.18M | 32.5% | 0.5 | 7% / 4% | 1.72M | time |
-| Prototype Jump Drive Economizer | 245.90M → 283.00M | 8.0% | 0.1 | 8% / 8% | 1.63M | time |
-| Zorya's Light Entropic Disintegrator | 234.80M → 302.60M | 21.1% | 0.0 | 13% / 6% | 1.60M | time |
-| Republic Mobility Booster III | 36.02M → 65.42M | 71.3% | 0.1 | 11% / 49% | 1.38M | time |
-| Hyper-Field Projector | 59.21k → 77.94k | 23.7% | 109.2 | 1% / 2% | 1.47M | time |
-| Neurotoxin Control | 8.97M → 14.91M | 56.6% | 0.3 | 6% / 6% | 1.40M | time |
-| Clone Soldier Transporter Tag | 30.23M → 34.94M | 8.4% | 0.6 | 5% / 6% | 1.40M | time |
-| Imperial Light Token | 10.29M → 13.49M | 23.2% | 0.6 | 13% / 5% | 1.32M | time |
+| Low-grade Nomad Delta | 122.20M → 149.90M | 15.2% | 0.1 | 14% / 45% | 1.64M | time |
+| Glorified Gravid Large Cap Battery Mutaplasmid | 127.50M → 164.30M | 21.1% | 0.1 | 15% / 41% | 1.56M | time |
+| Federal Equilibrium Token | 10.79M → 15.18M | 32.3% | 0.5 | 7% / 4% | 1.72M | time |
+| Prototype Jump Drive Economizer | 245.90M → 282.90M | 7.9% | 0.1 | 8% / 8% | 1.62M | time |
+| Zorya's Light Entropic Disintegrator | 234.90M → 302.60M | 21.0% | 0.0 | 13% / 6% | 1.57M | time |
+| Republic Mobility Booster III | 36.02M → 65.42M | 71.3% | 0.1 | 10% / 49% | 1.29M | time |
+| Hyper-Field Projector | 59.31k → 77.95k | 23.5% | 108.1 | 1% / 2% | 1.44M | time |
+| Clone Soldier Transporter Tag | 30.24M → 34.94M | 8.4% | 0.6 | 5% / 6% | 1.38M | time |
+| Imperial Light Token | 10.29M → 13.49M | 23.2% | 0.6 | 13% / 5% | 1.31M | time |
+| Neurotoxin Control | 9.01M → 14.92M | 56.1% | 0.3 | 6% / 6% | 1.31M | time |
 
 ## 9. Best items to import Jita → Amarr
 _Buy from Jita sellers, ship by courier, sell just under the cheapest seller there. Margin is after shipping and fees. m³ = cargo volume per unit._
 
 | Item | Jita price → sell price | m³ | Margin | Sold per day | On top | Profit/day | Limited by |
 |---|---|---|---|---|---|---|---|
-| Naga Navy Issue | 151.60M → 242.50M | 15,000.0 | 41.2% | 0.2 | 15% | 12.97M | ISK |
-| Republic Fleet Ballistic Control System | 105.50M → 136.10M | 5.0 | 18.1% | 0.5 | 37% | 8.93M | time |
-| Small Vorton Projector II | 62.84M → 97.94M | 5.0 | 43.7% | 0.2 | 42% | 5.71M | time |
-| Dysprosium | 47.11k → 57.48k | 0.1 | 11.5% | 1049.9 | 44% | 5.57M | ISK |
-| Armored Command Mindlink | 41.96M → 57.89M | 1.0 | 26.6% | 0.4 | 43% | 4.30M | time |
-| Huntsman SW-600-I | 6.94M → 9.98M | 10.0 | 32.1% | 1.4 | 45% | 3.00M | time |
-| Blood Bronze Tag | 7.62M → 10.00M | 0.1 | 20.2% | 2.1 | 13% | 3.20M | time |
-| Legion Mjolnir Auto-Targeting Light Missile | 999.00 → 2.31k | 0.0 | 115.2% | 2495.0 | 44% | 2.86M | time |
-| Large 'Sheriff' Shield Extender | 34.77M → 44.98M | 20.0 | 18.5% | 0.4 | 52% | 2.76M | time |
-| Upwell Starship Engineering | 25.00M → 37.61M | 0.0 | 38.5% | 0.3 | 32% | 2.47M | time |
-| Improved Mindflood Booster | 8.99M → 12.43M | 1.0 | 26.9% | 1.0 | 20% | 2.33M | time |
-| Strong Mindflood Booster | 27.00M → 36.59M | 1.0 | 24.3% | 0.3 | 58% | 2.09M | time |
+| Republic Fleet Ballistic Control System | 105.30M → 136.10M | 5.0 | 18.3% | 0.5 | 37% | 9.09M | time |
+| Small Vorton Projector II | 62.84M → 97.94M | 5.0 | 43.7% | 0.2 | 42% | 5.64M | time |
+| Dysprosium | 47.11k → 57.48k | 0.1 | 11.5% | 1050.0 | 44% | 5.57M | ISK |
+| Armored Command Mindlink | 41.96M → 57.89M | 1.0 | 26.6% | 0.4 | 44% | 4.38M | time |
+| Huntsman SW-600-I | 6.95M → 9.98M | 10.0 | 32.1% | 1.5 | 45% | 3.26M | time |
+| Blood Bronze Tag | 7.62M → 10.00M | 0.1 | 20.2% | 2.1 | 13% | 3.18M | time |
+| Large 'Sheriff' Shield Extender | 34.78M → 44.98M | 20.0 | 18.4% | 0.4 | 52% | 2.76M | time |
+| Caldari Navy Medium Shield Extender | 15.00M → 19.97M | 10.0 | 22.0% | 0.9 | 18% | 2.86M | time |
+| Legion Mjolnir Auto-Targeting Light Missile | 999.00 → 2.31k | 0.0 | 115.1% | 2226.7 | 40% | 2.55M | time |
+| Upwell Starship Engineering | 25.00M → 37.61M | 0.0 | 38.5% | 0.3 | 32% | 2.44M | time |
+| Improved Mindflood Booster | 8.99M → 12.42M | 1.0 | 26.8% | 1.0 | 19% | 2.48M | time |
+| Strong Mindflood Booster | 26.99M → 36.59M | 1.0 | 24.4% | 0.3 | 58% | 2.07M | time |
 
 ## 10. Cornering watchlist (read-only, nothing is traded)
 _Items where buying out the cheapest few sell orders and relisting higher would pay on paper. We only watch them, to learn whether such prices hold or get undercut._
 
 | Hub | Item | Cheapest now | Buy out | Cost | Relist at | Paper profit | Return | Days to sell | Rival updates/day |
 |---|---|---|---|---|---|---|---|---|---|
-| amarr | Imperial Mobility Booster III | 39.83M | 7 orders / 7 units | 299.33M | 90.44M | 302.89M | 101% | 7.3 | 1.9 |
-| jita | Mining Laser Optimization Charge Blueprint | 17.43M | 5 orders / 22 units | 384.19M | 26.15M | 163.06M | 42% | 7.8 | 1.4 |
+| amarr | Imperial Mobility Booster III | 39.83M | 7 orders / 7 units | 299.33M | 90.43M | 302.82M | 101% | 7.4 | 1.9 |
+| jita | Mining Laser Optimization Charge Blueprint | 17.43M | 5 orders / 22 units | 384.19M | 26.15M | 163.06M | 42% | 7.9 | 1.4 |
 | jita | Large Hybrid Locus Coordinator II | 39.39M | 4 orders / 10 units | 407.12M | 59.24M | 156.40M | 38% | 8.3 | 1.9 |
-| jita | Inherent Implants 'Squire' Capacitor Emission Systems ES-703 | 19.59M | 1 orders / 20 units | 391.80M | 28.63M | 152.89M | 39% | 6.8 | 1.0 |
-| dodixie | Hyper-Field Projector | 53.50k | 11 orders / 4,151 units | 253.90M | 99.99k | 140.93M | 56% | 7.6 | 2.6 |
-| jita | Mid-grade Centurion Alpha | 80.00M | 1 orders / 4 units | 320.00M | 119.30M | 133.94M | 42% | 6.7 | 0.3 |
-| amarr | Titanium Diborite Armor Plate | 7.47k | 5 orders / 19,250 units | 159.67M | 15.80k | 129.65M | 81% | 5.4 | 0.2 |
+| jita | Inherent Implants 'Squire' Capacitor Emission Systems ES-703 | 19.59M | 1 orders / 20 units | 391.80M | 28.63M | 152.89M | 39% | 6.9 | 1.0 |
+| jita | Mid-grade Centurion Alpha | 80.00M | 1 orders / 4 units | 320.00M | 119.30M | 133.94M | 42% | 6.8 | 0.3 |
+| amarr | Titanium Diborite Armor Plate | 7.47k | 5 orders / 19,250 units | 159.67M | 15.78k | 129.28M | 81% | 5.5 | 0.2 |
 | jita | Mid-grade Centurion Beta | 99.00M | 2 orders / 3 units | 297.00M | 147.20M | 123.07M | 41% | 5.8 | 0.2 |
-| jita | Standup Guided Bomb Launcher I | 120.00M | 2 orders / 3 units | 385.60M | 176.80M | 118.94M | 31% | 5.0 | 0.3 |
-| jita | Tornado Fleet Issue Stark Strategist SKIN | 250.00M | 1 orders / 1 units | 250.00M | 381.30M | 112.71M | 45% | 1.9 | 1.0 |
+| jita | Standup Guided Bomb Launcher I | 120.00M | 2 orders / 3 units | 385.60M | 176.80M | 118.94M | 31% | 5.1 | 0.3 |
+| amarr | Imperial Navy Xray L | 792.80k | 10 orders / 469 units | 373.89M | 1.07M | 103.03M | 28% | 9.5 | 0.8 |
+| jita | Caldari Cruiser | 3.25M | 2 orders / 20 units | 65.00M | 8.03M | 87.71M | 135% | 9.0 | 1.1 |
 
 ## 11. Data health
 _Is the market data flowing? Orders = orders seen in the station · Hours today = hours of data collected since 00:00 UTC · Trades seen = trades inferred since the last snapshot. Any note means something went wrong._
 
 | Hub | Orders | Hours today | Trades seen | Note |
 |---|---|---|---|---|
-| jita | 376,113 | 6.0 | 6,398 |  |
-| amarr | 131,616 | 6.0 | 1,796 |  |
-| dodixie | 69,448 | 6.0 | 1,162 |  |
-| rens | 33,200 | 6.0 | 300 |  |
-| hek | 42,628 | 6.0 | 668 |  |
+| jita | 376,606 | 8.0 | 6,958 |  |
+| amarr | 131,685 | 8.0 | 2,052 |  |
+| dodixie | 69,531 | 8.0 | 979 |  |
+| rens | 33,095 | 8.0 | 271 |  |
+| hek | 42,605 | 8.0 | 531 |  |
 
-_This run took 36 s (market data 13 s, stats and character 4 s, experiments 17 s, main portfolio 1 s, cornering scan 0 s, ESI back-off 0 s; 1,514 ESI calls). A slow run usually means ESI rate limits (back-off) or a first-time lookup of many item types._
+_This run took 48 s (market data 19 s, stats and character 5 s, experiments 22 s, main portfolio 2 s, cornering scan 0 s, ESI back-off 0 s; 1,518 ESI calls). A slow run usually means ESI rate limits (back-off) or a first-time lookup of many item types._

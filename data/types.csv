@@ -1293,7 +1293,7 @@ type_id,name,volume,group_id
 23097,Imperial Navy Standard M,1,86
 23105,Imperial Navy Multifrequency L,1,86
 23107,Imperial Navy Gamma L,1,86
-23109,,1,86
+23109,Imperial Navy Xray L,1,86
 23111,,1,86
 23113,Imperial Navy Standard L,1,86
 23115,,1,86
@@ -1487,6 +1487,7 @@ type_id,name,volume,group_id
 27377,Caldari Navy Mjolnir Cruise Missile,0.05,386
 27381,Caldari Navy Nova Light Missile,0.015,384
 27389,,0.05,386
+27391,,0.05,386
 27395,Caldari Navy Scourge Cruise Missile,0.05,386
 27399,Dread Guristas Scourge Cruise Missile,0.05,386
 27401,Caldari Navy Nova Heavy Assault Missile,0.015,772
@@ -1576,7 +1577,7 @@ type_id,name,volume,group_id
 28701,Viridian Mykoserocin,,
 28710,Golem,50000,900
 28739,,5,766
-28746,Thukker Medium Shield Extender,,
+28746,Thukker Medium Shield Extender,10,38
 28750,ORE Miner,5,54
 28752,ORE Ice Harvester,5,
 28754,ORE Strip Miner,5,464
@@ -1774,7 +1775,7 @@ type_id,name,volume,group_id
 31952,Caldari Navy Power Diagnostic System,5,766
 31959,,1,
 31965,High-grade Talon Epsilon,,
-31990,,4.5,
+31990,,4.5,87
 31998,Navy Cap Booster 200,6,87
 32006,,12,87
 32014,Navy Cap Booster 800,24,87
@@ -2038,6 +2039,7 @@ type_id,name,volume,group_id
 41196,,5,210
 41197,,5,
 41198,Sentient Remote Sensor Booster,,
+41199,,25,290
 41200,Shadow Serpentis Damage Control,5,60
 41201,Syndicate Damage Control,5,60
 41202,Sentient Damage Control,5,60
@@ -2109,6 +2111,7 @@ type_id,name,volume,group_id
 42789,,0.01,
 42829,,0.01,1771
 42830,Mining Laser Optimization Charge,,
+42835,,0.01,1773
 42840,,0.01,1772
 42881,Mining Laser Field Enhancement Charge Blueprint,0.01,
 42882,Mining Laser Optimization Charge Blueprint,0.01,
