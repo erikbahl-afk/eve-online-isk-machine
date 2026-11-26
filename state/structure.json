@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0344,
- "buy_orders": 5811,
- "buy_orders_reaching_jita": 5741,
+ "ask_ratio_median": 1.0339,
+ "buy_orders": 5816,
+ "buy_orders_reaching_jita": 5747,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6272,
- "sell_orders": 461,
- "share_ask_below_jita": 0.2796,
+ "orders": 6275,
+ "sell_orders": 459,
+ "share_ask_below_jita": 0.2908,
  "structure_id": 1042508032148,
- "t": 1795665653.8816175,
+ "t": 1795672843.254317,
  "top_ask_below_jita": [
   {
    "best_ask": 6665.0,
@@ -45,8 +45,8 @@
    "type_id": 3301
   },
   {
-   "best_ask": 1159000.0,
-   "gap": 0.7498,
+   "best_ask": 1158000.0,
+   "gap": 0.7496,
    "name": "Antikythera Element",
    "s_ask": 290000.0,
    "type_id": 34575
@@ -73,7 +73,7 @@
    "type_id": 22576
   },
   {
-   "best_ask": 59600.0,
+   "best_ask": 59590.0,
    "gap": 0.6055,
    "name": "",
    "s_ask": 23510.0,
@@ -116,7 +116,7 @@
   }
  ],
  "top_bid_over_jita": [],
- "types": 3828,
- "types_also_in_jita": 3828,
+ "types": 3829,
+ "types_also_in_jita": 3829,
  "types_bid_over_jita_reaching": 0
 }

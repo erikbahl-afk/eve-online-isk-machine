@@ -267,6 +267,7 @@ type_id,name,volume,group_id
 4247,Helium Fuel Block,5,1136
 4248,,50,899
 4250,Small Tractor Beam II,50,650
+4254,,20,339
 4256,Bomb Launcher II,50,862
 4260,Expanded Probe Launcher II,5,
 4292,Siege Module II,1000,515
@@ -369,6 +370,7 @@ type_id,name,volume,group_id
 11327,,20,329
 11343,100mm Crystalline Carbonide Restrained Plates,,
 11365,Vengeance,2500,324
+11370,,100,330
 11371,Wolf,2500,324
 11377,Nemesis,2500,834
 11379,Hawk,2500,324
@@ -513,7 +515,7 @@ type_id,name,volume,group_id
 13217,Inherent Implants 'Lancer' Large Energy Turret LE-1003,1,742
 13218,Zainou 'Deadeye' Large Hybrid Turret LH-1003,1,742
 13219,Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1003,,
-13220,Inherent Implants 'Lancer' Medium Energy Turret ME-803,,
+13220,Inherent Implants 'Lancer' Medium Energy Turret ME-803,1,742
 13221,Zainou 'Deadeye' Medium Hybrid Turret MH-803,1,742
 13222,Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-803,,
 13223,Inherent Implants 'Lancer' Small Energy Turret SE-603,1,742
@@ -573,7 +575,7 @@ type_id,name,volume,group_id
 13939,Domination Gyrostabilizer,5,59
 13941,Dark Blood Heat Sink,5,205
 13943,True Sansha Heat Sink,5,205
-13945,,5,
+13945,,5,302
 13947,Dread Guristas Large Shield Booster,25,40
 13948,Domination Large Shield Booster,25,40
 13949,Dread Guristas Medium Shield Booster,10,40
@@ -620,6 +622,7 @@ type_id,name,volume,group_id
 14106,Domination 10MN Afterburner,5,46
 14108,Shadow Serpentis 10MN Afterburner,5,46
 14114,,10,46
+14116,,10,46
 14118,,10,46
 14120,Shadow Serpentis 50MN Microwarpdrive,10,46
 14122,Domination 5MN Microwarpdrive,10,46
@@ -1087,11 +1090,13 @@ type_id,name,volume,group_id
 19353,,10,46
 19359,Gist X-Type 500MN Microwarpdrive,10,46
 19363,Centum B-Type EM Energized Membrane,5,326
+19421,,0.1,493
 19540,,1,300
 19547,Inherent Implants 'Noble' Repair Systems RS-605,,
 19548,Inherent Implants 'Noble' Remote Armor Repair Systems RA-705,1,
 19549,Inherent Implants 'Noble' Mechanic MC-805,1,738
 19550,Inherent Implants 'Noble' Hull Upgrades HG-1005,1,738
+19551,,1,300
 19554,High-grade Snake Delta,1,300
 19555,High-grade Snake Epsilon,1,300
 19556,High-grade Snake Omega,1,300
@@ -2831,6 +2836,7 @@ type_id,name,volume,group_id
 95632,Tornado Fleet Issue,15000,1201
 95672,Liberated Matar Background,0.1,
 95673,Foundation Wisdom Background,0.1,
+95720,,0.01,1950
 95741,Akoman,15000,1201
 96128,,5,5140
 96145,,5,5140
@@ -2877,6 +2883,7 @@ type_id,name,volume,group_id
 97512,Aberrant Raspite,0.01,18
 97513,Aberrant Polycrase,0.01,18
 97514,Aberrant Moissanite,0.001,18
+97515,Aberrant Kangite,0.001,18
 97516,Akoman Blueprint Crate,1,1194
 97544,Thermoelectric Flux Log,0.01,1194
 97545,Shield Failover Report,0.01,1194
