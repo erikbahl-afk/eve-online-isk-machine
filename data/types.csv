@@ -110,7 +110,7 @@ type_id,name,volume,group_id
 2348,Gel-Matrix Biopaste,3,1040
 2349,Supercomputers,3,1040
 2352,Nuclear Reactors,3,
-2358,,3,1040
+2358,Biotech Research Reports,3,1040
 2361,Hermetic Membranes,3,1040
 2366,,3,1040
 2389,Plasmoids,0.19,1042
@@ -339,7 +339,7 @@ type_id,name,volume,group_id
 10213,Neural Boost - Improved,1,745
 10216,Ocular Filter - Standard,1,745
 10217,Ocular Filter - Improved,1,745
-10221,Cybernetic Subprocessor - Standard,,
+10221,Cybernetic Subprocessor - Standard,1,745
 10222,Cybernetic Subprocessor - Improved,1,745
 10225,Social Adaptation Chip - Standard,1,745
 10226,Social Adaptation Chip - Improved,1,745
@@ -1060,7 +1060,7 @@ type_id,name,volume,group_id
 19245,Gistum C-Type EM Shield Amplifier,5,295
 19247,Gistum B-Type EM Shield Amplifier,5,295
 19251,Gistum A-Type Thermal Shield Amplifier,5,295
-19253,,5,295
+19253,Gistum A-Type Kinetic Shield Amplifier,5,295
 19255,,5,295
 19263,Gist C-Type EM Shield Hardener,5,77
 19268,,5,
@@ -1248,7 +1248,7 @@ type_id,name,volume,group_id
 22448,Absolution,15000,540
 22456,,5000,
 22464,,5000,541
-22466,,15000,540
+22466,Astarte,15000,540
 22468,Claymore,15000,540
 22470,Nighthawk,15000,540
 22534,Inherent Implants 'Highwall' Mining MX-1003,1,1229
@@ -1545,7 +1545,7 @@ type_id,name,volume,group_id
 28364,,0.07,886
 28375,,10,
 28377,Caldari Navy Heavy Assault Missile Launcher,10,771
-28379,Domination Heavy Assault Missile Launcher,,
+28379,Domination Heavy Assault Missile Launcher,10,771
 28381,Dread Guristas Heavy Assault Missile Launcher,10,771
 28433,Compressed Blue Ice,,
 28435,Compressed Dark Glitter,100,465
@@ -2239,7 +2239,7 @@ type_id,name,volume,group_id
 47734,Unstable Warp Disruptor Mutaplasmid,1,1964
 47738,,1,1964
 47741,,1,1964
-47743,,1,1964
+47743,Unstable 500MN Microwarpdrive Mutaplasmid,1,1964
 47751,,1,1964
 47752,Gravid 10MN Afterburner Mutaplasmid,1,
 47754,,1,1964
@@ -2815,7 +2815,7 @@ type_id,name,volume,group_id
 93745,Tempest Fleet Issue Capsuleer Day XXIII SKIN,0.01,
 93908,Caldari Navy Missile Guidance Enhancer,5,1395
 93909,Republic Fleet Missile Guidance Enhancer,5,
-93912,Revelli’s Modified Integrated Analyzer,5,
+93912,Revelli’s Modified Integrated Analyzer,5,538
 93913,Imperial Navy 'Atonement' Tracking Enhancer,5,211
 93998,Federation Navy 'Argyreos' Magnetic Field Stabilizer,5,302
 94008,Republic Fleet Bastion Module,200,
