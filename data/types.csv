@@ -219,6 +219,7 @@ type_id,name,volume,group_id
 3257,Inherent Implants 'Squire' Power Grid Management EG-604,1,741
 3265,Zainou 'Gypsy' CPU Management EE-602,1,
 3266,Zainou 'Gypsy' CPU Management EE-604,1,741
+3334,Caldari Cruiser,,
 3430,Advanced Target Management,,
 3475,Inherent Implants 'Noble' Mechanic MC-806,1,738
 3481,Inherent Implants 'Noble' Hull Upgrades HG-1004,,
@@ -1015,7 +1016,7 @@ type_id,name,volume,group_id
 19113,Corpus C-Type Heavy Energy Nosferatu,5,68
 19119,Corpus X-Type Heavy Energy Nosferatu,5,68
 19139,Pithi A-Type Small Remote Shield Booster,5,41
-19141,Gistum C-Type Medium Remote Shield Booster,,
+19141,Gistum C-Type Medium Remote Shield Booster,10,41
 19143,Gistum B-Type Medium Remote Shield Booster,10,41
 19147,Pithum C-Type Medium Remote Shield Booster,10,41
 19149,Pithum B-Type Medium Remote Shield Booster,10,41
@@ -1086,13 +1087,14 @@ type_id,name,volume,group_id
 19353,,10,46
 19359,Gist X-Type 500MN Microwarpdrive,10,46
 19363,Centum B-Type EM Energized Membrane,5,326
+19540,,1,300
 19547,Inherent Implants 'Noble' Repair Systems RS-605,,
 19548,Inherent Implants 'Noble' Remote Armor Repair Systems RA-705,1,
 19549,Inherent Implants 'Noble' Mechanic MC-805,1,738
 19550,Inherent Implants 'Noble' Hull Upgrades HG-1005,1,738
 19554,High-grade Snake Delta,1,300
 19555,High-grade Snake Epsilon,1,300
-19556,High-grade Snake Omega,,
+19556,High-grade Snake Omega,1,300
 19684,Inherent Implants 'Noble' Repair Proficiency RP-903,1,738
 19685,Inherent Implants 'Noble' Repair Proficiency RP-905,1,
 19686,Eifyr and Co. 'Gunslinger' Motion Prediction MR-705,1,742
@@ -1213,6 +1215,7 @@ type_id,name,volume,group_id
 21924,,0.0025,83
 21926,Republic Fleet Proton L,,
 22043,Tactical Weapon Reconfiguration,,
+22107,,1,300
 22108,Mid-grade Crystal Beta,1,300
 22109,Mid-grade Crystal Delta,1,300
 22110,Mid-grade Crystal Epsilon,1,300
@@ -1943,6 +1946,7 @@ type_id,name,volume,group_id
 35947,Standup Target Painter I,4000,
 35949,,4000,
 35959,Standup Ballistic Control System I,4000,1429
+35962,Standup Missile Guidance Enhancer I,4000,1429
 36908,Antipharmakon Thureo,1,303
 36909,Antipharmakon Kosybo,1,303
 36910,Antipharmakon Iokira,1,303
@@ -2207,11 +2211,12 @@ type_id,name,volume,group_id
 47297,Unstable 50MN Microwarpdrive Mutaplasmid,1,1964
 47298,Standup Multirole Missile Launcher II,4000,
 47323,Standup Anticapital Missile Launcher II,,
+47327,Standup Point Defense Battery II,8000,1330
 47334,,4000,1442
 47340,Standup Missile Guidance Enhancer II,,
 47342,Standup Ballistic Control System II,4000,
 47351,,4000,1441
-47352,Standup Cap Battery I,,
+47352,Standup Cap Battery I,4000,1966
 47356,Standup Capacitor Power Relay I,4000,
 47358,Standup Capacitor Power Relay II,,
 47448,C3-X 'Hivaa Saitsuo' Ballistic Control System,5,367
@@ -2437,7 +2442,7 @@ type_id,name,volume,group_id
 57121,Mid-grade Rapture Epsilon,1,
 57207,Mining Barge Operations,1,
 57319,Mobile Cynosural Beacon,400,4093
-57442,Counter-Subversion Sensor Array,2,
+57442,Counter-Subversion Sensor Array,2,526
 57443,Meta-Molecular Combiner,1,526
 57444,,1,
 57445,LM-Composite Molecular Condenser,1,526
@@ -2559,6 +2564,7 @@ type_id,name,volume,group_id
 62558,Compressed Dark Ochre III-Grade,0.08,453
 62559,Compressed Dark Ochre IV-Grade,0.08,453
 62560,Compressed Crokite,0.16,452
+62561,,0.16,452
 62562,,0.16,452
 62563,Compressed Crokite IV-Grade,0.16,452
 62564,Compressed Bistot,,
@@ -2655,7 +2661,7 @@ type_id,name,volume,group_id
 83485,,1000,4769
 84100,Paladin War for the Empire SKIN,0.01,
 84173,Imperial Gold Metallic - Limited,0.1,4726
-84422,,1,1964
+84422,Unstable Large EMP Smartbomb Mutaplasmid,1,1964
 85084,Small Breacher Pod Launcher,5,4807
 85085,Medium Breacher Pod Launcher,10,4807
 85086,,15000,419
@@ -2773,6 +2779,7 @@ type_id,name,volume,group_id
 92040,Nertic EC-600-I,10,5239
 92041,Humboldt EC-900-I,25,5239
 92283,Moreau YC128 Campaign Bus,10000,5087
+92284,,10000,5087
 92454,Roden’s Modified Nanofiber Internal Structure,5,763
 92456,Presidential Mining Foreman Burst,60,1770
 92458,,60,1770

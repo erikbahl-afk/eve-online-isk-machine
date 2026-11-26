@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Wed 25 Nov 18:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Wed 25 Nov 19:47 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 38 · **Est. time:** 25 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -36,10 +36,10 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 9 | ☐ Chaotic Exotic Filament | 2 | **27,990,000** | 22,950,000 | 28,000,000 |
+| 9 | ☐ Chaotic Exotic Filament | 2 | **27,490,000** | 22,950,000 | 27,500,000 |
 
 ### Block 2 · should do · about 3 min
-_Short on time? Skip to the jump (step 19): the next hub's Block 1 is worth more per minute than the rest of this hub._
+_Short on time? Skip to the jump (step 20): the next hub's Block 1 is worth more per minute than the rest of this hub._
 
 #### Fix undercut sell orders
 _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours is already the lowest, skip._
@@ -55,23 +55,30 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 | 16 | ☐ Shrapnel Bomb | 1,474,000 | **1,469,000** | 1,311,000 | 1,470,000 |
 
 ### Block 3 · if there's time · about 2 min
-_Short on time? Skip to the jump (step 19): the next hub's Block 1 is worth more per minute than the rest of this hub._
+_Short on time? Skip to the jump (step 20): the next hub's Block 1 is worth more per minute than the rest of this hub._
+
+#### Fix undercut sell orders
+_My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours is already the lowest, skip._
+
+| # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
+|---|---|---|---|---|---|
+| 17 | ☐ Void XL | 4,177 | **4,174** | 3,174 | 4,175 |
 
 #### List new stock
 _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Duration 3 months._
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 17 | ☐ Strontium Clathrates | 3 | **5,897** | 5,104 | 5,898 |
+| 18 | ☐ Strontium Clathrates | 3 | **5,897** | 5,104 | 5,898 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 18 | ☐ Imperial Navy Stasis Webifier | 1 | **35,150,000** | 41,860,000 | 35,140,000 |
+| 19 | ☐ Imperial Navy Stasis Webifier | 1 | **35,170,000** | 41,860,000 | 35,160,000 |
 
-## 19. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
+## 20. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
 _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
 
 ## At Jita IV - Moon 4 - Caldari Navy Assembly Plant
@@ -83,32 +90,32 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 20 | ☐ Compressed Glistening Zeolites | 2,886 | **2,898** | 2,629 | 2,899 |
+| 21 | ☐ Compressed Glistening Zeolites | 2,886 | **2,897** | 2,629 | 2,898 |
 
 #### List new stock
 _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Duration 3 months._
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 21 | ☐ State Security Token | 1 | **28,630,000** | 12,700,000 | 28,640,000 |
+| 22 | ☐ State Security Token | 1 | **27,980,000** | 12,700,000 | 27,990,000 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 22 | ☐ Low-grade Nomad Delta | 122,300,000 | **122,200,000** | 132,500,000 | 122,100,000 |
-| 23 | ☐ Neurotoxin Control | 8,902,000 | **8,965,000** | 13,140,000 | 8,964,000 |
-| 24 | ☐ Zorya's Light Entropic Disintegrator | 231,900,000 | **234,700,000** | 267,500,000 | 234,600,000 |
+| 23 | ☐ Low-grade Nomad Delta | 122,300,000 | **122,200,000** | 132,500,000 | 122,100,000 |
+| 24 | ☐ Neurotoxin Control | 8,902,000 | **8,972,000** | 13,180,000 | 8,971,000 |
+| 25 | ☐ Zorya's Light Entropic Disintegrator | 231,900,000 | **234,800,000** | 267,500,000 | 234,700,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 25 | ☐ Distribution Connections | 3 | **28,060,000** | 33,410,000 | 28,050,000 |
-| 26 | ☐ Federal Equilibrium Token | 3 | **10,780,000** | 13,250,000 | 10,770,000 |
-| 27 | ☐ State Mobility Booster III | 1 | **18,440,000** | 39,770,000 | 18,430,000 |
+| 26 | ☐ Distribution Connections | 2 | **28,060,000** | 33,410,000 | 28,050,000 |
+| 27 | ☐ Federal Equilibrium Token | 3 | **10,780,000** | 13,420,000 | 10,770,000 |
+| 28 | ☐ State Mobility Booster III | 1 | **18,440,000** | 39,770,000 | 18,430,000 |
 
 ### Block 2 · should do · about 4 min
 
@@ -117,24 +124,24 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 28 | ☐ State Defense Booster III | 1 | **29,990,000** | 27,270,000 | 30,000,000 |
+| 29 | ☐ State Defense Booster III | 1 | **29,990,000** | 27,270,000 | 30,000,000 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 29 | ☐ Federation Mobility Booster III | 23,020,000 | **23,050,000** | 43,220,000 | 23,040,000 |
-| 30 | ☐ Low-grade Nomad Gamma | 92,460,000 | **92,570,000** | 103,300,000 | 92,560,000 |
-| 31 | ☐ Mid-grade Rapture Gamma | 122,800,000 | **132,700,000** | 166,900,000 | 132,600,000 |
+| 30 | ☐ Federation Mobility Booster III | 23,020,000 | **23,050,000** | 43,210,000 | 23,040,000 |
+| 31 | ☐ Low-grade Nomad Gamma | 92,460,000 | **92,570,000** | 103,200,000 | 92,560,000 |
+| 32 | ☐ Mid-grade Rapture Gamma | 122,800,000 | **132,900,000** | 166,900,000 | 132,800,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 32 | ☐ Glorified Gravid Large Cap Battery Mutaplasmid | 1 | **127,500,000** | 145,200,000 | 127,400,000 |
-| 33 | ☐ Hyper-Field Projector | 435 | **59,010** | 68,910 | 59,000 |
+| 33 | ☐ Clone Soldier Transporter Tag | 2 | **30,220,000** | 30,890,000 | 30,210,000 |
+| 34 | ☐ Glorified Gravid Large Cap Battery Mutaplasmid | 1 | **127,500,000** | 145,200,000 | 127,400,000 |
 
 ### Block 3 · if there's time · about 2 min
 
@@ -143,22 +150,21 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 34 | ☐ Compressed Mercoxit II-Grade | 23,240 | **21,980** | 20,730 | 21,990 |
+| 35 | ☐ Compressed Mercoxit II-Grade | 23,240 | **22,150** | 20,730 | 22,160 |
 
 #### List new stock
 _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Duration 3 months._
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 35 | ☐ Compressed Hezorime III-Grade | 196 | **999.20** | 809.40 | 999.30 |
+| 36 | ☐ Compressed Hezorime III-Grade | 196 | **999.20** | 809.40 | 999.30 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 36 | ☐ 50MN Microwarpdrive II | 3,793,000 | **3,819,000** | 3,845,000 | 3,818,000 |
-| 37 | ☐ Scorch Bomb | 1,167,000 | **1,168,000** | 1,377,000 | 1,167,000 |
+| 37 | ☐ 50MN Microwarpdrive II | 3,793,000 | **3,820,000** | 3,845,000 | 3,819,000 |
 | 38 | ☐ State Security Token | 12,210,000 | **14,130,000** | 14,130,000 | 15,500,000 |
 
 ---
