@@ -365,12 +365,12 @@ type_id,name,volume,group_id
 11202,,2500,831
 11229,Explosive Energized Membrane II,,
 11309,400mm Rolled Tungsten Compact Plates,10,329
-11317,,20,329
+11317,800mm Rolled Tungsten Compact Plates,20,329
 11325,,20,329
 11327,,20,329
 11343,100mm Crystalline Carbonide Restrained Plates,,
 11365,Vengeance,2500,324
-11370,,100,330
+11370,Prototype Cloaking Device I,100,330
 11371,Wolf,2500,324
 11377,Nemesis,2500,834
 11379,Hawk,2500,324
@@ -788,7 +788,7 @@ type_id,name,volume,group_id
 16274,Helium Isotopes,0.03,423
 16275,Strontium Clathrates,3,423
 16278,Ice Harvester I,5,464
-16391,,5,326
+16391,Compact Multispectrum Energized Membrane,5,326
 16457,Crosslink Compact Ballistic Control System,5,367
 16467,,5,71
 16527,,5,507
@@ -931,6 +931,7 @@ type_id,name,volume,group_id
 18797,Coreli A-Type Thermal Coating,5,98
 18799,Corelum C-Type Multispectrum Energized Membrane,5,326
 18807,Corelum C-Type Thermal Energized Membrane,5,326
+18809,,5,326
 18813,,5,
 18817,Corelum B-Type Thermal Energized Membrane,5,326
 18819,Corelum A-Type Multispectrum Energized Membrane,5,326
@@ -1617,7 +1618,7 @@ type_id,name,volume,group_id
 29992,Optimized Nano-Engines,,
 30018,,0.01,
 30019,Powdered C-540 Graphite,0.01,966
-30021,,0.01,966
+30021,Modified Fluid Router,0.01,966
 30024,,0.01,966
 30187,Intact Thruster Sections,10,971
 30251,Neurovisual Input Matrix,0.01,966
@@ -2117,6 +2118,7 @@ type_id,name,volume,group_id
 42882,Mining Laser Optimization Charge Blueprint,0.01,
 42890,Capital Industrial Core II,,
 43551,Mining Foreman Burst II,60,1770
+43555,,60,1770
 43556,Skirmish Command Burst II,60,1770
 43662,Gallente Phenomena Generator,,
 43688,Astral Mining Inc. Strong Box,,
@@ -2190,6 +2192,7 @@ type_id,name,volume,group_id
 46182,,0.01,1888
 46204,,0.01,1888
 46207,,0.01,1888
+46208,,0.01,1888
 46210,,0.01,1888
 46213,Ferrogel Reaction Formula,,
 46218,,0.01,1888
@@ -2787,7 +2790,7 @@ type_id,name,volume,group_id
 92040,Nertic EC-600-I,10,5239
 92041,Humboldt EC-900-I,25,5239
 92283,Moreau YC128 Campaign Bus,10000,5087
-92284,,10000,5087
+92284,Roden YC128 Campaign Bus,10000,5087
 92454,Roden’s Modified Nanofiber Internal Structure,5,763
 92456,Presidential Mining Foreman Burst,60,1770
 92458,,60,1770

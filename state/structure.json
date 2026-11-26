@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0419,
- "buy_orders": 5809,
- "buy_orders_reaching_jita": 5737,
+ "ask_ratio_median": 1.034,
+ "buy_orders": 5808,
+ "buy_orders_reaching_jita": 5736,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6268,
- "sell_orders": 459,
- "share_ask_below_jita": 0.2813,
+ "orders": 6265,
+ "sell_orders": 457,
+ "share_ask_below_jita": 0.2916,
  "structure_id": 1042508032148,
- "t": 1795680057.700439,
+ "t": 1795687245.8942955,
  "top_ask_below_jita": [
   {
    "best_ask": 5999.0,
@@ -38,8 +38,8 @@
    "type_id": 3301
   },
   {
-   "best_ask": 1153000.0,
-   "gap": 0.7485,
+   "best_ask": 1495000.0,
+   "gap": 0.806,
    "name": "Antikythera Element",
    "s_ask": 290000.0,
    "type_id": 34575
@@ -59,18 +59,18 @@
    "type_id": 84407
   },
   {
-   "best_ask": 59590.0,
-   "gap": 0.6055,
+   "best_ask": 74910.0,
+   "gap": 0.6664,
+   "name": "",
+   "s_ask": 24990.0,
+   "type_id": 22576
+  },
+  {
+   "best_ask": 59570.0,
+   "gap": 0.6053,
    "name": "",
    "s_ask": 23510.0,
    "type_id": 21080
-  },
-  {
-   "best_ask": 79.93,
-   "gap": 0.5971,
-   "name": "",
-   "s_ask": 32.2,
-   "type_id": 21589
   },
   {
    "best_ask": 4698000.0,
@@ -115,30 +115,8 @@
    "type_id": 45922
   }
  ],
- "top_bid_over_jita": [
-  {
-   "best_bid": 209000000.0,
-   "gap": 0.0005,
-   "name": "Mid-grade Virtue Delta",
-   "s_bid_reach": 209100000.0,
-   "type_id": 28810
-  },
-  {
-   "best_bid": 3945000.0,
-   "gap": 0.0003,
-   "name": "Caldari Navy Vice Admiral Insignia I",
-   "s_bid_reach": 3946000.0,
-   "type_id": 15605
-  },
-  {
-   "best_bid": 792000.0,
-   "gap": 0.0003,
-   "name": "Exigent Sentry Drone Projection Mutaplasmid",
-   "s_bid_reach": 792200.0,
-   "type_id": 60470
-  }
- ],
- "types": 3827,
- "types_also_in_jita": 3827,
- "types_bid_over_jita_reaching": 3
+ "top_bid_over_jita": [],
+ "types": 3821,
+ "types_also_in_jita": 3821,
+ "types_bid_over_jita_reaching": 0
 }
