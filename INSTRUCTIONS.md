@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Wed 25 Nov 19:47 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Wed 25 Nov 20:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 38 · **Est. time:** 25 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -97,7 +97,7 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 22 | ☐ State Security Token | 1 | **27,980,000** | 12,700,000 | 27,990,000 |
+| 22 | ☐ State Security Token | 1 | **27,890,000** | 12,700,000 | 27,900,000 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
