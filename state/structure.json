@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0332,
- "buy_orders": 5847,
- "buy_orders_reaching_jita": 5777,
+ "ask_ratio_median": 1.0336,
+ "buy_orders": 5838,
+ "buy_orders_reaching_jita": 5768,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6314,
+ "orders": 6305,
  "sell_orders": 467,
- "share_ask_below_jita": 0.3042,
+ "share_ask_below_jita": 0.2993,
  "structure_id": 1042508032148,
- "t": 1795651251.190174,
+ "t": 1795652501.2611594,
  "top_ask_below_jita": [
   {
    "best_ask": 6665.0,
@@ -117,42 +117,56 @@
  ],
  "top_bid_over_jita": [
   {
-   "best_bid": 1567000.0,
-   "gap": 0.0013,
-   "name": "State Hardpoint Booster I",
-   "s_bid_reach": 1569000.0,
-   "type_id": 98429
+   "best_bid": 847400000.0,
+   "gap": 0.0031,
+   "name": "Golem",
+   "s_bid_reach": 850000000.0,
+   "type_id": 28710
   },
   {
-   "best_bid": 2158000.0,
-   "gap": 0.0009,
+   "best_bid": 65040.0,
+   "gap": 0.0023,
    "name": "",
-   "s_bid_reach": 2160000.0,
-   "type_id": 98424
+   "s_bid_reach": 65190.0,
+   "type_id": 261
   },
   {
-   "best_bid": 150100.0,
-   "gap": 0.0007,
+   "best_bid": 101900000.0,
+   "gap": 0.001,
+   "name": "Federation Navy Tracking Computer",
+   "s_bid_reach": 102000000.0,
+   "type_id": 15792
+  },
+  {
+   "best_bid": 180300.0,
+   "gap": 0.0006,
    "name": "",
-   "s_bid_reach": 150200.0,
-   "type_id": 98426
+   "s_bid_reach": 180400.0,
+   "type_id": 16467
   },
   {
-   "best_bid": 20190000.0,
+   "best_bid": 83510000.0,
    "gap": 0.0005,
-   "name": "Thukker Small Cap Battery",
-   "s_bid_reach": 20200000.0,
-   "type_id": 41214
+   "name": "Astero",
+   "s_bid_reach": 83550000.0,
+   "type_id": 33468
   },
   {
-   "best_bid": 32090.0,
-   "gap": 0.0003,
+   "best_bid": 99940000.0,
+   "gap": 0.0002,
+   "name": "Gistum C-Type Medium Shield Booster",
+   "s_bid_reach": 99960000.0,
+   "type_id": 19181
+  },
+  {
+   "best_bid": 601400000.0,
+   "gap": 0.0002,
    "name": "",
-   "s_bid_reach": 32100.0,
-   "type_id": 98420
+   "s_bid_reach": 601500000.0,
+   "type_id": 20505
   }
  ],
- "types": 3842,
- "types_also_in_jita": 3842,
- "types_bid_over_jita_reaching": 5
+ "types": 3838,
+ "types_also_in_jita": 3838,
+ "types_bid_over_jita_reaching": 7
 }

@@ -80,6 +80,7 @@ type_id,name,volume,group_id
 2024,,10,76
 2032,Cap Recharger II,5,43
 2050,Gistum C-Type Multispectrum Shield Hardener,5,77
+2078,,500,1022
 2117,,5,80
 2175,Infiltrator II,10,100
 2185,Hammerhead II,10,100
@@ -107,7 +108,7 @@ type_id,name,volume,group_id
 2345,Camera Drones,3,1040
 2346,,3,1040
 2348,Gel-Matrix Biopaste,3,1040
-2349,,3,1040
+2349,Supercomputers,3,1040
 2352,Nuclear Reactors,3,
 2358,,3,1040
 2361,Hermetic Membranes,3,1040
@@ -461,9 +462,9 @@ type_id,name,volume,group_id
 12221,Medium Remote Capacitor Transmitter II,10,
 12223,,1000,
 12235,,8000,365
-12237,,8000,
+12237,,8000,363
 12259,Medium Energy Nosferatu II,5,68
-12263,Heavy Energy Nosferatu II,5,
+12263,Heavy Energy Nosferatu II,5,68
 12267,Medium Energy Neutralizer II,5,71
 12269,Heavy Energy Neutralizer I,,
 12271,,5,
@@ -593,6 +594,7 @@ type_id,name,volume,group_id
 13980,Dark Blood Kinetic Armor Hardener,5,328
 13982,True Sansha Thermal Armor Hardener,5,328
 13984,Dark Blood Thermal Armor Hardener,5,328
+13990,,5,328
 13998,Domination Multispectrum Shield Hardener,5,77
 14001,True Sansha Multispectrum Coating,5,98
 14003,,5,98
@@ -776,6 +778,7 @@ type_id,name,volume,group_id
 16246,Zainou 'Gnome' Shield Management SM-705,1,749
 16247,,1,
 16248,Zainou 'Gnome' Shield Operation SP-905,1,749
+16249,,1,742
 16272,Heavy Water,0.4,423
 16273,,0.4,423
 16274,Helium Isotopes,0.03,423
@@ -783,6 +786,7 @@ type_id,name,volume,group_id
 16278,Ice Harvester I,5,464
 16391,,5,326
 16457,Crosslink Compact Ballistic Control System,5,367
+16467,,5,71
 16527,,5,507
 16535,Copasetic Compact Shield Boost Amplifier,5,338
 16537,Vigor Compact Micro Auxiliary Power Core,5,339
@@ -826,6 +830,7 @@ type_id,name,volume,group_id
 17178,Stasis Webification Battery,,
 17180,Sensor Dampening Battery,,
 17182,Warp Scrambling Battery,,
+17186,,4000,444
 17187,,4000,444
 17190,Angel Bronze Tag,,
 17200,,0.1,370
@@ -917,6 +922,7 @@ type_id,name,volume,group_id
 18764,,5,98
 18766,Centii A-Type Thermal Coating,5,98
 18768,Coreli C-Type Multispectrum Coating,5,98
+18779,,5,98
 18789,Coreli A-Type Multispectrum Coating,5,98
 18797,Coreli A-Type Thermal Coating,5,98
 18799,Corelum C-Type Multispectrum Energized Membrane,5,326
@@ -1091,6 +1097,7 @@ type_id,name,volume,group_id
 19686,Eifyr and Co. 'Gunslinger' Motion Prediction MR-705,1,742
 19687,Eifyr and Co. 'Gunslinger' Surgical Strike SS-905,1,742
 19688,,1,742
+19689,,1,742
 19694,Inherent Implants 'Lancer' Large Energy Turret LE-1005,1,742
 19695,,1,742
 19698,Zainou 'Deadeye' Large Hybrid Turret LH-1005,1,
@@ -1855,6 +1862,7 @@ type_id,name,volume,group_id
 33928,,1,300
 33941,Low-grade Harvest Alpha,1,300
 33942,Low-grade Harvest Beta,1,300
+33944,,1,300
 33948,Low-grade Nomad Beta,1,300
 33949,Low-grade Nomad Delta,1,300
 33951,Low-grade Nomad Gamma,1,300
@@ -1980,7 +1988,7 @@ type_id,name,volume,group_id
 37810,,0.1,1088
 37820,Caldari Navy Shield Power Relay,5,57
 37843,,0.5,
-37844,,0.5,1546
+37844,Standup XL Cruise Missile,0.5,1546
 37846,Standup Cruise Missile,0.5,1547
 37847,Standup Heavy Missile,0.5,1547
 37848,,0.5,
@@ -1989,7 +1997,7 @@ type_id,name,volume,group_id
 40349,25000mm Crystalline Carbonide Restrained Plates,1000,329
 40351,25000mm Steel Plates II,1000,329
 40356,Capital F-S9 Regolith Compact Shield Extender,1000,38
-40357,,1000,38
+40357,Capital Shield Extender II,1000,38
 40361,,800,1652
 40519,Skill Extractor,0.01,1301
 40520,Large Skill Injector,0.01,1739
@@ -2060,7 +2068,7 @@ type_id,name,volume,group_id
 41490,Navy Cap Booster 3200,96,87
 41492,Capital F-RX Compact Capacitor Booster,1000,76
 41493,Capital Capacitor Booster II,1000,76
-41498,Capital I-a Enduring Armor Repairer,1000,
+41498,Capital I-a Enduring Armor Repairer,1000,62
 41503,Capital Ancillary Armor Repairer,,
 41504,,1000,1156
 41525,Capital Flex Armor Hardener II,1000,1699
@@ -2223,6 +2231,7 @@ type_id,name,volume,group_id
 47771,,1,
 47772,,1,1964
 47775,,1,1964
+47776,,1,1964
 47783,Unstable Medium Shield Booster Mutaplasmid,,
 47787,Unstable Large Shield Booster Mutaplasmid,1,1964
 47790,Decayed X-Large Shield Booster Mutaplasmid,1,1964
@@ -2300,7 +2309,7 @@ type_id,name,volume,group_id
 49728,Gravid Heat Sink Mutaplasmid,1,1964
 49729,Unstable Heat Sink Mutaplasmid,1,1964
 49731,,1,1964
-49732,,1,
+49732,,1,1964
 49733,Unstable Gyrostabilizer Mutaplasmid,1,1964
 49736,,1,1964
 49737,Unstable Entropic Radiation Sink Mutaplasmid,1,1964
@@ -2480,7 +2489,7 @@ type_id,name,volume,group_id
 60313,Gas Cloud Harvester I,5,
 60314,Gas Cloud Harvester II,5,4138
 60381,Abyssal Ore Processing,,
-60461,,1,1964
+60461,Exigent Light Drone Firepower Mutaplasmid,1,1964
 60464,Exigent Heavy Drone Firepower Mutaplasmid,1,1964
 60468,Exigent Sentry Drone Firepower Mutaplasmid,1,1964
 60470,Exigent Sentry Drone Projection Mutaplasmid,1,
@@ -2711,6 +2720,7 @@ type_id,name,volume,group_id
 90037,Mobile Phase Anchor,50,
 90134,Historic Crimson Harvest SKIN Crate,1,1194
 90135,Crimson Harvest SKINR Crate,,
+90137,,1,1194
 90315,Confessor Sanguinary Savant SKIN,0.01,
 90316,Sacrilege Sanguinary Savant SKIN,0.01,1950
 90318,Aeon Sanguinary Savant SKIN,0.01,1950
@@ -2886,11 +2896,11 @@ type_id,name,volume,group_id
 97670,Unstable Small Remote Armor Repairer Mutaplasmid,,
 97671,,1,
 97748,Potent Conquest Glamourex Booster,1,303
-97880,,5,1122
+97880,Navy Salvager,5,1122
 97897,Bloody Sunset Background,0.1,5082
 97955,Imperial Navy Stasis Webifier,5,65
 97956,,5,52
-97957,,5,52
+97957,Imperial Navy Warp Disruptor,5,52
 97974,'Vigilant' Vital Overdrive Injector System,5,764
 97975,'Vigilant' Vital Shield Boost Amplifier,5,338
 97976,'Vigilant' Vital Drone Navigation Computer,25,644
