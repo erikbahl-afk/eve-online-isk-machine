@@ -20,3 +20,4 @@ date,topic,tool_calls,notes
 2026-11-23,audit the picks,16,exit-list loss sells were dropped as low-value (Antikythera 15 d); forced() bypass; rising Amarr prices on 2 import picks
 2026-11-24,competition,19,rivals quietest 00-06 UTC (1.7x less than 12-18); Sun demand +34%; no bots on our books; time-on-top floor holds out of sample; ask_beat/bid_beat logged
 2026-11-25,open questions,27,outage fix (ask_beat KeyError on rollover; 12 runs lost); Q1 import hub needs history -> state/hubs.csv log
+2026-11-26,experiments,24,exports+rotation killed; imports cash-gated (0.45B free vs 0.9B contract); imports_only (bold) + stale_step_20 started; station_enabled knob

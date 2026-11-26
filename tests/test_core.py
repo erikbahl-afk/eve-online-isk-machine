@@ -523,3 +523,14 @@ def test_hub_rows_log_top30_profit_per_hub():
     im = {"amarr": pd.DataFrame({"profit_day": [1.0] * 40})}
     rows = hub_rows(100, st, im)
     assert rows == [(100, "amarr", 0, 0, 40, 30), (100, "jita", 2, 8, 0, 0)]
+
+
+def test_station_disabled_places_no_station_bids():
+    from trader.strategy import Planner
+    p = object.__new__(Planner)
+    p.specs, p.pf, p.c, p.fees, p.cfg = {}, {"orders": []}, {"logon_gap_hours": 48}, Fees(CFG), CFG
+    p.station = {"jita": pd.DataFrame({"q": [5.0], "ask_ref": [2e6], "profit_day": [3e6], "density": [1.0]}, index=[7])}
+    p.s = dict(CFG["strategy"])
+    assert [c[0] for c in p.new_buys("jita", set())] == ["station"]
+    p.s["station_enabled"] = False
+    assert p.new_buys("jita", set()) == []

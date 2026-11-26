@@ -522,3 +522,24 @@
   are dust. Thresholds kept.
 - Next: Thu check the first runs after the fix committed data (daily 11-25 file, ask_beat present); judge fill_floor and the
   rotation kill date.
+
+## 2026-11-26 · experiments (Thursday)
+- Scoreboard from 11-20 (fill_floor's start): main +3.16% (liq 54%, legacy), start_1b +1.84%, start_1b_more_time +0.02%,
+  no_imports −0.81% (fees 16.5% of turnover), exports −0.38%, rotation −0.72%, fill_floor −1.09% (realized −54M, mostly fees on new stock).
+- **Why imports stall (Q from 11-19):** main has shipped 2 couriers in 29 d (10-31, 11-13), fill_floor 1, exports/rotation 1 each.
+  A contract needs min_contract_fill 0.6 × 1.5B = 0.9B of cargo, but main has 450M cash with 1.01B in Jita station bids
+  (station realized −52M vs import +173M). The 0.6 gate is right on cost (Amarr fee 69M ≈ 7.7% of 0.9B), so cash is the issue.
+- Verdicts: exports **kill** (1.04B Amarr export stock, 126M sold in 20 d, 248M + 399M singles untouched). rotation (bold)
+  **kill** (1 Dodixie bid, 0 Dodixie couriers in 21 d). fill_floor **extend** to Tue 12-01: the floor holds out of sample
+  (Tue refit f 0.28 vs 0.33), but paper fills come from prints, so it only changes picks; adopt top_floor 0.3 in main then if
+  the beat-rate fit agrees. start_1b pair, no_imports **extend**.
+- New: `station_enabled` knob (new_buys skips station bids; test added). Bold `imports_only` (station_enabled false). Success
+  by Thu 12-10: ≥1 courier/week, return and realized above main over the same dates, liq ≥ main. Flex `stale_step_20` (Mon's
+  idea): success = lower unsold share and higher liq than main without realized falling below main's (shows from ~12-06).
+  e2e test now adds its own rotation variant so that code stays covered. Slots 6/6 (bold imports_only, flex stale_step_20).
+- Projection 1B start: start_1b ~+0.8%/wk, more_time ~+1.1%/wk → 4B in 2.5–3.5 years. Both are station-only by design
+  (import_min_nw 4B), and station trading is the weak leg. Idea for next Thu: a 1B variant with import_min_nw 1B, 1 contract.
+- Alerts (29): liquidation 54% / Typhoon 8.2%: legacy, step-down continues (Thu 19 decision). Stale Amarr sells: step-down each
+  Amarr visit. Idle Jita bids: Bomb Launcher kept (on top, no sellers), the others are dust. 11-25 daily file missing = the outage
+  day (confirmed). Thresholds kept.
+- Next: Fri memo: raise the station-vs-import capital split with the user; Sat check imports_only/stale_step_20 started cleanly.

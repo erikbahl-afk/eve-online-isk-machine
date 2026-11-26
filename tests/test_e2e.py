@@ -60,6 +60,9 @@ def test_pipeline(tmp_path, monkeypatch):
     for d in ("state", "data/daily", "cache", "reports"):
         (tmp_path / d).mkdir(parents=True)
     shutil.copy(ROOT / "config.toml", tmp_path / "config.toml")
+    with open(tmp_path / "config.toml", "a") as f:  # rotation code stays covered after the experiment ended (11-26)
+        f.write('\n[[variants]]\nname = "rotation"\nkind = "bold"\nnote = "test"\n'
+                '[variants.strategy]\nimport_hubs = ["dodixie", "amarr"]\n')
     for mod in (common, run, market):
         for name, sub in (("ROOT", ""), ("STATE", "state"), ("DATA", "data"), ("CACHE", "cache")):
             if hasattr(mod, name):

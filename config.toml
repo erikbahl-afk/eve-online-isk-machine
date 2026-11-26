@@ -65,6 +65,7 @@ seed_capture = 0.5           # seeding: share of the recent sales rate assumed t
 min_seed_margin = 0.15
 import_min_nw = 4_000_000_000 # below this, imports wait: one full contract would be most of the bankroll
 max_contracts = 2             # courier contracts per session (3 min each)
+station_enabled = true       # false = no new station bids (imports_only experiment)
 min_contract_fill = 0.6       # ship only if contracts are at least 60% full (by collateral or m3)
 spec_max_frac = 0.10         # cap on speculation positions (state/spec.json)
 plan_seconds = 1500          # leave slack inside the 30 min window
@@ -170,13 +171,6 @@ weekday_logons = [2, 3]
 [variants.strategy]
 plan_seconds = 3300
 
-[[variants]]
-name = "exports"
-kind = "regular"
-note = "open question: also ship cheap goods from the import hub back to Jita on the return trip"
-[variants.strategy]
-exports_enabled = true
-
 # seeding killed 2026-11-19: 0 seeds placed in 14 days (no second import courier), results = a fresh-main clone
 [[variants]]
 name = "fill_floor"
@@ -185,12 +179,23 @@ note = "fill probe: top_floor 0.3 (time-on-top fit 11-17); judged by paper fills
 [variants.sim]
 top_floor = 0.3
 
+# exports killed 2026-11-26: export stock (1.04B, Amarr) mostly unsold after 20 d (126M sold; 248M + 399M singles
+# untouched); its picker bought big-ticket thin items. Revive only with a per-item value cap.
+# rotation killed 2026-11-26: one Dodixie bid and no Dodixie courier in 21 d; its only courier was the 11-06 Amarr one.
+# Imports in all 5B portfolios are cash-gated (min_contract_fill needs ~0.9B free), see imports_only.
 [[variants]]
-name = "rotation"
+name = "imports_only"
 kind = "bold"
-note = "BOLD / open question: two import hubs (Dodixie and Amarr) visited in rotation instead of one"
+note = "BOLD: no Jita station bids at all, so cash stays free for full import contracts (main: station -52M, import +173M)"
 [variants.strategy]
-import_hubs = ["dodixie", "amarr"]
+station_enabled = false
+
+[[variants]]
+name = "stale_step_20"
+kind = "regular"
+note = "risk probe: stale_step 0.20 (vs 0.10): faster step-down of stale sells frees capital sooner; judged on liq, unsold, realized"
+[variants.strategy]
+stale_step = 0.20
 
 # Skill plan for the trading character, in training order (progress shows in state/summary.md once SSO is connected).
 [training]

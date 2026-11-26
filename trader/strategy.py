@@ -442,6 +442,8 @@ class Planner:
                 out.append(("spec", ty, need, sp["max_buy"], 0.0, float("inf")))
         have = {o["type_id"] for o in self.pf["orders"] if o["hub"] == hub and o["side"] == "buy"}
         T = self.c["logon_gap_hours"]
+        if not self.s.get("station_enabled", True):
+            return out  # imports-only: no new station bids (cash stays free for courier loads)
         for ty, r in self.station.get(hub, pd.DataFrame()).iterrows():
             if ty in have or ty in avoid:
                 continue
