@@ -815,6 +815,7 @@ type_id,name,volume,group_id
 16651,Neodymium,0.05,427
 16652,Promethium,0.05,427
 16653,Thulium,0.05,427
+16654,,0.2,428
 16655,,0.2,428
 16661,,0.2,428
 16667,Neo Mercurite,0.2,428
@@ -1787,7 +1788,7 @@ type_id,name,volume,group_id
 31965,High-grade Talon Epsilon,,
 31990,,4.5,87
 31998,Navy Cap Booster 200,6,87
-32006,,12,87
+32006,Navy Cap Booster 400,12,87
 32014,Navy Cap Booster 800,24,87
 32039,,10,
 32063,Medium Drone Speed Augmentor II,10,
@@ -2014,7 +2015,7 @@ type_id,name,volume,group_id
 37844,Standup XL Cruise Missile,0.5,1546
 37846,Standup Cruise Missile,0.5,1547
 37847,Standup Heavy Missile,0.5,1547
-37848,,0.5,1547
+37848,Standup Light Missile,0.5,1547
 40346,Siren I,3000,1537
 40347,,3000,1537
 40349,25000mm Crystalline Carbonide Restrained Plates,1000,329
@@ -2248,7 +2249,7 @@ type_id,name,volume,group_id
 47701,Gravid Stasis Webifier Mutaplasmid,1,1964
 47730,,1,1964
 47734,Unstable Warp Disruptor Mutaplasmid,1,1964
-47738,,1,1964
+47738,Unstable 5MN Microwarpdrive Mutaplasmid,1,1964
 47741,,1,1964
 47743,Unstable 500MN Microwarpdrive Mutaplasmid,1,1964
 47751,,1,1964
@@ -2727,6 +2728,7 @@ type_id,name,volume,group_id
 86263,Breacher Pod Projection,0.01,256
 86264,Breacher Pod Rapid Firing,0.01,256
 87324,Navy Scan Pinpointing Array,5,1223
+87325,,5,1238
 87504,Paladin Imperial Police SKIN,0.01,
 87562,ORE Deep Core Strip Miner,5,464
 87572,,0.1,1088
