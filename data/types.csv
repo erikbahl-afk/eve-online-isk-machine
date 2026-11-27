@@ -131,6 +131,7 @@ type_id,name,volume,group_id
 2420,Torpedo Launcher II,20,508
 2436,,25,100
 2444,,25,100
+2446,,25,100
 2456,,5,
 2463,Nanites,0.75,1034
 2478,Berserker II,25,100
@@ -1232,6 +1233,7 @@ type_id,name,volume,group_id
 21720,Sleeper Thermal Regulator,,
 21721,,0.1,
 21722,,0.1,528
+21733,,0.1,528
 21740,Caldari Navy Antimatter Charge L,0.025,85
 21802,Capital Shield Operation,,
 21815,Elite Drone AI,0.01,886
@@ -2075,7 +2077,7 @@ type_id,name,volume,group_id
 40758,,100,52
 41038,Republic Fleet Stasis Webifier,5,65
 41057,Heavy Stasis Grappler II,50,
-41058,,50,
+41058,,50,1672
 41059,Domination Heavy Stasis Grappler,50,1672
 41061,Federation Navy Warp Scrambler,5,52
 41062,,5,52

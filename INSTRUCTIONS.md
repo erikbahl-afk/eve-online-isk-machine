@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Fri 27 Nov 14:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Fri 27 Nov 14:42 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 37 · **Est. time:** 25 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -22,7 +22,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 1 | ☐ 'Cartel' Power Diagnostic System I | 67,940,000 | **67,780,000** | 30,280,000 | 67,790,000 |
+| 1 | ☐ 'Cartel' Power Diagnostic System I | 67,940,000 | **67,770,000** | 30,280,000 | 67,780,000 |
 | 2 | ☐ Caldari Drone Specialization | 2,110,000 | **5,998,000** | 1,099,000 | 5,999,000 |
 | 3 | ☐ Dread Guristas Rocket Launcher | 80,240,000 | **72,210,000** | 47,280,000 | 99,060,000 |
 | 4 | ☐ Men's 'Precision' Boots | 65,600,000 | **59,040,000** | 49,760,000 | 100,000,000 |
@@ -88,44 +88,44 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 19 | ☐ State Security Token | 1 | **19,980,000** | 12,700,000 | 19,990,000 |
+| 19 | ☐ State Security Token | 1 | **23,990,000** | 12,700,000 | 24,000,000 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 20 | ☐ Low-grade Nomad Delta | 122,300,000 | **121,700,000** | 137,300,000 | 121,600,000 |
-| 21 | ☐ Low-grade Nomad Gamma | 92,460,000 | **92,410,000** | 96,810,000 | 92,400,000 |
-| 22 | ☐ State Security Token | 12,210,000 | **15,580,000** | 16,730,000 | 15,570,000 |
-| 23 | ☐ Zorya's Light Entropic Disintegrator | 231,900,000 | **237,100,000** | 267,000,000 | 237,000,000 |
+| 20 | ☐ Federation Mobility Booster III | 23,020,000 | **23,100,000** | 45,650,000 | 23,090,000 |
+| 21 | ☐ Low-grade Nomad Delta | 122,300,000 | **121,700,000** | 138,200,000 | 121,600,000 |
+| 22 | ☐ Low-grade Nomad Gamma | 92,460,000 | **92,410,000** | 96,900,000 | 92,400,000 |
+| 23 | ☐ State Security Token | 12,210,000 | **15,600,000** | 16,750,000 | 15,590,000 |
+| 24 | ☐ Zorya's Light Entropic Disintegrator | 231,900,000 | **237,200,000** | 267,000,000 | 237,100,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 24 | ☐ Capital Ancillary Remote Shield Booster | 1 | **21,190,000** | 43,150,000 | 21,180,000 |
-| 25 | ☐ Distribution Connections | 2 | **28,190,000** | 33,230,000 | 28,180,000 |
-| 26 | ☐ Heavy Compact Entropic Disintegrator | 2 | **6,933,000** | 14,890,000 | 6,932,000 |
+| 25 | ☐ Capital Ancillary Remote Shield Booster | 1 | **21,190,000** | 43,150,000 | 21,180,000 |
+| 26 | ☐ Distribution Connections | 2 | **28,190,000** | 33,230,000 | 28,180,000 |
+| 27 | ☐ Heavy Compact Entropic Disintegrator | 2 | **6,933,000** | 14,890,000 | 6,932,000 |
 
-### Block 2 · should do · about 5 min
+### Block 2 · should do · about 4 min
 
 #### Fix undercut sell orders
 _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours is already the lowest, skip._
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 27 | ☐ Compressed Mercoxit II-Grade | 23,240 | **22,130** | 20,730 | 22,140 |
+| 28 | ☐ Compressed Mercoxit II-Grade | 23,240 | **22,130** | 20,730 | 22,140 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 28 | ☐ Federation Mobility Booster III | 23,020,000 | **23,080,000** | 45,150,000 | 23,070,000 |
-| 29 | ☐ Neurotoxin Control | 8,902,000 | **14,200,000** | 14,200,000 | 14,500,000 |
-| 30 | ☐ Scorch Bomb | 1,167,000 | **1,166,000** | 1,374,000 | 1,165,000 |
+| 29 | ☐ Neurotoxin Control | 8,902,000 | **14,250,000** | 14,250,000 | 14,500,000 |
+| 30 | ☐ Scorch Bomb | 1,167,000 | **1,166,000** | 1,377,000 | 1,165,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
@@ -143,10 +143,10 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 34 | ☐ Compressed Hezorime | 8 | **924.30** | 676.80 | 924.40 |
+| 34 | ☐ Compressed Hezorime | 8 | **924.50** | 676.80 | 924.60 |
 | 35 | ☐ Compressed Hezorime III-Grade | 196 | **999.20** | 809.40 | 999.30 |
 | 36 | ☐ Compressed Mercoxit II-Grade | 41 | **22,130** | 20,730 | 22,140 |
-| 37 | ☐ State Defense Booster III | 1 | **27,580,000** | 27,270,000 | 27,590,000 |
+| 37 | ☐ State Defense Booster III | 1 | **27,270,000** | 27,270,000 | 26,790,000 |
 
 ---
 Wallet 449.74M · escrow 1.01B · stock 3.66B · in transit 0.00 · net worth 5.12B (liquidation 2.74B)
