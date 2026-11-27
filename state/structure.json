@@ -1,23 +1,23 @@
 {
- "ask_ratio_median": 1.0523,
- "buy_orders": 5787,
- "buy_orders_reaching_jita": 5724,
+ "ask_ratio_median": 1.0526,
+ "buy_orders": 5777,
+ "buy_orders_reaching_jita": 5714,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6218,
- "sell_orders": 431,
- "share_ask_below_jita": 0.2872,
+ "orders": 6207,
+ "sell_orders": 430,
+ "share_ask_below_jita": 0.28,
  "structure_id": 1042508032148,
- "t": 1795802454.6113036,
+ "t": 1795809647.2492783,
  "top_ask_below_jita": [
   {
-   "best_ask": 4199.0,
+   "best_ask": 4198.0,
    "gap": 0.9451,
    "name": "",
    "s_ask": 230.5,
    "type_id": 90495
   },
   {
-   "best_ask": 10000.0,
+   "best_ask": 9999.0,
    "gap": 0.8286,
    "name": "",
    "s_ask": 1714.0,
@@ -38,15 +38,15 @@
    "type_id": 3297
   },
   {
-   "best_ask": 99820.0,
+   "best_ask": 99810.0,
    "gap": 0.6806,
    "name": "",
    "s_ask": 31880.0,
    "type_id": 47809
   },
   {
-   "best_ask": 74860.0,
-   "gap": 0.6662,
+   "best_ask": 74850.0,
+   "gap": 0.6661,
    "name": "",
    "s_ask": 24990.0,
    "type_id": 22576
@@ -108,86 +108,58 @@
    "type_id": 45922
   },
   {
-   "best_ask": 7000.0,
-   "gap": 0.5039,
+   "best_ask": 5989000.0,
+   "gap": 0.4991,
    "name": "",
-   "s_ask": 3473.0,
-   "type_id": 244
+   "s_ask": 3000000.0,
+   "type_id": 45969
   }
  ],
  "top_bid_over_jita": [
   {
-   "best_bid": 1076000.0,
-   "gap": 0.0028,
-   "name": "",
-   "s_bid_reach": 1079000.0,
-   "type_id": 98439
+   "best_bid": 117100000.0,
+   "gap": 0.0009,
+   "name": "Federation Navy Large Plasma Smartbomb",
+   "s_bid_reach": 117200000.0,
+   "type_id": 15955
   },
   {
-   "best_bid": 112100.0,
-   "gap": 0.0018,
-   "name": "",
-   "s_bid_reach": 112300.0,
-   "type_id": 98435
-  },
-  {
-   "best_bid": 104300.0,
-   "gap": 0.001,
-   "name": "Synthetic Aperture Ladar Receiver",
-   "s_bid_reach": 104400.0,
-   "type_id": 45663
-  },
-  {
-   "best_bid": 18080.0,
-   "gap": 0.0006,
-   "name": "Scorched Microgravimeter",
-   "s_bid_reach": 18090.0,
-   "type_id": 45660
-  },
-  {
-   "best_bid": 182800.0,
+   "best_bid": 1850.0,
    "gap": 0.0005,
    "name": "",
-   "s_bid_reach": 182900.0,
-   "type_id": 16467
+   "s_bid_reach": 1851.0,
+   "type_id": 15608
   },
   {
-   "best_bid": 7160000.0,
-   "gap": 0.0004,
-   "name": "SARO Enforcement Booster",
-   "s_bid_reach": 7163000.0,
-   "type_id": 98137
-  },
-  {
-   "best_bid": 523100.0,
-   "gap": 0.0004,
-   "name": "Federation Defense Booster II",
-   "s_bid_reach": 523300.0,
-   "type_id": 98436
-  },
-  {
-   "best_bid": 34300000.0,
-   "gap": 0.0003,
-   "name": "Retriever",
-   "s_bid_reach": 34310000.0,
-   "type_id": 17478
-  },
-  {
-   "best_bid": 3501.0,
-   "gap": 0.0003,
-   "name": "",
-   "s_bid_reach": 3502.0,
-   "type_id": 30258
-  },
-  {
-   "best_bid": 51110000.0,
+   "best_bid": 4699.0,
    "gap": 0.0002,
-   "name": "Dark Blood Multispectrum Energized Membrane",
-   "s_bid_reach": 51120000.0,
-   "type_id": 14070
+   "name": "",
+   "s_bid_reach": 4700.0,
+   "type_id": 15597
+  },
+  {
+   "best_bid": 6268.0,
+   "gap": 0.0002,
+   "name": "",
+   "s_bid_reach": 6269.0,
+   "type_id": 19400
+  },
+  {
+   "best_bid": 67090000.0,
+   "gap": 0.0001,
+   "name": "Jackdaw",
+   "s_bid_reach": 67100000.0,
+   "type_id": 34828
+  },
+  {
+   "best_bid": 92670000.0,
+   "gap": 0.0001,
+   "name": "Dominix",
+   "s_bid_reach": 92680000.0,
+   "type_id": 645
   }
  ],
- "types": 3788,
- "types_also_in_jita": 3788,
- "types_bid_over_jita_reaching": 10
+ "types": 3790,
+ "types_also_in_jita": 3790,
+ "types_bid_over_jita_reaching": 6
 }
