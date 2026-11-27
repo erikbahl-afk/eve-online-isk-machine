@@ -543,3 +543,18 @@
   Amarr visit. Idle Jita bids: Bomb Launcher kept (on top, no sellers), the others are dust. 11-25 daily file missing = the outage
   day (confirmed). Thresholds kept.
 - Next: Fri memo: raise the station-vs-import capital split with the user; Sat check imports_only/stale_step_20 started cleanly.
+
+## 2026-11-27 · weekly review and memo (Friday)
+- Week: main NW 4.95B → 5.12B (+3.4%; +2.41% since 10-28), realized −47.1M → +120.6M, liq 50% → 54%. Capital I-a Enduring
+  Armor Repairer sold its last 2 units at 179.7M (11-23/24) after one 10% step: +263M on the item; w/o best+worst −121.5M.
+  Relists 55 (38.6M), broker 18.1M. All time import +173M vs station −52M. 3 sim logins (58 min). Memo: reports/2026-11-27-memo.md.
+- Found: 1.01B in Jita bids while imports are cash-gated (0.45B free vs 0.9B contract). Six 1-unit bids placed Mon 11-24 04Z
+  (52236 232M, 85656 173M, 57119 123M, 41525 65M, 98440 23M, + 12076) were on top in 0 of the last 24 checks. At 5 days they
+  turn stale 11-29 04Z, minutes after Sat's 03:48Z login, so they'd sit to the next session (~7 d). Changed: strategy
+  `buy_stale_days` 5 → 4 (main + all variants; logic-gap fix like 11-20, no probe). 41 tests pass.
+- Alerts (30): liquidation 54% / Typhoon 8.2%: legacy, step-down continues (Thu 19 decision), under push lines. Stale Amarr
+  sells: step-down each Amarr visit. Idle Jita bids: Bomb Launcher and Nomad Gamma (new, 92.5M) are on top (24/24, 17/24) with
+  no sellers yet, so they're kept; behind-rival ones go at 4 d now; Gneiss/Dark Glitter/Fullerite are dust. Thresholds kept.
+- Grades: all topics changed something except Tue (marginal). No reassignment. Usage flat (avg 22/day vs 22 baseline).
+- Asked the user: shift main's capital from station to imports before imports_only reports (~12-10)?
+- Next: Sat check the Mon bids got cancelled and whether a courier ships with the freed cash.
