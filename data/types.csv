@@ -161,7 +161,7 @@ type_id,name,volume,group_id
 2889,200mm AutoCannon II,5,55
 2897,220mm Vulcan AutoCannon II,10,55
 2905,250mm Light Artillery Cannon II,5,55
-2913,,10,55
+2913,425mm AutoCannon II,10,55
 2929,800mm Repeating Cannon II,20,55
 2945,Dual 425mm AutoCannon II,20,55
 2953,,20,
@@ -1611,6 +1611,7 @@ type_id,name,volume,group_id
 28701,Viridian Mykoserocin,,
 28710,Golem,50000,900
 28739,,5,766
+28744,,20,38
 28746,Thukker Medium Shield Extender,10,38
 28750,ORE Miner,5,54
 28752,ORE Ice Harvester,5,464
@@ -2344,7 +2345,7 @@ type_id,name,volume,group_id
 47927,Mystic S,0.01,1989
 47928,,0.01,
 47929,Meson Exotic Plasma M,0.01,1987
-47930,,0.01,1989
+47930,Occult M,0.01,1989
 47931,Mystic M,0.01,1989
 47932,,0.01,
 47934,Occult L,0.01,1989
@@ -2727,6 +2728,7 @@ type_id,name,volume,group_id
 84100,Paladin War for the Empire SKIN,0.01,
 84173,Imperial Gold Metallic - Limited,0.1,4726
 84422,Unstable Large EMP Smartbomb Mutaplasmid,1,1964
+84689,,0.01,1950
 85084,Small Breacher Pod Launcher,5,4807
 85085,Medium Breacher Pod Launcher,10,4807
 85086,,15000,419

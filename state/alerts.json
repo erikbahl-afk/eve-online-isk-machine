@@ -172,5 +172,11 @@
   "severity": "info",
   "since": 1795363233.5435922,
   "text": "Buy order for Compressed Fullerite-C540 in jita hasn't filled at all in 10 days (11.22M tied up)."
+ },
+ {
+  "key": "idle_buy:65",
+  "severity": "info",
+  "since": 1795802434.0793839,
+  "text": "Buy order for Low-grade Nomad Gamma in jita hasn't filled at all in 5 days (92.46M tied up)."
  }
 ]

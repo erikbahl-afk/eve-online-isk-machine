@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.052,
- "buy_orders": 5781,
- "buy_orders_reaching_jita": 5716,
+ "ask_ratio_median": 1.0523,
+ "buy_orders": 5787,
+ "buy_orders_reaching_jita": 5724,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6214,
- "sell_orders": 433,
- "share_ask_below_jita": 0.2785,
+ "orders": 6218,
+ "sell_orders": 431,
+ "share_ask_below_jita": 0.2872,
  "structure_id": 1042508032148,
- "t": 1795795253.9271634,
+ "t": 1795802454.6113036,
  "top_ask_below_jita": [
   {
    "best_ask": 4199.0,
@@ -38,22 +38,22 @@
    "type_id": 3297
   },
   {
-   "best_ask": 99800.0,
+   "best_ask": 99820.0,
    "gap": 0.6806,
    "name": "",
    "s_ask": 31880.0,
    "type_id": 47809
   },
   {
-   "best_ask": 74870.0,
+   "best_ask": 74860.0,
    "gap": 0.6662,
    "name": "",
    "s_ask": 24990.0,
    "type_id": 22576
   },
   {
-   "best_ask": 59600.0,
-   "gap": 0.6055,
+   "best_ask": 59630.0,
+   "gap": 0.6057,
    "name": "",
    "s_ask": 23510.0,
    "type_id": 21080
@@ -115,8 +115,79 @@
    "type_id": 244
   }
  ],
- "top_bid_over_jita": [],
- "types": 3799,
- "types_also_in_jita": 3799,
- "types_bid_over_jita_reaching": 0
+ "top_bid_over_jita": [
+  {
+   "best_bid": 1076000.0,
+   "gap": 0.0028,
+   "name": "",
+   "s_bid_reach": 1079000.0,
+   "type_id": 98439
+  },
+  {
+   "best_bid": 112100.0,
+   "gap": 0.0018,
+   "name": "",
+   "s_bid_reach": 112300.0,
+   "type_id": 98435
+  },
+  {
+   "best_bid": 104300.0,
+   "gap": 0.001,
+   "name": "Synthetic Aperture Ladar Receiver",
+   "s_bid_reach": 104400.0,
+   "type_id": 45663
+  },
+  {
+   "best_bid": 18080.0,
+   "gap": 0.0006,
+   "name": "Scorched Microgravimeter",
+   "s_bid_reach": 18090.0,
+   "type_id": 45660
+  },
+  {
+   "best_bid": 182800.0,
+   "gap": 0.0005,
+   "name": "",
+   "s_bid_reach": 182900.0,
+   "type_id": 16467
+  },
+  {
+   "best_bid": 7160000.0,
+   "gap": 0.0004,
+   "name": "SARO Enforcement Booster",
+   "s_bid_reach": 7163000.0,
+   "type_id": 98137
+  },
+  {
+   "best_bid": 523100.0,
+   "gap": 0.0004,
+   "name": "Federation Defense Booster II",
+   "s_bid_reach": 523300.0,
+   "type_id": 98436
+  },
+  {
+   "best_bid": 34300000.0,
+   "gap": 0.0003,
+   "name": "Retriever",
+   "s_bid_reach": 34310000.0,
+   "type_id": 17478
+  },
+  {
+   "best_bid": 3501.0,
+   "gap": 0.0003,
+   "name": "",
+   "s_bid_reach": 3502.0,
+   "type_id": 30258
+  },
+  {
+   "best_bid": 51110000.0,
+   "gap": 0.0002,
+   "name": "Dark Blood Multispectrum Energized Membrane",
+   "s_bid_reach": 51120000.0,
+   "type_id": 14070
+  }
+ ],
+ "types": 3788,
+ "types_also_in_jita": 3788,
+ "types_bid_over_jita_reaching": 10
 }
