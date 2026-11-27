@@ -1087,7 +1087,7 @@ type_id,name,volume,group_id
 19285,,5,
 19286,,5,77
 19288,Pith X-Type Kinetic Shield Hardener,5,77
-19289,,5,338
+19289,Pith C-Type Shield Boost Amplifier,5,338
 19293,Gist A-Type Shield Boost Amplifier,5,
 19295,Pith X-Type Shield Boost Amplifier,5,338
 19297,Gist C-Type Shield Boost Amplifier,5,338
@@ -2108,7 +2108,7 @@ type_id,name,volume,group_id
 41415,Fighter Support Unit II,1000,407
 41456,CONCORD 25000mm Steel Plates,1000,329
 41459,CONCORD Capital Shield Extender,1000,38
-41463,Capital I-ax Enduring Remote Armor Repairer,,
+41463,Capital I-ax Enduring Remote Armor Repairer,1000,325
 41469,Capital Asymmetric Enduring Remote Shield Booster,1000,41
 41482,,25,1697
 41485,Capital Compact Pb-Acid Cap Battery,1000,61
@@ -2756,7 +2756,7 @@ type_id,name,volume,group_id
 86264,Breacher Pod Rapid Firing,0.01,256
 87323,Navy Scan Rangefinding Array,5,1223
 87324,Navy Scan Pinpointing Array,5,1223
-87325,,5,1238
+87325,Navy Scan Acquisition Array,5,1238
 87504,Paladin Imperial Police SKIN,0.01,
 87562,ORE Deep Core Strip Miner,5,464
 87572,,0.1,1088

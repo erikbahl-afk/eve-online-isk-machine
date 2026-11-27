@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Fri 27 Nov 02:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Fri 27 Nov 02:09 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 37 · **Est. time:** 25 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -105,8 +105,8 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 |---|---|---|---|---|---|
 | 22 | ☐ Federation Mobility Booster III | 23,020,000 | **23,040,000** | 45,400,000 | 23,030,000 |
 | 23 | ☐ Low-grade Nomad Delta | 122,300,000 | **122,100,000** | 138,500,000 | 122,000,000 |
-| 24 | ☐ State Security Token | 12,210,000 | **13,050,000** | 14,920,000 | 13,040,000 |
-| 25 | ☐ Zorya's Light Entropic Disintegrator | 231,900,000 | **236,500,000** | 267,300,000 | 236,400,000 |
+| 24 | ☐ State Security Token | 12,210,000 | **13,060,000** | 14,920,000 | 13,050,000 |
+| 25 | ☐ Zorya's Light Entropic Disintegrator | 231,900,000 | **236,500,000** | 267,200,000 | 236,400,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
@@ -138,7 +138,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 30 | ☐ Low-grade Nomad Gamma | 92,460,000 | **92,410,000** | 97,160,000 | 92,400,000 |
-| 31 | ☐ Neurotoxin Control | 8,902,000 | **11,290,000** | 14,020,000 | 11,280,000 |
+| 31 | ☐ Neurotoxin Control | 8,902,000 | **11,290,000** | 14,030,000 | 11,280,000 |
 | 32 | ☐ Scorch Bomb | 1,167,000 | **1,166,000** | 1,376,000 | 1,165,000 |
 
 #### New buy orders

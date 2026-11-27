@@ -3,11 +3,11 @@
  "buy_orders": 5748,
  "buy_orders_reaching_jita": 5680,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6194,
- "sell_orders": 446,
- "share_ask_below_jita": 0.2921,
+ "orders": 6195,
+ "sell_orders": 447,
+ "share_ask_below_jita": 0.2895,
  "structure_id": 1042508032148,
- "t": 1795773647.0359106,
+ "t": 1795774180.7758718,
  "top_ask_below_jita": [
   {
    "best_ask": 4199.0,
@@ -117,56 +117,21 @@
  ],
  "top_bid_over_jita": [
   {
-   "best_bid": 822.1,
-   "gap": 0.0035,
-   "name": "",
-   "s_bid_reach": 825.0,
-   "type_id": 3779
-  },
-  {
-   "best_bid": 10230.0,
+   "best_bid": 105000000.0,
    "gap": 0.001,
-   "name": "",
-   "s_bid_reach": 10240.0,
-   "type_id": 56285
+   "name": "Dread Guristas Ballistic Control System",
+   "s_bid_reach": 105100000.0,
+   "type_id": 13937
   },
   {
-   "best_bid": 3616.0,
-   "gap": 0.0003,
-   "name": "",
-   "s_bid_reach": 3617.0,
-   "type_id": 41310
-  },
-  {
-   "best_bid": 50030.0,
-   "gap": 0.0002,
-   "name": "Hyperspherical Housing",
-   "s_bid_reach": 50040.0,
-   "type_id": 97552
-  },
-  {
-   "best_bid": 51570.0,
-   "gap": 0.0002,
-   "name": "",
-   "s_bid_reach": 51580.0,
-   "type_id": 18637
-  },
-  {
-   "best_bid": 7300.0,
-   "gap": 0.0001,
-   "name": "",
-   "s_bid_reach": 7301.0,
-   "type_id": 14053
-  },
-  {
-   "best_bid": 8033.0,
-   "gap": 0.0001,
-   "name": "",
-   "s_bid_reach": 8034.0,
-   "type_id": 5320
+   "best_bid": 455000000.0,
+   "gap": 0.0004,
+   "name": "Skill Extractor",
+   "s_bid_reach": 455200000.0,
+   "type_id": 40519
   }
  ],
  "types": 3786,
  "types_also_in_jita": 3786,
- "types_bid_over_jita_reaching": 7
+ "types_bid_over_jita_reaching": 2
 }
