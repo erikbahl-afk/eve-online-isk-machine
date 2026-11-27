@@ -292,6 +292,7 @@ type_id,name,volume,group_id
 4959,'Seed' Micro Capacitor Booster I,,
 5051,Heavy F-RX Compact Capacitor Booster,20,76
 5697,,50,63
+5755,,50,63
 5839,IFFA Compact Damage Control,5,60
 5973,5MN Y-T8 Compact Microwarpdrive,10,46
 6719,,5,
@@ -568,7 +569,7 @@ type_id,name,volume,group_id
 13920,Dread Guristas Rapid Light Missile Launcher,10,511
 13923,Domination Torpedo Launcher,20,
 13924,Dread Guristas Torpedo Launcher,20,508
-13925,,5,509
+13925,Domination Light Missile Launcher,5,509
 13926,Dread Guristas Light Missile Launcher,5,509
 13927,,20,506
 13929,,20,506
@@ -1734,6 +1735,7 @@ type_id,name,volume,group_id
 31414,,10,
 31450,Medium Energy Burst Aerator II,10,775
 31462,Medium Energy Collision Accelerator II,10,775
+31486,,10,775
 31498,Medium Energy Metastasis Adjuster II,10,
 31544,,5,
 31564,Medium Hybrid Locus Coordinator I,,
@@ -2558,7 +2560,7 @@ type_id,name,volume,group_id
 62399,Compressed Fullerite-C50,0.1,4168
 62400,Compressed Fullerite-C84,0.2,4168
 62402,Compressed Fullerite-C28,0.2,4168
-62403,Compressed Fullerite-C72,,
+62403,Compressed Fullerite-C72,0.2,4168
 62404,Compressed Fullerite-C32,0.5,4168
 62405,Compressed Fullerite-C540,1,4168
 62406,,0.5,4168
