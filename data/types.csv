@@ -325,7 +325,7 @@ type_id,name,volume,group_id
 9941,Memory Augmentation - Basic,1,745
 9942,,1,745
 9943,Cybernetic Subprocessor - Basic,1,745
-9947,Standard Crash Booster,,
+9947,Standard Crash Booster,1,303
 9950,Standard Blue Pill Booster,1,303
 9956,,1,745
 9957,Eifyr and Co. 'Gunslinger' Motion Prediction MR-703,1,742
@@ -625,6 +625,7 @@ type_id,name,volume,group_id
 14104,,5,46
 14106,Domination 10MN Afterburner,5,46
 14108,Shadow Serpentis 10MN Afterburner,5,46
+14112,,5,46
 14114,,10,46
 14116,,10,46
 14118,,10,46
@@ -1624,6 +1625,7 @@ type_id,name,volume,group_id
 28812,Mid-grade Virtue Gamma,1,300
 28813,Mid-grade Virtue Omega,1,300
 28844,Rhea,,
+28850,,1300000,902
 28974,Vaccines,3,1040
 29015,Targeting Range Dampening Script,,
 29336,Scythe Fleet Issue,10000,26
@@ -2441,6 +2443,7 @@ type_id,name,volume,group_id
 54794,EDENCOM Battleship,,
 54827,,0.01,
 54828,Medium Vorton Specialization,0.01,
+54829,,0.01,255
 54841,Vorton Arc Guidance,,
 54975,Vorton Tuning System II,5,4067
 55025,Upwell Encryption Methods,0.01,
