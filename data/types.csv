@@ -750,6 +750,7 @@ type_id,name,volume,group_id
 15863,Imperial Navy Mega Beam Laser,20,53
 15864,Imperial Navy Small Focused Pulse Laser,5,53
 15865,Imperial Navy Small Focused Beam Laser,5,53
+15881,,5,68
 15887,Caldari Navy Warp Scrambler,5,52
 15889,Caldari Navy Warp Disruptor,5,52
 15891,Republic Fleet Warp Disruptor,5,52
@@ -1012,7 +1013,7 @@ type_id,name,volume,group_id
 19029,Corelum C-Type Medium Armor Repairer,10,62
 19031,Corelum B-Type Medium Armor Repairer,10,62
 19033,Corelum A-Type Medium Armor Repairer,10,62
-19035,,50,62
+19035,Core C-Type Large Armor Repairer,50,62
 19036,Core B-Type Large Armor Repairer,50,62
 19037,Core A-Type Large Armor Repairer,50,
 19038,Core X-Type Large Armor Repairer,50,62
@@ -2744,6 +2745,7 @@ type_id,name,volume,group_id
 86262,,0.01,
 86263,Breacher Pod Projection,0.01,256
 86264,Breacher Pod Rapid Firing,0.01,256
+87323,Navy Scan Rangefinding Array,5,1223
 87324,Navy Scan Pinpointing Array,5,1223
 87325,,5,1238
 87504,Paladin Imperial Police SKIN,0.01,
