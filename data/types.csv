@@ -231,6 +231,7 @@ type_id,name,volume,group_id
 3488,,5,
 3512,Focused Medium Pulse Laser II,10,53
 3520,Heavy Pulse Laser II,10,53
+3532,,2500,25
 3534,CONCORD Capital Armor Repairer,1000,62
 3536,CONCORD Capital Remote Armor Repairer,1000,325
 3540,Large Armor Repairer II,50,62
@@ -790,6 +791,7 @@ type_id,name,volume,group_id
 16067,Caldari Navy Torpedo Launcher,20,508
 16068,Caldari Navy Light Missile Launcher,,
 16229,Brutix,15000,419
+16231,,15000,419
 16233,Prophecy,15000,419
 16243,Thrasher Blueprint,,
 16246,Zainou 'Gnome' Shield Management SM-705,1,749
@@ -1494,7 +1496,7 @@ type_id,name,volume,group_id
 27196,Poteque 'Prospector' Archaeology AC-905,1,1230
 27238,Eifyr and Co. 'Alchemist' Gas Harvesting GH-803,1,1229
 27239,Eifyr and Co. 'Alchemist' Gas Harvesting GH-805,1,1229
-27245,Zainou 'Snapshot' Heavy Assault Missiles AM-705,,
+27245,Zainou 'Snapshot' Heavy Assault Missiles AM-705,1,746
 27250,Zainou 'Snapshot' Heavy Missiles HM-705,,
 27252,Zainou 'Snapshot' Light Missiles LM-905,,
 27258,Zainou 'Snapshot' Cruise Missiles CM-605,,
@@ -2162,6 +2164,7 @@ type_id,name,volume,group_id
 42882,Mining Laser Optimization Charge Blueprint,0.01,
 42890,Capital Industrial Core II,,
 43551,Mining Foreman Burst II,60,1770
+43552,,60,1770
 43555,,60,1770
 43556,Skirmish Command Burst II,60,1770
 43662,Gallente Phenomena Generator,,
@@ -2867,6 +2870,7 @@ type_id,name,volume,group_id
 93470,,0.1,4726
 93663,Drake Navy Issue Penumbral Shadows SKIN,0.01,1950
 93745,Tempest Fleet Issue Capsuleer Day XXIII SKIN,0.01,
+93840,,25,325
 93908,Caldari Navy Missile Guidance Enhancer,5,1395
 93909,Republic Fleet Missile Guidance Enhancer,5,
 93912,Revelli’s Modified Integrated Analyzer,5,538
