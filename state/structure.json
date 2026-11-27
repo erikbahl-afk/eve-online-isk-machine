@@ -1,13 +1,13 @@
 {
  "ask_ratio_median": 1.0477,
- "buy_orders": 5739,
- "buy_orders_reaching_jita": 5674,
+ "buy_orders": 5738,
+ "buy_orders_reaching_jita": 5673,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6182,
+ "orders": 6181,
  "sell_orders": 443,
  "share_ask_below_jita": 0.2778,
  "structure_id": 1042508032148,
- "t": 1795787904.8319612,
+ "t": 1795788046.5209897,
  "top_ask_below_jita": [
   {
    "best_ask": 4199.0,
@@ -115,16 +115,8 @@
    "type_id": 44894
   }
  ],
- "top_bid_over_jita": [
-  {
-   "best_bid": 1528000.0,
-   "gap": 0.0013,
-   "name": "Praetor II",
-   "s_bid_reach": 1530000.0,
-   "type_id": 2195
-  }
- ],
- "types": 3783,
- "types_also_in_jita": 3783,
- "types_bid_over_jita_reaching": 1
+ "top_bid_over_jita": [],
+ "types": 3782,
+ "types_also_in_jita": 3782,
+ "types_bid_over_jita_reaching": 0
 }

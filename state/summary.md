@@ -1,4 +1,4 @@
-# Summary · Fri 27 Nov 05:58 PST
+# Summary · Fri 27 Nov 06:00 PST
 
 Updated every ~2 hours. **Your real character** is the first section; everything after it is the **practice trader** (pretend ISK, real market data). Each section starts with a line on how to read it.
 
@@ -177,10 +177,10 @@ _Is the market data flowing? Orders = orders seen in the station · Hours today 
 
 | Hub | Orders | Hours today | Trades seen | Note |
 |---|---|---|---|---|
-| jita | 376,685 | 16.0 | 8,645 |  |
-| amarr | 131,293 | 16.0 | 2,135 |  |
-| dodixie | 69,796 | 16.0 | 1,367 |  |
-| rens | 32,934 | 16.0 | 421 |  |
-| hek | 42,594 | 16.0 | 710 |  |
+| jita | 376,685 | 16.0 | 0 | no new data since last run |
+| amarr | 131,293 | 16.0 | 0 | no new data since last run |
+| dodixie | 69,796 | 16.0 | 0 | no new data since last run |
+| rens | 32,934 | 16.0 | 0 | no new data since last run |
+| hek | 42,594 | 16.0 | 0 | no new data since last run |
 
-_This run took 51 s (market data 17 s, stats and character 5 s, experiments 26 s, main portfolio 2 s, cornering scan 0 s, ESI back-off 0 s; 1,496 ESI calls). A slow run usually means ESI rate limits (back-off) or a first-time lookup of many item types._
+_This run took 40 s (market data 14 s, stats and character 4 s, experiments 20 s, main portfolio 2 s, cornering scan 0 s, ESI back-off 0 s; 1,480 ESI calls). A slow run usually means ESI rate limits (back-off) or a first-time lookup of many item types._
