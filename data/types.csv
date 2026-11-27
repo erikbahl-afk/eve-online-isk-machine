@@ -507,6 +507,7 @@ type_id,name,volume,group_id
 12761,,0.025,376
 12765,,0.025,376
 12771,Tremor M,,
+12773,,0.0125,372
 12775,,0.025,372
 12777,,0.0125,372
 12779,,0.025,
@@ -1544,7 +1545,7 @@ type_id,name,volume,group_id
 27507,Legion Mjolnir Auto-Targeting Light Missile,0.015,394
 27519,,0.015,394
 27672,Energy Neutralizing Battery,4000,837
-27914,,50,862
+27914,Bomb Launcher I,50,862
 27916,Scorch Bomb,75,90
 27918,Shrapnel Bomb,75,90
 27920,Electron Bomb,75,90
@@ -2893,6 +2894,7 @@ type_id,name,volume,group_id
 94064,Republic Fleet Missile Guidance Computer,5,1396
 94065,Republic Fleet Mining Survey Chipset,5,49
 94067,Caldari Navy Signal Distortion Amplifier,,
+94153,,0.01,1950
 94154,Confessor Mandate of Faith SKIN,,
 94155,Cerberus State Regulator SKIN,0.01,1950
 95228,Manifest Homecoming Background,0.1,5082
@@ -3028,6 +3030,7 @@ type_id,name,volume,group_id
 98440,Federation Mobility Booster III,1,303
 98441,,1,303
 98442,,1,303
+98443,Federation Hardpoint Booster III,1,303
 98446,Republic Electronics Booster III,,
 98449,Republic Defense Booster III,1,303
 98451,Republic Mobility Booster II,1,303

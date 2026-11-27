@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.052,
- "buy_orders": 5773,
- "buy_orders_reaching_jita": 5711,
+ "ask_ratio_median": 1.0508,
+ "buy_orders": 5748,
+ "buy_orders_reaching_jita": 5686,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6203,
- "sell_orders": 430,
- "share_ask_below_jita": 0.2827,
+ "orders": 6179,
+ "sell_orders": 431,
+ "share_ask_below_jita": 0.2766,
  "structure_id": 1042508032148,
- "t": 1795810803.4443927,
+ "t": 1795816849.2524743,
  "top_ask_below_jita": [
   {
    "best_ask": 4198.0,
@@ -45,14 +45,14 @@
    "type_id": 47809
   },
   {
-   "best_ask": 74850.0,
+   "best_ask": 74840.0,
    "gap": 0.6661,
    "name": "",
    "s_ask": 24990.0,
    "type_id": 22576
   },
   {
-   "best_ask": 59630.0,
+   "best_ask": 59620.0,
    "gap": 0.6057,
    "name": "",
    "s_ask": 23510.0,
@@ -115,8 +115,23 @@
    "type_id": 45969
   }
  ],
- "top_bid_over_jita": [],
- "types": 3790,
- "types_also_in_jita": 3790,
- "types_bid_over_jita_reaching": 0
+ "top_bid_over_jita": [
+  {
+   "best_bid": 21330.0,
+   "gap": 0.0009,
+   "name": "",
+   "s_bid_reach": 21350.0,
+   "type_id": 20795
+  },
+  {
+   "best_bid": 48240.0,
+   "gap": 0.0002,
+   "name": "Fullerite-C540",
+   "s_bid_reach": 48250.0,
+   "type_id": 30378
+  }
+ ],
+ "types": 3783,
+ "types_also_in_jita": 3783,
+ "types_bid_over_jita_reaching": 2
 }
