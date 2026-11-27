@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0507,
- "buy_orders": 5753,
- "buy_orders_reaching_jita": 5684,
+ "ask_ratio_median": 1.0471,
+ "buy_orders": 5748,
+ "buy_orders_reaching_jita": 5680,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6199,
+ "orders": 6194,
  "sell_orders": 446,
- "share_ask_below_jita": 0.2932,
+ "share_ask_below_jita": 0.2921,
  "structure_id": 1042508032148,
- "t": 1795766447.8026145,
+ "t": 1795773647.0359106,
  "top_ask_below_jita": [
   {
    "best_ask": 4199.0,
@@ -52,11 +52,11 @@
    "type_id": 84407
   },
   {
-   "best_ask": 976.8,
-   "gap": 0.6313,
+   "best_ask": 74890.0,
+   "gap": 0.6663,
    "name": "",
-   "s_ask": 360.1,
-   "type_id": 3446
+   "s_ask": 24990.0,
+   "type_id": 22576
   },
   {
    "best_ask": 59600.0,
@@ -117,42 +117,56 @@
  ],
  "top_bid_over_jita": [
   {
-   "best_bid": 2856.0,
-   "gap": 0.0018,
+   "best_bid": 822.1,
+   "gap": 0.0035,
    "name": "",
-   "s_bid_reach": 2861.0,
-   "type_id": 15621
+   "s_bid_reach": 825.0,
+   "type_id": 3779
   },
   {
-   "best_bid": 941000.0,
-   "gap": 0.0009,
+   "best_bid": 10230.0,
+   "gap": 0.001,
    "name": "",
-   "s_bid_reach": 941800.0,
-   "type_id": 15670
+   "s_bid_reach": 10240.0,
+   "type_id": 56285
   },
   {
-   "best_bid": 1833.0,
-   "gap": 0.0005,
-   "name": "",
-   "s_bid_reach": 1834.0,
-   "type_id": 15608
-  },
-  {
-   "best_bid": 7462.0,
+   "best_bid": 3616.0,
    "gap": 0.0003,
    "name": "",
-   "s_bid_reach": 7464.0,
-   "type_id": 15634
+   "s_bid_reach": 3617.0,
+   "type_id": 41310
   },
   {
-   "best_bid": 8923.0,
+   "best_bid": 50030.0,
+   "gap": 0.0002,
+   "name": "Hyperspherical Housing",
+   "s_bid_reach": 50040.0,
+   "type_id": 97552
+  },
+  {
+   "best_bid": 51570.0,
+   "gap": 0.0002,
+   "name": "",
+   "s_bid_reach": 51580.0,
+   "type_id": 18637
+  },
+  {
+   "best_bid": 7300.0,
    "gap": 0.0001,
    "name": "",
-   "s_bid_reach": 8924.0,
-   "type_id": 15598
+   "s_bid_reach": 7301.0,
+   "type_id": 14053
+  },
+  {
+   "best_bid": 8033.0,
+   "gap": 0.0001,
+   "name": "",
+   "s_bid_reach": 8034.0,
+   "type_id": 5320
   }
  ],
- "types": 3794,
- "types_also_in_jita": 3794,
- "types_bid_over_jita_reaching": 5
+ "types": 3786,
+ "types_also_in_jita": 3786,
+ "types_bid_over_jita_reaching": 7
 }

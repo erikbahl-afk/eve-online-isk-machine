@@ -2098,6 +2098,7 @@ type_id,name,volume,group_id
 41312,Scoped Conductors,,
 41314,Hail XL,0.125,
 41322,Void XL,0.125,
+41332,,1,375
 41334,Gleam XL,1,374
 41403,Capital Autocannon Specialization,,
 41404,Capital Artillery Specialization,,
@@ -2871,7 +2872,7 @@ type_id,name,volume,group_id
 94065,Republic Fleet Mining Survey Chipset,5,49
 94067,Caldari Navy Signal Distortion Amplifier,,
 94154,Confessor Mandate of Faith SKIN,,
-94155,,0.01,1950
+94155,Cerberus State Regulator SKIN,0.01,1950
 95228,Manifest Homecoming Background,0.1,5082
 95275,,0.1,5082
 95292,,0.01,1950
