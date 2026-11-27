@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0467,
- "buy_orders": 5746,
- "buy_orders_reaching_jita": 5681,
+ "ask_ratio_median": 1.0477,
+ "buy_orders": 5739,
+ "buy_orders_reaching_jita": 5674,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6192,
- "sell_orders": 446,
- "share_ask_below_jita": 0.2929,
+ "orders": 6182,
+ "sell_orders": 443,
+ "share_ask_below_jita": 0.2778,
  "structure_id": 1042508032148,
- "t": 1795780847.4843197,
+ "t": 1795787904.8319612,
  "top_ask_below_jita": [
   {
    "best_ask": 4199.0,
@@ -15,20 +15,6 @@
    "name": "",
    "s_ask": 230.5,
    "type_id": 90495
-  },
-  {
-   "best_ask": 20980.0,
-   "gap": 0.9369,
-   "name": "",
-   "s_ask": 1324.0,
-   "type_id": 90590
-  },
-  {
-   "best_ask": 10000.0,
-   "gap": 0.8286,
-   "name": "",
-   "s_ask": 1714.0,
-   "type_id": 90526
   },
   {
    "best_ask": 169900.0,
@@ -52,8 +38,8 @@
    "type_id": 22576
   },
   {
-   "best_ask": 59600.0,
-   "gap": 0.6055,
+   "best_ask": 59500.0,
+   "gap": 0.6049,
    "name": "",
    "s_ask": 23510.0,
    "type_id": 21080
@@ -108,15 +94,37 @@
    "type_id": 45922
   },
   {
+   "best_ask": 7000.0,
+   "gap": 0.5039,
+   "name": "",
+   "s_ask": 3473.0,
+   "type_id": 244
+  },
+  {
    "best_ask": 5989000.0,
    "gap": 0.4991,
    "name": "",
    "s_ask": 3000000.0,
    "type_id": 45969
+  },
+  {
+   "best_ask": 49760000.0,
+   "gap": 0.4976,
+   "name": "",
+   "s_ask": 25000000.0,
+   "type_id": 44894
   }
  ],
- "top_bid_over_jita": [],
+ "top_bid_over_jita": [
+  {
+   "best_bid": 1528000.0,
+   "gap": 0.0013,
+   "name": "Praetor II",
+   "s_bid_reach": 1530000.0,
+   "type_id": 2195
+  }
+ ],
  "types": 3783,
  "types_also_in_jita": 3783,
- "types_bid_over_jita_reaching": 0
+ "types_bid_over_jita_reaching": 1
 }

@@ -232,7 +232,7 @@ type_id,name,volume,group_id
 3512,Focused Medium Pulse Laser II,10,53
 3520,Heavy Pulse Laser II,10,53
 3534,CONCORD Capital Armor Repairer,1000,62
-3536,,1000,325
+3536,CONCORD Capital Remote Armor Repairer,1000,325
 3540,Large Armor Repairer II,50,62
 3542,CONCORD Capital Shield Booster,1000,40
 3544,CONCORD Capital Remote Shield Booster,1000,41
@@ -370,6 +370,7 @@ type_id,name,volume,group_id
 11200,,2500,
 11202,,2500,831
 11229,Explosive Energized Membrane II,,
+11297,400mm Steel Plates I,,
 11309,400mm Rolled Tungsten Compact Plates,10,329
 11317,800mm Rolled Tungsten Compact Plates,20,329
 11325,,20,329
@@ -412,6 +413,7 @@ type_id,name,volume,group_id
 11552,Scalar Capacitor Unit,1,334
 11553,Oscillator Capacitor Unit,1,334
 11554,Tesseract Capacitor Unit,1,334
+11555,Deflection Shield Emitter,1,334
 11556,Pulse Shield Emitter,1,334
 11557,Linear Shield Emitter,1,334
 11558,Sustained Shield Emitter,1,334
@@ -1223,6 +1225,7 @@ type_id,name,volume,group_id
 21586,,1,530
 21640,,10,100
 21667,Capital Projectile Turret,,
+21720,Sleeper Thermal Regulator,,
 21721,,0.1,
 21722,,0.1,528
 21740,Caldari Navy Antimatter Charge L,0.025,85
@@ -1404,6 +1407,7 @@ type_id,name,volume,group_id
 25619,Logic Circuit,0.01,754
 25620,Interface Circuit,0.01,754
 25624,Intact Armor Plates,0.01,754
+25625,,0.01,754
 25715,Heavy Assault Missile Launcher II,10,771
 25718,,0.01,
 25736,Large EM Armor Reinforcer I,,
@@ -1607,7 +1611,7 @@ type_id,name,volume,group_id
 28739,,5,766
 28746,Thukker Medium Shield Extender,10,38
 28750,ORE Miner,5,54
-28752,ORE Ice Harvester,5,
+28752,ORE Ice Harvester,5,464
 28754,ORE Strip Miner,5,464
 28756,Sisters Expanded Probe Launcher,5,481
 28758,Sisters Core Probe Launcher,5,481
@@ -1911,7 +1915,7 @@ type_id,name,volume,group_id
 33948,Low-grade Nomad Beta,1,300
 33949,Low-grade Nomad Delta,1,300
 33951,Low-grade Nomad Gamma,1,300
-33952,,1,300
+33952,Low-grade Nomad Omega,1,300
 33957,,1,300
 33960,Low-grade Snake Beta,1,300
 33961,Low-grade Snake Delta,1,300
@@ -2113,6 +2117,7 @@ type_id,name,volume,group_id
 41463,Capital I-ax Enduring Remote Armor Repairer,1000,325
 41469,Capital Asymmetric Enduring Remote Shield Booster,1000,41
 41482,,25,1697
+41483,Capital Ancillary Remote Shield Booster,1000,1697
 41485,Capital Compact Pb-Acid Cap Battery,1000,61
 41486,,1000,61
 41489,,128,
@@ -2203,7 +2208,7 @@ type_id,name,volume,group_id
 45617,Proteus Propulsion - Hyperspatial Optimization,40,957
 45618,Proteus Propulsion - Localized Injectors,40,957
 45619,Loki Propulsion - Interdiction Nullifier,,
-45620,Loki Propulsion - Intercalated Nanofibers,40,
+45620,Loki Propulsion - Intercalated Nanofibers,40,957
 45621,Loki Propulsion - Wake Limiter,40,957
 45622,Legion Core - Dissolution Sequencer,40,958
 45623,Legion Core - Augmented Antimatter Reactor,40,958
@@ -2737,11 +2742,12 @@ type_id,name,volume,group_id
 85447,Glorified Gravid Medium Armor Plate Mutaplasmid,,
 85514,Glorified Gravid Large Cap Battery Mutaplasmid,1,1964
 85521,,1,1964
+85531,Glorified Unstable Small Shield Booster Mutaplasmid,,
 85543,Glorified Gravid Large Shield Booster Mutaplasmid,1,1964
 85551,Glorified Gravid X-Large Shield Booster Mutaplasmid,,
 85558,Glorified Unstable Stasis Webifier Mutaplasmid,1,1964
 85559,Glorified Gravid Stasis Webifier Mutaplasmid,1,1964
-85641,,1,1964
+85641,Glorified Unstable Warp Disruptor Mutaplasmid,1,1964
 85642,,1,1964
 85645,Glorified Unstable Warp Scrambler Mutaplasmid,1,1964
 85656,Glorified Unstable Entropic Radiation Sink Mutaplasmid,1,1964
@@ -2947,6 +2953,7 @@ type_id,name,volume,group_id
 97548,Republic Strategic Intel,0.01,1194
 97549,Federation Strategic Intel,0.01,1194
 97550,State Strategic Intel,0.01,1194
+97551,,0.01,1194
 97552,Hyperspherical Housing,0.1,1194
 97553,Hyper-Field Projector,0.01,1194
 97554,Pulse-Mimic Circuitry,0.01,1194
