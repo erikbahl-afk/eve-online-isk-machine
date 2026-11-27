@@ -103,6 +103,7 @@ type_id,name,volume,group_id
 2321,Polyaramids,0.75,1034
 2327,Microfiber Shielding,0.75,1034
 2328,Water-Cooled CPU,0.75,1034
+2329,,0.75,1034
 2333,,5,49
 2344,,3,1040
 2345,Camera Drones,3,1040
@@ -599,6 +600,7 @@ type_id,name,volume,group_id
 13980,Dark Blood Kinetic Armor Hardener,5,328
 13982,True Sansha Thermal Armor Hardener,5,328
 13984,Dark Blood Thermal Armor Hardener,5,328
+13988,,5,328
 13990,,5,328
 13998,Domination Multispectrum Shield Hardener,5,77
 14001,True Sansha Multispectrum Coating,5,98
@@ -650,6 +652,7 @@ type_id,name,volume,group_id
 14172,Dark Blood Heavy Capacitor Booster,20,76
 14174,,20,76
 14176,Dark Blood Medium Capacitor Booster,,
+14178,,10,76
 14184,Dark Blood Small Capacitor Booster,5,76
 14190,True Sansha Large EMP Smartbomb,50,72
 14194,True Sansha Medium EMP Smartbomb,10,72
@@ -790,6 +793,7 @@ type_id,name,volume,group_id
 16274,Helium Isotopes,0.03,423
 16275,Strontium Clathrates,3,423
 16278,Ice Harvester I,5,464
+16359,,5,328
 16391,Compact Multispectrum Energized Membrane,5,326
 16457,Crosslink Compact Ballistic Control System,5,367
 16467,,5,71
@@ -905,7 +909,7 @@ type_id,name,volume,group_id
 17928,Daredevil,2500,25
 17930,Worm,2500,25
 17932,Dramiel,2500,25
-17960,,0.2,428
+17960,Prometium,0.2,428
 18054,Mercoxit Asteroid Mining Crystal Type A I,6,
 18068,,5,483
 18580,Tycoon,,
@@ -1084,6 +1088,7 @@ type_id,name,volume,group_id
 19297,Gist C-Type Shield Boost Amplifier,5,338
 19301,Gist X-Type Shield Boost Amplifier,5,338
 19311,,5,
+19313,,10,46
 19315,Corelum C-Type 50MN Microwarpdrive,10,46
 19321,Corelum B-Type 50MN Microwarpdrive,10,46
 19323,Core B-Type 500MN Microwarpdrive,10,46
@@ -1375,6 +1380,7 @@ type_id,name,volume,group_id
 25591,Contaminated Lorentz Fluid,0.01,754
 25592,,0.01,754
 25594,Tangled Power Conduit,0.01,754
+25597,,0.01,754
 25600,Burned Logic Circuit,0.01,754
 25601,Fried Interface Circuit,0.01,754
 25603,,0.01,754
@@ -1957,7 +1963,7 @@ type_id,name,volume,group_id
 35835,Athanor,8000,1406
 35878,Standup Manufacturing Plant I,4000,
 35886,Standup Invention Lab I,,
-35894,Standup Cloning Center I,4000,
+35894,Standup Cloning Center I,4000,1321
 35899,,4000,1322
 35922,,4000,1562
 35923,Standup Guided Bomb Launcher I,8000,1328
@@ -2287,6 +2293,7 @@ type_id,name,volume,group_id
 47889,Fierce Exotic Filament,0.1,1979
 47890,Raging Exotic Filament,0.1,1979
 47891,Chaotic Exotic Filament,0.1,1979
+47894,,0.1,1979
 47895,Chaotic Dark Filament,0.1,1979
 47897,,0.1,
 47898,,0.1,1979
