@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Fri 27 Nov 02:09 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Fri 27 Nov 04:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 37 · **Est. time:** 25 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -36,7 +36,7 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 9 | ☐ Chaotic Exotic Filament | 2 | **28,090,000** | 22,950,000 | 28,100,000 |
+| 9 | ☐ Chaotic Exotic Filament | 2 | **28,030,000** | 22,950,000 | 28,040,000 |
 
 ### Block 2 · should do · about 4 min
 _Short on time? Skip to the jump (step 19): the next hub's Block 1 is worth more per minute than the rest of this hub._
@@ -49,7 +49,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 | 10 | ☐ Caesium | 6,635 | **6,604** | 5,951 | 6,605 |
 | 11 | ☐ Improved 'Guise' Cloaking Device II | 49,960,000 | **49,250,000** | 30,830,000 | 49,260,000 |
 | 12 | ☐ Limited Expanded 'Archiver' Cargo | 49,530,000 | **49,390,000** | 25,080,000 | 49,400,000 |
-| 13 | ☐ Mobile Large Warp Disruptor I | 24,450,000 | **24,270,000** | 17,920,000 | 24,280,000 |
+| 13 | ☐ Mobile Large Warp Disruptor I | 24,450,000 | **24,250,000** | 17,920,000 | 24,260,000 |
 | 14 | ☐ Shrapnel Bomb | 1,474,000 | **1,464,000** | 1,265,000 | 1,465,000 |
 | 15 | ☐ Void XL | 4,177 | **4,176** | 3,174 | 4,177 |
 
@@ -58,7 +58,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 16 | ☐ Hyperspherical Housing | 547 | **49,660** | 59,460 | 49,650 |
+| 16 | ☐ Hyperspherical Housing | 553 | **49,660** | 59,460 | 49,650 |
 
 ### Block 3 · if there's time · about 2 min
 _Short on time? Skip to the jump (step 19): the next hub's Block 1 is worth more per minute than the rest of this hub._
@@ -75,7 +75,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 18 | ☐ Republic Strategic Intel | 139 | **57,310** | 86,890 | 57,300 |
+| 18 | ☐ Defender Launcher I | 2 | **3,001,000** | 5,494,000 | 3,000,000 |
 
 ## 19. ☐ Jump clone to Jita IV - Moon 4 - Caldari Navy Assembly Plant
 _Clone Bay → Jump Clone → Jita IV - Moon 4 - Caldari Navy Assembly Plant. Needs 19 h since your last jump; if it isn't allowed yet, you're done for this session._
@@ -89,31 +89,31 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 20 | ☐ Compressed Glistening Zeolites | 2,886 | **2,823** | 2,629 | 2,824 |
+| 20 | ☐ Compressed Glistening Zeolites | 2,886 | **2,699** | 2,629 | 2,700 |
 
 #### List new stock
 _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Duration 3 months._
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 21 | ☐ State Security Token | 1 | **21,980,000** | 12,700,000 | 21,990,000 |
+| 21 | ☐ State Security Token | 1 | **21,460,000** | 12,700,000 | 21,470,000 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 22 | ☐ Federation Mobility Booster III | 23,020,000 | **23,040,000** | 45,400,000 | 23,030,000 |
-| 23 | ☐ Low-grade Nomad Delta | 122,300,000 | **122,100,000** | 138,500,000 | 122,000,000 |
-| 24 | ☐ State Security Token | 12,210,000 | **13,060,000** | 14,920,000 | 13,050,000 |
-| 25 | ☐ Zorya's Light Entropic Disintegrator | 231,900,000 | **236,500,000** | 267,200,000 | 236,400,000 |
+| 22 | ☐ Federation Mobility Booster III | 23,020,000 | **23,050,000** | 45,400,000 | 23,040,000 |
+| 23 | ☐ Low-grade Nomad Delta | 122,300,000 | **122,100,000** | 138,400,000 | 122,000,000 |
+| 24 | ☐ State Security Token | 12,210,000 | **13,100,000** | 14,930,000 | 13,090,000 |
+| 25 | ☐ Zorya's Light Entropic Disintegrator | 231,900,000 | **236,700,000** | 267,100,000 | 236,600,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 26 | ☐ Inherent Implants 'Squire' Energy Grid Upgrades EU-703 | 1 | **12,600,000** | 17,050,000 | 12,590,000 |
+| 26 | ☐ Imperial Defense Booster III | 1 | **21,660,000** | 47,290,000 | 21,650,000 |
 | 27 | ☐ Low-grade Virtue Epsilon | 1 | **210,500,000** | 255,100,000 | 210,400,000 |
 
 ### Block 2 · should do · about 4 min
@@ -125,20 +125,20 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 |---|---|---|---|---|---|
 | 28 | ☐ Compressed Mercoxit II-Grade | 23,240 | **22,120** | 20,730 | 22,130 |
 
-#### Sell straight to buy orders
-_The buy price here is close to what listing would net, so take it now: hangar → right-click → Sell This Item (Immediate). Only fill buy orders at or above the minimum._
+#### List new stock
+_Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Duration 3 months._
 
-| # | Item | Qty | Accept no less than | Highest buy when written |
-|---|---|---|---|---|
-| 29 | ☐ State Defense Booster III | 1 | **27,520,000** | 28,080,000 |
+| # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
+|---|---|---|---|---|---|
+| 29 | ☐ State Defense Booster III | 1 | **28,080,000** | 27,270,000 | 28,090,000 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 30 | ☐ Low-grade Nomad Gamma | 92,460,000 | **92,410,000** | 97,160,000 | 92,400,000 |
-| 31 | ☐ Neurotoxin Control | 8,902,000 | **11,290,000** | 14,030,000 | 11,280,000 |
+| 30 | ☐ Low-grade Nomad Gamma | 92,460,000 | **92,410,000** | 97,070,000 | 92,400,000 |
+| 31 | ☐ Neurotoxin Control | 8,902,000 | **11,320,000** | 14,040,000 | 11,310,000 |
 | 32 | ☐ Scorch Bomb | 1,167,000 | **1,166,000** | 1,376,000 | 1,165,000 |
 
 #### New buy orders
@@ -146,8 +146,8 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 33 | ☐ Imperial Defense Booster III | 1 | **21,660,000** | 47,450,000 | 21,650,000 |
-| 34 | ☐ Republic Mobility Booster III | 1 | **36,020,000** | 57,150,000 | 36,010,000 |
+| 33 | ☐ Inherent Implants 'Squire' Energy Grid Upgrades EU-703 | 2 | **12,600,000** | 17,050,000 | 12,590,000 |
+| 34 | ☐ Republic Mobility Booster III | 1 | **36,020,000** | 57,540,000 | 36,010,000 |
 
 ### Block 3 · if there's time · about 2 min
 

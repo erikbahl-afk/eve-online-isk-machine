@@ -91,6 +91,7 @@ type_id,name,volume,group_id
 2286,,0.005,
 2287,,0.005,
 2297,Explosive Shield Hardener II,,
+2299,Kinetic Shield Hardener II,,
 2301,EM Shield Hardener II,5,77
 2303,Thermal Shield Hardener II,5,77
 2305,Autotrophs,,
@@ -99,7 +100,7 @@ type_id,name,volume,group_id
 2311,Reactive Gas,0.005,1033
 2312,,0.75,1034
 2317,Oxides,0.75,1034
-2319,,0.75,1034
+2319,Test Cultures,0.75,1034
 2321,Polyaramids,0.75,1034
 2327,Microfiber Shielding,0.75,1034
 2328,Water-Cooled CPU,0.75,1034
@@ -423,7 +424,7 @@ type_id,name,volume,group_id
 11648,,5,328
 11688,,1,
 11689,Laser Focusing Crystals,1,334
-11690,,1,
+11690,,1,334
 11693,Graviton Pulse Generator,1,334
 11694,,1,334
 11695,Plasma Pulse Generator,1,334
@@ -596,7 +597,7 @@ type_id,name,volume,group_id
 13965,Dread Guristas EM Shield Hardener,5,77
 13969,Dread Guristas Multispectrum Shield Hardener,5,77
 13970,True Sansha EM Armor Hardener,5,328
-13972,,5,328
+13972,Dark Blood EM Armor Hardener,5,328
 13974,True Sansha Explosive Armor Hardener,5,328
 13976,Dark Blood Explosive Armor Hardener,5,328
 13978,True Sansha Kinetic Armor Hardener,5,328
@@ -1266,7 +1267,7 @@ type_id,name,volume,group_id
 22446,Vulture,15000,540
 22448,Absolution,15000,540
 22456,,5000,
-22464,,5000,541
+22464,Flycatcher,5000,541
 22466,Astarte,15000,540
 22468,Claymore,15000,540
 22470,Nighthawk,15000,540
@@ -2086,6 +2087,7 @@ type_id,name,volume,group_id
 41219,Domination Large Cap Battery,15,61
 41220,Thukker Large Cap Battery,15,61
 41238,10000MN Monopropellant Enduring Afterburner,1000,46
+41239,,1000,46
 41249,50000MN Microwarpdrive I,1000,
 41251,50000MN Quad LiF Restrained Microwarpdrive,1000,
 41267,Compact Compounds,0.001,1676
@@ -2123,6 +2125,7 @@ type_id,name,volume,group_id
 41525,Capital Flex Armor Hardener II,1000,1699
 41533,Ligature Integrated Analyzer,5,538
 41534,Zeugma Integrated Analyzer,5,538
+41565,Capital Radiative Scoped Remote Capacitor Transmitter,,
 41566,,1000,67
 42145,Low-grade Asklepian Alpha,1,300
 42146,Low-grade Asklepian Beta,,
@@ -2147,6 +2150,7 @@ type_id,name,volume,group_id
 42789,,0.01,
 42829,,0.01,1771
 42830,Mining Laser Optimization Charge,,
+42832,,0.01,1774
 42835,,0.01,1773
 42840,,0.01,1772
 42881,Mining Laser Field Enhancement Charge Blueprint,0.01,
@@ -2293,6 +2297,7 @@ type_id,name,volume,group_id
 47806,Unstable Large Shield Extender Mutaplasmid,1,1964
 47807,Gravid Large Shield Extender Mutaplasmid,1,1964
 47818,Unstable Large Armor Plate Mutaplasmid,1,1964
+47822,,1,1964
 47826,Unstable Medium Energy Neutralizer Mutaplasmid,1,1964
 47830,Unstable Heavy Energy Neutralizer Mutaplasmid,1,1964
 47831,,1,1964
@@ -2633,6 +2638,7 @@ type_id,name,volume,group_id
 62628,Large Ice Compressor I,1000,4174
 62630,Large Mercoxit Compressor I,1000,
 62631,Large Moon Ore Compressor I,1000,4174
+62632,Capital Asteroid Ore Compressor I,2000,4174
 63054,Men's 'Semiotique Superluminal' Pants,,
 63140,,5000,
 64380,Men's Amarr Courtly Robe,,
@@ -2721,7 +2727,7 @@ type_id,name,volume,group_id
 85089,SCARAB Breacher Pod M,0.5,4808
 85178,Tetrimonic Warclone Blanks,0.1,314
 85179,Overseer Sabik Vial,,
-85230,,50,4810
+85230,Mercenary Den,50,4810
 85390,Armor Mutaplasmid Residue,0.01,1996
 85392,Damage Control Mutaplasmid Residue,0.01,1996
 85393,,0.01,1996

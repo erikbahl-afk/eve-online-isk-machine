@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0471,
- "buy_orders": 5748,
- "buy_orders_reaching_jita": 5680,
+ "ask_ratio_median": 1.0467,
+ "buy_orders": 5746,
+ "buy_orders_reaching_jita": 5681,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6195,
- "sell_orders": 447,
- "share_ask_below_jita": 0.2895,
+ "orders": 6192,
+ "sell_orders": 446,
+ "share_ask_below_jita": 0.2929,
  "structure_id": 1042508032148,
- "t": 1795774180.7758718,
+ "t": 1795780847.4843197,
  "top_ask_below_jita": [
   {
    "best_ask": 4199.0,
@@ -43,13 +43,6 @@
    "name": "",
    "s_ask": 31880.0,
    "type_id": 47809
-  },
-  {
-   "best_ask": 3111.0,
-   "gap": 0.6786,
-   "name": "",
-   "s_ask": 999.9,
-   "type_id": 84407
   },
   {
    "best_ask": 74890.0,
@@ -113,25 +106,17 @@
    "name": "",
    "s_ask": 9000000.0,
    "type_id": 45922
-  }
- ],
- "top_bid_over_jita": [
-  {
-   "best_bid": 105000000.0,
-   "gap": 0.001,
-   "name": "Dread Guristas Ballistic Control System",
-   "s_bid_reach": 105100000.0,
-   "type_id": 13937
   },
   {
-   "best_bid": 455000000.0,
-   "gap": 0.0004,
-   "name": "Skill Extractor",
-   "s_bid_reach": 455200000.0,
-   "type_id": 40519
+   "best_ask": 5989000.0,
+   "gap": 0.4991,
+   "name": "",
+   "s_ask": 3000000.0,
+   "type_id": 45969
   }
  ],
- "types": 3786,
- "types_also_in_jita": 3786,
- "types_bid_over_jita_reaching": 2
+ "top_bid_over_jita": [],
+ "types": 3783,
+ "types_also_in_jita": 3783,
+ "types_bid_over_jita_reaching": 0
 }
