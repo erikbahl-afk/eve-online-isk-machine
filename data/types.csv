@@ -120,6 +120,7 @@ type_id,name,volume,group_id
 2393,Bacteria,0.19,1042
 2395,Proteins,0.19,1042
 2396,Biofuels,0.19,1042
+2397,,0.19,1042
 2398,Reactive Metals,0.19,1042
 2399,Precious Metals,0.19,1042
 2400,Toxic Metals,0.19,1042
@@ -135,6 +136,7 @@ type_id,name,volume,group_id
 2506,Mjolnir Torpedo,0.05,89
 2539,,5,
 2553,EM Shield Amplifier II,5,295
+2559,,5,201
 2563,,5,
 2567,Multispectral ECM II,5,201
 2571,Gravimetric ECM II,5,201
@@ -163,7 +165,7 @@ type_id,name,volume,group_id
 2945,Dual 425mm AutoCannon II,20,55
 2953,,20,
 2961,1400mm Howitzer Artillery II,20,55
-2969,,10,
+2969,,10,55
 2993,Dual Light Beam Laser II,5,53
 2998,Noctis,20000,28
 3001,Dual Light Pulse Laser II,5,53
@@ -1376,9 +1378,10 @@ type_id,name,volume,group_id
 25349,Strong Exile Booster,1,303
 25530,Neurotoxin Recovery,0.01,1220
 25538,Neurotoxin Control,0.01,1220
-25544,Gas Cloud Harvesting,0.01,
+25544,Gas Cloud Harvesting,0.01,1218
 25548,,1,1231
 25563,,5,
+25588,,0.01,754
 25590,Contaminated Nanite Compound,0.01,754
 25591,Contaminated Lorentz Fluid,0.01,754
 25592,,0.01,754
@@ -1531,6 +1534,7 @@ type_id,name,volume,group_id
 27483,Legion Mjolnir Auto-Targeting Heavy Missile,0.03,395
 27489,Legion Scourge Auto-Targeting Heavy Missile,0.03,395
 27507,Legion Mjolnir Auto-Targeting Light Missile,0.015,394
+27519,,0.015,394
 27914,,50,862
 27916,Scorch Bomb,75,90
 27918,Shrapnel Bomb,75,90
@@ -1640,7 +1644,7 @@ type_id,name,volume,group_id
 29988,Proteus,5000,963
 29990,Loki,5000,963
 29992,Optimized Nano-Engines,,
-30018,,0.01,
+30018,,0.01,966
 30019,Powdered C-540 Graphite,0.01,966
 30021,Modified Fluid Router,0.01,966
 30024,,0.01,966
@@ -1823,6 +1827,7 @@ type_id,name,volume,group_id
 32414,Domination Target Painter,5,379
 32881,Venture Blueprint,0.01,105
 32947,Unit P-343554's Modified Drone Navigation Computer,,
+33003,Enormous Freight Container,,
 33101,Medium Ancillary Armor Repairer,10,1199
 33139,Clone Soldier Recruiter Tag,0.1,1206
 33140,Clone Soldier Transporter Tag,0.1,1206
@@ -1900,6 +1905,7 @@ type_id,name,volume,group_id
 33928,,1,300
 33941,Low-grade Harvest Alpha,1,300
 33942,Low-grade Harvest Beta,1,300
+33943,,1,300
 33944,Low-grade Harvest Epsilon,1,300
 33948,Low-grade Nomad Beta,1,300
 33949,Low-grade Nomad Delta,1,300
@@ -1966,7 +1972,7 @@ type_id,name,volume,group_id
 35832,Astrahus,8000,1657
 35833,Fortizar,,
 35835,Athanor,8000,1406
-35878,Standup Manufacturing Plant I,4000,
+35878,Standup Manufacturing Plant I,4000,1415
 35886,Standup Invention Lab I,,
 35894,Standup Cloning Center I,4000,1321
 35899,,4000,1322
@@ -2281,7 +2287,7 @@ type_id,name,volume,group_id
 47783,Unstable Medium Shield Booster Mutaplasmid,,
 47787,Unstable Large Shield Booster Mutaplasmid,1,1964
 47790,Decayed X-Large Shield Booster Mutaplasmid,1,1964
-47802,,1,1964
+47802,Unstable Medium Shield Extender Mutaplasmid,1,1964
 47805,,1,1964
 47806,Unstable Large Shield Extender Mutaplasmid,1,1964
 47807,Gravid Large Shield Extender Mutaplasmid,1,1964
@@ -2788,7 +2794,7 @@ type_id,name,volume,group_id
 90523,Unstable Ice Harvester Mutaplasmid,1,1964
 90528,Unstable Gas Cloud Scoop Mutaplasmid,1,1964
 90592,,1,1964
-90609,,1,1964
+90609,Exigent Mining Drone Mutaplasmid,1,1964
 90647,Oxidative Stress - Unlimited,,
 90733,,0.01,1771
 90734,,0.01,
