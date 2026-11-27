@@ -234,7 +234,7 @@ type_id,name,volume,group_id
 3544,CONCORD Capital Remote Shield Booster,1000,41
 3568,Small Capacitor Booster II,5,76
 3578,Heavy Capacitor Booster II,20,76
-3581,Purloined Sansha Data Analyzer,,
+3581,Purloined Sansha Data Analyzer,5,538
 3616,Capital Remote Shield Booster I,1000,41
 3645,Water,0.19,1042
 3683,Oxygen,0.19,1042
@@ -250,7 +250,7 @@ type_id,name,volume,group_id
 3828,,0.75,1034
 3831,Medium Shield Extender II,10,38
 3841,Large Shield Extender II,20,38
-3888,,5,285
+3888,Co-Processor II,5,285
 3893,Mining Connections,0.01,278
 3894,Distribution Connections,0.01,278
 3895,Security Connections,0.01,278
@@ -272,7 +272,7 @@ type_id,name,volume,group_id
 4256,Bomb Launcher II,50,862
 4260,Expanded Probe Launcher II,5,
 4292,Siege Module II,1000,515
-4294,Triage Module II,,
+4294,Triage Module II,1000,515
 4302,Oracle,15000,1201
 4306,,15000,1201
 4308,,15000,1201
@@ -477,6 +477,7 @@ type_id,name,volume,group_id
 12484,Amarr Drone Specialization,0.01,
 12486,Gallente Drone Specialization,0.01,
 12487,Caldari Drone Specialization,0.01,273
+12528,,0.1,370
 12529,,0.1,370
 12532,Blood Bronze Tag,0.1,370
 12533,Blood Silver Tag,0.1,370
@@ -1023,6 +1024,7 @@ type_id,name,volume,group_id
 19111,Corpum A-Type Medium Energy Nosferatu,5,68
 19113,Corpus C-Type Heavy Energy Nosferatu,5,68
 19119,Corpus X-Type Heavy Energy Nosferatu,5,68
+19133,,5,41
 19139,Pithi A-Type Small Remote Shield Booster,5,41
 19141,Gistum C-Type Medium Remote Shield Booster,10,41
 19143,Gistum B-Type Medium Remote Shield Booster,10,41
@@ -1096,7 +1098,7 @@ type_id,name,volume,group_id
 19359,Gist X-Type 500MN Microwarpdrive,10,46
 19363,Centum B-Type EM Energized Membrane,5,326
 19421,,0.1,493
-19540,,1,300
+19540,High-grade Snake Alpha,1,300
 19547,Inherent Implants 'Noble' Repair Systems RS-605,,
 19548,Inherent Implants 'Noble' Remote Armor Repair Systems RA-705,1,
 19549,Inherent Implants 'Noble' Mechanic MC-805,1,738
@@ -1226,7 +1228,7 @@ type_id,name,volume,group_id
 21918,Republic Fleet Phased Plasma L,0.025,83
 21922,Republic Fleet Phased Plasma M,0.0125,83
 21924,,0.0025,83
-21926,Republic Fleet Proton L,,
+21926,Republic Fleet Proton L,0.025,83
 22043,Tactical Weapon Reconfiguration,,
 22107,,1,300
 22108,Mid-grade Crystal Beta,1,300
@@ -1520,6 +1522,7 @@ type_id,name,volume,group_id
 27483,Legion Mjolnir Auto-Targeting Heavy Missile,0.03,395
 27489,Legion Scourge Auto-Targeting Heavy Missile,0.03,395
 27507,Legion Mjolnir Auto-Targeting Light Missile,0.015,394
+27914,,50,862
 27916,Scorch Bomb,75,90
 27918,Shrapnel Bomb,75,90
 27920,Electron Bomb,75,90
@@ -1621,6 +1624,7 @@ type_id,name,volume,group_id
 29337,Augoror Navy Issue,10000,26
 29340,Osprey Navy Issue,10000,26
 29344,Exequror Navy Issue,10000,26
+29622,,0.3,476
 29984,Tengu,5000,963
 29986,Legion,5000,963
 29988,Proteus,5000,963
@@ -1635,6 +1639,7 @@ type_id,name,volume,group_id
 30252,Thermoelectric Catalysts,0.01,966
 30254,Electromechanical Hull Sheeting,0.01,966
 30259,,0.01,966
+30271,,0.01,966
 30303,,0.1,974
 30304,PPD Fullerene Fibers,0.5,974
 30305,Fullerene Intercalated Graphite,0.8,974
@@ -1884,7 +1889,7 @@ type_id,name,volume,group_id
 33928,,1,300
 33941,Low-grade Harvest Alpha,1,300
 33942,Low-grade Harvest Beta,1,300
-33944,,1,300
+33944,Low-grade Harvest Epsilon,1,300
 33948,Low-grade Nomad Beta,1,300
 33949,Low-grade Nomad Delta,1,300
 33951,Low-grade Nomad Gamma,1,300
@@ -2049,7 +2054,7 @@ type_id,name,volume,group_id
 41066,Dark Blood Quad Mega Pulse Laser,,
 41191,Sentient Sensor Booster,5,212
 41193,Unit F-435454's Modified Sensor Booster,,
-41196,,5,210
+41196,Sentient Signal Amplifier,5,210
 41197,,5,
 41198,Sentient Remote Sensor Booster,,
 41199,,25,290
@@ -2463,7 +2468,7 @@ type_id,name,volume,group_id
 57119,Mid-grade Rapture Gamma,1,300
 57120,Mid-grade Rapture Delta,1,300
 57121,Mid-grade Rapture Epsilon,1,
-57207,Mining Barge Operations,1,
+57207,Mining Barge Operations,1,4091
 57319,Mobile Cynosural Beacon,400,4093
 57442,Counter-Subversion Sensor Array,2,526
 57443,Meta-Molecular Combiner,1,526
@@ -2509,7 +2514,7 @@ type_id,name,volume,group_id
 60283,Simple Asteroid Mining Crystal Type B II,10,482
 60286,Coherent Asteroid Mining Crystal Type B I,,
 60288,,10,482
-60289,,10,482
+60289,Coherent Asteroid Mining Crystal Type B II,10,482
 60291,Variegated Asteroid Mining Crystal Type A I,6,
 60292,,6,
 60294,Variegated Asteroid Mining Crystal Type A II,10,482
@@ -2527,6 +2532,7 @@ type_id,name,volume,group_id
 60472,,1,1964
 60473,Exigent Medium Drone Firepower Mutaplasmid,1,1964
 60474,,1,1964
+60475,,1,1964
 60476,Radical Drone Damage Amplifier Mutaplasmid,1,1964
 60515,,0.01,
 60575,Quafe Zero Green Apple,1,303
@@ -2616,6 +2622,7 @@ type_id,name,volume,group_id
 72872,Prophecy Navy Issue,15000,419
 72903,Probe Fleet Issue,2500,25
 72904,Heron Navy Issue,2500,25
+72907,,2500,25
 72913,Imicus Navy Issue,,
 73455,Prophecy Sanguinary Savant SKIN,,
 73466,Paladin Order of Tetrimon SKIN,0.01,
@@ -2825,7 +2832,7 @@ type_id,name,volume,group_id
 93350,Guerilla Republic - Unlimited,,
 93466,Imperial Benediction - Unlimited,,
 93470,,0.1,4726
-93663,Drake Navy Issue Penumbral Shadows SKIN,,
+93663,Drake Navy Issue Penumbral Shadows SKIN,0.01,1950
 93745,Tempest Fleet Issue Capsuleer Day XXIII SKIN,0.01,
 93908,Caldari Navy Missile Guidance Enhancer,5,1395
 93909,Republic Fleet Missile Guidance Enhancer,5,

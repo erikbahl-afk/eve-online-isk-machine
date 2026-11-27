@@ -1,17 +1,17 @@
 {
- "ask_ratio_median": 1.0434,
- "buy_orders": 5777,
- "buy_orders_reaching_jita": 5705,
+ "ask_ratio_median": 1.0445,
+ "buy_orders": 5809,
+ "buy_orders_reaching_jita": 5734,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6225,
- "sell_orders": 448,
- "share_ask_below_jita": 0.288,
+ "orders": 6262,
+ "sell_orders": 453,
+ "share_ask_below_jita": 0.3049,
  "structure_id": 1042508032148,
- "t": 1795730455.286499,
+ "t": 1795737651.1026201,
  "top_ask_below_jita": [
   {
-   "best_ask": 20990.0,
-   "gap": 0.9369,
+   "best_ask": 20000.0,
+   "gap": 0.9338,
    "name": "",
    "s_ask": 1324.0,
    "type_id": 90590
@@ -52,22 +52,22 @@
    "type_id": 84407
   },
   {
-   "best_ask": 74890.0,
+   "best_ask": 74880.0,
    "gap": 0.6663,
    "name": "",
    "s_ask": 24990.0,
    "type_id": 22576
   },
   {
-   "best_ask": 510.4,
-   "gap": 0.6346,
+   "best_ask": 500.0,
+   "gap": 0.627,
    "name": "",
    "s_ask": 186.5,
    "type_id": 90484
   },
   {
-   "best_ask": 57990.0,
-   "gap": 0.5946,
+   "best_ask": 57560.0,
+   "gap": 0.5916,
    "name": "",
    "s_ask": 23510.0,
    "type_id": 21080
@@ -80,8 +80,8 @@
    "type_id": 45766
   },
   {
-   "best_ask": 8000000.0,
-   "gap": 0.5625,
+   "best_ask": 7999000.0,
+   "gap": 0.5624,
    "name": "",
    "s_ask": 3500000.0,
    "type_id": 46916
@@ -115,37 +115,8 @@
    "type_id": 46997
   }
  ],
- "top_bid_over_jita": [
-  {
-   "best_bid": 161300.0,
-   "gap": 0.0012,
-   "name": "Dread Guristas Inferno Torpedo",
-   "s_bid_reach": 161500.0,
-   "type_id": 27355
-  },
-  {
-   "best_bid": 111000000.0,
-   "gap": 0.0009,
-   "name": "Oneiros",
-   "s_bid_reach": 111100000.0,
-   "type_id": 11989
-  },
-  {
-   "best_bid": 16690000.0,
-   "gap": 0.0006,
-   "name": "Medium Core Defense Field Extender II",
-   "s_bid_reach": 16700000.0,
-   "type_id": 31796
-  },
-  {
-   "best_bid": 6281000.0,
-   "gap": 0.0002,
-   "name": "Huntsman SW-600-I",
-   "s_bid_reach": 6282000.0,
-   "type_id": 92034
-  }
- ],
- "types": 3796,
- "types_also_in_jita": 3796,
- "types_bid_over_jita_reaching": 4
+ "top_bid_over_jita": [],
+ "types": 3808,
+ "types_also_in_jita": 3808,
+ "types_bid_over_jita_reaching": 0
 }
