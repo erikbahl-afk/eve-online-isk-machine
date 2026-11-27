@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0526,
- "buy_orders": 5777,
- "buy_orders_reaching_jita": 5714,
+ "ask_ratio_median": 1.052,
+ "buy_orders": 5773,
+ "buy_orders_reaching_jita": 5711,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6207,
+ "orders": 6203,
  "sell_orders": 430,
- "share_ask_below_jita": 0.28,
+ "share_ask_below_jita": 0.2827,
  "structure_id": 1042508032148,
- "t": 1795809647.2492783,
+ "t": 1795810803.4443927,
  "top_ask_below_jita": [
   {
    "best_ask": 4198.0,
@@ -115,51 +115,8 @@
    "type_id": 45969
   }
  ],
- "top_bid_over_jita": [
-  {
-   "best_bid": 117100000.0,
-   "gap": 0.0009,
-   "name": "Federation Navy Large Plasma Smartbomb",
-   "s_bid_reach": 117200000.0,
-   "type_id": 15955
-  },
-  {
-   "best_bid": 1850.0,
-   "gap": 0.0005,
-   "name": "",
-   "s_bid_reach": 1851.0,
-   "type_id": 15608
-  },
-  {
-   "best_bid": 4699.0,
-   "gap": 0.0002,
-   "name": "",
-   "s_bid_reach": 4700.0,
-   "type_id": 15597
-  },
-  {
-   "best_bid": 6268.0,
-   "gap": 0.0002,
-   "name": "",
-   "s_bid_reach": 6269.0,
-   "type_id": 19400
-  },
-  {
-   "best_bid": 67090000.0,
-   "gap": 0.0001,
-   "name": "Jackdaw",
-   "s_bid_reach": 67100000.0,
-   "type_id": 34828
-  },
-  {
-   "best_bid": 92670000.0,
-   "gap": 0.0001,
-   "name": "Dominix",
-   "s_bid_reach": 92680000.0,
-   "type_id": 645
-  }
- ],
+ "top_bid_over_jita": [],
  "types": 3790,
  "types_also_in_jita": 3790,
- "types_bid_over_jita_reaching": 6
+ "types_bid_over_jita_reaching": 0
 }

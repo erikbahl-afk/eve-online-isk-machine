@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Fri 27 Nov 12:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Fri 27 Nov 12:19 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 36 · **Est. time:** 24 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -25,7 +25,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 | 1 | ☐ 'Cartel' Power Diagnostic System I | 67,940,000 | **67,800,000** | 30,280,000 | 67,810,000 |
 | 2 | ☐ Caesium | 6,635 | **6,604** | 5,951 | 6,605 |
 | 3 | ☐ Caldari Drone Specialization | 2,110,000 | **2,194,000** | 1,099,000 | 2,195,000 |
-| 4 | ☐ Dread Guristas Rocket Launcher | 80,240,000 | **72,210,000** | 47,280,000 | 99,070,000 |
+| 4 | ☐ Dread Guristas Rocket Launcher | 80,240,000 | **72,210,000** | 47,280,000 | 99,060,000 |
 | 5 | ☐ Men's 'Precision' Boots | 65,600,000 | **59,040,000** | 49,760,000 | 100,000,000 |
 | 6 | ☐ Polarized Light Neutron Blaster | 5,879,000 | **5,873,000** | 3,685,000 | 5,874,000 |
 | 7 | ☐ Standup M-Set Basic Small Ship Manufacturing Material Efficiency I | 458,900,000 | **413,000,000** | 335,200,000 | 715,000,000 |
@@ -95,7 +95,7 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 20 | ☐ State Security Token | 1 | **24,230,000** | 12,700,000 | 24,240,000 |
+| 20 | ☐ State Security Token | 1 | **24,200,000** | 12,700,000 | 24,210,000 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
@@ -104,33 +104,33 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 |---|---|---|---|---|---|
 | 21 | ☐ Federation Mobility Booster III | 23,020,000 | **23,050,000** | 38,800,000 | 23,040,000 |
 | 22 | ☐ Low-grade Nomad Delta | 122,300,000 | **121,700,000** | 137,300,000 | 121,600,000 |
-| 23 | ☐ State Security Token | 12,210,000 | **15,150,000** | 16,730,000 | 15,140,000 |
-| 24 | ☐ Zorya's Light Entropic Disintegrator | 231,900,000 | **237,100,000** | 267,000,000 | 237,000,000 |
+| 23 | ☐ Low-grade Nomad Gamma | 92,460,000 | **92,410,000** | 96,810,000 | 92,400,000 |
+| 24 | ☐ State Security Token | 12,210,000 | **15,210,000** | 16,730,000 | 15,200,000 |
+| 25 | ☐ Zorya's Light Entropic Disintegrator | 231,900,000 | **237,100,000** | 267,000,000 | 237,000,000 |
 
 #### New buy orders
 _Market → search item → Place Buy Order. Range: Station. Duration: 3 months. Skip if the highest buy is already at or above the cap._
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 25 | ☐ Capital Ancillary Remote Shield Booster | 1 | **21,190,000** | 43,150,000 | 21,180,000 |
-| 26 | ☐ Republic Fleet Commander Insignia II | 91 | **1,103,000** | 1,153,000 | 1,102,000 |
+| 26 | ☐ Capital Ancillary Remote Shield Booster | 1 | **21,190,000** | 43,150,000 | 21,180,000 |
+| 27 | ☐ Distribution Connections | 2 | **28,190,000** | 33,210,000 | 28,180,000 |
 
-### Block 2 · should do · about 5 min
+### Block 2 · should do · about 4 min
 
 #### Fix undercut sell orders
 _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours is already the lowest, skip._
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 27 | ☐ Compressed Mercoxit II-Grade | 23,240 | **22,130** | 20,730 | 22,140 |
+| 28 | ☐ Compressed Mercoxit II-Grade | 23,240 | **22,130** | 20,730 | 22,140 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 28 | ☐ Low-grade Nomad Gamma | 92,460,000 | **92,410,000** | 96,810,000 | 92,400,000 |
-| 29 | ☐ Neurotoxin Control | 8,902,000 | **13,560,000** | 14,160,000 | 13,550,000 |
+| 29 | ☐ Neurotoxin Control | 8,902,000 | **13,560,000** | 14,170,000 | 13,550,000 |
 | 30 | ☐ Scorch Bomb | 1,167,000 | **1,166,000** | 1,376,000 | 1,165,000 |
 
 #### New buy orders
@@ -138,9 +138,9 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 31 | ☐ Distribution Connections | 2 | **28,190,000** | 33,210,000 | 28,180,000 |
-| 32 | ☐ Glorified Gravid Large Cap Battery Mutaplasmid | 1 | **127,700,000** | 145,200,000 | 127,600,000 |
-| 33 | ☐ Inherent Implants 'Squire' Energy Grid Upgrades EU-703 | 2 | **12,600,000** | 17,050,000 | 12,590,000 |
+| 31 | ☐ Inherent Implants 'Squire' Energy Grid Upgrades EU-703 | 2 | **12,600,000** | 17,050,000 | 12,590,000 |
+| 32 | ☐ Republic Mobility Booster III | 1 | **36,020,000** | 58,180,000 | 36,010,000 |
+| 33 | ☐ Standup Manufacturing Plant I | 1 | **161,200,000** | 163,000,000 | 161,100,000 |
 
 ### Block 3 · if there's time · about 2 min
 
