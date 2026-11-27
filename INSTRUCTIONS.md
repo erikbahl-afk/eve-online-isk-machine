@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Thu 26 Nov 20:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Thu 26 Nov 20:16 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 38 · **Est. time:** 24 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -56,8 +56,8 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 14 | ☐ Compressed Zeolites | 49,974 | **973.60** | 1,060 | 973.50 |
-| 15 | ☐ Hyperspherical Housing | 570 | **49,850** | 59,520 | 49,840 |
+| 14 | ☐ Compressed Zeolites | 49,984 | **973.60** | 1,060 | 973.50 |
+| 15 | ☐ Hyperspherical Housing | 571 | **49,850** | 59,520 | 49,840 |
 
 ### Block 3 · if there's time · about 2 min
 _Short on time? Skip to the jump (step 20): the next hub's Block 1 is worth more per minute than the rest of this hub._
@@ -97,7 +97,7 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 22 | ☐ State Security Token | 1 | **23,990,000** | 12,700,000 | 24,000,000 |
+| 22 | ☐ State Security Token | 1 | **23,980,000** | 12,700,000 | 23,990,000 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
@@ -144,9 +144,9 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 31 | ☐ Capital Flex Armor Hardener II | 64,740,000 | **67,180,000** | 86,600,000 | 67,170,000 |
+| 31 | ☐ Capital Flex Armor Hardener II | 64,740,000 | **67,190,000** | 86,600,000 | 67,180,000 |
 | 32 | ☐ Low-grade Nomad Gamma | 92,460,000 | **92,410,000** | 100,700,000 | 92,400,000 |
-| 33 | ☐ Neurotoxin Control | 8,902,000 | **13,010,000** | 13,780,000 | 13,000,000 |
+| 33 | ☐ Neurotoxin Control | 8,902,000 | **13,010,000** | 13,800,000 | 13,000,000 |
 | 34 | ☐ Scorch Bomb | 1,167,000 | **1,166,000** | 1,379,000 | 1,165,000 |
 | 35 | ☐ State Security Token | 12,210,000 | **14,920,000** | 14,920,000 | 16,030,000 |
 
@@ -162,4 +162,4 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 | 38 | ☐ Compressed Mercoxit II-Grade | 41 | **22,120** | 20,730 | 22,130 |
 
 ---
-Wallet 449.74M · escrow 1.01B · stock 3.66B · in transit 0.00 · net worth 5.12B (liquidation 2.78B)
+Wallet 449.74M · escrow 1.01B · stock 3.66B · in transit 0.00 · net worth 5.12B (liquidation 2.77B)
