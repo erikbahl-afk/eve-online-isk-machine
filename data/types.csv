@@ -574,6 +574,7 @@ type_id,name,volume,group_id
 13868,Shadow Serpentis 200mm Railgun,,
 13872,Shadow Serpentis 250mm Railgun,,
 13879,Dread Guristas 425mm Railgun,,
+13888,,5,74
 13891,Shadow Serpentis Neutron Blaster Cannon,20,74
 13919,Domination Rapid Light Missile Launcher,10,511
 13920,Dread Guristas Rapid Light Missile Launcher,10,511
@@ -1101,7 +1102,7 @@ type_id,name,volume,group_id
 19283,Gist X-Type Thermal Shield Hardener,5,77
 19284,Pith X-Type Thermal Shield Hardener,5,77
 19285,,5,
-19286,,5,77
+19286,Pith X-Type Explosive Shield Hardener,5,77
 19288,Pith X-Type Kinetic Shield Hardener,5,77
 19289,Pith C-Type Shield Boost Amplifier,5,338
 19293,Gist A-Type Shield Boost Amplifier,5,
@@ -2328,7 +2329,7 @@ type_id,name,volume,group_id
 47806,Unstable Large Shield Extender Mutaplasmid,1,1964
 47807,Gravid Large Shield Extender Mutaplasmid,1,1964
 47818,Unstable Large Armor Plate Mutaplasmid,1,1964
-47822,,1,1964
+47822,Unstable Small Energy Neutralizer Mutaplasmid,1,1964
 47826,Unstable Medium Energy Neutralizer Mutaplasmid,1,1964
 47830,Unstable Heavy Energy Neutralizer Mutaplasmid,1,1964
 47831,,1,1964
@@ -2378,7 +2379,7 @@ type_id,name,volume,group_id
 48115,Agency 'Pyrolancea' DB9 Dose IV,1,303
 48386,,0.1,1088
 48387,,0.1,1088
-48430,,1,1964
+48430,Unstable Small Cap Battery Mutaplasmid,1,1964
 48434,Unstable Medium Cap Battery Mutaplasmid,,
 48437,Gravid Large Cap Battery Mutaplasmid,1,1964
 48438,Unstable Large Cap Battery Mutaplasmid,1,1964
