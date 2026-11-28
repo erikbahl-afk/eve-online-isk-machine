@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Fri 27 Nov 23:49 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Sat 28 Nov 00:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 38 · **Est. time:** 24 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -24,11 +24,11 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 |---|---|---|---|---|---|
 | 1 | ☐ 'Cartel' Power Diagnostic System I | 67,940,000 | **67,750,000** | 30,280,000 | 67,760,000 |
 | 2 | ☐ Caldari Drone Specialization | 2,110,000 | **5,998,000** | 1,099,000 | 5,999,000 |
-| 3 | ☐ Dread Guristas Rocket Launcher | 80,240,000 | **72,210,000** | 47,280,000 | 99,050,000 |
+| 3 | ☐ Dread Guristas Rocket Launcher | 80,240,000 | **72,210,000** | 47,280,000 | 99,030,000 |
 | 4 | ☐ Men's 'Precision' Boots | 65,600,000 | **59,040,000** | 49,760,000 | 100,000,000 |
 | 5 | ☐ Polarized Light Neutron Blaster | 5,879,000 | **5,872,000** | 3,685,000 | 5,873,000 |
 | 6 | ☐ Standup M-Set Basic Small Ship Manufacturing Material Efficiency I | 458,900,000 | **413,000,000** | 335,200,000 | 715,000,000 |
-| 7 | ☐ Standup Moon Drill I | 138,600,000 | **135,400,000** | 126,400,000 | 135,500,000 |
+| 7 | ☐ Standup Moon Drill I | 138,600,000 | **135,200,000** | 126,400,000 | 135,300,000 |
 | 8 | ☐ Typhoon Fleet Issue Capsuleer Elite XX SKIN | 535,200,000 | **481,600,000** | 420,200,000 | - |
 
 ### Block 2 · should do · about 2 min
@@ -113,7 +113,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 26 | ☐ Aberrant Kangite | 63,926 | **219.00** | 349.10 | 218.90 |
+| 26 | ☐ Aberrant Kangite | 63,624 | **219.00** | 349.10 | 218.90 |
 | 27 | ☐ Capital Ancillary Remote Shield Booster | 1 | **21,190,000** | 43,150,000 | 21,180,000 |
 | 28 | ☐ Heavy Compact Entropic Disintegrator | 2 | **6,933,000** | 14,890,000 | 6,932,000 |
 

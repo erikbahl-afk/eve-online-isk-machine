@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0546,
- "buy_orders": 5842,
- "buy_orders_reaching_jita": 5782,
+ "ask_ratio_median": 1.0544,
+ "buy_orders": 5836,
+ "buy_orders_reaching_jita": 5776,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6263,
+ "orders": 6257,
  "sell_orders": 421,
- "share_ask_below_jita": 0.2752,
+ "share_ask_below_jita": 0.2779,
  "structure_id": 1042508032148,
- "t": 1795852216.0986235,
+ "t": 1795852849.2863772,
  "top_ask_below_jita": [
   {
    "best_ask": 150000.0,
@@ -115,16 +115,8 @@
    "type_id": 45922
   }
  ],
- "top_bid_over_jita": [
-  {
-   "best_bid": 109400.0,
-   "gap": 0.0009,
-   "name": "Datacore - Laser Physics",
-   "s_bid_reach": 109500.0,
-   "type_id": 20413
-  }
- ],
- "types": 3825,
- "types_also_in_jita": 3825,
- "types_bid_over_jita_reaching": 1
+ "top_bid_over_jita": [],
+ "types": 3824,
+ "types_also_in_jita": 3824,
+ "types_bid_over_jita_reaching": 0
 }

@@ -1,4 +1,4 @@
-# Summary · Fri 27 Nov 23:49 PST
+# Summary · Sat 28 Nov 00:00 PST
 
 Updated every ~2 hours. **Your real character** is the first section; everything after it is the **practice trader** (pretend ISK, real market data). Each section starts with a line on how to read it.
 
@@ -31,6 +31,7 @@ _Automatic red flags from this run. The daily analysis must deal with each one: 
 - 🟠 Sell order for Zero-Point Mass Entangler in amarr still has 16 left after 11 days. _(open 4 days)_
 - 🟠 Sell order for Polarized Light Neutron Blaster in amarr still has 7 left after 11 days. _(open 4 days)_
 - 🟠 Sell order for Black Market 'Valdimar' Drone Navigation DN-701 in amarr still has 3 left after 22 days. _(open 14 days)_
+- 🟠 196 × Compressed Hezorime III-Grade unsold in the jita hangar for 7 days.
 - 🔵 Buy order for Compressed Gneiss III-Grade in jita hasn't filled at all in 22 days (2.33k tied up). _(open 17 days)_
 - 🔵 Buy order for Compressed Dark Glitter in jita hasn't filled at all in 19 days (2.25M tied up). _(open 14 days)_
 - 🔵 Buy order for Bomb Launcher II in jita hasn't filled at all in 13 days (40.50M tied up). _(open 8 days)_
@@ -118,26 +119,26 @@ _Market size = ISK spent per day buying from sell orders in that station. Items 
 | Hub | Market size/day | Station items | Station profit/day | Import items | Import profit/day |
 |---|---|---|---|---|---|
 | jita | 5.37T | 26 | 40.53M | - | - |
-| amarr | 509.63B | 5 | 5.35M | 19 | 44.06M |
-| dodixie | 169.84B | 1 | 980.29k | 37 | 91.52M |
-| rens | 30.70B | 0 | - | 12 | 34.91M |
-| hek | 64.41B | 0 | - | 21 | 56.58M |
+| amarr | 510.04B | 5 | 5.35M | 19 | 44.56M |
+| dodixie | 169.93B | 1 | 979.91k | 37 | 91.47M |
+| rens | 30.67B | 0 | - | 13 | 36.26M |
+| hek | 64.40B | 0 | - | 22 | 57.84M |
 
 ## 8. Best items to trade inside Jita
 _Buy at the highest buy price + 1 tick, sell at the lowest sell price − 1 tick. Margin is after all fees. On top = how much of the time between your logins our order would stay the best price before a rival undercuts it (sell side / buy side). Limited by = which resource it eats most: order slots, ISK, or your time._
 
 | Item | Buy → sell price | Margin | Sold per day | On top (sell/buy) | Profit/day | Limited by |
 |---|---|---|---|---|---|---|
-| Capital Ancillary Remote Shield Booster | 21.19M → 48.81M | 117.6% | 0.1 | 46% / 47% | 3.22M | time |
-| Heavy Compact Entropic Disintegrator | 6.93M → 16.85M | 129.7% | 0.4 | 28% / 55% | 3.29M | time |
+| Capital Ancillary Remote Shield Booster | 21.19M → 48.81M | 117.6% | 0.1 | 46% / 47% | 3.21M | time |
+| Heavy Compact Entropic Disintegrator | 6.93M → 16.85M | 129.7% | 0.4 | 28% / 55% | 3.30M | time |
 | State Security Token | 14.81M → 19.91M | 26.4% | 0.7 | 2% / 2% | 2.58M | time |
 | Low-grade Virtue Epsilon | 210.80M → 279.90M | 24.8% | 0.0 | 16% / 14% | 2.28M | time |
-| Aberrant Kangite | 219.00 → 394.90 | 70.0% | 15981.5 | 2% / 2% | 2.41M | time |
+| Aberrant Kangite | 219.00 → 394.90 | 70.0% | 15905.9 | 2% / 2% | 2.40M | time |
 | Capital Asteroid Ore Compressor I | 17.88M → 29.85M | 57.3% | 0.2 | 51% / 41% | 1.77M | time |
 | Standup Manufacturing Plant I | 161.20M → 186.80M | 8.7% | 0.2 | 15% / 23% | 2.08M | time |
 | Republic Mobility Booster III | 36.03M → 66.57M | 74.3% | 0.1 | 8% / 49% | 1.65M | time |
 | Distribution Connections | 28.22M → 37.52M | 25.0% | 0.3 | 11% / 12% | 1.77M | time |
-| Imperial Defense Booster III | 21.76M → 51.71M | 124.6% | 0.1 | 10% / 11% | 1.75M | time |
+| Imperial Defense Booster III | 21.76M → 51.71M | 124.6% | 0.1 | 10% / 11% | 1.76M | time |
 | Low-grade Harvest Epsilon | 223.90M → 281.80M | 18.2% | 0.0 | 9% / 10% | 1.76M | time |
 | State Strategic Intel | 75.15k → 117.30k | 47.0% | 49.9 | 6% / 3% | 1.72M | time |
 
@@ -148,42 +149,42 @@ _Buy from Jita sellers, ship by courier, sell just under the cheapest seller the
 |---|---|---|---|---|---|---|---|
 | Standup Cloning Center I | 228.90M → 281.70M | 4,000.0 | 12.5% | 0.3 | 30% | 7.03M | ISK |
 | Tholos | 142.90M → 198.20M | 5,000.0 | 27.3% | 0.1 | 19% | 3.90M | time |
-| Armored Command Mindlink | 41.96M → 57.83M | 1.0 | 26.5% | 0.3 | 29% | 3.40M | time |
+| Armored Command Mindlink | 41.96M → 57.83M | 1.0 | 26.5% | 0.3 | 29% | 3.41M | time |
 | Shadow Serpentis 10MN Afterburner | 40.74M → 92.34M | 5.0 | 111.0% | 0.1 | 37% | 3.27M | time |
 | Huntsman SW-600-I | 6.94M → 9.99M | 10.0 | 32.4% | 1.3 | 36% | 2.97M | time |
 | Polarized Light Neutron Blaster | 3.40M → 5.87M | 5.0 | 59.8% | 1.4 | 28% | 2.86M | time |
+| Caldari Navy Inferno Torpedo | 2.17k → 2.98k | 0.1 | 26.1% | 4857.4 | 41% | 2.72M | time |
 | Bustard | 153.80M → 222.30M | 20,000.0 | 23.1% | 0.1 | 8% | 2.50M | time |
-| Caldari Navy Inferno Torpedo | 2.17k → 2.98k | 0.1 | 25.9% | 3977.3 | 41% | 2.22M | time |
 | 25000mm Steel Plates II | 133.00M → 172.70M | 1,000.0 | 18.9% | 0.1 | 8% | 2.12M | time |
 | Torrent | 219.30M → 295.10M | 20,000.0 | 17.9% | 0.1 | 8% | 2.09M | time |
 | Medium Vorton Projector II | 150.50M → 188.80M | 25.0 | 14.7% | 0.1 | 29% | 1.99M | time |
-| EM Pulse Generator | 19.00k → 30.06k | 1.0 | 44.7% | 228.0 | 28% | 1.92M | time |
+| EM Pulse Generator | 19.04k → 30.06k | 1.0 | 44.4% | 228.2 | 28% | 1.91M | time |
 
 ## 10. Cornering watchlist (read-only, nothing is traded)
 _Items where buying out the cheapest few sell orders and relisting higher would pay on paper. We only watch them, to learn whether such prices hold or get undercut._
 
 | Hub | Item | Cheapest now | Buy out | Cost | Relist at | Paper profit | Return | Days to sell | Rival updates/day |
 |---|---|---|---|---|---|---|---|---|---|
-| amarr | StrikeSnipe Ultra M | 11.87k | 2 orders / 24,494 units | 296.03M | 26.26k | 315.83M | 107% | 4.6 | 1.0 |
+| amarr | StrikeSnipe Ultra M | 11.87k | 2 orders / 24,494 units | 296.03M | 26.26k | 315.83M | 107% | 4.6 | 0.9 |
 | jita | Capital Projectile Turret | 18.00M | 3 orders / 14 units | 256.95M | 30.23M | 145.64M | 57% | 7.3 | 1.7 |
 | jita | Zainou 'Snapshot' Light Missiles LM-902 | 6.49M | 2 orders / 61 units | 395.86M | 9.25M | 140.88M | 36% | 5.0 | 1.9 |
 | amarr | Imperial Mobility Booster III | 43.00M | 5 orders / 5 units | 227.01M | 76.50M | 136.84M | 60% | 4.9 | 1.7 |
 | jita | Zainou 'Gypsy' Electronics Upgrades EU-603 | 18.69M | 4 orders / 16 units | 299.39M | 28.04M | 127.38M | 43% | 4.7 | 0.3 |
-| jita | Amarr Drone Specialization | 2.28M | 10 orders / 162 units | 405.56M | 3.42M | 122.08M | 30% | 9.6 | 1.9 |
+| jita | Amarr Drone Specialization | 2.28M | 10 orders / 162 units | 405.56M | 3.42M | 122.08M | 30% | 9.7 | 1.9 |
 | jita | 400mm Steel Plates I | 196.90k | 9 orders / 1,120 units | 238.25M | 334.60k | 118.23M | 50% | 6.6 | 2.2 |
-| jita | Vorton Projector Operation | 21.89M | 5 orders / 14 units | 320.15M | 32.81M | 116.80M | 36% | 3.7 | 1.0 |
+| jita | Vorton Projector Operation | 21.89M | 5 orders / 14 units | 320.15M | 32.81M | 116.80M | 36% | 3.7 | 0.9 |
 | jita | Mining Laser Optimization Charge Blueprint | 17.44M | 4 orders / 15 units | 262.12M | 26.16M | 111.15M | 42% | 4.7 | 1.4 |
-| jita | Sleeper Thermal Regulator | 8.90M | 9 orders / 42 units | 393.63M | 12.63M | 110.97M | 28% | 2.8 | 2.2 |
+| jita | Gallente Freighter | 97.80M | 2 orders / 4 units | 393.19M | 132.40M | 110.59M | 28% | 2.7 | 2.5 |
 
 ## 11. Data health
 _Is the market data flowing? Orders = orders seen in the station · Hours today = hours of data collected since 00:00 UTC · Trades seen = trades inferred since the last snapshot. Any note means something went wrong._
 
 | Hub | Orders | Hours today | Trades seen | Note |
 |---|---|---|---|---|
-| jita | 376,051 | 9.1 | 7,404 |  |
-| amarr | 131,691 | 9.1 | 1,879 |  |
-| dodixie | 69,940 | 9.1 | 1,126 |  |
-| rens | 32,897 | 9.1 | 330 |  |
-| hek | 42,210 | 9.1 | 528 |  |
+| jita | 376,130 | 9.3 | 1,511 |  |
+| amarr | 131,714 | 9.3 | 248 |  |
+| dodixie | 69,927 | 9.3 | 259 |  |
+| rens | 32,900 | 9.3 | 22 |  |
+| hek | 42,206 | 9.3 | 51 |  |
 
-_This run took 42 s (market data 16 s, stats and character 4 s, experiments 20 s, main portfolio 2 s, cornering scan 0 s, ESI back-off 0 s; 1,478 ESI calls). A slow run usually means ESI rate limits (back-off) or a first-time lookup of many item types._
+_This run took 41 s (market data 18 s, stats and character 4 s, experiments 17 s, main portfolio 1 s, cornering scan 0 s, ESI back-off 0 s; 1,471 ESI calls). A slow run usually means ESI rate limits (back-off) or a first-time lookup of many item types._

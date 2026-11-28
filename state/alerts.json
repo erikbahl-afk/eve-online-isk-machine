@@ -150,6 +150,12 @@
   "text": "Sell order for Black Market 'Valdimar' Drone Navigation DN-701 in amarr still has 3 left after 22 days."
  },
  {
+  "key": "stale_stock:jita:82314",
+  "severity": "medium",
+  "since": 1795852830.0415847,
+  "text": "196 \u00d7 Compressed Hezorime III-Grade unsold in the jita hangar for 7 days."
+ },
+ {
   "key": "idle_buy:21",
   "severity": "info",
   "since": 1794376824.645961,
