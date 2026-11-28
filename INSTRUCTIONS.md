@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Sat 28 Nov 04:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Sat 28 Nov 04:26 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 38 · **Est. time:** 24 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -81,7 +81,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 18 | ☐ Compressed Glistening Zeolites | 2,886 | **3,297** | 2,629 | 3,298 |
+| 18 | ☐ Compressed Glistening Zeolites | 2,886 | **3,249** | 2,629 | 3,250 |
 
 #### List new stock
 _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Duration 3 months._
@@ -113,8 +113,8 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 25 | ☐ Capital Ancillary Remote Shield Booster | 1 | **21,190,000** | 43,150,000 | 21,180,000 |
-| 26 | ☐ Cartesian Temporal Coordinator | 536 | **158,600** | 171,400 | 158,500 |
-| 27 | ☐ Heavy Compact Entropic Disintegrator | 2 | **6,933,000** | 14,890,000 | 6,932,000 |
+| 26 | ☐ Cartesian Temporal Coordinator | 534 | **158,800** | 171,500 | 158,700 |
+| 27 | ☐ Heavy Compact Entropic Disintegrator | 2 | **6,936,000** | 14,890,000 | 6,935,000 |
 
 ### Block 2 · should do · about 5 min
 
@@ -153,7 +153,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 34 | ☐ Aberrant Kangite | 68,378 | **219.00** | 350.40 | 218.90 |
+| 34 | ☐ Aberrant Kangite | 68,064 | **219.00** | 350.40 | 218.90 |
 | 35 | ☐ Capital Asteroid Ore Compressor I | 1 | **17,880,000** | 26,390,000 | 17,870,000 |
 
 ### Block 3 · if there's time · about 2 min
