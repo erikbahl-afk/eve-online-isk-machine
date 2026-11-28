@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0524,
- "buy_orders": 5740,
- "buy_orders_reaching_jita": 5679,
+ "ask_ratio_median": 1.056,
+ "buy_orders": 5737,
+ "buy_orders_reaching_jita": 5676,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6173,
- "sell_orders": 433,
- "share_ask_below_jita": 0.2831,
+ "orders": 6164,
+ "sell_orders": 427,
+ "share_ask_below_jita": 0.2796,
  "structure_id": 1042508032148,
- "t": 1795819397.4943695,
+ "t": 1795824038.774717,
  "top_ask_below_jita": [
   {
    "best_ask": 4198.0,
@@ -38,11 +38,18 @@
    "type_id": 3301
   },
   {
-   "best_ask": 39900.0,
-   "gap": 0.8045,
+   "best_ask": 39800.0,
+   "gap": 0.804,
    "name": "",
    "s_ask": 7800.0,
    "type_id": 3297
+  },
+  {
+   "best_ask": 40.65,
+   "gap": 0.7378,
+   "name": "",
+   "s_ask": 10.66,
+   "type_id": 23165
   },
   {
    "best_ask": 99810.0,
@@ -52,7 +59,7 @@
    "type_id": 47809
   },
   {
-   "best_ask": 74840.0,
+   "best_ask": 74850.0,
    "gap": 0.6661,
    "name": "",
    "s_ask": 24990.0,
@@ -64,13 +71,6 @@
    "name": "",
    "s_ask": 23510.0,
    "type_id": 21080
-  },
-  {
-   "best_ask": 4697000.0,
-   "gap": 0.5742,
-   "name": "",
-   "s_ask": 2000000.0,
-   "type_id": 45766
   },
   {
    "best_ask": 7999000.0,
@@ -117,14 +117,35 @@
  ],
  "top_bid_over_jita": [
   {
-   "best_bid": 15670.0,
-   "gap": 0.0632,
+   "best_bid": 2002.0,
+   "gap": 0.0005,
    "name": "",
-   "s_bid_reach": 16660.0,
-   "type_id": 1276
+   "s_bid_reach": 2003.0,
+   "type_id": 27329
+  },
+  {
+   "best_bid": 408.0,
+   "gap": 0.0002,
+   "name": "",
+   "s_bid_reach": 408.1,
+   "type_id": 19660
+  },
+  {
+   "best_bid": 50080.0,
+   "gap": 0.0002,
+   "name": "",
+   "s_bid_reach": 50090.0,
+   "type_id": 46367
+  },
+  {
+   "best_bid": 5285.0,
+   "gap": 0.0002,
+   "name": "",
+   "s_bid_reach": 5286.0,
+   "type_id": 452
   }
  ],
- "types": 3783,
- "types_also_in_jita": 3783,
- "types_bid_over_jita_reaching": 1
+ "types": 3777,
+ "types_also_in_jita": 3777,
+ "types_bid_over_jita_reaching": 4
 }

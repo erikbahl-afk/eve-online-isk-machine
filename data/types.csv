@@ -413,6 +413,7 @@ type_id,name,volume,group_id
 11548,Nuclear Reactor Unit,1,
 11549,Antimatter Reactor Unit,1,334
 11550,,1,334
+11551,,1,334
 11552,Scalar Capacitor Unit,1,334
 11553,Oscillator Capacitor Unit,1,334
 11554,Tesseract Capacitor Unit,1,334
@@ -508,7 +509,7 @@ type_id,name,volume,group_id
 12761,,0.025,376
 12765,,0.025,376
 12771,Tremor M,,
-12773,,0.0125,372
+12773,Barrage M,0.0125,372
 12775,,0.025,372
 12777,,0.0125,372
 12779,,0.025,
@@ -598,6 +599,7 @@ type_id,name,volume,group_id
 13954,Domination X-Large Shield Booster,50,40
 13956,True Sansha Large Armor Repairer,50,62
 13957,Dark Blood Large Armor Repairer,50,62
+13959,,10,62
 13960,Dark Blood Medium Armor Repairer,10,62
 13963,True Sansha Small Armor Repairer,,
 13965,Dread Guristas EM Shield Hardener,5,77
@@ -654,15 +656,16 @@ type_id,name,volume,group_id
 14146,True Sansha Capacitor Power Relay,5,767
 14148,Dark Blood Small Energy Nosferatu,5,68
 14152,,5,
-14156,Dark Blood Medium Energy Nosferatu,,
+14156,Dark Blood Medium Energy Nosferatu,5,68
 14158,True Sansha Medium Energy Nosferatu,5,68
+14160,,5,71
 14164,Dark Blood Medium Energy Neutralizer,5,71
 14166,,5,71
 14168,Dark Blood Heavy Energy Neutralizer,5,71
 14170,True Sansha Heavy Energy Neutralizer,5,71
 14172,Dark Blood Heavy Capacitor Booster,20,76
 14174,,20,76
-14176,Dark Blood Medium Capacitor Booster,,
+14176,Dark Blood Medium Capacitor Booster,10,76
 14178,,10,76
 14184,Dark Blood Small Capacitor Booster,5,76
 14190,True Sansha Large EMP Smartbomb,50,72
@@ -739,6 +742,7 @@ type_id,name,volume,group_id
 15749,,5,
 15751,Republic Fleet 50MN Microwarpdrive,10,46
 15753,Republic Fleet 10MN Afterburner,5,46
+15761,,5,46
 15764,Federation Navy 50MN Microwarpdrive,10,46
 15766,Federation Navy 10MN Afterburner,5,46
 15768,,10,46
@@ -792,7 +796,7 @@ type_id,name,volume,group_id
 16064,Caldari Navy Heavy Missile Launcher,10,510
 16065,Caldari Navy Rocket Launcher,5,507
 16067,Caldari Navy Torpedo Launcher,20,508
-16068,Caldari Navy Light Missile Launcher,,
+16068,Caldari Navy Light Missile Launcher,5,509
 16229,Brutix,15000,419
 16231,,15000,419
 16233,Prophecy,15000,419
@@ -957,6 +961,7 @@ type_id,name,volume,group_id
 18817,Corelum B-Type Thermal Energized Membrane,5,326
 18819,Corelum A-Type Multispectrum Energized Membrane,5,326
 18821,,5,326
+18823,,5,326
 18827,Corelum A-Type Thermal Energized Membrane,5,
 18829,Corpum C-Type Multispectrum Energized Membrane,5,326
 18831,Centum C-Type Multispectrum Energized Membrane,5,326
@@ -1099,6 +1104,7 @@ type_id,name,volume,group_id
 19293,Gist A-Type Shield Boost Amplifier,5,
 19295,Pith X-Type Shield Boost Amplifier,5,338
 19297,Gist C-Type Shield Boost Amplifier,5,338
+19299,,5,338
 19301,Gist X-Type Shield Boost Amplifier,5,338
 19311,,5,
 19313,,10,46
@@ -1212,6 +1218,7 @@ type_id,name,volume,group_id
 21023,Capital Shield Emitter,2000,873
 21027,Capital Cargo Bay,2000,873
 21041,Capital Launcher Hardpoint,,
+21074,,1,735
 21208,,1,
 21238,Blood Multifrequency L,,
 21254,Blood Multifrequency XL,,
@@ -1308,6 +1315,7 @@ type_id,name,volume,group_id
 23009,Caldari Navy Antimatter Charge S,0.0025,85
 23025,Caldari Navy Antimatter Charge M,0.0125,85
 23031,,0.0125,85
+23035,,0.0125,85
 23045,,0.025,85
 23047,Caldari Navy Lead Charge L,,
 23053,,0.025,85
@@ -1350,6 +1358,7 @@ type_id,name,volume,group_id
 24242,Infomorph Psychology,,
 24283,Fighter Support Unit I,1000,407
 24348,,50,650
+24417,,25,644
 24427,Drone Link Augmentor II,25,647
 24438,Omnidirectional Tracking Link II,,
 24486,Inferno Rage Heavy Assault Missile,,
@@ -1738,7 +1747,7 @@ type_id,name,volume,group_id
 31330,Medium Targeting System Subcontroller II,10,
 31340,Small Targeting Systems Stabilizer II,5,786
 31342,Medium Targeting Systems Stabilizer II,10,786
-31358,,5,781
+31358,Small Ancillary Current Router I,5,781
 31360,Medium Ancillary Current Router I,10,781
 31364,Small Ancillary Current Router II,5,
 31366,Medium Ancillary Current Router II,,
@@ -1759,6 +1768,7 @@ type_id,name,volume,group_id
 31568,Small Hybrid Locus Coordinator II,5,776
 31594,,10,779
 31598,,5,779
+31604,Small Hydraulic Bay Thrusters II,5,779
 31606,Medium Hydraulic Bay Thrusters II,10,779
 31614,Small Rocket Fuel Cache Partition II,5,779
 31616,,10,
@@ -1924,6 +1934,7 @@ type_id,name,volume,group_id
 33949,Low-grade Nomad Delta,1,300
 33951,Low-grade Nomad Gamma,1,300
 33952,Low-grade Nomad Omega,1,300
+33955,,1,300
 33957,,1,300
 33960,Low-grade Snake Beta,1,300
 33961,Low-grade Snake Delta,1,300
@@ -2099,7 +2110,7 @@ type_id,name,volume,group_id
 41219,Domination Large Cap Battery,15,61
 41220,Thukker Large Cap Battery,15,61
 41238,10000MN Monopropellant Enduring Afterburner,1000,46
-41239,,1000,46
+41239,10000MN Afterburner II,1000,46
 41249,50000MN Microwarpdrive I,1000,
 41251,50000MN Quad LiF Restrained Microwarpdrive,1000,
 41267,Compact Compounds,0.001,1676
@@ -2266,7 +2277,7 @@ type_id,name,volume,group_id
 47136,Standup Siren II,6000,4778
 47139,,2000,4777
 47141,,2000,4777
-47258,,5,60
+47258,Shadow Serpentis Assault Damage Control,5,60
 47269,,2500,25
 47270,Vedmak,10000,26
 47271,Leshak,50000,27
@@ -2697,6 +2708,7 @@ type_id,name,volume,group_id
 79951,Machariel Luminae Polaris SKIN,,
 79954,Mamba Luminae Polaris SKIN,,
 81008,,20000,
+81014,,0.01,1950
 81019,Scythe Fleet Issue Arkombine Arisen SKIN,,
 81023,,0.01,1950
 81024,Corax Arkombine Arisen SKIN,,
@@ -2800,6 +2812,7 @@ type_id,name,volume,group_id
 89649,Outrider,5000,1534
 89654,,0.01,1950
 89657,,0.01,1950
+89658,Hurricane Arkombine Arisen SKIN,,
 89665,,0.01,1950
 89689,Advanced Armor Layering,,
 90022,Babaroga Deathglow Remnant SKIN,,
@@ -2915,7 +2928,7 @@ type_id,name,volume,group_id
 95741,Akoman,15000,1201
 96128,,5,5140
 96145,,5,5140
-96317,,0.01,1950
+96317,Omen Navy Issue Sanguinary Savant SKIN,0.01,1950
 96318,Absolution Sanguinary Savant SKIN,0.01,1950
 96320,Coercer Sanguinary Savant SKIN,0.01,1950
 96321,Salvation Sanguinary Savant SKIN,,
