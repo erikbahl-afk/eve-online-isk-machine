@@ -9,6 +9,7 @@ type_id,name,volume,group_id
 40,Megacyte,0.01,18
 44,Enriched Uranium,0.75,1034
 200,,0.025,83
+201,,0.025,83
 202,,0.05,386
 203,,0.05,386
 204,Inferno Cruise Missile,0.05,386
@@ -322,6 +323,7 @@ type_id,name,volume,group_id
 9632,,5,77
 9668,,50,72
 9734,,10,72
+9828,,0.19,1042
 9830,Rocket Fuel,0.75,1034
 9832,,0.75,1034
 9836,,0.75,1034
@@ -565,7 +567,7 @@ type_id,name,volume,group_id
 13815,Dark Blood Mega Pulse Laser,20,53
 13824,,10,
 13825,True Sansha Focused Medium Pulse Laser,,
-13827,,10,53
+13827,True Sansha Heavy Beam Laser,10,53
 13828,True Sansha Heavy Pulse Laser,,
 13829,,5,53
 13830,,5,53
@@ -1054,6 +1056,7 @@ type_id,name,volume,group_id
 19139,Pithi A-Type Small Remote Shield Booster,5,41
 19141,Gistum C-Type Medium Remote Shield Booster,10,41
 19143,Gistum B-Type Medium Remote Shield Booster,10,41
+19145,,10,41
 19147,Pithum C-Type Medium Remote Shield Booster,10,41
 19149,Pithum B-Type Medium Remote Shield Booster,10,41
 19151,Pithum A-Type Medium Remote Shield Booster,10,41
@@ -1224,6 +1227,7 @@ type_id,name,volume,group_id
 21027,Capital Cargo Bay,2000,873
 21041,Capital Launcher Hardpoint,,
 21074,,1,735
+21088,,0.1,528
 21208,,1,
 21238,Blood Multifrequency L,,
 21254,Blood Multifrequency XL,,
@@ -1488,6 +1492,7 @@ type_id,name,volume,group_id
 26912,Small Remote Armor Repairer II,5,
 26913,,10,325
 26914,Large Remote Armor Repairer II,25,325
+26931,,5,781
 27081,Eifyr and Co. 'Gunslinger' Surgical Strike SS-901,,
 27094,,1,
 27108,Zainou 'Snapshot' Light Missiles LM-903,1,746
@@ -2614,6 +2619,7 @@ type_id,name,volume,group_id
 62405,Compressed Fullerite-C540,1,4168
 62406,,0.5,4168
 62450,Shipboard Compression Technology,,
+62451,Capital Shipboard Compression Technology,,
 62454,Compressed Bitumens,0.1,1884
 62455,Compressed Brimful Bitumens,0.1,1884
 62456,Compressed Glistening Bitumens,0.1,1884
