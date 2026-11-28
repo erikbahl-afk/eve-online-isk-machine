@@ -3,7 +3,7 @@
 
 # Session checklist
 
-**Updated:** Fri 27 Nov 22:00 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
+**Updated:** Fri 27 Nov 23:49 PST · **Start docked at:** Amarr VIII (Oris) - Emperor Family Academy  
 **Steps:** 38 · **Est. time:** 24 min. Work top to bottom; stop any time.  
 **When you log off, tell Claude:** `done` or `stopped after step N`.
 
@@ -49,7 +49,7 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 13 | ☐ Chaotic Exotic Filament | 2 | **27,260,000** | 22,950,000 | 27,270,000 |
+| 13 | ☐ Chaotic Exotic Filament | 2 | **27,230,000** | 22,950,000 | 27,240,000 |
 
 ### Block 3 · if there's time · about 2 min
 _Short on time? Skip to the jump (step 17): the next hub's Block 1 is worth more per minute than the rest of this hub._
@@ -60,7 +60,7 @@ _My Orders → Selling, sorted by Type. Right-click → Modify Order. If yours i
 | # | Item | Yours | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
 | 14 | ☐ Shrapnel Bomb | 1,474,000 | **1,399,000** | 1,265,000 | 1,400,000 |
-| 15 | ☐ Void XL | 4,177 | **4,175** | 3,174 | 4,176 |
+| 15 | ☐ Void XL | 4,177 | **4,174** | 3,174 | 4,175 |
 
 #### List new stock
 _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Duration 3 months._
@@ -88,7 +88,7 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 19 | ☐ State Security Token | 1 | **27,990,000** | 12,700,000 | 28,000,000 |
+| 19 | ☐ State Security Token | 1 | **26,800,000** | 12,700,000 | 26,810,000 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
@@ -96,7 +96,7 @@ _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is
 | # | Item | Yours | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 20 | ☐ Low-grade Nomad Delta | 122,300,000 | **121,700,000** | 138,200,000 | 121,600,000 |
-| 21 | ☐ State Security Token | 12,210,000 | **14,720,000** | 17,600,000 | 14,710,000 |
+| 21 | ☐ State Security Token | 12,210,000 | **14,810,000** | 17,600,000 | 14,800,000 |
 
 #### Cancel buy orders
 _My Orders → Buying. Right-click → Cancel Order._
@@ -113,9 +113,9 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
-| 26 | ☐ Capital Ancillary Remote Shield Booster | 1 | **21,190,000** | 43,150,000 | 21,180,000 |
-| 27 | ☐ Heavy Compact Entropic Disintegrator | 2 | **6,933,000** | 14,890,000 | 6,932,000 |
-| 28 | ☐ Low-grade Virtue Epsilon | 1 | **210,900,000** | 254,500,000 | 210,800,000 |
+| 26 | ☐ Aberrant Kangite | 63,926 | **219.00** | 349.10 | 218.90 |
+| 27 | ☐ Capital Ancillary Remote Shield Booster | 1 | **21,190,000** | 43,150,000 | 21,180,000 |
+| 28 | ☐ Heavy Compact Entropic Disintegrator | 2 | **6,933,000** | 14,890,000 | 6,932,000 |
 
 ### Block 2 · should do · about 5 min
 
@@ -131,8 +131,8 @@ _Item hangar sorted by Name. Right-click → Sell This Item → Advanced. Durati
 
 | # | Item | Qty | Type this | Rule: lowest − 1 tick, never below | Lowest when written |
 |---|---|---|---|---|---|
-| 30 | ☐ Scorch Bomb | 2 | **1,581,000** | 1,214,000 | 1,582,000 |
-| 31 | ☐ State Defense Booster III | 1 | **27,270,000** | 27,270,000 | 26,700,000 |
+| 30 | ☐ Scorch Bomb | 2 | **1,580,000** | 1,214,000 | 1,581,000 |
+| 31 | ☐ State Defense Booster III | 1 | **27,270,000** | 27,270,000 | 26,560,000 |
 
 #### Fix outbid buy orders
 _My Orders → Buying, sorted by Type. Right-click → Modify Order. If yours is already the highest, skip._
@@ -154,7 +154,7 @@ _Market → search item → Place Buy Order. Range: Station. Duration: 3 months.
 | # | Item | Qty | Type this | Rule: highest + 1 tick, never above | Highest when written |
 |---|---|---|---|---|---|
 | 34 | ☐ Capital Asteroid Ore Compressor I | 1 | **17,880,000** | 26,390,000 | 17,870,000 |
-| 35 | ☐ Imperial Defense Booster III | 1 | **21,740,000** | 45,710,000 | 21,730,000 |
+| 35 | ☐ Low-grade Virtue Epsilon | 1 | **210,800,000** | 247,400,000 | 210,700,000 |
 
 ### Block 3 · if there's time · about 2 min
 

@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0529,
- "buy_orders": 5770,
- "buy_orders_reaching_jita": 5709,
+ "ask_ratio_median": 1.0546,
+ "buy_orders": 5842,
+ "buy_orders_reaching_jita": 5782,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6193,
- "sell_orders": 423,
- "share_ask_below_jita": 0.2834,
+ "orders": 6263,
+ "sell_orders": 421,
+ "share_ask_below_jita": 0.2752,
  "structure_id": 1042508032148,
- "t": 1795845654.3714385,
+ "t": 1795852216.0986235,
  "top_ask_below_jita": [
   {
    "best_ask": 150000.0,
@@ -80,11 +80,11 @@
    "type_id": 47809
   },
   {
-   "best_ask": 74810.0,
-   "gap": 0.666,
+   "best_ask": 59630.0,
+   "gap": 0.6057,
    "name": "",
-   "s_ask": 24990.0,
-   "type_id": 22576
+   "s_ask": 23510.0,
+   "type_id": 21080
   },
   {
    "best_ask": 89990000.0,
@@ -117,28 +117,14 @@
  ],
  "top_bid_over_jita": [
   {
-   "best_bid": 13590000.0,
-   "gap": 0.0007,
-   "name": "Neurotoxin Control",
-   "s_bid_reach": 13600000.0,
-   "type_id": 25538
-  },
-  {
-   "best_bid": 1811000.0,
-   "gap": 0.0006,
-   "name": "",
-   "s_bid_reach": 1812000.0,
-   "type_id": 20032
-  },
-  {
-   "best_bid": 295800.0,
-   "gap": 0.0003,
-   "name": "",
-   "s_bid_reach": 295900.0,
-   "type_id": 54926
+   "best_bid": 109400.0,
+   "gap": 0.0009,
+   "name": "Datacore - Laser Physics",
+   "s_bid_reach": 109500.0,
+   "type_id": 20413
   }
  ],
- "types": 3795,
- "types_also_in_jita": 3795,
- "types_bid_over_jita_reaching": 3
+ "types": 3825,
+ "types_also_in_jita": 3825,
+ "types_bid_over_jita_reaching": 1
 }

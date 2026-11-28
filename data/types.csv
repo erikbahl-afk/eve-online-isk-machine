@@ -939,7 +939,7 @@ type_id,name,volume,group_id
 18658,,5,
 18660,Gistum C-Type 10MN Afterburner,5,46
 18666,Gistum B-Type 10MN Afterburner,5,46
-18670,,5,46
+18670,Gistii A-Type 1MN Afterburner,5,46
 18676,Gist X-Type 100MN Afterburner,5,46
 18682,,5,46
 18684,Core C-Type 100MN Afterburner,5,46
@@ -2784,6 +2784,7 @@ type_id,name,volume,group_id
 85656,Glorified Unstable Entropic Radiation Sink Mutaplasmid,1,1964
 85662,Glorified Unstable Gyrostabilizer Mutaplasmid,1,1964
 85664,Glorified Unstable Heat Sink Mutaplasmid,1,1964
+85665,Glorified Gravid Heat Sink Mutaplasmid,1,1964
 85668,Glorified Unstable Magnetic Field Stabilizer Mutaplasmid,,
 85746,Infomorph Decryption Key,,
 85747,Satori-Horigu Combat Scanner Probe,,

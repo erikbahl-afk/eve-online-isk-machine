@@ -178,5 +178,17 @@
   "severity": "info",
   "since": 1795802434.0793839,
   "text": "Buy order for Low-grade Nomad Gamma in jita hasn't filled at all in 6 days (92.46M tied up)."
+ },
+ {
+  "key": "idle_buy:68",
+  "severity": "info",
+  "since": 1795852198.7536807,
+  "text": "Buy order for Compressed Glistening Zeolites in jita hasn't filled at all in 5 days (4.24M tied up)."
+ },
+ {
+  "key": "idle_buy:69",
+  "severity": "info",
+  "since": 1795852198.7536807,
+  "text": "Buy order for Compressed Ytirium IV-Grade in jita hasn't filled at all in 5 days (1.50k tied up)."
  }
 ]
