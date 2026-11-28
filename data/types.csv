@@ -1236,6 +1236,7 @@ type_id,name,volume,group_id
 21493,Limited Expanded 'Archiver' Cargo,5,765
 21510,'Interruptive' Warp Disruptor,5,52
 21512,'Delineative' Warp Scrambler,5,52
+21538,,50,72
 21540,'Inception' Target Painter,5,
 21569,Sleeper Profound Research Notes,1,732
 21586,,1,530
@@ -2533,7 +2534,7 @@ type_id,name,volume,group_id
 57445,LM-Composite Molecular Condenser,1,526
 57446,AG-Composite Molecular Condenser,1,526
 57447,CV-Composite Molecular Condenser,1,526
-57448,,1,526
+57448,AV-Composite Molecular Condenser,1,526
 57449,Nano Regulation Gate,0.1,526
 57450,Electro-Neural Signaller,0.25,526
 57451,,2.5,526
