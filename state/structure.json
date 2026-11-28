@@ -1,13 +1,13 @@
 {
- "ask_ratio_median": 1.0545,
- "buy_orders": 5731,
- "buy_orders_reaching_jita": 5670,
+ "ask_ratio_median": 1.0539,
+ "buy_orders": 5771,
+ "buy_orders_reaching_jita": 5710,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6156,
- "sell_orders": 425,
- "share_ask_below_jita": 0.273,
+ "orders": 6195,
+ "sell_orders": 424,
+ "share_ask_below_jita": 0.2737,
  "structure_id": 1042508032148,
- "t": 1795831258.4471326,
+ "t": 1795836845.3235672,
  "top_ask_below_jita": [
   {
    "best_ask": 150000.0,
@@ -117,105 +117,14 @@
  ],
  "top_bid_over_jita": [
   {
-   "best_bid": 11070000.0,
+   "best_bid": 11140.0,
    "gap": 0.0009,
    "name": "",
-   "s_bid_reach": 11080000.0,
-   "type_id": 13000
-  },
-  {
-   "best_bid": 118200000.0,
-   "gap": 0.0008,
-   "name": "Federation Navy Large Plasma Smartbomb",
-   "s_bid_reach": 118300000.0,
-   "type_id": 15955
-  },
-  {
-   "best_bid": 365600000.0,
-   "gap": 0.0008,
-   "name": "Sentient Damage Control",
-   "s_bid_reach": 365900000.0,
-   "type_id": 41202
-  },
-  {
-   "best_bid": 132600000.0,
-   "gap": 0.0008,
-   "name": "Shadow Serpentis Large Plasma Smartbomb",
-   "s_bid_reach": 132700000.0,
-   "type_id": 14206
-  },
-  {
-   "best_bid": 341700000.0,
-   "gap": 0.0006,
-   "name": "Corpum B-Type Multispectrum Energized Membrane",
-   "s_bid_reach": 341900000.0,
-   "type_id": 18849
-  },
-  {
-   "best_bid": 177700000.0,
-   "gap": 0.0006,
-   "name": "True Sansha Large EMP Smartbomb",
-   "s_bid_reach": 177800000.0,
-   "type_id": 14190
-  },
-  {
-   "best_bid": 79200000.0,
-   "gap": 0.0004,
-   "name": "Mid-grade Virtue Beta",
-   "s_bid_reach": 79230000.0,
-   "type_id": 28809
-  },
-  {
-   "best_bid": 26700000.0,
-   "gap": 0.0004,
-   "name": "",
-   "s_bid_reach": 26710000.0,
-   "type_id": 13775
-  },
-  {
-   "best_bid": 311800000.0,
-   "gap": 0.0003,
-   "name": "",
-   "s_bid_reach": 311900000.0,
-   "type_id": 33394
-  },
-  {
-   "best_bid": 32340000.0,
-   "gap": 0.0003,
-   "name": "Mid-grade Snake Beta",
-   "s_bid_reach": 32350000.0,
-   "type_id": 22126
-  },
-  {
-   "best_bid": 388000000.0,
-   "gap": 0.0003,
-   "name": "Centus X-Type Large Armor Repairer",
-   "s_bid_reach": 388100000.0,
-   "type_id": 19046
-  },
-  {
-   "best_bid": 82060000.0,
-   "gap": 0.0002,
-   "name": "Gistum B-Type 10MN Afterburner",
-   "s_bid_reach": 82080000.0,
-   "type_id": 18666
-  },
-  {
-   "best_bid": 90130000.0,
-   "gap": 0.0002,
-   "name": "Gistum C-Type 50MN Microwarpdrive",
-   "s_bid_reach": 90150000.0,
-   "type_id": 19339
-  },
-  {
-   "best_bid": 507600.0,
-   "gap": 0.0002,
-   "name": "Tracking Computer II",
-   "s_bid_reach": 507700.0,
-   "type_id": 1978
+   "s_bid_reach": 11150.0,
+   "type_id": 20115
   }
  ],
- "types": 3777,
- "types_also_in_jita": 3777,
- "types_bid_over_jita_reaching": 14
+ "types": 3793,
+ "types_also_in_jita": 3793,
+ "types_bid_over_jita_reaching": 1
 }

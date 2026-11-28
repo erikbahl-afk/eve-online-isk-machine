@@ -734,6 +734,7 @@ type_id,name,volume,group_id
 15683,Republic Fleet Ballistic Control System,5,367
 15693,Imperial Navy Multispectrum Coating,5,98
 15703,Republic Fleet Multispectrum Coating,5,98
+15705,Imperial Navy Thermal Armor Hardener,5,328
 15707,Imperial Navy Kinetic Armor Hardener,5,328
 15729,Imperial Navy Multispectrum Energized Membrane,5,326
 15739,Federation Navy Multispectrum Energized Membrane,5,326
@@ -1044,7 +1045,7 @@ type_id,name,volume,group_id
 19087,Centum A-Type Medium Remote Capacitor Transmitter,10,67
 19105,,5,68
 19107,Corpum C-Type Medium Energy Nosferatu,5,68
-19109,,5,68
+19109,Corpum B-Type Medium Energy Nosferatu,5,68
 19111,Corpum A-Type Medium Energy Nosferatu,5,68
 19113,Corpus C-Type Heavy Energy Nosferatu,5,68
 19119,Corpus X-Type Heavy Energy Nosferatu,5,68
@@ -1376,6 +1377,7 @@ type_id,name,volume,group_id
 24519,Nova Rage Torpedo,0.05,657
 24521,,0.05,657
 24523,Mjolnir Rage Torpedo,0.05,657
+24525,,0.05,657
 24531,Nova Fury Cruise Missile,0.05,656
 24533,,0.05,656
 24535,Mjolnir Fury Cruise Missile,0.05,656
@@ -1514,7 +1516,7 @@ type_id,name,volume,group_id
 27245,Zainou 'Snapshot' Heavy Assault Missiles AM-705,1,746
 27250,Zainou 'Snapshot' Heavy Missiles HM-705,,
 27252,Zainou 'Snapshot' Light Missiles LM-905,,
-27258,Zainou 'Snapshot' Cruise Missiles CM-605,,
+27258,Zainou 'Snapshot' Cruise Missiles CM-605,1,746
 27260,Poteque 'Prospector' Environmental Analysis EY-1005,1,1230
 27309,,0.01,
 27321,,0.005,387
@@ -1847,7 +1849,7 @@ type_id,name,volume,group_id
 32246,,0.1,479
 32254,Imperial Navy Modified 'Noble' Implant,1,738
 32262,Black Eagle Drone Link Augmentor,25,647
-32305,Armageddon Navy Issue,50000,
+32305,Armageddon Navy Issue,50000,27
 32309,Scorpion Navy Issue,50000,27
 32311,Typhoon Fleet Issue,50000,27
 32414,Domination Target Painter,5,379
