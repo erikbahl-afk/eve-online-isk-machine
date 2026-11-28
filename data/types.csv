@@ -61,7 +61,7 @@ type_id,name,volume,group_id
 1231,Hemorphite,,
 1319,Expanded Cargohold II,5,765
 1355,Reactor Control Unit II,5,769
-1405,,5,762
+1405,Inertial Stabilizers II,5,762
 1436,Auto Targeting System II,,
 1541,Power Diagnostic System II,5,766
 1565,Small EMP Smartbomb II,,
@@ -229,7 +229,7 @@ type_id,name,volume,group_id
 3475,Inherent Implants 'Noble' Mechanic MC-806,1,738
 3481,Inherent Implants 'Noble' Hull Upgrades HG-1004,,
 3482,Inherent Implants 'Noble' Hull Upgrades HG-1006,1,738
-3488,,5,
+3488,Small Cap Battery II,5,61
 3512,Focused Medium Pulse Laser II,10,53
 3520,Heavy Pulse Laser II,10,53
 3532,,2500,25
@@ -322,7 +322,7 @@ type_id,name,volume,group_id
 9632,,5,77
 9668,,50,72
 9734,,10,72
-9830,,0.75,1034
+9830,Rocket Fuel,0.75,1034
 9832,,0.75,1034
 9836,,0.75,1034
 9838,Superconductors,0.75,1034
@@ -638,7 +638,7 @@ type_id,name,volume,group_id
 14104,,5,46
 14106,Domination 10MN Afterburner,5,46
 14108,Shadow Serpentis 10MN Afterburner,5,46
-14112,,5,46
+14112,Shadow Serpentis 1MN Afterburner,5,46
 14114,,10,46
 14116,,10,46
 14118,,10,46
@@ -1148,6 +1148,7 @@ type_id,name,volume,group_id
 19719,Transport Ships,,
 19739,Cruise Missile Launcher II,20,506
 19744,,20000,28
+20059,Amarr Control Tower Medium,4000,365
 20060,Amarr Control Tower Small,2000,365
 20062,Caldari Control Tower Small,2000,365
 20064,Gallente Control Tower Small,2000,365
@@ -1675,7 +1676,7 @@ type_id,name,volume,group_id
 30018,,0.01,966
 30019,Powdered C-540 Graphite,0.01,966
 30021,Modified Fluid Router,0.01,966
-30024,,0.01,966
+30024,Cartesian Temporal Coordinator,0.01,966
 30187,Intact Thruster Sections,10,971
 30251,Neurovisual Input Matrix,0.01,966
 30252,Thermoelectric Catalysts,0.01,966
@@ -1840,7 +1841,7 @@ type_id,name,volume,group_id
 31998,Navy Cap Booster 200,6,87
 32006,Navy Cap Booster 400,12,87
 32014,Navy Cap Booster 800,24,87
-32039,,10,
+32039,Medium Drone Durability Enhancer II,10,778
 32063,Medium Drone Speed Augmentor II,10,
 32101,Low-grade Grail Alpha,1,
 32102,,1,
@@ -1855,6 +1856,7 @@ type_id,name,volume,group_id
 32309,Scorpion Navy Issue,50000,27
 32311,Typhoon Fleet Issue,50000,27
 32414,Domination Target Painter,5,379
+32780,,50,1156
 32881,Venture Blueprint,0.01,105
 32947,Unit P-343554's Modified Drone Navigation Computer,,
 33003,Enormous Freight Container,,
@@ -2096,7 +2098,7 @@ type_id,name,volume,group_id
 40758,,100,52
 41038,Republic Fleet Stasis Webifier,5,65
 41057,Heavy Stasis Grappler II,50,
-41058,,50,1672
+41058,Shadow Serpentis Heavy Stasis Grappler,50,1672
 41059,Domination Heavy Stasis Grappler,50,1672
 41061,Federation Navy Warp Scrambler,5,52
 41062,,5,52
@@ -2788,7 +2790,7 @@ type_id,name,volume,group_id
 85665,Glorified Gravid Heat Sink Mutaplasmid,1,1964
 85668,Glorified Unstable Magnetic Field Stabilizer Mutaplasmid,,
 85746,Infomorph Decryption Key,,
-85747,Satori-Horigu Combat Scanner Probe,,
+85747,Satori-Horigu Combat Scanner Probe,1,479
 85750,Deathless Circle Relic Analyzer,5,538
 85846,,0.1,4726
 85929,,0.01,1950
@@ -2908,7 +2910,7 @@ type_id,name,volume,group_id
 93912,Revelli’s Modified Integrated Analyzer,5,538
 93913,Imperial Navy 'Atonement' Tracking Enhancer,5,211
 93998,Federation Navy 'Argyreos' Magnetic Field Stabilizer,5,302
-94008,Republic Fleet Bastion Module,200,
+94008,Republic Fleet Bastion Module,200,515
 94009,Federation Navy Bastion Module,200,515
 94010,Caldari Navy Bastion Module,,
 94034,Harpy State Regulator SKIN,0.01,

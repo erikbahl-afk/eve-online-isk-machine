@@ -69,19 +69,19 @@
   "key": "stale_sell:28",
   "severity": "medium",
   "since": 1795219233.463793,
-  "text": "Sell order for Infomorph Decryption Key in amarr still has 3,642 left after 14 days."
+  "text": "Sell order for Infomorph Decryption Key in amarr still has 3,642 left after 15 days."
  },
  {
   "key": "stale_sell:30",
   "severity": "medium",
   "since": 1795219233.463793,
-  "text": "Sell order for Void XL in amarr still has 2,434 left after 14 days."
+  "text": "Sell order for Void XL in amarr still has 2,434 left after 15 days."
  },
  {
   "key": "stale_sell:34",
   "severity": "medium",
   "since": 1795219233.463793,
-  "text": "Sell order for Compressed Mordunium IV-Grade in jita still has 5 left after 14 days."
+  "text": "Sell order for Compressed Mordunium IV-Grade in jita still has 5 left after 15 days."
  },
  {
   "key": "stale_sell:45",
@@ -171,7 +171,7 @@
   "key": "idle_buy:40",
   "severity": "info",
   "since": 1795132829.190364,
-  "text": "Buy order for Bomb Launcher II in jita hasn't filled at all in 13 days (40.50M tied up)."
+  "text": "Buy order for Bomb Launcher II in jita hasn't filled at all in 14 days (40.50M tied up)."
  },
  {
   "key": "idle_buy:59",
