@@ -432,7 +432,7 @@ type_id,name,volume,group_id
 11689,Laser Focusing Crystals,1,334
 11690,,1,334
 11693,Graviton Pulse Generator,1,334
-11694,,1,334
+11694,EM Pulse Generator,1,334
 11695,Plasma Pulse Generator,1,334
 11957,Falcon,10000,833
 11959,Rook,10000,906
@@ -782,10 +782,12 @@ type_id,name,volume,group_id
 15935,Republic Fleet Small Proton Smartbomb,5,72
 15949,Federation Navy Small Plasma Smartbomb,5,72
 15955,Federation Navy Large Plasma Smartbomb,50,72
+15957,,5,72
 15963,Imperial Navy Large EMP Smartbomb,50,72
 15965,Republic Fleet Tracking Enhancer,5,211
 16002,Federation Navy Sergeant Insignia III,0.1,409
 16004,Eifyr and Co. 'Rogue' Evasive Maneuvering EM-705,1,747
+16006,,1,747
 16008,Eifyr and Co. 'Rogue' Acceleration Control AC-603,,
 16050,Republic Fleet 200mm Autocannon,,
 16053,Republic Fleet 280mm Howitzer Artillery,5,55
@@ -1251,7 +1253,7 @@ type_id,name,volume,group_id
 21896,Republic Fleet EMP M,0.0125,83
 21898,Republic Fleet EMP S,0.0025,83
 21902,Republic Fleet Fusion L,0.025,83
-21904,,0.0125,83
+21904,Republic Fleet Fusion M,0.0125,83
 21918,Republic Fleet Phased Plasma L,0.025,83
 21922,Republic Fleet Phased Plasma M,0.0125,83
 21924,,0.0025,83
@@ -1743,6 +1745,7 @@ type_id,name,volume,group_id
 31207,,5,1233
 31220,Small Gravity Capacitor Upgrade II,5,1233
 31244,Small Memetic Algorithm Bank II,5,
+31282,,10,1234
 31298,Small Particle Dispersion Projector I,,
 31330,Medium Targeting System Subcontroller II,10,
 31340,Small Targeting Systems Stabilizer II,5,786
@@ -1868,6 +1871,7 @@ type_id,name,volume,group_id
 33361,Plasmonic Metamaterials,1,429
 33362,Nonlinear Metamaterials,1,429
 33393,Genolution Core Augmentation CA-3,1,
+33394,,1,1730
 33400,,200,
 33403,,1,744
 33404,,1,744
@@ -1934,7 +1938,7 @@ type_id,name,volume,group_id
 33949,Low-grade Nomad Delta,1,300
 33951,Low-grade Nomad Gamma,1,300
 33952,Low-grade Nomad Omega,1,300
-33955,,1,300
+33955,Low-grade Amulet Delta,1,300
 33957,,1,300
 33960,Low-grade Snake Beta,1,300
 33961,Low-grade Snake Delta,1,300
@@ -2468,7 +2472,7 @@ type_id,name,volume,group_id
 54732,Stormbringer,10000,26
 54733,,50000,27
 54742,Small Vorton Projector II,5,4060
-54743,Small Consortium Vorton Projector,5,
+54743,Small Consortium Vorton Projector,5,4060
 54745,Medium Vorton Projector I,,
 54748,Medium Vorton Projector II,25,4060
 54749,Medium Consortium Vorton Projector,25,
@@ -2478,7 +2482,7 @@ type_id,name,volume,group_id
 54779,,0.025,4062
 54782,,0.025,
 54783,ElectroPunch Ultra L,0.025,4061
-54785,StrikeSnipe Ultra M,0.0125,
+54785,StrikeSnipe Ultra M,0.0125,4061
 54786,ElectroPunch Ultra M,0.0125,
 54794,EDENCOM Battleship,,
 54827,,0.01,
@@ -2552,6 +2556,7 @@ type_id,name,volume,group_id
 57488,Neurolink Protection Cell,5500,873
 57492,,0.01,1888
 57733,,0.01,1950
+58876,,0.01,1950
 58904,Mobile Observatory,100,4107
 58945,Large Industrial Core I,3500,515
 58950,Large Industrial Core II,3500,515
@@ -2980,7 +2985,7 @@ type_id,name,volume,group_id
 97548,Republic Strategic Intel,0.01,1194
 97549,Federation Strategic Intel,0.01,1194
 97550,State Strategic Intel,0.01,1194
-97551,,0.01,1194
+97551,Imperial Strategic Intel,0.01,1194
 97552,Hyperspherical Housing,0.1,1194
 97553,Hyper-Field Projector,0.01,1194
 97554,Pulse-Mimic Circuitry,0.01,1194

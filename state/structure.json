@@ -1,17 +1,31 @@
 {
- "ask_ratio_median": 1.056,
- "buy_orders": 5737,
- "buy_orders_reaching_jita": 5676,
+ "ask_ratio_median": 1.0545,
+ "buy_orders": 5731,
+ "buy_orders_reaching_jita": 5670,
  "name": "Perimeter - Tranquility Trading Tower",
- "orders": 6164,
- "sell_orders": 427,
- "share_ask_below_jita": 0.2796,
+ "orders": 6156,
+ "sell_orders": 425,
+ "share_ask_below_jita": 0.273,
  "structure_id": 1042508032148,
- "t": 1795824038.774717,
+ "t": 1795831258.4471326,
  "top_ask_below_jita": [
   {
-   "best_ask": 4198.0,
-   "gap": 0.9451,
+   "best_ask": 150000.0,
+   "gap": 0.9933,
+   "name": "",
+   "s_ask": 998.6,
+   "type_id": 84403
+  },
+  {
+   "best_ask": 100000.0,
+   "gap": 0.9847,
+   "name": "",
+   "s_ask": 1528.0,
+   "type_id": 84404
+  },
+  {
+   "best_ask": 4000.0,
+   "gap": 0.9424,
    "name": "",
    "s_ask": 230.5,
    "type_id": 90495
@@ -22,6 +36,13 @@
    "name": "",
    "s_ask": 1324.0,
    "type_id": 90590
+  },
+  {
+   "best_ask": 9899.0,
+   "gap": 0.899,
+   "name": "",
+   "s_ask": 999.9,
+   "type_id": 84402
   },
   {
    "best_ask": 9999.0,
@@ -45,11 +66,11 @@
    "type_id": 3297
   },
   {
-   "best_ask": 40.65,
-   "gap": 0.7378,
+   "best_ask": 4600.0,
+   "gap": 0.7826,
    "name": "",
-   "s_ask": 10.66,
-   "type_id": 23165
+   "s_ask": 999.9,
+   "type_id": 84407
   },
   {
    "best_ask": 99810.0,
@@ -59,18 +80,11 @@
    "type_id": 47809
   },
   {
-   "best_ask": 74850.0,
-   "gap": 0.6661,
+   "best_ask": 74820.0,
+   "gap": 0.666,
    "name": "",
    "s_ask": 24990.0,
    "type_id": 22576
-  },
-  {
-   "best_ask": 59630.0,
-   "gap": 0.6057,
-   "name": "",
-   "s_ask": 23510.0,
-   "type_id": 21080
   },
   {
    "best_ask": 7999000.0,
@@ -99,53 +113,109 @@
    "name": "",
    "s_ask": 2500000.0,
    "type_id": 46906
-  },
-  {
-   "best_ask": 7098000.0,
-   "gap": 0.5069,
-   "name": "",
-   "s_ask": 3500000.0,
-   "type_id": 46997
-  },
-  {
-   "best_ask": 18250000.0,
-   "gap": 0.5068,
-   "name": "",
-   "s_ask": 9000000.0,
-   "type_id": 45922
   }
  ],
  "top_bid_over_jita": [
   {
-   "best_bid": 2002.0,
-   "gap": 0.0005,
+   "best_bid": 11070000.0,
+   "gap": 0.0009,
    "name": "",
-   "s_bid_reach": 2003.0,
-   "type_id": 27329
+   "s_bid_reach": 11080000.0,
+   "type_id": 13000
   },
   {
-   "best_bid": 408.0,
-   "gap": 0.0002,
-   "name": "",
-   "s_bid_reach": 408.1,
-   "type_id": 19660
+   "best_bid": 118200000.0,
+   "gap": 0.0008,
+   "name": "Federation Navy Large Plasma Smartbomb",
+   "s_bid_reach": 118300000.0,
+   "type_id": 15955
   },
   {
-   "best_bid": 50080.0,
-   "gap": 0.0002,
-   "name": "",
-   "s_bid_reach": 50090.0,
-   "type_id": 46367
+   "best_bid": 365600000.0,
+   "gap": 0.0008,
+   "name": "Sentient Damage Control",
+   "s_bid_reach": 365900000.0,
+   "type_id": 41202
   },
   {
-   "best_bid": 5285.0,
-   "gap": 0.0002,
+   "best_bid": 132600000.0,
+   "gap": 0.0008,
+   "name": "Shadow Serpentis Large Plasma Smartbomb",
+   "s_bid_reach": 132700000.0,
+   "type_id": 14206
+  },
+  {
+   "best_bid": 341700000.0,
+   "gap": 0.0006,
+   "name": "Corpum B-Type Multispectrum Energized Membrane",
+   "s_bid_reach": 341900000.0,
+   "type_id": 18849
+  },
+  {
+   "best_bid": 177700000.0,
+   "gap": 0.0006,
+   "name": "True Sansha Large EMP Smartbomb",
+   "s_bid_reach": 177800000.0,
+   "type_id": 14190
+  },
+  {
+   "best_bid": 79200000.0,
+   "gap": 0.0004,
+   "name": "Mid-grade Virtue Beta",
+   "s_bid_reach": 79230000.0,
+   "type_id": 28809
+  },
+  {
+   "best_bid": 26700000.0,
+   "gap": 0.0004,
    "name": "",
-   "s_bid_reach": 5286.0,
-   "type_id": 452
+   "s_bid_reach": 26710000.0,
+   "type_id": 13775
+  },
+  {
+   "best_bid": 311800000.0,
+   "gap": 0.0003,
+   "name": "",
+   "s_bid_reach": 311900000.0,
+   "type_id": 33394
+  },
+  {
+   "best_bid": 32340000.0,
+   "gap": 0.0003,
+   "name": "Mid-grade Snake Beta",
+   "s_bid_reach": 32350000.0,
+   "type_id": 22126
+  },
+  {
+   "best_bid": 388000000.0,
+   "gap": 0.0003,
+   "name": "Centus X-Type Large Armor Repairer",
+   "s_bid_reach": 388100000.0,
+   "type_id": 19046
+  },
+  {
+   "best_bid": 82060000.0,
+   "gap": 0.0002,
+   "name": "Gistum B-Type 10MN Afterburner",
+   "s_bid_reach": 82080000.0,
+   "type_id": 18666
+  },
+  {
+   "best_bid": 90130000.0,
+   "gap": 0.0002,
+   "name": "Gistum C-Type 50MN Microwarpdrive",
+   "s_bid_reach": 90150000.0,
+   "type_id": 19339
+  },
+  {
+   "best_bid": 507600.0,
+   "gap": 0.0002,
+   "name": "Tracking Computer II",
+   "s_bid_reach": 507700.0,
+   "type_id": 1978
   }
  ],
  "types": 3777,
  "types_also_in_jita": 3777,
- "types_bid_over_jita_reaching": 4
+ "types_bid_over_jita_reaching": 14
 }
